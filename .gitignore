@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.playwright-mcp/
+sources/
+tongjian-full-294/
+*.zip
+/1.png
+/2.png
+/tj.png

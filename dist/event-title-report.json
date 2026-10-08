@@ -1,0 +1,1765 @@
+{
+  "rewritten": 30402,
+  "pending": 0,
+  "longTitles": [],
+  "volumes": [
+    {
+      "volume": 2,
+      "indexKind": "editorialSummary",
+      "rewritten": 111,
+      "total": 111
+    },
+    {
+      "volume": 3,
+      "indexKind": "editorialSummary",
+      "rewritten": 77,
+      "total": 77
+    },
+    {
+      "volume": 4,
+      "indexKind": "editorialSummary",
+      "rewritten": 79,
+      "total": 79
+    },
+    {
+      "volume": 5,
+      "indexKind": "editorialSummary",
+      "rewritten": 50,
+      "total": 50
+    },
+    {
+      "volume": 6,
+      "indexKind": "editorialSummary",
+      "rewritten": 97,
+      "total": 97
+    },
+    {
+      "volume": 7,
+      "indexKind": "editorialSummary",
+      "rewritten": 88,
+      "total": 88
+    },
+    {
+      "volume": 8,
+      "indexKind": "editorialSummary",
+      "rewritten": 70,
+      "total": 70
+    },
+    {
+      "volume": 9,
+      "indexKind": "editorialSummary",
+      "rewritten": 70,
+      "total": 70
+    },
+    {
+      "volume": 10,
+      "indexKind": "editorialSummary",
+      "rewritten": 51,
+      "total": 51
+    },
+    {
+      "volume": 11,
+      "indexKind": "editorialSummary",
+      "rewritten": 69,
+      "total": 69
+    },
+    {
+      "volume": 12,
+      "indexKind": "editorialSummary",
+      "rewritten": 108,
+      "total": 108
+    },
+    {
+      "volume": 13,
+      "indexKind": "editorialSummary",
+      "rewritten": 106,
+      "total": 106
+    },
+    {
+      "volume": 14,
+      "indexKind": "editorialSummary",
+      "rewritten": 59,
+      "total": 59
+    },
+    {
+      "volume": 15,
+      "indexKind": "editorialSummary",
+      "rewritten": 83,
+      "total": 83
+    },
+    {
+      "volume": 16,
+      "indexKind": "editorialSummary",
+      "rewritten": 113,
+      "total": 113
+    },
+    {
+      "volume": 17,
+      "indexKind": "editorialSummary",
+      "rewritten": 72,
+      "total": 72
+    },
+    {
+      "volume": 18,
+      "indexKind": "editorialSummary",
+      "rewritten": 85,
+      "total": 85
+    },
+    {
+      "volume": 19,
+      "indexKind": "editorialSummary",
+      "rewritten": 77,
+      "total": 77
+    },
+    {
+      "volume": 20,
+      "indexKind": "editorialSummary",
+      "rewritten": 85,
+      "total": 85
+    },
+    {
+      "volume": 21,
+      "indexKind": "editorialSummary",
+      "rewritten": 98,
+      "total": 98
+    },
+    {
+      "volume": 22,
+      "indexKind": "editorialSummary",
+      "rewritten": 85,
+      "total": 85
+    },
+    {
+      "volume": 23,
+      "indexKind": "editorialSummary",
+      "rewritten": 72,
+      "total": 72
+    },
+    {
+      "volume": 24,
+      "indexKind": "editorialSummary",
+      "rewritten": 68,
+      "total": 68
+    },
+    {
+      "volume": 25,
+      "indexKind": "editorialSummary",
+      "rewritten": 73,
+      "total": 73
+    },
+    {
+      "volume": 26,
+      "indexKind": "editorialSummary",
+      "rewritten": 40,
+      "total": 40
+    },
+    {
+      "volume": 27,
+      "indexKind": "editorialSummary",
+      "rewritten": 74,
+      "total": 74
+    },
+    {
+      "volume": 28,
+      "indexKind": "editorialSummary",
+      "rewritten": 66,
+      "total": 66
+    },
+    {
+      "volume": 29,
+      "indexKind": "editorialSummary",
+      "rewritten": 74,
+      "total": 74
+    },
+    {
+      "volume": 30,
+      "indexKind": "editorialSummary",
+      "rewritten": 85,
+      "total": 85
+    },
+    {
+      "volume": 31,
+      "indexKind": "editorialSummary",
+      "rewritten": 76,
+      "total": 76
+    },
+    {
+      "volume": 32,
+      "indexKind": "editorialSummary",
+      "rewritten": 51,
+      "total": 51
+    },
+    {
+      "volume": 33,
+      "indexKind": "editorialSummary",
+      "rewritten": 53,
+      "total": 53
+    },
+    {
+      "volume": 34,
+      "indexKind": "editorialSummary",
+      "rewritten": 51,
+      "total": 51
+    },
+    {
+      "volume": 35,
+      "indexKind": "editorialSummary",
+      "rewritten": 66,
+      "total": 66
+    },
+    {
+      "volume": 36,
+      "indexKind": "editorialSummary",
+      "rewritten": 69,
+      "total": 69
+    },
+    {
+      "volume": 37,
+      "indexKind": "editorialSummary",
+      "rewritten": 75,
+      "total": 75
+    },
+    {
+      "volume": 38,
+      "indexKind": "editorialSummary",
+      "rewritten": 76,
+      "total": 76
+    },
+    {
+      "volume": 39,
+      "indexKind": "editorialSummary",
+      "rewritten": 73,
+      "total": 73
+    },
+    {
+      "volume": 40,
+      "indexKind": "editorialSummary",
+      "rewritten": 41,
+      "total": 41
+    },
+    {
+      "volume": 41,
+      "indexKind": "editorialSummary",
+      "rewritten": 80,
+      "total": 80
+    },
+    {
+      "volume": 42,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 43,
+      "indexKind": "editorialSummary",
+      "rewritten": 119,
+      "total": 119
+    },
+    {
+      "volume": 44,
+      "indexKind": "editorialSummary",
+      "rewritten": 118,
+      "total": 118
+    },
+    {
+      "volume": 45,
+      "indexKind": "editorialSummary",
+      "rewritten": 90,
+      "total": 90
+    },
+    {
+      "volume": 46,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 47,
+      "indexKind": "editorialSummary",
+      "rewritten": 77,
+      "total": 77
+    },
+    {
+      "volume": 48,
+      "indexKind": "editorialSummary",
+      "rewritten": 124,
+      "total": 124
+    },
+    {
+      "volume": 49,
+      "indexKind": "editorialSummary",
+      "rewritten": 150,
+      "total": 150
+    },
+    {
+      "volume": 50,
+      "indexKind": "editorialSummary",
+      "rewritten": 142,
+      "total": 142
+    },
+    {
+      "volume": 51,
+      "indexKind": "editorialSummary",
+      "rewritten": 119,
+      "total": 119
+    },
+    {
+      "volume": 52,
+      "indexKind": "editorialSummary",
+      "rewritten": 125,
+      "total": 125
+    },
+    {
+      "volume": 53,
+      "indexKind": "editorialSummary",
+      "rewritten": 107,
+      "total": 107
+    },
+    {
+      "volume": 54,
+      "indexKind": "editorialSummary",
+      "rewritten": 107,
+      "total": 107
+    },
+    {
+      "volume": 55,
+      "indexKind": "editorialSummary",
+      "rewritten": 67,
+      "total": 67
+    },
+    {
+      "volume": 56,
+      "indexKind": "editorialSummary",
+      "rewritten": 87,
+      "total": 87
+    },
+    {
+      "volume": 57,
+      "indexKind": "editorialSummary",
+      "rewritten": 119,
+      "total": 119
+    },
+    {
+      "volume": 58,
+      "indexKind": "editorialSummary",
+      "rewritten": 112,
+      "total": 112
+    },
+    {
+      "volume": 59,
+      "indexKind": "editorialSummary",
+      "rewritten": 95,
+      "total": 95
+    },
+    {
+      "volume": 60,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 61,
+      "indexKind": "editorialSummary",
+      "rewritten": 87,
+      "total": 87
+    },
+    {
+      "volume": 62,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 63,
+      "indexKind": "editorialSummary",
+      "rewritten": 73,
+      "total": 73
+    },
+    {
+      "volume": 64,
+      "indexKind": "editorialSummary",
+      "rewritten": 61,
+      "total": 61
+    },
+    {
+      "volume": 65,
+      "indexKind": "editorialSummary",
+      "rewritten": 71,
+      "total": 71
+    },
+    {
+      "volume": 66,
+      "indexKind": "editorialSummary",
+      "rewritten": 77,
+      "total": 77
+    },
+    {
+      "volume": 67,
+      "indexKind": "editorialSummary",
+      "rewritten": 54,
+      "total": 54
+    },
+    {
+      "volume": 68,
+      "indexKind": "editorialSummary",
+      "rewritten": 63,
+      "total": 63
+    },
+    {
+      "volume": 69,
+      "indexKind": "editorialSummary",
+      "rewritten": 97,
+      "total": 97
+    },
+    {
+      "volume": 70,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 71,
+      "indexKind": "editorialSummary",
+      "rewritten": 62,
+      "total": 62
+    },
+    {
+      "volume": 72,
+      "indexKind": "editorialSummary",
+      "rewritten": 93,
+      "total": 93
+    },
+    {
+      "volume": 73,
+      "indexKind": "editorialSummary",
+      "rewritten": 72,
+      "total": 72
+    },
+    {
+      "volume": 74,
+      "indexKind": "editorialSummary",
+      "rewritten": 108,
+      "total": 108
+    },
+    {
+      "volume": 75,
+      "indexKind": "editorialSummary",
+      "rewritten": 100,
+      "total": 100
+    },
+    {
+      "volume": 76,
+      "indexKind": "editorialSummary",
+      "rewritten": 63,
+      "total": 63
+    },
+    {
+      "volume": 77,
+      "indexKind": "editorialSummary",
+      "rewritten": 75,
+      "total": 75
+    },
+    {
+      "volume": 78,
+      "indexKind": "editorialSummary",
+      "rewritten": 76,
+      "total": 76
+    },
+    {
+      "volume": 79,
+      "indexKind": "editorialSummary",
+      "rewritten": 139,
+      "total": 139
+    },
+    {
+      "volume": 80,
+      "indexKind": "editorialSummary",
+      "rewritten": 97,
+      "total": 97
+    },
+    {
+      "volume": 81,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 82,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 83,
+      "indexKind": "editorialSummary",
+      "rewritten": 59,
+      "total": 59
+    },
+    {
+      "volume": 84,
+      "indexKind": "editorialSummary",
+      "rewritten": 65,
+      "total": 65
+    },
+    {
+      "volume": 85,
+      "indexKind": "editorialSummary",
+      "rewritten": 37,
+      "total": 37
+    },
+    {
+      "volume": 86,
+      "indexKind": "editorialSummary",
+      "rewritten": 109,
+      "total": 109
+    },
+    {
+      "volume": 87,
+      "indexKind": "editorialSummary",
+      "rewritten": 108,
+      "total": 108
+    },
+    {
+      "volume": 88,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 89,
+      "indexKind": "editorialSummary",
+      "rewritten": 96,
+      "total": 96
+    },
+    {
+      "volume": 90,
+      "indexKind": "editorialSummary",
+      "rewritten": 75,
+      "total": 75
+    },
+    {
+      "volume": 91,
+      "indexKind": "editorialSummary",
+      "rewritten": 79,
+      "total": 79
+    },
+    {
+      "volume": 92,
+      "indexKind": "editorialSummary",
+      "rewritten": 78,
+      "total": 78
+    },
+    {
+      "volume": 93,
+      "indexKind": "editorialSummary",
+      "rewritten": 89,
+      "total": 89
+    },
+    {
+      "volume": 94,
+      "indexKind": "editorialSummary",
+      "rewritten": 99,
+      "total": 99
+    },
+    {
+      "volume": 95,
+      "indexKind": "editorialSummary",
+      "rewritten": 110,
+      "total": 110
+    },
+    {
+      "volume": 96,
+      "indexKind": "editorialSummary",
+      "rewritten": 111,
+      "total": 111
+    },
+    {
+      "volume": 97,
+      "indexKind": "editorialSummary",
+      "rewritten": 108,
+      "total": 108
+    },
+    {
+      "volume": 98,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 99,
+      "indexKind": "editorialSummary",
+      "rewritten": 132,
+      "total": 132
+    },
+    {
+      "volume": 100,
+      "indexKind": "editorialSummary",
+      "rewritten": 119,
+      "total": 119
+    },
+    {
+      "volume": 101,
+      "indexKind": "editorialSummary",
+      "rewritten": 149,
+      "total": 149
+    },
+    {
+      "volume": 102,
+      "indexKind": "editorialSummary",
+      "rewritten": 74,
+      "total": 74
+    },
+    {
+      "volume": 103,
+      "indexKind": "editorialSummary",
+      "rewritten": 91,
+      "total": 91
+    },
+    {
+      "volume": 104,
+      "indexKind": "editorialSummary",
+      "rewritten": 113,
+      "total": 113
+    },
+    {
+      "volume": 105,
+      "indexKind": "editorialSummary",
+      "rewritten": 101,
+      "total": 101
+    },
+    {
+      "volume": 106,
+      "indexKind": "editorialSummary",
+      "rewritten": 128,
+      "total": 128
+    },
+    {
+      "volume": 107,
+      "indexKind": "editorialSummary",
+      "rewritten": 132,
+      "total": 132
+    },
+    {
+      "volume": 108,
+      "indexKind": "editorialSummary",
+      "rewritten": 128,
+      "total": 128
+    },
+    {
+      "volume": 109,
+      "indexKind": "editorialSummary",
+      "rewritten": 74,
+      "total": 74
+    },
+    {
+      "volume": 110,
+      "indexKind": "editorialSummary",
+      "rewritten": 73,
+      "total": 73
+    },
+    {
+      "volume": 111,
+      "indexKind": "editorialSummary",
+      "rewritten": 116,
+      "total": 116
+    },
+    {
+      "volume": 112,
+      "indexKind": "editorialSummary",
+      "rewritten": 103,
+      "total": 103
+    },
+    {
+      "volume": 113,
+      "indexKind": "editorialSummary",
+      "rewritten": 113,
+      "total": 113
+    },
+    {
+      "volume": 114,
+      "indexKind": "editorialSummary",
+      "rewritten": 134,
+      "total": 134
+    },
+    {
+      "volume": 115,
+      "indexKind": "editorialSummary",
+      "rewritten": 94,
+      "total": 94
+    },
+    {
+      "volume": 116,
+      "indexKind": "editorialSummary",
+      "rewritten": 133,
+      "total": 133
+    },
+    {
+      "volume": 117,
+      "indexKind": "editorialSummary",
+      "rewritten": 82,
+      "total": 82
+    },
+    {
+      "volume": 118,
+      "indexKind": "editorialSummary",
+      "rewritten": 119,
+      "total": 119
+    },
+    {
+      "volume": 119,
+      "indexKind": "editorialSummary",
+      "rewritten": 147,
+      "total": 147
+    },
+    {
+      "volume": 120,
+      "indexKind": "editorialSummary",
+      "rewritten": 141,
+      "total": 141
+    },
+    {
+      "volume": 121,
+      "indexKind": "editorialSummary",
+      "rewritten": 136,
+      "total": 136
+    },
+    {
+      "volume": 122,
+      "indexKind": "editorialSummary",
+      "rewritten": 162,
+      "total": 162
+    },
+    {
+      "volume": 123,
+      "indexKind": "editorialSummary",
+      "rewritten": 144,
+      "total": 144
+    },
+    {
+      "volume": 124,
+      "indexKind": "editorialSummary",
+      "rewritten": 118,
+      "total": 118
+    },
+    {
+      "volume": 125,
+      "indexKind": "editorialSummary",
+      "rewritten": 105,
+      "total": 105
+    },
+    {
+      "volume": 126,
+      "indexKind": "editorialSummary",
+      "rewritten": 79,
+      "total": 79
+    },
+    {
+      "volume": 127,
+      "indexKind": "editorialSummary",
+      "rewritten": 64,
+      "total": 64
+    },
+    {
+      "volume": 128,
+      "indexKind": "editorialSummary",
+      "rewritten": 116,
+      "total": 116
+    },
+    {
+      "volume": 129,
+      "indexKind": "editorialSummary",
+      "rewritten": 150,
+      "total": 150
+    },
+    {
+      "volume": 130,
+      "indexKind": "editorialSummary",
+      "rewritten": 70,
+      "total": 70
+    },
+    {
+      "volume": 131,
+      "indexKind": "editorialSummary",
+      "rewritten": 109,
+      "total": 109
+    },
+    {
+      "volume": 132,
+      "indexKind": "editorialSummary",
+      "rewritten": 103,
+      "total": 103
+    },
+    {
+      "volume": 133,
+      "indexKind": "editorialSummary",
+      "rewritten": 125,
+      "total": 125
+    },
+    {
+      "volume": 134,
+      "indexKind": "editorialSummary",
+      "rewritten": 122,
+      "total": 122
+    },
+    {
+      "volume": 135,
+      "indexKind": "editorialSummary",
+      "rewritten": 172,
+      "total": 172
+    },
+    {
+      "volume": 136,
+      "indexKind": "editorialSummary",
+      "rewritten": 131,
+      "total": 131
+    },
+    {
+      "volume": 137,
+      "indexKind": "editorialSummary",
+      "rewritten": 100,
+      "total": 100
+    },
+    {
+      "volume": 138,
+      "indexKind": "editorialSummary",
+      "rewritten": 62,
+      "total": 62
+    },
+    {
+      "volume": 139,
+      "indexKind": "editorialSummary",
+      "rewritten": 103,
+      "total": 103
+    },
+    {
+      "volume": 140,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 141,
+      "indexKind": "editorialSummary",
+      "rewritten": 81,
+      "total": 81
+    },
+    {
+      "volume": 142,
+      "indexKind": "editorialSummary",
+      "rewritten": 60,
+      "total": 60
+    },
+    {
+      "volume": 143,
+      "indexKind": "editorialSummary",
+      "rewritten": 55,
+      "total": 55
+    },
+    {
+      "volume": 144,
+      "indexKind": "editorialSummary",
+      "rewritten": 69,
+      "total": 69
+    },
+    {
+      "volume": 145,
+      "indexKind": "editorialSummary",
+      "rewritten": 121,
+      "total": 121
+    },
+    {
+      "volume": 146,
+      "indexKind": "editorialSummary",
+      "rewritten": 105,
+      "total": 105
+    },
+    {
+      "volume": 147,
+      "indexKind": "editorialSummary",
+      "rewritten": 113,
+      "total": 113
+    },
+    {
+      "volume": 148,
+      "indexKind": "editorialSummary",
+      "rewritten": 105,
+      "total": 105
+    },
+    {
+      "volume": 149,
+      "indexKind": "editorialSummary",
+      "rewritten": 95,
+      "total": 95
+    },
+    {
+      "volume": 150,
+      "indexKind": "editorialSummary",
+      "rewritten": 103,
+      "total": 103
+    },
+    {
+      "volume": 151,
+      "indexKind": "editorialSummary",
+      "rewritten": 88,
+      "total": 88
+    },
+    {
+      "volume": 152,
+      "indexKind": "editorialSummary",
+      "rewritten": 64,
+      "total": 64
+    },
+    {
+      "volume": 153,
+      "indexKind": "editorialSummary",
+      "rewritten": 52,
+      "total": 52
+    },
+    {
+      "volume": 154,
+      "indexKind": "editorialSummary",
+      "rewritten": 65,
+      "total": 65
+    },
+    {
+      "volume": 155,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 156,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 157,
+      "indexKind": "editorialSummary",
+      "rewritten": 118,
+      "total": 118
+    },
+    {
+      "volume": 158,
+      "indexKind": "editorialSummary",
+      "rewritten": 149,
+      "total": 149
+    },
+    {
+      "volume": 159,
+      "indexKind": "editorialSummary",
+      "rewritten": 49,
+      "total": 49
+    },
+    {
+      "volume": 160,
+      "indexKind": "editorialSummary",
+      "rewritten": 61,
+      "total": 61
+    },
+    {
+      "volume": 161,
+      "indexKind": "editorialSummary",
+      "rewritten": 79,
+      "total": 79
+    },
+    {
+      "volume": 162,
+      "indexKind": "editorialSummary",
+      "rewritten": 97,
+      "total": 97
+    },
+    {
+      "volume": 163,
+      "indexKind": "editorialSummary",
+      "rewritten": 97,
+      "total": 97
+    },
+    {
+      "volume": 164,
+      "indexKind": "editorialSummary",
+      "rewritten": 117,
+      "total": 117
+    },
+    {
+      "volume": 165,
+      "indexKind": "editorialSummary",
+      "rewritten": 95,
+      "total": 95
+    },
+    {
+      "volume": 166,
+      "indexKind": "editorialSummary",
+      "rewritten": 104,
+      "total": 104
+    },
+    {
+      "volume": 167,
+      "indexKind": "editorialSummary",
+      "rewritten": 149,
+      "total": 149
+    },
+    {
+      "volume": 168,
+      "indexKind": "editorialSummary",
+      "rewritten": 153,
+      "total": 153
+    },
+    {
+      "volume": 169,
+      "indexKind": "editorialSummary",
+      "rewritten": 155,
+      "total": 155
+    },
+    {
+      "volume": 170,
+      "indexKind": "editorialSummary",
+      "rewritten": 189,
+      "total": 189
+    },
+    {
+      "volume": 171,
+      "indexKind": "editorialSummary",
+      "rewritten": 146,
+      "total": 146
+    },
+    {
+      "volume": 172,
+      "indexKind": "editorialSummary",
+      "rewritten": 105,
+      "total": 105
+    },
+    {
+      "volume": 173,
+      "indexKind": "editorialSummary",
+      "rewritten": 143,
+      "total": 143
+    },
+    {
+      "volume": 174,
+      "indexKind": "editorialSummary",
+      "rewritten": 81,
+      "total": 81
+    },
+    {
+      "volume": 175,
+      "indexKind": "editorialSummary",
+      "rewritten": 141,
+      "total": 141
+    },
+    {
+      "volume": 176,
+      "indexKind": "editorialSummary",
+      "rewritten": 134,
+      "total": 134
+    },
+    {
+      "volume": 177,
+      "indexKind": "editorialSummary",
+      "rewritten": 83,
+      "total": 83
+    },
+    {
+      "volume": 178,
+      "indexKind": "editorialSummary",
+      "rewritten": 107,
+      "total": 107
+    },
+    {
+      "volume": 179,
+      "indexKind": "editorialSummary",
+      "rewritten": 83,
+      "total": 83
+    },
+    {
+      "volume": 180,
+      "indexKind": "editorialSummary",
+      "rewritten": 83,
+      "total": 83
+    },
+    {
+      "volume": 181,
+      "indexKind": "editorialSummary",
+      "rewritten": 80,
+      "total": 80
+    },
+    {
+      "volume": 182,
+      "indexKind": "editorialSummary",
+      "rewritten": 94,
+      "total": 94
+    },
+    {
+      "volume": 183,
+      "indexKind": "editorialSummary",
+      "rewritten": 72,
+      "total": 72
+    },
+    {
+      "volume": 184,
+      "indexKind": "editorialSummary",
+      "rewritten": 66,
+      "total": 66
+    },
+    {
+      "volume": 185,
+      "indexKind": "editorialSummary",
+      "rewritten": 71,
+      "total": 71
+    },
+    {
+      "volume": 186,
+      "indexKind": "editorialSummary",
+      "rewritten": 78,
+      "total": 78
+    },
+    {
+      "volume": 187,
+      "indexKind": "editorialSummary",
+      "rewritten": 113,
+      "total": 113
+    },
+    {
+      "volume": 188,
+      "indexKind": "editorialSummary",
+      "rewritten": 124,
+      "total": 124
+    },
+    {
+      "volume": 189,
+      "indexKind": "editorialSummary",
+      "rewritten": 107,
+      "total": 107
+    },
+    {
+      "volume": 190,
+      "indexKind": "editorialSummary",
+      "rewritten": 165,
+      "total": 165
+    },
+    {
+      "volume": 191,
+      "indexKind": "editorialSummary",
+      "rewritten": 147,
+      "total": 147
+    },
+    {
+      "volume": 192,
+      "indexKind": "editorialSummary",
+      "rewritten": 105,
+      "total": 105
+    },
+    {
+      "volume": 193,
+      "indexKind": "editorialSummary",
+      "rewritten": 124,
+      "total": 124
+    },
+    {
+      "volume": 194,
+      "indexKind": "editorialSummary",
+      "rewritten": 119,
+      "total": 119
+    },
+    {
+      "volume": 195,
+      "indexKind": "editorialSummary",
+      "rewritten": 111,
+      "total": 111
+    },
+    {
+      "volume": 196,
+      "indexKind": "editorialSummary",
+      "rewritten": 80,
+      "total": 80
+    },
+    {
+      "volume": 197,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 198,
+      "indexKind": "editorialSummary",
+      "rewritten": 114,
+      "total": 114
+    },
+    {
+      "volume": 199,
+      "indexKind": "editorialSummary",
+      "rewritten": 153,
+      "total": 153
+    },
+    {
+      "volume": 200,
+      "indexKind": "editorialSummary",
+      "rewritten": 136,
+      "total": 136
+    },
+    {
+      "volume": 201,
+      "indexKind": "editorialSummary",
+      "rewritten": 154,
+      "total": 154
+    },
+    {
+      "volume": 202,
+      "indexKind": "editorialSummary",
+      "rewritten": 176,
+      "total": 176
+    },
+    {
+      "volume": 203,
+      "indexKind": "editorialSummary",
+      "rewritten": 142,
+      "total": 142
+    },
+    {
+      "volume": 204,
+      "indexKind": "editorialSummary",
+      "rewritten": 137,
+      "total": 137
+    },
+    {
+      "volume": 205,
+      "indexKind": "editorialSummary",
+      "rewritten": 112,
+      "total": 112
+    },
+    {
+      "volume": 206,
+      "indexKind": "editorialSummary",
+      "rewritten": 134,
+      "total": 134
+    },
+    {
+      "volume": 207,
+      "indexKind": "editorialSummary",
+      "rewritten": 135,
+      "total": 135
+    },
+    {
+      "volume": 208,
+      "indexKind": "editorialSummary",
+      "rewritten": 141,
+      "total": 141
+    },
+    {
+      "volume": 209,
+      "indexKind": "editorialSummary",
+      "rewritten": 107,
+      "total": 107
+    },
+    {
+      "volume": 210,
+      "indexKind": "editorialSummary",
+      "rewritten": 148,
+      "total": 148
+    },
+    {
+      "volume": 211,
+      "indexKind": "editorialSummary",
+      "rewritten": 138,
+      "total": 138
+    },
+    {
+      "volume": 212,
+      "indexKind": "editorialSummary",
+      "rewritten": 169,
+      "total": 169
+    },
+    {
+      "volume": 213,
+      "indexKind": "editorialSummary",
+      "rewritten": 142,
+      "total": 142
+    },
+    {
+      "volume": 214,
+      "indexKind": "editorialSummary",
+      "rewritten": 151,
+      "total": 151
+    },
+    {
+      "volume": 215,
+      "indexKind": "editorialSummary",
+      "rewritten": 122,
+      "total": 122
+    },
+    {
+      "volume": 216,
+      "indexKind": "editorialSummary",
+      "rewritten": 120,
+      "total": 120
+    },
+    {
+      "volume": 217,
+      "indexKind": "editorialSummary",
+      "rewritten": 84,
+      "total": 84
+    },
+    {
+      "volume": 218,
+      "indexKind": "editorialSummary",
+      "rewritten": 70,
+      "total": 70
+    },
+    {
+      "volume": 219,
+      "indexKind": "editorialSummary",
+      "rewritten": 84,
+      "total": 84
+    },
+    {
+      "volume": 220,
+      "indexKind": "editorialSummary",
+      "rewritten": 105,
+      "total": 105
+    },
+    {
+      "volume": 221,
+      "indexKind": "editorialSummary",
+      "rewritten": 108,
+      "total": 108
+    },
+    {
+      "volume": 222,
+      "indexKind": "editorialSummary",
+      "rewritten": 128,
+      "total": 128
+    },
+    {
+      "volume": 223,
+      "indexKind": "editorialSummary",
+      "rewritten": 98,
+      "total": 98
+    },
+    {
+      "volume": 224,
+      "indexKind": "editorialSummary",
+      "rewritten": 151,
+      "total": 151
+    },
+    {
+      "volume": 225,
+      "indexKind": "editorialSummary",
+      "rewritten": 160,
+      "total": 160
+    },
+    {
+      "volume": 226,
+      "indexKind": "editorialSummary",
+      "rewritten": 79,
+      "total": 79
+    },
+    {
+      "volume": 227,
+      "indexKind": "editorialSummary",
+      "rewritten": 92,
+      "total": 92
+    },
+    {
+      "volume": 228,
+      "indexKind": "editorialSummary",
+      "rewritten": 68,
+      "total": 68
+    },
+    {
+      "volume": 229,
+      "indexKind": "editorialSummary",
+      "rewritten": 56,
+      "total": 56
+    },
+    {
+      "volume": 230,
+      "indexKind": "editorialSummary",
+      "rewritten": 58,
+      "total": 58
+    },
+    {
+      "volume": 231,
+      "indexKind": "editorialSummary",
+      "rewritten": 83,
+      "total": 83
+    },
+    {
+      "volume": 232,
+      "indexKind": "editorialSummary",
+      "rewritten": 98,
+      "total": 98
+    },
+    {
+      "volume": 233,
+      "indexKind": "editorialSummary",
+      "rewritten": 84,
+      "total": 84
+    },
+    {
+      "volume": 234,
+      "indexKind": "editorialSummary",
+      "rewritten": 78,
+      "total": 78
+    },
+    {
+      "volume": 235,
+      "indexKind": "editorialSummary",
+      "rewritten": 130,
+      "total": 130
+    },
+    {
+      "volume": 236,
+      "indexKind": "editorialSummary",
+      "rewritten": 131,
+      "total": 131
+    },
+    {
+      "volume": 237,
+      "indexKind": "editorialSummary",
+      "rewritten": 120,
+      "total": 120
+    },
+    {
+      "volume": 238,
+      "indexKind": "editorialSummary",
+      "rewritten": 96,
+      "total": 96
+    },
+    {
+      "volume": 239,
+      "indexKind": "editorialSummary",
+      "rewritten": 136,
+      "total": 136
+    },
+    {
+      "volume": 240,
+      "indexKind": "editorialSummary",
+      "rewritten": 116,
+      "total": 116
+    },
+    {
+      "volume": 241,
+      "indexKind": "editorialSummary",
+      "rewritten": 126,
+      "total": 126
+    },
+    {
+      "volume": 242,
+      "indexKind": "editorialSummary",
+      "rewritten": 106,
+      "total": 106
+    },
+    {
+      "volume": 243,
+      "indexKind": "editorialSummary",
+      "rewritten": 174,
+      "total": 174
+    },
+    {
+      "volume": 244,
+      "indexKind": "editorialSummary",
+      "rewritten": 70,
+      "total": 70
+    },
+    {
+      "volume": 245,
+      "indexKind": "editorialSummary",
+      "rewritten": 142,
+      "total": 142
+    },
+    {
+      "volume": 246,
+      "indexKind": "editorialSummary",
+      "rewritten": 131,
+      "total": 131
+    },
+    {
+      "volume": 247,
+      "indexKind": "editorialSummary",
+      "rewritten": 90,
+      "total": 90
+    },
+    {
+      "volume": 248,
+      "indexKind": "editorialSummary",
+      "rewritten": 147,
+      "total": 147
+    },
+    {
+      "volume": 249,
+      "indexKind": "editorialSummary",
+      "rewritten": 152,
+      "total": 152
+    },
+    {
+      "volume": 250,
+      "indexKind": "editorialSummary",
+      "rewritten": 152,
+      "total": 152
+    },
+    {
+      "volume": 251,
+      "indexKind": "editorialSummary",
+      "rewritten": 76,
+      "total": 76
+    },
+    {
+      "volume": 252,
+      "indexKind": "editorialSummary",
+      "rewritten": 142,
+      "total": 142
+    },
+    {
+      "volume": 253,
+      "indexKind": "editorialSummary",
+      "rewritten": 133,
+      "total": 133
+    },
+    {
+      "volume": 254,
+      "indexKind": "editorialSummary",
+      "rewritten": 123,
+      "total": 123
+    },
+    {
+      "volume": 255,
+      "indexKind": "editorialSummary",
+      "rewritten": 111,
+      "total": 111
+    },
+    {
+      "volume": 256,
+      "indexKind": "editorialSummary",
+      "rewritten": 128,
+      "total": 128
+    },
+    {
+      "volume": 257,
+      "indexKind": "editorialSummary",
+      "rewritten": 130,
+      "total": 130
+    },
+    {
+      "volume": 258,
+      "indexKind": "editorialSummary",
+      "rewritten": 129,
+      "total": 129
+    },
+    {
+      "volume": 259,
+      "indexKind": "editorialSummary",
+      "rewritten": 121,
+      "total": 121
+    },
+    {
+      "volume": 260,
+      "indexKind": "editorialSummary",
+      "rewritten": 144,
+      "total": 144
+    },
+    {
+      "volume": 261,
+      "indexKind": "editorialSummary",
+      "rewritten": 141,
+      "total": 141
+    },
+    {
+      "volume": 262,
+      "indexKind": "editorialSummary",
+      "rewritten": 104,
+      "total": 104
+    },
+    {
+      "volume": 263,
+      "indexKind": "editorialSummary",
+      "rewritten": 89,
+      "total": 89
+    },
+    {
+      "volume": 264,
+      "indexKind": "editorialSummary",
+      "rewritten": 93,
+      "total": 93
+    },
+    {
+      "volume": 265,
+      "indexKind": "editorialSummary",
+      "rewritten": 139,
+      "total": 139
+    },
+    {
+      "volume": 266,
+      "indexKind": "editorialSummary",
+      "rewritten": 123,
+      "total": 123
+    },
+    {
+      "volume": 267,
+      "indexKind": "editorialSummary",
+      "rewritten": 140,
+      "total": 140
+    },
+    {
+      "volume": 268,
+      "indexKind": "editorialSummary",
+      "rewritten": 151,
+      "total": 151
+    },
+    {
+      "volume": 269,
+      "indexKind": "editorialSummary",
+      "rewritten": 118,
+      "total": 118
+    },
+    {
+      "volume": 270,
+      "indexKind": "editorialSummary",
+      "rewritten": 109,
+      "total": 109
+    },
+    {
+      "volume": 271,
+      "indexKind": "editorialSummary",
+      "rewritten": 95,
+      "total": 95
+    },
+    {
+      "volume": 272,
+      "indexKind": "editorialSummary",
+      "rewritten": 103,
+      "total": 103
+    },
+    {
+      "volume": 273,
+      "indexKind": "editorialSummary",
+      "rewritten": 124,
+      "total": 124
+    },
+    {
+      "volume": 274,
+      "indexKind": "editorialSummary",
+      "rewritten": 95,
+      "total": 95
+    },
+    {
+      "volume": 275,
+      "indexKind": "editorialSummary",
+      "rewritten": 120,
+      "total": 120
+    },
+    {
+      "volume": 276,
+      "indexKind": "editorialSummary",
+      "rewritten": 124,
+      "total": 124
+    },
+    {
+      "volume": 277,
+      "indexKind": "editorialSummary",
+      "rewritten": 157,
+      "total": 157
+    },
+    {
+      "volume": 278,
+      "indexKind": "editorialSummary",
+      "rewritten": 80,
+      "total": 80
+    },
+    {
+      "volume": 279,
+      "indexKind": "editorialSummary",
+      "rewritten": 144,
+      "total": 144
+    },
+    {
+      "volume": 280,
+      "indexKind": "editorialSummary",
+      "rewritten": 86,
+      "total": 86
+    },
+    {
+      "volume": 281,
+      "indexKind": "editorialSummary",
+      "rewritten": 118,
+      "total": 118
+    },
+    {
+      "volume": 282,
+      "indexKind": "editorialSummary",
+      "rewritten": 138,
+      "total": 138
+    },
+    {
+      "volume": 283,
+      "indexKind": "editorialSummary",
+      "rewritten": 137,
+      "total": 137
+    },
+    {
+      "volume": 284,
+      "indexKind": "editorialSummary",
+      "rewritten": 118,
+      "total": 118
+    },
+    {
+      "volume": 285,
+      "indexKind": "editorialSummary",
+      "rewritten": 112,
+      "total": 112
+    },
+    {
+      "volume": 286,
+      "indexKind": "editorialSummary",
+      "rewritten": 110,
+      "total": 110
+    },
+    {
+      "volume": 287,
+      "indexKind": "editorialSummary",
+      "rewritten": 117,
+      "total": 117
+    },
+    {
+      "volume": 288,
+      "indexKind": "editorialSummary",
+      "rewritten": 125,
+      "total": 125
+    },
+    {
+      "volume": 289,
+      "indexKind": "editorialSummary",
+      "rewritten": 102,
+      "total": 102
+    },
+    {
+      "volume": 290,
+      "indexKind": "editorialSummary",
+      "rewritten": 131,
+      "total": 131
+    },
+    {
+      "volume": 291,
+      "indexKind": "editorialSummary",
+      "rewritten": 117,
+      "total": 117
+    },
+    {
+      "volume": 292,
+      "indexKind": "editorialSummary",
+      "rewritten": 107,
+      "total": 107
+    },
+    {
+      "volume": 293,
+      "indexKind": "editorialSummary",
+      "rewritten": 121,
+      "total": 121
+    },
+    {
+      "volume": 294,
+      "indexKind": "editorialSummary",
+      "rewritten": 127,
+      "total": 127
+    }
+  ]
+}

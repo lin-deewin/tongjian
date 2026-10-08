@@ -1,0 +1,231 @@
+[
+  {
+    "volume": 2,
+    "years": 48,
+    "sourceParagraphs": 152,
+    "bodyParagraphs": 111,
+    "pairs": 111,
+    "bracketWarnings": [
+      {
+        "sourceParagraph": 47,
+        "year": 352
+      },
+      {
+        "sourceParagraph": 90,
+        "year": 336
+      }
+    ],
+    "warnings": [
+      {
+        "year": 357,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.889,
+            "indices": [
+              0
+            ],
+            "original": "[1]魏、韩会于。",
+            "modern": "[1]韩国、魏国在地举行会议。"
+          }
+        ]
+      },
+      {
+        "year": 351,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.825,
+            "indices": [
+              5
+            ],
+            "original": "昭侯有弊裤，命藏之。侍者曰：“君亦不仁者矣，不赐左右而藏之！”昭侯曰：“吾闻明主爱一颦一笑，颦有为颦，笑有为笑。今裤岂特颦笑哉！吾必待有功者。”",
+            "modern": "韩昭侯有条破裤子，让侍从收藏起来，侍从说：“您真是太吝啬了，不赏给我们还让收起来。”韩昭侯说：“我知道贤明君主珍惜一举一动，一皱眉头，一个笑脸，都是有感而发。现在这裤子比皱眉笑脸更重要，必须等到有人立"
+          }
+        ]
+      },
+      {
+        "year": 324,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.889,
+            "indices": [
+              0
+            ],
+            "original": "[1]秦张仪帅师伐魏，取陕。",
+            "modern": "[1]秦国张仪率军攻打魏国，夺取陕。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "volume": 3,
+    "years": 23,
+    "sourceParagraphs": 103,
+    "bodyParagraphs": 78,
+    "pairs": 77,
+    "bracketWarnings": [
+      {
+        "sourceParagraph": 32,
+        "year": 313
+      },
+      {
+        "sourceParagraph": 35,
+        "year": 312
+      },
+      {
+        "sourceParagraph": 57,
+        "year": 308
+      },
+      {
+        "sourceParagraph": 62,
+        "year": 307
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "volume": 4,
+    "years": 25,
+    "sourceParagraphs": 106,
+    "bodyParagraphs": 80,
+    "pairs": 79,
+    "bracketWarnings": [],
+    "warnings": []
+  },
+  {
+    "volume": 5,
+    "years": 17,
+    "sourceParagraphs": 67,
+    "bodyParagraphs": 50,
+    "pairs": 50,
+    "bracketWarnings": [],
+    "warnings": []
+  },
+  {
+    "volume": 6,
+    "years": 28,
+    "sourceParagraphs": 131,
+    "bodyParagraphs": 98,
+    "pairs": 98,
+    "bracketWarnings": [
+      {
+        "sourceParagraph": 92,
+        "year": 237
+      }
+    ],
+    "warnings": [
+      {
+        "year": 253,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.8,
+            "indices": [
+              1
+            ],
+            "original": "[2]楚迁于钜阳。",
+            "modern": "[2]楚国迁都至钜阳。"
+          }
+        ]
+      },
+      {
+        "year": 243,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.889,
+            "indices": [
+              3
+            ],
+            "original": "[4]魏安王薨，子景王立。",
+            "modern": "[4]魏国国君安王去世，子魏增继位，是为景王。"
+          }
+        ]
+      },
+      {
+        "year": 233,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.086,
+            "indices": [],
+            "original": "扬子《法言》曰：或问：“韩非作《说难》之书而卒死乎说难，敢问何反也？”曰：“‘说难’盖其所以死乎？”曰：“何也？”“君子以礼动，以义止，合则进，否则退，确乎不忧其不合也。夫说人而忧其不合，则亦无所不至",
+            "modern": "扬雄《法言》曰：有人问：“韩非著《说难》篇议论游说之难，而他自己最终竟又死于‘说难’，那么我冒昧地请问，是什么原因使他的行动与言论相违背呢？”回答是：“游说之难就是他致死的原因啊！”那人问：“这是为什"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "volume": 7,
+    "years": 19,
+    "sourceParagraphs": 108,
+    "bodyParagraphs": 88,
+    "pairs": 89,
+    "bracketWarnings": [],
+    "warnings": [
+      {
+        "year": 209,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.127,
+            "indices": [],
+            "original": "韩广将兵北徇燕，燕地豪桀欲共立广为燕王。广曰：“广母在赵，不可！”燕人曰：“赵方西忧秦，南忧楚，其力不能禁我。且以楚之强，不敢害赵王将相之家，赵独安敢害将军家乎！”韩广乃自立为燕王。居数月，赵奉燕王母",
+            "modern": "赵国将领韩广带兵往北攻掠故燕国的土地。燕地有势力的豪强打算共同拥立韩广为燕王。韩广说：“我的母亲尚在赵国，不可这么做。”燕地的人说：“赵国正西边担忧秦国的威胁；南面忧虑楚国的威胁，它自己的力量已不能禁"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "volume": 8,
+    "years": 2,
+    "sourceParagraphs": 74,
+    "bodyParagraphs": 71,
+    "pairs": 70,
+    "bracketWarnings": [
+      {
+        "sourceParagraph": 36,
+        "year": 208
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "volume": 9,
+    "years": 2,
+    "sourceParagraphs": 74,
+    "bodyParagraphs": 70,
+    "pairs": 70,
+    "bracketWarnings": [],
+    "warnings": [
+      {
+        "year": 205,
+        "missing": [],
+        "pairs": [
+          {
+            "score": 0.892,
+            "indices": [
+              14
+            ],
+            "original": "使者至赵，陈馀曰：“汉杀张耳，乃从。”于是汉王求人类张耳者斩之，持其头遗陈馀；馀乃遣兵助汉。",
+            "modern": "汉王的使者到了赵国，陈馀说：“汉王如果能把张耳杀了，我就跟随汉王。”汉王于是就寻找到一个与张耳很相像的人，杀掉了他，拿他的头送给陈馀，陈馀便派兵援助汉军。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "volume": 10,
+    "years": 2,
+    "sourceParagraphs": 54,
+    "bodyParagraphs": 51,
+    "pairs": 51,
+    "bracketWarnings": [],
+    "warnings": []
+  }
+]

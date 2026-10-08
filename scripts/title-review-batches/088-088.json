@@ -1,0 +1,832 @@
+{
+  "88": {
+    "-312:0": {
+      "title": "汉呼延皇后去世，谥号武元",
+      "sourceHash": "bd9fd857baf5bd352859cc903e7f11dc5c7eaaf609de30c469d8d88c35e3078f",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        0
+      ],
+      "groupHash": "f281305718b7386f718d698d41cd4ddfdd6d7ae605802c204fd6d862e24ef9b8"
+    },
+    "-312:1": {
+      "title": "靳冲、卜珝进犯并州并围晋阳",
+      "sourceHash": "2d7aefc4ff95d1ae66bd6088b6ebf62e2b305a2df96bc5139dd840bfe129e8f1",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        1
+      ],
+      "groupHash": "9ff6e0f42062f6a8a00189981032b85b53d1a34ec3455a259c6d8de6f25d5918"
+    },
+    "-312:2": {
+      "title": "刘聪纳刘殷女孙，后宫受宠而政事由宦官奏决",
+      "sourceHash": "50c9c6dd7a4d71d1ded4b41b9d1b28756251172b5e0e38c97eb8e22f17ab7ec1",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        2
+      ],
+      "groupHash": "1e593073ad00b4324b75265fad2afe9951205f96247a88453bc7206532fc4762"
+    },
+    "-312:3": {
+      "title": "胡亢聚众竟陵，自称楚公",
+      "sourceHash": "07b01573c8c1d53dd6648c52aca39d6cdc3bc887c6137f670932b8bed7deb5f9",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        3
+      ],
+      "groupHash": "57adac7054a689aa8aff397c2b9414ab02eae4f98275423c395066068d9bf5a0"
+    },
+    "-312:4": {
+      "title": "日食",
+      "sourceHash": "53ea32c8893d78a9c7dc72584f9f5bb19dcaa0cfced293dfb12eca3e721ceb4a",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        4
+      ],
+      "groupHash": "af63842da44704038985dce9094cc7a689342e54a3ce5df770272de8a2b95858"
+    },
+    "-312:5": {
+      "title": "石勒欲攻建业，司马睿集兵寿春讨之",
+      "sourceHash": "408fe9ff09fee6176b5448590344bc5f0b7135b96a4c81e48377b121c307ed71",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        5
+      ],
+      "groupHash": "50f4458669d4d4d208321f27e1deab143ae173f2fb808b053b07b846756d6dcf"
+    },
+    "-312:6": {
+      "title": "石勒军遭饥疫，采张宾之计北据河北",
+      "sourceHash": "884e7ae1460d7b1d2e6b2710fdd19e5ba6c2f9144d4fb7aec9a25a54438ea42b",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        6
+      ],
+      "groupHash": "b65b5bfcc54be0362f01b2b8e65e435f5f73ccad601d07f22ee2f225f9e3f03f"
+    },
+    "-312:7": {
+      "title": "石虎败于纪瞻，石勒结阵迫晋军退还",
+      "sourceHash": "fd34aa2a87c6062a84241f3dfde26ab8c26102177302e7c579b855dc15edf265",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        7
+      ],
+      "groupHash": "2d15dbe4ab70514ae946af5537028ae0fcc9e2596500e5502947e6524eeaa26b"
+    },
+    "-312:8": {
+      "title": "刘聪封晋怀帝为会稽郡公并以刘氏配之",
+      "sourceHash": "be12ca981ca03a110609afeb35670a04bfaaa48a5fc0ea0fb40507e1c4ec116e",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        8
+      ],
+      "groupHash": "65bf3cb5dfbd4bc1b809e4e995bf7fed45abdbd4f464bab67eb3cc29f5c414a5"
+    },
+    "-312:9": {
+      "title": "拓跋猗卢救晋阳，刘聪诛败将靳冲",
+      "sourceHash": "877298ca5fd32de18b97c807fc70c7cccd8f703a1b0a5ca7ac1c5da5c74b2595",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        9
+      ],
+      "groupHash": "9b9cf964d7c8a62fa720520180edd05a188e1b8d802bf7ca997f28ef617fb4a0"
+    },
+    "-312:10": {
+      "title": "刘聪纳张寔二女为贵人",
+      "sourceHash": "e1a46ee3464de229f745c0d9228d1353a247290a24f16fcf6186f21b099ef5aa",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        10
+      ],
+      "groupHash": "fc323252490a700fa42ea52a44990bbc5fee1c4643c7eb38654c1ba78bfdb94b"
+    },
+    "-312:11": {
+      "title": "张轨听马鲂之议，遣军入关辅佐秦王",
+      "sourceHash": "fb9238aacffd46c753c92bc3e764cbc537a934a04b2a0ea305fb4f3606d5440c",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        11
+      ],
+      "groupHash": "6dc9242e61cbc9fb32e2aed15739d8b84d3f3e63debdfbd6f9b8bd740c462474"
+    },
+    "-312:12": {
+      "title": "山简去世",
+      "sourceHash": "f7a19e354281e4f564870335ea54ad89d43424d64b5d4e6fe39072f9a5c98d7b",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        12
+      ],
+      "groupHash": "7c0997ebf9b4d09e04df1e335aee02f11aaea776610760b488668f0e0a93cf89"
+    },
+    "-312:13": {
+      "title": "刘聪封诸子为王",
+      "sourceHash": "e2f4dcd6d4c8e82272e45c90e4e0f0ff5a49294973a0d615f7cd7885086ea1f0",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        13
+      ],
+      "groupHash": "c06fa9891fdfe4c69319935bf1ed2413727585e4ed231b953c824716b1c16b1c"
+    },
+    "-312:14": {
+      "title": "刘聪滥杀囚王彰，受太后群臣劝谏后赦之",
+      "sourceHash": "9d789078f18baa7541b244ca8f59427634761f0469d318a500e091594c35176a",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        14
+      ],
+      "groupHash": "4dd15bb85abad84a357c822aadb7a64875948b1b03bf0a71f5b7e069c62db7aa"
+    },
+    "-312:15": {
+      "title": "赵固、王桑西渡，刘琨授二人刺史",
+      "sourceHash": "4ca1bd1f628b90214184420fdd10f47ecf98d99be666fe3e7f313da4ecbddf16",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        15
+      ],
+      "groupHash": "9a69cbbcc869428df0dde0d882e8dd51b07026ec8bfa70cf802caf8809c8d723"
+    },
+    "-312:16": {
+      "title": "贾疋等收复长安，刘粲攻陷傅祗所守三渚",
+      "sourceHash": "3bf1c21d0bb3043098d68d1cd4841e2567ca0d6fd9f330acc73749a9d2d75866",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        16
+      ],
+      "groupHash": "21ccbf2a2c48fe1bf8664362bb958adccbd3dbc82fc79c83ccd5da0da56dc157"
+    },
+    "-312:17": {
+      "title": "张太后迫刘聪许立张徽光，刘英旋卒",
+      "sourceHash": "a61f0555b5f40c810cb0d93174354776d6b69f49c2b7dbabf85b228ed0826d0e",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        17
+      ],
+      "groupHash": "87950f3f91f77f5aab4afa10d880ba0747d171c140a1aa2c58e83a226336032d"
+    },
+    "-312:18": {
+      "title": "刘殷去世，追述其委婉进谏及谦让自保",
+      "sourceHash": "636065ecc5edc775774441a4ea594ee079b5a5a4ee7869424b4484b51448e6e2",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        18
+      ],
+      "groupHash": "e36b7cbd24a45dfaa72eabd8f282468c2acfe26ff9e2f59e0dd40d41ac1bec36"
+    },
+    "-312:19": {
+      "title": "刘聪授诸王兵职，分镇离石、西平、蒲子",
+      "sourceHash": "0a9077bc8dc329f798fac2fdb93b832b6ff8ae2b71ee874a43f7e8a2404d4f33",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        19
+      ],
+      "groupHash": "80c2e96064effd84f4c27cb4de88dfa0971d9bb47a5f0753563421fd5de58ed5"
+    },
+    "-312:20": {
+      "title": "赵固归汉并追杀王桑，临深等转投刘演",
+      "sourceHash": "365f71ba20780a54fb6da7a7b0582654ff21173306ec5d1b79fe439dc814690f",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        20
+      ],
+      "groupHash": "6548c11bd82e8a32e93e17324121975eb43abc64ed5eb58756970456c24694bc"
+    },
+    "-312:21": {
+      "title": "石勒采张宾计夺船渡河，击败向冰进至邺",
+      "sourceHash": "3a70f7e72d1e76e7f3fff2a62cc08114ff69d320b528854f8d467d6fe520bd46",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        21
+      ],
+      "groupHash": "333484aada0ecacf2a27e2dd953c51c652f01cf0108dead0594cfb3aad0d6a31"
+    },
+    "-312:22": {
+      "title": "石勒听张宾之议，舍三台而进据襄国",
+      "sourceHash": "c8e3733d2a7731331e3b422e753a9c97021941a9ebd69ca745526646746d91a4",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        22
+      ],
+      "groupHash": "8b765a0f3c5d53a5d804637d2fce4397fb9a9c4b5c511282367de596dc7f4f57"
+    },
+    "-312:23": {
+      "title": "石勒收冀州谷粮，受汉授四州都督及冀州牧",
+      "sourceHash": "496df49594a2dc1186777d4ab9019e0731f788b10e773ef277ed108746f34374",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        23
+      ],
+      "groupHash": "415d382f90ab50cd16620fa1bf470bd3c9b1fe2cca2c0db022906402fbf8d349"
+    },
+    "-312:24": {
+      "title": "刘琨听信徐润谗言杀令狐盛",
+      "sourceHash": "391de92a9a0e06b48df0641428b1585cccb822df1a65d16906d074b32b5b539c",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        24
+      ],
+      "groupHash": "5f978af2f8bda46fe549d1248163800426d92b94650d9310af9612ca537d7ca9"
+    },
+    "-312:25": {
+      "title": "汉军袭取晋阳，令狐泥杀刘琨父母",
+      "sourceHash": "23836219098f99c112e2826695d078b8c433837021466b5d80d6d7df2655ec50",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        25
+      ],
+      "groupHash": "ffdd2afb428634ec5cbbca33cb5ed06ae6f9dc7bce604f6c23d2e3b29391d6f4"
+    },
+    "-312:26": {
+      "title": "刘粲、刘曜送晋臣至平阳，刘聪分别授官",
+      "sourceHash": "2d2049256c29b06f845c90e7cbc92646a955a31d8dbda7b2b068e1cf0d7ff441",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        26
+      ],
+      "groupHash": "1fd6c1da3c1ca1dab5c7279efc34acceb6e8a37b7f7e1c0108713f972535b411"
+    },
+    "-312:27": {
+      "title": "梁芬自汉逃奔长安",
+      "sourceHash": "2392a163c24a361db2022f1430d3060363ad176a1e538bafeb17c3c1f532c0f8",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        27
+      ],
+      "groupHash": "67c52d9a2764de298bb134a65cdad1f661bb9886b15fff8269ce95047c955880"
+    },
+    "-312:28": {
+      "title": "贾疋等奉秦王司马业为太子，在长安建行台",
+      "sourceHash": "17f6ebc358ec728b6ea3477449c50d74d48a65f3dcba90d41f203b60976e42e7",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        28
+      ],
+      "groupHash": "473ece9b294a525e03917d66974d45c423f7bb1ebedca65d09446b360d1672d2"
+    },
+    "-312:29": {
+      "title": "张寔、宋配击破阻拒凉州军的裴苞",
+      "sourceHash": "f66f2c47f9b7eb191b744246d61484d69b2ea0925b0a47b1312b27dc1f1a0bce",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        29
+      ],
+      "groupHash": "63731fd0288fbb8be426904ff2d31bb7e38602e5befbc233cc5601428f102633"
+    },
+    "-312:30": {
+      "title": "刘聪封诸子为王并调整公卿",
+      "sourceHash": "21dd009b7f04bb4ed1c3905a1f3292a9dcf5c574526fd96802e839b267ab7ab3",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        30
+      ],
+      "groupHash": "353abe60493e13227f067302f6d4cd48da6b48b1c4a48f0905a8995f0b16ddc0"
+    },
+    "-312:31": {
+      "title": "拓跋猗卢大破汉军，助刘琨收复晋阳",
+      "sourceHash": "b3081bf38432d35b788fe19543bbd828ea899ff6e2fe9b77ba5a7b5339c94394",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        31
+      ],
+      "groupHash": "92a94a73462735dbd5a7a22d43082debc6dfc8be961a5a3f1662796b871f2b2a"
+    },
+    "-312:32": {
+      "title": "刘琨迁阳曲招集亡散，卢谌逃归而家人被杀",
+      "sourceHash": "c5ffd9fb4349ae7e640f9f2f45e3fb6d9651d2c84fb7196451bf23a77ba2a98d",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        32
+      ],
+      "groupHash": "d5e5fa24f511fb18d9c572c6a121151024c8ad1b5ec85989cf9c3a5d188a76fe"
+    },
+    "-312:33": {
+      "title": "刘聪立张氏为皇后",
+      "sourceHash": "b8bc0d3c94a378ce065ba2298662f811cecd789d6577b1a32a284dd4752a4c53",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        33
+      ],
+      "groupHash": "09b94110834dfbf97b18b394e90bafd83adf87108b394b4c26a604468f6043db"
+    },
+    "-312:34": {
+      "title": "彭天护杀贾疋，麴允等攻逐阎鼎",
+      "sourceHash": "11f8511086a71eb2cc5f5e01b7046b832eaa0a2a0d9ab647445e5b56e90b4f37",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        34
+      ],
+      "groupHash": "cbb892be0484421d96976195ca7dba7c80fa3370f2ca90ea1a8a6db7dbceaa3c"
+    },
+    "-312:35": {
+      "title": "石勒攻游纶、张豺，王浚遣段氏攻襄国",
+      "sourceHash": "6a0a3e0faae50b9786276452a2ceddc8dde5111cbf914b9313f4239fe6d84c09",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        35
+      ],
+      "groupHash": "7f34aa1c819f465a2d376a2d6bb9ad23330731fdabb809ba7aed9b5cb746ae91"
+    },
+    "-312:36": {
+      "title": "石勒设突门擒段末柸，击退段氏军",
+      "sourceHash": "87af935cb833e9853c6d26b4b222884429f6594151cd0f4b95c6cac079ad41b5",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        36
+      ],
+      "groupHash": "b586abcaad5375c98e169eee50726694206cf2a7dfe0f12bcf3146586f11efe0"
+    },
+    "-312:37": {
+      "title": "石勒厚礼放归段末柸，与段氏结盟",
+      "sourceHash": "9aec09dfc812c79fe3e233fec50fcdb9221bd0982de99c75a94a58beb14c3a06",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        37
+      ],
+      "groupHash": "6fd0bfd4ec2b0599a81154416a7ec2f6541b939fba5962a7d08c35aeaf1f7cf0"
+    },
+    "-312:38": {
+      "title": "游纶、张豺降石勒，王象守信都被杀",
+      "sourceHash": "9f305405ca903d2ce5d3bf4bbb5b8fcea880e7a6b07d24dc8b3007161e4c5d31",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        38
+      ],
+      "groupHash": "bc78fc09dec4ca8ed4bfc8f1794f60795cd429d030cde9733b1e73da41d83739"
+    },
+    "-312:39": {
+      "title": "疫病大作",
+      "sourceHash": "57a7cdd7e8875edfefe8cd63168a5d474f4054ee9c046c86545d45678914562a",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        39
+      ],
+      "groupHash": "902153c016254cbbf46b4b62a9d721c992259c05dee039b4fa8c500ae18f413b"
+    },
+    "-312:40": {
+      "title": "王澄屡败于杜弢仍纵酒博弈，失去人心",
+      "sourceHash": "bfe77d54030fd1b66293e421901ab2069e4e97b560d0992b3bd0d446e891deac",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        40
+      ],
+      "groupHash": "bff564b2aca0e144f797fc7b72aef4543da0b1347c7c4523a62b0637e218d773"
+    },
+    "-312:41": {
+      "title": "王澄弃荆州赴召，周顗代任刺史",
+      "sourceHash": "8dd97991c95695ca0862459b2c5a1faf57759978aba5605f4d0d5e6b9372fb3d",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        41
+      ],
+      "groupHash": "d5886f9af384ed9bafb7efcf79154e351a6728319c92db1dc0a47c47124cde99"
+    },
+    "-312:42": {
+      "title": "杜弢部袭沔阳，王敦遣陶侃等出兵讨之",
+      "sourceHash": "adc8d93b8c57f51704ccace9b3d9433e23c1e3a3d487cc06ce25005c683290c4",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        42
+      ],
+      "groupHash": "c8290a31ae10620dfec9da4480289d2ff915a4ed4dbedfa401949ad7eb771077"
+    },
+    "-312:43": {
+      "title": "王敦杀王澄，王机率众夺取广州",
+      "sourceHash": "a0e5535746748961c4355245a5fe57d67d2efeb211f59fde402f84553e20effb",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        43
+      ],
+      "groupHash": "2dd06c3cc1cdaf64bb5a279227088acdef9962d002f11ef61dd52dc28e8c212a"
+    },
+    "-312:44": {
+      "title": "王如兵穷粮尽，投降王敦",
+      "sourceHash": "a1955fe9aa357e3284ef881e3deb86950aa58d48e029961290095bbec6f10d65",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        44
+      ],
+      "groupHash": "6a2fa4af78f1535fd0b9e57faf39b8a69f8edda0a62ca2eb7bc0b72e1f0a5d06"
+    },
+    "-312:45": {
+      "title": "顾荣、卫玠去世",
+      "sourceHash": "6a390cdaa67949bb1cd350926145b88476077b615b6bc962401c413769de0844",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        45
+      ],
+      "groupHash": "250e98ab411cd42c822b70d20634194d09224c894604ae756c4a5082bbf09746"
+    },
+    "-312:46": {
+      "title": "张启杀王异代领益州，旋卒而众推向沈",
+      "sourceHash": "032ca0016ad6d5db3633bdb024567a898728541a1ea62548eb24ca53ffdd5f63",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        46
+      ],
+      "groupHash": "2975868c0803a33c0fbdccc45723fe3568569952319f931de7205cde5a3942b8"
+    },
+    "-312:47": {
+      "title": "姚弋仲率众迁榆眉，自称护羌校尉等职",
+      "sourceHash": "afabd807b0dae7f19eca10ef81fc9f68e70c9a498721dfee212f036d7efb80d1",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        47
+      ],
+      "groupHash": "87ba7524e40f679549e4c7b98025f2f22654194df9ba59f885db0d2adac2a40d"
+    },
+    "-313:0": {
+      "title": "刘聪杀晋怀帝及庾珉、王隽等晋臣",
+      "sourceHash": "ddc4987e9e888c505f9ac015194bcfc92fed1faee1a1a56df3d310b56154d907",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        0
+      ],
+      "groupHash": "1661d892ba43d3d9afd9383b65859a0d203e72bec1406201c7ca0bd1b415ba48"
+    },
+    "-313:1": {
+      "title": "荀崧论晋怀帝无失德而遭流亡之祸",
+      "sourceHash": "d2b1e46948f325d5cc5bdaa04ed3f42dc62c540fe62538bc523d7a143d57173f",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        1
+      ],
+      "groupHash": "0a33caeac69b568444ef4c92a5a051567e7c2ae30785cc7e4757cb21b96257f8"
+    },
+    "-313:2": {
+      "title": "汉张太后与张皇后相继去世",
+      "sourceHash": "a96cb3f42dfbb47fa84c51d7cb9afe7537746bd480dc89bb124e3e9a7e000e27",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        2
+      ],
+      "groupHash": "1e2400674e99d405162c9f673cc80bf1644b084b7f32febed4c1c0897ac558f8"
+    },
+    "-313:3": {
+      "title": "王彰去世",
+      "sourceHash": "ad6e5d3b159d35301282208e4b7389760d476f0f1cadfc028a00c7ac3123d91c",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        3
+      ],
+      "groupHash": "75bd9ff8fffa49592e1530b4547ee8d1bf8b001e377044327a810bb84abac5ee"
+    },
+    "-313:4": {
+      "title": "刘聪为刘娥营殿，陈元达锁树死谏",
+      "sourceHash": "84fb7cfb4b70221bd8116fd164a414abba66743592b8a9d3b0838d0c6efde320",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        4
+      ],
+      "groupHash": "aafff76a049edeadceda93e33134836c52dc57ce5f180d370e213b111b84f92b"
+    },
+    "-313:5": {
+      "title": "任顗等叩头出血，请刘聪宽容陈元达",
+      "sourceHash": "a27b29f86f38766803c6b311761aabbf43809774128dad7b8b1cd109c33082b5",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        5
+      ],
+      "groupHash": "0aa35254207564d9c0ab0c0ec1d2be17534556573f718f5f6f302105e4708fb2"
+    },
+    "-313:6": {
+      "title": "刘皇后上疏请停营殿，营救陈元达",
+      "sourceHash": "8c2ac8fd3b458fbd528fab985835259821f0824a23e5a2922b1c6750a6a2b3fb",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        6
+      ],
+      "groupHash": "94e9a2420f0b9fe618af8d23340d7a6f3236b86aecfd62b19c62efbeedb0cce9"
+    },
+    "-313:7": {
+      "title": "刘聪认错赦陈元达，并嘉奖群臣进谏",
+      "sourceHash": "2dc97ee5afefeac691658bdfe5e56c191a20678151c6600cc5e51ef8f3bac34d",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        7
+      ],
+      "groupHash": "940fbbbf003cda997b6ae16f059afaf768830e5a5c8c0f0a004485551a3d5e34"
+    },
+    "-313:8": {
+      "title": "向沈去世，兰维率众北出被成军俘获",
+      "sourceHash": "da724e531943545c76a35b8207a4fd27a1d15f3110bbc244524bf6d4226183bc",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        8
+      ],
+      "groupHash": "dc0d8139c339805ef6ff70ec30d8f7046c7aa5c9a65c7c67ab0ab69fb6ba957c"
+    },
+    "-313:9": {
+      "title": "晋愍帝在长安即位，委军国事务于索綝",
+      "sourceHash": "475276a1f86ed9bd1d69da283214da8024e17fd974818ccc69e7c543efdacc32",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        9
+      ],
+      "groupHash": "b888bda56057657ce5b75d7c7aef788a5f1258a54507a278d0b39f6a7d0dbf86"
+    },
+    "-313:10": {
+      "title": "刘曜、乔智明、赵染攻长安，麴允出兵拒之",
+      "sourceHash": "7473ec018a521fa024fc62725af29201fbd142c220cbfe09a28bb9355067885a",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        10
+      ],
+      "groupHash": "25cea0f516faec5a4437f77c37d942b05476731a1f0ac96da76df8a2c5556f79"
+    },
+    "-313:11": {
+      "title": "石虎攻陷邺城，刘演逃往廪丘",
+      "sourceHash": "8843bb207b3476590fd3c0bcfc437a19a1e7b243c80f4ba1e8b9d59747becbb2",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        11
+      ],
+      "groupHash": "36fe927eb449d8ffdfbb908f2d0b0692f737ee6e92b7e5d47ad4966bfde9e94e"
+    },
+    "-313:12": {
+      "title": "李述、刘演、郗鉴分任兖州刺史，吏民无所适从",
+      "sourceHash": "4fb97f32516d8168259d5097091134e1c098aca150a63e21c896908ba5b23977",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        12
+      ],
+      "groupHash": "a7403b3efa4e1ca33411ab259caf9b0f5da337e403bc0b9c8887964b2d1e3547"
+    },
+    "-313:13": {
+      "title": "司马睿任华谭，华谭为周馥迁都之议辩护",
+      "sourceHash": "2c09818a4ce20c0fa2f2d1d24acc315cb04a8298d1e5de9335298ac83f2a6902",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        13
+      ],
+      "groupHash": "e8fe2f44d37985e15feb8cc416744e9d72f8716f217fcb8c96987e8714df8ec1"
+    },
+    "-313:14": {
+      "title": "陈頵请纠怠职及滥赏之弊，遭排挤出守谯郡",
+      "sourceHash": "666036c4c2f8daac0acb3d2a269b8107e7ef17ddcee5cfa244a921036275dec7",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        14
+      ],
+      "groupHash": "666df7806df8e08c35998797e7c5200aceb140ec151f54eb1b2950790b984423"
+    },
+    "-313:15": {
+      "title": "周玘谋诛司马睿执政者事泄，忧愤而卒",
+      "sourceHash": "e78194d71538d2af39c947820b3ac5f4bf214171350281e67a2cf6cbae37bf74",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        15
+      ],
+      "groupHash": "3a23d3f8e282abcb28fd28baa51b91e94b1e1761ab0af14cd2d23f2c63abdcc3"
+    },
+    "-313:16": {
+      "title": "石勒攻杀李恽，王浚改授薄盛青州刺史",
+      "sourceHash": "841e2703a7cf510f7b97b7485df8266ec19685ba706e8e1d0417e25634b7fb8d",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        16
+      ],
+      "groupHash": "659123e77564ece8b201ac882508306e315b8ff3c5e5e5ea92741f18ff6cab17"
+    },
+    "-313:17": {
+      "title": "王浚因段氏拒征，联拓跋、慕容部讨之",
+      "sourceHash": "7bdb79c4cbef27445eff046bbc4e17fe1000766c8fb5025e07a67ff5b1525c89",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        17
+      ],
+      "groupHash": "5f1849f6f096f79fc87c59844d0a978981d82006d78b7c1fffe117a2aaf82b1e"
+    },
+    "-313:18": {
+      "title": "慕容廆礼贤善政，中原避乱士民多归附",
+      "sourceHash": "4eae49a4ee1bde50c0eae56dc92073bc93a76a38543c942dbfe2ca43628806a8",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        18
+      ],
+      "groupHash": "be5728e8123390611d2942f3ae2a94d6be57983adce4a85a6c3c0c9aa0f0087e"
+    },
+    "-313:19": {
+      "title": "裴嶷等投慕容廆，张统率乐浪、带方民众归附",
+      "sourceHash": "837e4f220f64760bce97705cf57618816317be5fe3bd37c867e953cdb2ef2a6e",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        19
+      ],
+      "groupHash": "46d38e61c69851d84fa3a2391f579bc9ab5a4418a269278fe4f6530e85402b62"
+    },
+    "-313:20": {
+      "title": "晋邈贪财诱张光杀李运、王建，激起杨虎反抗",
+      "sourceHash": "398386cd3e227096753675ccbaf5b96de51486d245bbbf3349c1ce7fd454e430",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        20
+      ],
+      "groupHash": "06e68921dd0f013fbd53fecc5640ca28cfe530eab7aae365c189efd11c7eb65c"
+    },
+    "-313:21": {
+      "title": "晋授司马睿、司马保左右丞相，诏诸军进讨汉",
+      "sourceHash": "1a01800b72f76906b4cb1e6ae721851e664753b4bc23ae05756165b698a66b01",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        21
+      ],
+      "groupHash": "81261eb01d5ec643db0cfdb45d42f005c1b58ded54265539bca7c70d4e213bf0"
+    },
+    "-313:22": {
+      "title": "刘曜屯兵蒲坂",
+      "sourceHash": "9016ab03dd884255a32eec073c07f41cf20582c0ff0b182f9df97879fad95d22",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        22
+      ],
+      "groupHash": "adaa95530ebfb33fcb4b4165443bf2cc1558777136116f9a9258cc249f7b6834"
+    },
+    "-313:23": {
+      "title": "孔苌杀田徽，薄盛与乌桓归附石勒",
+      "sourceHash": "9b9bf14d9d48292526a3f741a1891fa49f32b174b4572563ee2a0d1a69695050",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        23
+      ],
+      "groupHash": "fdaf033f0346d5130bd9f10c3c8d0ff180aa18ada98a4281cd28f4a53bf06cc1"
+    },
+    "-313:24": {
+      "title": "刘琨、拓跋猗卢合谋击汉，闻汉出兵后退还",
+      "sourceHash": "ca12a01d85dce4c580a7b1705f17720d68297816bc8cfb8b3c1f3542cd39a6a5",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        24
+      ],
+      "groupHash": "acb1bc51e985e561fa3e54907227b2400da4f28b6c98542d24325cab3475d7de"
+    },
+    "-313:25": {
+      "title": "晋愍帝诏司马睿北进，司马睿以平江东为辞",
+      "sourceHash": "0ad015d2a4ee0c66c37e6be123ffa46601fa62b89425c5c0be892c341034cba8",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        25
+      ],
+      "groupHash": "af8443606d796348b9eb02c02c9b25c1534c904b25309079c7b50f41e1a25a7c"
+    },
+    "-313:26": {
+      "title": "熊远请议政依据律令经传，司马睿未采纳",
+      "sourceHash": "b6426115a798bfb3dbef1af3fc33bc3fd78560e068cca546a273ec21464ab1a2",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        26
+      ],
+      "groupHash": "3762c36f5faf33fa849f5cdd334ce4e317aee014288d749c227f2b79b10eb9cc"
+    },
+    "-313:27": {
+      "title": "祖逖请北伐，渡江击楫立誓并募兵铸械",
+      "sourceHash": "4e9edd695989f2ca36573235b6396af99fe69ce862c1c7a854d64e00039112c5",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        27
+      ],
+      "groupHash": "7a0c73330ec2e422e305c9f39d446a8defe7fdb81285812a21f8c1511e4ec1f1"
+    },
+    "-313:28": {
+      "title": "杜曾借王冲兵引胡亢出城，杀亢并其众",
+      "sourceHash": "4be4db1fd12bd445e2493451b63182e0a5ca274d2da66cba5131b8630016f8ba",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        28
+      ],
+      "groupHash": "69527fed276b89b41f44111c1495cdb80a2e53d87eed85abe108fb2d8839b6fc"
+    },
+    "-313:29": {
+      "title": "陶侃救周顗并大破杜弢，受任荆州刺史",
+      "sourceHash": "ae6dadc892c928e470c64b2675272df94a6811c3d07cfe198efabc06f77bbe6a",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        29
+      ],
+      "groupHash": "b32bb3ccdbd6b54185db47b383f11ed3b5592d8d06654c22f37fa5759d5f0c24"
+    },
+    "-313:30": {
+      "title": "杨难敌受赂助杨虎，张光父子相继死于梁州",
+      "sourceHash": "8020f05762f8fbec2714f327d3f69ca0d3dd3dc650534e85d22ff3cf0be051c2",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        30
+      ],
+      "groupHash": "a3513267f5859ba6692a8fcc8d4b4eacf49b35ad2a0a6173567113de97a82bd9"
+    },
+    "-313:31": {
+      "title": "荀藩在开封去世",
+      "sourceHash": "562f43b263e30f612b2667e7740374cf3b6de3cb85458ad91e027578771d0cd0",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        31
+      ],
+      "groupHash": "2b3b29f4a6b0d4f137e3681a27d3fee258d8b677f166207aa9c87528c4b64eff"
+    },
+    "-313:32": {
+      "title": "刘曜、赵染屡败麴允，晋遣索綝助战",
+      "sourceHash": "82b35dbbdfd4efba45c3b84d587ca18dfa8a826a518a3b1d2f5dbab499488c89",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        32
+      ],
+      "groupHash": "2c3c9a799dee860ca86f76abd2e709a95b502763f126f1e62292601f92dfd093"
+    },
+    "-313:33": {
+      "title": "王贡矫命授杜曾兵职后叛，陶侃败而复振",
+      "sourceHash": "2a22a5a8fe61dbc9b55ba8a7f8cf2fe28c50fd740feed76060aebdcf3225132a",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        33
+      ],
+      "groupHash": "226084460b0709d2b14e46eea6d6ea1fdcd02e4ddcc6980f84a632f95af96230"
+    },
+    "-313:34": {
+      "title": "赵染夜袭长安，索綝追击遇刘曜而败",
+      "sourceHash": "e58912e67edd7688c54535b86038f322c2c9c1de7fe6ef6788abda2a732c2b12",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        34
+      ],
+      "groupHash": "475bd4a897762f55022c623f2646772f8592a0ab7e4dbadba865fe09b3111be0"
+    },
+    "-313:35": {
+      "title": "杨虎、杨难敌攻取梁州，胡子序弃城逃走",
+      "sourceHash": "f3cced67bad0afa5261d57d5c645a7b29a5645f2c4f35ba9578cff6a67caf4f1",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        35
+      ],
+      "groupHash": "ecf88f8b3ca19098195a35042caf823eeada76718c1437a9d1c6134a59e10fb4"
+    },
+    "-313:36": {
+      "title": "麴允袭败刘曜，杀乔智明",
+      "sourceHash": "2fba32eb67074f59512f0925ba52bee5dc2edfe655e6d9761bfd5a2fce2e4a95",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        36
+      ],
+      "groupHash": "1585c5f3c8b62d860551539fab76835c67d6c736b8b2bce52fa3badef21ec788"
+    },
+    "-313:37": {
+      "title": "王浚谋称帝杀谏者，苛政贪吏使士民离叛",
+      "sourceHash": "07ffd7c9ca7273c7a79724d069e7eaa488a3b6ed7ca8dece3ae37db95fe62296",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        37
+      ],
+      "groupHash": "13a747dc6a31cda8bd13c735f1e2b94cfe7bca5769d337ed58343d230bd9cd52"
+    },
+    "-313:38": {
+      "title": "石勒采张宾之计，卑辞厚礼诱王浚信任",
+      "sourceHash": "10a73785dec1fad0bd87ac476b2862faf89bb38bad9005a43382805de062498c",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        38
+      ],
+      "groupHash": "5f49551af2c18bed7e21e149d850772a5adedeb4b8b2d17cc499610233da5c79"
+    },
+    "-313:39": {
+      "title": "王子春称石勒愿奉王浚为帝，王浚信而封赏",
+      "sourceHash": "33c96cafcf64b35c494572061974ee41939db0c458f3cad861bc44eacbdb3212",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        39
+      ],
+      "groupHash": "a4e5881278201d53cc17ce099fa578e3bc796046268cf879149d5bed24a366b6"
+    },
+    "-313:40": {
+      "title": "石勒杀游统来使送王浚，进一步取信王浚",
+      "sourceHash": "1aa45a04bfddfbae329a9ba8bb75e8eef3433e0cdb7380ad3e4f646b77fc6751",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        40
+      ],
+      "groupHash": "2de08fba4e7b9499863cfd70fa44f90c2e68df8e92450cb01241f88f21be2c1c"
+    },
+    "-313:41": {
+      "title": "司马睿遣世子司马绍镇广陵",
+      "sourceHash": "c83ca6a3ad835016eea7bdf462a613cc06950f8664a981eb3e32068fe6229367",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        41
+      ],
+      "groupHash": "fcc61e8f9f4c0e0173baed1a3dee59c25b17c670103a5e25355183a9d733f280"
+    },
+    "-313:42": {
+      "title": "刘曜围石梁败援军，追杀河南尹魏浚",
+      "sourceHash": "b4c5e4ad4f001f5faa34fe70fe98bcbde982af7983141e8f4dca8a43dc79196f",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        42
+      ],
+      "groupHash": "37874cd5124afa735ac32ca264b882756c8439eab74b53501d989c258be5481b"
+    },
+    "-313:43": {
+      "title": "拓跋猗卢建盛乐、平城南北都，六修镇新平城",
+      "sourceHash": "0bf93a8be6c43de492fe45b866251ca2a6335482304d3ce8c61fb6bef6711ee1",
+      "reviewStatus": "rewritten",
+      "reviewedIndices": [
+        43
+      ],
+      "groupHash": "4dd0f691aff4814ea7bc5f08c0c8b7f0507bde87e0a2c13bd7fa94359b7c15d9"
+    }
+  }
+}

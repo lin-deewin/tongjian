@@ -1,0 +1,13 @@
+interface:
+  display_name: 通鉴网站开发
+  short_description: 延续已确认的逐年年表与独立对照阅读设计，开发资治通鉴网站和后续各卷
+  default_prompt: 使用 $develop-tongjian 延续当前设计继续开发资治通鉴网站，先核对项目现状，再完成本次改动。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
