@@ -1,0 +1,82 @@
+{
+  "id": "qin-zhao-xiang-wang",
+  "name": "秦昭襄王",
+  "aliases": [
+    "秦昭襄王",
+    "秦昭王",
+    "昭王",
+    "稷"
+  ],
+  "identity": "秦武王异母弟，名稷；在燕为质，后继位为秦王。",
+  "birthYear": 325,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "由燕入秦继位",
+      "summary": "秦武王无子去世后，秦国迎回在燕为质的异母弟稷继位，是为秦昭襄王。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 307,
+      "timeLabel": "前307年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 307,
+          "indices": [
+            1
+          ],
+          "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158",
+          "quote": "秦武王好以力戏，力士任鄙、乌获、孟说皆至大官。八月，王与孟说举鼎，绝脉而薨；族孟说。武王无子，异母弟稷为质于燕，国人逆而立之，是为昭襄王。昭襄王母芈八子，楚女也，实宣太后。"
+        }
+      ],
+      "id": "qin-zhao-xiang-wang-1"
+    },
+    {
+      "title": "年少即位，由宣太后与魏冉掌政",
+      "summary": "秦昭王母宣太后主持政务，魏冉平定公子争立及宫廷谋乱后掌握秦国政权。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 305,
+      "timeLabel": "前305年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 305,
+          "indices": [
+            2
+          ],
+          "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+          "quote": "秦宣太后异父弟曰穰侯魏冉，同父弟曰华阳君芈戎；王之同母弟曰高陵君、泾阳君。魏冉最贤，自惠王、武王时，任职用事，武王薨，诸弟争立，唯魏冉力能立昭王。昭王即位，以魏冉为将军，卫咸阳。是岁，庶长壮及大臣、诸公子谋作乱。魏冉诛之；及惠文后皆不得良死，悼武王后出居于魏，王兄弟不善者，魏冉皆灭之。王少，宣太后自治事，任魏冉为政，威震秦国。"
+        }
+      ],
+      "id": "qin-zhao-xiang-wang-2"
+    },
+    {
+      "title": "秦昭襄王卒，孝文王继位",
+      "summary": "秦昭襄王卒，孝文王继位",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 251,
+      "timeLabel": "前251年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 6,
+          "year": 251,
+          "indices": [
+            0
+          ],
+          "sourceHash": "af4b44f5a81062429bc3b31b1cbc6bc0270eff08719e022ac90572a9f08f8ab8",
+          "quote": "秋，王薨，孝文王立。尊唐八子为唐太后，以子楚为太子。赵人奉子楚妻子归之。韩王衰绖入吊祠。"
+        }
+      ],
+      "id": "qin-zhao-xiang-wang-3"
+    }
+  ],
+  "deathYear": 251,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=秦昭襄王&oldid=94317918",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

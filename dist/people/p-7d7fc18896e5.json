@@ -1,0 +1,58 @@
+{
+  "id": "p-7d7fc18896e5",
+  "name": "皮豹子",
+  "aliases": [
+    "皮豹子"
+  ],
+  "identity": "北魏将领，参与对刘宋战争。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "宋军与北魏皮豹子战于高平失利",
+      "summary": "宋军与北魏皮豹子战于高平失利",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元459年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 129,
+          "year": -459,
+          "indices": [
+            0
+          ],
+          "sourceHash": "55a6366a73b0c3687198ad3fb87b3e1990df5e91c33943e561f5e8c207a351f4",
+          "quote": "春，正月，己巳朔，兖州兵与魏皮豹子战不高平，兖州兵不利。〕"
+        }
+      ],
+      "id": "p-7d7fc18896e5-1"
+    },
+    {
+      "title": "魏皮豹子击败杨文德",
+      "summary": "魏皮豹子击败杨文德",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -448,
+      "timeLabel": "公元448年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 125,
+          "year": -448,
+          "indices": [
+            0
+          ],
+          "sourceHash": "7ced27747ed609cd41f4a58cde6d14f22a1092b97dd3fbd242db708cd34d9117",
+          "quote": "春，正月，魏仇池镇将皮豹子帅诸军击之。文德兵败，弃城奔汉中。豹子收其妻子、僚属、军资及杨保宗所尚魏公主而还。"
+        }
+      ],
+      "id": "p-7d7fc18896e5-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=皮豹子&oldid=94673824",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

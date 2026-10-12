@@ -1,0 +1,79 @@
+{
+  "id": "p-db35006374ef",
+  "name": "齐万年",
+  "aliases": [
+    "齐万年"
+  ],
+  "identity": "西晋时期氐人起事领袖。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "齐万年据守梁山，拥众七万",
+      "summary": "齐万年据守梁山，拥众七万",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -297,
+      "timeLabel": "公元297年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 82,
+          "year": -297,
+          "indices": [
+            0
+          ],
+          "sourceHash": "a188336c8cf231725bcf450ad4c5e92a43076a99649f83d27a9c6b88aa0c92c8",
+          "quote": "春，正月，齐万年屯梁山，有众七万：梁王肜、夏侯骏使周处以五千兵击之。处曰：「军无后继，必败，不徒亡身，为国取耻。」肜、骏不听，逼遣之。癸丑，处与卢播、解系攻万年于六陌。处军士未食，肜促令速进，自旦战至暮，斩获甚众，弦绝矢尽，救兵不至。左右劝处退，处按剑曰：「是吾叙节致命之日也！」遂力战而死。朝廷虽以尤肜，而亦不能罪也。"
+        }
+      ],
+      "id": "p-db35006374ef-1"
+    },
+    {
+      "title": "张华、陈准荐孟观讨伐齐万年，孟观屡战获胜",
+      "summary": "张华、陈准荐孟观讨伐齐万年，孟观屡战获胜",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元298年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 82,
+          "year": -298,
+          "indices": [
+            4
+          ],
+          "sourceHash": "c32ccfd79573dc8579118995998cf91ffd43a99fb5fdcaf1efa30b354b230949",
+          "quote": "张华、陈准以赵王、梁王，相继在关中，皆雍容骄贵，师老无功，乃荐孟观沈毅文武才用，使讨齐万年。观身当矢石，大战十数皆破之。"
+        }
+      ],
+      "id": "p-db35006374ef-2"
+    },
+    {
+      "title": "孟观大破氐军，俘获齐万年",
+      "summary": "孟观大破氐军，俘获齐万年",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元299年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 83,
+          "year": -299,
+          "indices": [
+            0
+          ],
+          "sourceHash": "a73cc5177b4793c46fd8901f450306436a1d3ed065fe88ab0277c95b579c3ca9",
+          "quote": "春，正月孟观大破氐众于中亭，获齐万年。"
+        }
+      ],
+      "id": "p-db35006374ef-3"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=齐万年&oldid=91916952",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "p-c44487eb7bb7",
+  "name": "秦始皇",
+  "aliases": [
+    "秦始皇",
+    "秦王政",
+    "嬴政",
+    "始皇帝"
+  ],
+  "identity": "秦王政，统一六国后称皇帝。",
+  "birthYear": 259,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "秦王政继位，吕不韦掌国政",
+      "summary": "秦王政继位，吕不韦掌国政",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 247,
+      "timeLabel": "前247年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 6,
+          "year": 247,
+          "indices": [
+            4
+          ],
+          "sourceHash": "1a99fb9bb96a0a823b3584a9a7f486ca263de09ba480fc3f26eb7aa5595c653f",
+          "quote": "五月，丙午，王薨。太子政立，生十三年矣，国事皆决于文信侯，号称仲父。"
+        }
+      ],
+      "id": "p-c44487eb7bb7-1"
+    },
+    {
+      "title": "秦王政宿于雍",
+      "summary": "秦王政宿于雍",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 238,
+      "timeLabel": "前238年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 6,
+          "year": 238,
+          "indices": [
+            2
+          ],
+          "sourceHash": "1e768305a0d9c9324897a26a0ac61d99f420a8487a27532a8d8d560867954b5d",
+          "quote": "王宿雍。"
+        }
+      ],
+      "id": "p-c44487eb7bb7-2"
+    },
+    {
+      "title": "秦王政加冠佩剑",
+      "summary": "秦王政加冠佩剑",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 238,
+      "timeLabel": "前238年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 6,
+          "year": 238,
+          "indices": [
+            3
+          ],
+          "sourceHash": "ab421cf6c4c188fee2fa1ecca5b662c63a4e92598421adfd00845a4c41e9f663",
+          "quote": "己酉，王冠，带剑。"
+        }
+      ],
+      "id": "p-c44487eb7bb7-3"
+    },
+    {
+      "title": "秦王政之母太后去世",
+      "summary": "秦王政之母太后去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 228,
+      "timeLabel": "前228年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 6,
+          "year": 228,
+          "indices": [
+            1
+          ],
+          "sourceHash": "e0aa77cfa0a6b31cdb29050e427cbb8dd702468ae85f997432d6a448b9098789",
+          "quote": "太后薨。"
+        }
+      ],
+      "id": "p-c44487eb7bb7-4"
+    },
+    {
+      "title": "秦王称始皇帝，废除谥法",
+      "summary": "秦王称始皇帝，废除谥法",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": 221,
+      "timeLabel": "前221年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 221,
+          "indices": [
+            2
+          ],
+          "sourceHash": "937e7d513317ca7dc1cbe4f9c6a6cb4e74235919c31c5154e6defac335ad8b72",
+          "quote": "王初并天下，自以为德兼三皇，功过五帝，乃更号曰“皇帝，命为“制”，令为“诏”，自称曰“朕”。追尊庄襄王为太上皇。制曰：“死而以行为谥，则是子议父，臣议君也，甚无谓。自今以来，除谥法。朕为始皇帝，后世以计数，二世、三世至于万世，传之无穷。”"
+        }
+      ],
+      "id": "p-c44487eb7bb7-5"
+    },
+    {
+      "title": "刘晔评曹叡才略可比秦始皇、汉武帝",
+      "summary": "刘晔评曹叡才略可比秦始皇、汉武帝",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元226年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 70,
+          "year": -226,
+          "indices": [
+            8
+          ],
+          "sourceHash": "20fb1fa7463fad10ec9e62c2a7d6891a930df3dea0d5809a40381bf0b1ca68b2",
+          "quote": "初，明帝在东宫，不交朝臣，不问政事，惟潜思书籍；即位之后，群下想闻风采。居数日，独见侍中刘晔，语尽日，众人侧听，晔既出，问：「何如﹖」：「秦始皇、汉孝武之俦，才具微不及耳。」"
+        }
+      ],
+      "id": "p-c44487eb7bb7-6"
+    },
+    {
+      "title": "唐太宗以秦始皇营宫室为戒停止建殿",
+      "summary": "唐太宗以秦始皇营宫室为戒停止建殿",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元627年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 192,
+          "year": -627,
+          "indices": [
+            37
+          ],
+          "sourceHash": "2797f65327338c86e46b699d8d0a458186f56dfd8c3667e2b974dd137dcbe01b",
+          "quote": "上谓公卿曰：「昔禹凿山治水而民无谤讟者，与人同利故也。秦始皇营宫室而人怨叛者，病人以利己故也。夫靡丽珍奇，固人之所欲，若纵之不已，则危亡立至。朕欲营一殿，材用已具，鉴秦而止。王公已下，宜体朕此意。」由是二十年间，风俗素朴，衣无锦绣，公私富给。"
+        }
+      ],
+      "id": "p-c44487eb7bb7-7"
+    }
+  ],
+  "deathYear": 210,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=秦始皇&oldid=94788854",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

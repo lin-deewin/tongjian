@@ -1,0 +1,352 @@
+{
+  "id": "p-5182d5caa6cc",
+  "name": "元悦",
+  "aliases": [
+    "元悦"
+  ],
+  "identity": "北魏宗室，汝南王。",
+  "birthYear": -494,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "北魏任元悦入居门下参与辅政",
+      "summary": "北魏任元悦入居门下参与辅政",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -523,
+      "timeLabel": "公元523年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 149,
+          "year": -523,
+          "indices": [
+            11
+          ],
+          "sourceHash": "16867b14a404b8c6f78d6009204f7dab0cbda8a7559c07cfca885c350c4834d6",
+          "quote": "九月，魏诏侍中、太尉汝南王悦入居门下，与丞相高阳王雍参决尚书奏事。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-1"
+    },
+    {
+      "title": "北魏任汝南王元悦为太保",
+      "summary": "北魏任汝南王元悦为太保",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元523年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 149,
+          "year": -523,
+          "indices": [
+            19
+          ],
+          "sourceHash": "9f58289f3e50664677be060d4bd3987da5ef583af476a70d032939cbb8f451f3",
+          "quote": "魏以洝南王悦为太保。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-2"
+    },
+    {
+      "title": "北魏封元悦为汝南王",
+      "summary": "北魏封元悦为汝南王",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -503,
+      "timeLabel": "公元503年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 145,
+          "year": -503,
+          "indices": [
+            13
+          ],
+          "sourceHash": "60aa91015873bd7a9d5c20b3dfd96b09fd83aeac08cbfc5b25e30fe0ebede680",
+          "quote": "六月，壬午朔，魏立皇弟悦为汝南王。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-3"
+    },
+    {
+      "title": "梁武帝任薛法护为司州牧，送元悦入洛阳",
+      "summary": "梁武帝任薛法护为司州牧，送元悦入洛阳",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元532年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 155,
+          "year": -532,
+          "indices": [
+            2
+          ],
+          "sourceHash": "9d5a0e598a62c4573d95f094de1ce882e4d2655054c408479bc2b30357163877",
+          "quote": "以太子右卫率薛法护为司州牧，卫送魏王悦入洛。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-4"
+    },
+    {
+      "title": "高欢因元悦狂暴而放弃拥立之议",
+      "summary": "高欢因元悦狂暴而放弃拥立之议",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -532,
+      "timeLabel": "公元532年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 155,
+          "year": -532,
+          "indices": [
+            20
+          ],
+          "sourceHash": "3c067b263eea74cc73803f0482611997769c492c6cfce3be5a9bfba09f63908a",
+          "quote": "欢以汝南王悦，高祖之子，召欲立之，闻其狂暴无常，乃止。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-5"
+    },
+    {
+      "title": "北魏任元悦为侍中、大司马",
+      "summary": "北魏任元悦为侍中、大司马",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -532,
+      "timeLabel": "公元532年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 155,
+          "year": -532,
+          "indices": [
+            37
+          ],
+          "sourceHash": "69a7f4e8c7a8209ab3d3f5d9fa075e637dea0abc4ba31c5cf36ee860d6c71685",
+          "quote": "己酉，以汝南王悦为侍中、大司马。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-6"
+    },
+    {
+      "title": "孝武帝以亲近尊贵为由杀死元悦",
+      "summary": "孝武帝以亲近尊贵为由杀死元悦",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元532年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 155,
+          "year": -532,
+          "indices": [
+            40
+          ],
+          "sourceHash": "913d983d743821306353c29f89c9b2a088e68f88f0b640781905a58c3750f090",
+          "quote": "魏主以汝南王悦属近地尊，丁亥，杀之。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-7"
+    },
+    {
+      "title": "北魏任汝南王元悦兼领太尉",
+      "summary": "北魏任汝南王元悦兼领太尉",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元526年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 151,
+          "year": -526,
+          "indices": [
+            1
+          ],
+          "sourceHash": "4c68761fe22a2f0caaaf175fa5335f31cf43f18c1952aa584093439887ca0d82",
+          "quote": "壬子，魏以汝南王悦领太尉。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-8"
+    },
+    {
+      "title": "郦道元诛杀丘念，并弹劾汝南王元悦",
+      "summary": "郦道元诛杀丘念，并弹劾汝南王元悦",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元527年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 151,
+          "year": -527,
+          "indices": [
+            37
+          ],
+          "sourceHash": "f01322f7093db55cb3fade938f8bf70a298db8563bfc9fbd3b0a10d4cdb130bf",
+          "quote": "中尉郦道元，素名严猛，司州牧汝南王悦嬖人丘念，弄权纵恣，道元收念付狱；悦请之于胡太后，太后欲赦之，道元杀之，并以劾悦。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-9"
+    },
+    {
+      "title": "梁武帝恢复元悦魏王称号",
+      "summary": "梁武帝恢复元悦魏王称号",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元530年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 154,
+          "year": -530,
+          "indices": [
+            8
+          ],
+          "sourceHash": "716d29a3f8bc5e1b4786a177fd18c97992823d7f139edbab1d9e4b028b5998fd",
+          "quote": "六月，丁巳，帝复以魏汝南王悦为魏王。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-10"
+    },
+    {
+      "title": "梁任范遵为司州牧并送元悦北归",
+      "summary": "梁任范遵为司州牧并送元悦北归",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元530年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 154,
+          "year": -530,
+          "indices": [
+            10
+          ],
+          "sourceHash": "f91867f0759d9029610a8d68d654dcad80e18602b2b639c0ccef990bd1cdb2a6",
+          "quote": "庚申，以魏降将范遵为安北将军、司州牧，从魏王悦北还。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-11"
+    },
+    {
+      "title": "梁武帝为元悦饯行并派兵送至边境",
+      "summary": "梁武帝为元悦饯行并派兵送至边境",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -530,
+      "timeLabel": "公元530年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 154,
+          "year": -530,
+          "indices": [
+            16
+          ],
+          "sourceHash": "ea1aa6a2b3972bcdba953060079b05c433ccc67c01d1be82d297f215d78a8aca",
+          "quote": "八月，庚戌，上饯魏王悦于德阳堂，遣兵送至境上。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-12"
+    },
+    {
+      "title": "斛斯椿弃州投奔汝南王元悦",
+      "summary": "斛斯椿弃州投奔汝南王元悦",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元530年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 154,
+          "year": -530,
+          "indices": [
+            40
+          ],
+          "sourceHash": "823e203fae18292646b07e8fce09591938dd998e3b54e86b082c11c45fd69040",
+          "quote": "魏东徐州刺史广牧斛斯椿素依附尔朱荣，荣死，椿惧，闻汝南王悦在境上，乃帅部众弃州归悦。悦授椿侍中、大将军、司空，封灵丘郡公，又为大行台前驱都督。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-13"
+    },
+    {
+      "title": "元悦闻尔朱兆入洛，改元后南返，斛斯椿再次归魏",
+      "summary": "元悦闻尔朱兆入洛，改元后南返，斛斯椿再次归魏",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -530,
+      "timeLabel": "公元530年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 154,
+          "year": -530,
+          "indices": [
+            63
+          ],
+          "sourceHash": "41eaa959022744128d5f33408eed72c68c3995c3b6e49906b19ec2029faf9480",
+          "quote": "魏王悦改元更兴，闻尔朱兆已入洛，自知不及事，遂南还。斛斯椿复弃悦奔魏。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-14"
+    },
+    {
+      "title": "元悦、元颢及多名魏官闻河阴之变后投奔梁朝",
+      "summary": "元悦、元颢及多名魏官闻河阴之变后投奔梁朝",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -528,
+      "timeLabel": "公元528年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 152,
+          "year": -528,
+          "indices": [
+            29
+          ],
+          "sourceHash": "bfdfb86b635ed8490df99ec3658a9b9c313e56eedd8b9dd2809b5b9c78fdd34e",
+          "quote": "魏汝南王悦及东道行台临淮王或闻河阴之乱，皆来奔。先是，魏人降者皆称魏官为伪，或表启独称魏临淮王；上亦体其雅素，不之责。魏北海王颢将之相州，至汲郡，闻葛荣南侵及尔朱荣纵暴，阴为自安之计，盘桓不进；以其舅殷州刺史范遵行相州事，代前刺史李神守邺行台。甄密知颢有异志，相帅废遵，复推李神摄州事，遣兵迎颢，且察其变。颢闻之，帅左右来奔。密，琛之从父弟也。北青州刺史元世儁、南荆州刺史李志皆举州来降。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-15"
+    },
+    {
+      "title": "元悦获准返回北魏",
+      "summary": "元悦获准返回北魏",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -529,
+      "timeLabel": "公元529年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 153,
+          "year": -529,
+          "indices": [
+            2
+          ],
+          "sourceHash": "1b61d26f5b3f02fcb929ab6916ff09c479e53e37dc2b682975177f5032fd957f",
+          "quote": "甲子，魏汝南王悦求还国，许之。"
+        }
+      ],
+      "id": "p-5182d5caa6cc-16"
+    }
+  ],
+  "deathYear": -533,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=元悦&oldid=94626604",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

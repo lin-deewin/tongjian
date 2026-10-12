@@ -1,0 +1,37 @@
+{
+  "id": "meng-shuo",
+  "name": "孟说",
+  "aliases": [
+    "孟说"
+  ],
+  "identity": "秦武王任用的力士，官至大夫。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "举鼎致秦武王死，孟氏遭族诛",
+      "summary": "秦武王与孟说举鼎，秦王因而绝脉而死，孟说被族诛。",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": 307,
+      "timeLabel": "前307年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 307,
+          "indices": [
+            1
+          ],
+          "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158",
+          "quote": "秦武王好以力戏，力士任鄙、乌获、孟说皆至大官。八月，王与孟说举鼎，绝脉而薨；族孟说。武王无子，异母弟稷为质于燕，国人逆而立之，是为昭襄王。昭襄王母芈八子，楚女也，实宣太后。"
+        }
+      ],
+      "id": "meng-shuo-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=孟賁&oldid=94861839",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "p-686c5e8d0bbe",
+  "name": "严授",
+  "aliases": [
+    "严授"
+  ],
+  "identity": "东汉将领，作战时力战而死。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "张显轻进遇伏，严授等力战而死",
+      "summary": "张显轻进遇伏，严授等力战而死",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元106年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 49,
+          "year": -106,
+          "indices": [
+            5
+          ],
+          "sourceHash": "5276ba1e4fbc27727220f428cb5369cbae6c52008fe71543f8b6014f852fd6f3",
+          "quote": "夏，四月，鲜卑寇渔阳，渔阳太守张显率数百人出塞追之。兵马掾严授谏曰：「前道险阻，贼势难量，宜且结营，先令轻骑侦视之。」显意甚锐，怒，欲斩之，遂进兵。遇虏伏发，士卒悉走，唯授力战，身被十创，手杀数人而死。主簿卫福、功曹徐咸皆自投赴显，俱没于陈。"
+        }
+      ],
+      "id": "p-686c5e8d0bbe-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": null,
+  "birthStatus": "unconfirmed",
+  "birthNote": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+}

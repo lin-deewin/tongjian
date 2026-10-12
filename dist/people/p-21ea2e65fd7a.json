@@ -1,0 +1,79 @@
+{
+  "id": "p-21ea2e65fd7a",
+  "name": "王贲",
+  "aliases": [
+    "王贲"
+  ],
+  "identity": "秦国将领，参与灭魏、灭燕等战争。",
+  "birthYear": null,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "王贲水灌大梁，秦灭魏",
+      "summary": "王贲水灌大梁，秦灭魏",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 225,
+      "timeLabel": "前225年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 225,
+          "indices": [
+            0
+          ],
+          "sourceHash": "5b760532cfe3cd01ad57647b34bcfe152e3b9928ab0ee18ade9ddd0931fb4626",
+          "quote": "王贲伐魏，引河沟以灌大梁。三月，城坏。魏王假降，杀之，遂灭魏。"
+        }
+      ],
+      "id": "p-21ea2e65fd7a-1"
+    },
+    {
+      "title": "王贲攻辽东，俘燕王喜",
+      "summary": "王贲攻辽东，俘燕王喜",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 222,
+      "timeLabel": "前222年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 222,
+          "indices": [
+            0
+          ],
+          "sourceHash": "52e81729ee7de642732aa15f01f9a3f347ca2e9d8bc2f004d1b1f2b9601c8ed3",
+          "quote": "大兴兵，使王贲攻辽东，虏燕王喜。"
+        }
+      ],
+      "id": "p-21ea2e65fd7a-2"
+    },
+    {
+      "title": "王贲灭代，俘代王嘉",
+      "summary": "王贲灭代，俘代王嘉",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 222,
+      "timeLabel": "前222年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 222,
+          "indices": [
+            5
+          ],
+          "sourceHash": "cf470c65d058e110c65a477e7479dfb499384443d9653994d79a6f4f9e68b3fd",
+          "quote": "王贲攻代，虏代王嘉。"
+        }
+      ],
+      "id": "p-21ea2e65fd7a-3"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=王賁&oldid=92432262",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "zhang-zi",
+  "name": "章子",
+  "aliases": [
+    "章子",
+    "匡章"
+  ],
+  "identity": "齐国将领，受命率军攻燕。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "率齐军攻入燕国",
+      "summary": "齐王命章子率五都之兵攻燕，燕军不战，齐军进入燕国并杀燕王哙与子之。",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 314,
+      "timeLabel": "前314年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 314,
+          "indices": [
+            2
+          ],
+          "sourceHash": "642cec8e77b69695d0ffdf08919f36f80d75a7fc3c40168385a19550139e4df2",
+          "quote": "燕子之为王三年，国内大乱。将军市被与太子平谋攻子之。齐王令人谓太子曰：“寡人闻太子将饬君臣之义，明父子之位，寡人之国唯太子所以令之。”太子因要党聚众，使市被攻子之，不克。市被反攻太子。构难数月，死者数万人，百姓恫恐。齐王令章子将五都之兵，因北地之众以伐燕。燕士卒不战，城门不闭。齐人取子之，醢之，遂杀燕王哙。"
+        }
+      ],
+      "id": "zhang-zi-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=匡章&oldid=93191289",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

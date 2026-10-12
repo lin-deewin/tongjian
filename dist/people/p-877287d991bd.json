@@ -1,0 +1,58 @@
+{
+  "id": "p-877287d991bd",
+  "name": "欧阳彬",
+  "aliases": [
+    "欧阳彬"
+  ],
+  "identity": "前蜀官员，奉命迎接后唐军。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "前蜀遣欧阳彬聘后唐",
+      "summary": "前蜀遣欧阳彬聘后唐",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -924,
+      "timeLabel": "公元924年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 273,
+          "year": -924,
+          "indices": [
+            64
+          ],
+          "sourceHash": "c7aca16dc80cf2d365de6abda59d8931ef13ee9b04070a3606584de6b0f9a078",
+          "quote": "十一月，蜀主遣其翰林学士欧阳彬来聘。彬，衡山人也。又遣李彦稠东还。"
+        }
+      ],
+      "id": "p-877287d991bd-1"
+    },
+    {
+      "title": "前蜀主王衍命李昊草降表遣欧阳彬迎后唐军",
+      "summary": "前蜀主王衍命李昊草降表遣欧阳彬迎后唐军",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元925年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 274,
+          "year": -925,
+          "indices": [
+            5
+          ],
+          "sourceHash": "a44aa9455b2f8e23151432807de5784ba984990747526871f9de2a7d93755a75",
+          "quote": "己酉，魏王继岌至绵州，蜀主命翰林学士李昊草降表，又命中书侍郎、同平章事王锴草降书，遣兵部侍郎欧阳彬奉之以迎继岌及郭崇韬。"
+        }
+      ],
+      "id": "p-877287d991bd-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=歐陽彬&oldid=91859695",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "p-accd2119f3b5",
+  "name": "孔扶",
+  "aliases": [
+    "孔扶"
+  ],
+  "identity": "东汉官员，曾任司空。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "王龚免司空，孔扶继任",
+      "summary": "王龚免司空，孔扶继任",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元133年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -133,
+          "indices": [
+            7
+          ],
+          "sourceHash": "0c3edeef0700974acdbf5732504c7952c102514e89a7fe602b5f36d4a17a7cf0",
+          "quote": "戊午，司空王龚免。六月，辛未，以太当鲁国孔扶为司空。"
+        }
+      ],
+      "id": "p-accd2119f3b5-1"
+    },
+    {
+      "title": "刘崎、孔扶因灾异免职，黄尚、王卓继任",
+      "summary": "刘崎、孔扶因灾异免职，黄尚、王卓继任",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -134,
+      "timeLabel": "公元134年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 52,
+          "year": -134,
+          "indices": [
+            5
+          ],
+          "sourceHash": "4616bbaaab1502ae72e571b10c5c90b4f53596fb43ca27a228bc7556644987e0",
+          "quote": "十一月，壬寅，司徒刘崎、司空孔扶免，用周举之言也。乙巳，以大司农黄尚为司徒，光禄勋河东王卓为司空。"
+        }
+      ],
+      "id": "p-accd2119f3b5-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=孔扶&oldid=75190133",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

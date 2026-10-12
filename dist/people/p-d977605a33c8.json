@@ -1,0 +1,163 @@
+{
+  "id": "p-d977605a33c8",
+  "name": "豆卢革",
+  "aliases": [
+    "豆卢革"
+  ],
+  "identity": "后唐大臣，曾任宰相。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "豆卢革卢程才疏任相",
+      "summary": "豆卢革卢程才疏任相",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -923,
+      "timeLabel": "公元923年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 272,
+          "year": -923,
+          "indices": [
+            8
+          ],
+          "sourceHash": "f405fd8b3138905aab2ac707a1a586dffb4a0fd3958ebd74bd2bf3993fe4fca7",
+          "quote": "豆卢革、卢程皆轻浅无他能，上以其衣冠之绪，霸府元僚，故用之。"
+        }
+      ],
+      "id": "p-d977605a33c8-1"
+    },
+    {
+      "title": "郭崇韬代豆卢革掌中书",
+      "summary": "郭崇韬代豆卢革掌中书",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -923,
+      "timeLabel": "公元923年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 272,
+          "year": -923,
+          "indices": [
+            63
+          ],
+          "sourceHash": "65237c08cf1c9b99d4967cff0c99157ab909b7db1e2a6a232ec6e9ab88d001b4",
+          "quote": "以豆卢革尚在魏，命枢密使郭崇韬权行中书事。"
+        }
+      ],
+      "id": "p-d977605a33c8-2"
+    },
+    {
+      "title": "豆卢革自魏州入朝",
+      "summary": "豆卢革自魏州入朝",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -923,
+      "timeLabel": "公元923年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 272,
+          "year": -923,
+          "indices": [
+            65
+          ],
+          "sourceHash": "d0abf3267f8f576653cd072102aa75999730c9d292b5c30506e0b57e5dd05ac7",
+          "quote": "庚寅，豆卢革至自魏。甲午，加崇韬守侍中，领成德节度使。崇韬权兼内外，谋猷规益，竭忠无隐，颇亦荐引人物，豆卢革受成而已，无所裁正。"
+        }
+      ],
+      "id": "p-d977605a33c8-3"
+    },
+    {
+      "title": "豆卢革等三次劝李嗣源监国",
+      "summary": "豆卢革等三次劝李嗣源监国",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -926,
+      "timeLabel": "公元926年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 275,
+          "year": -926,
+          "indices": [
+            5
+          ],
+          "sourceHash": "b0a12c0a400006aef095c074bae67bf979f4f9bf5c5bcc0fdd0bc7b4cb1804d2",
+          "quote": "是日，豆卢革帅百官上笺劝进，嗣源面谕之曰：「吾奉诏讨贼，不幸部曲叛散；欲入朝自诉，又为绍荣所隔，披猖至此。吾本无他心，诸君遽尔见推，殊非相悉，愿勿言也！」革等固请，嗣源不许。"
+        }
+      ],
+      "id": "p-d977605a33c8-4"
+    },
+    {
+      "title": "豆卢革韦说因贪赃失礼及用人争议被贬",
+      "summary": "豆卢革韦说因贪赃失礼及用人争议被贬",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -926,
+      "timeLabel": "公元926年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 275,
+          "year": -926,
+          "indices": [
+            57
+          ],
+          "sourceHash": "870472c31549fdc79cbce656d14209531f07d041cc46d4f4cf2ce371cf1c2ecb",
+          "quote": "门下侍郎、同平章事豆卢革、韦说奏事帝前，或时礼貌不尽恭；百官俸钱皆折估，而革父子独受实钱；百官自五月给，而革父子自正月给；由是众论沸腾。说以孙为子，奏官；受选人王裃赂，除近官。中旨以库部郎中萧希甫为谏议大夫，革、说覆奏。希甫恨之，上疏言「革、说不忠前朝，阿谀取容」；因诬「革强夺民田，纵田客杀人，说夺邻家井，取宿藏物。」制贬革辰州刺史，说溆州刺史。庚辰，赐希甫金帛，擢为散骑常侍。"
+        }
+      ],
+      "id": "p-d977605a33c8-5"
+    },
+    {
+      "title": "豆卢革韦说再遭贬谪并流放",
+      "summary": "豆卢革韦说再遭贬谪并流放",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -926,
+      "timeLabel": "公元926年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 275,
+          "year": -926,
+          "indices": [
+            59
+          ],
+          "sourceHash": "eedc6fe6ec5ef5f883c1e8218d273aeefc359dee9e24aaf3305a35e01ad67257",
+          "quote": "癸未，再贬豆卢革费州司户，韦说夷州司户。甲申，革流陵州，说流合州。"
+        }
+      ],
+      "id": "p-d977605a33c8-6"
+    },
+    {
+      "title": "豆卢革韦说因后唐割三州给高季兴被赐死",
+      "summary": "豆卢革韦说因后唐割三州给高季兴被赐死",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -927,
+      "timeLabel": "公元927年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 276,
+          "year": -927,
+          "indices": [
+            2
+          ],
+          "sourceHash": "626a36620a613fa17f6c054217ea143c4ae5fee6c9f6ba11228291a2d48d0ed6",
+          "quote": "癸巳，以与高季兴夔、忠、万三州为豆卢革、韦说之罪，皆赐死。"
+        }
+      ],
+      "id": "p-d977605a33c8-7"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=豆卢革&oldid=91296695",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

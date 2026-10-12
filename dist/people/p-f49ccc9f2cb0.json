@@ -1,0 +1,79 @@
+{
+  "id": "p-f49ccc9f2cb0",
+  "name": "魏昭",
+  "aliases": [
+    "魏昭"
+  ],
+  "identity": "东汉士人，以敬师闻名。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "魏昭王卒，安厘王继位",
+      "summary": "魏昭王卒，安厘王继位",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 277,
+      "timeLabel": "前277年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 4,
+          "year": 277,
+          "indices": [
+            1
+          ],
+          "sourceHash": "9a2344499a09a5bfa45a58cd7e0107e1f8636b9507cfe919d0d9187f47a42f07",
+          "quote": "魏昭王薨，子安厘王立。"
+        }
+      ],
+      "id": "p-f49ccc9f2cb0-1"
+    },
+    {
+      "title": "魏昭三受责骂不改敬意，郭泰以为知己",
+      "summary": "魏昭三受责骂不改敬意，郭泰以为知己",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -164,
+      "timeLabel": "公元164年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 55,
+          "year": -164,
+          "indices": [
+            4
+          ],
+          "sourceHash": "b25c48082541f53b66b2b1e060df70c75510b599d5227ff8f57ca6a4cc71cc7a",
+          "quote": "陈国童子魏昭请于泰曰：「经师易遇，人师难遭，愿在左右，供经洒扫。」泰许之。泰尝不佳，命昭作粥，粥成，进泰，泰呵之曰：「为长者作粥，不加意敬，使不可食！」以杯掷地。昭更为粥重进，泰复呵之。如此者三，昭姿容无变。泰乃曰：「吾始见子之面，而今而后，知卿心耳！」遂友而善之。"
+        }
+      ],
+      "id": "p-f49ccc9f2cb0-2"
+    },
+    {
+      "title": "北魏昭太后常氏去世并安葬",
+      "summary": "北魏昭太后常氏去世并安葬",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -460,
+      "timeLabel": "公元460年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 129,
+          "year": -460,
+          "indices": [
+            8
+          ],
+          "sourceHash": "998711b3eeb6aa8ae891072c46fc75ab7cb6c92e1879738fa55a49015a8b5b3c",
+          "quote": "夏，四月，魏太后常氏殂。五月，癸丑，魏葬昭太后于鸣鸡山。"
+        }
+      ],
+      "id": "p-f49ccc9f2cb0-3"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=魏昭&oldid=88591238",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

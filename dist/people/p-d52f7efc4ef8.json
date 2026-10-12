@@ -1,0 +1,184 @@
+{
+  "id": "p-d52f7efc4ef8",
+  "name": "刘休佑",
+  "aliases": [
+    "刘休佑"
+  ],
+  "identity": "刘宋宗室，晋平王。",
+  "birthYear": -445,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "刘休佑改任江州刺史，刘子顼留任荆州",
+      "summary": "刘休佑改任江州刺史，刘子顼留任荆州",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -465,
+      "timeLabel": "公元465年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 130,
+          "year": -465,
+          "indices": [
+            67
+          ],
+          "sourceHash": "c29afce6159ed5cb256751376a9d4f954e1b22d74acddd5e3a6706164b647836",
+          "quote": "辛巳，更以山阳王休佑为江州刺史，荆州刺史临海王子顼即留本任。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-1"
+    },
+    {
+      "title": "孝武帝封刘休佑、刘休茂、刘休业为王",
+      "summary": "孝武帝封刘休佑、刘休茂、刘休业为王",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -455,
+      "timeLabel": "公元455年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 128,
+          "year": -455,
+          "indices": [
+            6
+          ],
+          "sourceHash": "62c466422b5977b294e056d4113bea92c630b0ba3c454b5bd270e7dce529cfee",
+          "quote": "秋，七月，癸巳，立皇弟休佑为山阳王，休茂为海陵王，休业为鄱阳王。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-2"
+    },
+    {
+      "title": "刘休佑驻历阳，刘勔进军小岘",
+      "summary": "刘休佑驻历阳，刘勔进军小岘",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -466,
+      "timeLabel": "公元466年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 131,
+          "year": -466,
+          "indices": [
+            26
+          ],
+          "sourceHash": "d33d48d458d2dd259b9bfdf21d6cb87ca183d173ad10c951c76bf28923b0c63f",
+          "quote": "山阳王休佑在历阳，辅国将军刘勔进军小岘。殷琰所署南汝阴太守裴季之以合肥来降。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-3"
+    },
+    {
+      "title": "刘休佑致书招降殷琰，殷琰部众仍守寿阳",
+      "summary": "刘休佑致书招降殷琰，殷琰部众仍守寿阳",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -466,
+      "timeLabel": "公元466年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 131,
+          "year": -466,
+          "indices": [
+            54
+          ],
+          "sourceHash": "d7d889ba7edcb87a8ee78f8a34d6d00925b76685e2f4533023c8066d562ec992",
+          "quote": "山阳王休佑与殷琰书，为陈利害，上又遣御使王道隆赍诏宥琰罪。勔与琰书，并以琰兄瑗书与之。琰与叔宝等皆有降意，而众心不壹，复婴城固守。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-4"
+    },
+    {
+      "title": "刘休佑改任荆州刺史",
+      "summary": "刘休佑改任荆州刺史",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -466,
+      "timeLabel": "公元466年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 131,
+          "year": -466,
+          "indices": [
+            84
+          ],
+          "sourceHash": "ee17044de03034360086b9b2e2c064a3cd538e01049a01b592f639b64f3f71e8",
+          "quote": "九月，壬辰，以山阳王休佑为荆州刺史。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-5"
+    },
+    {
+      "title": "明帝病重后杀害晋平王刘休佑",
+      "summary": "明帝病重后杀害晋平王刘休佑",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元471年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 133,
+          "year": -471,
+          "indices": [
+            4
+          ],
+          "sourceHash": "b404fd299664b1aa67b2b44dd719ff5a0cb656c5acfa3d9f9c03ea01b0e046d7",
+          "quote": "至是寝疾，以太子幼弱，深忌诸弟。南徐州刺史晋平刺王休佑，前镇江陵，贪虐无度，上不使之镇，留之建康，遣上佐行府州事。休佑性刚狠，前后忤上非一，上积不能平；且虑将来难制，欲方便除之。甲寅，休佑从上于岩山射雉，左右从者并在仗后。日欲闇，上遣左右寿寂之等数人，逼休佑令坠马，因共殴，拉杀之，传呼「骠骑落马！」上阳惊，遣御医络驿就视，比其左右至，休佑已绝，去车轮，舆还第。追赠司空，葬之如礼。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-6"
+    },
+    {
+      "title": "刘休佑被追废为庶人",
+      "summary": "刘休佑被追废为庶人",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -471,
+      "timeLabel": "公元471年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 133,
+          "year": -471,
+          "indices": [
+            12
+          ],
+          "sourceHash": "b8d54ab905300285f5b88620ea6b61708312000a6205ea451ab2991d7645d13d",
+          "quote": "丙戌，追废晋平王休佑为庶人。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-7"
+    },
+    {
+      "title": "刘祎改封庐江王，刘休佑改封晋平王",
+      "summary": "刘祎改封庐江王，刘休佑改封晋平王",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元468年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 132,
+          "year": -468,
+          "indices": [
+            12
+          ],
+          "sourceHash": "0ff4ff7a2062281f921c3e6c460ff78c196f22f99b95ff1abc35eb8f0f392c12",
+          "quote": "徙东海王祎为庐江王，山阳王休佑为晋平王。上以废帝谓祎为驴王，故以庐江封之。"
+        }
+      ],
+      "id": "p-d52f7efc4ef8-8"
+    }
+  ],
+  "deathYear": -471,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=劉休祐&oldid=92330171",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

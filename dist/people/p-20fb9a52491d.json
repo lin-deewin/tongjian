@@ -1,0 +1,59 @@
+{
+  "id": "p-20fb9a52491d",
+  "name": "蔺相如",
+  "aliases": [
+    "蔺相如",
+    "相如"
+  ],
+  "identity": "赵国大臣，以完璧归赵、渑池之会等事迹见载。",
+  "birthYear": null,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "蔺相如使秦，完璧归赵",
+      "summary": "蔺相如使秦，完璧归赵",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 283,
+      "timeLabel": "前283年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 4,
+          "year": 283,
+          "indices": [
+            2
+          ],
+          "sourceHash": "ea0f96da4b3a8c2c7c113bf3ba8e003b5d4b86f7086b276c53f9970930ed72c9",
+          "quote": "赵王得楚和氏璧，秦昭王欲之，请易以十五城。赵王欲勿与，畏秦强；欲与之，恐见欺。以问蔺相如，对曰：“秦以城求璧而王不许，曲在我矣。我与之璧而秦不与我城，则曲在秦。均之二策，宁许以负秦。臣愿奉璧而往；使秦城不入，臣请完璧而归之！”赵王遣之。相如至秦，秦王无意偿赵城。相如乃以诈绐秦王，复取璧，遣从者怀之，间行归赵，而以身待命于秦。秦王以为贤而弗诛，礼而归之。赵王以相如为上大夫。"
+        }
+      ],
+      "id": "p-20fb9a52491d-1"
+    },
+    {
+      "title": "蔺相如伐齐，至平邑",
+      "summary": "蔺相如伐齐，至平邑",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 271,
+      "timeLabel": "前271年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 5,
+          "year": 271,
+          "indices": [
+            0
+          ],
+          "sourceHash": "be4b66a96ac489d4247d5f43150f939faed19b118fc38ad6e6a47b107cb60b3b",
+          "quote": "赵蔺相如伐齐，至平邑。"
+        }
+      ],
+      "id": "p-20fb9a52491d-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=藺相如&oldid=91850856",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

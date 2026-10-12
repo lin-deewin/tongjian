@@ -1,0 +1,59 @@
+{
+  "id": "meng-chang-jun",
+  "name": "孟尝君",
+  "aliases": [
+    "孟尝君",
+    "田文"
+  ],
+  "identity": "齐国田氏宗族，名文，以礼贤养士著称。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "入秦为相",
+      "summary": "秦王听闻孟尝君贤能，派泾阳君入齐为质以邀其入秦，任孟尝君为相。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 299,
+      "timeLabel": "前299年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 299,
+          "indices": [
+            5
+          ],
+          "sourceHash": "c0d0736b00c19d71c96198a575df05424887769babe383d5077908c0552741cc",
+          "quote": "秦王闻孟尝君之贤，使泾阳君为质于齐以请。孟尝君来入秦，秦王以为丞相。"
+        }
+      ],
+      "id": "meng-chang-jun-1"
+    },
+    {
+      "title": "遭秦王囚禁后靠门客脱身归齐",
+      "summary": "秦王听信孟尝君先齐后秦之说而囚禁他；门客盗狐白裘取悦秦王宠姬，又以鸡鸣骗过关吏，助他脱逃。",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": 298,
+      "timeLabel": "前298年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 298,
+          "indices": [
+            0
+          ],
+          "sourceHash": "74961a83357fdeebd45649eeec0c235f7364df45c4dbbed9fbba7922bd71af0e",
+          "quote": "或谓秦王曰：“孟尝君相秦，必先齐而后秦；秦其危哉！”秦王乃以楼缓为相，囚孟尝君，欲杀之。孟尝君使人求解于秦王幸姬，姬曰：“愿得君狐白裘。”孟尝君有狐白裘，已献之秦王，无以应姬求。客有善为狗盗者，入秦藏中，盗狐白裘以献姬。姬乃为之言于王而遣之。王后悔，使追之。孟尝君至关，关法，鸡鸣而出客，时尚蚤，追者将至，客有善为鸡鸣者，野鸡闻之皆鸣，孟尝君乃得脱归。"
+        }
+      ],
+      "id": "meng-chang-jun-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=孟尝君&oldid=94692367",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

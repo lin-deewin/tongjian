@@ -1,0 +1,38 @@
+{
+  "id": "xuan-tai-hou",
+  "name": "宣太后",
+  "aliases": [
+    "宣太后",
+    "芈八子"
+  ],
+  "identity": "秦昭襄王之母，楚女；秦昭襄王年少时主政。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "秦昭襄王即位后主持秦政",
+      "summary": "秦武王死后，宣太后之子稷继位为秦昭襄王；昭王年少时由宣太后自治其事。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 305,
+      "timeLabel": "前305年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 305,
+          "indices": [
+            2
+          ],
+          "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+          "quote": "秦宣太后异父弟曰穰侯魏冉，同父弟曰华阳君芈戎；王之同母弟曰高陵君、泾阳君。魏冉最贤，自惠王、武王时，任职用事，武王薨，诸弟争立，唯魏冉力能立昭王。昭王即位，以魏冉为将军，卫咸阳。是岁，庶长壮及大臣、诸公子谋作乱。魏冉诛之；及惠文后皆不得良死，悼武王后出居于魏，王兄弟不善者，魏冉皆灭之。王少，宣太后自治事，任魏冉为政，威震秦国。"
+        }
+      ],
+      "id": "xuan-tai-hou-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=宣太后&oldid=94832478",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "song-wang",
+  "name": "宋王",
+  "aliases": [
+    "宋王",
+    "宋君"
+  ],
+  "identity": "宋国国君；本卷记宋国开始称王，未记其名。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "宋国开始称王",
+      "summary": "宋国开始称王。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 318,
+      "timeLabel": "前318年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 318,
+          "indices": [
+            1
+          ],
+          "sourceHash": "636ec5e901646cb71a33c33cf6e755f930892b61bd630ac5be5bdd4a75e749ca",
+          "quote": "宋初称王。"
+        }
+      ],
+      "id": "song-wang-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=宋康王&oldid=94727201",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

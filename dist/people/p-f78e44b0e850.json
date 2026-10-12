@@ -1,0 +1,37 @@
+{
+  "id": "p-f78e44b0e850",
+  "name": "夫台",
+  "aliases": [
+    "夫台"
+  ],
+  "identity": "夫余王，曾进犯玄菟郡。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "夫余王夫台进犯玄菟，太守公孙域击退",
+      "summary": "夫余王夫台进犯玄菟，太守公孙域击退",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -167,
+      "timeLabel": "公元167年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 56,
+          "year": -167,
+          "indices": [
+            1
+          ],
+          "sourceHash": "09e3adabbb80b3ed97bd2111aaf3ba973be6bd1639378b0e6ddf456723e8db89",
+          "quote": "夫余王夫台寇玄菟；玄菟太守父孙域击破之。"
+        }
+      ],
+      "id": "p-f78e44b0e850-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=夫台&oldid=92236398",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

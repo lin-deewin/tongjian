@@ -1,0 +1,37 @@
+{
+  "id": "p-1217dffb54c8",
+  "name": "程骏",
+  "aliases": [
+    "程骏"
+  ],
+  "identity": "北魏官员，曾上疏议礼。",
+  "birthYear": -414,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "程骏谏祔庙百司不当受封",
+      "summary": "程骏谏祔庙百司不当受封",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -476,
+      "timeLabel": "公元476年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 134,
+          "year": -476,
+          "indices": [
+            5
+          ],
+          "sourceHash": "4c6cb042c574b843a182ce16fa49a98d7cf8a0e3c4d1f104cc6fe5bb489a99be",
+          "quote": "显祖神主祔太庙，有司奏庙中执事之官，请依故事皆赐爵。秘书令广平程骏上言：「建侯裂地，帝王所重，或以亲贤，或因功伐，未闻神主祔庙而百司受封者也。皇家故事，盖一时之恩，岂可为长世之法乎！」太后善而从之，谓群臣曰：「凡议事，当依古典正言，岂得但修故事！」而赐骏衣一袭，帛二百匹。"
+        }
+      ],
+      "id": "p-1217dffb54c8-1"
+    }
+  ],
+  "deathYear": -485,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=程駿&oldid=93793215",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

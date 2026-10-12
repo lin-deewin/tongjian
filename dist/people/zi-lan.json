@@ -1,0 +1,38 @@
+{
+  "id": "zi-lan",
+  "name": "子兰",
+  "aliases": [
+    "子兰",
+    "楚王子兰"
+  ],
+  "identity": "楚怀王之子。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "劝楚怀王赴秦会盟",
+      "summary": "楚怀王担心赴秦受骗时，子兰劝其前往，楚怀王因此入秦并遭扣留。",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": 299,
+      "timeLabel": "前299年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 299,
+          "indices": [
+            3
+          ],
+          "sourceHash": "c698fca045fc1cb8a891bb1ebb141af2821f771285ca69b74e102d6a5e7b8f1a",
+          "quote": "楚王患之，欲往恐见欺，欲不往恐秦益怒。昭睢曰：“毋行而发兵自守耳！秦，虎狼也，有并诸侯之心，不可信也！”怀王之子兰劝王行，王乃入秦。秦王令一将军诈为王，伏兵武关，楚王至则闭关劫之，与俱西，至咸阳，朝章台，如藩臣礼，要以割巫、黔中郡。楚王欲盟，秦王欲先得地。楚王怒曰：“秦诈我，而又强要我以地！”因不复许。秦人留之。"
+        }
+      ],
+      "id": "zi-lan-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=子兰&oldid=94501662",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "tang-mei",
+  "name": "唐昧",
+  "aliases": [
+    "唐昧",
+    "唐蔑"
+  ],
+  "identity": "楚国将领。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "重丘之战被秦、齐、韩、魏联军击杀",
+      "summary": "秦庶长奂会同韩、魏、齐军攻楚，在重丘击败楚军并杀其将唐昧。",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 301,
+      "timeLabel": "前301年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 301,
+          "indices": [
+            3
+          ],
+          "sourceHash": "a0ed38de026fd51c57d1dcf6d02234cee409de7eaf1eca7684fff2ab414336dc",
+          "quote": "秦庶长奂会韩、魏、齐兵伐楚，败其师于重丘，杀其将唐昧；遂取重丘。"
+        }
+      ],
+      "id": "tang-mei-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=唐眜&oldid=94717709",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

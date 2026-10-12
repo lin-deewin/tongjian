@@ -1,0 +1,58 @@
+{
+  "id": "fei-yi",
+  "name": "肥义",
+  "aliases": [
+    "肥义"
+  ],
+  "identity": "赵国大臣，辅佐赵武灵王推行胡服骑射，后任赵国相国。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "参与商议胡服骑射",
+      "summary": "赵武灵王与肥义商议改穿胡服、训练骑射，以应对周边形势。",
+      "kind": "相关提及",
+      "category": "改革",
+      "year": 307,
+      "timeLabel": "前307年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 307,
+          "indices": [
+            2
+          ],
+          "sourceHash": "ddad165bd9f90b262014e67b70490d93733cee595b3b115f1a8b7e7414406f4d",
+          "quote": "赵武灵王北略中山之地，至房子，遂至代，北至无穷，西至河，登黄华之上。与肥义谋胡服骑射以教百姓，曰：“愚者所笑，贤者察焉。虽驱世以笑我，胡地、中山，吾必有之！”遂胡服。"
+        }
+      ],
+      "id": "fei-yi-1"
+    },
+    {
+      "title": "任相国辅佐赵王何",
+      "summary": "赵武灵王传位赵何后，任肥义为相国并辅佐新王。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 299,
+      "timeLabel": "前299年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 299,
+          "indices": [
+            0
+          ],
+          "sourceHash": "89f2463f8881b8bb3060edde0b9a3d59ca478f5474fa981ba911346e21291231",
+          "quote": "五月戊申，大朝东宫，传国于何，王庙见礼毕，出临朝，大夫悉为臣。肥义为相国，并傅王。武灵王自号“主父”。主父欲使子治国，身胡服，将士大夫西北略胡地。将自云中、九原南袭咸阳，于是诈自为使者，入秦。欲以观秦地形及秦王之为人，秦王不知，已而怪其状甚伟，非人臣之度，使人逐之；主父行已脱关矣，审问之，乃主父也。秦人大惊。"
+        }
+      ],
+      "id": "fei-yi-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=肥義&oldid=71381395",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

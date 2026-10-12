@@ -1,0 +1,37 @@
+{
+  "id": "p-fcf5087ddf60",
+  "name": "卫菩萨",
+  "aliases": [
+    "卫菩萨"
+  ],
+  "identity": "北齐大臣，曾任太尉。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "北齐任卫菩萨为太尉、高元海为尚书左仆射",
+      "summary": "北齐任卫菩萨为太尉、高元海为尚书左仆射",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -572,
+      "timeLabel": "公元572年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 171,
+          "year": -572,
+          "indices": [
+            5
+          ],
+          "sourceHash": "3721eef1dc96beba29c0e34cf802ee1802d8dc5aa7f7d8b22369688036662d3b",
+          "quote": "己卯，齐以卫菩萨为太尉。辛巳，以并省吏部尚书高元海为尚书左仆射。"
+        }
+      ],
+      "id": "p-fcf5087ddf60-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=卫菩萨&oldid=74021818",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

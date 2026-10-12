@@ -1,0 +1,38 @@
+{
+  "id": "qin-shu-chang-huan",
+  "name": "秦庶长奂",
+  "aliases": [
+    "庶长奂",
+    "奂"
+  ],
+  "identity": "秦国将领。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "会同三国伐楚并取重丘",
+      "summary": "秦庶长奂会合韩、魏、齐军攻楚，在重丘击败楚军、杀唐昧并取重丘。",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 301,
+      "timeLabel": "前301年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 301,
+          "indices": [
+            3
+          ],
+          "sourceHash": "a0ed38de026fd51c57d1dcf6d02234cee409de7eaf1eca7684fff2ab414336dc",
+          "quote": "秦庶长奂会韩、魏、齐兵伐楚，败其师于重丘，杀其将唐昧；遂取重丘。"
+        }
+      ],
+      "id": "qin-shu-chang-huan-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/wiki/庶长奂",
+  "birthStatus": "unknown",
+  "birthNote": "核对秦昭襄王时的庶长奂，资料未载明确生年。"
+}

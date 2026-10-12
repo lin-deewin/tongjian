@@ -1,0 +1,38 @@
+{
+  "id": "qu-gai",
+  "name": "屈匄",
+  "aliases": [
+    "屈匄",
+    "屈丐"
+  ],
+  "identity": "楚国将领，率军与秦军交战。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "丹阳之战兵败被俘",
+      "summary": "楚军在丹阳败于秦军，屈匄及楚国列侯、执圭多人被俘。",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 312,
+      "timeLabel": "前312年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 312,
+          "indices": [
+            0
+          ],
+          "sourceHash": "e3103a8cc58918bf584a170e3de2ad33ddf5bc9da11de3d543645935fd79626f",
+          "quote": "春，秦师及楚战于丹阳，楚师大败，斩甲士八万，虏屈匄及列侯、执圭七十余人，遂取汉中郡。楚王悉发国内兵以复袭秦，战于蓝田，楚师大败。韩、魏闻楚之困，南袭楚，至邓。楚人闻之，乃引兵归，割两城以请平于秦。"
+        }
+      ],
+      "id": "qu-gai-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=屈匄&oldid=84690808",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

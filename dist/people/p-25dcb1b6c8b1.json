@@ -1,0 +1,38 @@
+{
+  "id": "p-25dcb1b6c8b1",
+  "name": "秦孝文王",
+  "aliases": [
+    "秦孝文王",
+    "孝文王"
+  ],
+  "identity": "秦昭襄王之后继位的秦王。",
+  "birthYear": 302,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "秦孝文王卒，庄襄王继位",
+      "summary": "秦孝文王卒，庄襄王继位",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 250,
+      "timeLabel": "前250年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 6,
+          "year": 250,
+          "indices": [
+            0
+          ],
+          "sourceHash": "994daecc810c72d1c39354ccddb15b8912a35a1dc7282dc2169ef1868be66165",
+          "quote": "冬，十月，己亥，王即位；三日薨。子楚立，是为庄襄王；尊华阳夫人为华阳太后，夏姬为夏太后。"
+        }
+      ],
+      "id": "p-25dcb1b6c8b1-1"
+    }
+  ],
+  "deathYear": 250,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=秦孝文王&oldid=93826498",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

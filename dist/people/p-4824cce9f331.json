@@ -1,0 +1,58 @@
+{
+  "id": "p-4824cce9f331",
+  "name": "宇文深",
+  "aliases": [
+    "宇文深"
+  ],
+  "identity": "北周宗室与大臣。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "西魏的宇文深劝说丞相宇文泰取恒农",
+      "summary": "西魏的宇文深劝说丞相宇文泰取恒农",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -537,
+      "timeLabel": "公元537年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 157,
+          "year": -537,
+          "indices": [
+            15
+          ],
+          "sourceHash": "1f7eeb8a921235f38a8d24cc580ee59000c54cadd78dc5930d21f182a6cc7f81",
+          "quote": "魏宇文深劝丞相泰取恒农，八月，丁丑，泰帅李弼等十二将伐东魏，以北雍州刺史于谨为前锋，攻盘豆，拔之。戊子，至恒农，庚寅，拔之，擒东魏陕州刺史李徽伯，俘其战士八千。"
+        }
+      ],
+      "id": "p-4824cce9f331-1"
+    },
+    {
+      "title": "北周派宇文深出使突厥",
+      "summary": "北周派宇文深出使突厥",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -572,
+      "timeLabel": "公元572年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 171,
+          "year": -572,
+          "indices": [
+            4
+          ],
+          "sourceHash": "307dd92dcfff45985e061231e843e4c717dc225c86c22cead0142dace63aa941",
+          "quote": "二月癸酉，周遣大将军昌城公深聘于突厥，司宾李除、小宾部贺遂礼聘于齐。深，护之子也。"
+        }
+      ],
+      "id": "p-4824cce9f331-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=宇文深&oldid=82386668",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

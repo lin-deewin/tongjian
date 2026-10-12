@@ -1,0 +1,38 @@
+{
+  "id": "zou-yan",
+  "name": "邹衍",
+  "aliases": [
+    "邹衍",
+    "邹子"
+  ],
+  "identity": "齐人，阴阳家学者；本卷记载其在赵与公孙龙论辩。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "批评以巧言争胜的辩说",
+      "summary": "邹衍反对用繁饰辞令使人迷惑，认为辩论应厘清类别、传达意思，不应以争胜为目的。",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": 298,
+      "timeLabel": "前298年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 298,
+          "indices": [
+            3
+          ],
+          "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3",
+          "quote": "邹衍过赵，平原君使与公孙龙论白马非马之说。邹子曰：“不可。夫辩者，别殊类使不相害，序异端使不相乱。抒意通指，明其所谓，使人与知焉，不务相迷也。故胜者不失其所守，不胜者得其所求。若是，故辩可为也。及至烦文以相假，饰辞以相敦，巧譬以相移，引人使不得及其意，如此害大道。夫缴纫争言而竞后息，不能无害君子，衍不为也。”座皆称善。公孙龙由是遂诎。"
+        }
+      ],
+      "id": "zou-yan-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=邹衍_(战国)&oldid=87228677",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

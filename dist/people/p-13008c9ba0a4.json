@@ -1,0 +1,163 @@
+{
+  "id": "p-13008c9ba0a4",
+  "name": "李彝殷",
+  "aliases": [
+    "李彝殷"
+  ],
+  "identity": "定难军节度使。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "夏州节度使李彝超病卒由其兄李彝殷权领军州",
+      "summary": "夏州节度使李彝超病卒由其兄李彝殷权领军州",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元935年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 279,
+          "year": -935,
+          "indices": [
+            3
+          ],
+          "sourceHash": "9c6c15d9b9c48f3fe1acb746001a09e54aa0867a21c847544fc636694b1185dc",
+          "quote": "丁丑，夏州节度使李彝超上言疾病，以兄行军司马彝殷权佑军州事；彝超寻卒。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-1"
+    },
+    {
+      "title": "后唐任李彝殷为定难节度使",
+      "summary": "后唐任李彝殷为定难节度使",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -935,
+      "timeLabel": "公元935年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 279,
+          "year": -935,
+          "indices": [
+            8
+          ],
+          "sourceHash": "74deacc4e1d0dabcf3b9b57a12deac3b2dc4ebc71269d2fb17aba4656ec1903c",
+          "quote": "以李彝殷为定难节度使。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-2"
+    },
+    {
+      "title": "定难节度使李彝殷派使者向北汉进表",
+      "summary": "定难节度使李彝殷派使者向北汉进表",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元951年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 290,
+          "year": -951,
+          "indices": [
+            52
+          ],
+          "sourceHash": "a8ea32cb71a08e4e1a45333a63d6c75d3a7bdbd58c8467b2979ed24b83b9aeb0",
+          "quote": "定难节度使李彝殷遣使奉表于北汉。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-3"
+    },
+    {
+      "title": "定难节度使李彝殷请兵讨伐羌族叛军，朝廷以不宜先动兵劝止",
+      "summary": "定难节度使李彝殷请兵讨伐羌族叛军，朝廷以不宜先动兵劝止",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元948年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 288,
+          "year": -948,
+          "indices": [
+            18
+          ],
+          "sourceHash": "d476c4b34bb1c50e65280a0967ff32ce898fb1288514d53c5246cf526d90fc56",
+          "quote": "定难节度使李彝殷发兵屯境上，奏称：「去三载前羌族辷毋杀绥州刺史李仁裕叛去，请讨之。」庆州上言：「请益兵为备。」诏以司天言，今岁不利先举兵，谕止之。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-4"
+    },
+    {
+      "title": "高允权与李彝殷因边界冲突求援，朝廷出面调解",
+      "summary": "高允权与李彝殷因边界冲突求援，朝廷出面调解",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -948,
+      "timeLabel": "公元948年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 288,
+          "year": -948,
+          "indices": [
+            65
+          ],
+          "sourceHash": "44216f9dc3ed5e413e0e1c89cafd33025a4e1881d2452a1e21ec3a8dc6c7a969",
+          "quote": "彰武节度使高允权与定难节度使李彝殷有隙，李守贞密求援于彝殷，发兵屯延、丹境上，闻官军围河中，乃退。甲辰，允权以状闻，彝殷亦自诉，朝廷和解之。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-5"
+    },
+    {
+      "title": "后汉将静州划归定难军，李彝殷表谢并继续观望局势",
+      "summary": "后汉将静州划归定难军，李彝殷表谢并继续观望局势",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元949年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 288,
+          "year": -949,
+          "indices": [
+            5
+          ],
+          "sourceHash": "8156426bf16e2b21009515ff15d32a56f2e73efa0492a099720813df9aa6c07b",
+          "quote": "诏以静州隶定难军，二月，辛未，李彝殷上表谢。彝殷以中原多故，有轻傲之志，每藩镇有叛者，常阴助之，邀其重赂。朝廷知其事，亦以恩泽羁縻之。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-6"
+    },
+    {
+      "title": "后晋任李彝殷为契丹西南面招讨使",
+      "summary": "后晋任李彝殷为契丹西南面招讨使",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -944,
+      "timeLabel": "公元944年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 284,
+          "year": -944,
+          "indices": [
+            4
+          ],
+          "sourceHash": "1f61bd71780a716034689eae801cd562f7bbb1d07a583820230153f6c2f2d688",
+          "quote": "辛亥，定难节度使李彝殷奏将兵四万自麟州济河，侵契丹之境。壬子，以彝殷为契丹西南面招讨使。"
+        }
+      ],
+      "id": "p-13008c9ba0a4-7"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=李彝殷&oldid=94682406",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

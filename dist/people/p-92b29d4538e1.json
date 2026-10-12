@@ -1,0 +1,39 @@
+{
+  "id": "p-92b29d4538e1",
+  "name": "汉元帝",
+  "aliases": [
+    "汉元帝",
+    "元帝",
+    "刘奭"
+  ],
+  "identity": "西汉皇帝，名刘奭。",
+  "birthYear": 75,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "太子即位，是为汉元帝",
+      "summary": "太子即位，是为汉元帝",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前49年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 27,
+          "year": 49,
+          "indices": [
+            5
+          ],
+          "sourceHash": "b72fa2da5fcf5b1018f9f1c4f1190e799f15fd8e79534a38a1eccedb5c96da67",
+          "quote": "癸巳，太子即皇帝位，谒高庙，尊皇太后曰太皇太后，皇后曰皇太后。"
+        }
+      ],
+      "id": "p-92b29d4538e1-1"
+    }
+  ],
+  "deathYear": 33,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=汉元帝&oldid=91055976",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

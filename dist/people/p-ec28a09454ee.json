@@ -1,0 +1,100 @@
+{
+  "id": "p-ec28a09454ee",
+  "name": "孟观",
+  "aliases": [
+    "孟观"
+  ],
+  "identity": "西晋将领，参与平定齐万年之乱。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "孟观、李肇伪造诏书，诬杨骏谋反并发兵讨伐",
+      "summary": "孟观、李肇伪造诏书，诬杨骏谋反并发兵讨伐",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -291,
+      "timeLabel": "公元291年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 82,
+          "year": -291,
+          "indices": [
+            3
+          ],
+          "sourceHash": "6c47d413c25189c4bcdb705248d1d07c2a77ee2d781f5b69c767e2d16c124e93",
+          "quote": "三月，辛卯，孟观、李肇启帝，夜作诏，诬骏谋反，中外戒严，遣使奉诏废骏，以侯就第。命东安公繇帅殿中四百人讨骏，楚王玮屯司马门，以淮南相刘颂为三公尚书，屯卫殿中。段广跪言于帝曰：「杨骏孙公无子，岂有反理，愿陛下审之！」帝不答。"
+        }
+      ],
+      "id": "p-ec28a09454ee-1"
+    },
+    {
+      "title": "张华、陈准荐孟观讨伐齐万年，孟观屡战获胜",
+      "summary": "张华、陈准荐孟观讨伐齐万年，孟观屡战获胜",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元298年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 82,
+          "year": -298,
+          "indices": [
+            4
+          ],
+          "sourceHash": "c32ccfd79573dc8579118995998cf91ffd43a99fb5fdcaf1efa30b354b230949",
+          "quote": "张华、陈准以赵王、梁王，相继在关中，皆雍容骄贵，师老无功，乃荐孟观沈毅文武才用，使讨齐万年。观身当矢石，大战十数皆破之。"
+        }
+      ],
+      "id": "p-ec28a09454ee-2"
+    },
+    {
+      "title": "孟观大破氐军，俘获齐万年",
+      "summary": "孟观大破氐军，俘获齐万年",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -299,
+      "timeLabel": "公元299年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 83,
+          "year": -299,
+          "indices": [
+            0
+          ],
+          "sourceHash": "a73cc5177b4793c46fd8901f450306436a1d3ed065fe88ab0277c95b579c3ca9",
+          "quote": "春，正月孟观大破氐众于中亭，获齐万年。"
+        }
+      ],
+      "id": "p-ec28a09454ee-3"
+    },
+    {
+      "title": "孟观占卜赵伦不会败，留守洛阳助伦",
+      "summary": "孟观占卜赵伦不会败，留守洛阳助伦",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -301,
+      "timeLabel": "公元301年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 84,
+          "year": -301,
+          "indices": [
+            16
+          ],
+          "sourceHash": "2430f276ba17dc2c2a2e79be425bfe08a8682fdd31110cf465e9bf74a8a25988",
+          "quote": "安南将军、监沔北诸军事孟观，以为紫宫帝座无他变，伦必不败，乃为之固守。"
+        }
+      ],
+      "id": "p-ec28a09454ee-4"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=孟觀&oldid=86489796",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

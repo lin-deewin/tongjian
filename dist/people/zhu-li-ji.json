@@ -1,0 +1,101 @@
+{
+  "id": "zhu-li-ji",
+  "name": "樗里疾",
+  "aliases": [
+    "樗里疾",
+    "樗里子"
+  ],
+  "identity": "秦国宗室与将相，秦武王时任右丞相。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "任秦右丞相",
+      "summary": "秦国初置丞相，秦武王任樗里疾为右丞相。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 309,
+      "timeLabel": "前309年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 309,
+          "indices": [
+            0
+          ],
+          "sourceHash": "6db323ddade80e772b9b19f9aa1ef64412ef959310b88bcc765039af5663fc36",
+          "quote": "秦初置丞相，以樗里疾为右丞相。"
+        }
+      ],
+      "id": "zhu-li-ji-1"
+    },
+    {
+      "title": "反对甘茂继续攻宜阳",
+      "summary": "甘茂攻宜阳受阻时，樗里子与公孙奭果然争议撤兵，秦王一度召甘茂回师。",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": 307,
+      "timeLabel": "前307年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 307,
+          "indices": [
+            0
+          ],
+          "sourceHash": "f83a6143f29b15a4a64428f92cfe2a4c057b310501762c47c1dbef060954c21a",
+          "quote": "甘茂攻宜阳，五月而不拔。樗里子、公孙奭果争之。秦王召甘茂，欲罢兵。甘茂曰：“息壤在彼。”王曰：“有之。”因大悉起兵以佐甘茂，斩首六万，遂拔宜阳。韩公仲侈入谢于秦以请平。"
+        }
+      ],
+      "id": "zhu-li-ji-2"
+    },
+    {
+      "title": "与魏交涉后停止伐魏",
+      "summary": "秦昭王命樗里子与甘茂攻魏，后来樗里子与魏国议和而罢兵。",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 306,
+      "timeLabel": "前306年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 306,
+          "indices": [
+            0
+          ],
+          "sourceHash": "9367c3d06020d234948030cba431475ece513c402240c19d4f7c8384c00166d0",
+          "quote": "秦昭王使向寿平宜阳，而使樗里子、甘茂伐魏。甘茂言于王，以武遂复归之韩。向寿、公孙奭争之，不能得，由此怨谗甘茂。茂惧，辍伐魏蒲阪，亡去。樗里子与魏讲而罢兵，甘茂奔齐。"
+        }
+      ],
+      "id": "zhu-li-ji-3"
+    },
+    {
+      "title": "去世，楼缓继任秦相",
+      "summary": "樗里疾去世，秦国任赵人楼缓为丞相。",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 300,
+      "timeLabel": "前300年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 300,
+          "indices": [
+            2
+          ],
+          "sourceHash": "4e8c32470ef454643acf473e412f2bddd79eac657479fe59e5e9703e783a4bc0",
+          "quote": "秦樗里疾卒，以赵人楼缓为丞相"
+        }
+      ],
+      "id": "zhu-li-ji-4"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=樗里子&oldid=91804780",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "p-5f9c3a5e86e1",
+  "name": "王劢",
+  "aliases": [
+    "王劢"
+  ],
+  "identity": "南朝陈大臣。",
+  "birthYear": -506,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "陈朝任徐陵、王劢为左右仆射",
+      "summary": "陈朝任徐陵、王劢为左右仆射",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元572年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 171,
+          "year": -572,
+          "indices": [
+            0
+          ],
+          "sourceHash": "05199a5c2c1d91c3f663d15d611d7d65f99921da36fc135c4b5660ebae8fa3be",
+          "quote": "春，正月，丙午，以尚书仆射徐陵为左仆射，中书监王劢为右仆射。"
+        }
+      ],
+      "id": "p-5f9c3a5e86e1-1"
+    },
+    {
+      "title": "王劢去世",
+      "summary": "王劢去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -572,
+      "timeLabel": "公元572年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 171,
+          "year": -572,
+          "indices": [
+            25
+          ],
+          "sourceHash": "8ef9a2e506860fa925d4da6e2116d383039c82ebf271f7fc12e20fa6040692af",
+          "quote": "癸巳，周立皇子鲁公赟为太子，大赦。"
+        }
+      ],
+      "id": "p-5f9c3a5e86e1-2"
+    }
+  ],
+  "deathYear": -572,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=王劢&oldid=88450772",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

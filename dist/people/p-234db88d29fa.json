@@ -1,0 +1,37 @@
+{
+  "id": "p-234db88d29fa",
+  "name": "霍谞",
+  "aliases": [
+    "霍谞"
+  ],
+  "identity": "东汉官员，曾与范滂交往。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "范滂探望霍谞后返乡，拒绝名士迎送",
+      "summary": "范滂探望霍谞后返乡，拒绝名士迎送",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -167,
+      "timeLabel": "公元167年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 56,
+          "year": -167,
+          "indices": [
+            5
+          ],
+          "sourceHash": "3039a1c6f8f6e23f39d7bd68524c690f144a6662e221994e1bb55f81b59c3691",
+          "quote": "范滂往候霍谞而不谢。或让之，滂曰：「昔叔向不见祁奚，吾何谢焉！」滂南归汝南，南阳士大夫迎之者，车数千两，乡人殷陶、黄穆侍卫于旁，应对宾客。滂谓陶等曰：「今子相随，是重吾祸也！」遂遁还乡里。"
+        }
+      ],
+      "id": "p-234db88d29fa-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=霍諝&oldid=88585611",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

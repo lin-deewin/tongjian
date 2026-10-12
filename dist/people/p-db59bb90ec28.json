@@ -1,0 +1,58 @@
+{
+  "id": "p-db59bb90ec28",
+  "name": "张滂",
+  "aliases": [
+    "张滂"
+  ],
+  "identity": "唐朝财政官员，参与盐铁事务。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "窦参让班宏担任度支副使，又举荐张滂分管盐铁",
+      "summary": "窦参让班宏担任度支副使，又举荐张滂分管盐铁",
+      "kind": "相关提及",
+      "category": "改革",
+      "year": null,
+      "timeLabel": "记载于公元792年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 234,
+          "year": -792,
+          "indices": [
+            4
+          ],
+          "sourceHash": "8ec62c135082c01b3cfe97b01e85408fd2c14f334b7d4b8333dbdb9ee916b421",
+          "quote": "初，窦参为度支转运使，班宏副之。参许宏，俟一岁以使职归之，岁余，参无归意；宏怒。司农少卿张滂．宏所荐也，少，始照翻。滂普郎翻。参欲使滂分主江、淮盐铁，宏不可；滂知之，亦怨宏。及参为上所疏，乃让度支使于宏，又不欲利权专归于宏，乃荐滂于上；以滂为户部侍郎、盐铁转运使，乃隶于宏以悦之。"
+        }
+      ],
+      "id": "p-db59bb90ec28-1"
+    },
+    {
+      "title": "张滂请求禁止私铸铜器并允许开采铜矿",
+      "summary": "张滂请求禁止私铸铜器并允许开采铜矿",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -793,
+      "timeLabel": "公元793年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 234,
+          "year": -793,
+          "indices": [
+            2
+          ],
+          "sourceHash": "2e771fdc2d44551588c28aa59a95385dd3d0a9c7a8215c29117fefd88fb9b305",
+          "quote": "二月，甲寅，以义武留后张升云为节度使。"
+        }
+      ],
+      "id": "p-db59bb90ec28-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=張滂_(唐朝)&oldid=83828761",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

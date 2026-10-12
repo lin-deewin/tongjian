@@ -1,0 +1,165 @@
+{
+  "id": "p-f647887dc254",
+  "name": "汉武帝",
+  "aliases": [
+    "汉武帝",
+    "武帝",
+    "刘彻"
+  ],
+  "identity": "汉朝皇帝，名刘彻，在位期间多次对外用兵并改革政务。",
+  "birthYear": null,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "景帝立刘荣为太子，刘彻封胶东王",
+      "summary": "景帝立刘荣为太子，刘彻封胶东王",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前153年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 16,
+          "year": 153,
+          "indices": [
+            1
+          ],
+          "sourceHash": "3f6652479a417450ac1363ef1bd9425c6183ce9d25b22ccc3d76d3a92574ac03",
+          "quote": "夏，四月，己巳，立子荣为皇太子，彻为胶东王。"
+        }
+      ],
+      "id": "p-f647887dc254-1"
+    },
+    {
+      "title": "追叙王夫人生刘彻，母家由卜者预言显贵",
+      "summary": "追叙王夫人生刘彻，母家由卜者预言显贵",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前151年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 16,
+          "year": 151,
+          "indices": [
+            3
+          ],
+          "sourceHash": "884d1940de6ad2db6ad4bda29a333cd8473602bf458f5c154972e26b50192d4c",
+          "quote": "初，燕王臧荼有孙女曰臧儿，嫁为槐里王仲妻，生男信与两女而仲死；更嫁长陵田氏，生男蚡、胜。文帝时，臧儿长女为金王孙妇，生女俗。臧儿卜筮之，曰：“两女皆当贵。”臧儿乃夺金氏妇，金氏怒，不肯予决；内之太子官，生男彻。彻方在身时，王夫人梦日入其怀。"
+        }
+      ],
+      "id": "p-f647887dc254-2"
+    },
+    {
+      "title": "景帝立刘彻为皇太子",
+      "summary": "景帝立刘彻为皇太子",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 150,
+      "timeLabel": "前150年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 16,
+          "year": 150,
+          "indices": [
+            4
+          ],
+          "sourceHash": "cdf62bcc7e6eec0566250ead320cae7f79172afb34e29057998f7c87c289b6eb",
+          "quote": "丁巳，立胶东王彻为皇太子。"
+        }
+      ],
+      "id": "p-f647887dc254-3"
+    },
+    {
+      "title": "皇太子刘彻行冠礼",
+      "summary": "皇太子刘彻行冠礼",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 141,
+      "timeLabel": "前141年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 16,
+          "year": 141,
+          "indices": [
+            3
+          ],
+          "sourceHash": "726c71a44d85c64347aec9ac98104fc83308b2e7db5b57abb399d2cbff2f96f5",
+          "quote": "甲寅，皇太子冠。"
+        }
+      ],
+      "id": "p-f647887dc254-4"
+    },
+    {
+      "title": "景帝崩，刘彻即位，是为武帝",
+      "summary": "景帝崩，刘彻即位，是为武帝",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 141,
+      "timeLabel": "前141年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 16,
+          "year": 141,
+          "indices": [
+            4
+          ],
+          "sourceHash": "4563d3990ea2dd0867f1d5fbe18a447f70fe5958402a7912c4f9c48600730fca",
+          "quote": "甲子，帝崩于未央宫。太子即皇帝位，年十六。尊皇太后为太皇太后，皇后为皇太后。"
+        }
+      ],
+      "id": "p-f647887dc254-5"
+    },
+    {
+      "title": "汉武帝葬茂陵",
+      "summary": "汉武帝葬茂陵",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前87年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 22,
+          "year": 87,
+          "indices": [
+            6
+          ],
+          "sourceHash": "3b4db944539f1fe89dabf56a048ebafca2aca701b1302ec59f568b1917f51aee",
+          "quote": "三月，甲辰，葬孝武皇帝于茂陵。"
+        }
+      ],
+      "id": "p-f647887dc254-6"
+    },
+    {
+      "title": "刘晔评曹叡才略可比秦始皇、汉武帝",
+      "summary": "刘晔评曹叡才略可比秦始皇、汉武帝",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元226年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 70,
+          "year": -226,
+          "indices": [
+            8
+          ],
+          "sourceHash": "20fb1fa7463fad10ec9e62c2a7d6891a930df3dea0d5809a40381bf0b1ca68b2",
+          "quote": "初，明帝在东宫，不交朝臣，不问政事，惟潜思书籍；即位之后，群下想闻风采。居数日，独见侍中刘晔，语尽日，众人侧听，晔既出，问：「何如﹖」：「秦始皇、汉孝武之俦，才具微不及耳。」"
+        }
+      ],
+      "id": "p-f647887dc254-7"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=汉武帝&oldid=94598209",
+  "birthStatus": "disputed",
+  "birthNote": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+}

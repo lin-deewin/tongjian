@@ -1,0 +1,79 @@
+{
+  "id": "p-7b6dfa86c85c",
+  "name": "邓遵",
+  "aliases": [
+    "邓遵"
+  ],
+  "identity": "东汉将领，参与对匈奴作战。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "邓遵率南匈奴击败零昌",
+      "summary": "邓遵率南匈奴击败零昌",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -116,
+      "timeLabel": "公元116年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 50,
+          "year": -116,
+          "indices": [
+            3
+          ],
+          "sourceHash": "1faf55e7dbe63e936dcada2af385668f0bda55d94ca6d7b8a4af96ac8139ed95",
+          "quote": "癸酉，度辽将军遵率南单于击零昌于灵州，斩首八百余级。〕"
+        }
+      ],
+      "id": "p-7b6dfa86c85c-1"
+    },
+    {
+      "title": "邓遵招募羌人刺杀狼莫，任尚因贪赃被诛",
+      "summary": "邓遵招募羌人刺杀狼莫，任尚因贪赃被诛",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -118,
+      "timeLabel": "公元118年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 50,
+          "year": -118,
+          "indices": [
+            5
+          ],
+          "sourceHash": "6d92fd8fe0071be01024f96481b0cbbc0781d057a18d7e45f655eb3814ff504a",
+          "quote": "邓遵募上郡全无种羌雕何刺杀狼莫；封雕何为羌侯。自羌叛十余年间，军旅之费，凡用二百四十余亿，府帑空竭，边民及内郡死者不可胜数，并、凉二州遂至虚耗。及零昌、狼莫死，诸羌瓦解，三辅、益州无复寇警。诏封邓遵为武阳侯，邑三千户。遵以太后从第，故爵封优大。任尚与遵争功，又坐诈增首级、受赇枉法赃千万已上，十二月，槛车征尚，弃市，没入财物。邓骘子侍中凤尝受尚马，骘髡妻及凤以谢罪。"
+        }
+      ],
+      "id": "p-7b6dfa86c85c-2"
+    },
+    {
+      "title": "邓遵、马续大破入寇鲜卑",
+      "summary": "邓遵、马续大破入寇鲜卑",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -119,
+      "timeLabel": "公元119年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 50,
+          "year": -119,
+          "indices": [
+            4
+          ],
+          "sourceHash": "41aeed6350f7956d19c683d7b0e6344889457e80280dd6f6ad9f716328530106",
+          "quote": "秋，七月，鲜卑寇马城塞，杀长吏，度辽将军邓遵及中郎将马续率南单于追击，大破之。"
+        }
+      ],
+      "id": "p-7b6dfa86c85c-3"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=鄧遵&oldid=93188396",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

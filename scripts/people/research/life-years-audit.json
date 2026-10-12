@@ -1,0 +1,3922 @@
+{
+  "reviewedAt": "2026-10-12",
+  "counts": {
+    "confirmed": 185,
+    "unknown": 170,
+    "disputed": 15,
+    "approximate": 13,
+    "unconfirmed": 8
+  },
+  "people": [
+    {
+      "id": "wu-qi",
+      "name": "吴起",
+      "status": "confirmed",
+      "article": "吴起",
+      "revision": 94427664,
+      "evidence": "前440年",
+      "identity": "卫人，先后在鲁、魏、楚任职。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=吴起&oldid=94427664"
+    },
+    {
+      "id": "wei-wen-hou",
+      "name": "魏文侯",
+      "status": "unknown",
+      "article": "魏文侯",
+      "revision": 94875785,
+      "evidence": "？",
+      "identity": "魏氏君主，名斯，魏桓子之孙。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏文侯&oldid=94875785"
+    },
+    {
+      "id": "zhao-xiang-zi",
+      "name": "赵襄子",
+      "status": "unknown",
+      "article": "趙襄子",
+      "revision": 92717129,
+      "evidence": "（？—前443年）",
+      "identity": "晋国赵氏宗主，赵简子之子，名无恤。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=趙襄子&oldid=92717129"
+    },
+    {
+      "id": "zhi-bo",
+      "name": "智伯",
+      "status": "unknown",
+      "article": "荀瑶",
+      "revision": 92666899,
+      "evidence": "（？—前453年）",
+      "identity": "晋国智氏宗主，智宣子的继承人。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=荀瑶&oldid=92666899"
+    },
+    {
+      "id": "yu-rang",
+      "name": "豫让",
+      "status": "unknown",
+      "article": "豫讓",
+      "revision": 92753190,
+      "evidence": "（？—約前453年）",
+      "identity": "智伯之臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=豫讓&oldid=92753190"
+    },
+    {
+      "id": "shang-yang",
+      "name": "商鞅",
+      "status": "confirmed",
+      "article": "商鞅",
+      "revision": 93876564,
+      "evidence": "公元前390年",
+      "identity": "卫国宗室后裔，在秦任职。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=商鞅&oldid=93876564"
+    },
+    {
+      "id": "sun-bin",
+      "name": "孙膑",
+      "status": "disputed",
+      "article": "孙膑",
+      "revision": 94766626,
+      "evidence": "前382年",
+      "identity": "兵法家，在齐国参与军事谋划；此档案中的“孙子”指孙膑。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孙膑&oldid=94766626"
+    },
+    {
+      "id": "pang-juan",
+      "name": "庞涓",
+      "status": "confirmed",
+      "article": "庞涓",
+      "revision": 93029230,
+      "evidence": "公元前385年",
+      "identity": "魏国将领，与孙膑同学兵法。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=庞涓&oldid=93029230"
+    },
+    {
+      "id": "wei-xiang-wang",
+      "name": "魏襄王",
+      "status": "unknown",
+      "article": "魏襄王",
+      "revision": 94719641,
+      "evidence": "？",
+      "identity": "魏惠王之子，继位为魏王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏襄王&oldid=94719641"
+    },
+    {
+      "id": "meng-zi",
+      "name": "孟子",
+      "status": "disputed",
+      "article": "孟子",
+      "revision": 94044007,
+      "evidence": "公元前372年4月2日（[[周烈王]]四年）",
+      "identity": "邹人，儒家学者；本卷记载其劝谏齐王及论纵横之士。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟子&oldid=94044007"
+    },
+    {
+      "id": "su-qin",
+      "name": "苏秦",
+      "status": "disputed",
+      "article": "苏秦",
+      "revision": 93859949,
+      "evidence": "不详",
+      "identity": "战国纵横家，曾游说诸侯合纵抗秦。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=苏秦&oldid=93859949"
+    },
+    {
+      "id": "zhang-yi",
+      "name": "张仪",
+      "status": "confirmed",
+      "article": "张仪",
+      "revision": 94710594,
+      "evidence": "前373年",
+      "identity": "魏人，秦国纵横家，多次出使诸侯促成连横。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张仪&oldid=94710594"
+    },
+    {
+      "id": "sima-cuo",
+      "name": "司马错",
+      "status": "unknown",
+      "article": "司馬錯",
+      "revision": 94025975,
+      "evidence": "（？—？）",
+      "identity": "秦国将领，主张先取蜀以扩张国力。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬錯&oldid=94025975"
+    },
+    {
+      "id": "su-dai",
+      "name": "苏代",
+      "status": "unknown",
+      "article": "苏代",
+      "revision": 93191237,
+      "evidence": "（？—？）",
+      "identity": "苏秦之弟，战国纵横家；与燕相子之有姻亲关系。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=苏代&oldid=93191237"
+    },
+    {
+      "id": "yan-wang-kuai",
+      "name": "燕王哙",
+      "status": "unknown",
+      "article": "燕王噲",
+      "revision": 87400586,
+      "evidence": "？",
+      "identity": "燕国国君，燕昭王之父。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=燕王噲&oldid=87400586"
+    },
+    {
+      "id": "zi-zhi",
+      "name": "子之",
+      "status": "unknown",
+      "article": "子之",
+      "revision": 92466115,
+      "evidence": "？",
+      "identity": "燕国权臣，受燕王哙委政，后自居王位。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=子之&oldid=92466115"
+    },
+    {
+      "id": "qi-xuan-wang",
+      "name": "齐宣王",
+      "status": "approximate",
+      "article": "齊宣王",
+      "revision": 91714739,
+      "evidence": "約前350年",
+      "identity": "齐威王之子，齐国国君。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齊宣王&oldid=91714739"
+    },
+    {
+      "id": "qi-min-wang",
+      "name": "齐湣王",
+      "status": "approximate",
+      "article": "齊湣王",
+      "revision": 94701293,
+      "evidence": "（約前323年—前284年）",
+      "identity": "齐宣王之子，继位为齐王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齊湣王&oldid=94701293"
+    },
+    {
+      "id": "chen-zhen",
+      "name": "陈轸",
+      "status": "unknown",
+      "article": "陈轸 (战国时期纵横家)",
+      "revision": 89457762,
+      "evidence": "（？—？）",
+      "identity": "楚国谋臣，曾劝楚怀王防备张仪背约。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=陈轸_(战国时期纵横家)&oldid=89457762"
+    },
+    {
+      "id": "chu-huai-wang",
+      "name": "楚怀王",
+      "status": "approximate",
+      "article": "楚懷王",
+      "revision": 93860642,
+      "evidence": "约前355年",
+      "identity": "楚国国君，名熊槐。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=楚懷王&oldid=93860642"
+    },
+    {
+      "id": "yan-zhao-wang",
+      "name": "燕昭王",
+      "status": "approximate",
+      "article": "燕昭王",
+      "revision": 92498370,
+      "evidence": "約前336年",
+      "identity": "燕王哙之子，名平；燕国被齐攻破后即位。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=燕昭王&oldid=92498370"
+    },
+    {
+      "id": "guo-kui",
+      "name": "郭隗",
+      "status": "approximate",
+      "article": "郭隗",
+      "revision": 92238459,
+      "evidence": "（約西元前351年—前297年）",
+      "identity": "燕昭王礼遇的贤士，以千金买马骨的故事劝王先从礼遇自己做起。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭隗&oldid=92238459"
+    },
+    {
+      "id": "yue-yi",
+      "name": "乐毅",
+      "status": "approximate",
+      "article": "乐毅",
+      "revision": 92238393,
+      "evidence": "（約前300年—約前260年）",
+      "identity": "魏人，燕昭王招贤时自魏赴燕，受任亚卿并参与国政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=乐毅&oldid=92238393"
+    },
+    {
+      "id": "qin-wu-wang",
+      "name": "秦武王",
+      "status": "confirmed",
+      "article": "秦武王",
+      "revision": 91925188,
+      "evidence": "前329年<ref>《史记·卷六·秦始皇本纪》：悼武王生十九年而立。</ref>",
+      "identity": "秦惠文王之子，继位为秦王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦武王&oldid=91925188"
+    },
+    {
+      "id": "gan-mao",
+      "name": "甘茂",
+      "status": "unknown",
+      "article": "甘茂",
+      "revision": 92283533,
+      "evidence": "（？—？）",
+      "identity": "秦国将领、谋臣，曾主持攻取韩国宜阳，后奔齐。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=甘茂&oldid=92283533"
+    },
+    {
+      "id": "zhao-wu-ling-wang",
+      "name": "赵武灵王",
+      "status": "disputed",
+      "article": "赵武灵王",
+      "revision": 94258960,
+      "evidence": "約前356年",
+      "identity": "赵国国君，名雍；本卷记载推行胡服骑射并传位于子何。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵武灵王&oldid=94258960"
+    },
+    {
+      "id": "fei-yi",
+      "name": "肥义",
+      "status": "unknown",
+      "article": "肥義",
+      "revision": 71381395,
+      "evidence": "|逝世日期=前295年",
+      "identity": "赵国大臣，辅佐赵武灵王推行胡服骑射，后任赵国相国。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=肥義&oldid=71381395"
+    },
+    {
+      "id": "gong-zi-cheng",
+      "name": "赵公子成",
+      "status": "unknown",
+      "article": "趙成",
+      "revision": null,
+      "evidence": "核对赵武灵王时的公子成，所查传记未载生年；不使用春秋赵成的资料。",
+      "identity": "赵国公族，反对胡服骑射，后接受赵武灵王劝说。",
+      "source": "https://www.guoxuedashi.com/renwu/431ioji/"
+    },
+    {
+      "id": "xuan-tai-hou",
+      "name": "宣太后",
+      "status": "unknown",
+      "article": "宣太后",
+      "revision": 94832478,
+      "evidence": "不詳",
+      "identity": "秦昭襄王之母，楚女；秦昭襄王年少时主政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宣太后&oldid=94832478"
+    },
+    {
+      "id": "wei-ran",
+      "name": "魏冉",
+      "status": "confirmed",
+      "article": "魏冉",
+      "revision": 93726015,
+      "evidence": "前335年",
+      "identity": "宣太后异父弟，秦国重臣；拥立秦昭襄王并掌握政权。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏冉&oldid=93726015"
+    },
+    {
+      "id": "qin-zhao-xiang-wang",
+      "name": "秦昭襄王",
+      "status": "confirmed",
+      "article": "秦昭襄王",
+      "revision": 94317918,
+      "evidence": "前325年",
+      "identity": "秦武王异母弟，名稷；在燕为质，后继位为秦王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦昭襄王&oldid=94317918"
+    },
+    {
+      "id": "meng-chang-jun",
+      "name": "孟尝君",
+      "status": "unknown",
+      "article": "孟尝君",
+      "revision": 94692367,
+      "evidence": "不详",
+      "identity": "齐国田氏宗族，名文，以礼贤养士著称。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟尝君&oldid=94692367"
+    },
+    {
+      "id": "ping-yuan-jun",
+      "name": "平原君",
+      "status": "unknown",
+      "article": "平原君",
+      "revision": 94474548,
+      "evidence": "（？—前251年）",
+      "identity": "赵国公子，赵王之弟，好士并蓄养门客。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=平原君&oldid=94474548"
+    },
+    {
+      "id": "gong-sun-long",
+      "name": "公孙龙",
+      "status": "confirmed",
+      "article": "公孙龙",
+      "revision": 94566788,
+      "evidence": "前320年",
+      "identity": "赵国辩者，以坚白同异、白马非马等辩说著称。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=公孙龙&oldid=94566788"
+    },
+    {
+      "id": "zou-yan",
+      "name": "邹衍",
+      "status": "unknown",
+      "article": "邹衍 (战国)",
+      "revision": 87228677,
+      "evidence": "不詳",
+      "identity": "齐人，阴阳家学者；本卷记载其在赵与公孙龙论辩。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=邹衍_(战国)&oldid=87228677"
+    },
+    {
+      "id": "kong-chuan",
+      "name": "孔穿",
+      "status": "unknown",
+      "article": "孔穿",
+      "revision": 84170738,
+      "evidence": "（？—？）",
+      "identity": "鲁人，儒者；赴赵后与公孙龙辩论。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔穿&oldid=84170738"
+    },
+    {
+      "id": "zhu-li-ji",
+      "name": "樗里疾",
+      "status": "unknown",
+      "article": "樗里子",
+      "revision": 91804780,
+      "evidence": "?",
+      "identity": "秦国宗室与将相，秦武王时任右丞相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=樗里子&oldid=91804780"
+    },
+    {
+      "id": "xiang-shou",
+      "name": "向寿",
+      "status": "unknown",
+      "article": "向壽",
+      "revision": 84690801,
+      "evidence": "（？—？）",
+      "identity": "秦国将领、使者，奉命与甘茂出使魏国及处理宜阳事务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=向壽&oldid=84690801"
+    },
+    {
+      "id": "ju-xin",
+      "name": "剧辛",
+      "status": "unknown",
+      "article": "劇辛",
+      "revision": 92238443,
+      "evidence": "（？—前242年）",
+      "identity": "赵人，燕昭王招贤时赴燕任用。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劇辛&oldid=92238443"
+    },
+    {
+      "id": "qin-hui-wen-wang",
+      "name": "秦惠文王",
+      "status": "confirmed",
+      "article": "秦惠文王",
+      "revision": 94784983,
+      "evidence": "前356年",
+      "identity": "秦国国君，秦武王之父；本卷记其谋划伐蜀与张仪游说楚国。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦惠文王&oldid=94784983"
+    },
+    {
+      "id": "wei-hui-wang",
+      "name": "魏惠王",
+      "status": "confirmed",
+      "article": "魏惠王",
+      "revision": 93069082,
+      "evidence": "前400年",
+      "identity": "魏国国君，孟子曾与之论天下归一。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏惠王&oldid=93069082"
+    },
+    {
+      "id": "song-wang",
+      "name": "宋王",
+      "status": "unknown",
+      "article": "宋康王",
+      "revision": 94727201,
+      "evidence": "？",
+      "identity": "宋国国君；本卷记宋国开始称王，未记其名。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋康王&oldid=94727201"
+    },
+    {
+      "id": "gong-sun-yan",
+      "name": "公孙衍",
+      "status": "approximate",
+      "article": "公孫衍",
+      "revision": 77256310,
+      "evidence": "約前360年",
+      "identity": "魏人，战国纵横家，号犀首。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=公孫衍&oldid=77256310"
+    },
+    {
+      "id": "chu-tai-zi-heng",
+      "name": "楚太子横",
+      "status": "confirmed",
+      "article": "楚頃襄王",
+      "revision": 94849808,
+      "evidence": "前329年",
+      "identity": "楚怀王之子，曾先后在秦、齐为质。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=楚頃襄王&oldid=94849808"
+    },
+    {
+      "id": "zhao-shui",
+      "name": "昭睢",
+      "status": "unknown",
+      "article": "昭雎",
+      "revision": 90973438,
+      "evidence": "（？—？）",
+      "identity": "楚国大臣，主张楚怀王不要赴秦会盟。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=昭雎&oldid=90973438"
+    },
+    {
+      "id": "zi-lan",
+      "name": "子兰",
+      "status": "unknown",
+      "article": "子兰",
+      "revision": 94501662,
+      "evidence": "（?—?）",
+      "identity": "楚怀王之子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=子兰&oldid=94501662"
+    },
+    {
+      "id": "jin-shang",
+      "name": "靳尚",
+      "status": "unknown",
+      "article": "靳尚",
+      "revision": 94501675,
+      "evidence": "（？—前311年）",
+      "identity": "楚怀王宠臣，借郑袖劝楚王释放张仪。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=靳尚&oldid=94501675"
+    },
+    {
+      "id": "zheng-xiu",
+      "name": "郑袖",
+      "status": "unknown",
+      "article": "鄭袖",
+      "revision": 83218653,
+      "evidence": "（？—？）",
+      "identity": "楚怀王宠姬。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=鄭袖&oldid=83218653"
+    },
+    {
+      "id": "qu-gai",
+      "name": "屈匄",
+      "status": "unknown",
+      "article": "屈匄",
+      "revision": 84690808,
+      "evidence": "（？—前312年）",
+      "identity": "楚国将领，率军与秦军交战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=屈匄&oldid=84690808"
+    },
+    {
+      "id": "tang-mei",
+      "name": "唐昧",
+      "status": "unknown",
+      "article": "唐眜",
+      "revision": 94717709,
+      "evidence": "（？—前301年）",
+      "identity": "楚国将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐眜&oldid=94717709"
+    },
+    {
+      "id": "chen-zhuang",
+      "name": "蜀相陈庄",
+      "status": "unconfirmed",
+      "article": "陈庄 (秦国)",
+      "revision": null,
+      "evidence": "",
+      "identity": "秦所任蜀相。",
+      "source": null
+    },
+    {
+      "id": "zhang-zi",
+      "name": "章子",
+      "status": "unknown",
+      "article": "匡章",
+      "revision": 93191289,
+      "evidence": "（？—？）",
+      "identity": "齐国将领，受命率军攻燕。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=匡章&oldid=93191289"
+    },
+    {
+      "id": "qin-hua-yang-jun",
+      "name": "秦华阳君",
+      "status": "approximate",
+      "article": "芈戎",
+      "revision": 92630423,
+      "evidence": "（約前332年—前262年）",
+      "identity": "秦宣太后同父弟，秦国宗室。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=芈戎&oldid=92630423"
+    },
+    {
+      "id": "lou-huan",
+      "name": "楼缓",
+      "status": "unknown",
+      "article": "楼缓",
+      "revision": 61948882,
+      "evidence": "（？—？）",
+      "identity": "赵人，后任秦国丞相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=楼缓&oldid=61948882"
+    },
+    {
+      "id": "meng-shuo",
+      "name": "孟说",
+      "status": "unknown",
+      "article": "孟賁",
+      "revision": 94861839,
+      "evidence": "前4-2世纪",
+      "identity": "秦武王任用的力士，官至大夫。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟賁&oldid=94861839"
+    },
+    {
+      "id": "qin-shu-chang-huan",
+      "name": "秦庶长奂",
+      "status": "unknown",
+      "article": "公孙奂",
+      "revision": null,
+      "evidence": "核对秦昭襄王时的庶长奂，资料未载明确生年。",
+      "identity": "秦国将领。",
+      "source": "https://zh.wikipedia.org/wiki/庶长奂"
+    },
+    {
+      "id": "p-c936993cb69d",
+      "name": "白起",
+      "status": "unknown",
+      "article": "白起",
+      "revision": 93655100,
+      "evidence": "约前332年",
+      "identity": "秦国将领，以多次对外战争见载于《通鉴》。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=白起&oldid=93655100"
+    },
+    {
+      "id": "p-5a26b450cdac",
+      "name": "范雎",
+      "status": "unknown",
+      "article": "范雎",
+      "revision": 94028494,
+      "evidence": "（？—前255年）",
+      "identity": "魏人，入秦后任秦相，主张远交近攻。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=范雎&oldid=94028494"
+    },
+    {
+      "id": "p-20fb9a52491d",
+      "name": "蔺相如",
+      "status": "unknown",
+      "article": "藺相如",
+      "revision": 91850856,
+      "evidence": "藺（lìn）相（xiāng）如，戰国时期赵国大臣，官至上卿。食采于蔺（今山西吕梁市柳林县孟门镇），便以封邑为氏，称蔺氏。他與完璧归赵、渑池之会与负荆请罪等三个事件有關。",
+      "identity": "赵国大臣，以完璧归赵、渑池之会等事迹见载。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=藺相如&oldid=91850856"
+    },
+    {
+      "id": "p-44c640e188fc",
+      "name": "赵奢",
+      "status": "unknown",
+      "article": "趙奢",
+      "revision": 94026031,
+      "evidence": "（？—？）",
+      "identity": "赵国将领，曾率军援救阏与。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=趙奢&oldid=94026031"
+    },
+    {
+      "id": "p-90b04428a19a",
+      "name": "廉颇",
+      "status": "confirmed",
+      "article": "廉颇",
+      "revision": 92238397,
+      "evidence": "前327",
+      "identity": "赵国将领，参与赵国对秦及诸侯间的军事行动。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=廉颇&oldid=92238397"
+    },
+    {
+      "id": "p-2f31bd8516b9",
+      "name": "黄歇",
+      "status": "unknown",
+      "article": "春申君",
+      "revision": 92637813,
+      "evidence": "？",
+      "identity": "楚国宗室与大臣，封春申君。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=春申君&oldid=92637813"
+    },
+    {
+      "id": "p-25dcb1b6c8b1",
+      "name": "秦孝文王",
+      "status": "confirmed",
+      "article": "秦孝文王",
+      "revision": 93826498,
+      "evidence": "前302年<ref>《史记·卷六·秦始皇本纪》：孝文王生五十三年而立。</ref>",
+      "identity": "秦昭襄王之后继位的秦王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦孝文王&oldid=93826498"
+    },
+    {
+      "id": "p-3ef3a0e0f786",
+      "name": "秦庄襄王",
+      "status": "confirmed",
+      "article": "秦莊襄王",
+      "revision": 93826580,
+      "evidence": "前281年<ref>《史记·卷六·秦始皇本纪》：“庄襄王生三十二年而立。”</ref>",
+      "identity": "秦孝文王之子，名子楚，又称异人。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦莊襄王&oldid=93826580"
+    },
+    {
+      "id": "p-593dd037a62a",
+      "name": "吕不韦",
+      "status": "unknown",
+      "article": "吕不韦",
+      "revision": 92630303,
+      "evidence": "約前290年",
+      "identity": "秦庄襄王、秦王政时期的秦国重臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=吕不韦&oldid=92630303"
+    },
+    {
+      "id": "p-c44487eb7bb7",
+      "name": "秦始皇",
+      "status": "confirmed",
+      "article": "秦始皇",
+      "revision": 94788854,
+      "evidence": "前259年1月27日{{noteGT|1=根据《秦始皇本紀》及《史記集解》記載，秦始皇生於秦昭王四十八年正月元旦生于[[邯郸]]，換算成儒略曆在1月27日。}}{{nsrefc|group=古|name=square|1=司馬遷《[[s:史記/卷006|史記·秦始皇本紀]]》：以秦昭王四十八年正月生於邯鄲。及生，名為政，姓趙氏。【集解】徐廣曰：「一作『正』。」宋忠云：「以正月旦生，故名正。」}}",
+      "identity": "秦王政，统一六国后称皇帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦始皇&oldid=94788854"
+    },
+    {
+      "id": "p-d5b940b54dd2",
+      "name": "荆轲",
+      "status": "unknown",
+      "article": "荆轲",
+      "revision": 94577810,
+      "evidence": "（？—前227年）",
+      "identity": "燕国宾客，受燕太子丹委托入秦行刺。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=荆轲&oldid=94577810"
+    },
+    {
+      "id": "p-3a77354d8334",
+      "name": "燕太子丹",
+      "status": "unknown",
+      "article": "太子丹",
+      "revision": 94371344,
+      "evidence": "（？—前226年）",
+      "identity": "燕国太子，曾谋划派荆轲刺秦。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=太子丹&oldid=94371344"
+    },
+    {
+      "id": "p-6c4a04c8d142",
+      "name": "王翦",
+      "status": "unknown",
+      "article": "王翦",
+      "revision": 94341681,
+      "evidence": "（？—？）",
+      "identity": "秦国将领，参与灭赵、灭楚等战争。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王翦&oldid=94341681"
+    },
+    {
+      "id": "p-21ea2e65fd7a",
+      "name": "王贲",
+      "status": "unknown",
+      "article": "王賁",
+      "revision": 92432262,
+      "evidence": "（？—？）",
+      "identity": "秦国将领，参与灭魏、灭燕等战争。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王賁&oldid=92432262"
+    },
+    {
+      "id": "p-1584f421afbc",
+      "name": "李信",
+      "status": "unknown",
+      "article": "李信",
+      "revision": 92574414,
+      "evidence": "（？—？）",
+      "identity": "秦国将领，曾率军伐楚。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李信&oldid=92574414"
+    },
+    {
+      "id": "p-8c8bcfe947f1",
+      "name": "陈胜",
+      "status": "unknown",
+      "article": "陈胜",
+      "revision": 94386382,
+      "evidence": "前3世纪",
+      "identity": "秦末起事者，曾在楚地称王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=陈胜&oldid=94386382"
+    },
+    {
+      "id": "p-51880c5ffd64",
+      "name": "吴广",
+      "status": "unknown",
+      "article": "吴广",
+      "revision": 89197795,
+      "evidence": "前3世纪",
+      "identity": "秦末与陈胜共同起事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=吴广&oldid=89197795"
+    },
+    {
+      "id": "p-09f78fd1bd8e",
+      "name": "刘邦",
+      "status": "disputed",
+      "article": "刘邦",
+      "revision": 94756962,
+      "evidence": "前256年／前247年",
+      "identity": "汉朝开国皇帝，起兵反秦并建立汉朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘邦&oldid=94756962"
+    },
+    {
+      "id": "p-c1b22e48f1bc",
+      "name": "项羽",
+      "status": "confirmed",
+      "article": "项羽",
+      "revision": 94342616,
+      "evidence": "前232年{{flatlist}}",
+      "identity": "秦末楚军领袖，称西楚霸王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=项羽&oldid=94342616"
+    },
+    {
+      "id": "p-8b728ec40e05",
+      "name": "张良",
+      "status": "unknown",
+      "article": "张良",
+      "revision": 94330030,
+      "evidence": "（ ？—前186年）",
+      "identity": "刘邦的重要谋臣，封留侯。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张良&oldid=94330030"
+    },
+    {
+      "id": "p-73bb90f91552",
+      "name": "萧何",
+      "status": "unknown",
+      "article": "萧何",
+      "revision": 94754501,
+      "evidence": "（？—前193年）",
+      "identity": "汉初大臣，曾任丞相并参与建国政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧何&oldid=94754501"
+    },
+    {
+      "id": "p-094aa21e75e5",
+      "name": "韩信",
+      "status": "confirmed",
+      "article": "韩信",
+      "revision": 94609867,
+      "evidence": "前231年}}",
+      "identity": "汉初将领，参与楚汉战争，后封淮阴侯。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=韩信&oldid=94609867"
+    },
+    {
+      "id": "p-05a52d32a1c2",
+      "name": "陈平",
+      "status": "unknown",
+      "article": "陈平 (西汉)",
+      "revision": null,
+      "evidence": "核对汉初陈平，资料载生年不明。",
+      "identity": "汉初谋臣，历仕高祖、惠帝及吕后时期。",
+      "source": "https://zh.wikipedia.org/wiki/陈平_(汉朝)"
+    },
+    {
+      "id": "p-ad9c6834696e",
+      "name": "樊哙",
+      "status": "confirmed",
+      "article": "樊噲",
+      "revision": 92676361,
+      "evidence": "前242年",
+      "identity": "刘邦部将，参与楚汉战争及汉初政局。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=樊噲&oldid=92676361"
+    },
+    {
+      "id": "p-f76021be5d2b",
+      "name": "彭越",
+      "status": "unknown",
+      "article": "彭越",
+      "revision": 93722653,
+      "evidence": "（前2世纪？—前196年）",
+      "identity": "楚汉战争中的诸侯与汉军将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=彭越&oldid=93722653"
+    },
+    {
+      "id": "p-442b8bdddf86",
+      "name": "英布",
+      "status": "unknown",
+      "article": "英布",
+      "revision": 93921439,
+      "evidence": "不详",
+      "identity": "楚汉战争中的诸侯，后归附汉朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=英布&oldid=93921439"
+    },
+    {
+      "id": "p-0d71ea00cacb",
+      "name": "曹参",
+      "status": "unknown",
+      "article": "曹参",
+      "revision": 91695045,
+      "evidence": "（？—前190年9月24日）",
+      "identity": "汉初大臣，继萧何为相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹参&oldid=91695045"
+    },
+    {
+      "id": "p-3110cc5e01a2",
+      "name": "周勃",
+      "status": "unknown",
+      "article": "周勃",
+      "revision": 94488830,
+      "evidence": "不详",
+      "identity": "汉初将领与大臣，参与平定诸吕之乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=周勃&oldid=94488830"
+    },
+    {
+      "id": "p-697117fb9a5b",
+      "name": "吕后",
+      "status": "unknown",
+      "article": "吕雉",
+      "revision": 93722688,
+      "evidence": "（前241？—前180年8月18日）",
+      "identity": "汉高祖皇后，惠帝时临朝并掌握政权。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=吕雉&oldid=93722688"
+    },
+    {
+      "id": "p-92fa7f307fa3",
+      "name": "汉文帝",
+      "status": "confirmed",
+      "article": "汉文帝",
+      "revision": 92982935,
+      "evidence": "前203年",
+      "identity": "汉朝皇帝，名刘恒。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉文帝&oldid=92982935"
+    },
+    {
+      "id": "p-7d2022b5e9e3",
+      "name": "汉景帝",
+      "status": "confirmed",
+      "article": "汉景帝",
+      "revision": 92489776,
+      "evidence": "前188年",
+      "identity": "汉朝皇帝，名刘启。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉景帝&oldid=92489776"
+    },
+    {
+      "id": "p-d385de949d2f",
+      "name": "贾谊",
+      "status": "confirmed",
+      "article": "贾谊",
+      "revision": 93012786,
+      "evidence": "[[汉高祖]]六年（前200年）",
+      "identity": "汉初文臣，曾上疏论政并任职于诸侯国。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=贾谊&oldid=93012786"
+    },
+    {
+      "id": "p-152087967d31",
+      "name": "晁错",
+      "status": "confirmed",
+      "article": "晁错",
+      "revision": 92001224,
+      "evidence": "[[汉高祖]]六年（前200年）",
+      "identity": "汉景帝时期大臣，参与削藩议政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=晁错&oldid=92001224"
+    },
+    {
+      "id": "p-67bd330d109c",
+      "name": "周亚夫",
+      "status": "unknown",
+      "article": "周亚夫",
+      "revision": 89507543,
+      "evidence": "[[前2世紀]]",
+      "identity": "汉文帝、景帝时期将领与大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=周亚夫&oldid=89507543"
+    },
+    {
+      "id": "p-4d538e4d635c",
+      "name": "窦婴",
+      "status": "unknown",
+      "article": "窦婴",
+      "revision": 94732386,
+      "evidence": "（？—前131年2月20日）",
+      "identity": "汉景帝、武帝时期大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=窦婴&oldid=94732386"
+    },
+    {
+      "id": "p-2d18c2725388",
+      "name": "田蚡",
+      "status": "unknown",
+      "article": "田蚡",
+      "revision": 88485437,
+      "evidence": "（？—前130年5月2日）",
+      "identity": "汉武帝时期外戚与大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=田蚡&oldid=88485437"
+    },
+    {
+      "id": "p-f647887dc254",
+      "name": "汉武帝",
+      "status": "disputed",
+      "article": "汉武帝",
+      "revision": 94598209,
+      "evidence": "前156年",
+      "identity": "汉朝皇帝，名刘彻，在位期间多次对外用兵并改革政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉武帝&oldid=94598209"
+    },
+    {
+      "id": "p-209835fa1ec2",
+      "name": "卫青",
+      "status": "unknown",
+      "article": "卫青",
+      "revision": 92141932,
+      "evidence": "?",
+      "identity": "汉武帝时期将领，曾率军出击匈奴。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=卫青&oldid=92141932"
+    },
+    {
+      "id": "p-0998dc883b88",
+      "name": "霍去病",
+      "status": "confirmed",
+      "article": "霍去病",
+      "revision": 94839123,
+      "evidence": "[[建元 (西汉)|建元]]元年<br>前140年",
+      "identity": "汉武帝时期将领，曾率军出击匈奴。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=霍去病&oldid=94839123"
+    },
+    {
+      "id": "p-53a273928bd7",
+      "name": "李广",
+      "status": "approximate",
+      "article": "李广",
+      "revision": 93277369,
+      "evidence": "前187年至前179年期間<ref name=出生>《史记》（卷109）:“李將軍廣者，隴西成紀人也。……廣家世世受射。'''孝文帝十四年'''，匈奴大入蕭關，而'''廣以良家子從軍擊胡'''，用善騎射，殺首虜多，為漢中郎。”“至莫府，廣謂其麾下曰；「廣'''結發'''與匈奴大小七十餘戰，今幸從大將軍出接單于兵，而大將軍又徙廣部行回遠，而又迷失道，豈非天哉！且廣年六十餘矣，終不能復對刀筆之吏。」遂引刀自剄。廣軍士大夫一軍皆哭。百姓聞之，知與不知，無老壯皆為",
+      "identity": "汉朝将领，长期参与北方边防与对匈奴作战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李广&oldid=93277369"
+    },
+    {
+      "id": "p-0529f126c0d9",
+      "name": "张骞",
+      "status": "disputed",
+      "article": "張騫",
+      "revision": 93940856,
+      "evidence": "（前175年2月25日—前114年4月25日）",
+      "identity": "汉武帝时期使者，曾出使西域。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張騫&oldid=93940856"
+    },
+    {
+      "id": "p-0a1a78dbfb3b",
+      "name": "司马迁",
+      "status": "disputed",
+      "article": "司馬遷",
+      "revision": 94738211,
+      "evidence": "[[汉景帝]][[中元 (漢景帝)|中元]]五年 （前145年）或 [[汉武帝]][[建元 (西汉)|建元]]六年 （前135年）",
+      "identity": "汉朝史官与史家，著述《史记》。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬遷&oldid=94738211"
+    },
+    {
+      "id": "p-7fe33e4b377c",
+      "name": "霍光",
+      "status": "unknown",
+      "article": "霍光",
+      "revision": 94703708,
+      "evidence": "[[汉武帝]][[元光 (西汉)|元光]]年间<br>（前130年代？）",
+      "identity": "汉武帝托孤大臣，辅佐昭帝、宣帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=霍光&oldid=94703708"
+    },
+    {
+      "id": "p-de4162a6ac01",
+      "name": "汉宣帝",
+      "status": "confirmed",
+      "article": "汉宣帝",
+      "revision": 94812760,
+      "evidence": "前91年",
+      "identity": "汉朝皇帝，名刘询，少时名病已。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉宣帝&oldid=94812760"
+    },
+    {
+      "id": "p-f38962fcbdc2",
+      "name": "王莽",
+      "status": "confirmed",
+      "article": "王莽",
+      "revision": 94870166,
+      "evidence": "漢初元四年<br />前45年 <!-- {{birth date and age|YYYY|MM|DD}} -->",
+      "identity": "西汉末年外戚与权臣，后建立新朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王莽&oldid=94870166"
+    },
+    {
+      "id": "p-b348a4b3a673",
+      "name": "刘秀",
+      "status": "confirmed",
+      "article": "汉光武帝",
+      "revision": 93726355,
+      "evidence": "前5年1月15日<br>[[建平 (西漢)|建平]]元年[[農曆十二月|十二月]][[甲子]]",
+      "identity": "东汉开国皇帝，谥光武。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉光武帝&oldid=93726355"
+    },
+    {
+      "id": "p-b8589113995e",
+      "name": "邓禹",
+      "status": "confirmed",
+      "article": "邓禹",
+      "revision": 93307373,
+      "evidence": "[[元始 (汉平帝)|元始]]二年（2年）",
+      "identity": "东汉开国功臣，曾随刘秀征战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=邓禹&oldid=93307373"
+    },
+    {
+      "id": "p-d6bfadbcf429",
+      "name": "马援",
+      "status": "confirmed",
+      "article": "马援",
+      "revision": 94629619,
+      "evidence": "（前14年—49年）",
+      "identity": "东汉将领，参与平定边地与交趾等战事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=马援&oldid=94629619"
+    },
+    {
+      "id": "p-aacc5e5ff440",
+      "name": "窦宪",
+      "status": "unknown",
+      "article": "竇憲",
+      "revision": 88793401,
+      "evidence": "（？—92年）",
+      "identity": "东汉外戚与将领，曾出击北匈奴。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=竇憲&oldid=88793401"
+    },
+    {
+      "id": "p-fd4d920ed078",
+      "name": "班超",
+      "status": "confirmed",
+      "article": "班超",
+      "revision": 93499658,
+      "evidence": "（32年—102年）",
+      "identity": "东汉将领与使者，长期经营西域。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=班超&oldid=93499658"
+    },
+    {
+      "id": "p-12dfeac49dc2",
+      "name": "曹操",
+      "status": "confirmed",
+      "article": "曹操",
+      "revision": 94925351,
+      "evidence": "[[永寿 (东汉)|永壽]]元年（公元155年7月19日）",
+      "identity": "东汉末年军政领袖，建立曹魏政权基础。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹操&oldid=94925351"
+    },
+    {
+      "id": "p-f6466c6cd5b8",
+      "name": "刘备",
+      "status": "confirmed",
+      "article": "刘备",
+      "revision": 94821588,
+      "evidence": "[[延熹]]四年<br />（161年）<!-- {{birth date and age|YYYY|MM|DD}} -->",
+      "identity": "蜀汉建立者，称帝于成都。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘备&oldid=94821588"
+    },
+    {
+      "id": "p-a631015322f0",
+      "name": "孙权",
+      "status": "confirmed",
+      "article": "孙权",
+      "revision": 94460901,
+      "evidence": "[[东汉]][[光和]]五年<br>182年7月5日",
+      "identity": "孙吴建立者，长期统治江东。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孙权&oldid=94460901"
+    },
+    {
+      "id": "p-06fac22214af",
+      "name": "诸葛亮",
+      "status": "confirmed",
+      "article": "诸葛亮",
+      "revision": 94687021,
+      "evidence": "（181年—234年10月8日）",
+      "identity": "蜀汉丞相，辅佐刘备、刘禅并多次北伐。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=诸葛亮&oldid=94687021"
+    },
+    {
+      "id": "p-b0c0b4daac92",
+      "name": "关羽",
+      "status": "unknown",
+      "article": "关羽",
+      "revision": 94103876,
+      "evidence": "?年",
+      "identity": "蜀汉将领，参与荆州及襄樊战事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=关羽&oldid=94103876"
+    },
+    {
+      "id": "p-29d2c1938dab",
+      "name": "张飞",
+      "status": "unknown",
+      "article": "张飞",
+      "revision": 94093685,
+      "evidence": "（？—221年）",
+      "identity": "蜀汉将领，参与益州与汉中战事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张飞&oldid=94093685"
+    },
+    {
+      "id": "p-63f98380838c",
+      "name": "周瑜",
+      "status": "confirmed",
+      "article": "周瑜",
+      "revision": 94817945,
+      "evidence": "[[东汉|漢]][[熹平]]四年（175年）",
+      "identity": "孙吴将领，参与赤壁之战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=周瑜&oldid=94817945"
+    },
+    {
+      "id": "p-feb503fe9673",
+      "name": "陆逊",
+      "status": "confirmed",
+      "article": "陸遜",
+      "revision": 94520817,
+      "evidence": "183年",
+      "identity": "孙吴将领与大臣，参与夷陵之战及吴国政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=陸遜&oldid=94520817"
+    },
+    {
+      "id": "p-b6ad1d041c43",
+      "name": "司马懿",
+      "status": "confirmed",
+      "article": "司马懿",
+      "revision": 94569333,
+      "evidence": "[[漢靈帝]][[光和]]二年<br>179年",
+      "identity": "曹魏大臣与将领，后由其家族建立晋朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马懿&oldid=94569333"
+    },
+    {
+      "id": "p-7b89956540bd",
+      "name": "曹丕",
+      "status": "confirmed",
+      "article": "曹丕",
+      "revision": 93413926,
+      "evidence": "187年<ref>三國志/卷02中記載，文皇帝諱丕，字子桓，武帝太子也。中平四年冬，生於譙。</ref>",
+      "identity": "曹操之子，建立曹魏并称帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹丕&oldid=93413926"
+    },
+    {
+      "id": "p-7d47a71f789b",
+      "name": "曹叡",
+      "status": "disputed",
+      "article": "曹叡",
+      "revision": 94488365,
+      "evidence": "204年",
+      "identity": "曹魏皇帝，曹丕之子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹叡&oldid=94488365"
+    },
+    {
+      "id": "p-2ba4e0855920",
+      "name": "司马师",
+      "status": "confirmed",
+      "article": "司馬師",
+      "revision": 94428575,
+      "evidence": "208年<br>[[建安 (東漢)|建安]]十三年",
+      "identity": "司马懿之子，掌握曹魏政权。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬師&oldid=94428575"
+    },
+    {
+      "id": "p-1fc41ad30d3d",
+      "name": "司马昭",
+      "status": "confirmed",
+      "article": "司马昭",
+      "revision": 94428628,
+      "evidence": "[[漢獻帝]][[建安 (東漢)|建安]]十六年 （211年）",
+      "identity": "司马懿之子，掌握曹魏政权并灭蜀汉。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马昭&oldid=94428628"
+    },
+    {
+      "id": "p-fe2c6eacd535",
+      "name": "司马炎",
+      "status": "confirmed",
+      "article": "司馬炎",
+      "revision": 93770683,
+      "evidence": "[[曹魏|魏]][[青龙 (曹魏)|青龙]]四年（236年）",
+      "identity": "西晋开国皇帝，名司马炎。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬炎&oldid=93770683"
+    },
+    {
+      "id": "p-4c1e32221920",
+      "name": "王导",
+      "status": "confirmed",
+      "article": "王導",
+      "revision": 94765326,
+      "evidence": "276年",
+      "identity": "东晋重臣，参与辅立晋元帝并主持朝政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王導&oldid=94765326"
+    },
+    {
+      "id": "p-332c411c3245",
+      "name": "王敦",
+      "status": "confirmed",
+      "article": "王敦",
+      "revision": 90072970,
+      "evidence": "（266年—324年）",
+      "identity": "东晋权臣，曾起兵反对朝廷。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王敦&oldid=90072970"
+    },
+    {
+      "id": "p-37113f4f6def",
+      "name": "桓温",
+      "status": "confirmed",
+      "article": "桓温",
+      "revision": 94064521,
+      "evidence": "永嘉六年<br />312年",
+      "identity": "东晋将领与权臣，曾多次北伐。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=桓温&oldid=94064521"
+    },
+    {
+      "id": "p-14ef0c90fbdd",
+      "name": "谢安",
+      "status": "confirmed",
+      "article": "谢安",
+      "revision": 91973080,
+      "evidence": "320年",
+      "identity": "东晋大臣，淝水之战时主持朝政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=谢安&oldid=91973080"
+    },
+    {
+      "id": "p-a1fac7b516fd",
+      "name": "刘裕",
+      "status": "confirmed",
+      "article": "刘裕",
+      "revision": 93808887,
+      "evidence": "{{birth date|363|4|16|df=y}}",
+      "identity": "刘宋建立者，曾率军北伐并代晋称帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘裕&oldid=93808887"
+    },
+    {
+      "id": "p-a360d38f39d8",
+      "name": "石勒",
+      "status": "confirmed",
+      "article": "石勒",
+      "revision": 93559782,
+      "evidence": "[[晉朝|晉]]泰始十年<br>274年<!-- {{birth date and age|YYYY|MM|DD}} -->",
+      "identity": "后赵建立者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=石勒&oldid=93559782"
+    },
+    {
+      "id": "p-034a32ffd084",
+      "name": "苻坚",
+      "status": "confirmed",
+      "article": "苻坚",
+      "revision": 91069522,
+      "evidence": "338年",
+      "identity": "前秦君主，曾统一北方大部并南征东晋。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=苻坚&oldid=91069522"
+    },
+    {
+      "id": "p-f0ac6e74fcbf",
+      "name": "王猛",
+      "status": "confirmed",
+      "article": "王猛",
+      "revision": 94798995,
+      "evidence": "[[東晉]][[晉明帝|明帝]][[太寧 (東晉)|太寧]]三年（325年）",
+      "identity": "前秦大臣，辅佐苻坚整顿政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王猛&oldid=94798995"
+    },
+    {
+      "id": "p-af64b410f1d5",
+      "name": "慕容垂",
+      "status": "confirmed",
+      "article": "慕容垂",
+      "revision": 93633607,
+      "evidence": "326年",
+      "identity": "鲜卑慕容氏将领，后建立后燕。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=慕容垂&oldid=93633607"
+    },
+    {
+      "id": "p-b0326091c725",
+      "name": "拓跋珪",
+      "status": "confirmed",
+      "article": "魏道武帝",
+      "revision": 94544699,
+      "evidence": "371年8月4日<br/>[[建國 (代)|建國]]三十四年七月七日",
+      "identity": "北魏建立者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏道武帝&oldid=94544699"
+    },
+    {
+      "id": "p-d4125a60dcd9",
+      "name": "宇文泰",
+      "status": "confirmed",
+      "article": "宇文泰",
+      "revision": 93997833,
+      "evidence": "505年<br />[[北魏宣武帝]]正始二年",
+      "identity": "西魏权臣，奠定北周政权基础。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文泰&oldid=93997833"
+    },
+    {
+      "id": "p-918b6bb0f898",
+      "name": "高欢",
+      "status": "confirmed",
+      "article": "高欢",
+      "revision": 94378748,
+      "evidence": "[[北魏孝文帝]]太和二十年<br>496年",
+      "identity": "东魏权臣，北齐建立者高洋之父。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=高欢&oldid=94378748"
+    },
+    {
+      "id": "p-a700cda42e27",
+      "name": "萧衍",
+      "status": "confirmed",
+      "article": "萧衍",
+      "revision": 93808904,
+      "evidence": "[[劉宋]][[宋孝武帝|孝武帝]][[大明 (劉宋)|大明]]八年（[[464年]]）",
+      "identity": "南梁建立者，称梁武帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧衍&oldid=93808904"
+    },
+    {
+      "id": "p-b82e2e0609e5",
+      "name": "陈霸先",
+      "status": "confirmed",
+      "article": "陈霸先",
+      "revision": 94784383,
+      "evidence": "503年",
+      "identity": "陈朝建立者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=陈霸先&oldid=94784383"
+    },
+    {
+      "id": "p-e28ffc53c574",
+      "name": "杨坚",
+      "status": "confirmed",
+      "article": "杨坚",
+      "revision": 94537086,
+      "evidence": "{{Birth date|541|7|21}}<br>[[西魏文帝]][[大統 (西魏)|大统]]七年六月十三日",
+      "identity": "隋朝建立者，称隋文帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=杨坚&oldid=94537086"
+    },
+    {
+      "id": "p-f4642d529dd9",
+      "name": "杨广",
+      "status": "confirmed",
+      "article": "隋炀帝",
+      "revision": 94547079,
+      "evidence": "569年<br/>[[周武帝]][[天和 (北周)|天和]]四年",
+      "identity": "隋朝皇帝，称隋炀帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=隋炀帝&oldid=94547079"
+    },
+    {
+      "id": "p-fe8dff76250a",
+      "name": "李渊",
+      "status": "confirmed",
+      "article": "李渊",
+      "revision": 94308317,
+      "evidence": "{{Birth date|566|4|7|df=y}}<br>[[北周武帝]][[天和 (北周)|天和]]元年三月初二日",
+      "identity": "唐朝建立者，称唐高祖。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李渊&oldid=94308317"
+    },
+    {
+      "id": "p-fae10bdcbcf5",
+      "name": "李世民",
+      "status": "disputed",
+      "article": "唐太宗",
+      "revision": 94517110,
+      "evidence": "{{Birth date|599|1|23|df=y}}{{Efn|name=\"李玄霸\"|1 = 其同母弟[[李玄霸]]于599年生，故李世民生于598年比他长一岁。}}<br>[[隋文帝]][[開皇]]十七年十二月二十二日",
+      "identity": "唐朝皇帝，称唐太宗。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐太宗&oldid=94517110"
+    },
+    {
+      "id": "p-44bc5f5da46a",
+      "name": "魏征",
+      "status": "confirmed",
+      "article": "魏徵",
+      "revision": 94032438,
+      "evidence": "[[北周]][[周静帝|靜帝]][[大象 (年号)|大象]]二年（580年）",
+      "identity": "唐初大臣，以直言进谏见载。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏徵&oldid=94032438"
+    },
+    {
+      "id": "p-80375bf6a1d2",
+      "name": "房玄龄",
+      "status": "confirmed",
+      "article": "房玄龄",
+      "revision": 93067106,
+      "evidence": "579年",
+      "identity": "唐初大臣，长期参与朝廷政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=房玄龄&oldid=93067106"
+    },
+    {
+      "id": "p-6191636a902c",
+      "name": "杜如晦",
+      "status": "confirmed",
+      "article": "杜如晦",
+      "revision": 93053780,
+      "evidence": "585年",
+      "identity": "唐初大臣，参与谋划政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=杜如晦&oldid=93053780"
+    },
+    {
+      "id": "p-721f757578b5",
+      "name": "李靖",
+      "status": "confirmed",
+      "article": "李靖",
+      "revision": 93079908,
+      "evidence": "[[北周|周]][[天和 (北周)|天和]]六年（571年）",
+      "identity": "唐初将领，参与平定割据势力及对外战争。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李靖&oldid=93079908"
+    },
+    {
+      "id": "p-e127ae85ff43",
+      "name": "薛仁贵",
+      "status": "confirmed",
+      "article": "薛仁貴",
+      "revision": 93525613,
+      "evidence": "（614年—683年）",
+      "identity": "唐朝将领，参与东北及西北边地战事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=薛仁貴&oldid=93525613"
+    },
+    {
+      "id": "p-73431bac00c0",
+      "name": "苏定方",
+      "status": "confirmed",
+      "article": "苏定方",
+      "revision": 94585995,
+      "evidence": "[[開皇]]年间（592年）<ref>卒年倒推</ref>",
+      "identity": "唐朝将领，参与西突厥、百济等战事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=苏定方&oldid=94585995"
+    },
+    {
+      "id": "p-803ecfa1ad88",
+      "name": "武则天",
+      "status": "disputed",
+      "article": "武则天",
+      "revision": 94879702,
+      "evidence": "（?—705年12月16日）",
+      "identity": "唐高宗皇后，后称帝建立周朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=武则天&oldid=94879702"
+    },
+    {
+      "id": "p-4fdcf7abb5d6",
+      "name": "狄仁杰",
+      "status": "confirmed",
+      "article": "狄仁杰",
+      "revision": 93965574,
+      "evidence": "630年<br>[[唐太宗]][[貞觀]]四年",
+      "identity": "唐朝官员，曾任宰相并参与政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=狄仁杰&oldid=93965574"
+    },
+    {
+      "id": "p-53a228a77102",
+      "name": "李治",
+      "status": "confirmed",
+      "article": "唐高宗",
+      "revision": 94493902,
+      "evidence": "{{Birth date|628|7|21|df=y}}<br>[[唐太宗]][[貞觀 (唐朝)|貞觀]]二年六月十五日<ref>《旧唐书·太宗本纪》记载：贞观二年，“六月庚寅，皇子治生。”贞观二年六月十五庚寅日，用万年历换算为公历则是628年7月21日。</ref>",
+      "identity": "唐朝皇帝，称唐高宗。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐高宗&oldid=94493902"
+    },
+    {
+      "id": "p-561b21c05f15",
+      "name": "李隆基",
+      "status": "confirmed",
+      "article": "唐玄宗",
+      "revision": 94565451,
+      "evidence": "[[唐睿宗]][[垂拱]]元年八月初五日<br>{{Birth date|685|9|8}}",
+      "identity": "唐朝皇帝，称唐玄宗。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐玄宗&oldid=94565451"
+    },
+    {
+      "id": "p-122e3e86f22e",
+      "name": "安禄山",
+      "status": "confirmed",
+      "article": "安祿山",
+      "revision": 93957888,
+      "evidence": "703年2月19日",
+      "identity": "唐朝边将，发动叛乱并建立大燕政权。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=安祿山&oldid=93957888"
+    },
+    {
+      "id": "p-0c0b33656129",
+      "name": "史思明",
+      "status": "confirmed",
+      "article": "史思明",
+      "revision": 92805818,
+      "evidence": "703年",
+      "identity": "安史之乱中的叛军首领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=史思明&oldid=92805818"
+    },
+    {
+      "id": "p-4bb7721c0c71",
+      "name": "郭子仪",
+      "status": "confirmed",
+      "article": "郭子仪",
+      "revision": 94580939,
+      "evidence": "[[武周]][[萬歲通天]]二年<br>697年",
+      "identity": "唐朝将领，参与平定安史之乱及其后叛乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭子仪&oldid=94580939"
+    },
+    {
+      "id": "p-7b380f5f6b20",
+      "name": "白居易",
+      "status": "confirmed",
+      "article": "白居易",
+      "revision": 94256115,
+      "evidence": "[[大曆]]七年正月二十日（772年2月28日）",
+      "identity": "唐朝诗人、官员。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=白居易&oldid=94256115"
+    },
+    {
+      "id": "p-c447e7249482",
+      "name": "韩愈",
+      "status": "confirmed",
+      "article": "韩愈",
+      "revision": 94760424,
+      "evidence": "[[唐代宗]][[大曆]]三年十二月初二日<br/>768年",
+      "identity": "唐朝文臣与文学家。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=韩愈&oldid=94760424"
+    },
+    {
+      "id": "p-b16ab4e3ee21",
+      "name": "李德裕",
+      "status": "confirmed",
+      "article": "李德裕",
+      "revision": 94433568,
+      "evidence": "[[唐德宗]]贞元三年<br>787年",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李德裕&oldid=94433568"
+    },
+    {
+      "id": "p-b754a32ce578",
+      "name": "李克用",
+      "status": "confirmed",
+      "article": "李克用",
+      "revision": 93843994,
+      "evidence": "[[唐宣宗]][[大中 (唐朝)|大中]]十年九月二十二日<br>856年10月24日",
+      "identity": "唐末沙陀军事首领，封晋王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李克用&oldid=93843994"
+    },
+    {
+      "id": "p-5db2ad90b331",
+      "name": "朱全忠",
+      "status": "confirmed",
+      "article": "朱温",
+      "revision": 91768904,
+      "evidence": "大中六年<br>852年12月5日",
+      "identity": "唐末军阀，后建立后梁。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱温&oldid=91768904"
+    },
+    {
+      "id": "p-80a611051777",
+      "name": "李存勖",
+      "status": "confirmed",
+      "article": "李存勖",
+      "revision": 93808966,
+      "evidence": "[[唐僖宗]][[光啟]]元年十月二十二日<br/>885年12月2日",
+      "identity": "李克用之子，建立后唐。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李存勖&oldid=93808966"
+    },
+    {
+      "id": "p-90e6ecd3e947",
+      "name": "郭威",
+      "status": "confirmed",
+      "article": "郭威",
+      "revision": 91476687,
+      "evidence": "[[唐昭宗]][[天祐 (唐朝)|天祐]]元年七月二十八日<br />904年9月10日",
+      "identity": "后周建立者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭威&oldid=91476687"
+    },
+    {
+      "id": "p-3fa35ee6319c",
+      "name": "柴荣",
+      "status": "confirmed",
+      "article": "柴荣",
+      "revision": 94877893,
+      "evidence": "[[后梁]][[梁末帝|末帝]][[龍德]]元年九月二十四日<br />921年10月27日",
+      "identity": "后周皇帝，称周世宗。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=柴荣&oldid=94877893"
+    },
+    {
+      "id": "p-cb03686f1dd3",
+      "name": "李光弼",
+      "status": "confirmed",
+      "article": "李光弼",
+      "revision": 93322852,
+      "evidence": "[[唐中宗]]景龙二年（708年）",
+      "identity": "唐朝将领，参与平定安史之乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李光弼&oldid=93322852"
+    },
+    {
+      "id": "p-4264f20f1fbc",
+      "name": "张巡",
+      "status": "confirmed",
+      "article": "张巡",
+      "revision": 91266171,
+      "evidence": "（709年—757年）",
+      "identity": "唐朝官员与将领，安史之乱中守睢阳。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张巡&oldid=91266171"
+    },
+    {
+      "id": "p-0be25aa565dc",
+      "name": "颜真卿",
+      "status": "confirmed",
+      "article": "颜真卿",
+      "revision": 93046269,
+      "evidence": "[[唐中宗]][[景龍]]三年（709年）",
+      "identity": "唐朝官员、书法家，曾起兵抗击安禄山。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=颜真卿&oldid=93046269"
+    },
+    {
+      "id": "p-65d3b7166aa7",
+      "name": "李晟",
+      "status": "confirmed",
+      "article": "李晟 (唐朝)",
+      "revision": null,
+      "evidence": "核对唐朝临潭人李晟；所查地方政府资料及维基文库作者页均载727年生。",
+      "identity": "唐朝将领，参与平定朱泚之乱。",
+      "source": "https://www.lintan.gov.cn/info/1055/2586.htm"
+    },
+    {
+      "id": "p-f938a4fc725f",
+      "name": "裴度",
+      "status": "confirmed",
+      "article": "裴度",
+      "revision": 91239926,
+      "evidence": "765年",
+      "identity": "唐朝大臣，参与平定淮西等藩镇。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=裴度&oldid=91239926"
+    },
+    {
+      "id": "p-5c6de5b11487",
+      "name": "王褒",
+      "status": "unknown",
+      "article": "王褒 (汉朝)",
+      "revision": 88545483,
+      "evidence": "（？—？）",
+      "identity": "西汉文学家，曾为宣帝作赋论君臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王褒_(汉朝)&oldid=88545483"
+    },
+    {
+      "id": "p-380582cb3b20",
+      "name": "张敞",
+      "status": "unknown",
+      "article": "張敞",
+      "revision": 90562629,
+      "evidence": "（？—前48年）",
+      "identity": "西汉官员，任职京兆并参与朝政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張敞&oldid=90562629"
+    },
+    {
+      "id": "p-979d48ea0fd0",
+      "name": "王吉",
+      "status": "unknown",
+      "article": "王吉 (西汉)",
+      "revision": 94004122,
+      "evidence": "（—前48年）",
+      "identity": "西汉官员，曾向宣帝进言。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王吉_(西汉)&oldid=94004122"
+    },
+    {
+      "id": "p-0ec8cc0e4196",
+      "name": "义渠安国",
+      "status": "unknown",
+      "article": "义渠安国",
+      "revision": 79211784,
+      "evidence": "（?—?）",
+      "identity": "西汉使者，奉命处理羌人事务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=义渠安国&oldid=79211784"
+    },
+    {
+      "id": "p-0882c512cc12",
+      "name": "赵充国",
+      "status": "confirmed",
+      "article": "赵充国",
+      "revision": 93400347,
+      "evidence": "西元前137年",
+      "identity": "西汉将领，参与平定西羌。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵充国&oldid=93400347"
+    },
+    {
+      "id": "p-765b96e741e4",
+      "name": "黄霸",
+      "status": "confirmed",
+      "article": "黃霸",
+      "revision": 87895952,
+      "evidence": "（前130年—前51年）",
+      "identity": "西汉官员，以治理颍川见载。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=黃霸&oldid=87895952"
+    },
+    {
+      "id": "p-61fec91a19b8",
+      "name": "严延年",
+      "status": "unknown",
+      "article": "嚴延年",
+      "revision": 74545204,
+      "evidence": "（？—前58年）",
+      "identity": "西汉官员，曾任河南太守。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=嚴延年&oldid=74545204"
+    },
+    {
+      "id": "p-92b29d4538e1",
+      "name": "汉元帝",
+      "status": "confirmed",
+      "article": "汉元帝",
+      "revision": 91055976,
+      "evidence": "前75年",
+      "identity": "西汉皇帝，名刘奭。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉元帝&oldid=91055976"
+    },
+    {
+      "id": "p-25dd183973d2",
+      "name": "王禁",
+      "status": "unknown",
+      "article": "王禁",
+      "revision": 88539938,
+      "evidence": "（？—前42年）",
+      "identity": "西汉外戚，王皇后之父。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王禁&oldid=88539938"
+    },
+    {
+      "id": "p-68f05abeba07",
+      "name": "许嘉",
+      "status": "unknown",
+      "article": "許嘉",
+      "revision": 94535996,
+      "evidence": "（前1世纪？—前28年）",
+      "identity": "西汉外戚与大臣，曾任大司马。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=許嘉&oldid=94535996"
+    },
+    {
+      "id": "p-81ae2cc34592",
+      "name": "冯奉世",
+      "status": "unknown",
+      "article": "冯奉世",
+      "revision": 91650305,
+      "evidence": "（？—前39年）",
+      "identity": "西汉将领，曾出兵西域。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=冯奉世&oldid=91650305"
+    },
+    {
+      "id": "p-fd9adf59e797",
+      "name": "刘康",
+      "status": "unknown",
+      "article": "劉康 (定陶王)",
+      "revision": 94536079,
+      "evidence": "|逝世日期=前23年8月",
+      "identity": "西汉皇子，受封济阳王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉康_(定陶王)&oldid=94536079"
+    },
+    {
+      "id": "p-362bb594f93b",
+      "name": "石显",
+      "status": "unknown",
+      "article": "石顯",
+      "revision": 94043972,
+      "evidence": "（？—前33年）",
+      "identity": "西汉宦官，元帝时掌握中书政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=石顯&oldid=94043972"
+    },
+    {
+      "id": "p-e7511f964614",
+      "name": "王尊",
+      "status": "unknown",
+      "article": "王尊",
+      "revision": 94432477,
+      "evidence": "（?—?）",
+      "identity": "西汉官员，曾弹劾权臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王尊&oldid=94432477"
+    },
+    {
+      "id": "p-19dc6f922779",
+      "name": "匡衡",
+      "status": "unknown",
+      "article": "匡衡",
+      "revision": 89878420,
+      "evidence": "（？—？）",
+      "identity": "西汉经学家与大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=匡衡&oldid=89878420"
+    },
+    {
+      "id": "p-a2a590a8ac70",
+      "name": "张谭",
+      "status": "unknown",
+      "article": "張譚",
+      "revision": 92967591,
+      "evidence": "（?—?）",
+      "identity": "西汉官员，曾任御史大夫。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張譚&oldid=92967591"
+    },
+    {
+      "id": "p-4eec40a53ae6",
+      "name": "王方进",
+      "status": "unconfirmed",
+      "article": "翟方進",
+      "revision": 94536179,
+      "evidence": "（？—前7年3月14日）",
+      "identity": "西汉丞相。",
+      "source": null
+    },
+    {
+      "id": "p-1932c0e929a7",
+      "name": "赵昭仪",
+      "status": "unknown",
+      "article": "赵昭仪",
+      "revision": 93654568,
+      "evidence": "（—前7年）",
+      "identity": "汉成帝宠妃赵氏。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵昭仪&oldid=93654568"
+    },
+    {
+      "id": "p-eafa287138c7",
+      "name": "班彪",
+      "status": "confirmed",
+      "article": "班彪",
+      "revision": 91482876,
+      "evidence": "（3年—54年）",
+      "identity": "东汉史家班固之父。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=班彪&oldid=91482876"
+    },
+    {
+      "id": "p-066ad80f2f3f",
+      "name": "傅喜",
+      "status": "unknown",
+      "article": "傅喜",
+      "revision": 88605614,
+      "evidence": "（？—10年）",
+      "identity": "西汉外戚与大臣，曾反对尊奉傅太后。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=傅喜&oldid=88605614"
+    },
+    {
+      "id": "p-c03df432a4c0",
+      "name": "朱博",
+      "status": "unknown",
+      "article": "朱博",
+      "revision": 89112953,
+      "evidence": "（？—前5年）",
+      "identity": "西汉官员，曾任御史大夫、丞相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱博&oldid=89112953"
+    },
+    {
+      "id": "p-0658c381bccd",
+      "name": "傅太后",
+      "status": "unknown",
+      "article": "傅昭儀",
+      "revision": 91371395,
+      "evidence": "（前1世纪—前2年2月21日）",
+      "identity": "汉哀帝祖母，傅氏外戚核心人物。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=傅昭儀&oldid=91371395"
+    },
+    {
+      "id": "p-e1907f7c8ce6",
+      "name": "孔光",
+      "status": "confirmed",
+      "article": "孔光",
+      "revision": 89547320,
+      "evidence": "（前65年—5年4月28日）",
+      "identity": "西汉经学家与大臣，历任三公。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔光&oldid=89547320"
+    },
+    {
+      "id": "p-0989130f9ee1",
+      "name": "师丹",
+      "status": "unknown",
+      "article": "师丹",
+      "revision": 88682984,
+      "evidence": "（？—3年）",
+      "identity": "西汉大臣，曾任大司空。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=师丹&oldid=88682984"
+    },
+    {
+      "id": "p-30e5b505a55f",
+      "name": "李寻",
+      "status": "unknown",
+      "article": "李尋",
+      "revision": 80959904,
+      "evidence": "（?—?）",
+      "identity": "西汉官员，以灾异言事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李尋&oldid=80959904"
+    },
+    {
+      "id": "p-9297e6df16c0",
+      "name": "扬雄",
+      "status": "confirmed",
+      "article": "扬雄",
+      "revision": 89784909,
+      "evidence": "前53年",
+      "identity": "西汉学者与文学家。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=扬雄&oldid=89784909"
+    },
+    {
+      "id": "p-75123cfd3f82",
+      "name": "赵玄",
+      "status": "unknown",
+      "article": "趙玄",
+      "revision": 80809785,
+      "evidence": "（?—?）",
+      "identity": "西汉官员，曾与朱博同朝任职。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=趙玄&oldid=80809785"
+    },
+    {
+      "id": "p-26b203780ba0",
+      "name": "张禹",
+      "status": "unknown",
+      "article": "张禹 (东汉)",
+      "revision": 93916438,
+      "evidence": "（？—113年）",
+      "identity": "东汉大臣，曾任太傅。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张禹_(东汉)&oldid=93916438"
+    },
+    {
+      "id": "p-ad686130e64a",
+      "name": "徐防",
+      "status": "unknown",
+      "article": "徐防",
+      "revision": 88509982,
+      "evidence": "（1世紀—2世紀）",
+      "identity": "东汉大臣，曾任太尉。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐防&oldid=88509982"
+    },
+    {
+      "id": "p-747fbcd5668c",
+      "name": "刘胜",
+      "status": "unknown",
+      "article": "汉和帝",
+      "revision": null,
+      "evidence": "核对东汉平原怀王刘胜，资料未载明确生年；不使用其父汉和帝的生年。",
+      "identity": "东汉宗室，受封平原王。",
+      "source": "https://ctext.org/datawiki.pl?if=gb&res=738223"
+    },
+    {
+      "id": "p-01121d03501e",
+      "name": "梁鲔",
+      "status": "unknown",
+      "article": "梁鲔",
+      "revision": 88516834,
+      "evidence": "（？—107年4月8日）",
+      "identity": "东汉大臣，曾任司徒。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=梁鲔&oldid=88516834"
+    },
+    {
+      "id": "p-686c5e8d0bbe",
+      "name": "严授",
+      "status": "unconfirmed",
+      "article": "严授 (东汉)",
+      "revision": null,
+      "evidence": "",
+      "identity": "东汉将领，作战时力战而死。",
+      "source": null
+    },
+    {
+      "id": "p-7b6dfa86c85c",
+      "name": "邓遵",
+      "status": "unknown",
+      "article": "鄧遵",
+      "revision": 93188396,
+      "evidence": "（1世纪—121年）",
+      "identity": "东汉将领，参与对匈奴作战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=鄧遵&oldid=93188396"
+    },
+    {
+      "id": "p-993235af291a",
+      "name": "马续",
+      "status": "confirmed",
+      "article": "馬續",
+      "revision": 85218795,
+      "evidence": "（70年—141年）",
+      "identity": "东汉将领与边郡官员。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=馬續&oldid=85218795"
+    },
+    {
+      "id": "p-940e00f97940",
+      "name": "班勇",
+      "status": "unknown",
+      "article": "班勇",
+      "revision": 68256621,
+      "evidence": "（？—127年）",
+      "identity": "东汉将领，主张经营西域。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=班勇&oldid=68256621"
+    },
+    {
+      "id": "p-e4fbee38569d",
+      "name": "邓骘",
+      "status": "unknown",
+      "article": "鄧騭",
+      "revision": 94186998,
+      "evidence": "？",
+      "identity": "东汉外戚与大臣，邓太后之兄。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=鄧騭&oldid=94186998"
+    },
+    {
+      "id": "p-018363527a04",
+      "name": "杜季贡",
+      "status": "unknown",
+      "article": "杜季贡",
+      "revision": 92865452,
+      "evidence": "（1世纪？—117年）",
+      "identity": "东汉官员，遭羌人刺杀。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=杜季贡&oldid=92865452"
+    },
+    {
+      "id": "p-f87a73474f87",
+      "name": "袁敞",
+      "status": "unknown",
+      "article": "袁敞",
+      "revision": 88451856,
+      "evidence": "（1世紀？—117年5月23日）",
+      "identity": "东汉大臣，曾任司空。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=袁敞&oldid=88451856"
+    },
+    {
+      "id": "p-7d34aa012230",
+      "name": "马贤",
+      "status": "unknown",
+      "article": "馬賢 (東漢)",
+      "revision": 63082130,
+      "evidence": "？",
+      "identity": "东汉将领，参与平定羌乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=馬賢_(東漢)&oldid=63082130"
+    },
+    {
+      "id": "p-1ea1818c44d2",
+      "name": "阎太后",
+      "status": "unknown",
+      "article": "阎姬",
+      "revision": 91322483,
+      "evidence": "?",
+      "identity": "东汉安帝皇后，安帝死后参与迎立北乡侯。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=阎姬&oldid=91322483"
+    },
+    {
+      "id": "p-9995ca0eaafa",
+      "name": "周举",
+      "status": "unknown",
+      "article": "周舉",
+      "revision": 88592511,
+      "evidence": "？年",
+      "identity": "东汉官员，以直谏见载。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=周舉&oldid=88592511"
+    },
+    {
+      "id": "p-80768f1e6d75",
+      "name": "张衡",
+      "status": "confirmed",
+      "article": "张衡",
+      "revision": 92022079,
+      "evidence": "[[漢章帝]][[建初 (东汉)|建初]]三年戊寅<br />78年",
+      "identity": "东汉官员与学者，曾上书论政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张衡&oldid=92022079"
+    },
+    {
+      "id": "p-c95db0e52c0f",
+      "name": "刘崎",
+      "status": "unknown",
+      "article": "刘崎",
+      "revision": 84292453,
+      "evidence": "（？—？）",
+      "identity": "东汉官员，因灾异被免职。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘崎&oldid=84292453"
+    },
+    {
+      "id": "p-accd2119f3b5",
+      "name": "孔扶",
+      "status": "unknown",
+      "article": "孔扶",
+      "revision": 75190133,
+      "evidence": "（?—?）",
+      "identity": "东汉官员，曾任司空。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔扶&oldid=75190133"
+    },
+    {
+      "id": "p-1f5d4ccb8b90",
+      "name": "黄尚",
+      "status": "unknown",
+      "article": "黃尚",
+      "revision": 37769296,
+      "evidence": "黄尚，字伯河，南郡邔縣（今湖北省宜城市）人。中國东汉時期官員，官至司徒。",
+      "identity": "东汉官员，曾任三公。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=黃尚&oldid=37769296"
+    },
+    {
+      "id": "p-cd2c0d552f49",
+      "name": "王卓",
+      "status": "unknown",
+      "article": "王卓 (東漢)",
+      "revision": 88510255,
+      "evidence": "（？—137年4月15日）",
+      "identity": "东汉官员，曾任三公。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王卓_(東漢)&oldid=88510255"
+    },
+    {
+      "id": "p-6977b989b6fc",
+      "name": "梁冀",
+      "status": "confirmed",
+      "article": "梁冀",
+      "revision": 94963425,
+      "evidence": "（88年—159年9月9日）",
+      "identity": "东汉外戚与权臣，长期控制朝政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=梁冀&oldid=94963425"
+    },
+    {
+      "id": "p-4e1776d23ee7",
+      "name": "刘缵",
+      "status": "confirmed",
+      "article": "汉质帝",
+      "revision": 91999566,
+      "evidence": "138年",
+      "identity": "东汉质帝，名刘缵。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉质帝&oldid=91999566"
+    },
+    {
+      "id": "p-5e949f44056d",
+      "name": "李固",
+      "status": "confirmed",
+      "article": "李固",
+      "revision": 94602793,
+      "evidence": "公元93年",
+      "identity": "东汉大臣，参与拥立清河王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李固&oldid=94602793"
+    },
+    {
+      "id": "p-0bd1a740b0c0",
+      "name": "刘蒜",
+      "status": "unknown",
+      "article": "刘蒜",
+      "revision": 89492227,
+      "evidence": "（2世纪—147年）",
+      "identity": "东汉宗室，曾被大臣推举为嗣君人选。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘蒜&oldid=89492227"
+    },
+    {
+      "id": "p-bbc5c5a6b8bb",
+      "name": "刘志",
+      "status": "confirmed",
+      "article": "汉桓帝",
+      "revision": 93979201,
+      "evidence": "132年",
+      "identity": "东汉桓帝，名刘志。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉桓帝&oldid=93979201"
+    },
+    {
+      "id": "p-6911a4d9387c",
+      "name": "刘陶",
+      "status": "unknown",
+      "article": "刘陶 (东汉)",
+      "revision": 88509283,
+      "evidence": "（？–185年）",
+      "identity": "东汉官员，曾上书论政与铸钱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘陶_(东汉)&oldid=88509283"
+    },
+    {
+      "id": "p-5c649bd24092",
+      "name": "黄琼",
+      "status": "confirmed",
+      "article": "黄琼",
+      "revision": 92014453,
+      "evidence": "（86年—164年）",
+      "identity": "东汉名臣，历任三公。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=黄琼&oldid=92014453"
+    },
+    {
+      "id": "p-e80ffa15d8ef",
+      "name": "徐稚",
+      "status": "confirmed",
+      "article": "徐稚",
+      "revision": 90828273,
+      "evidence": "（97年—168年）",
+      "identity": "东汉名士，字孺子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐稚&oldid=90828273"
+    },
+    {
+      "id": "p-c40aeea4c545",
+      "name": "郭泰",
+      "status": "disputed",
+      "article": "郭泰 (東漢)",
+      "revision": 94909724,
+      "evidence": "（128年或130年—169年或171年）",
+      "identity": "东汉名士，字林宗，知名于太学清议。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭泰_(東漢)&oldid=94909724"
+    },
+    {
+      "id": "p-37f5d1d9c765",
+      "name": "李膺",
+      "status": "confirmed",
+      "article": "李膺 (東漢)",
+      "revision": 94604842,
+      "evidence": "（110年—169年）",
+      "identity": "东汉官员与名士，曾遭党锢。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李膺_(東漢)&oldid=94604842"
+    },
+    {
+      "id": "p-4e7eee5b477a",
+      "name": "茅容",
+      "status": "unknown",
+      "article": "茅容",
+      "revision": 91446964,
+      "evidence": "（？—？）",
+      "identity": "东汉名士，经郭泰识拔。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=茅容&oldid=91446964"
+    },
+    {
+      "id": "p-d16b263b24c9",
+      "name": "孟敏",
+      "status": "unknown",
+      "article": "孟敏",
+      "revision": 88591038,
+      "evidence": "（？—？）",
+      "identity": "东汉名士，经郭泰识拔。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟敏&oldid=88591038"
+    },
+    {
+      "id": "p-f49ccc9f2cb0",
+      "name": "魏昭",
+      "status": "unknown",
+      "article": "魏昭",
+      "revision": 88591238,
+      "evidence": "（？—？）",
+      "identity": "东汉士人，以敬师闻名。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏昭&oldid=88591238"
+    },
+    {
+      "id": "p-908650ddeb8e",
+      "name": "左原",
+      "status": "unknown",
+      "article": "左原",
+      "revision": 91447105,
+      "evidence": "（？—？）",
+      "identity": "东汉士人，曾受郭泰劝勉。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=左原&oldid=91447105"
+    },
+    {
+      "id": "p-efe3ea6bb71d",
+      "name": "段颎",
+      "status": "unknown",
+      "article": "段熲",
+      "revision": 93004964,
+      "evidence": "（？—179年）",
+      "identity": "东汉将领，多次参与平定羌乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=段熲&oldid=93004964"
+    },
+    {
+      "id": "p-f78e44b0e850",
+      "name": "夫台",
+      "status": "unknown",
+      "article": "夫台",
+      "revision": 92236398,
+      "evidence": "夫台，是东汉后期的夫餘国国王。\n汉顺帝永和元年（136年），夫余王至洛阳朝见汉顺帝，汉顺帝和夫余王一起观看了黄门鼓吹、角抵戏的表演。汉桓帝延熹四年（161年），夫余王遣使",
+      "identity": "夫余王，曾进犯玄菟郡。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=夫台&oldid=92236398"
+    },
+    {
+      "id": "p-9c04e342d40d",
+      "name": "公孙域",
+      "status": "unconfirmed",
+      "article": "公孙域",
+      "revision": null,
+      "evidence": "",
+      "identity": "东汉玄菟太守，曾击退夫余军。",
+      "source": null
+    },
+    {
+      "id": "p-7b140b929375",
+      "name": "贾彪",
+      "status": "unknown",
+      "article": "贾彪",
+      "revision": 88531458,
+      "evidence": "（?—?）",
+      "identity": "东汉名士，参与营救党人。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=贾彪&oldid=88531458"
+    },
+    {
+      "id": "p-eca0e3619f7d",
+      "name": "窦武",
+      "status": "unknown",
+      "article": "窦武",
+      "revision": 94577680,
+      "evidence": "（？—168年）",
+      "identity": "东汉外戚与大臣，曾参与朝政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=窦武&oldid=94577680"
+    },
+    {
+      "id": "p-c218c6164623",
+      "name": "范滂",
+      "status": "confirmed",
+      "article": "范滂",
+      "revision": 94792301,
+      "evidence": "（137年—169年）",
+      "identity": "东汉名士，遭党锢之祸。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=范滂&oldid=94792301"
+    },
+    {
+      "id": "p-234db88d29fa",
+      "name": "霍谞",
+      "status": "unknown",
+      "article": "霍諝",
+      "revision": 88585611,
+      "evidence": "（?—?）",
+      "identity": "东汉官员，曾与范滂交往。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=霍諝&oldid=88585611"
+    },
+    {
+      "id": "p-62d7ad4db2b1",
+      "name": "蔡邕",
+      "status": "disputed",
+      "article": "蔡邕",
+      "revision": 91825390,
+      "evidence": "132年或133年",
+      "identity": "东汉文学家与官员。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=蔡邕&oldid=91825390"
+    },
+    {
+      "id": "p-f72ea879cfcb",
+      "name": "胡广",
+      "status": "confirmed",
+      "article": "胡廣 (漢朝)",
+      "revision": 94656391,
+      "evidence": "（91年—172年4月18日）",
+      "identity": "东汉大臣，历仕多朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=胡廣_(漢朝)&oldid=94656391"
+    },
+    {
+      "id": "p-56c8c17b0c3e",
+      "name": "侯览",
+      "status": "unknown",
+      "article": "侯覽",
+      "revision": 93843715,
+      "evidence": "（?—172年）",
+      "identity": "东汉宦官，曾专权。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=侯覽&oldid=93843715"
+    },
+    {
+      "id": "p-ec28a09454ee",
+      "name": "孟观",
+      "status": "unknown",
+      "article": "孟觀",
+      "revision": 86489796,
+      "evidence": "（？—301年）",
+      "identity": "西晋将领，参与平定齐万年之乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟觀&oldid=86489796"
+    },
+    {
+      "id": "p-db35006374ef",
+      "name": "齐万年",
+      "status": "unknown",
+      "article": "齐万年",
+      "revision": 91916952,
+      "evidence": "（？—299年）",
+      "identity": "西晋时期氐人起事领袖。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐万年&oldid=91916952"
+    },
+    {
+      "id": "p-cfa1d41abaae",
+      "name": "江统",
+      "status": "unknown",
+      "article": "江統",
+      "revision": 91917092,
+      "evidence": "（？—310年）",
+      "identity": "西晋官员与文学家，曾作《徙戎论》。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=江統&oldid=91917092"
+    },
+    {
+      "id": "p-3cd4b110dd59",
+      "name": "张轨",
+      "status": "confirmed",
+      "article": "張軌",
+      "revision": 93784735,
+      "evidence": "255年",
+      "identity": "西晋凉州刺史，治理凉州并奠定前凉基础。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張軌&oldid=93784735"
+    },
+    {
+      "id": "p-266e1d742a46",
+      "name": "司马伦",
+      "status": "approximate",
+      "article": "司马伦",
+      "revision": 91385161,
+      "evidence": "240年代?",
+      "identity": "西晋宗室，曾篡位称帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马伦&oldid=91385161"
+    },
+    {
+      "id": "p-e487a70a2079",
+      "name": "孙秀",
+      "status": "unknown",
+      "article": "孫秀 (西晉)",
+      "revision": 92967404,
+      "evidence": "（3世纪—301年）",
+      "identity": "西晋权臣，依附司马伦并参与政争。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孫秀_(西晉)&oldid=92967404"
+    },
+    {
+      "id": "p-76764ce689bd",
+      "name": "赵廞",
+      "status": "unknown",
+      "article": "赵廞",
+      "revision": 91109344,
+      "evidence": "（?—301年）",
+      "identity": "西晋益州刺史，曾杀李庠。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵廞&oldid=91109344"
+    },
+    {
+      "id": "p-2bf7d1c343a2",
+      "name": "李庠",
+      "status": "confirmed",
+      "article": "李庠",
+      "revision": 94828482,
+      "evidence": "247年",
+      "identity": "流民军首领李特之弟。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李庠&oldid=94828482"
+    },
+    {
+      "id": "p-28a67039d03f",
+      "name": "李特",
+      "status": "unknown",
+      "article": "李特",
+      "revision": 89640563,
+      "evidence": "（3世紀？—303年）",
+      "identity": "流民军首领，后来建立成汉政权基础。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李特&oldid=89640563"
+    },
+    {
+      "id": "p-8a8555912b0e",
+      "name": "李流",
+      "status": "confirmed",
+      "article": "李流",
+      "revision": 86901039,
+      "evidence": "（248年—303年）",
+      "identity": "李特之弟，参与流民军起事。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李流&oldid=86901039"
+    },
+    {
+      "id": "p-b1c27cb7f6d0",
+      "name": "乐广",
+      "status": "unknown",
+      "article": "樂廣",
+      "revision": 94931124,
+      "evidence": "（？—304年2月29日）",
+      "identity": "西晋名士与官员。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=樂廣&oldid=94931124"
+    },
+    {
+      "id": "p-b0539005a8c4",
+      "name": "司马颖",
+      "status": "confirmed",
+      "article": "司马颖",
+      "revision": 92430548,
+      "evidence": "（279年—306年）",
+      "identity": "西晋宗室，成都王，参与八王之乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马颖&oldid=92430548"
+    },
+    {
+      "id": "p-a878d1cf59d2",
+      "name": "司马越",
+      "status": "unknown",
+      "article": "司马越",
+      "revision": 88465332,
+      "evidence": "3世紀？",
+      "identity": "西晋宗室，东海王，参与八王之乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马越&oldid=88465332"
+    },
+    {
+      "id": "p-049f8a63773d",
+      "name": "刘沈",
+      "status": "unknown",
+      "article": "刘沈",
+      "revision": 90837390,
+      "evidence": "（3世纪—304年）",
+      "identity": "西晋将领，曾起兵讨伐司马颙。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘沈&oldid=90837390"
+    },
+    {
+      "id": "p-d961036b21d7",
+      "name": "张方",
+      "status": "unknown",
+      "article": "張方",
+      "revision": 94682344,
+      "evidence": "（3世紀—306年）",
+      "identity": "西晋将领，效力于河间王司马颙。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張方&oldid=94682344"
+    },
+    {
+      "id": "p-e8198efeff95",
+      "name": "刘弘",
+      "status": "confirmed",
+      "article": "刘弘 (西晋)",
+      "revision": null,
+      "evidence": "核对西晋刘弘，与晋武帝司马炎同年生。",
+      "identity": "西晋大臣与将领，曾镇守荆州。",
+      "source": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/222222362.shtml"
+    },
+    {
+      "id": "p-486f840bc7c4",
+      "name": "罗尚",
+      "status": "unknown",
+      "article": "羅尚",
+      "revision": 90213889,
+      "evidence": "（3世紀—310年）",
+      "identity": "西晋益州刺史，参与平定蜀地战乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=羅尚&oldid=90213889"
+    },
+    {
+      "id": "p-e08049dfe29d",
+      "name": "刘义符",
+      "status": "confirmed",
+      "article": "刘义符",
+      "revision": 94824419,
+      "evidence": "406年",
+      "identity": "刘宋少帝，刘裕之子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义符&oldid=94824419"
+    },
+    {
+      "id": "p-20e695fb2251",
+      "name": "刘义真",
+      "status": "confirmed",
+      "article": "刘义真",
+      "revision": 94646517,
+      "evidence": "407年",
+      "identity": "刘宋宗室，刘裕之子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义真&oldid=94646517"
+    },
+    {
+      "id": "p-5660d41d05e4",
+      "name": "谢灵运",
+      "status": "confirmed",
+      "article": "谢灵运",
+      "revision": 93427912,
+      "evidence": "[[太元_(东晋)|太元]]十年（385年）",
+      "identity": "东晋末至刘宋时期诗人。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=谢灵运&oldid=93427912"
+    },
+    {
+      "id": "p-f8f9d3eb1ed9",
+      "name": "徐羡之",
+      "status": "confirmed",
+      "article": "徐羨之",
+      "revision": 94883980,
+      "evidence": "[[東晉]][[晉哀帝|哀帝]][[興寧 (東晉)|興寧]]二年（364年）",
+      "identity": "刘宋大臣，参与辅政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐羨之&oldid=94883980"
+    },
+    {
+      "id": "p-73265c90ed92",
+      "name": "傅亮",
+      "status": "confirmed",
+      "article": "傅亮 (六朝)",
+      "revision": 94276262,
+      "evidence": "374年",
+      "identity": "刘宋大臣，参与辅政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=傅亮_(六朝)&oldid=94276262"
+    },
+    {
+      "id": "p-e2f39a27653c",
+      "name": "拓跋焘",
+      "status": "confirmed",
+      "article": "魏太武帝",
+      "revision": 94028348,
+      "evidence": "408年<br>北魏[[天賜 (北魏)|天賜]]五年",
+      "identity": "北魏太武帝，名拓跋焘。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏太武帝&oldid=94028348"
+    },
+    {
+      "id": "p-b92935c01f8e",
+      "name": "姚浚",
+      "status": "unconfirmed",
+      "article": "姚浚",
+      "revision": null,
+      "evidence": "",
+      "identity": "西秦宗室，曾起兵反叛。",
+      "source": null
+    },
+    {
+      "id": "p-a186944ced80",
+      "name": "尉眷",
+      "status": "unknown",
+      "article": "尉眷",
+      "revision": 88320373,
+      "evidence": "（？—463年）",
+      "identity": "北魏将领，参与攻取上邽。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=尉眷&oldid=88320373"
+    },
+    {
+      "id": "p-379c6c4746c4",
+      "name": "赫连昌",
+      "status": "unknown",
+      "article": "赫連昌",
+      "revision": 81773875,
+      "evidence": "？",
+      "identity": "夏国君主，赫连勃勃之子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赫連昌&oldid=81773875"
+    },
+    {
+      "id": "p-b5ade2762fa4",
+      "name": "赫连定",
+      "status": "unknown",
+      "article": "赫連定",
+      "revision": 81773868,
+      "evidence": "（？—432年）",
+      "identity": "夏国君主，赫连昌之弟。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赫連定&oldid=81773868"
+    },
+    {
+      "id": "p-4b4887979b18",
+      "name": "檀道济",
+      "status": "unknown",
+      "article": "檀道济",
+      "revision": 94817735,
+      "evidence": "?",
+      "identity": "刘宋将领，屡次领兵作战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=檀道济&oldid=94817735"
+    },
+    {
+      "id": "p-764a1644eaef",
+      "name": "沮渠无讳",
+      "status": "unknown",
+      "article": "沮渠無諱",
+      "revision": 69216211,
+      "evidence": "？",
+      "identity": "北凉宗室，西迁后建立高昌政权。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=沮渠無諱&oldid=69216211"
+    },
+    {
+      "id": "p-18c11f75ac95",
+      "name": "朱修之",
+      "status": "unknown",
+      "article": "朱脩之",
+      "revision": 93784572,
+      "evidence": "（5世紀—464年2月24日）",
+      "identity": "刘宋将领，曾被北魏俘获。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱脩之&oldid=93784572"
+    },
+    {
+      "id": "p-029f4a7d5e2a",
+      "name": "刘义康",
+      "status": "confirmed",
+      "article": "刘义康",
+      "revision": 94566104,
+      "evidence": "409年",
+      "identity": "刘宋宗室与权臣，曾任丞相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义康&oldid=94566104"
+    },
+    {
+      "id": "p-24abfeb78cb7",
+      "name": "刘义恭",
+      "status": "confirmed",
+      "article": "劉義恭",
+      "revision": 93879840,
+      "evidence": "413年",
+      "identity": "刘宋宗室与大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉義恭&oldid=93879840"
+    },
+    {
+      "id": "p-862c04115bf4",
+      "name": "臧质",
+      "status": "confirmed",
+      "article": "臧质",
+      "revision": 80316922,
+      "evidence": "（400年—454年7月13日）",
+      "identity": "刘宋将领，曾参与地方叛乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=臧质&oldid=80316922"
+    },
+    {
+      "id": "p-ed9bab0f6568",
+      "name": "刘义宣",
+      "status": "confirmed",
+      "article": "刘义宣",
+      "revision": 94651159,
+      "evidence": "[[晉安帝]][[義熙 (東晉)|義熙]]十一年 （415年）",
+      "identity": "刘宋宗室，曾任司徒并起兵反叛。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义宣&oldid=94651159"
+    },
+    {
+      "id": "p-608691351b71",
+      "name": "刘骏",
+      "status": "confirmed",
+      "article": "宋孝武帝",
+      "revision": 93241325,
+      "evidence": "{{birth date|430|9|19|df=y}}",
+      "identity": "刘宋孝武帝，名刘骏。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋孝武帝&oldid=93241325"
+    },
+    {
+      "id": "p-7c1dc7c75352",
+      "name": "潘淑妃",
+      "status": "unknown",
+      "article": "潘淑妃",
+      "revision": 93970717,
+      "evidence": "（?—453年）",
+      "identity": "刘宋孝武帝宠妃。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=潘淑妃&oldid=93970717"
+    },
+    {
+      "id": "p-aac1d51df4ba",
+      "name": "萧道成",
+      "status": "confirmed",
+      "article": "蕭道成",
+      "revision": 93427082,
+      "evidence": "{{Birth date|427|2|1|df=y}}<br>（[[元嘉 (刘宋)|元嘉]]四年丁卯歲）",
+      "identity": "南齐建立者，曾任刘宋将领与权臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=蕭道成&oldid=93427082"
+    },
+    {
+      "id": "p-3aa3e184a826",
+      "name": "刘子业",
+      "status": "confirmed",
+      "article": "刘子业",
+      "revision": 94956136,
+      "evidence": "{{birth date|449|2|25|df=y}}",
+      "identity": "刘宋前废帝，名刘子业。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘子业&oldid=94956136"
+    },
+    {
+      "id": "p-8909a6369728",
+      "name": "刘子勋",
+      "status": "confirmed",
+      "article": "劉子勛",
+      "revision": 94426561,
+      "evidence": "（456年—466年9月19日）",
+      "identity": "刘宋宗室，曾起兵争位。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉子勛&oldid=94426561"
+    },
+    {
+      "id": "p-1e4a9b38563c",
+      "name": "邓琬",
+      "status": "confirmed",
+      "article": "邓琬",
+      "revision": 93720498,
+      "evidence": "（407年—466年）",
+      "identity": "刘宋官员，拥立刘子勋。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=邓琬&oldid=93720498"
+    },
+    {
+      "id": "p-b6994a64534f",
+      "name": "尉元",
+      "status": "confirmed",
+      "article": "尉元",
+      "revision": 87765120,
+      "evidence": "（413年—493年9月3日）",
+      "identity": "北魏将领，参与与刘宋作战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=尉元&oldid=87765120"
+    },
+    {
+      "id": "p-b794a7d6f042",
+      "name": "张永",
+      "status": "confirmed",
+      "article": "张永 (南朝)",
+      "revision": 93947161,
+      "evidence": "（410年—475年）",
+      "identity": "刘宋将领，参与北伐与淮北作战。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=张永_(南朝)&oldid=93947161"
+    },
+    {
+      "id": "p-7d7fc18896e5",
+      "name": "皮豹子",
+      "status": "unknown",
+      "article": "皮豹子",
+      "revision": 94673824,
+      "evidence": "（5世纪—464年）",
+      "identity": "北魏将领，参与对刘宋战争。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=皮豹子&oldid=94673824"
+    },
+    {
+      "id": "p-67320933fefb",
+      "name": "沈文秀",
+      "status": "confirmed",
+      "article": "沈文秀",
+      "revision": 84861882,
+      "evidence": "（426年—486年）",
+      "identity": "刘宋地方官，曾据城抵抗并向北魏求援。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=沈文秀&oldid=84861882"
+    },
+    {
+      "id": "p-3a08e49c24fa",
+      "name": "崔道固",
+      "status": "unknown",
+      "article": "崔道固",
+      "revision": 93852527,
+      "evidence": "（？—？）",
+      "identity": "刘宋地方官，曾向北魏求援。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=崔道固&oldid=93852527"
+    },
+    {
+      "id": "p-d52f7efc4ef8",
+      "name": "刘休佑",
+      "status": "confirmed",
+      "article": "劉休祐",
+      "revision": 92330171,
+      "evidence": "（445年—471年4月1日）",
+      "identity": "刘宋宗室，晋平王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉休祐&oldid=92330171"
+    },
+    {
+      "id": "p-b80a9b012a1f",
+      "name": "刘休若",
+      "status": "confirmed",
+      "article": "劉休若",
+      "revision": 94744510,
+      "evidence": "（448年—471年8月10日）",
+      "identity": "刘宋宗室，巴陵王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉休若&oldid=94744510"
+    },
+    {
+      "id": "p-b7d059a0217e",
+      "name": "冯太后",
+      "status": "confirmed",
+      "article": "文成文明皇后",
+      "revision": 94783648,
+      "evidence": "[[北魏太武帝]]太平真君二年 （441年）",
+      "identity": "北魏皇太后，参与辅政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=文成文明皇后&oldid=94783648"
+    },
+    {
+      "id": "p-57f5c8b38da9",
+      "name": "李奕",
+      "status": "unconfirmed",
+      "article": "李奕 (北魏)",
+      "revision": null,
+      "evidence": "",
+      "identity": "北魏时期人物，与冯太后有关。",
+      "source": null
+    },
+    {
+      "id": "p-1217dffb54c8",
+      "name": "程骏",
+      "status": "confirmed",
+      "article": "程駿",
+      "revision": 93793215,
+      "evidence": "（414年—485年）",
+      "identity": "北魏官员，曾上疏议礼。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=程駿&oldid=93793215"
+    },
+    {
+      "id": "p-d4c61484aaf3",
+      "name": "萧嶷",
+      "status": "confirmed",
+      "article": "蕭嶷",
+      "revision": 94828731,
+      "evidence": "[[南朝宋]][[元嘉 (劉宋)|元嘉]]二十一年（444年）",
+      "identity": "南齐宗室，萧道成之子，曾任荆州刺史。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=蕭嶷&oldid=94828731"
+    },
+    {
+      "id": "p-edf2fe7b3197",
+      "name": "萧赜",
+      "status": "confirmed",
+      "article": "齐武帝",
+      "revision": 91314198,
+      "evidence": "440年",
+      "identity": "南齐武帝，名萧赜。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐武帝&oldid=91314198"
+    },
+    {
+      "id": "p-08290c06d262",
+      "name": "萧长懋",
+      "status": "confirmed",
+      "article": "蕭長懋",
+      "revision": 88543217,
+      "evidence": "458年<br>（[[刘宋]][[大明 (劉宋)|大明]]二年）",
+      "identity": "南齐文惠太子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=蕭長懋&oldid=88543217"
+    },
+    {
+      "id": "p-afe3d113d0ab",
+      "name": "萧子良",
+      "status": "confirmed",
+      "article": "萧子良",
+      "revision": 94602336,
+      "evidence": "[[南朝宋]][[大明 (劉宋)|大明]]四年（460年）",
+      "identity": "南齐宗室与大臣，崇信佛教。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧子良&oldid=94602336"
+    },
+    {
+      "id": "p-2336ee8c228f",
+      "name": "范缜",
+      "status": "confirmed",
+      "article": "范缜",
+      "revision": 94592163,
+      "evidence": "（450年—510年）",
+      "identity": "南齐思想家，著《神灭论》。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=范缜&oldid=94592163"
+    },
+    {
+      "id": "p-7ef8d828189e",
+      "name": "王俭",
+      "status": "confirmed",
+      "article": "王儉 (南朝)",
+      "revision": 93967048,
+      "evidence": "（452年—489年）",
+      "identity": "南齐大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王儉_(南朝)&oldid=93967048"
+    },
+    {
+      "id": "p-86d489461b6f",
+      "name": "萧鸾",
+      "status": "confirmed",
+      "article": "齐明帝",
+      "revision": 91302388,
+      "evidence": "452年",
+      "identity": "南齐明帝，名萧鸾。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐明帝&oldid=91302388"
+    },
+    {
+      "id": "p-f0afcd5be209",
+      "name": "元颢",
+      "status": "confirmed",
+      "article": "元颢",
+      "revision": 94933108,
+      "evidence": "（494年—529年8月11日）",
+      "identity": "北魏宗室，北海王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=元颢&oldid=94933108"
+    },
+    {
+      "id": "p-60c029ac0b1d",
+      "name": "杨津",
+      "status": "confirmed",
+      "article": "楊津 (北魏)",
+      "revision": 90506530,
+      "evidence": "（469年—531年8月2日）",
+      "identity": "北魏将领与大臣，曾坚守定州。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=楊津_(北魏)&oldid=90506530"
+    },
+    {
+      "id": "p-017637599be0",
+      "name": "李裔",
+      "status": "confirmed",
+      "article": "李徽伯",
+      "revision": 92330702,
+      "evidence": "（488年—537年）",
+      "identity": "北魏时期将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李徽伯&oldid=92330702"
+    },
+    {
+      "id": "p-364106d631a9",
+      "name": "胡太后",
+      "status": "unknown",
+      "article": "宣武靈皇后",
+      "revision": 91354074,
+      "evidence": "（—528年5月17日）",
+      "identity": "北魏孝明帝之母，曾临朝执政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宣武靈皇后&oldid=91354074"
+    },
+    {
+      "id": "p-4eaa20d40b3f",
+      "name": "萧宝寅",
+      "status": "confirmed",
+      "article": "萧宝夤",
+      "revision": 94603721,
+      "evidence": "（487年—530年）",
+      "identity": "南齐宗室，后归北魏任将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧宝夤&oldid=94603721"
+    },
+    {
+      "id": "p-2bf6cfe3a07c",
+      "name": "长孙稚",
+      "status": "approximate",
+      "article": "长孙稚",
+      "revision": 94854693,
+      "evidence": "（470年代？—535年）",
+      "identity": "北魏大臣与将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=长孙稚&oldid=94854693"
+    },
+    {
+      "id": "p-5182d5caa6cc",
+      "name": "元悦",
+      "status": "confirmed",
+      "article": "元悦",
+      "revision": 94626604,
+      "evidence": "（494年—533年2月7日）",
+      "identity": "北魏宗室，汝南王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=元悦&oldid=94626604"
+    },
+    {
+      "id": "p-6d21f2d2c0a5",
+      "name": "元勰",
+      "status": "confirmed",
+      "article": "元勰",
+      "revision": 94946537,
+      "evidence": "（473年—508年10月27日）",
+      "identity": "北魏宗室，曾任宰辅。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=元勰&oldid=94946537"
+    },
+    {
+      "id": "p-44c275502d42",
+      "name": "高湛",
+      "status": "confirmed",
+      "article": "齐武成帝",
+      "revision": 94496954,
+      "evidence": "537年",
+      "identity": "北齐武成帝，名高湛。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐武成帝&oldid=94496954"
+    },
+    {
+      "id": "p-50b98c6ae650",
+      "name": "高殷",
+      "status": "confirmed",
+      "article": "高殷",
+      "revision": 91069081,
+      "evidence": "545年",
+      "identity": "北齐皇帝，文宣帝之子。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=高殷&oldid=91069081"
+    },
+    {
+      "id": "p-b209e5c37e71",
+      "name": "魏收",
+      "status": "confirmed",
+      "article": "魏收",
+      "revision": 93707573,
+      "evidence": "（507年—572年）",
+      "identity": "北齐史家与大臣，撰《魏书》。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏收&oldid=93707573"
+    },
+    {
+      "id": "p-cfa040287021",
+      "name": "陈宝应",
+      "status": "unknown",
+      "article": "陳寶應",
+      "revision": 88005687,
+      "evidence": "？",
+      "identity": "陈朝时期闽地割据者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=陳寶應&oldid=88005687"
+    },
+    {
+      "id": "p-06f5872bcb12",
+      "name": "宇文护",
+      "status": "confirmed",
+      "article": "宇文护",
+      "revision": 94592152,
+      "evidence": "513年",
+      "identity": "北周权臣，长期掌握朝政。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文护&oldid=94592152"
+    },
+    {
+      "id": "p-c537a763486e",
+      "name": "徐陵",
+      "status": "confirmed",
+      "article": "徐陵",
+      "revision": 94689456,
+      "evidence": "（507年—583年）",
+      "identity": "南朝陈大臣与文学家。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐陵&oldid=94689456"
+    },
+    {
+      "id": "p-5f9c3a5e86e1",
+      "name": "王劢",
+      "status": "confirmed",
+      "article": "王劢",
+      "revision": 88450772,
+      "evidence": "（506年—572年5月29日）",
+      "identity": "南朝陈大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王劢&oldid=88450772"
+    },
+    {
+      "id": "p-6324c0ebd7e6",
+      "name": "高纬",
+      "status": "confirmed",
+      "article": "齐后主",
+      "revision": 92536115,
+      "evidence": "{{birth date|556|5|29}}",
+      "identity": "北齐后主。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐后主&oldid=92536115"
+    },
+    {
+      "id": "p-4824cce9f331",
+      "name": "宇文深",
+      "status": "unknown",
+      "article": "宇文深",
+      "revision": 82386668,
+      "evidence": "（？—568年）",
+      "identity": "北周宗室与大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文深&oldid=82386668"
+    },
+    {
+      "id": "p-fcf5087ddf60",
+      "name": "卫菩萨",
+      "status": "unknown",
+      "article": "卫菩萨",
+      "revision": 74021818,
+      "evidence": "（?—?）",
+      "identity": "北齐大臣，曾任太尉。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=卫菩萨&oldid=74021818"
+    },
+    {
+      "id": "p-4afecd227825",
+      "name": "裴矩",
+      "status": "confirmed",
+      "article": "裴矩",
+      "revision": 92967716,
+      "evidence": "（547年—627年）",
+      "identity": "隋朝大臣，参与经营西域事务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=裴矩&oldid=92967716"
+    },
+    {
+      "id": "p-46d68e852d42",
+      "name": "宋璟",
+      "status": "confirmed",
+      "article": "宋璟",
+      "revision": 91980331,
+      "evidence": "唐龙朔三年（663年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋璟&oldid=91980331"
+    },
+    {
+      "id": "p-9303d5ddec0d",
+      "name": "卢鸿",
+      "status": "unknown",
+      "article": "卢鸿",
+      "revision": 82830071,
+      "evidence": "（？—8世纪）",
+      "identity": "唐代隐士，受玄宗征召。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=卢鸿&oldid=82830071"
+    },
+    {
+      "id": "p-ce70843909de",
+      "name": "张嘉贞",
+      "status": "confirmed",
+      "article": "張嘉貞",
+      "revision": 92864366,
+      "evidence": "（665年—729年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張嘉貞&oldid=92864366"
+    },
+    {
+      "id": "p-cccf63fb653c",
+      "name": "张说",
+      "status": "confirmed",
+      "article": "張說",
+      "revision": 94775151,
+      "evidence": "（667年—731年2月9日）",
+      "identity": "唐朝大臣与文学家，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張說&oldid=94775151"
+    },
+    {
+      "id": "p-99e7c86466fe",
+      "name": "李邵固",
+      "status": "unknown",
+      "article": "李邵固",
+      "revision": 83611597,
+      "evidence": "（？—730年）",
+      "identity": "契丹首领，曾受唐朝册封。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李邵固&oldid=83611597"
+    },
+    {
+      "id": "p-f0265c977b28",
+      "name": "李鲁苏",
+      "status": "unknown",
+      "article": "李鲁苏",
+      "revision": 84617420,
+      "evidence": "（？—？）",
+      "identity": "奚族首领，曾受唐朝册封。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李鲁苏&oldid=84617420"
+    },
+    {
+      "id": "p-25c5595a1759",
+      "name": "崔隐甫",
+      "status": "unknown",
+      "article": "崔隐甫",
+      "revision": 92962743,
+      "evidence": "（7世纪—739年）",
+      "identity": "唐朝官员，曾任御史大夫。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=崔隐甫&oldid=92962743"
+    },
+    {
+      "id": "p-0546a6993454",
+      "name": "宇文融",
+      "status": "unknown",
+      "article": "宇文融",
+      "revision": 94449506,
+      "evidence": "（？—730年）",
+      "identity": "唐朝官员，参与括户与财政事务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文融&oldid=94449506"
+    },
+    {
+      "id": "p-07ee1c85a3b7",
+      "name": "李元纮",
+      "status": "unknown",
+      "article": "李元纮",
+      "revision": 92980018,
+      "evidence": "（？—733年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李元纮&oldid=92980018"
+    },
+    {
+      "id": "p-73586575e6b8",
+      "name": "柳浑",
+      "status": "confirmed",
+      "article": "柳浑",
+      "revision": 80632367,
+      "evidence": "（716年—789年2月23日）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=柳浑&oldid=80632367"
+    },
+    {
+      "id": "p-87993a7619c0",
+      "name": "张延赏",
+      "status": "confirmed",
+      "article": "張延賞",
+      "revision": 93343482,
+      "evidence": "（726年—787年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張延賞&oldid=93343482"
+    },
+    {
+      "id": "p-20319234821c",
+      "name": "李泌",
+      "status": "confirmed",
+      "article": "李泌",
+      "revision": 94401800,
+      "evidence": "（722年5月15日—789年4月1日）",
+      "identity": "唐朝谋臣，历仕肃宗至德宗。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李泌&oldid=94401800"
+    },
+    {
+      "id": "p-be155c9d48eb",
+      "name": "韦皋",
+      "status": "confirmed",
+      "article": "韦皋",
+      "revision": 83912294,
+      "evidence": "（745年—805年）",
+      "identity": "唐朝将领与节度使，长期镇守西川。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=韦皋&oldid=83912294"
+    },
+    {
+      "id": "p-c10575e21704",
+      "name": "李皋",
+      "status": "confirmed",
+      "article": "李皋 (唐朝)",
+      "revision": 92946166,
+      "evidence": "（733年—792年）",
+      "identity": "唐朝宗室与将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李皋_(唐朝)&oldid=92946166"
+    },
+    {
+      "id": "p-da846f8f951e",
+      "name": "刘玄佐",
+      "status": "confirmed",
+      "article": "劉玄佐",
+      "revision": 74593227,
+      "evidence": "（729年—792年）",
+      "identity": "唐朝藩镇将领，曾镇守宣武。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉玄佐&oldid=74593227"
+    },
+    {
+      "id": "p-613bcc49666e",
+      "name": "李纳",
+      "status": "confirmed",
+      "article": "李纳",
+      "revision": 82964888,
+      "evidence": "（759年—792年）",
+      "identity": "唐朝藩镇首领，割据淄青。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李纳&oldid=82964888"
+    },
+    {
+      "id": "p-c67a13597348",
+      "name": "李实",
+      "status": "unknown",
+      "article": "李實 (唐朝)",
+      "revision": 92048329,
+      "evidence": "（8世纪？—815年）",
+      "identity": "唐朝官员，曾任京兆尹。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李實_(唐朝)&oldid=92048329"
+    },
+    {
+      "id": "p-40c3dae162a2",
+      "name": "窦参",
+      "status": "confirmed",
+      "article": "窦参",
+      "revision": 90093482,
+      "evidence": "（734年—793年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=窦参&oldid=90093482"
+    },
+    {
+      "id": "p-5ddf0f218677",
+      "name": "班宏",
+      "status": "confirmed",
+      "article": "班宏",
+      "revision": 83828753,
+      "evidence": "（720年—792年7月24日）",
+      "identity": "唐朝财政官员。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=班宏&oldid=83828753"
+    },
+    {
+      "id": "p-db59bb90ec28",
+      "name": "张滂",
+      "status": "unknown",
+      "article": "張滂 (唐朝)",
+      "revision": 83828761,
+      "evidence": "（?—?）",
+      "identity": "唐朝财政官员，参与盐铁事务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張滂_(唐朝)&oldid=83828761"
+    },
+    {
+      "id": "p-a53267377ff6",
+      "name": "陆贽",
+      "status": "confirmed",
+      "article": "陸贄",
+      "revision": 92923479,
+      "evidence": "（754年—805年）",
+      "identity": "唐德宗时期大臣与文臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=陸贄&oldid=92923479"
+    },
+    {
+      "id": "p-07d19c01e2f7",
+      "name": "李抱真",
+      "status": "confirmed",
+      "article": "李抱真",
+      "revision": 88937032,
+      "evidence": "（733年—794年）",
+      "identity": "唐朝将领与节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李抱真&oldid=88937032"
+    },
+    {
+      "id": "p-dc6a3c3989a0",
+      "name": "异牟寻",
+      "status": "confirmed",
+      "article": "异牟寻",
+      "revision": 92385451,
+      "evidence": "754年",
+      "identity": "南诏王，曾与唐朝恢复关系。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=异牟寻&oldid=92385451"
+    },
+    {
+      "id": "p-cd29ab61376f",
+      "name": "张茂昭",
+      "status": "confirmed",
+      "article": "張茂昭",
+      "revision": 93015495,
+      "evidence": "（762年—811年）",
+      "identity": "唐朝藩镇将领，义武节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張茂昭&oldid=93015495"
+    },
+    {
+      "id": "p-685b7ed08387",
+      "name": "裴延龄",
+      "status": "confirmed",
+      "article": "裴延齡",
+      "revision": 92968591,
+      "evidence": "（727年—795年）",
+      "identity": "唐德宗时期财政官员。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=裴延齡&oldid=92968591"
+    },
+    {
+      "id": "p-673f72039942",
+      "name": "韩全义",
+      "status": "unknown",
+      "article": "韓全義",
+      "revision": 74593360,
+      "evidence": "（?—805年）",
+      "identity": "唐朝将领，曾率军讨伐淮西。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=韓全義&oldid=74593360"
+    },
+    {
+      "id": "p-984c7fbf188e",
+      "name": "杨朝晟",
+      "status": "unknown",
+      "article": "杨朝晟",
+      "revision": 92968874,
+      "evidence": "（8世纪—801年7月8日）",
+      "identity": "唐朝将领与节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=杨朝晟&oldid=92968874"
+    },
+    {
+      "id": "p-299055283cdc",
+      "name": "刘南金",
+      "status": "unconfirmed",
+      "article": "劉南金",
+      "revision": 89875571,
+      "evidence": "嘉靖丁酉（1537年）六月二十三日",
+      "identity": "唐朝将领，曾受命暂领邠宁军务。",
+      "source": null
+    },
+    {
+      "id": "p-5e838f042db2",
+      "name": "马植",
+      "status": "unknown",
+      "article": "马植 (唐朝)",
+      "revision": 89509301,
+      "evidence": "（？—857年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=马植_(唐朝)&oldid=89509301"
+    },
+    {
+      "id": "p-deec62512773",
+      "name": "魏扶",
+      "status": "unknown",
+      "article": "魏扶",
+      "revision": 85586448,
+      "evidence": "（？—850年7月14日）",
+      "identity": "唐朝大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏扶&oldid=85586448"
+    },
+    {
+      "id": "p-708ec8a5b833",
+      "name": "崔龟从",
+      "status": "unknown",
+      "article": "崔龜從",
+      "revision": 88821707,
+      "evidence": "（？—？）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=崔龜從&oldid=88821707"
+    },
+    {
+      "id": "p-340a8d41f7de",
+      "name": "白敏中",
+      "status": "confirmed",
+      "article": "白敏中",
+      "revision": 93167507,
+      "evidence": "（792年—861年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=白敏中&oldid=93167507"
+    },
+    {
+      "id": "p-a2a496116072",
+      "name": "裘甫",
+      "status": "unknown",
+      "article": "裘甫之亂",
+      "revision": 83875734,
+      "evidence": "（8世纪—860年）",
+      "identity": "唐末浙东起事首领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=裘甫之亂&oldid=83875734"
+    },
+    {
+      "id": "p-04d7b113f913",
+      "name": "郑祗德",
+      "status": "unknown",
+      "article": "郑祗德",
+      "revision": 82840331,
+      "evidence": "（?—?）",
+      "identity": "唐朝地方官，曾多次奏报浙东军情。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郑祗德&oldid=82840331"
+    },
+    {
+      "id": "p-c651c7c76c47",
+      "name": "李师望",
+      "status": "unconfirmed",
+      "article": "李师望 (唐朝)",
+      "revision": null,
+      "evidence": "",
+      "identity": "唐朝官员，曾建议设置定边军。",
+      "source": null
+    },
+    {
+      "id": "p-b600fc6a2adc",
+      "name": "庞勋",
+      "status": "unknown",
+      "article": "龐勛",
+      "revision": 94361133,
+      "evidence": "（？—869年）",
+      "identity": "唐末桂州戍卒起事首领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=龐勛&oldid=94361133"
+    },
+    {
+      "id": "p-4342630b479c",
+      "name": "高骈",
+      "status": "confirmed",
+      "article": "高駢",
+      "revision": 93861484,
+      "evidence": "（821年—887年9月24日）",
+      "identity": "唐朝将领与节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=高駢&oldid=93861484"
+    },
+    {
+      "id": "p-473b203cbc71",
+      "name": "康承训",
+      "status": "confirmed",
+      "article": "康承訓",
+      "revision": 90527423,
+      "evidence": "（809年—874年）",
+      "identity": "唐朝将领，曾奉命平定庞勋之乱。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=康承訓&oldid=90527423"
+    },
+    {
+      "id": "p-453e96f5caaf",
+      "name": "路岩",
+      "status": "confirmed",
+      "article": "路岩",
+      "revision": 80632282,
+      "evidence": "（829年—874年）",
+      "identity": "唐朝大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=路岩&oldid=80632282"
+    },
+    {
+      "id": "p-a0e330bc8f92",
+      "name": "韦保衡",
+      "status": "unknown",
+      "article": "韦保衡",
+      "revision": 88936884,
+      "evidence": "（？—873年）",
+      "identity": "唐朝外戚与大臣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=韦保衡&oldid=88936884"
+    },
+    {
+      "id": "p-d7a8acdf4dd2",
+      "name": "孔谦",
+      "status": "unknown",
+      "article": "孔谦",
+      "revision": 84170745,
+      "evidence": "（？—？）",
+      "identity": "后唐财政官员，参与租庸事务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔谦&oldid=84170745"
+    },
+    {
+      "id": "p-95131e19a9c5",
+      "name": "郭崇韬",
+      "status": "approximate",
+      "article": "郭崇韬",
+      "revision": 91431186,
+      "evidence": "（約865年—926年）",
+      "identity": "后唐大臣与将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭崇韬&oldid=91431186"
+    },
+    {
+      "id": "p-cfe640d0e1bc",
+      "name": "王衍",
+      "status": "confirmed",
+      "article": "王衍 (前蜀)",
+      "revision": 91695234,
+      "evidence": "{{birth date|901|8|31}}",
+      "identity": "前蜀末代君主。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王衍_(前蜀)&oldid=91695234"
+    },
+    {
+      "id": "p-e46133b2a535",
+      "name": "王宗弼",
+      "status": "unknown",
+      "article": "王宗弼",
+      "revision": 91831930,
+      "evidence": "（9世纪—925年12月28日）",
+      "identity": "前蜀将领，曾控制成都政局。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王宗弼&oldid=91831930"
+    },
+    {
+      "id": "p-3a98a45e07db",
+      "name": "李绍琛",
+      "status": "unknown",
+      "article": "康延孝",
+      "revision": 91179236,
+      "evidence": "9世纪",
+      "identity": "后唐将领，参与灭前蜀。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=康延孝&oldid=91179236"
+    },
+    {
+      "id": "p-0f9aeaa9521c",
+      "name": "李昊",
+      "status": "approximate",
+      "article": "李昊 (五代)",
+      "revision": 92650670,
+      "evidence": "（9世纪约893年—10世纪约965年）",
+      "identity": "前蜀文臣，曾草拟降表。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李昊_(五代)&oldid=92650670"
+    },
+    {
+      "id": "p-877287d991bd",
+      "name": "欧阳彬",
+      "status": "unknown",
+      "article": "歐陽彬",
+      "revision": 91859695,
+      "evidence": "（？—950年）",
+      "identity": "前蜀官员，奉命迎接后唐军。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=歐陽彬&oldid=91859695"
+    },
+    {
+      "id": "p-4e09f960856f",
+      "name": "郭从谦",
+      "status": "unknown",
+      "article": "郭从谦",
+      "revision": 91611208,
+      "evidence": "（？—927年3月20日）",
+      "identity": "后唐庄宗部将，发动兵变。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭从谦&oldid=91611208"
+    },
+    {
+      "id": "p-f5bf5993b7d7",
+      "name": "李嗣源",
+      "status": "confirmed",
+      "article": "李嗣源",
+      "revision": 93808984,
+      "evidence": "[[唐懿宗]][[咸通]]八年九月九日<br/>867年10月10日",
+      "identity": "后唐明宗，名李嗣源。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李嗣源&oldid=93808984"
+    },
+    {
+      "id": "p-53c3ecb52af1",
+      "name": "朱守殷",
+      "status": "unknown",
+      "article": "朱守殷",
+      "revision": 91324777,
+      "evidence": "（？—927年）",
+      "identity": "后唐将领，曾镇守汴州。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱守殷&oldid=91324777"
+    },
+    {
+      "id": "p-d977605a33c8",
+      "name": "豆卢革",
+      "status": "unknown",
+      "article": "豆卢革",
+      "revision": 91296695,
+      "evidence": "（9世纪?—927年）",
+      "identity": "后唐大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=豆卢革&oldid=91296695"
+    },
+    {
+      "id": "p-3c3065be7bbb",
+      "name": "任圜",
+      "status": "unknown",
+      "article": "任圜",
+      "revision": 93105861,
+      "evidence": "（？—927年 ）",
+      "identity": "后唐大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=任圜&oldid=93105861"
+    },
+    {
+      "id": "p-ba1e35cc1eda",
+      "name": "董璋",
+      "status": "unknown",
+      "article": "董璋",
+      "revision": 92121982,
+      "evidence": "（？—932年6月10日）",
+      "identity": "后唐藩镇将领，割据东川。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=董璋&oldid=92121982"
+    },
+    {
+      "id": "p-fbcb06b95be3",
+      "name": "赵季良",
+      "status": "confirmed",
+      "article": "赵季良",
+      "revision": 91427247,
+      "evidence": "（883年—946年）",
+      "identity": "后蜀大臣，辅佐孟知祥。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵季良&oldid=91427247"
+    },
+    {
+      "id": "p-fc39fcc5d7ea",
+      "name": "孟知祥",
+      "status": "confirmed",
+      "article": "孟知祥",
+      "revision": 91902937,
+      "evidence": "{{Birth date|874|6|9}}",
+      "identity": "后蜀建立者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟知祥&oldid=91902937"
+    },
+    {
+      "id": "p-51683db2dbed",
+      "name": "李从荣",
+      "status": "unknown",
+      "article": "李從榮",
+      "revision": 90743280,
+      "evidence": "（?—933年）",
+      "identity": "后唐明宗之子，秦王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李從榮&oldid=90743280"
+    },
+    {
+      "id": "p-f628ecfcdb5d",
+      "name": "王延钧",
+      "status": "unknown",
+      "article": "王延鈞",
+      "revision": 91939442,
+      "evidence": "？",
+      "identity": "闽国建立者，后称帝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王延鈞&oldid=91939442"
+    },
+    {
+      "id": "p-d2fda2f8013f",
+      "name": "李仁福",
+      "status": "unknown",
+      "article": "李仁福",
+      "revision": 94682120,
+      "evidence": "（9世纪？—933年）",
+      "identity": "定难军节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李仁福&oldid=94682120"
+    },
+    {
+      "id": "p-d38fa056f7d9",
+      "name": "李彝超",
+      "status": "unknown",
+      "article": "李彝超",
+      "revision": 94682186,
+      "evidence": "（？—935年）",
+      "identity": "李仁福之子，继任定难军节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李彝超&oldid=94682186"
+    },
+    {
+      "id": "p-60f99467a3f0",
+      "name": "徐知诰",
+      "status": "disputed",
+      "article": "李昪",
+      "revision": 94314331,
+      "evidence": "{{birth date|888",
+      "identity": "南唐建立者，后恢复李姓名李昪。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李昪&oldid=94314331"
+    },
+    {
+      "id": "p-87af52346794",
+      "name": "宋齐丘",
+      "status": "confirmed",
+      "article": "宋齊丘",
+      "revision": 91848379,
+      "evidence": "887",
+      "identity": "南唐大臣，曾任宰相。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋齊丘&oldid=91848379"
+    },
+    {
+      "id": "p-0daa8f9d9c58",
+      "name": "李从珂",
+      "status": "confirmed",
+      "article": "李從珂",
+      "revision": 92158417,
+      "evidence": "885年2月11日",
+      "identity": "后唐末帝，潞王。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李從珂&oldid=92158417"
+    },
+    {
+      "id": "p-f84b7ad4503a",
+      "name": "石敬瑭",
+      "status": "confirmed",
+      "article": "石敬瑭",
+      "revision": 94203020,
+      "evidence": "[[唐昭宗]][[景福 (唐朝)|景福]]元年二月二十八日<br/>892年3月30日",
+      "identity": "后晋建立者。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=石敬瑭&oldid=94203020"
+    },
+    {
+      "id": "p-7a7de9cc9aa2",
+      "name": "李崧",
+      "status": "unknown",
+      "article": "李崧 (五代)",
+      "revision": 92650792,
+      "evidence": "（？—948年12月12日）",
+      "identity": "五代大臣，历仕后晋等朝。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李崧_(五代)&oldid=92650792"
+    },
+    {
+      "id": "p-2427883107ef",
+      "name": "吕琦",
+      "status": "confirmed",
+      "article": "呂琦",
+      "revision": 94805214,
+      "evidence": "（894年—943年）",
+      "identity": "五代大臣，曾参与后晋政务。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=呂琦&oldid=94805214"
+    },
+    {
+      "id": "p-7bdcc5705ae0",
+      "name": "安重荣",
+      "status": "unknown",
+      "article": "安重榮",
+      "revision": 91847872,
+      "evidence": "（？—942年）",
+      "identity": "后晋将领，成德节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=安重榮&oldid=91847872"
+    },
+    {
+      "id": "p-187ee94d27b2",
+      "name": "桑维翰",
+      "status": "confirmed",
+      "article": "桑維翰",
+      "revision": 93105116,
+      "evidence": "{{Birth year|0898}}",
+      "identity": "后晋大臣，曾任宰相与枢密使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=桑維翰&oldid=93105116"
+    },
+    {
+      "id": "p-e404823cc0bb",
+      "name": "冯晖",
+      "status": "confirmed",
+      "article": "馮暉",
+      "revision": 90882031,
+      "evidence": "（894年—952年6月20日）",
+      "identity": "五代将领，曾任朔方节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=馮暉&oldid=90882031"
+    },
+    {
+      "id": "p-8b806047533a",
+      "name": "李璟",
+      "status": "confirmed",
+      "article": "李璟",
+      "revision": 92931952,
+      "evidence": "916年",
+      "identity": "南唐中主，名李璟。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李璟&oldid=92931952"
+    },
+    {
+      "id": "p-83972ada0d20",
+      "name": "杜重威",
+      "status": "unknown",
+      "article": "杜重威",
+      "revision": 93105037,
+      "evidence": "（？—948年）",
+      "identity": "后晋将领与节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=杜重威&oldid=93105037"
+    },
+    {
+      "id": "p-e8b0c510a6ef",
+      "name": "张彦泽",
+      "status": "unknown",
+      "article": "張彥澤",
+      "revision": 92107734,
+      "evidence": "（？—947年）",
+      "identity": "后晋将领。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=張彥澤&oldid=92107734"
+    },
+    {
+      "id": "p-cef948f597b3",
+      "name": "王曦",
+      "status": "unknown",
+      "article": "王延羲",
+      "revision": 94828561,
+      "evidence": "？",
+      "identity": "闽国君主。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=王延羲&oldid=94828561"
+    },
+    {
+      "id": "p-3174d8bfc91b",
+      "name": "高行周",
+      "status": "confirmed",
+      "article": "高行周",
+      "revision": 92111851,
+      "evidence": "（885年—952年）",
+      "identity": "五代将领，历仕后唐、后晋、后周。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=高行周&oldid=92111851"
+    },
+    {
+      "id": "p-553af3fe6848",
+      "name": "符彦卿",
+      "status": "confirmed",
+      "article": "符彥卿",
+      "revision": 91847932,
+      "evidence": "（898年—975年）",
+      "identity": "五代将领与节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=符彥卿&oldid=91847932"
+    },
+    {
+      "id": "p-29a3b98e0b9c",
+      "name": "李守贞",
+      "status": "unknown",
+      "article": "李守贞 (节度使)",
+      "revision": 93543777,
+      "evidence": "（？—949年）",
+      "identity": "后晋将领，曾据河中反叛。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李守贞_(节度使)&oldid=93543777"
+    },
+    {
+      "id": "p-13008c9ba0a4",
+      "name": "李彝殷",
+      "status": "unknown",
+      "article": "李彝殷",
+      "revision": 94682406,
+      "evidence": "（？—967年）",
+      "identity": "定难军节度使。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=李彝殷&oldid=94682406"
+    },
+    {
+      "id": "p-ffbfe6bc7fe8",
+      "name": "汉成帝",
+      "status": "confirmed",
+      "article": "汉成帝",
+      "revision": 94427098,
+      "evidence": "前51年",
+      "identity": "西汉皇帝，名刘骜。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉成帝&oldid=94427098"
+    },
+    {
+      "id": "p-e029085db804",
+      "name": "汉哀帝",
+      "status": "confirmed",
+      "article": "汉哀帝",
+      "revision": 93909194,
+      "evidence": "河平三年<br>前26年",
+      "identity": "西汉皇帝，名刘欣。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉哀帝&oldid=93909194"
+    },
+    {
+      "id": "p-7bcc2af86b44",
+      "name": "汉安帝",
+      "status": "confirmed",
+      "article": "汉安帝",
+      "revision": 91704584,
+      "evidence": "94年",
+      "identity": "东汉皇帝，名刘祜。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉安帝&oldid=91704584"
+    },
+    {
+      "id": "p-ced3b3b5d305",
+      "name": "汉桓帝",
+      "status": "confirmed",
+      "article": "汉桓帝",
+      "revision": 93979201,
+      "evidence": "132年",
+      "identity": "东汉皇帝，名刘志。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉桓帝&oldid=93979201"
+    },
+    {
+      "id": "p-8e44102c25ae",
+      "name": "汉灵帝",
+      "status": "disputed",
+      "article": "汉灵帝",
+      "revision": 93976131,
+      "evidence": "[[漢桓帝]][[永壽]]二年<br/>156年<ref>《資治通鑑》〈漢紀〉：孝桓皇帝永康元年（167年）...武乃入白太后，定策禁中，以鯈守光祿大夫，與中常侍曹節並持節將中黃門、虎賁、羽林千人，奉迎宏，時年十二。（註）傳統史書記載年歲多以虛歲，故推知漢靈帝生於156年。</ref>，一說157年<ref>《後漢書》〈孝靈皇帝紀〉：建寧元年（168年）春正月壬午，城門校尉竇武為大將軍。己亥，帝到夏門亭，使竇武持節，以王青蓋車迎入殿中。庚子，即皇帝位，年十",
+      "identity": "东汉皇帝，名刘宏。",
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉灵帝&oldid=93976131"
+    }
+  ]
+}

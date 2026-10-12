@@ -1,0 +1,121 @@
+{
+  "id": "p-53c3ecb52af1",
+  "name": "朱守殷",
+  "aliases": [
+    "朱守殷"
+  ],
+  "identity": "后唐将领，曾镇守汴州。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "李嗣源请治朱守殷败军罪",
+      "summary": "李嗣源请治朱守殷败军罪",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元923年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 272,
+          "year": -923,
+          "indices": [
+            20
+          ],
+          "sourceHash": "988d42e88e6919f7920d15d2b0b4b769d5ab6dfe0f60ae3bd7a1b5a6f803d4f9",
+          "quote": "李嗣源密表请正朱守殷覆军之罪；帝不从。"
+        }
+      ],
+      "id": "p-53c3ecb52af1-1"
+    },
+    {
+      "title": "朱守殷遣使请李嗣源入洛阳平乱",
+      "summary": "朱守殷遣使请李嗣源入洛阳平乱",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -926,
+      "timeLabel": "公元926年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 275,
+          "year": -926,
+          "indices": [
+            2
+          ],
+          "sourceHash": "51d0f057c8019d57bc8c076f7165f3258c7b42595b4afcefa5e32ac3f9128a53",
+          "quote": "戊子，朱守殷遣使驰白嗣源，以「京城大乱，诸军焚掠不已，愿亟来救之！」乙丑，嗣源入洛阳，止于私第，禁焚掠，拾庄宗骨于灰烬之中而殡之。"
+        }
+      ],
+      "id": "p-53c3ecb52af1-2"
+    },
+    {
+      "title": "李嗣源命朱守殷巡城并善待宫中妃嫔",
+      "summary": "李嗣源命朱守殷巡城并善待宫中妃嫔",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -926,
+      "timeLabel": "公元926年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 275,
+          "year": -926,
+          "indices": [
+            4
+          ],
+          "sourceHash": "aeab8cd852830883240565946c83ceb4da65d1bc72189d6d1b2ab6ec475b3114",
+          "quote": "嗣源谓朱守殷曰：「公善巡徼，以待魏王。淑妃、德妃在宫，供给尤宜丰备。吾俟山陵毕，社稷有奉，则归藩为国家捍御北方耳。」"
+        }
+      ],
+      "id": "p-53c3ecb52af1-3"
+    },
+    {
+      "title": "朱守殷因疑明宗将讨吴而据汴州反叛",
+      "summary": "朱守殷因疑明宗将讨吴而据汴州反叛",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -927,
+      "timeLabel": "公元927年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 276,
+          "year": -927,
+          "indices": [
+            12
+          ],
+          "sourceHash": "b3029bd41099feacd013ac47c72fb06ca15b93d0354c44e9bd44fa36f61a1063",
+          "quote": "民间讹言帝欲自击吴，又云欲制置东方诸侯。宣武节度使、检校侍中朱守殷疑惧，判官高密孙晟劝守殷反，守殷遂乘城拒守。帝遣宣徽使范延光往谕之，延光曰：「不早击之，则汴城坚矣；愿得五百骑与俱。」帝从之。延光暮发，未明行二百里，抵大梁城下，与汴人战，汴人大惊。戊子，帝至京水，遣御营使石敬瑭将亲兵倍道继之。"
+        }
+      ],
+      "id": "p-53c3ecb52af1-4"
+    },
+    {
+      "title": "明宗抵大梁攻城朱守殷自杀",
+      "summary": "明宗抵大梁攻城朱守殷自杀",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元927年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 276,
+          "year": -927,
+          "indices": [
+            14
+          ],
+          "sourceHash": "6aa897ccea7c128a3c0606d8a306e2c12a5e2640e2ab20c8761171926d23873f",
+          "quote": "己丑，帝至大梁，四面进攻，吏民缒城出降者甚众。守殷知事不济，尽杀其族，引颈命左右斩之。乘城者望见乘舆，相帅开门降。孙晟奔吴，徐知诰客之。"
+        }
+      ],
+      "id": "p-53c3ecb52af1-5"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=朱守殷&oldid=91324777",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

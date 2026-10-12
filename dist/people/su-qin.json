@@ -1,0 +1,58 @@
+{
+  "id": "su-qin",
+  "name": "苏秦",
+  "aliases": [
+    "苏秦"
+  ],
+  "identity": "战国纵横家，曾游说诸侯合纵抗秦。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "在齐遭人刺杀",
+      "summary": "齐国大夫因争宠派人刺杀苏秦；苏秦死后，其弟苏代、苏厉也以游说显名。",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 317,
+      "timeLabel": "前317年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 317,
+          "indices": [
+            1
+          ],
+          "sourceHash": "1ccb573307614c0c9430b73060396abccf5cba942787475b77b14b8467a5eb73",
+          "quote": "齐大夫与苏秦争宠，使人刺秦，杀之。"
+        }
+      ],
+      "id": "su-qin-1"
+    },
+    {
+      "title": "列为纵横家代表并记其游说经历",
+      "summary": "本卷记述苏秦与张仪都以纵横之术游说诸侯，并称苏秦之弟苏代、苏厉也以游说显名。",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": 310,
+      "timeLabel": "前310年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 310,
+          "indices": [
+            1
+          ],
+          "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc",
+          "quote": "仪与苏秦皆以纵横之术游诸侯，致位富贵，天下争慕效之。又有魏人公孙衍者，号曰犀首，亦以谈说显名。其余苏代、苏厉、周最、楼缓之徒，纷纭于天下，务以辩诈相高，不可胜纪，而仪、秦、衍最着。"
+        }
+      ],
+      "id": "su-qin-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=苏秦&oldid=93859949",
+  "birthStatus": "disputed",
+  "birthNote": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+}

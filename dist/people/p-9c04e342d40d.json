@@ -1,0 +1,37 @@
+{
+  "id": "p-9c04e342d40d",
+  "name": "公孙域",
+  "aliases": [
+    "公孙域"
+  ],
+  "identity": "东汉玄菟太守，曾击退夫余军。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "夫余王夫台进犯玄菟，太守公孙域击退",
+      "summary": "夫余王夫台进犯玄菟，太守公孙域击退",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元167年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 56,
+          "year": -167,
+          "indices": [
+            1
+          ],
+          "sourceHash": "09e3adabbb80b3ed97bd2111aaf3ba973be6bd1639378b0e6ddf456723e8db89",
+          "quote": "夫余王夫台寇玄菟；玄菟太守父孙域击破之。"
+        }
+      ],
+      "id": "p-9c04e342d40d-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": null,
+  "birthStatus": "unconfirmed",
+  "birthNote": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+}

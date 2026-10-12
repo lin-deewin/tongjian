@@ -1,0 +1,100 @@
+{
+  "id": "p-68f05abeba07",
+  "name": "许嘉",
+  "aliases": [
+    "许嘉"
+  ],
+  "identity": "西汉外戚与大臣，曾任大司马。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "许嘉接任大司马、车骑将军",
+      "summary": "许嘉接任大司马、车骑将军",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 41,
+      "timeLabel": "前41年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 29,
+          "year": 41,
+          "indices": [
+            2
+          ],
+          "sourceHash": "83d97652ff9cb56704d428be4b1e83d518cf3c580771509b74c50d39a76511c0",
+          "quote": "夏，四月，平昌考侯王接薨。秋，七月，壬戌，以平恩侯许嘉为大司马、车骑将军。"
+        }
+      ],
+      "id": "p-68f05abeba07-1"
+    },
+    {
+      "title": "元帝封外戚许嘉为平恩侯",
+      "summary": "元帝封外戚许嘉为平恩侯",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前48年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 28,
+          "year": 48,
+          "indices": [
+            3
+          ],
+          "sourceHash": "7cf6ab6f9c456e09dbf7aacb03a1c31494057ed609b4310d2f2f7701c0289ea8",
+          "quote": "封外祖平恩戴侯同产弟子中常侍许嘉为平恩侯。"
+        }
+      ],
+      "id": "p-68f05abeba07-2"
+    },
+    {
+      "title": "元帝立许嘉之女为皇后",
+      "summary": "元帝立许嘉之女为皇后",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 31,
+      "timeLabel": "前31年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 30,
+          "year": 31,
+          "indices": [
+            3
+          ],
+          "sourceHash": "b2af8c9b55b6f6764ae5de6a4a6eab7c297d427d5a9c92e5b1abf3cc77bf5081",
+          "quote": "丙午，立皇后许氏。后，车骑将军嘉之女也。元帝伤母恭哀后居位日浅而遭霍氏之辜，故选嘉女以配太子。"
+        }
+      ],
+      "id": "p-68f05abeba07-3"
+    },
+    {
+      "title": "元帝罢免许嘉车骑将军职，专任王凤",
+      "summary": "元帝罢免许嘉车骑将军职，专任王凤",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 30,
+      "timeLabel": "前30年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 30,
+          "year": 30,
+          "indices": [
+            2
+          ],
+          "sourceHash": "65be933b8a6012ed9d4d19f6666a94a0ea127f8e83a57d4aa21a7b9636941237",
+          "quote": "上欲专委任王凤，八月，策免车骑将军许嘉，以特进侯就朝位。"
+        }
+      ],
+      "id": "p-68f05abeba07-4"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=許嘉&oldid=94535996",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

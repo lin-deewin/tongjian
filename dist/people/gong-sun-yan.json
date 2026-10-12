@@ -1,0 +1,59 @@
+{
+  "id": "gong-sun-yan",
+  "name": "公孙衍",
+  "aliases": [
+    "公孙衍",
+    "犀首"
+  ],
+  "identity": "魏人，战国纵横家，号犀首。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "以纵横游说显名",
+      "summary": "本卷记公孙衍以谈说显名，并与苏秦、张仪并称当时著名纵横家。",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": 310,
+      "timeLabel": "前310年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 310,
+          "indices": [
+            1
+          ],
+          "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc",
+          "quote": "仪与苏秦皆以纵横之术游诸侯，致位富贵，天下争慕效之。又有魏人公孙衍者，号曰犀首，亦以谈说显名。其余苏代、苏厉、周最、楼缓之徒，纷纭于天下，务以辩诈相高，不可胜纪，而仪、秦、衍最着。"
+        }
+      ],
+      "id": "gong-sun-yan-1"
+    },
+    {
+      "title": "被孟子用作“大丈夫”论辩对象",
+      "summary": "孟子回应公孙衍、张仪是否为大丈夫的说法，提出守正道、不为富贵贫贱威武所屈的标准。",
+      "kind": "史家评论",
+      "category": "言论",
+      "year": 310,
+      "timeLabel": "前310年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 310,
+          "indices": [
+            2
+          ],
+          "sourceHash": "d2fe29312c7c9c58cdc94e05660ec6b98314b9fd091dbd9d52ffa6f39f0a3b95",
+          "quote": "孟子论之曰：或谓：“公孙衍张仪岂不大丈夫哉，一怒而诸侯惧，安居而天下熄？”孟子曰：“是恶足为大丈夫哉！君子立天下之正位，行天下之正道，得志则与民由之，不得志则独行其道，富贵不能淫，贫贱不能移，威武不能诎，是之谓大丈夫。”"
+        }
+      ],
+      "id": "gong-sun-yan-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=公孫衍&oldid=77256310",
+  "birthStatus": "approximate",
+  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+}

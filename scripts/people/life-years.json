@@ -1,0 +1,3135 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-10-12",
+  "yearConvention": "与事件 year 一致：公元前为正，公元后为负，无0年。明确生年按所链接资料核对；有争议、估计生年和身份待核实不用于年龄计算。",
+  "people": {
+    "wu-qi": {
+      "name": "吴起",
+      "status": "confirmed",
+      "birthYear": 440,
+      "deathYear": 381,
+      "source": "https://zh.wikipedia.org/w/index.php?title=吴起&oldid=94427664",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "wei-wen-hou": {
+      "name": "魏文侯",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏文侯&oldid=94875785",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zhao-xiang-zi": {
+      "name": "赵襄子",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=趙襄子&oldid=92717129",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zhi-bo": {
+      "name": "智伯",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=荀瑶&oldid=92666899",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "yu-rang": {
+      "name": "豫让",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=豫讓&oldid=92753190",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "shang-yang": {
+      "name": "商鞅",
+      "status": "confirmed",
+      "birthYear": 390,
+      "deathYear": 338,
+      "source": "https://zh.wikipedia.org/w/index.php?title=商鞅&oldid=93876564",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "sun-bin": {
+      "name": "孙膑",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孙膑&oldid=94766626",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "pang-juan": {
+      "name": "庞涓",
+      "status": "confirmed",
+      "birthYear": 385,
+      "deathYear": 342,
+      "source": "https://zh.wikipedia.org/w/index.php?title=庞涓&oldid=93029230",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "wei-xiang-wang": {
+      "name": "魏襄王",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏襄王&oldid=94719641",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "meng-zi": {
+      "name": "孟子",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟子&oldid=94044007",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "su-qin": {
+      "name": "苏秦",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=苏秦&oldid=93859949",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "zhang-yi": {
+      "name": "张仪",
+      "status": "confirmed",
+      "birthYear": 373,
+      "deathYear": 310,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张仪&oldid=94710594",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "sima-cuo": {
+      "name": "司马错",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬錯&oldid=94025975",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "su-dai": {
+      "name": "苏代",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=苏代&oldid=93191237",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "yan-wang-kuai": {
+      "name": "燕王哙",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=燕王噲&oldid=87400586",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zi-zhi": {
+      "name": "子之",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=子之&oldid=92466115",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "qi-xuan-wang": {
+      "name": "齐宣王",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齊宣王&oldid=91714739",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "qi-min-wang": {
+      "name": "齐湣王",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齊湣王&oldid=94701293",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "chen-zhen": {
+      "name": "陈轸",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=陈轸_(战国时期纵横家)&oldid=89457762",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "chu-huai-wang": {
+      "name": "楚怀王",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=楚懷王&oldid=93860642",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "yan-zhao-wang": {
+      "name": "燕昭王",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=燕昭王&oldid=92498370",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "guo-kui": {
+      "name": "郭隗",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭隗&oldid=92238459",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "yue-yi": {
+      "name": "乐毅",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=乐毅&oldid=92238393",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "qin-wu-wang": {
+      "name": "秦武王",
+      "status": "confirmed",
+      "birthYear": 329,
+      "deathYear": 307,
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦武王&oldid=91925188",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "gan-mao": {
+      "name": "甘茂",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=甘茂&oldid=92283533",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zhao-wu-ling-wang": {
+      "name": "赵武灵王",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵武灵王&oldid=94258960",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "fei-yi": {
+      "name": "肥义",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=肥義&oldid=71381395",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "gong-zi-cheng": {
+      "name": "赵公子成",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://www.guoxuedashi.com/renwu/431ioji/",
+      "note": "核对赵武灵王时的公子成，所查传记未载生年；不使用春秋赵成的资料。"
+    },
+    "xuan-tai-hou": {
+      "name": "宣太后",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宣太后&oldid=94832478",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "wei-ran": {
+      "name": "魏冉",
+      "status": "confirmed",
+      "birthYear": 335,
+      "deathYear": 266,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏冉&oldid=93726015",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "qin-zhao-xiang-wang": {
+      "name": "秦昭襄王",
+      "status": "confirmed",
+      "birthYear": 325,
+      "deathYear": 251,
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦昭襄王&oldid=94317918",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "meng-chang-jun": {
+      "name": "孟尝君",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟尝君&oldid=94692367",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "ping-yuan-jun": {
+      "name": "平原君",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=平原君&oldid=94474548",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "gong-sun-long": {
+      "name": "公孙龙",
+      "status": "confirmed",
+      "birthYear": 320,
+      "deathYear": 250,
+      "source": "https://zh.wikipedia.org/w/index.php?title=公孙龙&oldid=94566788",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "zou-yan": {
+      "name": "邹衍",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=邹衍_(战国)&oldid=87228677",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "kong-chuan": {
+      "name": "孔穿",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔穿&oldid=84170738",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zhu-li-ji": {
+      "name": "樗里疾",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=樗里子&oldid=91804780",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "xiang-shou": {
+      "name": "向寿",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=向壽&oldid=84690801",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "ju-xin": {
+      "name": "剧辛",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劇辛&oldid=92238443",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "qin-hui-wen-wang": {
+      "name": "秦惠文王",
+      "status": "confirmed",
+      "birthYear": 356,
+      "deathYear": 311,
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦惠文王&oldid=94784983",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "wei-hui-wang": {
+      "name": "魏惠王",
+      "status": "confirmed",
+      "birthYear": 400,
+      "deathYear": 319,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏惠王&oldid=93069082",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "song-wang": {
+      "name": "宋王",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋康王&oldid=94727201",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "gong-sun-yan": {
+      "name": "公孙衍",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=公孫衍&oldid=77256310",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "chu-tai-zi-heng": {
+      "name": "楚太子横",
+      "status": "confirmed",
+      "birthYear": 329,
+      "deathYear": 263,
+      "source": "https://zh.wikipedia.org/w/index.php?title=楚頃襄王&oldid=94849808",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "zhao-shui": {
+      "name": "昭睢",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=昭雎&oldid=90973438",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zi-lan": {
+      "name": "子兰",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=子兰&oldid=94501662",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "jin-shang": {
+      "name": "靳尚",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=靳尚&oldid=94501675",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "zheng-xiu": {
+      "name": "郑袖",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=鄭袖&oldid=83218653",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "qu-gai": {
+      "name": "屈匄",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=屈匄&oldid=84690808",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "tang-mei": {
+      "name": "唐昧",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐眜&oldid=94717709",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "chen-zhuang": {
+      "name": "蜀相陈庄",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "zhang-zi": {
+      "name": "章子",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=匡章&oldid=93191289",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "qin-hua-yang-jun": {
+      "name": "秦华阳君",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=芈戎&oldid=92630423",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "lou-huan": {
+      "name": "楼缓",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=楼缓&oldid=61948882",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "meng-shuo": {
+      "name": "孟说",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟賁&oldid=94861839",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "qin-shu-chang-huan": {
+      "name": "秦庶长奂",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/wiki/庶长奂",
+      "note": "核对秦昭襄王时的庶长奂，资料未载明确生年。"
+    },
+    "p-c936993cb69d": {
+      "name": "白起",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=白起&oldid=93655100",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-5a26b450cdac": {
+      "name": "范雎",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=范雎&oldid=94028494",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-20fb9a52491d": {
+      "name": "蔺相如",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=藺相如&oldid=91850856",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-44c640e188fc": {
+      "name": "赵奢",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=趙奢&oldid=94026031",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-90b04428a19a": {
+      "name": "廉颇",
+      "status": "confirmed",
+      "birthYear": 327,
+      "deathYear": 243,
+      "source": "https://zh.wikipedia.org/w/index.php?title=廉颇&oldid=92238397",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-2f31bd8516b9": {
+      "name": "黄歇",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=春申君&oldid=92637813",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-25dcb1b6c8b1": {
+      "name": "秦孝文王",
+      "status": "confirmed",
+      "birthYear": 302,
+      "deathYear": 250,
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦孝文王&oldid=93826498",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-3ef3a0e0f786": {
+      "name": "秦庄襄王",
+      "status": "confirmed",
+      "birthYear": 281,
+      "deathYear": 247,
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦莊襄王&oldid=93826580",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-593dd037a62a": {
+      "name": "吕不韦",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=吕不韦&oldid=92630303",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-c44487eb7bb7": {
+      "name": "秦始皇",
+      "status": "confirmed",
+      "birthYear": 259,
+      "deathYear": 210,
+      "source": "https://zh.wikipedia.org/w/index.php?title=秦始皇&oldid=94788854",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-d5b940b54dd2": {
+      "name": "荆轲",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=荆轲&oldid=94577810",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-3a77354d8334": {
+      "name": "燕太子丹",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=太子丹&oldid=94371344",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-6c4a04c8d142": {
+      "name": "王翦",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王翦&oldid=94341681",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-21ea2e65fd7a": {
+      "name": "王贲",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王賁&oldid=92432262",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-1584f421afbc": {
+      "name": "李信",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李信&oldid=92574414",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-8c8bcfe947f1": {
+      "name": "陈胜",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=陈胜&oldid=94386382",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-51880c5ffd64": {
+      "name": "吴广",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=吴广&oldid=89197795",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-09f78fd1bd8e": {
+      "name": "刘邦",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘邦&oldid=94756962",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-c1b22e48f1bc": {
+      "name": "项羽",
+      "status": "confirmed",
+      "birthYear": 232,
+      "deathYear": 202,
+      "source": "https://zh.wikipedia.org/w/index.php?title=项羽&oldid=94342616",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-8b728ec40e05": {
+      "name": "张良",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张良&oldid=94330030",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-73bb90f91552": {
+      "name": "萧何",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧何&oldid=94754501",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-094aa21e75e5": {
+      "name": "韩信",
+      "status": "confirmed",
+      "birthYear": 231,
+      "deathYear": 196,
+      "source": "https://zh.wikipedia.org/w/index.php?title=韩信&oldid=94609867",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-05a52d32a1c2": {
+      "name": "陈平",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/wiki/陈平_(汉朝)",
+      "note": "核对汉初陈平，资料载生年不明。"
+    },
+    "p-ad9c6834696e": {
+      "name": "樊哙",
+      "status": "confirmed",
+      "birthYear": 242,
+      "deathYear": 189,
+      "source": "https://zh.wikipedia.org/w/index.php?title=樊噲&oldid=92676361",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f76021be5d2b": {
+      "name": "彭越",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=彭越&oldid=93722653",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-442b8bdddf86": {
+      "name": "英布",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=英布&oldid=93921439",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0d71ea00cacb": {
+      "name": "曹参",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹参&oldid=91695045",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-3110cc5e01a2": {
+      "name": "周勃",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=周勃&oldid=94488830",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-697117fb9a5b": {
+      "name": "吕后",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=吕雉&oldid=93722688",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-92fa7f307fa3": {
+      "name": "汉文帝",
+      "status": "confirmed",
+      "birthYear": 203,
+      "deathYear": 157,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉文帝&oldid=92982935",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7d2022b5e9e3": {
+      "name": "汉景帝",
+      "status": "confirmed",
+      "birthYear": 188,
+      "deathYear": 141,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉景帝&oldid=92489776",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-d385de949d2f": {
+      "name": "贾谊",
+      "status": "confirmed",
+      "birthYear": 200,
+      "deathYear": 168,
+      "source": "https://zh.wikipedia.org/w/index.php?title=贾谊&oldid=93012786",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-152087967d31": {
+      "name": "晁错",
+      "status": "confirmed",
+      "birthYear": 200,
+      "deathYear": 154,
+      "source": "https://zh.wikipedia.org/w/index.php?title=晁错&oldid=92001224",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-67bd330d109c": {
+      "name": "周亚夫",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=周亚夫&oldid=89507543",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4d538e4d635c": {
+      "name": "窦婴",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=窦婴&oldid=94732386",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-2d18c2725388": {
+      "name": "田蚡",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=田蚡&oldid=88485437",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f647887dc254": {
+      "name": "汉武帝",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉武帝&oldid=94598209",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-209835fa1ec2": {
+      "name": "卫青",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=卫青&oldid=92141932",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0998dc883b88": {
+      "name": "霍去病",
+      "status": "confirmed",
+      "birthYear": 140,
+      "deathYear": 117,
+      "source": "https://zh.wikipedia.org/w/index.php?title=霍去病&oldid=94839123",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-53a273928bd7": {
+      "name": "李广",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李广&oldid=93277369",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "p-0529f126c0d9": {
+      "name": "张骞",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張騫&oldid=93940856",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-0a1a78dbfb3b": {
+      "name": "司马迁",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬遷&oldid=94738211",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-7fe33e4b377c": {
+      "name": "霍光",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=霍光&oldid=94703708",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-de4162a6ac01": {
+      "name": "汉宣帝",
+      "status": "confirmed",
+      "birthYear": 91,
+      "deathYear": 48,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉宣帝&oldid=94812760",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f38962fcbdc2": {
+      "name": "王莽",
+      "status": "confirmed",
+      "birthYear": 45,
+      "deathYear": -23,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王莽&oldid=94870166",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b348a4b3a673": {
+      "name": "刘秀",
+      "status": "confirmed",
+      "birthYear": 5,
+      "deathYear": -57,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉光武帝&oldid=93726355",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b8589113995e": {
+      "name": "邓禹",
+      "status": "confirmed",
+      "birthYear": -2,
+      "deathYear": -58,
+      "source": "https://zh.wikipedia.org/w/index.php?title=邓禹&oldid=93307373",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-d6bfadbcf429": {
+      "name": "马援",
+      "status": "confirmed",
+      "birthYear": 14,
+      "deathYear": -49,
+      "source": "https://zh.wikipedia.org/w/index.php?title=马援&oldid=94629619",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-aacc5e5ff440": {
+      "name": "窦宪",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=竇憲&oldid=88793401",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-fd4d920ed078": {
+      "name": "班超",
+      "status": "confirmed",
+      "birthYear": -32,
+      "deathYear": -102,
+      "source": "https://zh.wikipedia.org/w/index.php?title=班超&oldid=93499658",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-12dfeac49dc2": {
+      "name": "曹操",
+      "status": "confirmed",
+      "birthYear": -155,
+      "deathYear": -220,
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹操&oldid=94925351",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f6466c6cd5b8": {
+      "name": "刘备",
+      "status": "confirmed",
+      "birthYear": -161,
+      "deathYear": -223,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘备&oldid=94821588",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a631015322f0": {
+      "name": "孙权",
+      "status": "confirmed",
+      "birthYear": -182,
+      "deathYear": -252,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孙权&oldid=94460901",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-06fac22214af": {
+      "name": "诸葛亮",
+      "status": "confirmed",
+      "birthYear": -181,
+      "deathYear": -234,
+      "source": "https://zh.wikipedia.org/w/index.php?title=诸葛亮&oldid=94687021",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b0c0b4daac92": {
+      "name": "关羽",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=关羽&oldid=94103876",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-29d2c1938dab": {
+      "name": "张飞",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张飞&oldid=94093685",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-63f98380838c": {
+      "name": "周瑜",
+      "status": "confirmed",
+      "birthYear": -175,
+      "deathYear": -210,
+      "source": "https://zh.wikipedia.org/w/index.php?title=周瑜&oldid=94817945",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-feb503fe9673": {
+      "name": "陆逊",
+      "status": "confirmed",
+      "birthYear": -183,
+      "deathYear": -245,
+      "source": "https://zh.wikipedia.org/w/index.php?title=陸遜&oldid=94520817",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b6ad1d041c43": {
+      "name": "司马懿",
+      "status": "confirmed",
+      "birthYear": -179,
+      "deathYear": -251,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马懿&oldid=94569333",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7b89956540bd": {
+      "name": "曹丕",
+      "status": "confirmed",
+      "birthYear": -187,
+      "deathYear": -226,
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹丕&oldid=93413926",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7d47a71f789b": {
+      "name": "曹叡",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=曹叡&oldid=94488365",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-2ba4e0855920": {
+      "name": "司马师",
+      "status": "confirmed",
+      "birthYear": -208,
+      "deathYear": -255,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬師&oldid=94428575",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-1fc41ad30d3d": {
+      "name": "司马昭",
+      "status": "confirmed",
+      "birthYear": -211,
+      "deathYear": -265,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马昭&oldid=94428628",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-fe2c6eacd535": {
+      "name": "司马炎",
+      "status": "confirmed",
+      "birthYear": -236,
+      "deathYear": -290,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司馬炎&oldid=93770683",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-4c1e32221920": {
+      "name": "王导",
+      "status": "confirmed",
+      "birthYear": -276,
+      "deathYear": -339,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王導&oldid=94765326",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-332c411c3245": {
+      "name": "王敦",
+      "status": "confirmed",
+      "birthYear": -266,
+      "deathYear": -324,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王敦&oldid=90072970",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-37113f4f6def": {
+      "name": "桓温",
+      "status": "confirmed",
+      "birthYear": -312,
+      "deathYear": -373,
+      "source": "https://zh.wikipedia.org/w/index.php?title=桓温&oldid=94064521",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-14ef0c90fbdd": {
+      "name": "谢安",
+      "status": "confirmed",
+      "birthYear": -320,
+      "deathYear": -385,
+      "source": "https://zh.wikipedia.org/w/index.php?title=谢安&oldid=91973080",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a1fac7b516fd": {
+      "name": "刘裕",
+      "status": "confirmed",
+      "birthYear": -363,
+      "deathYear": -422,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘裕&oldid=93808887",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a360d38f39d8": {
+      "name": "石勒",
+      "status": "confirmed",
+      "birthYear": -274,
+      "deathYear": -333,
+      "source": "https://zh.wikipedia.org/w/index.php?title=石勒&oldid=93559782",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-034a32ffd084": {
+      "name": "苻坚",
+      "status": "confirmed",
+      "birthYear": -338,
+      "deathYear": -385,
+      "source": "https://zh.wikipedia.org/w/index.php?title=苻坚&oldid=91069522",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f0ac6e74fcbf": {
+      "name": "王猛",
+      "status": "confirmed",
+      "birthYear": -325,
+      "deathYear": -375,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王猛&oldid=94798995",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-af64b410f1d5": {
+      "name": "慕容垂",
+      "status": "confirmed",
+      "birthYear": -326,
+      "deathYear": -396,
+      "source": "https://zh.wikipedia.org/w/index.php?title=慕容垂&oldid=93633607",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b0326091c725": {
+      "name": "拓跋珪",
+      "status": "confirmed",
+      "birthYear": -371,
+      "deathYear": -409,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏道武帝&oldid=94544699",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-d4125a60dcd9": {
+      "name": "宇文泰",
+      "status": "confirmed",
+      "birthYear": -505,
+      "deathYear": -556,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文泰&oldid=93997833",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-918b6bb0f898": {
+      "name": "高欢",
+      "status": "confirmed",
+      "birthYear": -496,
+      "deathYear": -547,
+      "source": "https://zh.wikipedia.org/w/index.php?title=高欢&oldid=94378748",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a700cda42e27": {
+      "name": "萧衍",
+      "status": "confirmed",
+      "birthYear": -464,
+      "deathYear": -549,
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧衍&oldid=93808904",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b82e2e0609e5": {
+      "name": "陈霸先",
+      "status": "confirmed",
+      "birthYear": -503,
+      "deathYear": -559,
+      "source": "https://zh.wikipedia.org/w/index.php?title=陈霸先&oldid=94784383",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e28ffc53c574": {
+      "name": "杨坚",
+      "status": "confirmed",
+      "birthYear": -541,
+      "deathYear": -604,
+      "source": "https://zh.wikipedia.org/w/index.php?title=杨坚&oldid=94537086",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f4642d529dd9": {
+      "name": "杨广",
+      "status": "confirmed",
+      "birthYear": -569,
+      "deathYear": -618,
+      "source": "https://zh.wikipedia.org/w/index.php?title=隋炀帝&oldid=94547079",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-fe8dff76250a": {
+      "name": "李渊",
+      "status": "confirmed",
+      "birthYear": -566,
+      "deathYear": -635,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李渊&oldid=94308317",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-fae10bdcbcf5": {
+      "name": "李世民",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐太宗&oldid=94517110",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-44bc5f5da46a": {
+      "name": "魏征",
+      "status": "confirmed",
+      "birthYear": -580,
+      "deathYear": -643,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏徵&oldid=94032438",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-80375bf6a1d2": {
+      "name": "房玄龄",
+      "status": "confirmed",
+      "birthYear": -579,
+      "deathYear": -648,
+      "source": "https://zh.wikipedia.org/w/index.php?title=房玄龄&oldid=93067106",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-6191636a902c": {
+      "name": "杜如晦",
+      "status": "confirmed",
+      "birthYear": -585,
+      "deathYear": -630,
+      "source": "https://zh.wikipedia.org/w/index.php?title=杜如晦&oldid=93053780",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-721f757578b5": {
+      "name": "李靖",
+      "status": "confirmed",
+      "birthYear": -571,
+      "deathYear": -649,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李靖&oldid=93079908",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e127ae85ff43": {
+      "name": "薛仁贵",
+      "status": "confirmed",
+      "birthYear": -614,
+      "deathYear": -683,
+      "source": "https://zh.wikipedia.org/w/index.php?title=薛仁貴&oldid=93525613",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-73431bac00c0": {
+      "name": "苏定方",
+      "status": "confirmed",
+      "birthYear": -592,
+      "deathYear": -667,
+      "source": "https://zh.wikipedia.org/w/index.php?title=苏定方&oldid=94585995",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-803ecfa1ad88": {
+      "name": "武则天",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=武则天&oldid=94879702",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-4fdcf7abb5d6": {
+      "name": "狄仁杰",
+      "status": "confirmed",
+      "birthYear": -630,
+      "deathYear": -704,
+      "source": "https://zh.wikipedia.org/w/index.php?title=狄仁杰&oldid=93965574",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-53a228a77102": {
+      "name": "李治",
+      "status": "confirmed",
+      "birthYear": -628,
+      "deathYear": -683,
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐高宗&oldid=94493902",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-561b21c05f15": {
+      "name": "李隆基",
+      "status": "confirmed",
+      "birthYear": -685,
+      "deathYear": -762,
+      "source": "https://zh.wikipedia.org/w/index.php?title=唐玄宗&oldid=94565451",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-122e3e86f22e": {
+      "name": "安禄山",
+      "status": "confirmed",
+      "birthYear": -703,
+      "deathYear": -757,
+      "source": "https://zh.wikipedia.org/w/index.php?title=安祿山&oldid=93957888",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-0c0b33656129": {
+      "name": "史思明",
+      "status": "confirmed",
+      "birthYear": -703,
+      "deathYear": -761,
+      "source": "https://zh.wikipedia.org/w/index.php?title=史思明&oldid=92805818",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-4bb7721c0c71": {
+      "name": "郭子仪",
+      "status": "confirmed",
+      "birthYear": -697,
+      "deathYear": -781,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭子仪&oldid=94580939",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7b380f5f6b20": {
+      "name": "白居易",
+      "status": "confirmed",
+      "birthYear": -772,
+      "deathYear": -846,
+      "source": "https://zh.wikipedia.org/w/index.php?title=白居易&oldid=94256115",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-c447e7249482": {
+      "name": "韩愈",
+      "status": "confirmed",
+      "birthYear": -768,
+      "deathYear": -824,
+      "source": "https://zh.wikipedia.org/w/index.php?title=韩愈&oldid=94760424",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b16ab4e3ee21": {
+      "name": "李德裕",
+      "status": "confirmed",
+      "birthYear": -787,
+      "deathYear": -849,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李德裕&oldid=94433568",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b754a32ce578": {
+      "name": "李克用",
+      "status": "confirmed",
+      "birthYear": -856,
+      "deathYear": -908,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李克用&oldid=93843994",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-5db2ad90b331": {
+      "name": "朱全忠",
+      "status": "confirmed",
+      "birthYear": -852,
+      "deathYear": -912,
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱温&oldid=91768904",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-80a611051777": {
+      "name": "李存勖",
+      "status": "confirmed",
+      "birthYear": -885,
+      "deathYear": -926,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李存勖&oldid=93808966",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-90e6ecd3e947": {
+      "name": "郭威",
+      "status": "confirmed",
+      "birthYear": -904,
+      "deathYear": -954,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭威&oldid=91476687",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-3fa35ee6319c": {
+      "name": "柴荣",
+      "status": "confirmed",
+      "birthYear": -921,
+      "deathYear": -959,
+      "source": "https://zh.wikipedia.org/w/index.php?title=柴荣&oldid=94877893",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-cb03686f1dd3": {
+      "name": "李光弼",
+      "status": "confirmed",
+      "birthYear": -708,
+      "deathYear": -764,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李光弼&oldid=93322852",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-4264f20f1fbc": {
+      "name": "张巡",
+      "status": "confirmed",
+      "birthYear": -709,
+      "deathYear": -757,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张巡&oldid=91266171",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-0be25aa565dc": {
+      "name": "颜真卿",
+      "status": "confirmed",
+      "birthYear": -709,
+      "deathYear": -785,
+      "source": "https://zh.wikipedia.org/w/index.php?title=颜真卿&oldid=93046269",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-65d3b7166aa7": {
+      "name": "李晟",
+      "status": "confirmed",
+      "birthYear": -727,
+      "deathYear": -793,
+      "source": "https://www.lintan.gov.cn/info/1055/2586.htm",
+      "note": "核对唐朝临潭人李晟；所查地方政府资料及维基文库作者页均载727年生。"
+    },
+    "p-f938a4fc725f": {
+      "name": "裴度",
+      "status": "confirmed",
+      "birthYear": -765,
+      "deathYear": -839,
+      "source": "https://zh.wikipedia.org/w/index.php?title=裴度&oldid=91239926",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-5c6de5b11487": {
+      "name": "王褒",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王褒_(汉朝)&oldid=88545483",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-380582cb3b20": {
+      "name": "张敞",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張敞&oldid=90562629",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-979d48ea0fd0": {
+      "name": "王吉",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王吉_(西汉)&oldid=94004122",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0ec8cc0e4196": {
+      "name": "义渠安国",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=义渠安国&oldid=79211784",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0882c512cc12": {
+      "name": "赵充国",
+      "status": "confirmed",
+      "birthYear": 137,
+      "deathYear": 52,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵充国&oldid=93400347",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-765b96e741e4": {
+      "name": "黄霸",
+      "status": "confirmed",
+      "birthYear": 130,
+      "deathYear": 51,
+      "source": "https://zh.wikipedia.org/w/index.php?title=黃霸&oldid=87895952",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-61fec91a19b8": {
+      "name": "严延年",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=嚴延年&oldid=74545204",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-92b29d4538e1": {
+      "name": "汉元帝",
+      "status": "confirmed",
+      "birthYear": 75,
+      "deathYear": 33,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉元帝&oldid=91055976",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-25dd183973d2": {
+      "name": "王禁",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王禁&oldid=88539938",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-68f05abeba07": {
+      "name": "许嘉",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=許嘉&oldid=94535996",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-81ae2cc34592": {
+      "name": "冯奉世",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=冯奉世&oldid=91650305",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-fd9adf59e797": {
+      "name": "刘康",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉康_(定陶王)&oldid=94536079",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-362bb594f93b": {
+      "name": "石显",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=石顯&oldid=94043972",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-e7511f964614": {
+      "name": "王尊",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王尊&oldid=94432477",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-19dc6f922779": {
+      "name": "匡衡",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=匡衡&oldid=89878420",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-a2a590a8ac70": {
+      "name": "张谭",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張譚&oldid=92967591",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4eec40a53ae6": {
+      "name": "王方进",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-1932c0e929a7": {
+      "name": "赵昭仪",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵昭仪&oldid=93654568",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-eafa287138c7": {
+      "name": "班彪",
+      "status": "confirmed",
+      "birthYear": -3,
+      "deathYear": -54,
+      "source": "https://zh.wikipedia.org/w/index.php?title=班彪&oldid=91482876",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-066ad80f2f3f": {
+      "name": "傅喜",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=傅喜&oldid=88605614",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-c03df432a4c0": {
+      "name": "朱博",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱博&oldid=89112953",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0658c381bccd": {
+      "name": "傅太后",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=傅昭儀&oldid=91371395",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-e1907f7c8ce6": {
+      "name": "孔光",
+      "status": "confirmed",
+      "birthYear": 65,
+      "deathYear": -5,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔光&oldid=89547320",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-0989130f9ee1": {
+      "name": "师丹",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=师丹&oldid=88682984",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-30e5b505a55f": {
+      "name": "李寻",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李尋&oldid=80959904",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-9297e6df16c0": {
+      "name": "扬雄",
+      "status": "confirmed",
+      "birthYear": 53,
+      "deathYear": -18,
+      "source": "https://zh.wikipedia.org/w/index.php?title=扬雄&oldid=89784909",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-75123cfd3f82": {
+      "name": "赵玄",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=趙玄&oldid=80809785",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-26b203780ba0": {
+      "name": "张禹",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张禹_(东汉)&oldid=93916438",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-ad686130e64a": {
+      "name": "徐防",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐防&oldid=88509982",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-747fbcd5668c": {
+      "name": "刘胜",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://ctext.org/datawiki.pl?if=gb&res=738223",
+      "note": "核对东汉平原怀王刘胜，资料未载明确生年；不使用其父汉和帝的生年。"
+    },
+    "p-01121d03501e": {
+      "name": "梁鲔",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=梁鲔&oldid=88516834",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-686c5e8d0bbe": {
+      "name": "严授",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-7b6dfa86c85c": {
+      "name": "邓遵",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=鄧遵&oldid=93188396",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-993235af291a": {
+      "name": "马续",
+      "status": "confirmed",
+      "birthYear": -70,
+      "deathYear": -141,
+      "source": "https://zh.wikipedia.org/w/index.php?title=馬續&oldid=85218795",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-940e00f97940": {
+      "name": "班勇",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=班勇&oldid=68256621",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-e4fbee38569d": {
+      "name": "邓骘",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=鄧騭&oldid=94186998",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-018363527a04": {
+      "name": "杜季贡",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=杜季贡&oldid=92865452",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f87a73474f87": {
+      "name": "袁敞",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=袁敞&oldid=88451856",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-7d34aa012230": {
+      "name": "马贤",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=馬賢_(東漢)&oldid=63082130",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-1ea1818c44d2": {
+      "name": "阎太后",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=阎姬&oldid=91322483",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-9995ca0eaafa": {
+      "name": "周举",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=周舉&oldid=88592511",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-80768f1e6d75": {
+      "name": "张衡",
+      "status": "confirmed",
+      "birthYear": -78,
+      "deathYear": -139,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张衡&oldid=92022079",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-c95db0e52c0f": {
+      "name": "刘崎",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘崎&oldid=84292453",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-accd2119f3b5": {
+      "name": "孔扶",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔扶&oldid=75190133",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-1f5d4ccb8b90": {
+      "name": "黄尚",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=黃尚&oldid=37769296",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-cd2c0d552f49": {
+      "name": "王卓",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王卓_(東漢)&oldid=88510255",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-6977b989b6fc": {
+      "name": "梁冀",
+      "status": "confirmed",
+      "birthYear": -88,
+      "deathYear": -159,
+      "source": "https://zh.wikipedia.org/w/index.php?title=梁冀&oldid=94963425",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-4e1776d23ee7": {
+      "name": "刘缵",
+      "status": "confirmed",
+      "birthYear": -138,
+      "deathYear": -146,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉质帝&oldid=91999566",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-5e949f44056d": {
+      "name": "李固",
+      "status": "confirmed",
+      "birthYear": -93,
+      "deathYear": -147,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李固&oldid=94602793",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-0bd1a740b0c0": {
+      "name": "刘蒜",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘蒜&oldid=89492227",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-bbc5c5a6b8bb": {
+      "name": "刘志",
+      "status": "confirmed",
+      "birthYear": -132,
+      "deathYear": -168,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉桓帝&oldid=93979201",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-6911a4d9387c": {
+      "name": "刘陶",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘陶_(东汉)&oldid=88509283",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-5c649bd24092": {
+      "name": "黄琼",
+      "status": "confirmed",
+      "birthYear": -86,
+      "deathYear": -164,
+      "source": "https://zh.wikipedia.org/w/index.php?title=黄琼&oldid=92014453",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e80ffa15d8ef": {
+      "name": "徐稚",
+      "status": "confirmed",
+      "birthYear": -97,
+      "deathYear": -168,
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐稚&oldid=90828273",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-c40aeea4c545": {
+      "name": "郭泰",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭泰_(東漢)&oldid=94909724",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-37f5d1d9c765": {
+      "name": "李膺",
+      "status": "confirmed",
+      "birthYear": -110,
+      "deathYear": -169,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李膺_(東漢)&oldid=94604842",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-4e7eee5b477a": {
+      "name": "茅容",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=茅容&oldid=91446964",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d16b263b24c9": {
+      "name": "孟敏",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟敏&oldid=88591038",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f49ccc9f2cb0": {
+      "name": "魏昭",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏昭&oldid=88591238",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-908650ddeb8e": {
+      "name": "左原",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=左原&oldid=91447105",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-efe3ea6bb71d": {
+      "name": "段颎",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=段熲&oldid=93004964",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f78e44b0e850": {
+      "name": "夫台",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=夫台&oldid=92236398",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-9c04e342d40d": {
+      "name": "公孙域",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-7b140b929375": {
+      "name": "贾彪",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=贾彪&oldid=88531458",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-eca0e3619f7d": {
+      "name": "窦武",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=窦武&oldid=94577680",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-c218c6164623": {
+      "name": "范滂",
+      "status": "confirmed",
+      "birthYear": -137,
+      "deathYear": -169,
+      "source": "https://zh.wikipedia.org/w/index.php?title=范滂&oldid=94792301",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-234db88d29fa": {
+      "name": "霍谞",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=霍諝&oldid=88585611",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-62d7ad4db2b1": {
+      "name": "蔡邕",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=蔡邕&oldid=91825390",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-f72ea879cfcb": {
+      "name": "胡广",
+      "status": "confirmed",
+      "birthYear": -91,
+      "deathYear": -172,
+      "source": "https://zh.wikipedia.org/w/index.php?title=胡廣_(漢朝)&oldid=94656391",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-56c8c17b0c3e": {
+      "name": "侯览",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=侯覽&oldid=93843715",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-ec28a09454ee": {
+      "name": "孟观",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟觀&oldid=86489796",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-db35006374ef": {
+      "name": "齐万年",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐万年&oldid=91916952",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-cfa1d41abaae": {
+      "name": "江统",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=江統&oldid=91917092",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-3cd4b110dd59": {
+      "name": "张轨",
+      "status": "confirmed",
+      "birthYear": -255,
+      "deathYear": -314,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張軌&oldid=93784735",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-266e1d742a46": {
+      "name": "司马伦",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马伦&oldid=91385161",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "p-e487a70a2079": {
+      "name": "孙秀",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孫秀_(西晉)&oldid=92967404",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-76764ce689bd": {
+      "name": "赵廞",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵廞&oldid=91109344",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-2bf7d1c343a2": {
+      "name": "李庠",
+      "status": "confirmed",
+      "birthYear": -247,
+      "deathYear": -301,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李庠&oldid=94828482",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-28a67039d03f": {
+      "name": "李特",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李特&oldid=89640563",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-8a8555912b0e": {
+      "name": "李流",
+      "status": "confirmed",
+      "birthYear": -248,
+      "deathYear": -303,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李流&oldid=86901039",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b1c27cb7f6d0": {
+      "name": "乐广",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=樂廣&oldid=94931124",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-b0539005a8c4": {
+      "name": "司马颖",
+      "status": "confirmed",
+      "birthYear": -279,
+      "deathYear": -306,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马颖&oldid=92430548",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a878d1cf59d2": {
+      "name": "司马越",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=司马越&oldid=88465332",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-049f8a63773d": {
+      "name": "刘沈",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘沈&oldid=90837390",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d961036b21d7": {
+      "name": "张方",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張方&oldid=94682344",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-e8198efeff95": {
+      "name": "刘弘",
+      "status": "confirmed",
+      "birthYear": -236,
+      "deathYear": -306,
+      "source": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/222222362.shtml",
+      "note": "核对西晋刘弘，与晋武帝司马炎同年生。"
+    },
+    "p-486f840bc7c4": {
+      "name": "罗尚",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=羅尚&oldid=90213889",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-e08049dfe29d": {
+      "name": "刘义符",
+      "status": "confirmed",
+      "birthYear": -406,
+      "deathYear": -424,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义符&oldid=94824419",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-20e695fb2251": {
+      "name": "刘义真",
+      "status": "confirmed",
+      "birthYear": -407,
+      "deathYear": -424,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义真&oldid=94646517",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-5660d41d05e4": {
+      "name": "谢灵运",
+      "status": "confirmed",
+      "birthYear": -385,
+      "deathYear": -433,
+      "source": "https://zh.wikipedia.org/w/index.php?title=谢灵运&oldid=93427912",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f8f9d3eb1ed9": {
+      "name": "徐羡之",
+      "status": "confirmed",
+      "birthYear": -364,
+      "deathYear": -426,
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐羨之&oldid=94883980",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-73265c90ed92": {
+      "name": "傅亮",
+      "status": "confirmed",
+      "birthYear": -374,
+      "deathYear": -426,
+      "source": "https://zh.wikipedia.org/w/index.php?title=傅亮_(六朝)&oldid=94276262",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e2f39a27653c": {
+      "name": "拓跋焘",
+      "status": "confirmed",
+      "birthYear": -408,
+      "deathYear": -452,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏太武帝&oldid=94028348",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b92935c01f8e": {
+      "name": "姚浚",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-a186944ced80": {
+      "name": "尉眷",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=尉眷&oldid=88320373",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-379c6c4746c4": {
+      "name": "赫连昌",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赫連昌&oldid=81773875",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-b5ade2762fa4": {
+      "name": "赫连定",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赫連定&oldid=81773868",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4b4887979b18": {
+      "name": "檀道济",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=檀道济&oldid=94817735",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-764a1644eaef": {
+      "name": "沮渠无讳",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=沮渠無諱&oldid=69216211",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-18c11f75ac95": {
+      "name": "朱修之",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱脩之&oldid=93784572",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-029f4a7d5e2a": {
+      "name": "刘义康",
+      "status": "confirmed",
+      "birthYear": -409,
+      "deathYear": -451,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义康&oldid=94566104",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-24abfeb78cb7": {
+      "name": "刘义恭",
+      "status": "confirmed",
+      "birthYear": -413,
+      "deathYear": -465,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉義恭&oldid=93879840",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-862c04115bf4": {
+      "name": "臧质",
+      "status": "confirmed",
+      "birthYear": -400,
+      "deathYear": -454,
+      "source": "https://zh.wikipedia.org/w/index.php?title=臧质&oldid=80316922",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-ed9bab0f6568": {
+      "name": "刘义宣",
+      "status": "confirmed",
+      "birthYear": -415,
+      "deathYear": -454,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘义宣&oldid=94651159",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-608691351b71": {
+      "name": "刘骏",
+      "status": "confirmed",
+      "birthYear": -430,
+      "deathYear": -464,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋孝武帝&oldid=93241325",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7c1dc7c75352": {
+      "name": "潘淑妃",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=潘淑妃&oldid=93970717",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-aac1d51df4ba": {
+      "name": "萧道成",
+      "status": "confirmed",
+      "birthYear": -427,
+      "deathYear": -482,
+      "source": "https://zh.wikipedia.org/w/index.php?title=蕭道成&oldid=93427082",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-3aa3e184a826": {
+      "name": "刘子业",
+      "status": "confirmed",
+      "birthYear": -449,
+      "deathYear": -466,
+      "source": "https://zh.wikipedia.org/w/index.php?title=刘子业&oldid=94956136",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-8909a6369728": {
+      "name": "刘子勋",
+      "status": "confirmed",
+      "birthYear": -456,
+      "deathYear": -466,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉子勛&oldid=94426561",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-1e4a9b38563c": {
+      "name": "邓琬",
+      "status": "confirmed",
+      "birthYear": -407,
+      "deathYear": -466,
+      "source": "https://zh.wikipedia.org/w/index.php?title=邓琬&oldid=93720498",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b6994a64534f": {
+      "name": "尉元",
+      "status": "confirmed",
+      "birthYear": -413,
+      "deathYear": -493,
+      "source": "https://zh.wikipedia.org/w/index.php?title=尉元&oldid=87765120",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b794a7d6f042": {
+      "name": "张永",
+      "status": "confirmed",
+      "birthYear": -410,
+      "deathYear": -475,
+      "source": "https://zh.wikipedia.org/w/index.php?title=张永_(南朝)&oldid=93947161",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7d7fc18896e5": {
+      "name": "皮豹子",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=皮豹子&oldid=94673824",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-67320933fefb": {
+      "name": "沈文秀",
+      "status": "confirmed",
+      "birthYear": -426,
+      "deathYear": -486,
+      "source": "https://zh.wikipedia.org/w/index.php?title=沈文秀&oldid=84861882",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-3a08e49c24fa": {
+      "name": "崔道固",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=崔道固&oldid=93852527",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d52f7efc4ef8": {
+      "name": "刘休佑",
+      "status": "confirmed",
+      "birthYear": -445,
+      "deathYear": -471,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉休祐&oldid=92330171",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b80a9b012a1f": {
+      "name": "刘休若",
+      "status": "confirmed",
+      "birthYear": -448,
+      "deathYear": -471,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉休若&oldid=94744510",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b7d059a0217e": {
+      "name": "冯太后",
+      "status": "confirmed",
+      "birthYear": -441,
+      "deathYear": -490,
+      "source": "https://zh.wikipedia.org/w/index.php?title=文成文明皇后&oldid=94783648",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-57f5c8b38da9": {
+      "name": "李奕",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-1217dffb54c8": {
+      "name": "程骏",
+      "status": "confirmed",
+      "birthYear": -414,
+      "deathYear": -485,
+      "source": "https://zh.wikipedia.org/w/index.php?title=程駿&oldid=93793215",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-d4c61484aaf3": {
+      "name": "萧嶷",
+      "status": "confirmed",
+      "birthYear": -444,
+      "deathYear": -492,
+      "source": "https://zh.wikipedia.org/w/index.php?title=蕭嶷&oldid=94828731",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-edf2fe7b3197": {
+      "name": "萧赜",
+      "status": "confirmed",
+      "birthYear": -440,
+      "deathYear": -493,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐武帝&oldid=91314198",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-08290c06d262": {
+      "name": "萧长懋",
+      "status": "confirmed",
+      "birthYear": -458,
+      "deathYear": -493,
+      "source": "https://zh.wikipedia.org/w/index.php?title=蕭長懋&oldid=88543217",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-afe3d113d0ab": {
+      "name": "萧子良",
+      "status": "confirmed",
+      "birthYear": -460,
+      "deathYear": -494,
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧子良&oldid=94602336",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-2336ee8c228f": {
+      "name": "范缜",
+      "status": "confirmed",
+      "birthYear": -450,
+      "deathYear": -510,
+      "source": "https://zh.wikipedia.org/w/index.php?title=范缜&oldid=94592163",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7ef8d828189e": {
+      "name": "王俭",
+      "status": "confirmed",
+      "birthYear": -452,
+      "deathYear": -489,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王儉_(南朝)&oldid=93967048",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-86d489461b6f": {
+      "name": "萧鸾",
+      "status": "confirmed",
+      "birthYear": -452,
+      "deathYear": -498,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐明帝&oldid=91302388",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f0afcd5be209": {
+      "name": "元颢",
+      "status": "confirmed",
+      "birthYear": -494,
+      "deathYear": -529,
+      "source": "https://zh.wikipedia.org/w/index.php?title=元颢&oldid=94933108",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-60c029ac0b1d": {
+      "name": "杨津",
+      "status": "confirmed",
+      "birthYear": -469,
+      "deathYear": -531,
+      "source": "https://zh.wikipedia.org/w/index.php?title=楊津_(北魏)&oldid=90506530",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-017637599be0": {
+      "name": "李裔",
+      "status": "confirmed",
+      "birthYear": -488,
+      "deathYear": -537,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李徽伯&oldid=92330702",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-364106d631a9": {
+      "name": "胡太后",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宣武靈皇后&oldid=91354074",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4eaa20d40b3f": {
+      "name": "萧宝寅",
+      "status": "confirmed",
+      "birthYear": -487,
+      "deathYear": -530,
+      "source": "https://zh.wikipedia.org/w/index.php?title=萧宝夤&oldid=94603721",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-2bf6cfe3a07c": {
+      "name": "长孙稚",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=长孙稚&oldid=94854693",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "p-5182d5caa6cc": {
+      "name": "元悦",
+      "status": "confirmed",
+      "birthYear": -494,
+      "deathYear": -533,
+      "source": "https://zh.wikipedia.org/w/index.php?title=元悦&oldid=94626604",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-6d21f2d2c0a5": {
+      "name": "元勰",
+      "status": "confirmed",
+      "birthYear": -473,
+      "deathYear": -508,
+      "source": "https://zh.wikipedia.org/w/index.php?title=元勰&oldid=94946537",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-44c275502d42": {
+      "name": "高湛",
+      "status": "confirmed",
+      "birthYear": -537,
+      "deathYear": -569,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐武成帝&oldid=94496954",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-50b98c6ae650": {
+      "name": "高殷",
+      "status": "confirmed",
+      "birthYear": -545,
+      "deathYear": -561,
+      "source": "https://zh.wikipedia.org/w/index.php?title=高殷&oldid=91069081",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-b209e5c37e71": {
+      "name": "魏收",
+      "status": "confirmed",
+      "birthYear": -507,
+      "deathYear": -572,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏收&oldid=93707573",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-cfa040287021": {
+      "name": "陈宝应",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=陳寶應&oldid=88005687",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-06f5872bcb12": {
+      "name": "宇文护",
+      "status": "confirmed",
+      "birthYear": -513,
+      "deathYear": -572,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文护&oldid=94592152",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-c537a763486e": {
+      "name": "徐陵",
+      "status": "confirmed",
+      "birthYear": -507,
+      "deathYear": -583,
+      "source": "https://zh.wikipedia.org/w/index.php?title=徐陵&oldid=94689456",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-5f9c3a5e86e1": {
+      "name": "王劢",
+      "status": "confirmed",
+      "birthYear": -506,
+      "deathYear": -572,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王劢&oldid=88450772",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-6324c0ebd7e6": {
+      "name": "高纬",
+      "status": "confirmed",
+      "birthYear": -556,
+      "deathYear": -577,
+      "source": "https://zh.wikipedia.org/w/index.php?title=齐后主&oldid=92536115",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-4824cce9f331": {
+      "name": "宇文深",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文深&oldid=82386668",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-fcf5087ddf60": {
+      "name": "卫菩萨",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=卫菩萨&oldid=74021818",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4afecd227825": {
+      "name": "裴矩",
+      "status": "confirmed",
+      "birthYear": -547,
+      "deathYear": -627,
+      "source": "https://zh.wikipedia.org/w/index.php?title=裴矩&oldid=92967716",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-46d68e852d42": {
+      "name": "宋璟",
+      "status": "confirmed",
+      "birthYear": -663,
+      "deathYear": -737,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋璟&oldid=91980331",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-9303d5ddec0d": {
+      "name": "卢鸿",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=卢鸿&oldid=82830071",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-ce70843909de": {
+      "name": "张嘉贞",
+      "status": "confirmed",
+      "birthYear": -665,
+      "deathYear": -729,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張嘉貞&oldid=92864366",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-cccf63fb653c": {
+      "name": "张说",
+      "status": "confirmed",
+      "birthYear": -667,
+      "deathYear": -731,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張說&oldid=94775151",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-99e7c86466fe": {
+      "name": "李邵固",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李邵固&oldid=83611597",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f0265c977b28": {
+      "name": "李鲁苏",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李鲁苏&oldid=84617420",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-25c5595a1759": {
+      "name": "崔隐甫",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=崔隐甫&oldid=92962743",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0546a6993454": {
+      "name": "宇文融",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宇文融&oldid=94449506",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-07ee1c85a3b7": {
+      "name": "李元纮",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李元纮&oldid=92980018",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-73586575e6b8": {
+      "name": "柳浑",
+      "status": "confirmed",
+      "birthYear": -716,
+      "deathYear": -789,
+      "source": "https://zh.wikipedia.org/w/index.php?title=柳浑&oldid=80632367",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-87993a7619c0": {
+      "name": "张延赏",
+      "status": "confirmed",
+      "birthYear": -726,
+      "deathYear": -787,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張延賞&oldid=93343482",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-20319234821c": {
+      "name": "李泌",
+      "status": "confirmed",
+      "birthYear": -722,
+      "deathYear": -789,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李泌&oldid=94401800",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-be155c9d48eb": {
+      "name": "韦皋",
+      "status": "confirmed",
+      "birthYear": -745,
+      "deathYear": -805,
+      "source": "https://zh.wikipedia.org/w/index.php?title=韦皋&oldid=83912294",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-c10575e21704": {
+      "name": "李皋",
+      "status": "confirmed",
+      "birthYear": -733,
+      "deathYear": -792,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李皋_(唐朝)&oldid=92946166",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-da846f8f951e": {
+      "name": "刘玄佐",
+      "status": "confirmed",
+      "birthYear": -729,
+      "deathYear": -792,
+      "source": "https://zh.wikipedia.org/w/index.php?title=劉玄佐&oldid=74593227",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-613bcc49666e": {
+      "name": "李纳",
+      "status": "confirmed",
+      "birthYear": -759,
+      "deathYear": -792,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李纳&oldid=82964888",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-c67a13597348": {
+      "name": "李实",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李實_(唐朝)&oldid=92048329",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-40c3dae162a2": {
+      "name": "窦参",
+      "status": "confirmed",
+      "birthYear": -734,
+      "deathYear": -793,
+      "source": "https://zh.wikipedia.org/w/index.php?title=窦参&oldid=90093482",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-5ddf0f218677": {
+      "name": "班宏",
+      "status": "confirmed",
+      "birthYear": -720,
+      "deathYear": -792,
+      "source": "https://zh.wikipedia.org/w/index.php?title=班宏&oldid=83828753",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-db59bb90ec28": {
+      "name": "张滂",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張滂_(唐朝)&oldid=83828761",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-a53267377ff6": {
+      "name": "陆贽",
+      "status": "confirmed",
+      "birthYear": -754,
+      "deathYear": -805,
+      "source": "https://zh.wikipedia.org/w/index.php?title=陸贄&oldid=92923479",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-07d19c01e2f7": {
+      "name": "李抱真",
+      "status": "confirmed",
+      "birthYear": -733,
+      "deathYear": -794,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李抱真&oldid=88937032",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-dc6a3c3989a0": {
+      "name": "异牟寻",
+      "status": "confirmed",
+      "birthYear": -754,
+      "deathYear": -808,
+      "source": "https://zh.wikipedia.org/w/index.php?title=异牟寻&oldid=92385451",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-cd29ab61376f": {
+      "name": "张茂昭",
+      "status": "confirmed",
+      "birthYear": -762,
+      "deathYear": -811,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張茂昭&oldid=93015495",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-685b7ed08387": {
+      "name": "裴延龄",
+      "status": "confirmed",
+      "birthYear": -727,
+      "deathYear": -795,
+      "source": "https://zh.wikipedia.org/w/index.php?title=裴延齡&oldid=92968591",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-673f72039942": {
+      "name": "韩全义",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=韓全義&oldid=74593360",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-984c7fbf188e": {
+      "name": "杨朝晟",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=杨朝晟&oldid=92968874",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-299055283cdc": {
+      "name": "刘南金",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-5e838f042db2": {
+      "name": "马植",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=马植_(唐朝)&oldid=89509301",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-deec62512773": {
+      "name": "魏扶",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=魏扶&oldid=85586448",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-708ec8a5b833": {
+      "name": "崔龟从",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=崔龜從&oldid=88821707",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-340a8d41f7de": {
+      "name": "白敏中",
+      "status": "confirmed",
+      "birthYear": -792,
+      "deathYear": -861,
+      "source": "https://zh.wikipedia.org/w/index.php?title=白敏中&oldid=93167507",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a2a496116072": {
+      "name": "裘甫",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=裘甫之亂&oldid=83875734",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-04d7b113f913": {
+      "name": "郑祗德",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郑祗德&oldid=82840331",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-c651c7c76c47": {
+      "name": "李师望",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": null,
+      "note": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+    },
+    "p-b600fc6a2adc": {
+      "name": "庞勋",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=龐勛&oldid=94361133",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4342630b479c": {
+      "name": "高骈",
+      "status": "confirmed",
+      "birthYear": -821,
+      "deathYear": -887,
+      "source": "https://zh.wikipedia.org/w/index.php?title=高駢&oldid=93861484",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-473b203cbc71": {
+      "name": "康承训",
+      "status": "confirmed",
+      "birthYear": -809,
+      "deathYear": -874,
+      "source": "https://zh.wikipedia.org/w/index.php?title=康承訓&oldid=90527423",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-453e96f5caaf": {
+      "name": "路岩",
+      "status": "confirmed",
+      "birthYear": -829,
+      "deathYear": -874,
+      "source": "https://zh.wikipedia.org/w/index.php?title=路岩&oldid=80632282",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-a0e330bc8f92": {
+      "name": "韦保衡",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=韦保衡&oldid=88936884",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d7a8acdf4dd2": {
+      "name": "孔谦",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孔谦&oldid=84170745",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-95131e19a9c5": {
+      "name": "郭崇韬",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭崇韬&oldid=91431186",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "p-cfe640d0e1bc": {
+      "name": "王衍",
+      "status": "confirmed",
+      "birthYear": -901,
+      "deathYear": -926,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王衍_(前蜀)&oldid=91695234",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e46133b2a535": {
+      "name": "王宗弼",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王宗弼&oldid=91831930",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-3a98a45e07db": {
+      "name": "李绍琛",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=康延孝&oldid=91179236",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-0f9aeaa9521c": {
+      "name": "李昊",
+      "status": "approximate",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李昊_(五代)&oldid=92650670",
+      "note": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+    },
+    "p-877287d991bd": {
+      "name": "欧阳彬",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=歐陽彬&oldid=91859695",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-4e09f960856f": {
+      "name": "郭从谦",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=郭从谦&oldid=91611208",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f5bf5993b7d7": {
+      "name": "李嗣源",
+      "status": "confirmed",
+      "birthYear": -867,
+      "deathYear": -933,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李嗣源&oldid=93808984",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-53c3ecb52af1": {
+      "name": "朱守殷",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=朱守殷&oldid=91324777",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d977605a33c8": {
+      "name": "豆卢革",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=豆卢革&oldid=91296695",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-3c3065be7bbb": {
+      "name": "任圜",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=任圜&oldid=93105861",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-ba1e35cc1eda": {
+      "name": "董璋",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=董璋&oldid=92121982",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-fbcb06b95be3": {
+      "name": "赵季良",
+      "status": "confirmed",
+      "birthYear": -883,
+      "deathYear": -946,
+      "source": "https://zh.wikipedia.org/w/index.php?title=赵季良&oldid=91427247",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-fc39fcc5d7ea": {
+      "name": "孟知祥",
+      "status": "confirmed",
+      "birthYear": -874,
+      "deathYear": -934,
+      "source": "https://zh.wikipedia.org/w/index.php?title=孟知祥&oldid=91902937",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-51683db2dbed": {
+      "name": "李从荣",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李從榮&oldid=90743280",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-f628ecfcdb5d": {
+      "name": "王延钧",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王延鈞&oldid=91939442",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d2fda2f8013f": {
+      "name": "李仁福",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李仁福&oldid=94682120",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-d38fa056f7d9": {
+      "name": "李彝超",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李彝超&oldid=94682186",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-60f99467a3f0": {
+      "name": "徐知诰",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李昪&oldid=94314331",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "p-87af52346794": {
+      "name": "宋齐丘",
+      "status": "confirmed",
+      "birthYear": -887,
+      "deathYear": -959,
+      "source": "https://zh.wikipedia.org/w/index.php?title=宋齊丘&oldid=91848379",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-0daa8f9d9c58": {
+      "name": "李从珂",
+      "status": "confirmed",
+      "birthYear": -885,
+      "deathYear": -937,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李從珂&oldid=92158417",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-f84b7ad4503a": {
+      "name": "石敬瑭",
+      "status": "confirmed",
+      "birthYear": -892,
+      "deathYear": -942,
+      "source": "https://zh.wikipedia.org/w/index.php?title=石敬瑭&oldid=94203020",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7a7de9cc9aa2": {
+      "name": "李崧",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李崧_(五代)&oldid=92650792",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-2427883107ef": {
+      "name": "吕琦",
+      "status": "confirmed",
+      "birthYear": -894,
+      "deathYear": -943,
+      "source": "https://zh.wikipedia.org/w/index.php?title=呂琦&oldid=94805214",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7bdcc5705ae0": {
+      "name": "安重荣",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=安重榮&oldid=91847872",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-187ee94d27b2": {
+      "name": "桑维翰",
+      "status": "confirmed",
+      "birthYear": -898,
+      "deathYear": -946,
+      "source": "https://zh.wikipedia.org/w/index.php?title=桑維翰&oldid=93105116",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e404823cc0bb": {
+      "name": "冯晖",
+      "status": "confirmed",
+      "birthYear": -894,
+      "deathYear": -952,
+      "source": "https://zh.wikipedia.org/w/index.php?title=馮暉&oldid=90882031",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-8b806047533a": {
+      "name": "李璟",
+      "status": "confirmed",
+      "birthYear": -916,
+      "deathYear": -961,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李璟&oldid=92931952",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-83972ada0d20": {
+      "name": "杜重威",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=杜重威&oldid=93105037",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-e8b0c510a6ef": {
+      "name": "张彦泽",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=張彥澤&oldid=92107734",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-cef948f597b3": {
+      "name": "王曦",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=王延羲&oldid=94828561",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-3174d8bfc91b": {
+      "name": "高行周",
+      "status": "confirmed",
+      "birthYear": -885,
+      "deathYear": -952,
+      "source": "https://zh.wikipedia.org/w/index.php?title=高行周&oldid=92111851",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-553af3fe6848": {
+      "name": "符彦卿",
+      "status": "confirmed",
+      "birthYear": -898,
+      "deathYear": -975,
+      "source": "https://zh.wikipedia.org/w/index.php?title=符彥卿&oldid=91847932",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-29a3b98e0b9c": {
+      "name": "李守贞",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李守贞_(节度使)&oldid=93543777",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-13008c9ba0a4": {
+      "name": "李彝殷",
+      "status": "unknown",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=李彝殷&oldid=94682406",
+      "note": "所查资料未提供明确出生年份。"
+    },
+    "p-ffbfe6bc7fe8": {
+      "name": "汉成帝",
+      "status": "confirmed",
+      "birthYear": 51,
+      "deathYear": 7,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉成帝&oldid=94427098",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-e029085db804": {
+      "name": "汉哀帝",
+      "status": "confirmed",
+      "birthYear": 26,
+      "deathYear": 1,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉哀帝&oldid=93909194",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-7bcc2af86b44": {
+      "name": "汉安帝",
+      "status": "confirmed",
+      "birthYear": -94,
+      "deathYear": -125,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉安帝&oldid=91704584",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-ced3b3b5d305": {
+      "name": "汉桓帝",
+      "status": "confirmed",
+      "birthYear": -132,
+      "deathYear": -168,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉桓帝&oldid=93979201",
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+    },
+    "p-8e44102c25ae": {
+      "name": "汉灵帝",
+      "status": "disputed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "https://zh.wikipedia.org/w/index.php?title=汉灵帝&oldid=93976131",
+      "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    }
+  }
+}

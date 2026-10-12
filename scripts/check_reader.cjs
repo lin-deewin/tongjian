@@ -6,13 +6,14 @@ function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textC
 element('#searchScope').value='current';
 element('.theme-select').options=[{value:'light'},{value:'dark'},{value:'warm'}];
 const location={hash:'',pathname:'/',search:''};const history={pushState(_a,_b,url){location.hash=url.includes('#')?'#'+url.split('#')[1]:''}};
-const context=vm.createContext({console,setTimeout,clearTimeout,location,history,document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){listeners.set(type,handler)},body:element('body'),documentElement:{dataset:{},style:{setProperty(){}},scrollHeight:1000},activeElement:element('active')},window:{scrollY:0,innerHeight:700,scrollTo(){},addEventListener(){}},requestAnimationFrame:f=>f(),fetch:async name=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'))})});
+const context=vm.createContext({console,setTimeout,clearTimeout,location,history,document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){const previous=listeners.get(type);listeners.set(type,previous?(event=>{previous(event);handler(event)}):handler)},body:element('body'),documentElement:{dataset:{},style:{setProperty(){}},scrollHeight:1000},activeElement:element('active')},window:{scrollY:0,innerHeight:700,scrollTo(){},addEventListener(){}},requestAnimationFrame:f=>f(),fetch:async name=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,name.split('?')[0]),'utf8'))})});
+vm.runInContext(fs.readFileSync(path.join(root,'people.js'),'utf8'),context);
 vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),context);
 const run=code=>vm.runInContext(code,context);
 (async()=>{
  await new Promise(setImmediate);assert.equal(run('book.volume'),1);
  assert.equal(run('cn(59)'), '五十九');assert.equal(run('reign({dynasty:"秦",king:"始皇帝",reign:16})'),'秦始皇帝十六年');
- await run('changeVolume(2)');assert.equal(element('#yearCount').textContent,48);assert.equal(location.hash,'#volume-2');assert(element('#chronicle').innerHTML.includes('已逐条重写'));assert(element('#chronicle').innerHTML.includes('齐伐魏，夺取观津'));
+ await run('changeVolume(2)');assert.equal(element('#yearCount').textContent,48);assert.equal(location.hash,'#volume-2');assert(!element('#chronicle').innerHTML.includes('事件提要 · 已逐条重写'));assert(element('#chronicle').innerHTML.includes('齐伐魏，夺取观津'));
  await run('openYear(2,368)');await run('stepYear(-1)');assert.equal(run('book.volume'),1);assert.equal(run('selected'),369);await run('stepYear(1)');assert.equal(run('book.volume'),2);assert.equal(run('selected'),368);
  let checked=0;
  for(let v=1;v<=294;v++){
@@ -23,7 +24,7 @@ const run=code=>vm.runInContext(code,context);
  await run('openYear(200,-662)');assert.equal(element('#nextYear').textContent,'本年续篇 →');await run('stepYear(1)');assert.equal(run('book.volume'),201);assert.equal(run('selected'),-662);assert(element('#readerContent').innerHTML.includes('本年记事分见'));
  const boundary=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8')).volumes.find(v=>v.start>0&&v.end<0);assert(boundary);await run(`openYear(${boundary.volume},1)`);await run('stepYear(1)');assert.equal(run('selected'),-1);assert(!element('#readerContent').innerHTML.includes('公元前 -'));
  const catalogData=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8'));const workers=[];
- const workerContext=vm.createContext({self:{postMessage(message){workers.push(JSON.parse(JSON.stringify(message)))}},fetch:async name=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'))})});vm.runInContext(fs.readFileSync(path.join(root,'search-worker.js'),'utf8'),workerContext);
+ const workerContext=vm.createContext({self:{postMessage(message){workers.push(JSON.parse(JSON.stringify(message)))}},fetch:async name=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,name.split('?')[0]),'utf8'))})});vm.runInContext(fs.readFileSync(path.join(root,'search-worker.js'),'utf8'),workerContext);
  await vm.runInContext(`self.onmessage({data:{type:'search',id:1,q:'朱温',volumes:${JSON.stringify(catalogData.volumes.map(v=>v.volume))}}})`,workerContext);const search=workers.at(-1);assert(search.complete);assert.equal(search.checked,294);assert(!search.error);assert(search.hits.some(y=>y._volume>=250));assert(!search.hits.some(y=>'text' in y));
  run('fullSearchHits='+JSON.stringify(search.hits)+';searchChecked=294;searchComplete=true');element('#searchScope').value='all';element('#search').value='朱温';run('render()');assert(element('#chronicle').innerHTML.includes('294 / 294'));element('#searchScope').value='current';element('#search').value='';
  location.hash='#year-403';await run('routeFromHash()');assert.equal(run('book.volume'),1);assert.equal(run('selected'),403);
@@ -53,5 +54,36 @@ const run=code=>vm.runInContext(code,context);
  element('#search').value='';element('#searchScope').value='all';element('#search').value='朱温';run('fullSearchHits='+JSON.stringify(search.hits)+';eventFilter="war";render()');assert(run('filtered().every(y=>eventIndices(y).length>0)'));
  run('eventFilter="all"');element('#searchScope').value='current';element('#search').value='';
  assert(element('#dynastyTabs').innerHTML.includes('data-dynasty="唐"'));
- console.log('PASS: '+checked+' annual volume entries across 294 volumes; all paragraph IDs and event anchors; BCE/CE transition; same-year continuation; bounded cache; whole-book worker search; legacy/deep links; intro; return state.');
+ // Age estimates use BC-positive keys and must skip year zero and posthumous records.
+ assert.equal(run('personEventAge({year:-208},{birthYear:-161,deathYear:-223,birthSource:"reviewed",birthStatus:"confirmed"})'),47);
+ assert.equal(run('personEventAge({year:-1},{birthYear:1,birthSource:"reviewed",birthStatus:"confirmed"})'),1);
+ assert.equal(run('personEventAge({year:-25},{birthYear:5,birthSource:"reviewed",birthStatus:"confirmed"})'),29);
+ assert.equal(run('personEventAge({year:400},{birthYear:403,birthSource:"reviewed",birthStatus:"confirmed"})'),3);
+ assert.equal(run('personEventAge({year:-161},{birthYear:-161,birthSource:"reviewed",birthStatus:"confirmed"})'),0);
+ assert.equal(run('personEventAge({year:null},{birthYear:-161,birthSource:"reviewed",birthStatus:"confirmed"})'),null);
+ assert.equal(run('personEventAge({year:-160},{birthYear:-161,birthSource:"reviewed",birthStatus:"confirmed"})'),null);
+ assert.equal(run('personEventAge({year:-224},{birthYear:-161,deathYear:-223,birthSource:"reviewed",birthStatus:"confirmed"})'),null);
+ assert.equal(run('personEventAge({year:-208},{birthYear:null})'),null);
+ assert.equal(run('personEventAge({year:-208},{birthYear:-161})'),null);
+ // Verify every published profile and event against the age coverage report.
+ const lifeReviews=JSON.parse(fs.readFileSync(path.join(root,'../scripts/people/life-years.json'),'utf8')).people;
+ const ageReport=JSON.parse(fs.readFileSync(path.join(root,'people-life-report.json'),'utf8'));
+ const directory=JSON.parse(fs.readFileSync(path.join(root,'people-index.json'),'utf8')).people;
+ assert.equal(Object.keys(lifeReviews).length,directory.length);
+ let markedEvents=0,allPeopleEvents=0;
+ for(const entry of directory){
+  const person=JSON.parse(fs.readFileSync(path.join(root,'people',entry.id+'.json'),'utf8'));
+  const review=lifeReviews[entry.id];assert(review);assert.equal(review.name,person.name);
+  assert.equal(person.birthYear,review.birthYear);assert.equal(person.birthStatus,review.status);
+  for(const event of person.events){
+   allPeopleEvents++;
+   const age=run('personEventAge('+JSON.stringify(event)+','+JSON.stringify(person)+')');
+   const html=run('personEventHtml('+JSON.stringify(event)+','+JSON.stringify(person)+')');
+   if(age!==null){assert(Number.isInteger(age)&&age>=0);assert.equal(person.birthStatus,'confirmed');assert(html.includes('约'+age+'岁'));markedEvents++;}
+   else assert(!html.includes('class="event-age"'));
+  }
+ }
+ assert.equal(markedEvents,ageReport.eventAgeCoverage.withAge);assert.equal(allPeopleEvents,ageReport.totalEvents);
+ assert.equal(run('personEventAge({year:-208},{birthYear:-161,birthSource:"reviewed",birthStatus:"disputed"})'),null);
+ console.log('PASS: '+checked+' annual volume entries across 294 volumes; all paragraph IDs and event anchors; BCE/CE transition; same-year continuation; bounded cache; whole-book worker search; legacy/deep links; intro; return state; '+directory.length+' people and '+allPeopleEvents+' events, '+markedEvents+' age labels.');
 })().catch(e=>{console.error(e);process.exitCode=1});

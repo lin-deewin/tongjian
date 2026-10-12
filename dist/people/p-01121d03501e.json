@@ -1,0 +1,58 @@
+{
+  "id": "p-01121d03501e",
+  "name": "梁鲔",
+  "aliases": [
+    "梁鲔"
+  ],
+  "identity": "东汉大臣，曾任司徒。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "梁鲔任司徒",
+      "summary": "梁鲔任司徒",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -106,
+      "timeLabel": "公元106年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 49,
+          "year": -106,
+          "indices": [
+            2
+          ],
+          "sourceHash": "d09c4d0c26967113a593e5f85e7cab9c0cbae4c8b7c5418013a3c204cbd17a60",
+          "quote": "癸卯，以光禄勋梁鲔为司徒。"
+        }
+      ],
+      "id": "p-01121d03501e-1"
+    },
+    {
+      "title": "梁鲔去世",
+      "summary": "梁鲔去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -107,
+      "timeLabel": "公元107年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 49,
+          "year": -107,
+          "indices": [
+            3
+          ],
+          "sourceHash": "ac251815994cb685f8600a835e90a2d09b322c71b9ee1efa763bea85e30ae534",
+          "quote": "庚午，司徒梁鲔薨。"
+        }
+      ],
+      "id": "p-01121d03501e-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=梁鲔&oldid=88516834",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

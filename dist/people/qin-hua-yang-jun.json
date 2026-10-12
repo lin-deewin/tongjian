@@ -1,0 +1,38 @@
+{
+  "id": "qin-hua-yang-jun",
+  "name": "秦华阳君",
+  "aliases": [
+    "华阳君",
+    "芈戎"
+  ],
+  "identity": "秦宣太后同父弟，秦国宗室。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "率秦军攻楚，夺取襄城",
+      "summary": "秦华阳君率军大败楚军，斩首三万并杀楚将景缺，攻取襄城。",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 300,
+      "timeLabel": "前300年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 300,
+          "indices": [
+            1
+          ],
+          "sourceHash": "60e57d5c4581f454e750db0d5206d9719f772d9111064c03bc06db48a640f63c",
+          "quote": "秦华阳君伐楚，大破楚师，斩首三万，杀其将景缺，取楚襄城。楚王恐，使太子为质于齐以请平。"
+        }
+      ],
+      "id": "qin-hua-yang-jun-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=芈戎&oldid=92630423",
+  "birthStatus": "approximate",
+  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "wei-hui-wang",
+  "name": "魏惠王",
+  "aliases": [
+    "魏惠王",
+    "惠王",
+    "梁惠王"
+  ],
+  "identity": "魏国国君，孟子曾与之论天下归一。",
+  "birthYear": 400,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "去世，魏襄王继位",
+      "summary": "魏惠王去世，其子魏襄王继位。",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 319,
+      "timeLabel": "前319年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 319,
+          "indices": [
+            1
+          ],
+          "sourceHash": "1836da9c9c8e197bf30d0991d0bf78c98071ba01044a3c4c29c33ee55b6b6dc2",
+          "quote": "魏惠王薨，子襄王立。"
+        }
+      ],
+      "id": "wei-hui-wang-1"
+    }
+  ],
+  "deathYear": 319,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=魏惠王&oldid=93069082",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}

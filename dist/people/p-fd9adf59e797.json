@@ -1,0 +1,205 @@
+{
+  "id": "p-fd9adf59e797",
+  "name": "刘康",
+  "aliases": [
+    "刘康"
+  ],
+  "identity": "西汉皇子，受封济阳王。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "元帝立皇子刘康为济阳王",
+      "summary": "元帝立皇子刘康为济阳王",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前41年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 29,
+          "year": 41,
+          "indices": [
+            1
+          ],
+          "sourceHash": "8d6df7885220a688898d19269c9a40e2b6a703c76d28fded9bfa2cf2cbd526bd",
+          "quote": "三月，立皇子康为济阳王。"
+        }
+      ],
+      "id": "p-fd9adf59e797-1"
+    },
+    {
+      "title": "元帝改封济阳王刘康为山阳王",
+      "summary": "元帝改封济阳王刘康为山阳王",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前35年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 29,
+          "year": 35,
+          "indices": [
+            4
+          ],
+          "sourceHash": "f738840f1c8b21a1eeb2450b211ea7f25b00da3f2e20e3ed6082e9e53639764a",
+          "quote": "是岁，徙济阳王康为山阳王。"
+        }
+      ],
+      "id": "p-fd9adf59e797-2"
+    },
+    {
+      "title": "封刘康为济南王，奉孝仁皇祭祀",
+      "summary": "封刘康为济南王，奉孝仁皇祭祀",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -174,
+      "timeLabel": "公元174年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 57,
+          "year": -174,
+          "indices": [
+            3
+          ],
+          "sourceHash": "a68696ca86cc30a9eaba94bbd57c83dc49ef704430eb8ed51de4e9bd96fe154c",
+          "quote": "夏，六月，封河间王利子康为济南王，奉孝仁皇祀。"
+        }
+      ],
+      "id": "p-fd9adf59e797-3"
+    },
+    {
+      "title": "元帝改封山阳王刘康为定陶王",
+      "summary": "元帝改封山阳王刘康为定陶王",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前28年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 30,
+          "year": 28,
+          "indices": [
+            8
+          ],
+          "sourceHash": "c7623d79b71ae99ff4b82850c1b89c1ada777986795edd603be85cb2f06cc7c0",
+          "quote": "徙山阳王康为定陶王。"
+        }
+      ],
+      "id": "p-fd9adf59e797-4"
+    },
+    {
+      "title": "定陶共王刘康去世",
+      "summary": "定陶共王刘康去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 23,
+      "timeLabel": "前23年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 30,
+          "year": 23,
+          "indices": [
+            4
+          ],
+          "sourceHash": "79d93295ff639513731a7dcbdd6eb3f1d055d970bfaad1af3f279067a2a7b0c3",
+          "quote": "八月，甲申，定陶共王康薨。"
+        }
+      ],
+      "id": "p-fd9adf59e797-5"
+    },
+    {
+      "title": "王茂章会同王师诲攻取密州，斩刺史刘康乂",
+      "summary": "王茂章会同王师诲攻取密州，斩刺史刘康乂",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元903年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 264,
+          "year": -903,
+          "indices": [
+            34
+          ],
+          "sourceHash": "3437a89f2de74d8448959b587bb1b04229cdfcf0327bbf65ac3cb4fff2609c3f",
+          "quote": "淮南将王茂章会王师范弟莱州刺史师诲攻密州，拔之，斩其刺史刘康乂，以淮海都游弈使张训为刺史。"
+        }
+      ],
+      "id": "p-fd9adf59e797-6"
+    },
+    {
+      "title": "济南王刘康去世",
+      "summary": "济南王刘康去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -97,
+      "timeLabel": "公元97年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 48,
+          "year": -97,
+          "indices": [
+            1
+          ],
+          "sourceHash": "61ff66612a3fd429cf1b0eb2bb50ec15fe02cc655ef842aa525fe2704aaf8c0b",
+          "quote": "癸巳，济南安王康薨。"
+        }
+      ],
+      "id": "p-fd9adf59e797-7"
+    },
+    {
+      "title": "刘康假称刘曜之子起兵被擒",
+      "summary": "刘康假称刘曜之子起兵被擒",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -353,
+      "timeLabel": "公元353年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 99,
+          "year": -353,
+          "indices": [
+            5
+          ],
+          "sourceHash": "3654e38d723555cfc137aa9001a978e35dec80ae4053e7dcf84c1b02553c976b",
+          "quote": "西域胡刘康诈称刘曜子，聚众于平阳，自称晋王；夏，四月，秦左卫将军苻飞讨擒之。"
+        }
+      ],
+      "id": "p-fd9adf59e797-8"
+    },
+    {
+      "title": "魏攻悬瓠项城并杀刘康祖",
+      "summary": "魏攻悬瓠项城并杀刘康祖",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元450年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 125,
+          "year": -450,
+          "indices": [
+            44
+          ],
+          "sourceHash": "d4585ed9ec82cbf691e9fe1a629495d76a805dacf5c23c725d91fe22fe6a7b29",
+          "quote": "诏以柳元景为弘农太守。元景使薛安都、尹显祖先引兵就庞法起等于陕，元景于后督祖。陕城险固，诸军攻之不拔。魏洛州刺史张是连提帅众二万度崤救陕，安都等与战于城南。魏人纵突骑，诸军不能敌；安都怒，脱兜鍪，解铠，唯着绛纳、两当衫，马亦去具装，瞋目横矛，单骑突陈，所向无前，魏人夹射不能中。如是数四，杀伤不可胜数。会日暮，别将鲁元保引兵自函谷关至，魏兵乃退。元景遣军副柳元怙将步骑二千救安都等，夜至，魏人不之知。明日，安都等陈于城西南。曾方平谓安都曰：「今勍敌在前，勍渠京翻。〕坚城在后，是吾取死之日。卿若不进，我当斩卿；我若不进，卿当斩我也！」安都曰：「善，卿言是也！」遂合战。元怙引兵自南门鼓噪直出，旌旗甚盛，魏众惊骇。安都挺身奋击，流血凝肘，矛折，易之更入，诸军齐奋。自旦至日昃，魏众大溃，斩张是连提及将卒二千余级，其余赴河堑死者甚众，生降二千余人。明日，元景至，让降者曰：「汝辈本中国民，今为虏尽力，力屈乃降，何也﹖」皆曰：「虏驱民使战，后出者灭族，以骑蹙步，未战先死，此将军所亲见也。」诸将欲尽杀之，元景曰：「今王旗北指，当使仁声先硌。」尽释而遣之，皆称万岁而去。甲午，克陕城。"
+        }
+      ],
+      "id": "p-fd9adf59e797-9"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=劉康_(定陶王)&oldid=94536079",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

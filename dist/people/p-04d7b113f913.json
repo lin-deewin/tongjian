@@ -1,0 +1,58 @@
+{
+  "id": "p-04d7b113f913",
+  "name": "郑祗德",
+  "aliases": [
+    "郑祗德"
+  ],
+  "identity": "唐朝地方官，曾多次奏报浙东军情。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "郑祗德屡表告急",
+      "summary": "郑祗德屡表告急",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -860,
+      "timeLabel": "公元860年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 250,
+          "year": -860,
+          "indices": [
+            5
+          ],
+          "sourceHash": "cbb7ac954eb27428a8c3000fd12743bbc747d40dade8da22a6cfa922dfd60723",
+          "quote": "郑祗德累表告急，且求救于邻道；浙西遣牙将凌茂贞将四百人、宣歙遣牙白琮将三百人赴之。祗德始令屯郭门及东子江，寻复召还府中以自卫。祗德馈之，比度支常馈多十三倍，而宣、润将士犹以为不足。宣、润将士请土军为导，以与贼战；诸将或称病，或阳坠马，其肯行者必先邀职级，竟不果遣。贼游骑至平水东小江，城中士民储舟裹粮，夜坐待旦，各谋逃溃。"
+        }
+      ],
+      "id": "p-04d7b113f913-1"
+    },
+    {
+      "title": "郑祗德因子尚主求外任",
+      "summary": "郑祗德因子尚主求外任",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -855,
+      "timeLabel": "公元855年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 249,
+          "year": -855,
+          "indices": [
+            13
+          ],
+          "sourceHash": "3a729419fda42073956a2173cf2f9e0db0ec6642c7fa4cbcfc482c500a010636",
+          "quote": "江西观察使郑祗德以其子颢尚主通显，固求散地，甲午，以祗德为宾客、分司。"
+        }
+      ],
+      "id": "p-04d7b113f913-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=郑祗德&oldid=82840331",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

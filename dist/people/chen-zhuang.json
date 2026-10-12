@@ -1,0 +1,38 @@
+{
+  "id": "chen-zhuang",
+  "name": "蜀相陈庄",
+  "aliases": [
+    "陈庄",
+    "蜀相庄"
+  ],
+  "identity": "秦所任蜀相。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "被秦王派甘茂诛杀",
+      "summary": "秦王命甘茂诛杀蜀相庄。",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 310,
+      "timeLabel": "前310年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 310,
+          "indices": [
+            4
+          ],
+          "sourceHash": "7574f461667a17234a1bd3f8b6a91af4be0501c934b6d25d7698296ccb5de017",
+          "quote": "秦王使甘茂诛蜀相庄。"
+        }
+      ],
+      "id": "chen-zhuang-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": null,
+  "birthStatus": "unconfirmed",
+  "birthNote": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+}

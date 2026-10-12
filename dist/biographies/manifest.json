@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p-f6466c6cd5b8",
+    "name": "刘备",
+    "revision": 94821588,
+    "textLength": 50366,
+    "fetchedAt": "2026-10-12T06:36:28.645293+00:00",
+    "sections": 56,
+    "images": 29
+  },
+  {
+    "id": "p-06fac22214af",
+    "name": "诸葛亮",
+    "revision": 94687021,
+    "textLength": 39413,
+    "fetchedAt": "2026-10-12T06:36:28.861361+00:00",
+    "sections": 33,
+    "images": 31
+  },
+  {
+    "id": "p-29d2c1938dab",
+    "name": "张飞",
+    "revision": 94093685,
+    "textLength": 24479,
+    "fetchedAt": "2026-10-12T06:36:28.959759+00:00",
+    "sections": 35,
+    "images": 17
+  },
+  {
+    "id": "p-b0c0b4daac92",
+    "name": "关羽",
+    "revision": 94103876,
+    "textLength": 59836,
+    "fetchedAt": "2026-10-12T06:36:28.772824+00:00",
+    "sections": 44,
+    "images": 37
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "id": "p-764a1644eaef",
+  "name": "沮渠无讳",
+  "aliases": [
+    "沮渠无讳"
+  ],
+  "identity": "北凉宗室，西迁后建立高昌政权。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "沮渠无讳弃敦煌西投安周",
+      "summary": "沮渠无讳弃敦煌西投安周",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -442,
+      "timeLabel": "公元442年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 124,
+          "year": -442,
+          "indices": [
+            1
+          ],
+          "sourceHash": "0d2cb2eb282bd0e50b3e3f7a22f0d4d20fd650f2b41be1305f6db0761031b2f4",
+          "quote": "夏，四月，沮渠无讳将万余家，弃敦煌西就沮渠安周。未至，鄯善王比龙畏之，将其众奔且末，其世子降于安周。无讳遂据鄯善，其士卒经流沙渴死者太半。"
+        }
+      ],
+      "id": "p-764a1644eaef-1"
+    },
+    {
+      "title": "沮渠无讳攻高昌获封河西王",
+      "summary": "沮渠无讳攻高昌获封河西王",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -442,
+      "timeLabel": "公元442年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 124,
+          "year": -442,
+          "indices": [
+            8
+          ],
+          "sourceHash": "405a4f38514218804c1ff001e0dbe56109de37c51e839689a3a2e4b7108f2489",
+          "quote": "唐契之攻阚爽也，爽遣使诈降于沮渠无讳，欲与之共击契。八月，无讳将其众趋高昌；比至，契已死，爽闭门拒之。九月，无讳将卫兴奴夜袭高昌，屠其城，爽奔柔然。无讳据高昌，遣其常侍泛隽奉表诣建康。诏以无讳都督凉．河．沙三州诸军事、征西大将军、凉州刺史、河西王。"
+        }
+      ],
+      "id": "p-764a1644eaef-2"
+    },
+    {
+      "title": "沮渠无讳卒安周继位",
+      "summary": "沮渠无讳卒安周继位",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -444,
+      "timeLabel": "公元444年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 124,
+          "year": -444,
+          "indices": [
+            17
+          ],
+          "sourceHash": "e06ce249feed23cb9691d5e3611ccd0b907b9ff27067a3661621bf14f57d3de7",
+          "quote": "沮渠无讳卒，弟安周代立。"
+        }
+      ],
+      "id": "p-764a1644eaef-3"
+    },
+    {
+      "title": "沮渠无讳围攻酒泉擒元絜",
+      "summary": "沮渠无讳围攻酒泉擒元絜",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -440,
+      "timeLabel": "公元440年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 123,
+          "year": -440,
+          "indices": [
+            0
+          ],
+          "sourceHash": "87a6d2a266e60e5469c4afa4380b3a295e9f8972382b8f25426a99a077fa4dbc",
+          "quote": "春，正月，己酉，沮渠无讳寇魏酒泉，元絜轻之，出城与语；壬子，无讳执絜以围酒泉。"
+        }
+      ],
+      "id": "p-764a1644eaef-4"
+    },
+    {
+      "title": "沮渠无讳攻克酒泉",
+      "summary": "沮渠无讳攻克酒泉",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -440,
+      "timeLabel": "公元440年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 123,
+          "year": -440,
+          "indices": [
+            2
+          ],
+          "sourceHash": "b77db114593939547f5ed0ed616cae8c0166eaaf2470bc350f799290a815209d",
+          "quote": "三月，沮渠无讳拔酒泉。"
+        }
+      ],
+      "id": "p-764a1644eaef-5"
+    },
+    {
+      "title": "魏封沮渠无讳为酒泉王",
+      "summary": "魏封沮渠无讳为酒泉王",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -441,
+      "timeLabel": "公元441年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 123,
+          "year": -441,
+          "indices": [
+            0
+          ],
+          "sourceHash": "ae48e1a7f0241336e0ed38bed5a4b0b8fdbeb325e79407bb7ef83da3606341da",
+          "quote": "春，正月，癸卯，魏以沮渠无讳为征西大将军、凉州牧、酒泉王。"
+        }
+      ],
+      "id": "p-764a1644eaef-6"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=沮渠無諱&oldid=69216211",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

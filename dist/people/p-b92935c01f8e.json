@@ -1,0 +1,37 @@
+{
+  "id": "p-b92935c01f8e",
+  "name": "姚浚",
+  "aliases": [
+    "姚浚"
+  ],
+  "identity": "西秦宗室，曾起兵反叛。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "西秦姚浚叛秦被吐谷浑擒",
+      "summary": "西秦姚浚叛秦被吐谷浑擒",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -428,
+      "timeLabel": "公元428年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 121,
+          "year": -428,
+          "indices": [
+            2
+          ],
+          "sourceHash": "006dded53362d9fad5c9b7712f902e637cba30e33105d9f0de1f6838dae0dddd",
+          "quote": "秦商州刺史领浇河太守姚浚判，隆河西，秦王炽盘以尚书焦嵩代浚，帅骑三千讨之。二月，嵩为吐谷浑元绪所执。魏改元神脉。"
+        }
+      ],
+      "id": "p-b92935c01f8e-1"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": null,
+  "birthStatus": "unconfirmed",
+  "birthNote": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+}

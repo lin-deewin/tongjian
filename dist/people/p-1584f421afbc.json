@@ -1,0 +1,58 @@
+{
+  "id": "p-1584f421afbc",
+  "name": "李信",
+  "aliases": [
+    "李信"
+  ],
+  "identity": "秦国将领，曾率军伐楚。",
+  "birthYear": null,
+  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "秦攻楚，李信与王翦议兵数",
+      "summary": "秦攻楚，李信与王翦议兵数",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 226,
+      "timeLabel": "前226年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 226,
+          "indices": [
+            1
+          ],
+          "sourceHash": "393703739b184b60a69b2db53ea33a4bacf913dace2dff4fd9b11b948394938e",
+          "quote": "王贲伐楚，取十余城。王问于将军李信曰：“吾欲取荆，于将军度用几何人而足？”李信曰：“不过用二十万。”王以问王翦，王翦曰：“非六十万人不可，”王曰：“王将军老矣，何怯也！”遂使李信、蒙恬将二十万人伐楚；王翦因谢病归频阳。"
+        }
+      ],
+      "id": "p-1584f421afbc-1"
+    },
+    {
+      "title": "李信伐楚兵败",
+      "summary": "李信伐楚兵败",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 225,
+      "timeLabel": "前225年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 225,
+          "indices": [
+            2
+          ],
+          "sourceHash": "6b97b9b51da67a5cc22e07c89d7f52eef7634981412f3a45916c196ab46e8f94",
+          "quote": "李信攻平舆，蒙恬攻寝，大破楚军。信又攻鄢郢，破之。于是引兵而西，与蒙恬会城父。楚人因随之，三日三夜不顿舍，大败李信，入两壁，杀七都尉；李信奔还。"
+        }
+      ],
+      "id": "p-1584f421afbc-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=李信&oldid=92574414",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

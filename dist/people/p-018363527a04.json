@@ -1,0 +1,58 @@
+{
+  "id": "p-018363527a04",
+  "name": "杜季贡",
+  "aliases": [
+    "杜季贡"
+  ],
+  "identity": "东汉官员，遭羌人刺杀。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "唐喜击杀王信，杜季贡逃投羌人",
+      "summary": "唐喜击杀王信，杜季贡逃投羌人",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元112年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 49,
+          "year": -112,
+          "indices": [
+            8
+          ],
+          "sourceHash": "67c3f1abaf68c3ef1b694dc6bbb87785e72758e1f5db5db1e13db93c5844e06c",
+          "quote": "侍御史唐喜讨汉阳贼王信，破斩之。杜季贡亡，从滇零。是岁，滇零死，子零昌立，年尚少，同种狼莫为其计策，以季贡为将军，别居丁奚城。"
+        }
+      ],
+      "id": "p-018363527a04-1"
+    },
+    {
+      "title": "任尚遣羌人刺杀杜季贡",
+      "summary": "任尚遣羌人刺杀杜季贡",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元117年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 50,
+          "year": -117,
+          "indices": [
+            3
+          ],
+          "sourceHash": "5d2bff6f77dc8c1ac24351902f5962f789fd14636d20e899edc26880f12fc28e",
+          "quote": "任尚遣当阗种羌榆鬼等刺杀杜季贡，封榆鬼为破羌侯。"
+        }
+      ],
+      "id": "p-018363527a04-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=杜季贡&oldid=92865452",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

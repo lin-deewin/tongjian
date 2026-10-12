@@ -1,0 +1,58 @@
+{
+  "id": "lou-huan",
+  "name": "楼缓",
+  "aliases": [
+    "楼缓"
+  ],
+  "identity": "赵人，后任秦国丞相。",
+  "birthYear": null,
+  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "events": [
+    {
+      "title": "任秦丞相，接替樗里疾",
+      "summary": "樗里疾去世后，秦国任赵人楼缓为丞相。",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 300,
+      "timeLabel": "前300年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 300,
+          "indices": [
+            2
+          ],
+          "sourceHash": "4e8c32470ef454643acf473e412f2bddd79eac657479fe59e5e9703e783a4bc0",
+          "quote": "秦樗里疾卒，以赵人楼缓为丞相"
+        }
+      ],
+      "id": "lou-huan-1"
+    },
+    {
+      "title": "取代孟尝君任秦相",
+      "summary": "秦王囚禁孟尝君时，改任楼缓为相。",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": 298,
+      "timeLabel": "前298年",
+      "dateNote": "依原书本年记事。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 298,
+          "indices": [
+            0
+          ],
+          "sourceHash": "74961a83357fdeebd45649eeec0c235f7364df45c4dbbed9fbba7922bd71af0e",
+          "quote": "或谓秦王曰：“孟尝君相秦，必先齐而后秦；秦其危哉！”秦王乃以楼缓为相，囚孟尝君，欲杀之。孟尝君使人求解于秦王幸姬，姬曰：“愿得君狐白裘。”孟尝君有狐白裘，已献之秦王，无以应姬求。客有善为狗盗者，入秦藏中，盗狐白裘以献姬。姬乃为之言于王而遣之。王后悔，使追之。孟尝君至关，关法，鸡鸣而出客，时尚蚤，追者将至，客有善为鸡鸣者，野鸡闻之皆鸣，孟尝君乃得脱归。"
+        }
+      ],
+      "id": "lou-huan-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=楼缓&oldid=61948882",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "p-f87a73474f87",
+  "name": "袁敞",
+  "aliases": [
+    "袁敞"
+  ],
+  "identity": "东汉大臣，曾任司空。",
+  "birthYear": null,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "刘恺任司徒，袁敞任司空",
+      "summary": "刘恺任司徒，袁敞任司空",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元115年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 49,
+          "year": -115,
+          "indices": [
+            15
+          ],
+          "sourceHash": "bedd6cf21ef9140374ad1b8bdf2a0ce99fea591cdbdf1bcdc1dc02ee3a857885",
+          "quote": "庚戊，以司空刘恺为司徒，光禄勋袁敞为司空。敞，安之子也。"
+        }
+      ],
+      "id": "p-f87a73474f87-1"
+    },
+    {
+      "title": "袁敞遭邓氏构陷，免官后自杀",
+      "summary": "袁敞遭邓氏构陷，免官后自杀",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -117,
+      "timeLabel": "公元117年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 50,
+          "year": -117,
+          "indices": [
+            4
+          ],
+          "sourceHash": "9c69e21c3bbba188388adf55aa2b7c8dbe638567706b9ce6ccc8be3ac822daa0",
+          "quote": "司空袁敞，廉劲不阿权贵，失邓氏旨。尚书郎张俊有私书与敞子俊，怨家封上之。夏，四月，戊申，敞坐策免，自杀；俊等下狱当死。俊上书自讼；临刑，太后诏以减死论。"
+        }
+      ],
+      "id": "p-f87a73474f87-2"
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=袁敞&oldid=88451856",
+  "birthStatus": "unknown",
+  "birthNote": "所查资料未提供明确出生年份。"
+}

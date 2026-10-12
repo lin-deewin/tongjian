@@ -1,0 +1,163 @@
+{
+  "id": "p-cd29ab61376f",
+  "name": "张茂昭",
+  "aliases": [
+    "张茂昭"
+  ],
+  "identity": "唐朝藩镇将领，义武节度使。",
+  "birthYear": -762,
+  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "events": [
+    {
+      "title": "河东等四军会集定州，张茂昭坚持按平时防守",
+      "summary": "河东等四军会集定州，张茂昭坚持按平时防守",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元810年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 238,
+          "year": -810,
+          "indices": [
+            1
+          ],
+          "sourceHash": "6b543d7e9b541616f7ef3de6973ea3f96675368275bb22b61d998a148ee8253e",
+          "quote": "河东、河中、振武、义武四军为恒州北面招讨，会于定州。会望夜，军史以有外军，请罢张灯。张茂昭曰：「三镇，官军也，何谓外军！」命张灯，不禁行人，不闭里门，三夜如平日，亦无敢喧哗者。"
+        }
+      ],
+      "id": "p-cd29ab61376f-1"
+    },
+    {
+      "title": "范希朝、张茂昭在木刀沟大败王承宗军",
+      "summary": "范希朝、张茂昭在木刀沟大败王承宗军",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -810,
+      "timeLabel": "公元810年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 238,
+          "year": -810,
+          "indices": [
+            13
+          ],
+          "sourceHash": "2284064287d27f558cd73657a3ba04f5a9bb56c9e2d7c548584d5339f37a6b1b",
+          "quote": "丁亥，范希朝、张茂昭大破承宗之众于木刀沟。"
+        }
+      ],
+      "id": "p-cd29ab61376f-2"
+    },
+    {
+      "title": "河东等四镇兵马会集定州，张茂昭不改常态安军心",
+      "summary": "河东等四镇兵马会集定州，张茂昭不改常态安军心",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元810年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 238,
+          "year": -810,
+          "indices": [
+            35
+          ],
+          "sourceHash": "4e0c5f4b40b246460daf75fdb59cfa5449ad02c1e7f1aff37ceeb3746a32c252",
+          "quote": "锷有吏才，工于完聚。范希朝以河东全军出屯河北，耗散甚众；锷到镇之初，兵不满三万人，马不过六百匹，岁余，兵至五万人，马有五千匹，器械精利，仓库充实。又进家财三十万缗，上复欲加锷平章事，李绛谏曰：「锷在太原，虽颇着绩效，今因献家财而命之，若后世！」上乃止。"
+        }
+      ],
+      "id": "p-cd29ab61376f-3"
+    },
+    {
+      "title": "范希朝、张茂昭在木刀沟击败王承宗军",
+      "summary": "范希朝、张茂昭在木刀沟击败王承宗军",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -811,
+      "timeLabel": "公元811年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 238,
+          "year": -811,
+          "indices": [
+            6
+          ],
+          "sourceHash": "997c00d4e667fe51d5a1cda16a369851b88a8caf6670408a4e4d13701b33b12c",
+          "quote": "庚午，以刑部侍郎、盐铁转运使卢坦为户部侍郎、判度支。或告泗州刺史薛謇为代北水运使，有异马不以献；事下度支，使巡官往验，未返，上迟之，使品官刘泰昕按其事。卢坦曰：「陛下既使有司验之，又使官继往，岂大臣不足信于品官乎！臣请先就黜免。」上召泰昕还。"
+        }
+      ],
+      "id": "p-cd29ab61376f-4"
+    },
+    {
+      "title": "张茂昭加同平章事",
+      "summary": "张茂昭加同平章事",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -805,
+      "timeLabel": "公元805年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 236,
+          "year": -805,
+          "indices": [
+            4
+          ],
+          "sourceHash": "fa1f6ab48a4dd770bf714e376df2a4a296bb2855a90aa2d8b4aebfed374947b3",
+          "quote": "己酉，加义武节度使张茂昭同平章事。"
+        }
+      ],
+      "id": "p-cd29ab61376f-5"
+    },
+    {
+      "title": "张茂昭入朝",
+      "summary": "张茂昭入朝",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -806,
+      "timeLabel": "公元806年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 237,
+          "year": -806,
+          "indices": [
+            44
+          ],
+          "sourceHash": "3dbd2d4323d1da96ea1dfd8a2b7caede604eda81dec79a8dd5d6dce5b5203d2d",
+          "quote": "冬，十月，甲子，易定节度使张茂昭入朝。"
+        }
+      ],
+      "id": "p-cd29ab61376f-6"
+    },
+    {
+      "title": "义武节度使张升云赐名张茂昭",
+      "summary": "义武节度使张升云赐名张茂昭",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元794年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 235,
+          "year": -794,
+          "indices": [
+            3
+          ],
+          "sourceHash": "05bddfc196e5e69ebdf5ae189d2ab210a58fd8ff88b914f90abbcded872808d6",
+          "quote": "赐义武节度使张升云名茂昭。"
+        }
+      ],
+      "id": "p-cd29ab61376f-7"
+    }
+  ],
+  "deathYear": -811,
+  "birthSource": "https://zh.wikipedia.org/w/index.php?title=張茂昭&oldid=93015495",
+  "birthStatus": "confirmed",
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+}
