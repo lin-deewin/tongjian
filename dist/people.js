@@ -115,12 +115,30 @@ function restorePeopleHistory() {
 }
 function updateReaderReturn() {
  const person = peopleSession && peopleIndex.people.find(p => p.id === peopleSession.id);
- const label = person ? `← 返回${person.name}时间轴` : '← 返回年表';
+ let riverOrigin;
+ try {riverOrigin=JSON.parse(sessionStorage.getItem('tongjian-reader-origin'));} catch {}
+ const fromRiver=riverOrigin?.target===location.hash && riverOrigin.source && new URL(riverOrigin.source).pathname!==location.pathname;
+ const label = person ? `← 返回${person.name}时间轴` : fromRiver ? '← 返回历史河流' : '← 返回年表';
  $('#closeReader').textContent = label;
  $('#closeReader').setAttribute?.('aria-label', label.replace('← ', ''));
 }
 function returnFromReader() {
  if (peopleSession) return openPeople(peopleSession.id);
+ let origin;
+ try {origin=JSON.parse(sessionStorage.getItem('tongjian-reader-origin'));} catch {}
+ if (origin?.target===location.hash) {
+  try {
+   const source=new URL(origin.source);
+   if (source.origin===location.origin && source.pathname!==location.pathname && Number.isFinite(origin.scroll)) {
+    sessionStorage.setItem('tongjian-return-scroll',JSON.stringify({source:origin.source,scroll:origin.scroll}));
+    sessionStorage.removeItem('tongjian-reader-origin');
+    const referrer=document.referrer ? new URL(document.referrer) : null;
+    if (referrer?.origin===source.origin && referrer.pathname===source.pathname && history.length>1) history.back();
+    else location.assign(origin.source);
+    return;
+   }
+  } catch {}
+ }
  closeReader();
 }
 function hidePeoplePage() {

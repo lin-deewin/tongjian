@@ -2,6 +2,15 @@
 (async () => {
  const root = document.querySelector('#historyRiver');
  if (!root) return;
+ function restoreRiverPosition() {
+  let state;
+  try {state=JSON.parse(sessionStorage.getItem('tongjian-return-scroll'));} catch {}
+  if (state?.source!==location.href || !Number.isFinite(state.scroll)) return;
+  sessionStorage.removeItem('tongjian-return-scroll');
+  requestAnimationFrame(()=>window.scrollTo({top:state.scroll,behavior:'instant'}));
+ }
+ window.addEventListener('pageshow',restoreRiverPosition);
+ restoreRiverPosition();
  const $ = selector => root.querySelector(selector);
  const canvas = $('canvas'), ctx = canvas.getContext('2d');
  const colors = ['#79a4b1','#ac91a2','#88b58f','#8e83ba','#bd9873','#78b4ab','#b578a5','#a0b972','#819fbe','#bb7b76','#77b38f','#ad8bc0','#b9a365','#8fb6bd','#b19595','#91b580'];
@@ -28,9 +37,9 @@
  const tooltip=document.createElement('div');
  tooltip.className='river-point-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;
  $('.river-stage').append(tooltip);
- let tooltipPinned=false,tooltipEvent=null;
+ let tooltipPinned=false,tooltipEvent=null,hoveredEvent=null;
  let topic='all', width=0, height=0, center=171, selected=171, span=170, selectedEvent=null;
- let drag=null, moved=false, wheelActive=false, phase=0, lastSaved='', animationFrame=0, points=[], pointerInside=false;
+ let drag=null, moved=false, phase=0, lastSaved='', animationFrame=0, points=[];
  const cache = new Map(), seeds = new Map();
  const entriesFor = year => {
   const key = topic+':'+year.year;
@@ -70,7 +79,7 @@
   if (!events.some(event=>event.id===selectedEvent)) selectedEvent=events[0]?.id || null;
   const list=$('.river-event-list'), key=year.year+':'+topic;
   const scroll=list.dataset.key===key?list.scrollTop:0;
-  $('.river-detail').innerHTML=`<p>${esc(year.dynasty)}纪 · ${topicNames[topic]}：${events.length} 条已复核事件${year.volumes.length>1?' · 本年跨卷':''}</p>`;
+  $('.river-detail').innerHTML='';
   if (topic==='famine' && data.summary.famineSupplement) {
    const audit=data.summary.famineSupplement;
    $('.river-detail').innerHTML+=`<p>全书已收录 ${audit.famineCount} 条饥荒，涉及 ${audit.famineYearCount} 个年份。同年同地灾情与赈济合并，跨年按年记录；尚非全书穷尽统计。</p>`;
@@ -94,6 +103,7 @@
  $('.river-event-list').addEventListener('click',e=>{
   const link=e.target.closest('a[data-event]');
   if(!link)return;
+  try {sessionStorage.setItem('tongjian-reader-origin',JSON.stringify({source:location.href,target:new URL(link.href).hash,scroll:window.scrollY}));} catch {}
   selectedEvent=link.dataset.event;
   $('.river-event-list').querySelectorAll('[data-event]').forEach(item=>{
    const active=item.dataset.event===selectedEvent;
@@ -108,6 +118,8 @@
   selectedEvent=eventId;
   detail();draw();
  }
+ // Keep both banks continuous while making the current visible at a glance.
+ const bankWave = index => 9*Math.sin(index*.075+phase*.34)+4*Math.sin(index*.19+phase*.22);
  function draw() {
   const saved=JSON.stringify({selected,center,span,topic,selectedEvent});
   if (saved!==lastSaved) {try {sessionStorage.setItem('tongjian-river',saved);lastSaved=saved;} catch {}}
@@ -116,11 +128,11 @@
   ctx.clearRect(0,0,width,height);points=[];
   for (let i=Math.max(0,Math.floor(start));i<=Math.min(years.length-1,Math.ceil(start+span));i++) {
    const year=years[i], events=entriesFor(year), px=x(i), next=x(i+1);
-   const wave=8*Math.sin(i*.075+phase*.22)+4*Math.sin(i*.19+phase*.12),t=top+wave,b=bottom+wave*.6;
+   const wave=bankWave(i),t=top+wave,b=bottom+wave*.6;
    const gradient=ctx.createLinearGradient(0,t,0,b);
    gradient.addColorStop(0,color(year));gradient.addColorStop(1,'#5a7f80');
    ctx.globalAlpha=.7;ctx.fillStyle=gradient;
-   const nw=8*Math.sin((i+1)*.075+phase*.22)+4*Math.sin((i+1)*.19+phase*.12);
+   const nw=bankWave(i+1);
    ctx.beginPath();ctx.moveTo(px,t);ctx.lineTo(next,top+nw);ctx.lineTo(next,bottom+nw*.6);ctx.lineTo(px,b);ctx.closePath();ctx.fill();
    const heat=Math.min(1,events.length/20);
    if (heat>.2) {
@@ -129,33 +141,45 @@
     ctx.fillStyle=glow;ctx.fillRect(px-100,t,200,b-t);
    }
    ctx.globalAlpha=1;
-   // No annual cap: every reviewed event gets its own selectable point.
+   // Event positions stay fixed while the river banks move around them.
    for (const event of events) {
     const seed=seedFor(event);
-    const py=t+15+(seed%997/997)*(b-t-30)+Math.sin(phase+seed)*3;
+    const py=top+18+(seed%997/997)*(bottom-top-36);
     const pointX=px+(seed%101/100-.5)*Math.min(width/span*.65,12);
-    const radius=(2.8+seed%5/3)*(.9+.1*Math.sin(phase*1.2+seed));
-    const kinds=topic==='all'?event.categories:[topic];
-    for (let k=0;k<kinds.length;k++) {
-     ctx.beginPath();ctx.moveTo(pointX,py);ctx.arc(pointX,py,radius,k/kinds.length*Math.PI*2,(k+1)/kinds.length*Math.PI*2);ctx.closePath();
-     ctx.fillStyle=topicColors[kinds[k]];ctx.fill();
-    }
-    if (i===selected && event.id===selectedEvent) {
-     ctx.beginPath();ctx.arc(pointX,py,radius+2,0,Math.PI*2);ctx.strokeStyle='#fffef9';ctx.lineWidth=1.5;ctx.stroke();ctx.lineWidth=1;
-    }
+    const radius=2.8+seed%5/3;
     points.push({x:pointX,y:py,radius,event,index:i});
    }
   }
-  ctx.globalAlpha=.2;ctx.strokeStyle='#f7f2dc';
-  for (let n=0;n<3;n++) {
+  // Decorative water lines only: event counts and their year positions stay fixed.
+  ctx.strokeStyle='#f7f2dc';
+  for (let n=0;n<4;n++) {
+   ctx.globalAlpha=.24+.04*Math.sin(phase*.7+n);
+   ctx.lineWidth=n%2?1:1.4;
    ctx.beginPath();
    for (let px=0;px<=width;px+=8) {
-    const py=height*.46+n*24+6*Math.sin(px/65+n-phase*.8);
+    const py=height*.43+n*23+6*Math.sin(px/65+n-phase*1.05);
     px?ctx.lineTo(px,py):ctx.moveTo(px,py);
    }
    ctx.stroke();
+   // Short highlights travel with the current without adding event-like dots.
+   ctx.globalAlpha=.36;
+   ctx.setLineDash([24,150]);ctx.lineDashOffset=-phase*(20+n*3);
+   ctx.stroke();ctx.setLineDash([]);
   }
+  ctx.lineWidth=1;
   ctx.globalAlpha=1;
+  // Draw event points last so passing water lines cannot make them flicker.
+  for (const point of points) {
+   const {x:pointX,y:py,radius,event,index:i}=point;
+   const kinds=topic==='all'?event.categories:[topic];
+   for (let k=0;k<kinds.length;k++) {
+    ctx.beginPath();ctx.moveTo(pointX,py);ctx.arc(pointX,py,radius,k/kinds.length*Math.PI*2,(k+1)/kinds.length*Math.PI*2);ctx.closePath();
+    ctx.fillStyle=topicColors[kinds[k]];ctx.fill();
+   }
+   if (hoveredEvent ? event.id===hoveredEvent : i===selected && event.id===selectedEvent) {
+    ctx.beginPath();ctx.arc(pointX,py,radius+2,0,Math.PI*2);ctx.strokeStyle='#fffef9';ctx.lineWidth=1.5;ctx.stroke();ctx.lineWidth=1;
+   }
+  }
   const step=span<=80?10:span<=220?50:100;
   ctx.font='12px SimSun,serif';ctx.fillStyle='#697366';ctx.strokeStyle='#b4b5a8';
   for (let i=Math.max(0,Math.ceil(start));i<start+span && i<years.length;i++) {
@@ -187,6 +211,7 @@
  }
  function hideTooltip() {
   tooltip.hidden=true;tooltipPinned=false;tooltipEvent=null;
+  if(hoveredEvent!==null){hoveredEvent=null;draw();}
  }
  function positionTooltip(point) {
   const w=tooltip.offsetWidth,h=tooltip.offsetHeight;
@@ -196,15 +221,18 @@
   tooltip.style.top=Math.max(8,Math.min(point.y-h/2,height-h-8))+'px';
  }
  function showTooltip(point,pinned=false) {
-  if(!point){if(!tooltipPinned)hideTooltip();return;}
+  if(!point){if(hoveredEvent!==null){hoveredEvent=null;draw();}if(!tooltipPinned)hideTooltip();return;}
   if(tooltipEvent!==point.event.id) {
    const event=point.event;
    tooltip.innerHTML=`<div class="river-tooltip-meta">${label(years[point.index].year)} · ${event.categories.map(k=>topicNames[k]).join(' / ')}</div><strong class="river-tooltip-title">${esc(event.title)}</strong>`;
   }
+  const highlightChanged=hoveredEvent!==point.event.id;
+  hoveredEvent=point.event.id;
   tooltipEvent=point.event.id;tooltipPinned=pinned;tooltip.hidden=false;positionTooltip(point);
+  if(highlightChanged)draw();
  }
  canvas.addEventListener('pointerdown',event=>{
-  pointerInside=true;wheelActive=true;$('.river-stage').focus({preventScroll:true});drag={x:event.clientX,y:event.clientY,center,point:pointAt(event)};moved=false;canvas.setPointerCapture(event.pointerId);
+  $('.river-stage').focus({preventScroll:true});drag={x:event.clientX,y:event.clientY,center,point:pointAt(event)};moved=false;canvas.setPointerCapture(event.pointerId);
   if(!drag.point)hideTooltip();
  });
  canvas.addEventListener('pointermove',event=>{
@@ -222,20 +250,10 @@
   }
   drag=null;canvas.style.cursor='pointer';
  });
- canvas.addEventListener('pointercancel',()=>{drag=null;canvas.style.cursor='pointer';pointerInside=false;hideTooltip();});
- canvas.addEventListener('pointerenter',()=>{pointerInside=true;});
- canvas.addEventListener('pointerleave',()=>{pointerInside=false;if(!tooltipPinned)hideTooltip();});
- document.addEventListener('pointerdown',event=>{if(!$('.river-stage').contains(event.target)){wheelActive=false;hideTooltip();}});
+ canvas.addEventListener('pointercancel',()=>{drag=null;canvas.style.cursor='pointer';hideTooltip();});
+ canvas.addEventListener('pointerleave',()=>{hoveredEvent=null;if(!tooltipPinned)hideTooltip();draw();});
+ document.addEventListener('pointerdown',event=>{if(!$('.river-stage').contains(event.target))hideTooltip();});
  document.addEventListener('keydown',event=>{if(event.key==='Escape')hideTooltip();});
- $('.river-stage').addEventListener('focusout',event=>{if(!$('.river-stage').contains(event.relatedTarget))wheelActive=false;});
- canvas.addEventListener('wheel',event=>{
-  if (!wheelActive || event.ctrlKey)return;
-  const delta=Math.abs(event.deltaX)>Math.abs(event.deltaY)?event.deltaX:event.deltaY;
-  if (!delta)return;
-  event.preventDefault();
-  const pixels=delta*(event.deltaMode===1?16:event.deltaMode===2?height:1);
-  center=Math.max(0,Math.min(years.length-1,center+pixels/width*span));choose(center,false);
- },{passive:false});
  $('.river-stage').addEventListener('keydown',event=>{
   if (event.key==='ArrowLeft' || event.key==='ArrowRight') {event.preventDefault();choose(selected+(event.key==='ArrowLeft'?-1:1));}
  });
@@ -281,7 +299,7 @@
  let visible=false,lastFrame=0;
  function animate(time) {
   animationFrame=0;if(!visible || document.hidden || reducedMotion.matches)return;
-  if (time-lastFrame>=33) {if(!pointerInside && !drag && !tooltipPinned)phase=time/1000;draw();lastFrame=time;}
+  if (time-lastFrame>=33) {phase=time/1000;draw();lastFrame=time;}
   animationFrame=requestAnimationFrame(animate);
  }
  function updateAnimation() {
