@@ -15,7 +15,7 @@
  };
  let data;
  try {
-  const response = await fetch('river-data.json?v=20261012-final');
+  const response = await fetch('river-data.json?v=20261013-famine');
   if (!response.ok) throw Error(response.status);
   data = await response.json();
   if (data.schemaVersion !== 3) throw Error('Event index version mismatch');
@@ -24,6 +24,11 @@
   return;
  }
  const years = data.years, eras = [...new Set(years.map(year => year.dynasty))];
+ $('.river-chart-note').textContent='一点表示已收录的事件。';
+ const tooltip=document.createElement('div');
+ tooltip.className='river-point-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;
+ $('.river-stage').append(tooltip);
+ let tooltipPinned=false,tooltipEvent=null;
  let topic='all', width=0, height=0, center=171, selected=171, span=170, selectedEvent=null;
  let drag=null, moved=false, wheelActive=false, phase=0, lastSaved='', animationFrame=0, points=[], pointerInside=false;
  const cache = new Map(), seeds = new Map();
@@ -43,9 +48,9 @@
  const color = year => colors[eras.indexOf(year.dynasty)%colors.length];
  $('.river-era').innerHTML = eras.map(era=>`<option value="${esc(era)}">${esc(era)}纪</option>`).join('');
  $('.river-era-band').innerHTML = eras.map(era=>`<button type="button" class="river-era-label" data-era="${esc(era)}" aria-pressed="false">${esc(era)}纪</button>`).join('');
- $('.river-overview').innerHTML = eras.map(era=>`<span style="width:${years.filter(y=>y.dynasty===era).length/years.length*100}%;background:${colors[eras.indexOf(era)]}" title="${esc(era)}纪"></span>`).join('')+'<i class="river-position"></i>';
- const range=$('.river-range');
- range.max=years.length-1;
+ $('.river-overview').innerHTML = eras.map(era=>`<span style="width:${years.filter(y=>y.dynasty===era).length/years.length*100}%;background:${colors[eras.indexOf(era)]}" title="${esc(era)}纪"></span>`).join('')+'<div class="river-position" tabindex="0" role="slider" aria-label="拖动浏览全书年份" aria-valuemin="0"></div>';
+ const overview=$('.river-overview'), position=$('.river-position');
+ position.setAttribute('aria-valuemax',String(years.length-1));
  try {
   const state=JSON.parse(sessionStorage.getItem('tongjian-river'));
   if (state && Number.isInteger(state.selected) && state.selected>=0 && state.selected<years.length && [60,170,400,1362].includes(state.span) && Number.isFinite(state.center)) {
@@ -56,24 +61,48 @@
  } catch {}
  $('.river-zoom').value=span;
  $('.river-topic').value=topic;
- const summary=data.summary;
-  $('.river-audit').innerHTML=`<summary>核算说明 · 一点一条按年事件</summary><p>10 个 Luna low 子代理复核：已语义核读 ${summary.modelReviewedParagraphs.toLocaleString()} / ${summary.candidateParagraphs.toLocaleString()} 个候选段，收录 ${summary.modelReviewedEvents.toLocaleString()} 条事件。${summary.pendingCandidates ? `另有 ${summary.pendingCandidates.toLocaleString()} 条暂定事件，不作为图上点位；` : ''}${summary.unreviewedCandidateParagraphs ? `还有 ${summary.unreviewedCandidateParagraphs.toLocaleString()} 段候选未核读；` : ''}${summary.unclassifiedCandidates ? `${summary.unclassifiedCandidates.toLocaleString()} 段候选尚未列明事件或排除项；` : ''}${summary.unreviewedCandidateParagraphs || summary.unclassifiedCandidates ? '这些未决候选不绘为事件点。' : '关键词未召回的原文仍可能存在遗漏。'}${summary.limitations?.find(x=>x.includes('排除理由记录'))||''}同事件的多类别合为一个点；跨年战事按年分别记，远景可能重叠。模型复核仍可能有分类、归年和拆并错误，空白不代表当年没有事件。</p><a href="river-audit-report.json" target="_blank" rel="noopener">查看核算报告 ↗</a>`;
  function bounds() {return center-span/2;}
  function detail() {
   const year=years[selected], events=entriesFor(year);
+  $('.river-chart-year').textContent=label(year.year);
+  $('.river-panel-year').textContent=label(year.year);
+  $('.river-event-count').textContent=events.length+' 条';
   if (!events.some(event=>event.id===selectedEvent)) selectedEvent=events[0]?.id || null;
-  const event=events.find(event=>event.id===selectedEvent);
-  $('.river-detail').innerHTML=`<h3>${label(year.year)}</h3><p>${esc(year.dynasty)}纪 · ${topicNames[topic]}：${events.length} 条已复核事件${year.volumes.length>1?' · 本年跨卷':''}</p><div class="river-event-slot">${events.length ? `<select class="river-event-picker" aria-label="选择本年事件">${events.map(item=>`<option value="${item.id}" ${item.id===selectedEvent?'selected':''}>${item.categories.map(k=>topicNames[k]).join(' / ')} · ${esc(item.title)}</option>`).join('')}</select>` : '<p class="river-empty">本年暂无已复核事件</p>'}</div><a class="river-read" href="${href(year,event)}">阅读原文与白话 →</a>`;
-  const picker=$('.river-event-picker');
-  if (picker) picker.onchange=e=>{selectedEvent=e.target.value;detail();draw();};
+  const list=$('.river-event-list'), key=year.year+':'+topic;
+  const scroll=list.dataset.key===key?list.scrollTop:0;
+  $('.river-detail').innerHTML=`<p>${esc(year.dynasty)}纪 · ${topicNames[topic]}：${events.length} 条已复核事件${year.volumes.length>1?' · 本年跨卷':''}</p>`;
+  if (topic==='famine' && data.summary.famineSupplement) {
+   const audit=data.summary.famineSupplement;
+   $('.river-detail').innerHTML+=`<p>全书已收录 ${audit.famineCount} 条饥荒，涉及 ${audit.famineYearCount} 个年份。同年同地灾情与赈济合并，跨年按年记录；尚非全书穷尽统计。</p>`;
+  }
+  list.dataset.key=key;
+  list.innerHTML=events.length ? events.map((item,index)=>`<li><a class="river-event-row${item.id===selectedEvent?' is-selected':''}" data-event="${item.id}" href="${href(year,item)}" aria-current="${item.id===selectedEvent}" title="${esc(item.categories.map(k=>topicNames[k]).join(' / ')+' · '+item.title)}"><span class="river-row-index" aria-hidden="true">${index+1}</span><span class="river-row-dots" aria-hidden="true">${item.categories.map(k=>`<i style="background:${topicColors[k]}"></i>`).join('')}</span><span class="river-row-title">${esc(item.title)}</span><span class="river-row-arrow" aria-hidden="true">↗</span></a></li>`).join('') : '<li class="river-event-empty">本年暂无已复核事件</li>';
+  list.scrollTop=scroll;
+  const row=list.querySelector('.is-selected');
+  if(row) {
+   const box=list.getBoundingClientRect(), target=row.getBoundingClientRect();
+   if(target.top<box.top)list.scrollTop+=target.top-box.top;
+   else if(target.bottom>box.bottom)list.scrollTop+=target.bottom-box.bottom;
+  }
   $('.river-era').value=year.dynasty;
   $('.river-era-band').querySelectorAll('[data-era]').forEach(item=>{
    const active=item.dataset.era===year.dynasty;
    item.classList.toggle('is-current',active);item.setAttribute('aria-pressed',String(active));
   });
-  range.value=selected;
+
  }
+ $('.river-event-list').addEventListener('click',e=>{
+  const link=e.target.closest('a[data-event]');
+  if(!link)return;
+  selectedEvent=link.dataset.event;
+  $('.river-event-list').querySelectorAll('[data-event]').forEach(item=>{
+   const active=item.dataset.event===selectedEvent;
+   item.classList.toggle('is-selected',active);item.setAttribute('aria-current',String(active));
+  });
+  draw();
+ });
  function choose(index,recenter=true,eventId=null) {
+  hideTooltip();
   selected=Math.max(0,Math.min(years.length-1,Math.round(index)));
   if (recenter) center=selected;
   selectedEvent=eventId;
@@ -134,13 +163,13 @@
    const px=x(i);ctx.beginPath();ctx.moveTo(px,height-40);ctx.lineTo(px,height-33);ctx.stroke();
    ctx.fillText((year.year>0?'前':'')+Math.abs(year.year),px-12,height-14);
   }
-  const sx=width/2;
-  ctx.fillStyle='#27372f';ctx.beginPath();ctx.moveTo(sx-5,45);ctx.lineTo(sx+5,45);ctx.lineTo(sx,53);ctx.fill();
-  const position=$('.river-position');
   position.style.left=Math.max(0,start)/years.length*100+'%';position.style.width=(Math.min(years.length,start+span)-Math.max(0,start))/years.length*100+'%';
+  position.setAttribute('aria-valuenow',String(selected));
+  position.setAttribute('aria-valuetext',label(years[selected].year));
   $('.river-prev').disabled=selected===0;$('.river-next').disabled=selected===years.length-1;
  }
  function resize() {
+  hideTooltip();
   const box=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;
   width=box.width;height=box.height;canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);
   ctx.setTransform(dpr,0,0,dpr,0,0);draw();
@@ -156,11 +185,30 @@
   }
   return nearest;
  }
+ function hideTooltip() {
+  tooltip.hidden=true;tooltipPinned=false;tooltipEvent=null;
+ }
+ function positionTooltip(point) {
+  const w=tooltip.offsetWidth,h=tooltip.offsetHeight;
+  let left=point.x+14;
+  if(left+w>width-8)left=point.x-w-14;
+  tooltip.style.left=Math.max(8,Math.min(left,width-w-8))+'px';
+  tooltip.style.top=Math.max(8,Math.min(point.y-h/2,height-h-8))+'px';
+ }
+ function showTooltip(point,pinned=false) {
+  if(!point){if(!tooltipPinned)hideTooltip();return;}
+  if(tooltipEvent!==point.event.id) {
+   const event=point.event;
+   tooltip.innerHTML=`<div class="river-tooltip-meta">${label(years[point.index].year)} · ${event.categories.map(k=>topicNames[k]).join(' / ')}</div><strong class="river-tooltip-title">${esc(event.title)}</strong>`;
+  }
+  tooltipEvent=point.event.id;tooltipPinned=pinned;tooltip.hidden=false;positionTooltip(point);
+ }
  canvas.addEventListener('pointerdown',event=>{
   pointerInside=true;wheelActive=true;$('.river-stage').focus({preventScroll:true});drag={x:event.clientX,y:event.clientY,center,point:pointAt(event)};moved=false;canvas.setPointerCapture(event.pointerId);
+  if(!drag.point)hideTooltip();
  });
  canvas.addEventListener('pointermove',event=>{
-  if (!drag) return;
+  if (!drag) {const point=pointAt(event);showTooltip(point,!!point&&tooltipPinned&&tooltipEvent===point.event.id);return;}
   const delta=event.clientX-drag.x;
   if (Math.abs(delta)>7) moved=true;
   if (moved) {canvas.style.cursor='grabbing';center=Math.max(0,Math.min(years.length-1,drag.center-delta/width*span));choose(center,false);}
@@ -169,14 +217,16 @@
   if (!drag)return;
   if(!moved && Math.abs(event.clientY-drag.y)<=7) {
    const point=drag.point;
-   if(point)choose(point.index,false,point.event.id);
+   if(point){choose(point.index,false,point.event.id);showTooltip(point,true);}
+   else choose(bounds()+(event.clientX-canvas.getBoundingClientRect().left)/width*span,false);
   }
   drag=null;canvas.style.cursor='pointer';
  });
- canvas.addEventListener('pointercancel',()=>{drag=null;canvas.style.cursor='pointer';pointerInside=false;});
+ canvas.addEventListener('pointercancel',()=>{drag=null;canvas.style.cursor='pointer';pointerInside=false;hideTooltip();});
  canvas.addEventListener('pointerenter',()=>{pointerInside=true;});
- canvas.addEventListener('pointerleave',()=>{pointerInside=false;});
- document.addEventListener('pointerdown',event=>{if(!$('.river-stage').contains(event.target))wheelActive=false;});
+ canvas.addEventListener('pointerleave',()=>{pointerInside=false;if(!tooltipPinned)hideTooltip();});
+ document.addEventListener('pointerdown',event=>{if(!$('.river-stage').contains(event.target)){wheelActive=false;hideTooltip();}});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape')hideTooltip();});
  $('.river-stage').addEventListener('focusout',event=>{if(!$('.river-stage').contains(event.relatedTarget))wheelActive=false;});
  canvas.addEventListener('wheel',event=>{
   if (!wheelActive || event.ctrlKey)return;
@@ -189,20 +239,49 @@
  $('.river-stage').addEventListener('keydown',event=>{
   if (event.key==='ArrowLeft' || event.key==='ArrowRight') {event.preventDefault();choose(selected+(event.key==='ArrowLeft'?-1:1));}
  });
- $('.river-topic').onchange=event=>{topic=event.target.value;selectedEvent=null;detail();draw();};
+ $('.river-topic').onchange=event=>{hideTooltip();topic=event.target.value;selectedEvent=null;detail();draw();};
  $('.river-prev').onclick=()=>choose(selected-1);$('.river-next').onclick=()=>choose(selected+1);
- $('.river-zoom').onchange=event=>{span=+event.target.value;draw();};
+ $('.river-zoom').onchange=event=>{hideTooltip();span=+event.target.value;draw();};
  $('.river-era').onchange=event=>choose(years.findIndex(year=>year.dynasty===event.target.value));
  $('.river-era-band').addEventListener('click',event=>{
   const button=event.target.closest('button[data-era]');
   if(button)choose(years.findIndex(year=>year.dynasty===button.dataset.era));
  });
- range.oninput=event=>choose(+event.target.value);
+ let overviewDrag=null;
+ position.addEventListener('pointerdown',event=>{
+  if(event.button!==0)return;
+  event.preventDefault();position.focus({preventScroll:true});
+  overviewDrag={pointerId:event.pointerId,x:event.clientX,center};
+  position.setPointerCapture(event.pointerId);
+  position.classList.add('is-dragging');
+ });
+ position.addEventListener('pointermove',event=>{
+  if(!overviewDrag || event.pointerId!==overviewDrag.pointerId)return;
+  const trackWidth=overview.getBoundingClientRect().width;
+  if(!trackWidth)return;
+  center=Math.max(0,Math.min(years.length-1,overviewDrag.center+(event.clientX-overviewDrag.x)/trackWidth*years.length));
+  choose(center,false);
+ });
+ const endOverviewDrag=()=>{overviewDrag=null;position.classList.remove('is-dragging');};
+ position.addEventListener('pointerup',endOverviewDrag);
+ position.addEventListener('pointercancel',endOverviewDrag);
+ position.addEventListener('lostpointercapture',endOverviewDrag);
+ position.addEventListener('keydown',event=>{
+  let index;
+  if(event.key==='ArrowLeft')index=selected-1;
+  else if(event.key==='ArrowRight')index=selected+1;
+  else if(event.key==='PageDown')index=selected+span;
+  else if(event.key==='PageUp')index=selected-span;
+  else if(event.key==='Home')index=0;
+  else if(event.key==='End')index=years.length-1;
+  else return;
+  event.preventDefault();choose(index);
+ });
  const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
  let visible=false,lastFrame=0;
  function animate(time) {
   animationFrame=0;if(!visible || document.hidden || reducedMotion.matches)return;
-  if (time-lastFrame>=33) {if(!pointerInside && !drag)phase=time/1000;draw();lastFrame=time;}
+  if (time-lastFrame>=33) {if(!pointerInside && !drag && !tooltipPinned)phase=time/1000;draw();lastFrame=time;}
   animationFrame=requestAnimationFrame(animate);
  }
  function updateAnimation() {
