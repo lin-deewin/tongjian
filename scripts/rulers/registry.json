@@ -1,0 +1,2120 @@
+{
+  "note": "卒年为检索线索，专题显示年份及死因必须绑定通鉴原文；非穷尽名单。",
+  "rulers": [
+    {
+      "name": "周威烈王",
+      "polity": "周",
+      "deathHint": 402
+    },
+    {
+      "name": "周安王",
+      "polity": "周",
+      "deathHint": 376
+    },
+    {
+      "name": "周烈王",
+      "polity": "周",
+      "deathHint": 369
+    },
+    {
+      "name": "周显王",
+      "polity": "周",
+      "deathHint": 321
+    },
+    {
+      "name": "周慎靓王",
+      "polity": "周",
+      "deathHint": 315
+    },
+    {
+      "name": "周赧王",
+      "polity": "周",
+      "deathHint": 256
+    },
+    {
+      "name": "秦简公",
+      "polity": "秦",
+      "deathHint": 400
+    },
+    {
+      "name": "秦惠公",
+      "polity": "秦",
+      "deathHint": 387
+    },
+    {
+      "name": "秦出公",
+      "polity": "秦",
+      "deathHint": 385
+    },
+    {
+      "name": "秦献公",
+      "polity": "秦",
+      "deathHint": 362
+    },
+    {
+      "name": "秦孝公",
+      "polity": "秦",
+      "deathHint": 338
+    },
+    {
+      "name": "秦惠文王",
+      "polity": "秦",
+      "deathHint": 311
+    },
+    {
+      "name": "秦武王",
+      "polity": "秦",
+      "deathHint": 307
+    },
+    {
+      "name": "秦昭襄王",
+      "polity": "秦",
+      "deathHint": 251
+    },
+    {
+      "name": "秦孝文王",
+      "polity": "秦",
+      "deathHint": 250
+    },
+    {
+      "name": "秦庄襄王",
+      "polity": "秦",
+      "deathHint": 247
+    },
+    {
+      "name": "秦始皇",
+      "polity": "秦",
+      "deathHint": 210
+    },
+    {
+      "name": "秦二世",
+      "polity": "秦",
+      "deathHint": 207
+    },
+    {
+      "name": "秦子婴",
+      "polity": "秦",
+      "deathHint": 206
+    },
+    {
+      "name": "晋烈公",
+      "polity": "晋",
+      "deathHint": 393
+    },
+    {
+      "name": "晋孝公",
+      "polity": "晋",
+      "deathHint": 378
+    },
+    {
+      "name": "晋靖公",
+      "polity": "晋",
+      "deathHint": 376
+    },
+    {
+      "name": "齐康公",
+      "polity": "齐",
+      "deathHint": 379
+    },
+    {
+      "name": "齐太公",
+      "polity": "齐",
+      "deathHint": 385
+    },
+    {
+      "name": "齐威王",
+      "polity": "齐",
+      "deathHint": 333
+    },
+    {
+      "name": "齐宣王",
+      "polity": "齐",
+      "deathHint": 314
+    },
+    {
+      "name": "齐湣王",
+      "polity": "齐",
+      "deathHint": 284
+    },
+    {
+      "name": "齐襄王",
+      "polity": "齐",
+      "deathHint": 265
+    },
+    {
+      "name": "齐王建",
+      "polity": "齐",
+      "deathHint": 221
+    },
+    {
+      "name": "楚声王",
+      "polity": "楚",
+      "deathHint": 402
+    },
+    {
+      "name": "楚悼王",
+      "polity": "楚",
+      "deathHint": 381
+    },
+    {
+      "name": "楚肃王",
+      "polity": "楚",
+      "deathHint": 370
+    },
+    {
+      "name": "楚宣王",
+      "polity": "楚",
+      "deathHint": 340
+    },
+    {
+      "name": "楚威王",
+      "polity": "楚",
+      "deathHint": 329
+    },
+    {
+      "name": "楚怀王",
+      "polity": "楚",
+      "deathHint": 296
+    },
+    {
+      "name": "楚顷襄王",
+      "polity": "楚",
+      "deathHint": 263
+    },
+    {
+      "name": "楚考烈王",
+      "polity": "楚",
+      "deathHint": 238
+    },
+    {
+      "name": "楚幽王",
+      "polity": "楚",
+      "deathHint": 228
+    },
+    {
+      "name": "楚哀王",
+      "polity": "楚",
+      "deathHint": 228
+    },
+    {
+      "name": "楚王负刍",
+      "polity": "楚",
+      "deathHint": null
+    },
+    {
+      "name": "燕愍公",
+      "polity": "燕",
+      "deathHint": 403
+    },
+    {
+      "name": "燕僖公",
+      "polity": "燕",
+      "deathHint": 373
+    },
+    {
+      "name": "燕桓公",
+      "polity": "燕",
+      "deathHint": 362
+    },
+    {
+      "name": "燕文公",
+      "polity": "燕",
+      "deathHint": 333
+    },
+    {
+      "name": "燕易王",
+      "polity": "燕",
+      "deathHint": 321
+    },
+    {
+      "name": "燕王哙",
+      "polity": "燕",
+      "deathHint": 314
+    },
+    {
+      "name": "燕昭王",
+      "polity": "燕",
+      "deathHint": 279
+    },
+    {
+      "name": "燕惠王",
+      "polity": "燕",
+      "deathHint": 272
+    },
+    {
+      "name": "燕武成王",
+      "polity": "燕",
+      "deathHint": 258
+    },
+    {
+      "name": "燕孝王",
+      "polity": "燕",
+      "deathHint": 255
+    },
+    {
+      "name": "燕王喜",
+      "polity": "燕",
+      "deathHint": null
+    },
+    {
+      "name": "赵烈侯",
+      "polity": "赵",
+      "deathHint": 400
+    },
+    {
+      "name": "赵武侯",
+      "polity": "赵",
+      "deathHint": 387
+    },
+    {
+      "name": "赵敬侯",
+      "polity": "赵",
+      "deathHint": 375
+    },
+    {
+      "name": "赵成侯",
+      "polity": "赵",
+      "deathHint": 350
+    },
+    {
+      "name": "赵肃侯",
+      "polity": "赵",
+      "deathHint": 326
+    },
+    {
+      "name": "赵武灵王",
+      "polity": "赵",
+      "deathHint": 295
+    },
+    {
+      "name": "赵惠文王",
+      "polity": "赵",
+      "deathHint": 266
+    },
+    {
+      "name": "赵孝成王",
+      "polity": "赵",
+      "deathHint": 245
+    },
+    {
+      "name": "赵悼襄王",
+      "polity": "赵",
+      "deathHint": 236
+    },
+    {
+      "name": "赵幽缪王",
+      "polity": "赵",
+      "deathHint": null
+    },
+    {
+      "name": "代王嘉",
+      "polity": "赵",
+      "deathHint": null
+    },
+    {
+      "name": "魏文侯",
+      "polity": "魏",
+      "deathHint": 387
+    },
+    {
+      "name": "魏武侯",
+      "polity": "魏",
+      "deathHint": 371
+    },
+    {
+      "name": "魏惠王",
+      "polity": "魏",
+      "deathHint": 319
+    },
+    {
+      "name": "魏襄王",
+      "polity": "魏",
+      "deathHint": 296
+    },
+    {
+      "name": "魏昭王",
+      "polity": "魏",
+      "deathHint": 277
+    },
+    {
+      "name": "魏安釐王",
+      "polity": "魏",
+      "deathHint": 243
+    },
+    {
+      "name": "魏景湣王",
+      "polity": "魏",
+      "deathHint": 228
+    },
+    {
+      "name": "魏王假",
+      "polity": "魏",
+      "deathHint": null
+    },
+    {
+      "name": "韩景侯",
+      "polity": "韩",
+      "deathHint": 400
+    },
+    {
+      "name": "韩烈侯",
+      "polity": "韩",
+      "deathHint": 387
+    },
+    {
+      "name": "韩文侯",
+      "polity": "韩",
+      "deathHint": 377
+    },
+    {
+      "name": "韩哀侯",
+      "polity": "韩",
+      "deathHint": 374
+    },
+    {
+      "name": "韩懿侯",
+      "polity": "韩",
+      "deathHint": 359
+    },
+    {
+      "name": "韩昭侯",
+      "polity": "韩",
+      "deathHint": 333
+    },
+    {
+      "name": "韩宣惠王",
+      "polity": "韩",
+      "deathHint": 312
+    },
+    {
+      "name": "韩襄王",
+      "polity": "韩",
+      "deathHint": 296
+    },
+    {
+      "name": "韩釐王",
+      "polity": "韩",
+      "deathHint": 273
+    },
+    {
+      "name": "韩桓惠王",
+      "polity": "韩",
+      "deathHint": 239
+    },
+    {
+      "name": "韩王安",
+      "polity": "韩",
+      "deathHint": null
+    },
+    {
+      "name": "鲁穆公",
+      "polity": "鲁",
+      "deathHint": 377
+    },
+    {
+      "name": "鲁共公",
+      "polity": "鲁",
+      "deathHint": 355
+    },
+    {
+      "name": "鲁康公",
+      "polity": "鲁",
+      "deathHint": 346
+    },
+    {
+      "name": "鲁景公",
+      "polity": "鲁",
+      "deathHint": 317
+    },
+    {
+      "name": "鲁平公",
+      "polity": "鲁",
+      "deathHint": 297
+    },
+    {
+      "name": "鲁缗公",
+      "polity": "鲁",
+      "deathHint": 274
+    },
+    {
+      "name": "鲁顷公",
+      "polity": "鲁",
+      "deathHint": null
+    },
+    {
+      "name": "宋悼公",
+      "polity": "宋",
+      "deathHint": 396
+    },
+    {
+      "name": "宋休公",
+      "polity": "宋",
+      "deathHint": 373
+    },
+    {
+      "name": "宋辟公",
+      "polity": "宋",
+      "deathHint": 370
+    },
+    {
+      "name": "宋剔成君",
+      "polity": "宋",
+      "deathHint": null
+    },
+    {
+      "name": "宋康王",
+      "polity": "宋",
+      "deathHint": 286
+    },
+    {
+      "name": "卫慎公",
+      "polity": "卫",
+      "deathHint": 373
+    },
+    {
+      "name": "卫声公",
+      "polity": "卫",
+      "deathHint": 362
+    },
+    {
+      "name": "卫成侯",
+      "polity": "卫",
+      "deathHint": 333
+    },
+    {
+      "name": "卫平侯",
+      "polity": "卫",
+      "deathHint": 325
+    },
+    {
+      "name": "卫嗣君",
+      "polity": "卫",
+      "deathHint": null
+    },
+    {
+      "name": "卫怀君",
+      "polity": "卫",
+      "deathHint": 252
+    },
+    {
+      "name": "卫元君",
+      "polity": "卫",
+      "deathHint": null
+    },
+    {
+      "name": "卫君角",
+      "polity": "卫",
+      "deathHint": null
+    },
+    {
+      "name": "郑繻公",
+      "polity": "郑",
+      "deathHint": 396
+    },
+    {
+      "name": "郑康公",
+      "polity": "郑",
+      "deathHint": 375
+    },
+    {
+      "name": "陈胜",
+      "polity": "楚汉诸王",
+      "deathHint": 208
+    },
+    {
+      "name": "武臣",
+      "polity": "楚汉诸王",
+      "deathHint": 208
+    },
+    {
+      "name": "义帝",
+      "polity": "楚汉诸王",
+      "deathHint": 206
+    },
+    {
+      "name": "韩王成",
+      "polity": "楚汉诸王",
+      "deathHint": 206
+    },
+    {
+      "name": "项羽",
+      "polity": "楚汉诸王",
+      "deathHint": 202
+    },
+    {
+      "name": "臧荼",
+      "polity": "楚汉诸王",
+      "deathHint": 202
+    },
+    {
+      "name": "张耳",
+      "polity": "楚汉诸王",
+      "deathHint": 202
+    },
+    {
+      "name": "英布",
+      "polity": "楚汉诸王",
+      "deathHint": 196
+    },
+    {
+      "name": "彭越",
+      "polity": "楚汉诸王",
+      "deathHint": 196
+    },
+    {
+      "name": "韩信",
+      "polity": "楚汉诸王",
+      "deathHint": 196
+    },
+    {
+      "name": "卢绾",
+      "polity": "楚汉诸王",
+      "deathHint": 194
+    },
+    {
+      "name": "吴芮",
+      "polity": "楚汉诸王",
+      "deathHint": 202
+    },
+    {
+      "name": "共敖",
+      "polity": "楚汉诸王",
+      "deathHint": 204
+    },
+    {
+      "name": "共尉",
+      "polity": "楚汉诸王",
+      "deathHint": 202
+    },
+    {
+      "name": "田儋",
+      "polity": "楚汉诸王",
+      "deathHint": 208
+    },
+    {
+      "name": "田荣",
+      "polity": "楚汉诸王",
+      "deathHint": 205
+    },
+    {
+      "name": "田横",
+      "polity": "楚汉诸王",
+      "deathHint": 202
+    },
+    {
+      "name": "汉高帝",
+      "polity": "西汉",
+      "deathHint": 195
+    },
+    {
+      "name": "汉惠帝",
+      "polity": "西汉",
+      "deathHint": 188
+    },
+    {
+      "name": "汉前少帝",
+      "polity": "西汉",
+      "deathHint": 184
+    },
+    {
+      "name": "汉后少帝",
+      "polity": "西汉",
+      "deathHint": 180
+    },
+    {
+      "name": "汉文帝",
+      "polity": "西汉",
+      "deathHint": 157
+    },
+    {
+      "name": "汉景帝",
+      "polity": "西汉",
+      "deathHint": 141
+    },
+    {
+      "name": "汉武帝",
+      "polity": "西汉",
+      "deathHint": 87
+    },
+    {
+      "name": "汉昭帝",
+      "polity": "西汉",
+      "deathHint": 74
+    },
+    {
+      "name": "刘贺",
+      "polity": "西汉",
+      "deathHint": 59
+    },
+    {
+      "name": "汉宣帝",
+      "polity": "西汉",
+      "deathHint": 49
+    },
+    {
+      "name": "汉元帝",
+      "polity": "西汉",
+      "deathHint": 33
+    },
+    {
+      "name": "汉成帝",
+      "polity": "西汉",
+      "deathHint": 7
+    },
+    {
+      "name": "汉哀帝",
+      "polity": "西汉",
+      "deathHint": -1
+    },
+    {
+      "name": "汉平帝",
+      "polity": "西汉",
+      "deathHint": -6
+    },
+    {
+      "name": "孺子婴",
+      "polity": "西汉",
+      "deathHint": -25
+    },
+    {
+      "name": "王莽",
+      "polity": "新",
+      "deathHint": -23
+    },
+    {
+      "name": "刘玄",
+      "polity": "更始",
+      "deathHint": -25
+    },
+    {
+      "name": "刘盆子",
+      "polity": "建世",
+      "deathHint": null
+    },
+    {
+      "name": "汉光武帝",
+      "polity": "东汉",
+      "deathHint": -57
+    },
+    {
+      "name": "汉明帝",
+      "polity": "东汉",
+      "deathHint": -75
+    },
+    {
+      "name": "汉章帝",
+      "polity": "东汉",
+      "deathHint": -88
+    },
+    {
+      "name": "汉和帝",
+      "polity": "东汉",
+      "deathHint": -105
+    },
+    {
+      "name": "汉殇帝",
+      "polity": "东汉",
+      "deathHint": -106
+    },
+    {
+      "name": "汉安帝",
+      "polity": "东汉",
+      "deathHint": -125
+    },
+    {
+      "name": "刘懿",
+      "polity": "东汉",
+      "deathHint": -125
+    },
+    {
+      "name": "汉顺帝",
+      "polity": "东汉",
+      "deathHint": -144
+    },
+    {
+      "name": "汉冲帝",
+      "polity": "东汉",
+      "deathHint": -145
+    },
+    {
+      "name": "汉质帝",
+      "polity": "东汉",
+      "deathHint": -146
+    },
+    {
+      "name": "汉桓帝",
+      "polity": "东汉",
+      "deathHint": -167
+    },
+    {
+      "name": "汉灵帝",
+      "polity": "东汉",
+      "deathHint": -189
+    },
+    {
+      "name": "汉少帝",
+      "polity": "东汉",
+      "deathHint": -190
+    },
+    {
+      "name": "汉献帝",
+      "polity": "东汉",
+      "deathHint": -234
+    },
+    {
+      "name": "曹丕",
+      "polity": "曹魏",
+      "deathHint": -226
+    },
+    {
+      "name": "曹叡",
+      "polity": "曹魏",
+      "deathHint": -239
+    },
+    {
+      "name": "曹芳",
+      "polity": "曹魏",
+      "deathHint": -274
+    },
+    {
+      "name": "曹髦",
+      "polity": "曹魏",
+      "deathHint": -260
+    },
+    {
+      "name": "曹奂",
+      "polity": "曹魏",
+      "deathHint": -302
+    },
+    {
+      "name": "刘备",
+      "polity": "蜀汉",
+      "deathHint": -223
+    },
+    {
+      "name": "刘禅",
+      "polity": "蜀汉",
+      "deathHint": -271
+    },
+    {
+      "name": "孙权",
+      "polity": "孙吴",
+      "deathHint": -252
+    },
+    {
+      "name": "孙亮",
+      "polity": "孙吴",
+      "deathHint": -260
+    },
+    {
+      "name": "孙休",
+      "polity": "孙吴",
+      "deathHint": -264
+    },
+    {
+      "name": "孙皓",
+      "polity": "孙吴",
+      "deathHint": -284
+    },
+    {
+      "name": "司马炎",
+      "polity": "西晋",
+      "deathHint": -290
+    },
+    {
+      "name": "司马衷",
+      "polity": "西晋",
+      "deathHint": -306
+    },
+    {
+      "name": "司马伦",
+      "polity": "西晋",
+      "deathHint": -301
+    },
+    {
+      "name": "司马炽",
+      "polity": "西晋",
+      "deathHint": -313
+    },
+    {
+      "name": "司马邺",
+      "polity": "西晋",
+      "deathHint": -318
+    },
+    {
+      "name": "司马睿",
+      "polity": "东晋",
+      "deathHint": -323
+    },
+    {
+      "name": "司马绍",
+      "polity": "东晋",
+      "deathHint": -325
+    },
+    {
+      "name": "司马衍",
+      "polity": "东晋",
+      "deathHint": -342
+    },
+    {
+      "name": "司马岳",
+      "polity": "东晋",
+      "deathHint": -344
+    },
+    {
+      "name": "司马聃",
+      "polity": "东晋",
+      "deathHint": -361
+    },
+    {
+      "name": "司马丕",
+      "polity": "东晋",
+      "deathHint": -365
+    },
+    {
+      "name": "司马奕",
+      "polity": "东晋",
+      "deathHint": -386
+    },
+    {
+      "name": "司马昱",
+      "polity": "东晋",
+      "deathHint": -372
+    },
+    {
+      "name": "司马曜",
+      "polity": "东晋",
+      "deathHint": -396
+    },
+    {
+      "name": "司马德宗",
+      "polity": "东晋",
+      "deathHint": -419
+    },
+    {
+      "name": "司马德文",
+      "polity": "东晋",
+      "deathHint": -421
+    },
+    {
+      "name": "桓玄",
+      "polity": "桓楚",
+      "deathHint": -404
+    },
+    {
+      "name": "刘渊",
+      "polity": "汉赵",
+      "deathHint": -310
+    },
+    {
+      "name": "刘和",
+      "polity": "汉赵",
+      "deathHint": -310
+    },
+    {
+      "name": "刘聪",
+      "polity": "汉赵",
+      "deathHint": -318
+    },
+    {
+      "name": "刘粲",
+      "polity": "汉赵",
+      "deathHint": -318
+    },
+    {
+      "name": "刘曜",
+      "polity": "汉赵",
+      "deathHint": -329
+    },
+    {
+      "name": "石勒",
+      "polity": "后赵",
+      "deathHint": -333
+    },
+    {
+      "name": "石弘",
+      "polity": "后赵",
+      "deathHint": -334
+    },
+    {
+      "name": "石虎",
+      "polity": "后赵",
+      "deathHint": -349
+    },
+    {
+      "name": "石世",
+      "polity": "后赵",
+      "deathHint": -349
+    },
+    {
+      "name": "石遵",
+      "polity": "后赵",
+      "deathHint": -349
+    },
+    {
+      "name": "石鉴",
+      "polity": "后赵",
+      "deathHint": -350
+    },
+    {
+      "name": "石祗",
+      "polity": "后赵",
+      "deathHint": -351
+    },
+    {
+      "name": "冉闵",
+      "polity": "冉魏",
+      "deathHint": -352
+    },
+    {
+      "name": "李特",
+      "polity": "成汉",
+      "deathHint": -303
+    },
+    {
+      "name": "李雄",
+      "polity": "成汉",
+      "deathHint": -334
+    },
+    {
+      "name": "李班",
+      "polity": "成汉",
+      "deathHint": -334
+    },
+    {
+      "name": "李期",
+      "polity": "成汉",
+      "deathHint": -338
+    },
+    {
+      "name": "李寿",
+      "polity": "成汉",
+      "deathHint": -343
+    },
+    {
+      "name": "李势",
+      "polity": "成汉",
+      "deathHint": -361
+    },
+    {
+      "name": "张寔",
+      "polity": "前凉",
+      "deathHint": -320
+    },
+    {
+      "name": "张茂",
+      "polity": "前凉",
+      "deathHint": -324
+    },
+    {
+      "name": "张骏",
+      "polity": "前凉",
+      "deathHint": -346
+    },
+    {
+      "name": "张重华",
+      "polity": "前凉",
+      "deathHint": -353
+    },
+    {
+      "name": "张耀灵",
+      "polity": "前凉",
+      "deathHint": -354
+    },
+    {
+      "name": "张祚",
+      "polity": "前凉",
+      "deathHint": -355
+    },
+    {
+      "name": "张玄靓",
+      "polity": "前凉",
+      "deathHint": -363
+    },
+    {
+      "name": "张天锡",
+      "polity": "前凉",
+      "deathHint": null
+    },
+    {
+      "name": "慕容皝",
+      "polity": "前燕",
+      "deathHint": -348
+    },
+    {
+      "name": "慕容儁",
+      "polity": "前燕",
+      "deathHint": -360
+    },
+    {
+      "name": "慕容暐",
+      "polity": "前燕",
+      "deathHint": -384
+    },
+    {
+      "name": "苻健",
+      "polity": "前秦",
+      "deathHint": -355
+    },
+    {
+      "name": "苻生",
+      "polity": "前秦",
+      "deathHint": -357
+    },
+    {
+      "name": "苻坚",
+      "polity": "前秦",
+      "deathHint": -385
+    },
+    {
+      "name": "苻丕",
+      "polity": "前秦",
+      "deathHint": -386
+    },
+    {
+      "name": "苻登",
+      "polity": "前秦",
+      "deathHint": -394
+    },
+    {
+      "name": "苻崇",
+      "polity": "前秦",
+      "deathHint": -394
+    },
+    {
+      "name": "慕容垂",
+      "polity": "后燕",
+      "deathHint": -396
+    },
+    {
+      "name": "慕容宝",
+      "polity": "后燕",
+      "deathHint": -398
+    },
+    {
+      "name": "慕容盛",
+      "polity": "后燕",
+      "deathHint": -401
+    },
+    {
+      "name": "慕容熙",
+      "polity": "后燕",
+      "deathHint": -407
+    },
+    {
+      "name": "慕容泓",
+      "polity": "西燕",
+      "deathHint": -384
+    },
+    {
+      "name": "慕容冲",
+      "polity": "西燕",
+      "deathHint": -386
+    },
+    {
+      "name": "段随",
+      "polity": "西燕",
+      "deathHint": -386
+    },
+    {
+      "name": "慕容顗",
+      "polity": "西燕",
+      "deathHint": -386
+    },
+    {
+      "name": "慕容瑶",
+      "polity": "西燕",
+      "deathHint": -386
+    },
+    {
+      "name": "慕容忠",
+      "polity": "西燕",
+      "deathHint": -386
+    },
+    {
+      "name": "慕容永",
+      "polity": "西燕",
+      "deathHint": -394
+    },
+    {
+      "name": "姚苌",
+      "polity": "后秦",
+      "deathHint": -393
+    },
+    {
+      "name": "姚兴",
+      "polity": "后秦",
+      "deathHint": -416
+    },
+    {
+      "name": "姚泓",
+      "polity": "后秦",
+      "deathHint": -417
+    },
+    {
+      "name": "乞伏国仁",
+      "polity": "西秦",
+      "deathHint": -388
+    },
+    {
+      "name": "乞伏乾归",
+      "polity": "西秦",
+      "deathHint": -412
+    },
+    {
+      "name": "乞伏公府",
+      "polity": "西秦",
+      "deathHint": -412
+    },
+    {
+      "name": "乞伏炽磐",
+      "polity": "西秦",
+      "deathHint": -428
+    },
+    {
+      "name": "乞伏暮末",
+      "polity": "西秦",
+      "deathHint": -431
+    },
+    {
+      "name": "吕光",
+      "polity": "后凉",
+      "deathHint": -399
+    },
+    {
+      "name": "吕绍",
+      "polity": "后凉",
+      "deathHint": -399
+    },
+    {
+      "name": "吕纂",
+      "polity": "后凉",
+      "deathHint": -401
+    },
+    {
+      "name": "吕隆",
+      "polity": "后凉",
+      "deathHint": -416
+    },
+    {
+      "name": "秃发乌孤",
+      "polity": "南凉",
+      "deathHint": -399
+    },
+    {
+      "name": "秃发利鹿孤",
+      "polity": "南凉",
+      "deathHint": -402
+    },
+    {
+      "name": "秃发傉檀",
+      "polity": "南凉",
+      "deathHint": -415
+    },
+    {
+      "name": "段业",
+      "polity": "北凉",
+      "deathHint": -401
+    },
+    {
+      "name": "沮渠蒙逊",
+      "polity": "北凉",
+      "deathHint": -433
+    },
+    {
+      "name": "沮渠牧犍",
+      "polity": "北凉",
+      "deathHint": -447
+    },
+    {
+      "name": "沮渠无讳",
+      "polity": "北凉",
+      "deathHint": -444
+    },
+    {
+      "name": "沮渠安周",
+      "polity": "北凉",
+      "deathHint": null
+    },
+    {
+      "name": "李暠",
+      "polity": "西凉",
+      "deathHint": -417
+    },
+    {
+      "name": "李歆",
+      "polity": "西凉",
+      "deathHint": -420
+    },
+    {
+      "name": "李恂",
+      "polity": "西凉",
+      "deathHint": -421
+    },
+    {
+      "name": "慕容德",
+      "polity": "南燕",
+      "deathHint": -405
+    },
+    {
+      "name": "慕容超",
+      "polity": "南燕",
+      "deathHint": -410
+    },
+    {
+      "name": "高云",
+      "polity": "北燕",
+      "deathHint": -409
+    },
+    {
+      "name": "冯跋",
+      "polity": "北燕",
+      "deathHint": -430
+    },
+    {
+      "name": "冯弘",
+      "polity": "北燕",
+      "deathHint": -438
+    },
+    {
+      "name": "赫连勃勃",
+      "polity": "夏",
+      "deathHint": -425
+    },
+    {
+      "name": "赫连昌",
+      "polity": "夏",
+      "deathHint": -434
+    },
+    {
+      "name": "赫连定",
+      "polity": "夏",
+      "deathHint": -432
+    },
+    {
+      "name": "拓跋猗卢",
+      "polity": "代",
+      "deathHint": -316
+    },
+    {
+      "name": "拓跋什翼犍",
+      "polity": "代",
+      "deathHint": -376
+    },
+    {
+      "name": "刘裕",
+      "polity": "刘宋",
+      "deathHint": -422
+    },
+    {
+      "name": "刘义符",
+      "polity": "刘宋",
+      "deathHint": -424
+    },
+    {
+      "name": "刘义隆",
+      "polity": "刘宋",
+      "deathHint": -453
+    },
+    {
+      "name": "刘劭",
+      "polity": "刘宋",
+      "deathHint": -453
+    },
+    {
+      "name": "刘骏",
+      "polity": "刘宋",
+      "deathHint": -464
+    },
+    {
+      "name": "刘子业",
+      "polity": "刘宋",
+      "deathHint": -465
+    },
+    {
+      "name": "刘彧",
+      "polity": "刘宋",
+      "deathHint": -472
+    },
+    {
+      "name": "刘昱",
+      "polity": "刘宋",
+      "deathHint": -477
+    },
+    {
+      "name": "刘准",
+      "polity": "刘宋",
+      "deathHint": -479
+    },
+    {
+      "name": "萧道成",
+      "polity": "南齐",
+      "deathHint": -482
+    },
+    {
+      "name": "萧赜",
+      "polity": "南齐",
+      "deathHint": -493
+    },
+    {
+      "name": "萧昭业",
+      "polity": "南齐",
+      "deathHint": -494
+    },
+    {
+      "name": "萧昭文",
+      "polity": "南齐",
+      "deathHint": -494
+    },
+    {
+      "name": "萧鸾",
+      "polity": "南齐",
+      "deathHint": -498
+    },
+    {
+      "name": "萧宝卷",
+      "polity": "南齐",
+      "deathHint": -501
+    },
+    {
+      "name": "萧宝融",
+      "polity": "南齐",
+      "deathHint": -502
+    },
+    {
+      "name": "萧衍",
+      "polity": "南梁",
+      "deathHint": -549
+    },
+    {
+      "name": "萧纲",
+      "polity": "南梁",
+      "deathHint": -551
+    },
+    {
+      "name": "萧栋",
+      "polity": "南梁",
+      "deathHint": -552
+    },
+    {
+      "name": "萧绎",
+      "polity": "南梁",
+      "deathHint": -554
+    },
+    {
+      "name": "萧方智",
+      "polity": "南梁",
+      "deathHint": -558
+    },
+    {
+      "name": "萧渊明",
+      "polity": "南梁",
+      "deathHint": -556
+    },
+    {
+      "name": "侯景",
+      "polity": "侯汉",
+      "deathHint": -552
+    },
+    {
+      "name": "萧詧",
+      "polity": "西梁",
+      "deathHint": -562
+    },
+    {
+      "name": "萧岿",
+      "polity": "西梁",
+      "deathHint": -585
+    },
+    {
+      "name": "萧琮",
+      "polity": "西梁",
+      "deathHint": -607
+    },
+    {
+      "name": "陈霸先",
+      "polity": "陈",
+      "deathHint": -559
+    },
+    {
+      "name": "陈蒨",
+      "polity": "陈",
+      "deathHint": -566
+    },
+    {
+      "name": "陈伯宗",
+      "polity": "陈",
+      "deathHint": -570
+    },
+    {
+      "name": "陈顼",
+      "polity": "陈",
+      "deathHint": -582
+    },
+    {
+      "name": "陈叔宝",
+      "polity": "陈",
+      "deathHint": -604
+    },
+    {
+      "name": "拓跋珪",
+      "polity": "北魏",
+      "deathHint": -409
+    },
+    {
+      "name": "拓跋嗣",
+      "polity": "北魏",
+      "deathHint": -423
+    },
+    {
+      "name": "拓跋焘",
+      "polity": "北魏",
+      "deathHint": -452
+    },
+    {
+      "name": "拓跋余",
+      "polity": "北魏",
+      "deathHint": -452
+    },
+    {
+      "name": "拓跋濬",
+      "polity": "北魏",
+      "deathHint": -465
+    },
+    {
+      "name": "拓跋弘",
+      "polity": "北魏",
+      "deathHint": -476
+    },
+    {
+      "name": "拓跋宏",
+      "polity": "北魏",
+      "deathHint": -499
+    },
+    {
+      "name": "元恪",
+      "polity": "北魏",
+      "deathHint": -515
+    },
+    {
+      "name": "元诩",
+      "polity": "北魏",
+      "deathHint": -528
+    },
+    {
+      "name": "元钊",
+      "polity": "北魏",
+      "deathHint": -528
+    },
+    {
+      "name": "元子攸",
+      "polity": "北魏",
+      "deathHint": -530
+    },
+    {
+      "name": "元晔",
+      "polity": "北魏",
+      "deathHint": -532
+    },
+    {
+      "name": "元恭",
+      "polity": "北魏",
+      "deathHint": -532
+    },
+    {
+      "name": "元朗",
+      "polity": "北魏",
+      "deathHint": -532
+    },
+    {
+      "name": "元修",
+      "polity": "北魏",
+      "deathHint": -535
+    },
+    {
+      "name": "元善见",
+      "polity": "东魏",
+      "deathHint": -552
+    },
+    {
+      "name": "元宝炬",
+      "polity": "西魏",
+      "deathHint": -551
+    },
+    {
+      "name": "元钦",
+      "polity": "西魏",
+      "deathHint": -554
+    },
+    {
+      "name": "元廓",
+      "polity": "西魏",
+      "deathHint": -557
+    },
+    {
+      "name": "高洋",
+      "polity": "北齐",
+      "deathHint": -559
+    },
+    {
+      "name": "高殷",
+      "polity": "北齐",
+      "deathHint": -561
+    },
+    {
+      "name": "高演",
+      "polity": "北齐",
+      "deathHint": -561
+    },
+    {
+      "name": "高湛",
+      "polity": "北齐",
+      "deathHint": -569
+    },
+    {
+      "name": "高纬",
+      "polity": "北齐",
+      "deathHint": -577
+    },
+    {
+      "name": "高恒",
+      "polity": "北齐",
+      "deathHint": -577
+    },
+    {
+      "name": "宇文觉",
+      "polity": "北周",
+      "deathHint": -557
+    },
+    {
+      "name": "宇文毓",
+      "polity": "北周",
+      "deathHint": -560
+    },
+    {
+      "name": "宇文邕",
+      "polity": "北周",
+      "deathHint": -578
+    },
+    {
+      "name": "宇文赟",
+      "polity": "北周",
+      "deathHint": -580
+    },
+    {
+      "name": "宇文阐",
+      "polity": "北周",
+      "deathHint": -581
+    },
+    {
+      "name": "杨坚",
+      "polity": "隋",
+      "deathHint": -604
+    },
+    {
+      "name": "杨广",
+      "polity": "隋",
+      "deathHint": -618
+    },
+    {
+      "name": "杨侑",
+      "polity": "隋",
+      "deathHint": -619
+    },
+    {
+      "name": "杨侗",
+      "polity": "隋",
+      "deathHint": -619
+    },
+    {
+      "name": "李密",
+      "polity": "隋末诸国",
+      "deathHint": -618
+    },
+    {
+      "name": "李轨",
+      "polity": "隋末诸国",
+      "deathHint": -619
+    },
+    {
+      "name": "薛举",
+      "polity": "隋末诸国",
+      "deathHint": -618
+    },
+    {
+      "name": "薛仁杲",
+      "polity": "隋末诸国",
+      "deathHint": -618
+    },
+    {
+      "name": "宇文化及",
+      "polity": "隋末诸国",
+      "deathHint": -619
+    },
+    {
+      "name": "王世充",
+      "polity": "隋末诸国",
+      "deathHint": -621
+    },
+    {
+      "name": "窦建德",
+      "polity": "隋末诸国",
+      "deathHint": -621
+    },
+    {
+      "name": "萧铣",
+      "polity": "隋末诸国",
+      "deathHint": -621
+    },
+    {
+      "name": "刘黑闼",
+      "polity": "隋末诸国",
+      "deathHint": -623
+    },
+    {
+      "name": "梁师都",
+      "polity": "隋末诸国",
+      "deathHint": -628
+    },
+    {
+      "name": "李子通",
+      "polity": "隋末诸国",
+      "deathHint": -622
+    },
+    {
+      "name": "林士弘",
+      "polity": "隋末诸国",
+      "deathHint": -622
+    },
+    {
+      "name": "杜伏威",
+      "polity": "隋末诸国",
+      "deathHint": -624
+    },
+    {
+      "name": "沈法兴",
+      "polity": "隋末诸国",
+      "deathHint": -620
+    },
+    {
+      "name": "罗艺",
+      "polity": "隋末诸国",
+      "deathHint": -627
+    },
+    {
+      "name": "刘武周",
+      "polity": "隋末诸国",
+      "deathHint": -622
+    },
+    {
+      "name": "唐高祖",
+      "polity": "唐",
+      "deathHint": -635
+    },
+    {
+      "name": "唐太宗",
+      "polity": "唐",
+      "deathHint": -649
+    },
+    {
+      "name": "唐高宗",
+      "polity": "唐",
+      "deathHint": -683
+    },
+    {
+      "name": "唐中宗",
+      "polity": "唐",
+      "deathHint": -710
+    },
+    {
+      "name": "唐睿宗",
+      "polity": "唐",
+      "deathHint": -716
+    },
+    {
+      "name": "唐玄宗",
+      "polity": "唐",
+      "deathHint": -762
+    },
+    {
+      "name": "唐肃宗",
+      "polity": "唐",
+      "deathHint": -762
+    },
+    {
+      "name": "唐代宗",
+      "polity": "唐",
+      "deathHint": -779
+    },
+    {
+      "name": "唐德宗",
+      "polity": "唐",
+      "deathHint": -805
+    },
+    {
+      "name": "唐顺宗",
+      "polity": "唐",
+      "deathHint": -806
+    },
+    {
+      "name": "唐宪宗",
+      "polity": "唐",
+      "deathHint": -820
+    },
+    {
+      "name": "唐穆宗",
+      "polity": "唐",
+      "deathHint": -824
+    },
+    {
+      "name": "唐敬宗",
+      "polity": "唐",
+      "deathHint": -827
+    },
+    {
+      "name": "唐文宗",
+      "polity": "唐",
+      "deathHint": -840
+    },
+    {
+      "name": "唐武宗",
+      "polity": "唐",
+      "deathHint": -846
+    },
+    {
+      "name": "唐宣宗",
+      "polity": "唐",
+      "deathHint": -859
+    },
+    {
+      "name": "唐懿宗",
+      "polity": "唐",
+      "deathHint": -873
+    },
+    {
+      "name": "唐僖宗",
+      "polity": "唐",
+      "deathHint": -888
+    },
+    {
+      "name": "唐昭宗",
+      "polity": "唐",
+      "deathHint": -904
+    },
+    {
+      "name": "唐哀帝",
+      "polity": "唐",
+      "deathHint": -908
+    },
+    {
+      "name": "唐殇帝",
+      "polity": "唐",
+      "deathHint": null
+    },
+    {
+      "name": "武则天",
+      "polity": "武周",
+      "deathHint": -705
+    },
+    {
+      "name": "安禄山",
+      "polity": "燕",
+      "deathHint": -757
+    },
+    {
+      "name": "安庆绪",
+      "polity": "燕",
+      "deathHint": -759
+    },
+    {
+      "name": "史思明",
+      "polity": "燕",
+      "deathHint": -761
+    },
+    {
+      "name": "史朝义",
+      "polity": "燕",
+      "deathHint": -763
+    },
+    {
+      "name": "黄巢",
+      "polity": "大齐",
+      "deathHint": -884
+    },
+    {
+      "name": "朱温",
+      "polity": "后梁",
+      "deathHint": -912
+    },
+    {
+      "name": "朱友珪",
+      "polity": "后梁",
+      "deathHint": -913
+    },
+    {
+      "name": "朱友贞",
+      "polity": "后梁",
+      "deathHint": -923
+    },
+    {
+      "name": "李存勖",
+      "polity": "后唐",
+      "deathHint": -926
+    },
+    {
+      "name": "李嗣源",
+      "polity": "后唐",
+      "deathHint": -933
+    },
+    {
+      "name": "李从厚",
+      "polity": "后唐",
+      "deathHint": -934
+    },
+    {
+      "name": "李从珂",
+      "polity": "后唐",
+      "deathHint": -936
+    },
+    {
+      "name": "石敬瑭",
+      "polity": "后晋",
+      "deathHint": -942
+    },
+    {
+      "name": "石重贵",
+      "polity": "后晋",
+      "deathHint": null
+    },
+    {
+      "name": "刘知远",
+      "polity": "后汉",
+      "deathHint": -948
+    },
+    {
+      "name": "刘承祐",
+      "polity": "后汉",
+      "deathHint": -950
+    },
+    {
+      "name": "郭威",
+      "polity": "后周",
+      "deathHint": -954
+    },
+    {
+      "name": "柴荣",
+      "polity": "后周",
+      "deathHint": -959
+    },
+    {
+      "name": "柴宗训",
+      "polity": "后周",
+      "deathHint": null
+    },
+    {
+      "name": "刘崇",
+      "polity": "北汉",
+      "deathHint": -954
+    },
+    {
+      "name": "刘钧",
+      "polity": "北汉",
+      "deathHint": null
+    },
+    {
+      "name": "杨行密",
+      "polity": "吴",
+      "deathHint": -905
+    },
+    {
+      "name": "杨渥",
+      "polity": "吴",
+      "deathHint": -908
+    },
+    {
+      "name": "杨隆演",
+      "polity": "吴",
+      "deathHint": -920
+    },
+    {
+      "name": "杨溥",
+      "polity": "吴",
+      "deathHint": -939
+    },
+    {
+      "name": "李昪",
+      "polity": "南唐",
+      "deathHint": -943
+    },
+    {
+      "name": "李璟",
+      "polity": "南唐",
+      "deathHint": null
+    },
+    {
+      "name": "王建",
+      "polity": "前蜀",
+      "deathHint": -918
+    },
+    {
+      "name": "王衍",
+      "polity": "前蜀",
+      "deathHint": -926
+    },
+    {
+      "name": "孟知祥",
+      "polity": "后蜀",
+      "deathHint": -934
+    },
+    {
+      "name": "孟昶",
+      "polity": "后蜀",
+      "deathHint": null
+    },
+    {
+      "name": "钱镠",
+      "polity": "吴越",
+      "deathHint": -932
+    },
+    {
+      "name": "钱元瓘",
+      "polity": "吴越",
+      "deathHint": -941
+    },
+    {
+      "name": "钱弘佐",
+      "polity": "吴越",
+      "deathHint": -947
+    },
+    {
+      "name": "钱弘倧",
+      "polity": "吴越",
+      "deathHint": null
+    },
+    {
+      "name": "钱弘俶",
+      "polity": "吴越",
+      "deathHint": null
+    },
+    {
+      "name": "王审知",
+      "polity": "闽",
+      "deathHint": -925
+    },
+    {
+      "name": "王延翰",
+      "polity": "闽",
+      "deathHint": -926
+    },
+    {
+      "name": "王延钧",
+      "polity": "闽",
+      "deathHint": -935
+    },
+    {
+      "name": "王昶",
+      "polity": "闽",
+      "deathHint": -939
+    },
+    {
+      "name": "王曦",
+      "polity": "闽",
+      "deathHint": -944
+    },
+    {
+      "name": "朱文进",
+      "polity": "闽",
+      "deathHint": -945
+    },
+    {
+      "name": "王延政",
+      "polity": "闽",
+      "deathHint": null
+    },
+    {
+      "name": "马殷",
+      "polity": "楚",
+      "deathHint": -930
+    },
+    {
+      "name": "马希声",
+      "polity": "楚",
+      "deathHint": -932
+    },
+    {
+      "name": "马希范",
+      "polity": "楚",
+      "deathHint": -947
+    },
+    {
+      "name": "马希广",
+      "polity": "楚",
+      "deathHint": -950
+    },
+    {
+      "name": "马希萼",
+      "polity": "楚",
+      "deathHint": null
+    },
+    {
+      "name": "马希崇",
+      "polity": "楚",
+      "deathHint": null
+    },
+    {
+      "name": "刘龑",
+      "polity": "南汉",
+      "deathHint": -942
+    },
+    {
+      "name": "刘玢",
+      "polity": "南汉",
+      "deathHint": -943
+    },
+    {
+      "name": "刘晟",
+      "polity": "南汉",
+      "deathHint": -958
+    },
+    {
+      "name": "刘鋹",
+      "polity": "南汉",
+      "deathHint": null
+    },
+    {
+      "name": "高季兴",
+      "polity": "荆南",
+      "deathHint": -928
+    },
+    {
+      "name": "高从诲",
+      "polity": "荆南",
+      "deathHint": -948
+    },
+    {
+      "name": "高保融",
+      "polity": "荆南",
+      "deathHint": null
+    },
+    {
+      "name": "耶律阿保机",
+      "polity": "辽",
+      "deathHint": -926
+    },
+    {
+      "name": "耶律德光",
+      "polity": "辽",
+      "deathHint": -947
+    },
+    {
+      "name": "耶律阮",
+      "polity": "辽",
+      "deathHint": -951
+    },
+    {
+      "name": "耶律璟",
+      "polity": "辽",
+      "deathHint": null
+    }
+  ]
+}

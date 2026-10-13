@@ -67,3 +67,14 @@ node scripts/check_reader.cjs
 数据维护：`scripts/people/reviewed.json` 保存核对记录和源段落校验值；`python scripts/build_people.py` 验证后生成 `dist/people-index.json` 及 `dist/people/*.json`。正文变化会拒绝使用旧记录；阅读并修订变化段落后才可执行 `--bind-reviewed-sources` 更新绑定。重建卷数据后也应运行此脚本检查人物出处。
 
 `node scripts/check_reader.cjs` 检查既有阅读功能；`python scripts/check_people_browser.py` 在本地临时 HTTP 服务和无头 Chromium 中验证人名、日期筛选、出处、段落深链、返回位置、浏览器后退与手机布局。浏览器检查需额外安装 Python `playwright`，优先使用系统 Chrome，或使用 `python -m playwright install chromium` 安装测试浏览器。
+
+
+## 专题：通鉴中的君主之死
+
+入口为 `dist/ruler-deaths.html`，主页导航和阅读导航区均有入口。沿用纸色与墨绿，以“一点一人”的君主结局点阵、死因环图与条形图、分时代100%堆叠图、四段原文案例及可筛选表格呈现。支持姓名与因素搜索、时代/政权/结局筛选、排序、分页、筛选地址恢复、CSV导出、原文详情及卷年段落跳转。
+
+当前逐条绑定291位实际君主的死亡记载，覆盖周、战国至五代及契丹，含先秦称公侯的国君、帝王和独立政权君主，不纳入仅有王爵的普通宗室。当前并非全书君主的穷尽名单，图表和百分比仅代表已收录记录。每人只计一次；“崩、薨、卒”不自动归为病死或自然死亡，所引段未述死因的126条和记载存疑/多因的5条均保留在分母内。病中去世记录病情上下文，不作现代医学诊断；服药相关与确切置毒、鸩杀分别处理。表格按通鉴条目记载年定位，追叙及附叙不保证与实际卒年相同，正文解释中保留时间提示。
+
+人工核对记录位于 `scripts/rulers/reviewed.json`，每条解释都绑定原文、卷、年、段落及源段落校验值。`scripts/rulers/registry.json` 是检索候选名单，卒年仅是定位线索，不作为统计来源，也不自动发布。运行 `python scripts/build_ruler_deaths.py` 校验并生成 `dist/ruler-deaths.json`；构建脚本不从关键词自动判断死因。来源变化时会拒绝旧绑定，必须重新核对后才可用 `--bind-reviewed-sources` 更新。
+
+校验：`python scripts/check_ruler_deaths_browser.py`，检查逐条原文对应、人数与分类总和、图表和筛选同步、分页、筛选地址恢复、原文深链、CSV导出、空结果与桌面/平板/390px/320px手机布局，截图存于 `artifacts/ruler-deaths/`。页面数据与全书正文、白话及已有档案数据分开维护。

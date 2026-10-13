@@ -1,0 +1,4144 @@
+{
+  "schemaVersion": 1,
+  "scope": "前403年至959年，通鉴明确出现的实际君主；当前已核对死亡记载，并非全部君主的穷尽清单。",
+  "records": [
+    {
+      "name": "周威烈王",
+      "polity": "周",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 402,
+        "anchor": 0,
+        "sourceHash": "a36a20879dd4ee052fb9fe0080f872087b63309a159aa6195f9f7de861f5ee49"
+      },
+      "evidence": "王崩，子安王骄立。",
+      "year": 402
+    },
+    {
+      "name": "周安王",
+      "polity": "周",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 376,
+        "anchor": 0,
+        "sourceHash": "bc01928da38f9ffe663d6d3a4415cca83a1465d1724532336da571105940888a"
+      },
+      "evidence": "王崩，子烈王喜立。",
+      "year": 376
+    },
+    {
+      "name": "周烈王",
+      "polity": "周",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 369,
+        "anchor": 1,
+        "sourceHash": "2372132d14688fc10c630874bf217da6b1de8266f72ddb7e69823982d492762c"
+      },
+      "evidence": "王崩，弟扁立，是为显王。",
+      "year": 369
+    },
+    {
+      "name": "周显王",
+      "polity": "周",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 321,
+        "anchor": 0,
+        "sourceHash": "0b421a17887b55b5a8e8361c1ddda855eaa61ac8795b3cada3a97d497e9f2bc9"
+      },
+      "evidence": "王崩，子慎靓王定立。",
+      "year": 321
+    },
+    {
+      "name": "周慎靓王",
+      "polity": "周",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 3,
+        "year": 315,
+        "anchor": 0,
+        "sourceHash": "e277bb4c1958d36596c92cd1aef1c6348ce0476150fb4437d90cae8a7d33c636"
+      },
+      "evidence": "王崩，子赧王延立。",
+      "year": 315
+    },
+    {
+      "name": "周赧王",
+      "polity": "周",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 5,
+        "year": 256,
+        "anchor": 0,
+        "sourceHash": "ce43be5729cdf9c320fbb2fc6cd73ceb3cb48ebc78115e5d74f9082e663d394c"
+      },
+      "evidence": "秦将军摎伐韩，取阳城、负黍，斩首四万。伐赵，取二十余县，斩首虏九万。赧王恐，背秦，与诸侯约从，将天下锐师出伊阙攻秦，令无得通阳城。秦王使将军摎攻西周，赧王入秦，顿首受罪，尽献其邑三十六，口三万。秦受其献，归赧王于周。是岁，赧王崩。",
+      "year": 256
+    },
+    {
+      "name": "秦简公",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 400,
+        "anchor": 4,
+        "sourceHash": "c81b7ba8f227829468deb7b8bc8805e75c27db5e9682106f9a9068a507749b77"
+      },
+      "evidence": "秦简公薨，子惠公立。",
+      "year": 400
+    },
+    {
+      "name": "秦惠公",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 387,
+        "anchor": 6,
+        "sourceHash": "a835b901b0c1b503a4ec6351932eef335356360b0e9b730a0fd32a85f399a92a"
+      },
+      "evidence": "秦惠公薨，子出公立。",
+      "year": 387
+    },
+    {
+      "name": "秦献公",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 362,
+        "anchor": 4,
+        "sourceHash": "81605b164c10219238494e4f8a3b9dacbc953d3915a2d957abc61268eab07b05"
+      },
+      "evidence": "秦献公薨，子孝公立。孝公生二十一年矣。是时河、山以东强国六，淮、泗之间小国十余，楚、魏与秦接界。魏筑长城，自郑滨洛以北有上郡；楚自汉中，南有巴、黔中：皆以夷翟遇秦，摈斥之，不得与中国之会盟。于是孝公发愤，布德修政，欲以强秦。",
+      "year": 362
+    },
+    {
+      "name": "秦孝公",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 338,
+        "anchor": 0,
+        "sourceHash": "6173749a2f219725ca445fef86926620694ca62ea25087df5e4646fdd2ae7dd0"
+      },
+      "evidence": "秦孝公薨，子惠文王立。公子虔之徒告商君欲反，发吏捕之。商君亡之魏；魏人不受，复内之秦。商君乃与其徒之商于，发兵北击郑，秦人攻商君，杀之，车裂以徇，尽灭其家。",
+      "year": 338
+    },
+    {
+      "name": "秦惠文王",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 3,
+        "year": 311,
+        "anchor": 6,
+        "sourceHash": "f8347f8037fe9381b02a36ee182016c19ab912f35e3ae726870b39fda34bd774"
+      },
+      "evidence": "张仪归报，未至咸阳，秦惠王薨，子武王立。武王自为太子时，不说张仪；及即位，群臣多毁短之。诸侯闻仪与秦王有隙，皆畔衡，复合从。",
+      "year": 311
+    },
+    {
+      "name": "秦昭襄王",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 251,
+        "anchor": 0,
+        "sourceHash": "f8cd12db16f4101936ae943104c12200d4e612fa651439b1659f337689b8f1b2"
+      },
+      "evidence": "秋，王薨，孝文王立。尊唐八子为唐太后，以子楚为太子。赵人奉子楚妻子归之。韩王衰绖入吊祠。",
+      "year": 251
+    },
+    {
+      "name": "秦庄襄王",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 247,
+        "anchor": 4,
+        "sourceHash": "324518a40af94fe4321b617e2bb60465ad2afd263614812f6225863efb6a994d"
+      },
+      "evidence": "五月，丙午，王薨。太子政立，生十三年矣，国事皆决于文信侯，号称仲父。",
+      "year": 247
+    },
+    {
+      "name": "晋烈公",
+      "polity": "晋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 393,
+        "anchor": 1,
+        "sourceHash": "40f45fade876ae630a719492f10d2d9ce836a02986ba27d650794f5ecfd873ea"
+      },
+      "evidence": "晋烈公薨，子孝公倾立。",
+      "year": 393
+    },
+    {
+      "name": "晋孝公",
+      "polity": "晋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 378,
+        "anchor": 2,
+        "sourceHash": "188feb03c69830803382b06e09d38efc442b5e2f9965765f24b1c8632e1aaa26"
+      },
+      "evidence": "晋孝公薨，子靖公俱酒立。",
+      "year": 378
+    },
+    {
+      "name": "齐康公",
+      "polity": "齐",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 379,
+        "anchor": 1,
+        "sourceHash": "297ef282621fe5c56ebddf18cf94b774d07c2f6cf7577aa5e846c3e0904a8984"
+      },
+      "evidence": "齐康公薨，无子，田氏遂并齐而有之。",
+      "year": 379
+    },
+    {
+      "name": "齐太公",
+      "polity": "齐",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 385,
+        "anchor": 2,
+        "sourceHash": "9330c536a13c0a88b7226e8eded0662b5d01919948adfb722780b692935cbe1a"
+      },
+      "evidence": "齐太公薨，子桓公午立。",
+      "year": 385
+    },
+    {
+      "name": "齐威王",
+      "polity": "齐",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 333,
+        "anchor": 11,
+        "sourceHash": "e043ad633171bb2ef3e3e2473f1a4c146efeae504f03f7866dd36c89c87e080f"
+      },
+      "evidence": "齐威王薨，子宣王辟强立；知成侯卖田忌，乃召而复之。",
+      "year": 333
+    },
+    {
+      "name": "齐宣王",
+      "polity": "齐",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 3,
+        "year": 314,
+        "anchor": 6,
+        "sourceHash": "6c6b0e58dde9ff6adfcf4d79ec777e4605f5a43c9ea77f1672cba227ac380f4f"
+      },
+      "evidence": "是岁，齐宣王薨，子闵王地立。",
+      "year": 314
+    },
+    {
+      "name": "齐襄王",
+      "polity": "齐",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 5,
+        "year": 265,
+        "anchor": 5,
+        "sourceHash": "dbad0ab3a62fcda0f5a10a5c4b61f0930f8e8a329060cb201c4dfe72b000ef58"
+      },
+      "evidence": "齐襄王薨，子建立。建年少，国事皆决于君王后。",
+      "year": 265
+    },
+    {
+      "name": "楚悼王",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 381,
+        "anchor": 0,
+        "sourceHash": "9ae42c9c507a6d8e8749b0f317c0226951c590ba39333bc1a8e0ebf2a437ac98"
+      },
+      "evidence": "楚悼王薨。贵戚大臣作乱，攻吴起；起走之王尸而伏之。击起之徒因射刺起，并中王尸。既葬，肃王即位，使令尹尽诛为乱者；坐起夷宗者七十余家。",
+      "year": 381
+    },
+    {
+      "name": "楚肃王",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 370,
+        "anchor": 4,
+        "sourceHash": "3f269572e5a56d8d3a630b9a6d5c08d14d67d03a6b5d02530a63be1fe1f11a7d"
+      },
+      "evidence": "楚肃王薨，无子，立其弟良夫，是为宣王。",
+      "year": 370
+    },
+    {
+      "name": "楚宣王",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 340,
+        "anchor": 5,
+        "sourceHash": "540324de05d6e455ff956cab8226b8d823669fbdebde0f34199485df23d26413"
+      },
+      "evidence": "楚宣王薨，子威王商立。",
+      "year": 340
+    },
+    {
+      "name": "楚威王",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 329,
+        "anchor": 1,
+        "sourceHash": "c7c9d5748c760d1de8a8739ebe4edf8cf9b653b3e63b9897832abcbf46dc9828"
+      },
+      "evidence": "楚威王薨，子怀王槐立。",
+      "year": 329
+    },
+    {
+      "name": "楚幽王",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 228,
+        "anchor": 3,
+        "sourceHash": "b0480fdb5b25fb6ea4b5c38be5fa85e96c84baa7850aed390e38e6adde9cbc62"
+      },
+      "evidence": "楚幽王薨，国人立其弟郝。三月，郝庶兄负刍杀之，自立。",
+      "year": 228
+    },
+    {
+      "name": "燕愍公",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 403,
+        "anchor": 30,
+        "sourceHash": "161375e34e5610cad08baba7ed41e6b48f160cb7b28cce71d698a70e6c4cdad3"
+      },
+      "evidence": "燕愍公薨，子僖公立。",
+      "year": 403
+    },
+    {
+      "name": "燕僖公",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 373,
+        "anchor": 3,
+        "sourceHash": "59f71fabba7cf574c379d325e3ac48f19a093a339994c409a09bfab00e4e3a1f"
+      },
+      "evidence": "燕僖公薨，子桓公立。",
+      "year": 373
+    },
+    {
+      "name": "燕桓公",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 362,
+        "anchor": 3,
+        "sourceHash": "c73f7e4cef3f319a20fb127b8a82225fdd7ee0c595cbee7ba0a3a7c617832acf"
+      },
+      "evidence": "燕桓公薨，子文公立。",
+      "year": 362
+    },
+    {
+      "name": "燕文公",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 333,
+        "anchor": 12,
+        "sourceHash": "542e3c5a8ec40b0dad31e1d361f46f7ffbf94e95c200308ac070b0ba6e49f2a0"
+      },
+      "evidence": "燕文公薨，子易王立。",
+      "year": 333
+    },
+    {
+      "name": "燕易王",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 321,
+        "anchor": 1,
+        "sourceHash": "aa87513daf386ddedaed94d4c42cdd9e2e34ef753e80b8e1c7ad0f772dc59ff6"
+      },
+      "evidence": "燕易王薨，子哙立。",
+      "year": 321
+    },
+    {
+      "name": "燕昭王",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 279,
+        "anchor": 5,
+        "sourceHash": "37cc672777cd2ffd3a595cf928c841bfb8d437c433d87877083fa6a198d4894a"
+      },
+      "evidence": "顷之，昭王薨，惠王立。惠王自为太子时，尝不快于乐毅。田单闻之，乃纵反间于燕，宣言曰：“齐王已死，城之不拔者二耳。乐毅与燕新王有隙，畏诛而不敢归，以伐齐为名，实欲连兵南面王齐。齐人未附，故且缓攻即墨以待其事。齐人所惧，唯恐他将之来，即墨残矣。”燕王固已疑乐毅，得齐反间，乃使骑劫代将而召乐毅。乐毅知王不",
+      "year": 279
+    },
+    {
+      "name": "燕惠王",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 5,
+        "year": 272,
+        "anchor": 3,
+        "sourceHash": "0721e2e48a0711edacb7232a188f4eff1c5cf965ba3df6b7e515022c2085e9c5"
+      },
+      "evidence": "燕惠王薨，子武成王立。",
+      "year": 272
+    },
+    {
+      "name": "燕武成王",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 5,
+        "year": 258,
+        "anchor": 3,
+        "sourceHash": "1298ea18aea1d149b5ed44482c4403c3ed911a22d1d839e021ab3b11550252ba"
+      },
+      "evidence": "燕武成王薨，子孝王立。",
+      "year": 258
+    },
+    {
+      "name": "燕孝王",
+      "polity": "燕",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 255,
+        "anchor": 7,
+        "sourceHash": "987d1dbb0ad6911dfdc070e8c45b695195e8c71ade18ff36be06ee5882ec7fcf"
+      },
+      "evidence": "燕孝王薨，子喜立。",
+      "year": 255
+    },
+    {
+      "name": "赵烈侯",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 400,
+        "anchor": 3,
+        "sourceHash": "866336bf50d3013297e72e879c893f6e503cca5096a8f49f383d8cda24f169bc"
+      },
+      "evidence": "赵烈侯薨，国人立其弟武侯。",
+      "year": 400
+    },
+    {
+      "name": "赵武侯",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 387,
+        "anchor": 7,
+        "sourceHash": "e603f7185904778175a0487d85b314afa81c475c2e0881afb1a7bd2b75eeeb23"
+      },
+      "evidence": "赵武侯薨，国人复立烈侯之太子章，是为敬侯。",
+      "year": 387
+    },
+    {
+      "name": "赵敬侯",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 375,
+        "anchor": 2,
+        "sourceHash": "4499deb5b64908eebd98406fe527cb69cf1896ab415cfd51a1c04a9c3d584807"
+      },
+      "evidence": "赵敬侯薨，子成侯种立。",
+      "year": 375
+    },
+    {
+      "name": "赵成侯",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 350,
+        "anchor": 2,
+        "sourceHash": "e072f77d371a93db8190befa5d3789dad08a5b5d9e77aa816d99269c0bac8750"
+      },
+      "evidence": "赵成侯薨，公子绁与太子争立；绁败，奔韩。",
+      "year": 350
+    },
+    {
+      "name": "赵肃侯",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 326,
+        "anchor": 0,
+        "sourceHash": "6da2805b907dd6f996ddd2ae7b99b0c589e98d78c9d8509ad2435d863fed1919"
+      },
+      "evidence": "赵肃侯薨：子武灵王立；置博闻师三人，左、右司过三人，先问先君贵臣肥义，加其秩。",
+      "year": 326
+    },
+    {
+      "name": "赵惠文王",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 5,
+        "year": 266,
+        "anchor": 2,
+        "sourceHash": "f8178becc08f95c48ef66160cc160e4d7e0b673b87009ba280199578e315d147"
+      },
+      "evidence": "赵惠文王薨，子孝成王丹立；以平原君为相。",
+      "year": 266
+    },
+    {
+      "name": "赵孝成王",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 245,
+        "anchor": 1,
+        "sourceHash": "ef5356b6e497630e7ccb3bd5408afb70aaf2f1efbdf2f845a245dbf8c572d015"
+      },
+      "evidence": "赵以廉颇为假相国，伐魏，取繁阳。赵孝成王薨，子悼襄王立，使武襄君乐乘代廉颇。廉颇怒，攻武襄君，武襄君走。廉颇出奔魏；久之，魏不能信用。赵师数困于秦，赵王思复得廉颇，廉颇亦思复用于赵。赵王使使者视廉颇尚可用否。廉颇之仇郭开多与使者金，令毁之。廉颇见使者，一饭斗米，肉十斤，被甲上马，以示可用，使者还报曰",
+      "year": 245
+    },
+    {
+      "name": "赵悼襄王",
+      "polity": "赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 236,
+        "anchor": 1,
+        "sourceHash": "6498180804ca98b7d6a7000edf027e53360cf612cf76a8e7771059c80152ff83"
+      },
+      "evidence": "赵悼襄王薨，子幽缪王迁立。其母，倡也，嬖于悼襄王，悼襄王废嫡子嘉而立之。迁素以无行闻于国。",
+      "year": 236
+    },
+    {
+      "name": "魏文侯",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 387,
+        "anchor": 1,
+        "sourceHash": "4baf2e063273ccee97ac8195bdcce4ddf4826a3e544445421bbe01e6b22e9103"
+      },
+      "evidence": "魏文侯薨，太子击立，是为武侯。",
+      "year": 387
+    },
+    {
+      "name": "魏武侯",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 371,
+        "anchor": 2,
+        "sourceHash": "c551507f81f6e3c499eae7d89a634f22824e3f822f960647063c6a3f45239fe4"
+      },
+      "evidence": "魏武侯薨，不立太子，子罃与公中缓争立，国内乱。",
+      "year": 371
+    },
+    {
+      "name": "魏惠王",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 3,
+        "year": 319,
+        "anchor": 1,
+        "sourceHash": "f3d76f2e0c6872b03c9e32c857ebf8c97d37e7054dd9ca52034c1bceb56b7580"
+      },
+      "evidence": "魏惠王薨，子襄王立。",
+      "year": 319
+    },
+    {
+      "name": "魏襄王",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 296,
+        "anchor": 3,
+        "sourceHash": "6c4de756a8824bb187fa36d14b844c03dc6b88fb7217a988b9762b89048acc54"
+      },
+      "evidence": "魏襄王薨，子昭王立。",
+      "year": 296
+    },
+    {
+      "name": "魏昭王",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 277,
+        "anchor": 1,
+        "sourceHash": "f53bd56f9f1a77c464681109faee1b81d113225adac57c8f64f7680ea58a3277"
+      },
+      "evidence": "魏昭王薨，子安厘王立。",
+      "year": 277
+    },
+    {
+      "name": "魏安釐王",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 243,
+        "anchor": 3,
+        "sourceHash": "ff32337c2427231fcf758423fc2ef5917e14a5e9bd6566cdafb21d403666887b"
+      },
+      "evidence": "魏安厘王薨，子景闵王立。",
+      "year": 243
+    },
+    {
+      "name": "魏景湣王",
+      "polity": "魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 228,
+        "anchor": 4,
+        "sourceHash": "0f3824e808046e5be41ee0aae1df9c4b134850a9e7df47d77dbef828ceb74469"
+      },
+      "evidence": "魏景闵王薨，子假立。",
+      "year": 228
+    },
+    {
+      "name": "韩景侯",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 400,
+        "anchor": 2,
+        "sourceHash": "abedd4fb49c281d32602e9c09bbe2d3bf7060b8bf87fc334bbaddddb808587b2"
+      },
+      "evidence": "韩景侯薨，子烈侯取立。",
+      "year": 400
+    },
+    {
+      "name": "韩烈侯",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 387,
+        "anchor": 8,
+        "sourceHash": "dca0c47599ce5679dd66beb5fbc3c04b4b3a4433db8642ea234a68534a2eace6"
+      },
+      "evidence": "韩烈侯薨，子文侯立。",
+      "year": 387
+    },
+    {
+      "name": "韩文侯",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 377,
+        "anchor": 5,
+        "sourceHash": "5f744e435d34bfd9d9deacdeb3579f0fa5869e7d81c706a899e35d061e723f2d"
+      },
+      "evidence": "韩文侯薨，子哀侯立。",
+      "year": 377
+    },
+    {
+      "name": "韩懿侯",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 359,
+        "anchor": 4,
+        "sourceHash": "42b9ff3d61f2b6ed6d9343e01135f896cb601e9c6d2189b598afa8f7efdc7ac8"
+      },
+      "evidence": "韩懿侯薨，子昭侯立。",
+      "year": 359
+    },
+    {
+      "name": "韩昭侯",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 333,
+        "anchor": 1,
+        "sourceHash": "9ad8709723a170d06ae23ff059d38127a57a52d69d144e3f1fa2d124c87eebb6"
+      },
+      "evidence": "韩高门成。昭侯薨，子宣惠王立。",
+      "year": 333
+    },
+    {
+      "name": "韩宣惠王",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 3,
+        "year": 312,
+        "anchor": 2,
+        "sourceHash": "396e658c0cc1c2473f69f2c22c70f04ed73f3542a9a7c631abbe6437e07866ef"
+      },
+      "evidence": "韩宣惠王薨，子襄王仓立。",
+      "year": 312
+    },
+    {
+      "name": "韩襄王",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 296,
+        "anchor": 4,
+        "sourceHash": "4a88b6c0d761287c9f8706e6df02886885eb2f2f40b69d676f1bd62fca926c28"
+      },
+      "evidence": "韩襄王薨，子厘王咎立。",
+      "year": 296
+    },
+    {
+      "name": "韩釐王",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 273,
+        "anchor": 1,
+        "sourceHash": "21b70b24d961696fd9ef9e2f54b6c2c5d3bf6949e99320293a3fd2419796ddc6"
+      },
+      "evidence": "韩厘王薨，子桓惠王立。",
+      "year": 273
+    },
+    {
+      "name": "韩桓惠王",
+      "polity": "韩",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 239,
+        "anchor": 1,
+        "sourceHash": "00064bdbc6b91f4d6549b19ffbe59c7642733b5f7baf3fb231d81f3b35727123"
+      },
+      "evidence": "韩桓惠王薨，子安立。",
+      "year": 239
+    },
+    {
+      "name": "鲁穆公",
+      "polity": "鲁",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 377,
+        "anchor": 4,
+        "sourceHash": "88d34445d17daf6b12dc231c0480f018fb546a3a4d2f6a0cde5f861348bfd3f0"
+      },
+      "evidence": "鲁穆公薨，子共公奋立。",
+      "year": 377
+    },
+    {
+      "name": "鲁共公",
+      "polity": "鲁",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 355,
+        "anchor": 2,
+        "sourceHash": "58e5c5ec4cf04496d48f35ee6d7424eb494931c25fe7f5b64bc03836881dfee0"
+      },
+      "evidence": "鲁共公薨，子康公毛立。",
+      "year": 355
+    },
+    {
+      "name": "鲁康公",
+      "polity": "鲁",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 346,
+        "anchor": 1,
+        "sourceHash": "ff72688c7faa9f104802d05d5cc151b6c80b14ebd502975b2150f4ca7a7683f8"
+      },
+      "evidence": "鲁康公薨，子景公偃立。",
+      "year": 346
+    },
+    {
+      "name": "鲁景公",
+      "polity": "鲁",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 3,
+        "year": 317,
+        "anchor": 3,
+        "sourceHash": "4254273140af2b1621c476a3a1cf6e493591505c4a1fa358aca99e95bec0b5f3"
+      },
+      "evidence": "鲁景公薨，子平公旅立。",
+      "year": 317
+    },
+    {
+      "name": "鲁平公",
+      "polity": "鲁",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 297,
+        "anchor": 1,
+        "sourceHash": "425b936f93dd6857e6d3602bb39537e62bcc22a0fe53b4672acdbbb2e97b14f3"
+      },
+      "evidence": "鲁平公薨，子缗公贾立。",
+      "year": 297
+    },
+    {
+      "name": "宋悼公",
+      "polity": "宋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 396,
+        "anchor": 1,
+        "sourceHash": "da78ccde37fef3f6fb09134190360e3133c340c3f26b00bf3206242d46df5f29"
+      },
+      "evidence": "宋悼公薨，子休公田立。",
+      "year": 396
+    },
+    {
+      "name": "宋休公",
+      "polity": "宋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 373,
+        "anchor": 4,
+        "sourceHash": "6731ee8152ee732b42eeeb0d883bd84304ebcebafc21f415b253c37e21f3d317"
+      },
+      "evidence": "宋休公薨，子辟公立。",
+      "year": 373
+    },
+    {
+      "name": "宋辟公",
+      "polity": "宋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 370,
+        "anchor": 5,
+        "sourceHash": "0407d4eef50b749b5e8fbc5fd2d4db43cce688418945c8a392155a0dd3bb2090"
+      },
+      "evidence": "宋辟公薨，子剔成立。",
+      "year": 370
+    },
+    {
+      "name": "卫慎公",
+      "polity": "卫",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 1,
+        "year": 373,
+        "anchor": 5,
+        "sourceHash": "5e43d777ab7ce981a81e44a475a0a0e80a7c0d0a1c65311c744a08a9d223f1e8"
+      },
+      "evidence": "卫慎公薨，子声公训立。",
+      "year": 373
+    },
+    {
+      "name": "卫声公",
+      "polity": "卫",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 362,
+        "anchor": 2,
+        "sourceHash": "434ece936ce54015f5b3a5922587daf0c9f3b78f36858ec53c8c52a72d9e1ca6"
+      },
+      "evidence": "卫声公薨，子成侯速立。",
+      "year": 362
+    },
+    {
+      "name": "卫成侯",
+      "polity": "卫",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 333,
+        "anchor": 13,
+        "sourceHash": "fc82d95e6b5ab9da241b812293bbc32c14c0e03f98f277216ea0431e3b9021e2"
+      },
+      "evidence": "卫成侯薨，子平侯立",
+      "year": 333
+    },
+    {
+      "name": "卫平侯",
+      "polity": "卫",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 2,
+        "year": 325,
+        "anchor": 1,
+        "sourceHash": "9cc58ce960220e64d2e68c393837b26b33524adc29338679b8b230c39a232acc"
+      },
+      "evidence": "卫平侯薨，子嗣君立。卫有胥靡亡之魏，因为魏王之后治病。嗣君闻之，请以五十金买之。五反，魏不与，乃以左氏易之。左右谏曰：“夫以一都买一胥靡，可乎？”嗣君曰：“非子所知也！夫治无小，乱无大。法不立，诛不必，虽有十左氏，无益也。法立，诛必，失十左氏，无害也。”魏王闻之曰：“人主之欲，不听之不祥。”因载而往",
+      "year": 325
+    },
+    {
+      "name": "卫嗣君",
+      "polity": "卫",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 4,
+        "year": 283,
+        "anchor": 3,
+        "sourceHash": "14221c8be276f22b77307395f7f0eddaf273e84292e0d404adc11a6cd9cf4cbd"
+      },
+      "evidence": "卫嗣君薨，子怀君立。嗣君好察微隐，县令有发褥而席弊者，嗣君闻之，乃赐之席。令大惊，以君为神。又使人过关市，赂之以金，既而召关市，问有客过与汝金，汝回遣之；关市大恐。又爱泄姬，重如耳，而恐其因爱重以壅己也，乃贵薄疑以敌如耳，尊魏妃以偶泄姬，曰：“以是相参也。”",
+      "year": 283
+    },
+    {
+      "name": "卫元君",
+      "polity": "卫",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 6,
+        "year": 230,
+        "anchor": 3,
+        "sourceHash": "5396b42489cdcdf85afe305e04a9826bdf00275ad9b457526585dbf4801d8121"
+      },
+      "evidence": "卫元君薨，子角立。",
+      "year": 230
+    },
+    {
+      "name": "汉惠帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 12,
+        "year": 188,
+        "anchor": 3,
+        "sourceHash": "115139087849dc24645b10f257f4ca209ab3043ddd76748c73ac0a3baa34d388"
+      },
+      "evidence": "秋，八月，戊寅，帝崩于未央宫。大赦天下。九月，辛丑，葬安陵。",
+      "year": 188
+    },
+    {
+      "name": "汉文帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 15,
+        "year": 157,
+        "anchor": 0,
+        "sourceHash": "a487a1a8bf1da4c7364b9a0143413a5f4b4c17a85050901068349655ecf7c734"
+      },
+      "evidence": "夏，六月，己亥，帝崩于未央宫。遗诏曰：“朕闻之：盖天下万物之萌生，靡不有死；死者，天地之理，万物之自然，奚可甚哀！当今之世，咸嘉生而恶死，厚葬以破业，重服以伤生，吾甚不取。且朕既不德，无以佐百姓；今崩，又使重服久临以罹寒暑之数，哀人父子，伤长老之志，损其饮食，绝鬼神之祭祀，以重吾不德，谓天下何！朕获",
+      "year": 157
+    },
+    {
+      "name": "汉景帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 16,
+        "year": 141,
+        "anchor": 4,
+        "sourceHash": "99dfb133302163efb4b0cc7ad90e8a02cce1e1d9368263f22abccefba067445a"
+      },
+      "evidence": "甲子，帝崩于未央宫。太子即皇帝位，年十六。尊皇太后为太皇太后，皇后为皇太后。",
+      "year": 141
+    },
+    {
+      "name": "汉武帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 22,
+        "year": 87,
+        "anchor": 1,
+        "sourceHash": "34998b7b22a3675bd8fb0ee6167e543b7a9b16e5257292d06fec8f5279fb022d"
+      },
+      "evidence": "上病笃，霍光涕泣问曰：“如有不讳，谁当嗣者？”上曰：“君未谕前画意邪？立少子，君行周公之事！”光顿首让曰：“臣不如金日磾！”日磾亦曰：“臣，外国人，不如光；且使匈奴轻汉矣！”乙丑，诏立弗陵为皇太子，时年八岁。丙寅，以光为大司马、大将军，日磾为车骑将军，太仆上官桀为左将军，受遗诏辅少主，又以搜粟都尉桑",
+      "year": 87
+    },
+    {
+      "name": "汉昭帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 24,
+        "year": 74,
+        "anchor": 1,
+        "sourceHash": "ba0d37518f88426cc14b03d219f05ad4e6d0425caa4a074ffcf5c1622e0801c0"
+      },
+      "evidence": "夏，四月，癸未，帝崩于未央宫；无嗣。时武帝子独有广陵王胥，大将军光与群臣议所立，咸持广陵王。王本以行失道，先帝所不用；光内不自安。郎有上书言：“周太王废太伯立王季，文王舍伯邑考立武王，唯在所宜，虽废长立少可也。广陵王不可以承宗庙。”言合光意。光以其书示丞相敞等，擢郎为九江太守。即日承皇后诏，遣行大鸿",
+      "year": 74
+    },
+    {
+      "name": "汉宣帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 27,
+        "year": 49,
+        "anchor": 3,
+        "sourceHash": "7d9f9f6e7f1e105a06c1eac52c3b559cdd645067b3b0b1aa709724da0244e85a"
+      },
+      "evidence": "帝寝疾，选大臣可属者，引外属侍中乐陵侯史高、太子太傅萧望之、少傅周堪至禁中，拜高为大司马、车骑将军，望之为前将军、光禄勋，堪为光禄大夫，皆受遗诏辅政，领尚书事。冬，十二月，甲戌，帝崩于未央宫。",
+      "year": 49
+    },
+    {
+      "name": "汉元帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 29,
+        "year": 33,
+        "anchor": 14,
+        "sourceHash": "be9617820871d9ee741526c1d2c68c41cccc40e70d629225286b9954306a0acb"
+      },
+      "evidence": "及上寝疾，傅昭仪、山阳王康常在左右，而皇后、太子希得进见。上疾稍侵，意忽忽不平，数问尚书以景帝时立胶东王故事。是时太子长舅阳平侯王凤为卫尉、侍中，与皇后、太子皆忧，不知所出。史丹以亲密臣得侍视疾，候上间独寝时，丹直入卧内，顿首伏青蒲上，涕泣而言曰：「皇太子以适长立，积十余年，名号系于百姓，天下莫不归",
+      "year": 33
+    },
+    {
+      "name": "汉成帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 33,
+        "year": 7,
+        "anchor": 6,
+        "sourceHash": "02d4d72a07d4ad221938e1579098bd2b9323c33d066aab84eaded61d97ba03c2"
+      },
+      "evidence": "丙戌，帝崩于未央宫。",
+      "year": 7
+    },
+    {
+      "name": "汉光武帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 44,
+        "year": -57,
+        "anchor": 1,
+        "sourceHash": "f155e0122ee629b214d6b94aab2c1223fb276d3b0ab6b90496cf2e16b774fcb2"
+      },
+      "evidence": "二月，戊戌，帝崩于南宫前殿，年六十二。帝每旦视朝，月昃乃罢，数引公卿、郎将讲论经理，夜分乃寐。皇太子见帝勤劳不怠，承间谏曰：「陛下有禹、汤之明，而失黄、老养性之福，愿颐爱精神，优游自宁。」帝曰：「我自乐此，不为疲也！」虽以征伐济大业，及天下既定，乃退功臣而进文吏，明慎政体，总揽权纲，量时度力，举无过",
+      "year": -57
+    },
+    {
+      "name": "汉明帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 45,
+        "year": -75,
+        "anchor": 4,
+        "sourceHash": "229b8076eda005658be6c3faf651486e4fe10c3a1e852a4a6e946a3b1c85c6aa"
+      },
+      "evidence": "八月，壬子，帝崩于东宫前殿，年四十八。遗诏：「无起寝庙，藏主于光烈皇后更衣别室。」",
+      "year": -75
+    },
+    {
+      "name": "汉章帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 47,
+        "year": -88,
+        "anchor": 3,
+        "sourceHash": "d6de977c38ae689ba1e16ce22574947f44660d33f507c20997fd744e01a36448"
+      },
+      "evidence": "壬辰，帝崩于章德前殿，年三十一。遗诏：「无起寝庙，一如先帝法制。」",
+      "year": -88
+    },
+    {
+      "name": "汉和帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 48,
+        "year": -105,
+        "anchor": 3,
+        "sourceHash": "f234624b2171852082b06fb6a07fea924ae08e878e4951283a21b3efc55212f1"
+      },
+      "evidence": "冬，十二月，辛未，帝崩于章德前殿。初，帝失皇子，前后十数，后生者辄隐秘养于民间，群臣无知者。及帝崩，邓皇后乃收皇子于民间。长子胜，有痼疾；少子隆，生始百余日，迎立以为皇太子，是夜，即皇帝位。尊皇后曰皇太后，太后临朝。是时新遭大忧，法禁未设，宫中亡大珠一箧；太后令欲考问，必有不辜，乃亲阅宫人，观察颜色",
+      "year": -105
+    },
+    {
+      "name": "汉殇帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 49,
+        "year": -106,
+        "anchor": 15,
+        "sourceHash": "b9c8d9a6a8cb542306ee9eaeb663af9afe5c06b636869eb1fbb6d78d5251c719"
+      },
+      "evidence": "八月，辛卯，帝崩。癸丑，殡于崇德前殿。太后与兄车骑将军骘、虎贲中郎将悝等定策禁中，其夜，使骘持节以王青盖车迎清河王子祜，斋于殿中。皇太后御崇德殿，百官皆吉服陪位，引拜祜为长安侯。乃下诏，以祜为孝和皇帝嗣，又作策命。有司读策毕，太尉奉上玺绶，即皇帝位，太后犹临朝。",
+      "year": -106
+    },
+    {
+      "name": "刘懿",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 51,
+        "year": -125,
+        "anchor": 13,
+        "sourceHash": "98d685883347fce3ea553799498dffb9c39f8afd5e5e21467553eedb15ff6d8a"
+      },
+      "evidence": "北乡侯病笃，中常侍孙程谓济阴王谒者长兴渠曰：「王以嫡统，本无失德；先帝用谗，遂玉废黜。若北乡侯不起，相与共断江京、阎显，事无不成者。」渠然之。又中黄门南阳王康，先为太子府史，及长乐太官丞京兆王国等并附同于程。江京谓阎显曰：「北乡侯病不解，国嗣宜以时定，何不早征诸王子，简所置所！」显以为然。辛亥，北乡",
+      "year": -125
+    },
+    {
+      "name": "汉顺帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 52,
+        "year": -144,
+        "anchor": 4,
+        "sourceHash": "61694172da166ddc9a03052a548449b79c555d533a4888a65c2d20f8dd53118e"
+      },
+      "evidence": "庚午，帝崩于玉堂前殿。太子即皇帝位，年二岁。尊皇后曰皇太后。太后临朝。丁丑，以太尉赵峻为太傅，大司农李固为太尉，参录尚书事。",
+      "year": -144
+    },
+    {
+      "name": "汉冲帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 52,
+        "year": -145,
+        "anchor": 0,
+        "sourceHash": "5364b03028345b17df67546019f340d3e1dfc4e7b2becde8a054cec4b87322c6"
+      },
+      "evidence": "春，正月，戊戌，帝崩于玉堂前殿。梁太后以扬、徐盗贼方盛，欲须所征诸王侯到乃发丧。太尉李固曰：「帝虽幼少，犹天下之父。今日崩亡，人神感动，岂有人子反共掩匿乎！昔秦皇沙丘之谋及近日北乡之事，皆秘不发丧，此天下大忌，不可之甚者也！」太后从之，即暮发丧。",
+      "year": -145
+    },
+    {
+      "name": "汉桓帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 56,
+        "year": -167,
+        "anchor": 12,
+        "sourceHash": "4a80f762cef62a5d46eb924cebc7c379cf676d7d1fd69adf26694417f2a02996"
+      },
+      "evidence": "丁丑，帝崩于德阳前殿。戊寅，尊皇后曰皇太后。太后临朝。初，窦后既立，御见甚稀，唯采女田圣等有宠。后素忌忍，帝梓宫尚在前殿，遂杀田圣。城门校尉窦武议立嗣，召侍御史河间刘鯈，问以国中宗室之贤者，鯈称解渎亭侯宏。宏着，河间孝王之曾孙也，祖淑，父苌，世封解渎亭侯。武乃人白太后，定策禁中，以鯈守光禄大夫，与中",
+      "year": -167
+    },
+    {
+      "name": "汉献帝",
+      "polity": "东汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 72,
+        "year": -234,
+        "anchor": 2,
+        "sourceHash": "67741c591d7f4def57d18a0213bd09e34612f06a7bec873c19de0a38198e72e4"
+      },
+      "evidence": "三月，庚寅，山阳公卒，帝素服发丧。",
+      "year": -234
+    },
+    {
+      "name": "曹芳",
+      "polity": "曹魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 80,
+        "year": -274,
+        "anchor": 17,
+        "sourceHash": "627ee29895e18c78128eb3dcd604204e4c4662da7c48fbffad81b9ad299bfc37"
+      },
+      "evidence": "是岁，邵陵厉公曹芳卒。初，芳之废迁金墉也，太宰中郎陈留范粲素服拜送，哀动左右；遂称疾不，出阳狂不言，寝所乘车，足不履地。子孙有婚宦大事，辄密谘焉，合者则色无变，不合则眠寝不安，妻子以此知其旨。子乔等三人，并弃学业，绝人事，侍疾家庭，足不出邑里。及帝即位，诏以二千石禄养病，君赐帛百匹，乔以父疾笃，辞不",
+      "year": -274
+    },
+    {
+      "name": "曹奂",
+      "polity": "曹魏",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 84,
+        "year": -302,
+        "anchor": 17,
+        "sourceHash": "922a01763917bc585ef57f7c66f0c145e799996d239d7680b3c601e13fea7d81"
+      },
+      "evidence": "是岁，陈留王薨，谥曰魏元皇帝。",
+      "year": -302
+    },
+    {
+      "name": "孙皓",
+      "polity": "孙吴",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 81,
+        "year": -283,
+        "anchor": 13,
+        "sourceHash": "44bc5b31e0f3bf4630e1450b72281b517d2f592ce7616fad35821510db83aac0"
+      },
+      "evidence": "归命侯孙晧卒。",
+      "year": -283
+    },
+    {
+      "name": "司马聃",
+      "polity": "东晋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 101,
+        "year": -361,
+        "anchor": 8,
+        "sourceHash": "b1f305f04caf1d340ba640e6749118d054697b45e34027ad1e2080507bfee670"
+      },
+      "evidence": "五月，丁巳，帝崩，无嗣。皇太后令曰：「琅邪王丕，中兴正统，义望情地，莫与为比，其以王奉大统！」于是百官备法驾迎于琅邪第。庚申，即皇帝位，大赦。壬戌，改封东海王奕为琅邪王。秋，七月，戊午，葬穆帝于永平陵，庙号孝宗。",
+      "year": -361
+    },
+    {
+      "name": "司马奕",
+      "polity": "东晋",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 106,
+        "year": -386,
+        "anchor": 44,
+        "sourceHash": "bbff0321b57163b839ff33028184edbc566c45f221ba7a3a7595bbead860f0d1"
+      },
+      "evidence": "甲申，海西公奕薨于吴。",
+      "year": -386
+    },
+    {
+      "name": "刘聪",
+      "polity": "汉赵",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 90,
+        "year": -318,
+        "anchor": 25,
+        "sourceHash": "b59ceb71c1851c4481d21fa6e59eacd3df49633a7aaffd8521f76e25ba9d2480"
+      },
+      "evidence": "汉主聪寝疾，征大司马曜为丞相，石勒为大将军，皆录尚书事，受遗诏辅政。曜、勒固辞。乃以曜为丞相、领雍州牧，勒为大将军、领幽、冀二州牧，勒辞不受。以上洛王景为太景为太宰，济南王骥为大司马，昌国公顗为太师，朱纪为太傅，呼延晏为太保，并录尚书事；范隆守尚书令、仪同三司，靳准为大司空、领司隶校尉，皆迭决尚书奏",
+      "year": -318
+    },
+    {
+      "name": "李势",
+      "polity": "成汉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 101,
+        "year": -361,
+        "anchor": 20,
+        "sourceHash": "004d160804ab19a4c73a7c544ec7f9623daf5f9f7341b49943454a18fcedaef7"
+      },
+      "evidence": "是岁，归义侯李势卒。",
+      "year": -361
+    },
+    {
+      "name": "张骏",
+      "polity": "前凉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 97,
+        "year": -346,
+        "anchor": 6,
+        "sourceHash": "3f6a7ddff5ec2a5f3cfcbbbf0a9988166be01012d47e926eaba7a5ea6dd0b0ed"
+      },
+      "evidence": "五月，丙戌，西平忠成公张骏薨。官属上世子垂华为使持节、大都督、太尉、护羌校尉、凉州牧、西平公、假凉王；赦其境内；尊嫡母严氏为大王太后，母马氏为王太后。",
+      "year": -346
+    },
+    {
+      "name": "乞伏国仁",
+      "polity": "西秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 107,
+        "year": -388,
+        "anchor": 13,
+        "sourceHash": "42344dfc7df6ec3a6e68c2bc407d9b74a55c85d2608023afc87ba4f8fca9473b"
+      },
+      "evidence": "六月，苑川王乞伏国仁卒，谥曰宣烈，庙号烈祖。其子公府尚幼，群下推国仁弟干归为大都督、大将军、大单于、河南王，大赦，改元太初。",
+      "year": -388
+    },
+    {
+      "name": "乞伏炽磐",
+      "polity": "西秦",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 121,
+        "year": -428,
+        "anchor": 12,
+        "sourceHash": "fcea447721d15020467041f63dfff381c5bce1667c6efa11592053a2d95d71a4"
+      },
+      "evidence": "五月，秦文昭王炽盘卒，太子暮末即立，大赦，改元永弘。",
+      "year": -428
+    },
+    {
+      "name": "沮渠无讳",
+      "polity": "北凉",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 124,
+        "year": -444,
+        "anchor": 17,
+        "sourceHash": "50e7a8ec3ddeef183d402fee02c2b75a848a602ba96a8621afce928adf43c160"
+      },
+      "evidence": "沮渠无讳卒，弟安周代立。",
+      "year": -444
+    },
+    {
+      "name": "沮渠安周",
+      "polity": "北凉",
+      "category": "killed",
+      "reason": "柔然攻高昌，杀沮渠安周。",
+      "source": {
+        "volume": 129,
+        "year": -460,
+        "anchor": 23,
+        "sourceHash": "94f1d6b0cb25e99d3ff40b15c11af44911eeb9fda3cb0fd752befcd7b9c5053e"
+      },
+      "evidence": "柔然攻高昌，杀沮渠安周，灭沮渠氏，以阚伯周为高昌王。高昌称王自此始。",
+      "year": -460
+    },
+    {
+      "name": "陈叔宝",
+      "polity": "陈",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 180,
+        "year": -604,
+        "anchor": 29,
+        "sourceHash": "f3ae8fc90cf169caa1bb9b2188c122a9c53fe023b7e63a440dec8966ce57c516"
+      },
+      "evidence": "壬子，陈叔宝卒；赠大将军、长城县公，谥曰炀。",
+      "year": -604
+    },
+    {
+      "name": "唐顺宗",
+      "polity": "唐",
+      "category": "unknown",
+      "reason": "所引段仅记上皇崩于兴庆宫，未述死因。",
+      "source": {
+        "volume": 237,
+        "year": -806,
+        "anchor": 3,
+        "sourceHash": "0b44066938629a3bebc5376df57f95d54777ec69e64d1e693f3cd0b6e0e38a69"
+      },
+      "evidence": "甲申，上皇崩于兴庆宫。",
+      "year": -806
+    },
+    {
+      "name": "唐文宗",
+      "polity": "唐",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 246,
+        "year": -840,
+        "anchor": 1,
+        "sourceHash": "fe8cef221cd656743301f8e34efd5ba47c29ee332d2cd767b0461e171b277ad7"
+      },
+      "evidence": "辛巳，上崩于太和殿。以杨嗣复摄耱宰。",
+      "year": -840
+    },
+    {
+      "name": "钱弘佐",
+      "polity": "吴越",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 287,
+        "year": -947,
+        "anchor": 24,
+        "sourceHash": "f781e824d3345e2d8fccc12d195944130ffa30cff9c1ae5d608ba1c4fc2b4c8d"
+      },
+      "evidence": "吴越忠献王弘佐卒。〔年二十。〕遗令以丞相弘倧为镇海、镇东节度使兼侍中。〔倧，徂冬翻。",
+      "year": -947
+    },
+    {
+      "name": "王审知",
+      "polity": "闽",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 274,
+        "year": -925,
+        "anchor": 15,
+        "sourceHash": "f3bf44a404e63f7d26c996d25af901cd4ce122d86b2d95d3227f8b983368d9ac"
+      },
+      "evidence": "辛未，闽忠懿王审知卒，子延翰自称威武留后。汀州民陈本聚众三万围汀州，延翰遣右军都监柳邕等将兵二万讨之。",
+      "year": -925
+    },
+    {
+      "name": "马殷",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 277,
+        "year": -930,
+        "anchor": 55,
+        "sourceHash": "d1de9983fb406e27c2668b3c4bf51910c33e0f9c70aa31a5679279a9dafe56c6"
+      },
+      "evidence": "己巳，楚王殷卒，遗命诸子，兄弟相继；置剑于祠堂，曰：「违吾命者戮之！」诸将议遣兵守四境，然后发丧，兵部侍郎黄损曰：「吾丧君有君，何备之有！宜遣使诣邻道告终称嗣而已。」",
+      "year": -930
+    },
+    {
+      "name": "耶律阿保机",
+      "polity": "辽",
+      "category": "unknown",
+      "reason": "所引死亡记载仅记崩、薨、卒等，未据此推断自然死亡。",
+      "source": {
+        "volume": 275,
+        "year": -926,
+        "anchor": 58,
+        "sourceHash": "8d2d9174671d1186813ad61e6238e0dfb01fe0ee9c3d4b9037201b1f5131e527"
+      },
+      "evidence": "辛巳，契丹主阿保机卒于夫余城，述律后召诸将及酋长难制者之妻，谓曰：「我今寡居，汝不可不效我。」又集其夫泣问曰：「汝思先帝乎﹖」对曰：「受先帝恩，岂得不思！」曰：「果思之，宜往见之。」遂杀之。",
+      "year": -926
+    },
+    {
+      "name": "秦武王",
+      "polity": "秦",
+      "category": "accident",
+      "reason": "秦武王与孟说举鼎，原文记“绝脉而薨”。",
+      "source": {
+        "volume": 3,
+        "year": 307,
+        "anchor": 1,
+        "sourceHash": "ee859a1efe6a3a01bbe35033160eab1e0c049bd58e3022ce37fd48987ccb4fde"
+      },
+      "evidence": "秦武王好以力戏，力士任鄙、乌获、孟说皆至大官。八月，王与孟说举鼎，绝脉而薨；族孟说。武王无子，异母弟稷为质于燕，国人逆而立之，是为昭襄王。昭襄王母芈八子，楚女也，实宣太后。",
+      "year": 307
+    },
+    {
+      "name": "秦始皇",
+      "polity": "秦",
+      "category": "illness",
+      "reason": "死亡前原文明确记“病益甚”，未记录具体病名。",
+      "source": {
+        "volume": 7,
+        "year": 210,
+        "anchor": 2,
+        "sourceHash": "6ccf9f2e524a8b82d03b1020c6b4d4e03c2286a70a477056ec08bab559e1f8ed"
+      },
+      "evidence": "始皇恶言死，群臣莫敢言死事。病益甚，乃令中车府令行符玺事赵高为书赐扶苏曰：“与丧，会咸阳而葬。”书已封，在赵高所，未付使者。秋，七月，丙寅，始皇崩于沙丘平台。丞相斯为上崩在外，恐诸公子及天下有变，乃秘之不发丧，棺载辒凉车中，故幸宦者骖乘。所至，上食、百官奏事如故，宦者辄从车中可其奏事。独胡亥、赵高及",
+      "year": 210
+    },
+    {
+      "name": "秦二世",
+      "polity": "秦",
+      "category": "suicide",
+      "reason": "赵高遣阎乐逼迫，二世自杀；逼迫是背景，自杀是方式。",
+      "source": {
+        "volume": 8,
+        "year": 207,
+        "anchor": 23,
+        "sourceHash": "f1d0ed3adf8b7c8e7ad84c5f8053d7c26b2ad5b1f6dc4d0dea9d93778f3077fe"
+      },
+      "evidence": "二世梦白虎啮其左骖马，杀之，心不乐，怪问占梦。卜曰：“泾水为祟。”二世乃斋于望夷宫，欲祠泾水，沈四白马。使使责襄高以盗贼事。高惧，乃阴与其婿咸阳令阎乐及弟赵成谋曰：“上不听谏；今事急，欲归祸于吾。欲易置上，更立子婴。子婴仁俭，百姓皆载其言。”乃使郎中令仆为内应，诈为有大贼，令乐召吏发卒追，劫乐母置高",
+      "year": 207
+    },
+    {
+      "name": "秦子婴",
+      "polity": "秦",
+      "category": "killed",
+      "reason": "降秦后，子婴被项羽杀害。",
+      "source": {
+        "volume": 9,
+        "year": 206,
+        "anchor": 12,
+        "sourceHash": "8b754972de64f3f6a50d79b5b77ee49e887911c2245f929dc254c4f3f94962cb"
+      },
+      "evidence": "居数日，项羽引兵西，屠咸阳，杀秦降王子婴，烧秦宫室，火三月不灭；收其货宝、妇女而东。秦民大失望。",
+      "year": 206
+    },
+    {
+      "name": "楚声王",
+      "polity": "楚",
+      "category": "killed",
+      "reason": "原文记盗杀楚声王。",
+      "source": {
+        "volume": 1,
+        "year": 402,
+        "anchor": 1,
+        "sourceHash": "3b7b828c6d30e7934bda19cd5c033bebe97cfba14016df69432e90802bf86bd5"
+      },
+      "evidence": "盗杀楚声王，国人立其子悼王。",
+      "year": 402
+    },
+    {
+      "name": "楚怀王",
+      "polity": "楚",
+      "category": "illness",
+      "reason": "被秦拘留期间发病，薨于秦；病名未详。",
+      "source": {
+        "volume": 4,
+        "year": 296,
+        "anchor": 0,
+        "sourceHash": "3822d46218ca971bf382d8c711cb42e1d9a44712ff0023b88207de37b3dc3af1"
+      },
+      "evidence": "楚怀王发病，薨于秦，秦人归其丧。楚人皆怜之，如悲亲戚。诸侯由是不直秦。",
+      "year": 296
+    },
+    {
+      "name": "楚顷襄王",
+      "polity": "楚",
+      "category": "illness",
+      "reason": "原文先记楚顷襄王疾病，随后记其薨。",
+      "source": {
+        "volume": 5,
+        "year": 263,
+        "anchor": 1,
+        "sourceHash": "8854938bbc0eccc48885e56481d40205b9d44907371b564a2cb39c74e9ec3f45"
+      },
+      "evidence": "楚顷襄王疾病。黄歇言于应侯曰：“今楚王疾恐不起，秦不如归其太子。太子得立，其事秦必重而德相国无穷，是亲与国而得储万乘也。不归，则咸阳布衣耳。楚更立君，必不事秦，是失与国而绝万乘之和，非计也。”应侯以告王。王曰：“令太子之傅先往问疾，反而后图之。”黄歇与太子谋曰：“秦之留太子，欲以求利也。今太子力未能",
+      "year": 263
+    },
+    {
+      "name": "楚考烈王",
+      "polity": "楚",
+      "category": "illness",
+      "reason": "原文记楚王病，十七日后薨；不要将随后春申君遇害混作楚王死因。",
+      "source": {
+        "volume": 6,
+        "year": 238,
+        "anchor": 7,
+        "sourceHash": "85038d25d9067c3d54f76df283f2b845577abbe15be807b02034669f1ed98f67"
+      },
+      "evidence": "李园妹为王后，李园亦贵用事，而恐春申君泄其语，阴养死士，欲杀春申君以灭口；国人颇有知之者。楚王病，朱英谓春申君曰：“世有无望之福，亦有无望之祸。今君处无望之世，事无望之主，安可以无无望之人乎！”春申君曰：“何谓无望之福？”曰：“君相楚二十余年矣，虽名相国，其实王也。王今病，旦暮薨，薨而君相幼主，因而",
+      "year": 238
+    },
+    {
+      "name": "楚哀王",
+      "polity": "楚",
+      "category": "killed",
+      "reason": "原文所称郝为楚哀王；其庶兄负刍杀之自立。",
+      "source": {
+        "volume": 6,
+        "year": 228,
+        "anchor": 3,
+        "sourceHash": "b0480fdb5b25fb6ea4b5c38be5fa85e96c84baa7850aed390e38e6adde9cbc62"
+      },
+      "evidence": "楚幽王薨，国人立其弟郝。三月，郝庶兄负刍杀之，自立。",
+      "year": 228
+    },
+    {
+      "name": "燕王哙",
+      "polity": "燕",
+      "category": "killed",
+      "reason": "齐军取燕，杀燕王哙。",
+      "source": {
+        "volume": 3,
+        "year": 314,
+        "anchor": 2,
+        "sourceHash": "bc2702bf93dc312db69afdaf03f54d2538f650be7352dc6d50e9705106f38003"
+      },
+      "evidence": "燕子之为王三年，国内大乱。将军市被与太子平谋攻子之。齐王令人谓太子曰：“寡人闻太子将饬君臣之义，明父子之位，寡人之国唯太子所以令之。”太子因要党聚众，使市被攻子之，不克。市被反攻太子。构难数月，死者数万人，百姓恫恐。齐王令章子将五都之兵，因北地之众以伐燕。燕士卒不战，城门不闭。齐人取子之，醢之，遂杀",
+      "year": 314
+    },
+    {
+      "name": "赵武灵王",
+      "polity": "赵",
+      "category": "starved",
+      "reason": "主父即赵武灵王，被围沙丘宫不得食，三月余饿死。",
+      "source": {
+        "volume": 4,
+        "year": 295,
+        "anchor": 5,
+        "sourceHash": "0ba1a106719f0858183606f73ef41fe173bd7fd7a252a8802adca871399391eb"
+      },
+      "evidence": "公子章之败也，往走主父；主父开之。成、兑因围主父。公子章死，成、兑谋曰：“以章故，围主父；即解兵，吾属夷矣！”乃遂围之，令：“宫中人后出者夷！”宫中人悉出。主父欲出不得，又不得食，探雀鷇而食之。三月余，饿死沙丘宫。主父定死，乃发丧赴诸侯。主父初以长子章为太子，后得吴娃，爱之，为不出者数岁。生子何，乃",
+      "year": 295
+    },
+    {
+      "name": "卫怀君",
+      "polity": "卫",
+      "category": "killed",
+      "reason": "卫怀君朝魏，魏人执而杀之。",
+      "source": {
+        "volume": 6,
+        "year": 252,
+        "anchor": 0,
+        "sourceHash": "9c81dc896528699c64ff2214f854da70bb8658e4875f80dd6fecee57cffa1cf7"
+      },
+      "evidence": "卫怀君朝于魏，魏人执而杀之；更立其弟，是为元君。元君，魏婿也。",
+      "year": 252
+    },
+    {
+      "name": "汉高帝",
+      "polity": "西汉",
+      "category": "illness",
+      "reason": "高帝受箭伤后疾甚，原文记拒绝继续求医；不直接推断现代病名。",
+      "source": {
+        "volume": 12,
+        "year": 195,
+        "anchor": 11,
+        "sourceHash": "63fa11a9e2222c06e40a78b729626ca3d29bf8e75fad4da786cd96548d360ea5"
+      },
+      "evidence": "上击布时，流矢所中，行道，疾甚。吕后迎良医。医入见，曰：“疾可治。”上嫚骂之曰：“吾以布衣提三尺取天下，此非天命乎！命乃在天，虽扁鹊何益！”遂不使治疾，赐黄金五十斤，罢之。吕后问曰：“陛下百岁后，萧相国既死，谁令代之？”上曰：“曹参可。”问其次，曰：“王陵可；然少戆，陈平可以助之。陈平知有余，然难",
+      "year": 195
+    },
+    {
+      "name": "汉安帝",
+      "polity": "东汉",
+      "category": "illness",
+      "reason": "汉安帝出巡不豫，崩于乘舆。",
+      "source": {
+        "volume": 51,
+        "year": -125,
+        "anchor": 3,
+        "sourceHash": "9fc61585ce2ffc45d57bb3309d0dc7f1eaacd3afc7435effbafee5da15a84223"
+      },
+      "evidence": "庚申，帝至宛，不豫。乙丑，帝发自宛；丁卯，至叶，崩于乘舆。年三十二。",
+      "year": -125
+    },
+    {
+      "name": "汉灵帝",
+      "polity": "东汉",
+      "category": "illness",
+      "reason": "汉灵帝疾笃，随后崩于嘉德殿。",
+      "source": {
+        "volume": 59,
+        "year": -189,
+        "anchor": 5,
+        "sourceHash": "3ab7e0cd45c2eaa01d2f3ed1ac499f35dfbae16c0e84b43c8a698fe7f68cd0d9"
+      },
+      "evidence": "初，帝数失皇子，何皇后生子辩，养于道人史子眇家，号曰「史候」。王美人生子协，董太后自养之，号曰「董侯」。群臣请立太子。帝以辩轻佻无威仪，欲立协，犹豫未决。会疾笃，属协于蹇硕。属，之欲翻，托也。丙辰，帝崩于嘉德殿。年三十四。嘉德殿在南宫在南宫九龙门内。〕硕时在内，欲先诛何进而立协，使人迎进，欲与十事；",
+      "year": -189
+    },
+    {
+      "name": "汉少帝",
+      "polity": "东汉",
+      "category": "poison",
+      "reason": "董卓使李儒酖杀弘农王刘辩。",
+      "source": {
+        "volume": 59,
+        "year": -190,
+        "anchor": 2,
+        "sourceHash": "066bafdafdabec1b90dbfb9abcf6c24f0582778d55bd718cc72d9aae278a445c"
+      },
+      "evidence": "癸酉，董卓使郎中令李儒酖杀弘农王辩。",
+      "year": -190
+    },
+    {
+      "name": "曹丕",
+      "polity": "曹魏",
+      "category": "illness",
+      "reason": "曹丕疾笃，受遗诏辅政后殂。",
+      "source": {
+        "volume": 70,
+        "year": -226,
+        "anchor": 5,
+        "sourceHash": "17c7a300706230ae1a3d05751e5aec8898defd821f0f4a7d0aa8d83edc7642ca"
+      },
+      "evidence": "初，郭后无子，帝使母养平原王叡；以叡母甄夫人被诛，〔事见上卷元年。〕故未建为嗣。叡事后甚谨，后亦爱之。帝与叡猎，见子母鹿，帝亲射杀其母，命叡射其子；〔射，而亦翻。〕叡泣曰：「陛下已杀其母，臣不忍复杀其子。」〔复，扶又翻。〕帝即放弓矢，为之恻然。〔为，于伪翻。〕夏，五月，帝疾笃，乃立叡为太子。丙辰，召",
+      "year": -226
+    },
+    {
+      "name": "曹叡",
+      "polity": "曹魏",
+      "category": "illness",
+      "reason": "同段记“帝寝疾”，随后殂。",
+      "source": {
+        "volume": 74,
+        "year": -239,
+        "anchor": 0,
+        "sourceHash": "78a2501539033aacd8189a85989e39c68ca48c706841feb50f2c7a3aeb7d2d6a"
+      },
+      "evidence": "春，正月，懿至，入见，帝执其手曰：「吾以后弗属君，君与曹爽辅少子。死乃可忍，吾忍死待君，得相见，无所复恨矣！」及召齐、秦二于以示懿，别指齐王芳谓懿曰：「此是也，君谛视之，勿误也！」又教齐王令前抱懿颈。懿顿首流涕。是日，立齐王为皇太子。帝寻殂。",
+      "year": -239
+    },
+    {
+      "name": "曹髦",
+      "polity": "曹魏",
+      "category": "killed",
+      "reason": "曹髦讨司马昭，成济抽戈刺帝，殒于车下；属宫廷杀害而非对外战死。",
+      "source": {
+        "volume": 77,
+        "year": -260,
+        "anchor": 2,
+        "sourceHash": "d780e445ea61890b3d671a83b814baff90ac447a0ae5e9c842eff4bb3e9af904"
+      },
+      "evidence": "帝见威权日去，不胜其忿。五月，己丑，召侍中王沈、中护军贾充自外入，逆与帝战于南阙下，帝自用剑。众欲退，骑督成倅弟太子舍入济问充曰：「事急矣，当云何﹖」充曰：「司马公畜养汝等，正为今日。今日之事，无所问也！」济即抽戈前刺帝，殒于车下。昭闻之，大惊，自投于地。太傅孚奔往，枕帝股而哭甚哀，曰：「杀陛下者，",
+      "year": -260
+    },
+    {
+      "name": "刘备",
+      "polity": "蜀汉",
+      "category": "illness",
+      "reason": "刘备疾病托孤后殂于永安。",
+      "source": {
+        "volume": 70,
+        "year": -223,
+        "anchor": 10,
+        "sourceHash": "2ddc65637c77b9c8a74e19b9686c4629665173eedcfdbab2b8145e74a3c43496"
+      },
+      "evidence": "汉主病笃，命丞相亮辅太子，以尚书令李严为副。汉主谓亮曰：「君才十倍曹丕，必能安国，终定大事。若嗣子可辅，辅之；如其不才，君可自取。」亮涕泣曰：「臣敢不竭股肱之力，效忠贞之节，继之以死！」汉主又为诏敕太子曰：「人五十不称夭，吾年已六十有余，何所复恨，但以卿兄弟为念耳。勉之，勉之！勿以恶小而为之，勿以善",
+      "year": -223
+    },
+    {
+      "name": "孙权",
+      "polity": "孙吴",
+      "category": "illness",
+      "reason": "原文记吴主寝疾，随后殂。",
+      "source": {
+        "volume": 75,
+        "year": -252,
+        "anchor": 5,
+        "sourceHash": "b46fd732030a707b8c649260157a0888c039738ff4435db07fa4d1a29dae4ec7"
+      },
+      "evidence": "吴主病困，召诸葛恪、孙弘、滕胤及将军吕据、侍中孙峻入卧内，属以后事。夏，四月，吴主殂。孙弘素与诸葛恪不平，惧为恪所治，秘不发丧，欲矫诏诛恪；孙峻以告恪。恪请弘咨事于坐中杀之。坐，徂卧翻。〕乃发丧，谥吴主曰大皇帝。太子亮即位。大赦，改元建兴。闰月，以诸葛恪为太傅，滕胤为卫将军，吕岱为大司马。恪乃命罢视",
+      "year": -252
+    },
+    {
+      "name": "孙亮",
+      "polity": "孙吴",
+      "category": "suicide",
+      "reason": "孙亮被黜为侯官侯，遣之国后自杀。",
+      "source": {
+        "volume": 77,
+        "year": -260,
+        "anchor": 13,
+        "sourceHash": "329854f66d41460c6ba161db3a35739b2df8925b84fd5735306cbdd11cffff56"
+      },
+      "evidence": "会稽郡谣言王亮当还为天子，而亮宫人告亮使巫祷祠，有恶言，有司以闻。吴主黜亮为侯官侯，遣之国；亮自杀，卫送者皆伏罪。",
+      "year": -260
+    },
+    {
+      "name": "孙休",
+      "polity": "孙吴",
+      "category": "illness",
+      "reason": "原文记孙休寝疾、口不能言，随后殂。",
+      "source": {
+        "volume": 78,
+        "year": -264,
+        "anchor": 23,
+        "sourceHash": "a77df00872e7541546f4eb8fdacfbc16dbcd9c524bd39818bceda0631025a7ed"
+      },
+      "evidence": "吴主寝疾，口不能言，乃手书呼丞相濮阳兴入，令子声出拜之。休把兴臂，指声以托之。癸未，吴主殂，谥曰景帝。群臣尊朱皇后为皇太后。",
+      "year": -264
+    },
+    {
+      "name": "司马衷",
+      "polity": "西晋",
+      "category": "poison",
+      "reason": "原文记晋惠帝“食単中毒”，翌日崩；不据此断定投毒者。",
+      "source": {
+        "volume": 86,
+        "year": -306,
+        "anchor": 16,
+        "sourceHash": "6866a7f47aa39562dfbe9a1176d6cd3b4c4ee785160f64e3eb691cf75cccb592"
+      },
+      "evidence": "十一月，己巳，夜，帝食単中毒，庚午，崩于显阳殿。羊后自以于太弟炽为嫂，恐不得为太后，将立清河王覃。侍中华混曰谏曰：「太弟在东宫已久，民望素定，今日宁可易乎！」即露版驰召太傅越，召太弟入宫。后已召覃至尚书合，疑变，托疾而返。癸酉，太弟即皇帝位，大赦，尊皇后日惠皇后，居弘训宫；追尊母王才人曰皇太后；立",
+      "year": -306
+    },
+    {
+      "name": "司马炽",
+      "polity": "西晋",
+      "category": "killed",
+      "reason": "怀帝司马炽在汉赵被俘后遇害。",
+      "source": {
+        "volume": 88,
+        "year": -313,
+        "anchor": 0,
+        "sourceHash": "faaec7336dea66e0c887792347d7e59ff9e8cea8a501d4b1dfb4d4bf414e2c07"
+      },
+      "evidence": "春，正月，丁丑朔，汉主聪宴群臣于光极殿，使怀帝着青衣行酒。庾、王隽等不胜悲愤，因号哭；聪恶之。有告等谋以平阳应刘琨者，二月，丁未，聪杀，隽等故晋臣十余人，怀帝亦遇害。大赦，复以会稽刘夫人为贵人。",
+      "year": -313
+    },
+    {
+      "name": "司马绍",
+      "polity": "东晋",
+      "category": "illness",
+      "reason": "同段记晋明帝疾笃，受顾命后崩。",
+      "source": {
+        "volume": 93,
+        "year": -325,
+        "anchor": 16,
+        "sourceHash": "129ac89d7880f82e80b94a4b524b5b27492fb56cff293e1def766b4ba1fde14a"
+      },
+      "evidence": "右卫将军虞胤，元敬皇后之弟也，与左卫将军南顿王宗俱为帝所亲任，典禁兵，直殿内，多聚勇士以为羽翼；王导、庾亮皆忌之，颇以为言，帝待之愈厚，宫门管钥，皆以委之。帝寝疾，亮夜有所表，从宗求钥；宗不与，叱亮使曰：「此汝家门户邪！」亮益忿之。及帝疾笃，不欲见人，群臣无得进者。亮疑宗、胤及宗兄西阳王羕有异谋，排",
+      "year": -325
+    },
+    {
+      "name": "司马衍",
+      "polity": "东晋",
+      "category": "illness",
+      "reason": "同段记晋成帝不豫，随后崩。",
+      "source": {
+        "volume": 97,
+        "year": -342,
+        "anchor": 5,
+        "sourceHash": "ab3bdacac54678c42a0d514e75df98e7fa7a40d8ae7c4d45943f9fcb94ada2d2"
+      },
+      "evidence": "夏，五月，乙卯，帝不豫；六月，庚寅，疾笃。或诈为尚书符，敕宫门无得内宰相；众皆失色。庚冰曰：「此必诈也。」推问，果然。帝二子丕、奕，皆在襁褓。庚冰自以兄弟秉权日久，恐易世之后，亲属愈疏，为他人所间，每说帝以国有强敌，宜立长君；请以母弟琅邪王岳为嗣，帝许之。中书令何充曰：「父子相传，先王旧典，易之者鲜",
+      "year": -342
+    },
+    {
+      "name": "司马岳",
+      "polity": "东晋",
+      "category": "illness",
+      "reason": "晋康帝疾笃，随后崩。",
+      "source": {
+        "volume": 97,
+        "year": -344,
+        "anchor": 14,
+        "sourceHash": "ac21faa60016488c23fd44ad8971a42b1fce25be8ab61b08158b42befdf64d8e"
+      },
+      "evidence": "帝疾笃，庾冰、庾翼欲立会稽王昱为嗣；中书监何充建议立皇子，帝从之。九月，丙申，立为皇太子。戊戌，帝崩于式干殿。己亥，何充以遗旨奉太子即位，大赦。由是冰、翼深恨充。尊皇后褚氏为皇太后。时穆帝方二岁，太后临朝称制。何充加中书监，录尚书事。充自陈既录尚书，不宜复监中书；许之，复加侍中。",
+      "year": -344
+    },
+    {
+      "name": "司马丕",
+      "polity": "东晋",
+      "category": "unknown",
+      "reason": "所引段只记晋哀帝崩。服药与具体死亡之间的关系不在本段中下定论。",
+      "source": {
+        "volume": 101,
+        "year": -365,
+        "anchor": 4,
+        "sourceHash": "9d45caf1d03321844f67d0d119c1f96c2aad6584c05e2b6796c68c019a4edff0"
+      },
+      "evidence": "司徒昱闻陈佑弃洛阳，会大司马温于洌洲，共议征讨。丙申，帝崩于西堂，事遂寝。",
+      "year": -365
+    },
+    {
+      "name": "司马昱",
+      "polity": "东晋",
+      "category": "illness",
+      "reason": "同段记晋简文帝疾笃，随后崩。",
+      "source": {
+        "volume": 103,
+        "year": -372,
+        "anchor": 8,
+        "sourceHash": "63abaacc03b5cb783af751b9b3f156fb3e5daf866c02913fcb9e45d1d80af0b0"
+      },
+      "evidence": "甲寅，帝不豫，急召大司马温入辅，一日一夜发四诏；温辞不至。初，帝为会稽王，娶王述从妹为妃，生世子道生及弟俞生。道生疏躁无行，母子皆以幽废死。余三子，郁、朱生、天流，皆早夭。诸姬绝孕将十年，王使善相者视之，皆曰：「非其人。」又使视诸婢媵，有李陵容者，在织坊中，黑而长，宫人谓之「昆仑」，相者惊曰：「此其",
+      "year": -372
+    },
+    {
+      "name": "司马德文",
+      "polity": "东晋",
+      "category": "killed",
+      "reason": "晋恭帝拒绝饮毒药，最终被军士以被掩杀；不要将张伟自饮毒酒混作恭帝死因。",
+      "source": {
+        "volume": 119,
+        "year": -421,
+        "anchor": 13,
+        "sourceHash": "92def799a06f4553aceece47a130946721cee6b6d161b47bbfab180f2040f86f"
+      },
+      "evidence": "初，帝以毒酒一罂授前琅邪郎中令张伟，使酖零陵王，伟叹曰：「酖君以求生，不如死！」乃于道自饮而卒。伟，卲之兄也。太常褚秀之、侍中褚淡之，皆王之妃兄也，王每生男，帝辄令秀之兄弟方便杀之。王自逊位，深虑祸及，与褚妃共处一室，自煮食于床前，饮食所资，皆出褚妃，故宋人莫得伺其隙。九月，帝令淡之与兄右卫将军叔度",
+      "year": -421
+    },
+    {
+      "name": "刘和",
+      "polity": "汉赵",
+      "category": "killed",
+      "reason": "刘聪攻入宫中，杀刘和。",
+      "source": {
+        "volume": 87,
+        "year": -310,
+        "anchor": 12,
+        "sourceHash": "f385822c6333cfebf8c234be85149467f62efb1c1655860e3ddeee81060ade76"
+      },
+      "evidence": "和性猜忌无恩。宗正呼延攸，翼之子也，渊以其无才行，终身不迁官；侍中刘乘，素恶楚王聪，卫尉西昌王锐，耻不预顾命；乃相与谋，说和曰：「先帝不惟轻重之势，使三王总强兵于内，恶，乌路翻。说，输芮翻。〕大司马拥十万众屯于近郊，陛下便为寄坐耳。宜早为之计。」和，攸之甥也，深信之。辛巳夜，召安昌王盛、安邑王钦等告",
+      "year": -310
+    },
+    {
+      "name": "刘粲",
+      "polity": "汉赵",
+      "category": "killed",
+      "reason": "靳准使甲士执刘粲，数而杀之。",
+      "source": {
+        "volume": 90,
+        "year": -318,
+        "anchor": 27,
+        "sourceHash": "d54195e640af420d97ceeb0a6c21a2be6d87e5fa84fa7937fbc28d6e67622dc2"
+      },
+      "evidence": "准将作乱，谋于王延。延弗从，驰，将告之；遇靳康，劫延以归。准遂勒兵升光极殿，使甲士执粲，数而杀之，谥曰隐帝。刘氏男女，无少长皆斩东市。发永光、宣光二陵，斩聪尸，焚其宗庙。准自号大将军、汉天王，称制，置百官。谓安定胡嵩曰：「自古无胡人为天子者，今以传国玺付汝，还如晋家。」嵩不敢受，准怒，杀之。遣使告司",
+      "year": -318
+    },
+    {
+      "name": "石勒",
+      "polity": "后赵",
+      "category": "illness",
+      "reason": "石勒疾笃，随后卒。",
+      "source": {
+        "volume": 95,
+        "year": -333,
+        "anchor": 5,
+        "sourceHash": "1df4d6577b51f94ba679aff9e34b8f5394da9c50f6d97cbf3789a003f808bd47"
+      },
+      "evidence": "秋，七月，勒疾笃，遗命曰：「大雅兄弟，宜善相保，司马氏，汝曹之前车也。中山王宜深思周、霍，勿为将来口实。」戊辰，勒卒。中山王虎劫太子弘使临轩，收右光禄大夫程遐、中书令徐光，下廷尉，召邃使将兵入宿卫，文武皆奔散。弘大惧，自陈劣弱，让位于虎。虎曰：「君终，太子立，礼之常也。」弘涕泣固让，虎怒曰：「若不堪",
+      "year": -333
+    },
+    {
+      "name": "石弘",
+      "polity": "后赵",
+      "category": "killed",
+      "reason": "石弘被废幽禁后，与太后等一起被杀。",
+      "source": {
+        "volume": 95,
+        "year": -334,
+        "anchor": 18,
+        "sourceHash": "5c7b77150d152383c2e84c065e0e5425ace59a5455cb5661e991fdfcc7d404e0"
+      },
+      "evidence": "赵主弘自赍玺绶诣魏宫，请禅位于丞相虎。虎曰：「帝王大业，天下自当有议，何为自论此邪！」弘流涕还宫，谓太后程氏曰：「先帝种真无复矣！」于是尚书奏：「魏台请依唐、虞禅让故事，」虎曰：「弘愚暗，居丧无礼，便当废之，何禅让也！」十一月，虎遣郭殷入宫，之水弘为海阳王。弘安步就车，容色自若，谓群臣曰：「庸昧不堪",
+      "year": -334
+    },
+    {
+      "name": "石虎",
+      "polity": "后赵",
+      "category": "illness",
+      "reason": "石虎病重，随后卒。",
+      "source": {
+        "volume": 98,
+        "year": -349,
+        "anchor": 13,
+        "sourceHash": "9d0ba8201f97b7664ee968865ae4f30f362ab8df6cc1cabf0f30bca2edcd032c"
+      },
+      "evidence": "己巳，虎卒，太子世即位，尊刘氏为皇太后。刘氏临朝称制，以张豺为丞相；豺辞不受，请以彭城王遵、义阳王鉴为左右丞相，以慰其心，刘氏从之。",
+      "year": -349,
+      "additionalSources": [
+        {
+          "volume": 98,
+          "year": -349,
+          "anchor": 10,
+          "sourceHash": "98b7d648eaf9b966c8a99d1fc9878cf7c81b56d5726770e6dafc226caf3684f0"
+        }
+      ]
+    },
+    {
+      "name": "石鉴",
+      "polity": "后赵",
+      "category": "killed",
+      "reason": "冉闵等废石鉴并杀之。",
+      "source": {
+        "volume": 98,
+        "year": -350,
+        "anchor": 3,
+        "sourceHash": "d5b1298e0059f97cab5ec85aef3ce9b9f84e6a56bc41f548a1fcbae7e8682396"
+      },
+      "evidence": "闰月，卫主鉴密遣宦者赍书召张沈等，使乘虚袭邺。宦者以告闵、农，闵、农驰还，废鉴，杀之，并杀赵主虎二十八孙，尽灭石氏。姚弋仲子曜武将军益、武卫将军若帅禁兵数千斩关奔滠头。弋仲帅众讨闵军于混桥。",
+      "year": -350
+    },
+    {
+      "name": "李雄",
+      "polity": "成汉",
+      "category": "illness",
+      "reason": "李雄头疮重病，李班为之吮脓，随后卒。",
+      "source": {
+        "volume": 95,
+        "year": -334,
+        "anchor": 11,
+        "sourceHash": "d870949a63ba5be21f09a34eed26abebcc66f1d09034dbe9d44bef398f5f06df"
+      },
+      "evidence": "成主雄生疡于头。身素多金创。及病，旧痕皆脓溃，诸子皆恶而远之；独太子班昼夜侍侧，不脱衣冠，亲为吮脓。雄召大将军建宁王寿受遗诏辅政。丁卯，雄卒，太子班即位。以建宁王寿录尚书，政事皆委于寿及司徒何点、尚书王緕，班居中行丧礼，一无所预。",
+      "year": -334
+    },
+    {
+      "name": "李班",
+      "polity": "成汉",
+      "category": "killed",
+      "reason": "李越在李班夜哭时弑之于殡宫。",
+      "source": {
+        "volume": 95,
+        "year": -334,
+        "anchor": 15,
+        "sourceHash": "d0d3269e0237d7ce13377f6d6676940757dd1a4c8f615b91bf408afd8891e71e"
+      },
+      "evidence": "成主雄之子车骑将军越屯江阳，奔丧至成都。以太子班非雄所生，意不服，与其弟安东将军期谋作乱。班弟玝劝班遣越还江阳，以期为梁州刺史，镇葭萌。班以未葬，不忍遣，推心待之，无所疑间，遣玝出屯于涪。冬，十月，癸亥朔，越因班夜哭，弒之于殡宫，并杀班兄领军将军都；矫太后任氏令，罪状班而废之。",
+      "year": -334
+    },
+    {
+      "name": "李寿",
+      "polity": "成汉",
+      "category": "unknown",
+      "reason": "原文仅记汉主李寿卒，不能据此确定病死。",
+      "source": {
+        "volume": 97,
+        "year": -343,
+        "anchor": 7,
+        "sourceHash": "e57cad4e31d81cfc1673b074c6b843d5a76921320ea42a598b1a45c03ca2960c"
+      },
+      "evidence": "汉主寿卒，谥曰昭文，庙号中宗；太子势即位，大赦。",
+      "year": -343
+    },
+    {
+      "name": "张寔",
+      "polity": "前凉",
+      "category": "killed",
+      "reason": "阎涉、赵卬等谋奉刘弘，刺张寔。",
+      "source": {
+        "volume": 91,
+        "year": -320,
+        "anchor": 10,
+        "sourceHash": "bb9463ba45cbd9e26191e0bc801aab18ea2854b43f43dba1f56aaa11c8c921dd"
+      },
+      "evidence": "京兆人刘弘客居凉州天梯山，以妖术惑众，从受道者千余人，西平元公张寔左右皆事之。帐下阎涉，牙门赵卬，皆弘乡人，弘谓之曰：「天与我神玺，应王凉州。」涉、卬信之，密与寔左右十余人谋杀寔，奉弘为主。寔弟茂知其谋，请诛弘。寔令牙门将史初收之，未至，涉等怀刃而入，杀寔于外寝。弘见史初至，谓曰：「使君已死，杀我何",
+      "year": -320
+    },
+    {
+      "name": "张茂",
+      "polity": "前凉",
+      "category": "illness",
+      "reason": "张茂疾病，执世子手遗命后薨。",
+      "source": {
+        "volume": 93,
+        "year": -324,
+        "anchor": 5,
+        "sourceHash": "45101ac83d9aa70dee4ef2ece31768eef730b52e1e46aad30427c6b0a6c9b459"
+      },
+      "evidence": "夏，五月，甲申，张茂疾病，执世子骏手泣曰：「吾家世以孝友忠顺著称，今虽天下大乱，汝奉承之，不可失也。」且下令曰：「吾官非王命，苟以集事，岂敢荣之！死之日，当以白帢入棺，勿以朝服敛。」是日，薨。愍帝使者史淑在姑臧，左长史泛祎、右长史马谟等使淑拜骏大将军、凉州牧、西平公，赦境内。前赵主曜遣使赠茂太宰，谥",
+      "year": -324
+    },
+    {
+      "name": "张重华",
+      "polity": "前凉",
+      "category": "illness",
+      "reason": "张重华寝疾后卒。",
+      "source": {
+        "volume": 99,
+        "year": -353,
+        "anchor": 19,
+        "sourceHash": "441fd994d1a7b929775880dbee016b52d930cc6102ffe484bd1e5ab96d7ef8ec"
+      },
+      "evidence": "丁卯，重华卒，世子曜灵立，称大司马、凉州刺史、西平公。赵长等矫重华遗令，以长宁侯祚为都督中外诸军事、抚军大将军，辅政。",
+      "year": -353
+    },
+    {
+      "name": "张祚",
+      "polity": "前凉",
+      "category": "killed",
+      "reason": "兵变攻入宫殿，张祚被杀。",
+      "source": {
+        "volume": 100,
+        "year": -355,
+        "anchor": 17,
+        "sourceHash": "3da59924a30c3603a589e55d911a9632cd435a00bed873fb7d42f4d16b255515"
+      },
+      "evidence": "凉宋混军于武始大泽，为曜灵发哀。闺月，混军至姑臧，凉王祚收张瓘弟琚及子嵩，将杀之。琚、嵩闻之，募市人数百，扬言：「张祚无道，我兄大军已至城东，敢举手者诛三族！」遂开西门纳混兵。领军将军赵长等惧罪，入阁呼张重华母马氏出殿，立凉武侯玄靓为主。易揣等引兵入殿，收长等，杀之。祚按剑殿上，大呼，叱左右力战。",
+      "year": -355
+    },
+    {
+      "name": "张玄靓",
+      "polity": "前凉",
+      "category": "killed",
+      "reason": "张天锡派刘肃等入宫弑张玄靓。",
+      "source": {
+        "volume": 101,
+        "year": -363,
+        "anchor": 7,
+        "sourceHash": "677e3f0dab3d44b2d97529917a25202a16d222c70bd20ad6787ab347abb3faab"
+      },
+      "evidence": "张玄靓祖母马氏卒，尊庶母郭氏为太妃。郭氏以张天锡专政，与大臣张钦等谋诛之；事泄，钦等皆死。玄靓惧，以位让天锡；天锡不受。右将军刘肃等劝天锡自立。闰月，天锡使肃等夜帅兵入宫，弒玄靓，宣言暴卒，谥曰冲公。天锡自称使持节、大都督、大将军、凉州牧、西平公，时年十八。尊母刘美人曰太妃。遣司马纶骞奉章诣建康请命",
+      "year": -363
+    },
+    {
+      "name": "慕容皝",
+      "polity": "前燕",
+      "category": "illness",
+      "reason": "燕王慕容皝有疾，托孤后薨。",
+      "source": {
+        "volume": 98,
+        "year": -348,
+        "anchor": 7,
+        "sourceHash": "01b59d0f8120bc3be6d8f3de1f0643e64bc5994db8aa838c430f2d1381af3963"
+      },
+      "evidence": "燕王皝有疾，召世子儁属之曰：「今中原未平，方资贤杰以经世务。恪智勇兼济，才堪任重，汝其委之，以成吾志！」又曰：「阳士秋士行高洁，忠干贞固，可托大事，汝善待之！」九月，丙申，薨。",
+      "year": -348
+    },
+    {
+      "name": "苻健",
+      "polity": "前秦",
+      "category": "illness",
+      "reason": "苻健寝疾，随后卒。",
+      "source": {
+        "volume": 100,
+        "year": -355,
+        "anchor": 9,
+        "sourceHash": "f8683a370ae8a10d9dbe29dcdefa691db35e70adbefe3624a04a9495db6da2d9"
+      },
+      "evidence": "乙西，健卒；谥曰景明皇帝，庙号高祖。丙戌，太子生即位，苻生，字长生，健第三子也。〕大赦，改元寿光。群臣奏曰：「未踰年而改元，非礼也。」生怒，穷推议主，得右仆射段纯，杀之。",
+      "year": -355
+    },
+    {
+      "name": "慕容泓",
+      "polity": "西燕",
+      "category": "killed",
+      "reason": "高盖等杀慕容泓，立慕容冲。",
+      "source": {
+        "volume": 105,
+        "year": -384,
+        "anchor": 30,
+        "sourceHash": "0ebfbec820fd03e5cf1f324af72d0e27466febe1073165e8d89fe4b3e6386751"
+      },
+      "evidence": "慕容泓谋臣高盖等以泓德望不如慕容冲，且持法苛峻，乃杀泓，立冲为皇太弟，承制行事，置百官；以盖为尚书令。后秦王苌遣子嵩为质于冲以请和。",
+      "year": -384
+    },
+    {
+      "name": "段随",
+      "polity": "西燕",
+      "category": "killed",
+      "reason": "慕容恒、慕容永袭杀段随。",
+      "source": {
+        "volume": 106,
+        "year": -386,
+        "anchor": 15,
+        "sourceHash": "7ce1b55461707c87c29c8a2aa09169ecc89f5b21991c22d3ce7de582e1718fc0"
+      },
+      "evidence": "西燕仆射慕容恒、尚书慕容永袭段随，杀之；立宜都王子顗为燕王，改元建明，帅鲜卑男女四十余万口去长安而东。恒弟护军将军韬诱顗，杀之于临晋，恒怒，拾韬去。永与武卫将军刁云帅众攻韬，韬败，奔恒营。恒立西燕主冲之子瑶为帝，改元建平，谥冲曰威皇帝。众皆去瑶奔永，永执瑶，杀之，立慕容泓子忠为帝，改元建武。忠以永为",
+      "year": -386
+    },
+    {
+      "name": "慕容顗",
+      "polity": "西燕",
+      "category": "killed",
+      "reason": "慕容韬诱杀慕容顗于临晋。",
+      "source": {
+        "volume": 106,
+        "year": -386,
+        "anchor": 15,
+        "sourceHash": "7ce1b55461707c87c29c8a2aa09169ecc89f5b21991c22d3ce7de582e1718fc0"
+      },
+      "evidence": "西燕仆射慕容恒、尚书慕容永袭段随，杀之；立宜都王子顗为燕王，改元建明，帅鲜卑男女四十余万口去长安而东。恒弟护军将军韬诱顗，杀之于临晋，恒怒，拾韬去。永与武卫将军刁云帅众攻韬，韬败，奔恒营。恒立西燕主冲之子瑶为帝，改元建平，谥冲曰威皇帝。众皆去瑶奔永，永执瑶，杀之，立慕容泓子忠为帝，改元建武。忠以永为",
+      "year": -386
+    },
+    {
+      "name": "慕容瑶",
+      "polity": "西燕",
+      "category": "killed",
+      "reason": "慕容永执杀慕容瑶。",
+      "source": {
+        "volume": 106,
+        "year": -386,
+        "anchor": 15,
+        "sourceHash": "7ce1b55461707c87c29c8a2aa09169ecc89f5b21991c22d3ce7de582e1718fc0"
+      },
+      "evidence": "西燕仆射慕容恒、尚书慕容永袭段随，杀之；立宜都王子顗为燕王，改元建明，帅鲜卑男女四十余万口去长安而东。恒弟护军将军韬诱顗，杀之于临晋，恒怒，拾韬去。永与武卫将军刁云帅众攻韬，韬败，奔恒营。恒立西燕主冲之子瑶为帝，改元建平，谥冲曰威皇帝。众皆去瑶奔永，永执瑶，杀之，立慕容泓子忠为帝，改元建武。忠以永为",
+      "year": -386
+    },
+    {
+      "name": "姚兴",
+      "polity": "后秦",
+      "category": "illness",
+      "reason": "姚兴病重，受遗诏后卒。",
+      "source": {
+        "volume": 117,
+        "year": -416,
+        "anchor": 6,
+        "sourceHash": "c5585171f39ded4d14737254b3b4c439cf899848efc3305eb23ff1fb000a83f2"
+      },
+      "evidence": "兴疾转笃，其妹南安长公主问疾，不应。幼子耕儿出，告其兄南阳公愔曰：「公已崩矣，宜速决计。」愔即与尹冲帅甲士攻端门，敛曼嵬、胡翼度等勒兵闭门拒战。愔等遣壮士登门，缘屋而入，及于马道。泓侍疾在咨议堂，太子右卫率姚和都率东宫兵入屯马道南。愔等不得进，遂烧端门，兴力疾临前殿，赐弼死。禁兵见兴，喜跃，争进赴贼",
+      "year": -416
+    },
+    {
+      "name": "姚泓",
+      "polity": "后秦",
+      "category": "killed",
+      "reason": "姚泓降晋，被送至建康斩于市。",
+      "source": {
+        "volume": 118,
+        "year": -417,
+        "anchor": 36,
+        "sourceHash": "d216addd2d77f261128ae95d4e3937c532b0ad8de2c93c0af65dad358055e8b8"
+      },
+      "evidence": "裕收秦彝器、浑仪、土圭、记里鼓、指南车送诣建康。其余金玉、缯帛、珍宝，皆以颁赐将士。秦平原公璞、并州刺史尹昭以薄阪降，东平公赞帅宗族百余人诣裕降，裕皆杀之。送姚泓至建康，斩于市。",
+      "year": -417
+    },
+    {
+      "name": "乞伏乾归",
+      "polity": "西秦",
+      "category": "killed",
+      "reason": "乞伏公府弑河南王乞伏乾归。",
+      "source": {
+        "volume": 116,
+        "year": -412,
+        "anchor": 7,
+        "sourceHash": "1661a46c0e76abac959069845a98e04c31128a4d7d09c56cc6a11a72e4db02d1"
+      },
+      "evidence": "六月，乞伏公府弒河南王干归，并杀其诸子十余人，走保大夏。平昌公炽盘遣其弟广武将军智达扬武将军木弈干帅骑三千讨之；以其弟昙达为镇京将，镇谭郊，骁骑将军娄机镇苑川。炽盘帅文武及民二万余户迁迁于枹罕。",
+      "year": -412
+    },
+    {
+      "name": "乞伏暮末",
+      "polity": "西秦",
+      "category": "killed",
+      "reason": "夏主杀乞伏暮末及其宗族。",
+      "source": {
+        "volume": 122,
+        "year": -431,
+        "anchor": 16,
+        "sourceHash": "55bbe7353098851c67765b0cb4786b3803816639990bbe70c1e0a38d5d06c77f"
+      },
+      "evidence": "夏主杀乞伏暮末及其宗族五百人。",
+      "year": -431
+    },
+    {
+      "name": "吕光",
+      "polity": "后凉",
+      "category": "illness",
+      "reason": "吕光疾笃，册立太子后卒。",
+      "source": {
+        "volume": 111,
+        "year": -399,
+        "anchor": 60,
+        "sourceHash": "a49360a7b56c99e37c4b995f3bfbc15cd66ffdca5a5f256dbdc85a583f2733f5"
+      },
+      "evidence": "凉王光疾甚，立太子绍为天王，自号太上皇帝；以太原公纂为太尉，常山公弘为司徒。谓绍曰：「今国家多难，三邻伺隙，吾没之后，使纂统六军，弘管朝政，汝恭己无为，委重二兄，庶几可济，若内相猜忌，则萧墙之变，旦夕至矣！」又谓纂、弘曰：「永业才非拨乱，直以立嫡有常，猥居元首。今外有强寇，人心未宁，汝兄弟缉睦，则祚",
+      "year": -399
+    },
+    {
+      "name": "吕绍",
+      "polity": "后凉",
+      "category": "suicide",
+      "reason": "吕纂入宫，吕绍登紫阁自杀。",
+      "source": {
+        "volume": 111,
+        "year": -399,
+        "anchor": 62,
+        "sourceHash": "6d981ddef9c0553e2ee0f7b5b47b77a022cb0d0e65a3c919a4476f0c7bae331d"
+      },
+      "evidence": "弘密遣尚书姜纪谓纂曰：「主上闇弱，未堪多难；兄维恩素着，宜为社稷计，不可徇小节也。」纂于是夜帅壮土数百踰北城，攻广夏门，弘帅东苑之众斧洪范门。左卫将军从守融明观，逆问之曰：「谁也﹖」众曰：「太原公。」从曰：「国有大故，主上新立，太原公行不由道，夜入禁城，将为乱邪﹖」因抽剑直前，斫纂中额，纂左右禽之。",
+      "year": -399
+    },
+    {
+      "name": "吕隆",
+      "polity": "后凉",
+      "category": "killed",
+      "reason": "姚泓捕吕隆等皆诛之。",
+      "source": {
+        "volume": 117,
+        "year": -416,
+        "anchor": 6,
+        "sourceHash": "c5585171f39ded4d14737254b3b4c439cf899848efc3305eb23ff1fb000a83f2"
+      },
+      "evidence": "兴疾转笃，其妹南安长公主问疾，不应。幼子耕儿出，告其兄南阳公愔曰：「公已崩矣，宜速决计。」愔即与尹冲帅甲士攻端门，敛曼嵬、胡翼度等勒兵闭门拒战。愔等遣壮士登门，缘屋而入，及于马道。泓侍疾在咨议堂，太子右卫率姚和都率东宫兵入屯马道南。愔等不得进，遂烧端门，兴力疾临前殿，赐弼死。禁兵见兴，喜跃，争进赴贼",
+      "year": -416
+    },
+    {
+      "name": "秃发乌孤",
+      "polity": "南凉",
+      "category": "accident",
+      "reason": "秃发乌孤醉后走马伤胁而卒。",
+      "source": {
+        "volume": 111,
+        "year": -399,
+        "anchor": 33,
+        "sourceHash": "5e4c55f525accec0f749bb348aee90161aba7a0afd0e343ada1ff1befac81c95"
+      },
+      "evidence": "武威王秃发乌孤醉，走马伤胁而卒，遗令立长君。国人立其弟利鹿孤，谥乌孤曰武王，庙号烈祖。利鹿孤大赦，徙治西平。",
+      "year": -399
+    },
+    {
+      "name": "秃发利鹿孤",
+      "polity": "南凉",
+      "category": "illness",
+      "reason": "秃发利鹿孤寝疾，授国事后卒。",
+      "source": {
+        "volume": 112,
+        "year": -402,
+        "anchor": 30,
+        "sourceHash": "7c9e907255e83c5bd4042c8665a98deeb64220115bf2dbf2f770baa2eda94767"
+      },
+      "evidence": "河西王秃发利鹿孤寝疾，遗令以国事授弟傉檀。初，秃发思复鞬爱重傉檀，谓诸子曰：「傉檀器识，非汝曹所及也，」故诸兄不以传子而传于弟。利鹿孤在位，垂拱而已，军国大事皆委于傉檀。利鹿孤卒，傉檀袭位，更称凉王，改元弘昌，迁于乐都，谥利鹿孤曰康王。",
+      "year": -402
+    },
+    {
+      "name": "秃发傉檀",
+      "polity": "南凉",
+      "category": "poison",
+      "reason": "乞伏炽盘使人鸩秃发傉檀，拒绝救治后死；原文在414年附叙“岁余”。",
+      "source": {
+        "volume": 116,
+        "year": -414,
+        "anchor": 24,
+        "sourceHash": "1369cdc1ef05334bf7aa225907694bff97cf87cd70e4e35c6e909224904fbede"
+      },
+      "evidence": "炽盘闻傉檀至，遣使郊迎，待以上宾之礼。秋，七月，炽盘以傉檀为骠骑大将军，赐爵左南公，南凉文武，依才铨叙。岁余，炽盘使人鸩傉檀；左右请解之，傉檀曰：「吾病岂宜疗邪！」遂死，谥曰景王。虎台亦为炽盘所杀。傉檀子保周、贺，俱延子覆龙，利鹿孤孙副周，乌孤孙承揼，皆奔河西王蒙逊，久之，又奔魏。魏以保周为长掖王，",
+      "year": -414,
+      "timeNote": "414年条目附叙“岁余”后死亡，发生年不直接等同记载年。"
+    },
+    {
+      "name": "沮渠蒙逊",
+      "polity": "北凉",
+      "category": "illness",
+      "reason": "沮渠蒙逊病重，改立世子后卒。",
+      "source": {
+        "volume": 122,
+        "year": -433,
+        "anchor": 13,
+        "sourceHash": "e7309eccdfa6adc5d4420e46c1b95d6c5fe68f1bdbcd64651c16a49dd2ad952c"
+      },
+      "evidence": "凉王蒙逊病甚，国人共议，以世子菩提幼弱，立菩提之兄敦煌太守牧犍为世子，加中外都督、大将军、录尚书事。蒙逊卒，谥曰武宣王，庙号太祖。牧犍即河西王位，大赦，改元永和。立子封坛为世，加抚军大将军、录尚书事。遣使请命于魏。牧犍聪颖好学，和雅有度量，故国人立之。",
+      "year": -433
+    },
+    {
+      "name": "李歆",
+      "polity": "西凉",
+      "category": "battle",
+      "reason": "李歆败后仍在蓼泉交战，为沮渠蒙逊所杀。",
+      "source": {
+        "volume": 119,
+        "year": -420,
+        "anchor": 24,
+        "sourceHash": "75d65c4aad3e7b3c7152bcf41625fe7529b3663cee8e0e530a20614b79ef6ef5"
+      },
+      "evidence": "歆将步骑三万东出。蒙逊闻之曰：「歆已入吾术中；然闻吾旋师，必不敢前。」乃露布西境，云已克浩亹，将进攻黄谷。歆闻之，喜，进入都渎涧。蒙逊引兵击之，战于怀城，歆大败。或劝歆还保酒泉。歆曰：「吾违老母之言以取败，不杀此胡，何面目复见我母！」遂勒兵战于蓼泉，为蒙逊所杀。歆弟酒泉太守翻、新城太守预、领羽林右监",
+      "year": -420
+    },
+    {
+      "name": "李恂",
+      "polity": "西凉",
+      "category": "suicide",
+      "reason": "李恂被围，乞降不许，城降后自杀。",
+      "source": {
+        "volume": 119,
+        "year": -421,
+        "anchor": 8,
+        "sourceHash": "98c9bb3e50a7907899ae720895068cb84841bfefc320941ecaca2e30858085c7"
+      },
+      "evidence": "河西王蒙逊筑堤壅水以灌敦煌；李恂乞降，不许。恂将宋承等举城降，恂自杀。蒙逊屠其城，获恂弟子宝，囚于姑臧。于是西域诸国皆请□□称臣朝页。",
+      "year": -421
+    },
+    {
+      "name": "慕容德",
+      "polity": "南燕",
+      "category": "illness",
+      "reason": "慕容德寝疾，册立慕容超后卒。",
+      "source": {
+        "volume": 114,
+        "year": -405,
+        "anchor": 29,
+        "sourceHash": "2aa47a00f4bd06a508ede9900816c5e33a0eb65378193e49afba89e76d4cb54e"
+      },
+      "evidence": "戊午，备德引见群臣于东阳殿，议立超为太子。俄而地震，百官惊恐，备德亦不自安，还宫。是夜，疾笃，瞑不能言。段后大呼曰：「今召中书作诏立超，可乎﹖」备德开目颔之。乃立超为皇太子，大赦。备德寻卒。为十余棺，夜，分出四门，潜瘗山谷。",
+      "year": -405
+    },
+    {
+      "name": "冯弘",
+      "polity": "北燕",
+      "category": "killed",
+      "reason": "高丽王遣将杀冯弘及其子孙。",
+      "source": {
+        "volume": 123,
+        "year": -438,
+        "anchor": 2,
+        "sourceHash": "840e184cc0275bce1a677dab6434852d77babe97e6bcc6a929ff8467bb73dd04"
+      },
+      "evidence": "初，燕王弘至辽东，高丽王琏遣使劳之曰：龙城王冯君，爰适野次，士马劳乎﹖」弘凓怒，称制让之；高丽处之平郭，寻徒北丰。弘素侮高丽，政刑赏罚，犹如其国；高丽乃夺其侍人，取其太子王仁为质。弘怨高丽，遣使上表求迎，上遣使者王白驹等迎之，并令高丽资遣。高丽王不欲使弘南来，遣将孙漱、高仇等杀弘于北丰，并其子孙十余",
+      "year": -438
+    },
+    {
+      "name": "赫连昌",
+      "polity": "夏",
+      "category": "killed",
+      "reason": "赫连昌叛魏西逃，被河西候将格杀。",
+      "source": {
+        "volume": 122,
+        "year": -434,
+        "anchor": 7,
+        "sourceHash": "bfa6c749b0776162d25ce3272419c8f6da163970ede4400bd298c6543d07ae9c"
+      },
+      "evidence": "甲戌，赫连昌叛魏西走；丙子，河西候将格杀之。魏人井其群弟诛之。",
+      "year": -434
+    },
+    {
+      "name": "赫连定",
+      "polity": "夏",
+      "category": "killed",
+      "reason": "吐谷浑送赫连定至魏，魏人杀之。",
+      "source": {
+        "volume": 122,
+        "year": -432,
+        "anchor": 3,
+        "sourceHash": "bd8848413f35307c2947f8f78a9b99df2e76b71afdbce9e66e0410ea61e95c89"
+      },
+      "evidence": "壬申，吐谷浑王慕踭送赫连定于魏，魏人杀之。憼踭上表曰：「臣俘擒憯逆，敌捷王府，爵秩虽崇而土不增廓，车旗既饰而财不周赏；愿垂鉴察。」魏主下其议。公卿以为：「慕踭所玫唯定而已，塞外之民皆为己有，而贪求无厌，不可许也。」魏主乃诏曰：「西秦王所得金城、枹罕、陇西之地，朕即与之，乃是裂土，何须复廓。西秦款至，",
+      "year": -432
+    },
+    {
+      "name": "拓跋什翼犍",
+      "polity": "代",
+      "category": "killed",
+      "reason": "拓跋寔君弑代王什翼犍。",
+      "source": {
+        "volume": 104,
+        "year": -376,
+        "anchor": 17,
+        "sourceHash": "357df34a9f756da2e4cf4c96259229748a3d19948fb609acc9df9d069058cf93"
+      },
+      "evidence": "初，什翼犍分国之半以授弟孤，孤卒，子斤失职怨望。世子寔及弟翰早卒，寔子珪尚幼，慕容妃之子阏婆、寿鸠、纥根、地干、力真、窟咄皆长，继嗣未定。时秦兵尚在君子津，诸子每夜执兵警卫。斤因说什翼犍之庶长于寔曰：「王将立慕容妃之子，欲先杀汝，故顷来诸子每夜戎服，以兵遶庐帐，伺便将发耳。」寔君信之，遂杀诸弟，并弒",
+      "year": -376
+    },
+    {
+      "name": "刘裕",
+      "polity": "刘宋",
+      "category": "illness",
+      "reason": "刘裕不豫，召大臣顾命后殂。",
+      "source": {
+        "volume": 119,
+        "year": -422,
+        "anchor": 15,
+        "sourceHash": "2839a06f2084827e26c00eeb5f39316c35327175f4be67fc07bbca0cf126f8b7"
+      },
+      "evidence": "五月，帝疾甚，召太子诫之曰：「檀道济虽有干略，而无远志，非如兄韶有难御之气也。徐羡之、傅亮，当无异图。谢晦数从征伐，颇识机变，若有同异，必此人也。」又为手诏曰：「后世若有幼主，朝事一委宰相，母后不烦临朝。」司空徐羡之、中书令傅亮、领军将军谢晦、镇北将军檀道济同被顾命。癸亥，帝殂于西殿。帝清简寡欲，严",
+      "year": -422
+    },
+    {
+      "name": "刘义隆",
+      "polity": "刘宋",
+      "category": "killed",
+      "reason": "刘劭发动宫廷政变，杀刘义隆。",
+      "source": {
+        "volume": 127,
+        "year": -453,
+        "anchor": 11,
+        "sourceHash": "9cc3aad59f9345d512051c669a6881e558790e1acccbc792ed3ebcd450369617"
+      },
+      "evidence": "甲子，宫门未开，劭以朱衣加戎服上，乘画轮车，与萧斌共载，卫从如常入朝庂仪。呼袁淑甚急，淑眠不起，劭停车奉化门催之相续。淑徐起，至车后；劭使登车，又辞不上，劭命左右杀之。守门开，从万春门入。旧制，东宫队不得入城。劭以伪诏示门卫曰：「受敕，有所收讨。」令后队速来。张超之等数十人驰入云龙门及斋阁，拔刀径上",
+      "year": -453
+    },
+    {
+      "name": "刘彧",
+      "polity": "刘宋",
+      "category": "illness",
+      "reason": "刘彧有疾，随后殂。",
+      "source": {
+        "volume": 133,
+        "year": -472,
+        "anchor": 7,
+        "sourceHash": "4c5ffb2340faf9314a1fb0cde638624afb5c3f24ceb4c0da1d26a94895fd6295"
+      },
+      "evidence": "己亥，上大渐，以江州刺史桂阳王休范为司空，又以尚书右仆射褚渊为护军将军，加中领军刘勔右仆射，诏渊、勔与尚书令袁粲、荆州刺史蔡兴宗、郢州刺史沈攸之并受顾命。褚渊素与萧道成善，引荐于上，诏又以道成为右卫将军，领卫尉，与袁粲等共掌机事。是夕，上殂。庚子，太子即皇帝位，大赦。时苍梧王方十岁，袁粲、褚潚秉政，",
+      "year": -472
+    },
+    {
+      "name": "刘准",
+      "polity": "刘宋",
+      "category": "killed",
+      "reason": "刘准逊位为汝阴王，卫士入杀而谎称病亡。",
+      "source": {
+        "volume": 135,
+        "year": -479,
+        "anchor": 29,
+        "sourceHash": "ca5e0895d8bc8163ea2f12fa704b623cf39dc0490db6bacd02d09758d861271e"
+      },
+      "evidence": "己未，或走马过汝阴王之门，卫士恐。有为乱者奔入杀王，而以疾闻，上不罪而赏之。辛酉，杀宋宗室阴安公燮等，无少长皆死。前豫州刺史刘澄之，遵考之子也，与褚渊善，渊为之固请曰：「澄之兄弟不武，月于刘宗又疏。」故遵弟思考，有子李连，乱蜀。〕",
+      "year": -479
+    },
+    {
+      "name": "萧渊明",
+      "polity": "南梁",
+      "category": "illness",
+      "reason": "萧渊明疽发背卒。",
+      "source": {
+        "volume": 166,
+        "year": -556,
+        "anchor": 13,
+        "sourceHash": "165b8099b36e6ca0627bf8828b658d2826294d0d52a7023a1954c7e8b94fc8bc"
+      },
+      "evidence": "五月，齐人召建安公渊明，诈许退师，陈霸先具舟送之。癸未，渊明疽发背卒。甲申，齐兵发芜湖，庚寅，入丹杨县，丙申，至秣棱故治。陈霸先遣周文育屯方山，徐度顿马牧，杜棱顿大航南以御之。",
+      "year": -556
+    },
+    {
+      "name": "萧琮",
+      "polity": "西梁",
+      "category": "unknown",
+      "reason": "萧琮被废于家，原文记未几而卒；不推断具体死因。",
+      "source": {
+        "volume": 180,
+        "year": -607,
+        "anchor": 15,
+        "sourceHash": "5d1ee2f65c547a056cd4debbf42e798758726e477f303ac942bcaf670bbf3733"
+      },
+      "evidence": "又诏发丁男百余万筑长城，西拒榆林，东至紫河。尚书左仆射苏威谏，上不听，筑之二旬而毕。帝之征散乐也，太常卿高颎谏，不听。颎退，谓太常丞李懿曰：「周天元以好乐而亡，殷鉴不远，安可复尔！」颎又以帝遇启民过厚，谓太府卿何稠曰：「此虏颇知中国虚实，山川险易，恐为后患。」又谓观王雄曰：「近来朝廷殊无纲纪。」礼部",
+      "year": -607
+    },
+    {
+      "name": "元恪",
+      "polity": "北魏",
+      "category": "illness",
+      "reason": "魏宣武帝元恪有疾，殂于式干殿。",
+      "source": {
+        "volume": 148,
+        "year": -515,
+        "anchor": 2,
+        "sourceHash": "bf4c4922091bf28b5ed5ee23250cc65b6bfb8421b3e7e575a470a6937d426649"
+      },
+      "evidence": "甲寅，魏主有疾；丁巳，殂于式干殿。侍中‧中书监‧太子少傅崔光、侍中‧领军将军于忠、詹事王显、中庶子代人侯刚迎太子诩于东宫，至显阳殿。王显欲须明行即位礼，崔光曰：「天位不可暂旷，何侍至明！」显曰：「须奏中宫。」光曰：「帝崩，太子立，国之常典，何须中宫令也！」于是，光等请太子止哭，立于东序；丁忠与黄门郎",
+      "year": -515
+    },
+    {
+      "name": "元晔",
+      "polity": "北魏",
+      "category": "killed",
+      "reason": "魏杀安定王元朗、东海王元晔。",
+      "source": {
+        "volume": 155,
+        "year": -532,
+        "anchor": 36,
+        "sourceHash": "5a67011ed01dbf9c6b4550fec9a0aaf8da3b3f93f36d36f0a7f6b19a4e9bf888"
+      },
+      "evidence": "甲辰，魏杀安定王朗、东海王晔。",
+      "year": -532
+    },
+    {
+      "name": "元朗",
+      "polity": "北魏",
+      "category": "killed",
+      "reason": "魏杀安定王元朗、东海王元晔。",
+      "source": {
+        "volume": 155,
+        "year": -532,
+        "anchor": 36,
+        "sourceHash": "5a67011ed01dbf9c6b4550fec9a0aaf8da3b3f93f36d36f0a7f6b19a4e9bf888"
+      },
+      "evidence": "甲辰，魏杀安定王朗、东海王晔。",
+      "year": -532
+    },
+    {
+      "name": "元廓",
+      "polity": "西魏",
+      "category": "killed",
+      "reason": "北周人杀西魏恭帝元廓。",
+      "source": {
+        "volume": 167,
+        "year": -557,
+        "anchor": 12,
+        "sourceHash": "79d1b4aef2fd0e3db8e6964bce3e30b8924491b8600fb30c24b77c7324e27f68"
+      },
+      "evidence": "周人杀魏恭帝。",
+      "year": -557
+    },
+    {
+      "name": "高殷",
+      "polity": "北齐",
+      "category": "killed",
+      "reason": "北齐孝昭帝使人酖高殷不从，最终扼杀；按最终方式列被杀。",
+      "source": {
+        "volume": 168,
+        "year": -561,
+        "anchor": 24,
+        "sourceHash": "7460660eb29b33de8aef8a293ec0b18bd6339b713973e34c74de6525660c5494"
+      },
+      "evidence": "湛乃奉诏，令数百骑送济南王至晋阳。九月，帝使人酖之，济南王王从，乃扼杀之。帝寻亦悔之。",
+      "year": -561
+    },
+    {
+      "name": "高演",
+      "polity": "北齐",
+      "category": "accident",
+      "reason": "高演在田猎中惊马坠地绝肋，随后病势加重去世。",
+      "source": {
+        "volume": 168,
+        "year": -561,
+        "anchor": 27,
+        "sourceHash": "ab15bd56b2a8619e3995ac967a03c078a08234c2fba341b71c3f76cd732d86fb"
+      },
+      "evidence": "齐肃宗出畋，有兔惊马，坠地绝肋。娄太后视疾，问济南所在者三，齐主不对。太后怒曰：「杀之邪﹖不用吾言，死其宜矣！」遂去，不顾。",
+      "year": -561,
+      "additionalSources": [
+        {
+          "volume": 168,
+          "year": -561,
+          "anchor": 28,
+          "sourceHash": "9e771f05a0508e15c54e753cd7551a590a089c6d50bf21daaa8042c0275efee0"
+        }
+      ]
+    },
+    {
+      "name": "梁师都",
+      "polity": "隋末诸国",
+      "category": "killed",
+      "reason": "梁师都被从父弟梁洛仁杀死后降唐。",
+      "source": {
+        "volume": 192,
+        "year": -628,
+        "anchor": 15,
+        "sourceHash": "c9eb9b850abccf32cbb1614909830cee2b2010f6e71edeac20bc73728eedba1b"
+      },
+      "evidence": "先是，上知突厥政乱，不能庇梁师都，以书谕之，师都不从。上遣夏州都督长史刘旻、司马刘兰成图之，旻等数遣轻骑践其禾稼，多纵反间，离其君臣，其国渐虚，降者相属。其名将李正宝等谋执师都，事泄，来奔，由是上下益相疑。旻等知可取，上表请兵。上遣右卫大将军柴绍、殿中少监薛万均击之，又遣旻等据朔方东城以逼之。师都引",
+      "year": -628
+    },
+    {
+      "name": "杜伏威",
+      "polity": "隋末诸国",
+      "category": "unknown",
+      "reason": "原文记杜伏威薨，不由后来的谋反追除推断死因。",
+      "source": {
+        "volume": 190,
+        "year": -624,
+        "anchor": 12,
+        "sourceHash": "6aa5995a65cd0a120b4f40a2aff9087cc5d41ae66fd30afcdf849c1e61927bf9"
+      },
+      "evidence": "是月，太保吴王杜伏威薨。辅公祏之反也，诈称伏威之命以绐其众。及公祏平，赵郡王孝恭不知其诈，以状闻；诏追除伏威名，籍没其妻子。及太宗即位，知其冤，赦之，复其官爵。",
+      "year": -624
+    },
+    {
+      "name": "沈法兴",
+      "polity": "隋末诸国",
+      "category": "suicide",
+      "reason": "沈法兴窘迫赴江溺死。",
+      "source": {
+        "volume": 188,
+        "year": -620,
+        "anchor": 91,
+        "sourceHash": "c02aac38a1e7c7f39ad6db21a76773079e391cc3e45e3a88a9b1bc2904acc77d"
+      },
+      "evidence": "子通复东走太湖，收合亡散，得二万人，袭沈法兴于吴郡，大破之。法兴师左右数百人弃城走，吴郡贼帅闻人遂安遣其将叶孝辩迎之，法兴中涂而悔，欲杀孝辩，更向会稽。考辩觉之，法兴窘迫，赴江溺死。子通军势复振，徙都余杭，尽收法兴之地，北自太湖，南至岭，东包会稽，西距宣城，皆有之。",
+      "year": -620
+    },
+    {
+      "name": "唐高祖",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "唐高祖得风疾后崩。",
+      "source": {
+        "volume": 194,
+        "year": -635,
+        "anchor": 6,
+        "sourceHash": "7cc7288b38339bcfe03e18e1175cabd7f36b8a0c8f4608c83c9e1dc7737d2673"
+      },
+      "evidence": "太上皇自去秋得风疾，庚子，崩于垂拱殿。甲辰，群臣请上准遗诰视军国大事，上不许。乙巳，诏太子承干于东宫平决庶政。",
+      "year": -635
+    },
+    {
+      "name": "唐太宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "唐太宗苦痢疾，病甚后崩；服药情况不自动等同中毒。",
+      "source": {
+        "volume": 199,
+        "year": -649,
+        "anchor": 9,
+        "sourceHash": "b401afd44c85273f9a4a4eba598c51b138d72a5b2067babbc17148aa6be0d38d"
+      },
+      "evidence": "上苦利增剧，太子昼夜不离侧，或累日不食，发有变白者。上泣曰：「汝能孝爱如此，吾死何恨！」丁卯，疾笃，召长孙无忌入含风殿。上卧，引手扪无忌颐，无忌哭，悲不自胜；上竟不得有所言，因令无忌出。己巳，复召无忌及褚遂良入卧内，谓之曰：「朕今悉以后事付公辈。太子仁孝，公辈所知，善辅导之！」谓太子曰：「无忌、遂良",
+      "year": -649
+    },
+    {
+      "name": "唐高宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "唐高宗旧疾复发，气息微，随后崩。",
+      "source": {
+        "volume": 203,
+        "year": -683,
+        "anchor": 18,
+        "sourceHash": "85d40bea43525e3686c85da26d998a2ab4f9dc8a19ea84ac2a34fef57a828f3b"
+      },
+      "evidence": "十二月，丁巳，改元，赦天下。上欲御则天门楼宣赦，气逆不能乘马，乃召百姓入殿前宣之。是夜，召裴炎入，受遗诏辅政，上崩于贞观殿。遗诏太子柩前即位，军国大事有不决者，兼取天后进止。废万泉、芳桂、奉天等宫。",
+      "year": -683
+    },
+    {
+      "name": "唐玄宗",
+      "polity": "唐",
+      "category": "unknown",
+      "reason": "所引原文仅记玄宗崩，不将肃宗同段寝疾移给玄宗。",
+      "source": {
+        "volume": 222,
+        "year": -762,
+        "anchor": 19,
+        "sourceHash": "2f12a519474bec8ac1d68cf47f9c5a78006a9360e9aeba362cf1eade6c9f8a38"
+      },
+      "evidence": "甲寅，上皇崩于神龙殿，年七十八。乙卯，迁坐于太极殿。上以寝疾，发哀于内殿，群臣发哀于太极殿。蕃官剺面割耳者四百余人。丙辰，命苗晋卿摄耱宰。上自仲春寝疾，闻上皇登遐，哀慕，疾转剧，乃命太子监国。甲子，制改元；复以建寅为正月月数皆如其旧；赦天下。",
+      "year": -762
+    },
+    {
+      "name": "唐肃宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "肃宗寝疾，闻宫变惊惧后崩；未将惊惧独立视为医学诊断。",
+      "source": {
+        "volume": 222,
+        "year": -762,
+        "anchor": 20,
+        "sourceHash": "c99b146a4a7fcaed7274a12ceb8e87c0a02779e0715348c29b7794495b6bc6c3"
+      },
+      "evidence": "初，张后与李辅国相表里，专权用事，晚年，更有隙。内射生使三原程元振党于辅国。上疾笃，后召太子谓曰：：「李辅国久典禁兵，制敕皆从之出，擅逼迁圣皇，其罪甚大，所忌者吾与太子。今主上弥留，辅国阴与程元振谋作乱，不可不诛。」太子泣曰：「陛下疾甚危，二人皆陛下勋旧之臣，一旦不告而诛之，必致震惊，恐不能堪也。」",
+      "year": -762
+    },
+    {
+      "name": "唐代宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "代宗有疾后崩。",
+      "source": {
+        "volume": 225,
+        "year": -779,
+        "anchor": 5,
+        "sourceHash": "81c5e6c4c0f8fb861fc61f17ca593bf9288b3c4cfe74e4602092d93e4c58c55b"
+      },
+      "evidence": "五月，癸卯，上始有疾，辛酉，制皇太子监国。是夕，上崩于紫宸之内殿，遗诏以郭子仪摄冢宰。癸亥，德宗即位，在谅阴中，动遵礼法；尝召韩王迥食，食马齿羹，不设盐、酪。",
+      "year": -779
+    },
+    {
+      "name": "唐宪宗",
+      "polity": "唐",
+      "category": "disputed",
+      "reason": "原文同时记服金丹、暴崩与时人所称陈弘志弑逆，并明言“外人莫能明也”；不强行判定中毒或被杀。",
+      "source": {
+        "volume": 241,
+        "year": -820,
+        "anchor": 45,
+        "sourceHash": "043aafc376af6a77cbcaf6ef37e637493dae640fcc504323c0fc7d42e2f2c07e"
+      },
+      "evidence": "十一月，癸卯，遣谏议大夫郑覃诣镇州宣慰，赐钱一百万缗以赏将士。王承元既请朝命，诸将及邻道争以故事劝之；承元皆不听。及移镇义成，将士諠哗不受命，承元与柏耆召诸将以诏旨谕之，诸将号哭不从。〔号，户刀翻。〕承元出家财以散之，择其有劳者擢之，谓曰：诸公以先代之故，不欲承元去，此意甚厚。然使承元违天子之诏，其",
+      "year": -820
+    },
+    {
+      "name": "唐穆宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "唐穆宗暴疾不能言，随后崩；原文未给出确定病名。",
+      "source": {
+        "volume": 243,
+        "year": -824,
+        "anchor": 3,
+        "sourceHash": "2269f88fbecf3b7c4cbecd253ceabe0b89e328347e02a28c3f650ba82a80e1f7"
+      },
+      "evidence": "庚午，上疾复作；壬申，大渐，命太子监国。宦官欲请郭太后临朝称制，太后曰：「昔武后称制，几危社稷。我家世守忠义，非武氏之比也。太子虽少，但得贤宰相辅之，卿辈勿预朝政，何患国家不安！自古岂有女子为天下主而能致唐、虞之理乎！」取制书手裂之。太后兄太常卿钊闻有是议，密上笺曰：「苟果徇其请，臣请先帅诸子纳官爵",
+      "year": -824
+    },
+    {
+      "name": "唐武宗",
+      "polity": "唐",
+      "category": "disputed",
+      "reason": "原文记武宗服金丹、疾笃而崩；药物参与记载，但不足直接给出确定中毒死因。",
+      "source": {
+        "volume": 248,
+        "year": -846,
+        "anchor": 4,
+        "sourceHash": "f2e420a586168b1cdd0b2c06e3c939eda4860cc6850e159114934665c708b91c"
+      },
+      "evidence": "甲子，上崩。以李德裕摄冢宰。丁卯，宣宗即位。宣宗素恶李德裕之专，即位之日，德裕奉册；既罢，谓左右曰：「适近我者非太尉邪﹖每顾我，使我毛发洒浙。」夏，四月，辛未朔，上始听政。",
+      "year": -846,
+      "additionalSources": [
+        {
+          "volume": 248,
+          "year": -846,
+          "anchor": 0,
+          "sourceHash": "394b2f1ffbe35f532cf1a01ea7a00cddbdfbac67ce6bea2d0aedfa32d69f6028"
+        },
+        {
+          "volume": 248,
+          "year": -846,
+          "anchor": 3,
+          "sourceHash": "9d3ea614ba4fac266c5270a4d2a850fc7d7bd3d80d22af6bf2e1c200cd7043e4"
+        }
+      ]
+    },
+    {
+      "name": "唐宣宗",
+      "polity": "唐",
+      "category": "disputed",
+      "reason": "原文并记饵药、疽发于背及崩；记录服药背景，不能直接确证现代意义的中毒死因。",
+      "source": {
+        "volume": 249,
+        "year": -859,
+        "anchor": 6,
+        "sourceHash": "8ed91f31fe7f147a47f5b1b10f4ee6701f8ea778922236c64c66d02fbd013eb0"
+      },
+      "evidence": "上饵医官李玄伯、道士虞紫芝、山人王乐药，疽发于背。八月，疽甚，宰相及朝士皆不得见。上密以夔王属枢密使王归长、马公儒、宣徽南院使王居方，使立之。三人及右军中尉王茂玄，皆上平日所厚也。独左军中尉王宗实素不同心，三人相与谋，出宗实为淮南监军；宗实已受敕于宣化门外，将自银台门出，左军副使元元实谓宗实曰：「圣",
+      "year": -859
+    },
+    {
+      "name": "唐懿宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "懿宗疾大渐后崩。",
+      "source": {
+        "volume": 252,
+        "year": -873,
+        "anchor": 4,
+        "sourceHash": "a4e30d87f7cde289048d0f9099dcc98f42ca9cd84d4d468ba69de2e4a1aa5827"
+      },
+      "evidence": "秋，七月，戊寅，上疾大渐，左军中尉刘行深、右军中辱韩文约立少子普王俨。庚辰，制：「立俨为皇太子，：「考异曰：续宝运录曰：「其日，宰臣萧邺等直至寝幄问疾，上微道『朕』三字而止，群臣不觉号哭失声，中外悉皆垂泣。」按是时宰相韦保衡最在上，萧邺不为相。今不取。〕权句当军国政事。」辛巳，上崩于咸宁殿，遗诏以韦",
+      "year": -873
+    },
+    {
+      "name": "唐僖宗",
+      "polity": "唐",
+      "category": "illness",
+      "reason": "僖宗疾笃后崩。",
+      "source": {
+        "volume": 257,
+        "year": -888,
+        "anchor": 12,
+        "sourceHash": "d3d841e2dc58b0e6b63b9e0bcc51d94821e10024b3d3bb4cc162278cf870d9c0"
+      },
+      "evidence": "己亥，上疾复作，壬寅，大渐。皇弟吉王保，长而贤，群臣属望。十军观军容使杨复恭请立其弟寿王杰；是日，下诏，立杰为皇太弟，监军国事。右军中尉刘季述遣兵迎杰于六王宅，入居少阳院，宰相以下就见之。癸卯，上崩于霝符殿。遗制，太弟杰更名敏，以韦昭度摄耱宰。",
+      "year": -888
+    },
+    {
+      "name": "唐哀帝",
+      "polity": "唐",
+      "category": "poison",
+      "reason": "后梁酖杀已退位的唐哀帝于曹州。",
+      "source": {
+        "volume": 266,
+        "year": -908,
+        "anchor": 11,
+        "sourceHash": "09ed56160ebf8a2c5d3dfaf85ef61eb4decc9e0b4756603991ec64ab705bf093"
+      },
+      "evidence": "癸亥，酖杀济阴王于曹州，追谥曰唐哀皇帝。",
+      "year": -908
+    },
+    {
+      "name": "史思明",
+      "polity": "安史燕",
+      "category": "killed",
+      "reason": "史朝义等兵变，杀史思明。",
+      "source": {
+        "volume": 222,
+        "year": -761,
+        "anchor": 9,
+        "sourceHash": "3edc90956157b7a8995551cd0da3ecb578a1d4054935c080813b982905c22eca"
+      },
+      "evidence": "遂缢杀思明",
+      "year": -761
+    },
+    {
+      "name": "李存勖",
+      "polity": "后唐",
+      "category": "killed",
+      "reason": "兵变中李存勖中流矢、受伤后殂；兵变背景列被杀，非对外战死。",
+      "source": {
+        "volume": 275,
+        "year": -926,
+        "anchor": 0,
+        "sourceHash": "5d99a1f9c36f8d7362c3cf3d1ec6194ab0562a40a46d2d8c9e293b0c3268b57a"
+      },
+      "evidence": "夏，四月，丁亥朔，严办将发，骑兵陈于宣仁门外，步兵陈于五凤门外。从马直指挥使郭从谦不知睦王存乂已死，欲奉之以作乱，帅所部兵自营中露刃大呼，与黄甲两军攻兴教门。帝方食，闻变，帅诸王及近卫骑兵击之，逐乱兵出门。时蕃汉马步使朱守殷将骑兵在外，帝遣中使急召之，欲与同击贼；守殷不至，引兵憩于北邙茂林之下。乱兵",
+      "year": -926
+    },
+    {
+      "name": "李嗣源",
+      "polity": "后唐",
+      "category": "illness",
+      "reason": "李嗣源疾复作，随后殂。",
+      "source": {
+        "volume": 278,
+        "year": -933,
+        "anchor": 51,
+        "sourceHash": "eebd250c75d401f6f265b8fb9f71c808dc63352294324fe5f8e87628e04c376b"
+      },
+      "evidence": "戊戍，帝殂。帝性不猜忌，与物无竞，登极之年已踰六十，每夕于宫中焚香祝天曰：「某胡人，因乱为众所推；愿天早生圣人，为生民主。」在位年谷屡丰，兵革罕用，校于五代，粗为小康。",
+      "year": -933,
+      "additionalSources": [
+        {
+          "volume": 278,
+          "year": -933,
+          "anchor": 47,
+          "sourceHash": "eae0086a8f80deccdae7b41034077e24d75a535ac269b4a883f23292ff4c0e7c"
+        }
+      ]
+    },
+    {
+      "name": "石敬瑭",
+      "polity": "后晋",
+      "category": "illness",
+      "reason": "石敬瑭寝疾后殂。",
+      "source": {
+        "volume": 283,
+        "year": -942,
+        "anchor": 23,
+        "sourceHash": "45b591cf11beade7def22256e295a7c0a6962ce098cbb6f4b22747d29509d687"
+      },
+      "evidence": "六月，乙丑，帝殂。",
+      "year": -942,
+      "additionalSources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "anchor": 22,
+          "sourceHash": "512e219859ad720f9c04c6048fc0177b5fab000d7c29cfffa68afaf87993343f"
+        }
+      ]
+    },
+    {
+      "name": "郭威",
+      "polity": "后周",
+      "category": "illness",
+      "reason": "郭威寝疾后殂。",
+      "source": {
+        "volume": 291,
+        "year": -954,
+        "anchor": 9,
+        "sourceHash": "fc6599d7ab9af38186032af6186a35334a29406d08ed6f4864507e52ac854fe7"
+      },
+      "evidence": "帝命趣草制，以端明殿学士、部侍郎王溥为中书侍郎、同平章事。壬辰，宣制毕，左右以闻，帝曰：「吾无恨矣！」以枢密副使王仁镐为永兴军节度使，以殿前都指挥使李重进领武信节度使，马军都指挥使樊爱能领武定节度使，步军都指挥使何徽领昭武节度使。重进年长于晋王荣，帝召入禁中，属以后事，仍命拜荣，以定君臣之分。是日，",
+      "year": -954,
+      "additionalSources": [
+        {
+          "volume": 291,
+          "year": -954,
+          "anchor": 5,
+          "sourceHash": "9d99192594daaef83694a72a13badcbcdbf8df19953c3f7a457c17ed81dbb049"
+        }
+      ]
+    },
+    {
+      "name": "杨行密",
+      "polity": "吴",
+      "category": "unknown",
+      "reason": "所引死亡段仅记杨行密薨，未由其他事迹推断具体病因。",
+      "source": {
+        "volume": 265,
+        "year": -905,
+        "anchor": 58,
+        "sourceHash": "5d18af3639f20f39db90774ddcbb3ca418537330082ee9079777e020f175c52c"
+      },
+      "evidence": "庚辰，吴武忠王杨行密薨。将佐共请宣谕使李俨承制授杨渥淮南节度使、东南诸道行营都统，兼侍中、弘农郡王。",
+      "year": -905
+    },
+    {
+      "name": "杨隆演",
+      "polity": "吴",
+      "category": "illness",
+      "reason": "原文记杨隆演有疾，随后殂；饥饿说法须与拒食背景一起展示。",
+      "source": {
+        "volume": 271,
+        "year": -920,
+        "anchor": 9,
+        "sourceHash": "2e8ad5ff29dbf711855d2f3ca6c6f22cd1ca5bcc2fd7c398fc540d8b1b3eafb7"
+      },
+      "evidence": "己丑，宣王殂。六月，戊申，溥即吴王位，尊母王氏白太妃。",
+      "year": -920,
+      "additionalSources": [
+        {
+          "volume": 271,
+          "year": -920,
+          "anchor": 7,
+          "sourceHash": "2cb8de36685e91adea02b3a62c043944dae9f9e9234386900cbd0ee516a74af9"
+        }
+      ]
+    },
+    {
+      "name": "李昪",
+      "polity": "南唐",
+      "category": "medication",
+      "reason": "李昪临终自述“饵金石……乃更伤生”，列服药相关；不是他人下毒的确定结论。",
+      "source": {
+        "volume": 283,
+        "year": -943,
+        "anchor": 8,
+        "sourceHash": "8eab4ef7ed792da524dd5410d09a6eb347c77e3c30f6733837702ff468635198"
+      },
+      "evidence": "会疽发背，秘不令人知，密令医治之，听政如故。庚午，疾亟，太医吴廷裕遣亲信召齐王璟入侍疾。唐主谓璟曰：「吾饵金石，始欲益寿，乃更伤生，汝宜戒之！」是夕，殂。秘不发丧，下制：「以齐王监国，大赦。〕",
+      "year": -943
+    },
+    {
+      "name": "王衍",
+      "polity": "前蜀",
+      "category": "killed",
+      "reason": "后唐敕杀王衍宗族。",
+      "source": {
+        "volume": 274,
+        "year": -926,
+        "anchor": 49,
+        "sourceHash": "8e17bb8530ba9e6b29efbedb452abb15811dde9943c0f9261b0e64e13d8f92d3"
+      },
+      "evidence": "景进等言于帝曰：「魏王未至，康延孝初平，西南犹未安；王衍族党不少，闻车驾东征，恐其为变，不若除之。」帝乃遣中使向延嗣赍敕往诛之，敕曰：「王衍一行，并从杀戮。」已印画，枢密使张居翰覆视，就殿柱揩去「行」字，改为「家」字，由是蜀百官及衍仆役获免者千，余人。延嗣至长安，尽杀衍宗族于秦川驿。衍母徐氏且死，呼",
+      "year": -926
+    },
+    {
+      "name": "钱元瓘",
+      "polity": "吴越",
+      "category": "illness",
+      "reason": "钱元瓘得脑疾后卒。",
+      "source": {
+        "volume": 282,
+        "year": -941,
+        "anchor": 24,
+        "sourceHash": "35c62ed5f96856b0a8f0fb77029c10655a44b5738903c089fb120721f1014f34"
+      },
+      "evidence": "吴越文穆王元瓘寝疾，察内都章德安忠厚，能断大事，欲属以后事，语之曰：「弘佐尚少，当择宗人长者之。」群下伏其英敏，愿王勿以为念！」王曰：「汝善辅之，吾无忧矣。」德安，处州人也。辛亥，元瓘卒。。",
+      "year": -941
+    },
+    {
+      "name": "王延钧",
+      "polity": "闽",
+      "category": "killed",
+      "reason": "王延钧在兵变中被乱兵刺伤，宫人为其绝命。",
+      "source": {
+        "volume": 279,
+        "year": -935,
+        "anchor": 32,
+        "sourceHash": "d6915e78fb704f75b5ea777598187ec69ddce389db0f49c37a05a9ed8e992197"
+      },
+      "evidence": "可殷尝谮皇城使李仿于闽主，后族陈匡胜无礼于福王继鹘，仿及继鹘皆恨之。闽主疾甚，继鹘有喜色。仿以闽主为必不起，冬，十月，己卯，使壮士数人持白梃击李可殷，杀之，中外震惊。庚辰，闽主疾少间，陈后诉之。闽主力疾视朝，诘可殷死状，仿惧而出，俄顷，引部兵鼓噪入宫。闽主闻变，匿于九龙帐下，乱兵刺之而出。闽主宛转宋",
+      "year": -935
+    },
+    {
+      "name": "王昶",
+      "polity": "闽",
+      "category": "killed",
+      "reason": "王昶逃亡被追兵所获杀害。",
+      "source": {
+        "volume": 282,
+        "year": -939,
+        "anchor": 33,
+        "sourceHash": "6fd2efed8eabe1e573034f1f7575851f2b8d316521cdfd69158247fa155a8483"
+      },
+      "evidence": "闽主数侮拱宸、控鹤军使永泰朱文进、光山连重遇，。二人怨之。会北宫火，求贼不获；闽主命重遇将内外营兵扫除余烬，日役万人，士卒甚苦之。又疑重遇知纵火之谋，欲诛之；内学士陈郯私告重遇。辛巳夜，重遇入直，帅二都兵焚长春宫。以攻闽主，使人迎延羲于瓦砾中，呼万岁；。复召外营兵共攻闽主；。独宸卫都拒战，闽主乃与李",
+      "year": -939
+    },
+    {
+      "name": "高从诲",
+      "polity": "荆南",
+      "category": "illness",
+      "reason": "高从诲有疾，令子掌军务后卒。",
+      "source": {
+        "volume": 288,
+        "year": -948,
+        "anchor": 64,
+        "sourceHash": "099863ef16011c9228d057ffee8f36979fb23abc4e8cc972c7469b7c81842297"
+      },
+      "evidence": "荆南节度使南平文献王高从诲寝疾，以其子节度副使保融判内外兵马事。癸卯，从诲卒；保融知留后。",
+      "year": -948
+    },
+    {
+      "name": "耶律阮",
+      "polity": "辽",
+      "category": "killed",
+      "reason": "契丹政变弑耶律阮。",
+      "source": {
+        "volume": 290,
+        "year": -951,
+        "anchor": 62,
+        "sourceHash": "8019597fca05f2bc375c42580240dc65ea933e0edf4cda5b9c04e15e86edaff5"
+      },
+      "evidence": "九月，北汉主遣招讨使李存瑰将兵自团柏入寇。契丹欲引兵会之，与酋长议于九十九泉。诸部皆不欲南寇，契丹主强之。癸亥，行至新州之西火神淀，燕王述轧及伟王之子太宁王沤僧作乱，弒契丹主而立述轧。契丹主德光之子齐王述律逃入南山，诸部奉述律以攻述轧、沤僧，杀之，并其族党。立述律为帝，改元应历。自火神淀入幽州，遣使",
+      "year": -951
+    },
+    {
+      "name": "秦出公",
+      "polity": "秦",
+      "category": "killed",
+      "reason": "秦庶长改迎献公，杀出子及其母。",
+      "source": {
+        "volume": 1,
+        "year": 385,
+        "anchor": 0,
+        "sourceHash": "a2ac70faed4cc25e2663f8b4297da7763df922fc855d889399288c5b78747267"
+      },
+      "evidence": "杀出子及其母",
+      "year": 385
+    },
+    {
+      "name": "秦孝文王",
+      "polity": "秦",
+      "category": "unknown",
+      "reason": "原文记即位三日薨，未述死因，不因在位短而推断遇害。",
+      "source": {
+        "volume": 6,
+        "year": 250,
+        "anchor": 0,
+        "sourceHash": "05636163fd1828e24bf688f8fa02ebb15a2b6828de9ba397bd226b14e6e0d45e"
+      },
+      "evidence": "三日薨",
+      "year": 250
+    },
+    {
+      "name": "齐湣王",
+      "polity": "齐",
+      "category": "killed",
+      "reason": "淖齿执齐湣王，数其罪后弑之。",
+      "source": {
+        "volume": 4,
+        "year": 284,
+        "anchor": 1,
+        "sourceHash": "9849a4d33d2f6baadbd5d94dceb3a92031b0f33e859e97bbe70b82cc47f8e17b"
+      },
+      "evidence": "遂弑王于鼓里",
+      "year": 284
+    },
+    {
+      "name": "齐王建",
+      "polity": "齐",
+      "category": "starved",
+      "reason": "齐王建降秦后，被迁置共地，原文记饿而死。",
+      "source": {
+        "volume": 7,
+        "year": 221,
+        "anchor": 0,
+        "sourceHash": "a9ee6e4c029b257ef695a17eeecfea931b035e1a45d8536da6d90b0cc5d99125"
+      },
+      "evidence": "饿而死",
+      "year": 221
+    },
+    {
+      "name": "郑繻公",
+      "polity": "郑",
+      "category": "killed",
+      "reason": "郑驷子阳之党弑繻公。",
+      "source": {
+        "volume": 1,
+        "year": 396,
+        "anchor": 0,
+        "sourceHash": "90401c48364d0bc7edddb35f14946c13a9907e373e1a4ed99dc3b3180fd05882"
+      },
+      "evidence": "弑繻公",
+      "year": 396
+    },
+    {
+      "name": "陈胜",
+      "polity": "楚汉诸王",
+      "category": "killed",
+      "reason": "陈胜为御者庄贾杀害，庄贾降秦。",
+      "source": {
+        "volume": 8,
+        "year": 208,
+        "anchor": 8,
+        "sourceHash": "bf4a055934b711209ae0061898dbfb92e63b978ba9f7fd27e8d23a8be8b7c508"
+      },
+      "evidence": "其御庄贾杀陈王以降",
+      "year": 208
+    },
+    {
+      "name": "项羽",
+      "polity": "楚汉诸王",
+      "category": "suicide",
+      "reason": "项羽兵败乌江，自刎而死；战败是背景，死亡方式为自尽。",
+      "source": {
+        "volume": 11,
+        "year": 202,
+        "anchor": 4,
+        "sourceHash": "86eb6d3415cb12c1b75949fc8dfce7ca105bc633884eb378dc7583248de6bfa6"
+      },
+      "evidence": "乃自刎而死",
+      "year": 202
+    },
+    {
+      "name": "王莽",
+      "polity": "新",
+      "category": "killed",
+      "reason": "长安城破后，杜吴杀王莽，公宾就斩其首。",
+      "source": {
+        "volume": 39,
+        "year": -23,
+        "anchor": 21,
+        "sourceHash": "e9e4c41e869a751e35b798e9b4fc1a390bbe10ccbcc3a1dfae66a03620397e85"
+      },
+      "evidence": "商人杜吴杀莽",
+      "year": -23
+    },
+    {
+      "name": "汉质帝",
+      "polity": "东汉",
+      "category": "poison",
+      "reason": "梁冀令左右在煮饼中置毒，质帝语未绝而崩。",
+      "source": {
+        "volume": 53,
+        "year": -146,
+        "anchor": 4,
+        "sourceHash": "b60abf1d156bad1b4ef07010b64d1b811add12b73ffab96220820c627b2f5f34"
+      },
+      "evidence": "冀使左右置毒于煮饼而进之",
+      "year": -146
+    },
+    {
+      "name": "司马炎",
+      "polity": "西晋",
+      "category": "illness",
+      "reason": "晋武帝疾笃，后病势再重，崩于含章殿。",
+      "source": {
+        "volume": 82,
+        "year": -290,
+        "anchor": 5,
+        "sourceHash": "443ed37298f27c404b020984f8f0979122efd099b9850fa016f201c8497d92cc"
+      },
+      "evidence": "己酉，崩于含章殿",
+      "year": -290
+    },
+    {
+      "name": "司马伦",
+      "polity": "西晋",
+      "category": "killed",
+      "reason": "晋惠帝复位后，遣袁敞持节赐赵王伦死；未述实际行刑方式。",
+      "source": {
+        "volume": 84,
+        "year": -301,
+        "anchor": 22,
+        "sourceHash": "ac1ad5221cb59be6817759bbe76c11a54f3ef4864b7aa5d79536579eca3c9e45"
+      },
+      "evidence": "持节赐伦死",
+      "year": -301
+    },
+    {
+      "name": "司马曜",
+      "polity": "东晋",
+      "category": "killed",
+      "reason": "张贵人因晋孝武帝戏言怨怒，遣婢蒙被弑帝，谎称因魇暴崩。",
+      "source": {
+        "volume": 108,
+        "year": -396,
+        "anchor": 25,
+        "sourceHash": "8729d586bfa36e739d60aaf892949bf06dcf390c47f6f720a9b4705fe3fe480c"
+      },
+      "evidence": "使婢以被蒙帝面，弒之",
+      "year": -396
+    },
+    {
+      "name": "司马德宗",
+      "polity": "东晋",
+      "category": "killed",
+      "reason": "刘裕使王韶之缢杀晋安帝，原文记于418年；日期按本书年头定位。",
+      "source": {
+        "volume": 118,
+        "year": -418,
+        "anchor": 31,
+        "sourceHash": "ab8cce4d66a55cf3f7c94410234c2bf8a1f13028df37a6b594e3697bd23c870d"
+      },
+      "evidence": "韶之以散衣缢帝于东堂",
+      "year": -418
+    },
+    {
+      "name": "桓玄",
+      "polity": "桓楚",
+      "category": "killed",
+      "reason": "桓玄逃亡遇毛佑之等截击，被冯迁斩杀。",
+      "source": {
+        "volume": 113,
+        "year": -404,
+        "anchor": 53,
+        "sourceHash": "41e66294f24aaffef276041511702805e5adc08de11d76fb212217f80eb73c12"
+      },
+      "evidence": "遂斩之",
+      "year": -404
+    },
+    {
+      "name": "刘渊",
+      "polity": "汉赵",
+      "category": "illness",
+      "reason": "汉主刘渊寝疾，托孤后卒。",
+      "source": {
+        "volume": 87,
+        "year": -310,
+        "anchor": 11,
+        "sourceHash": "1c2808b6b7f8177a79e02e52416895c7650ca9ecc580aa05cf4f0aa0332ce938"
+      },
+      "evidence": "己卯，渊卒",
+      "year": -310
+    },
+    {
+      "name": "刘曜",
+      "polity": "汉赵",
+      "category": "killed",
+      "reason": "刘曜被石勒俘获，拒绝令太子投降，石勒后来杀之；此段属于后事附叙。",
+      "source": {
+        "volume": 94,
+        "year": -328,
+        "anchor": 49,
+        "sourceHash": "c32a9de82023143a5e0a2c56806796a84c599598bda8a33592b83ef9cf42a85f"
+      },
+      "evidence": "久之，乃杀曜",
+      "year": -328,
+      "timeNote": "328年俘获事件中的后事附叙；记载年不直接等同处死年。"
+    },
+    {
+      "name": "苻生",
+      "polity": "前秦",
+      "category": "killed",
+      "reason": "苻坚兵变废苻生为越王，随后杀之。",
+      "source": {
+        "volume": 100,
+        "year": -357,
+        "anchor": 12,
+        "sourceHash": "5d3baf7085a82120f5e4ec84506a8fdd30116c02b309b435043ec9e77639b78a"
+      },
+      "evidence": "废为越王，寻杀之",
+      "year": -357
+    },
+    {
+      "name": "苻坚",
+      "polity": "前秦",
+      "category": "killed",
+      "reason": "姚苌使人缢苻坚于新平佛寺。",
+      "source": {
+        "volume": 106,
+        "year": -385,
+        "anchor": 43,
+        "sourceHash": "9fe25ff1c51e42b7084a9f8a014c3cc0a99c8f6634c3f58e8810aed54cdabfc6"
+      },
+      "evidence": "苌遣人缢坚于新平佛寺",
+      "year": -385
+    },
+    {
+      "name": "苻登",
+      "polity": "前秦",
+      "category": "killed",
+      "reason": "苻登兵败被姚兴所执杀；按俘后杀害归类。",
+      "source": {
+        "volume": 108,
+        "year": -394,
+        "anchor": 9,
+        "sourceHash": "8264a87f79ac98f2340318ef31b53c2860b3d81c49918ed9a721afa62e0af0f9"
+      },
+      "evidence": "执登，杀之",
+      "year": -394
+    },
+    {
+      "name": "慕容垂",
+      "polity": "后燕",
+      "category": "illness",
+      "reason": "慕容垂疾转笃，返回途中卒于沮阳。",
+      "source": {
+        "volume": 108,
+        "year": -396,
+        "anchor": 5,
+        "sourceHash": "1b9f355bab3275fd70bd47c090fe4edc8e7f29cece6ed028bd69ad391a792fca"
+      },
+      "evidence": "疾转笃",
+      "year": -396
+    },
+    {
+      "name": "慕容盛",
+      "polity": "后燕",
+      "category": "killed",
+      "reason": "慕容盛在宫廷兵变中被击伤，平乱后卒。",
+      "source": {
+        "volume": 112,
+        "year": -401,
+        "anchor": 31,
+        "sourceHash": "ee80d375686ae9fb926cb8c763d0b2f646fcf82a8f5a301c904f6c54e667c4d9"
+      },
+      "evidence": "事定而卒",
+      "year": -401
+    },
+    {
+      "name": "慕容熙",
+      "polity": "后燕",
+      "category": "killed",
+      "reason": "慕容熙兵败被执，送高云处，数而杀之。",
+      "source": {
+        "volume": 114,
+        "year": -407,
+        "anchor": 22,
+        "sourceHash": "3d2f60cb203294247c70af8831d7696bfcf448642ed056ab6196abf84fdc92a8"
+      },
+      "evidence": "云数而杀之",
+      "year": -407
+    },
+    {
+      "name": "高云",
+      "polity": "北燕",
+      "category": "killed",
+      "reason": "宠臣离班、桃仁持剑刺杀高云。",
+      "source": {
+        "volume": 115,
+        "year": -409,
+        "anchor": 33,
+        "sourceHash": "8b38dce62212a0f009a18de5cb06399d37d7beefe4153690936ef55054c23414"
+      },
+      "evidence": "仁从旁击云，弒之",
+      "year": -409
+    },
+    {
+      "name": "刘骏",
+      "polity": "刘宋",
+      "category": "unknown",
+      "reason": "原文记终日酣饮及殂，不直接将饮酒习惯认定为致死病因。",
+      "source": {
+        "volume": 129,
+        "year": -464,
+        "anchor": 3,
+        "sourceHash": "1117307ab377201b9d5e9651956bd516b6af6fd4fe8d59860d6b2e2a2e78c16e"
+      },
+      "evidence": "上殂于玉烛殿",
+      "year": -464
+    },
+    {
+      "name": "萧道成",
+      "polity": "南齐",
+      "category": "unknown",
+      "reason": "原文记召大臣受遗诏后殂，未说明病名或具体因素。",
+      "source": {
+        "volume": 135,
+        "year": -482,
+        "anchor": 2,
+        "sourceHash": "7398f7759a082de1c6cf30222969e0ebacbd4b52abbbc422b9f4b35b01ee29c1"
+      },
+      "evidence": "殂子临光殿",
+      "year": -482
+    },
+    {
+      "name": "萧赜",
+      "polity": "南齐",
+      "category": "illness",
+      "reason": "南齐武帝疾亟，暂绝复苏后殂。",
+      "source": {
+        "volume": 138,
+        "year": -493,
+        "anchor": 27,
+        "sourceHash": "c6a991c094ea27f6bea1fbd6fe8d0c452577ff49b1df92f83fc07ac3a8938cf7"
+      },
+      "evidence": "俄而上殂",
+      "year": -493
+    },
+    {
+      "name": "萧鸾",
+      "polity": "南齐",
+      "category": "unknown",
+      "reason": "原文记殂于正福殿，所引段未述死因。",
+      "source": {
+        "volume": 141,
+        "year": -498,
+        "anchor": 29,
+        "sourceHash": "046ce81101297278116d3d6864cf1aa9096bac337b265259a2f5274124fd2620"
+      },
+      "evidence": "上殂于正福殿",
+      "year": -498
+    },
+    {
+      "name": "萧衍",
+      "polity": "南梁",
+      "category": "disputed",
+      "reason": "侯景限制饮膳，原文记忧愤成疾、索蜜不得而殂；不能简单断言纯粹饿死。",
+      "source": {
+        "volume": 162,
+        "year": -549,
+        "anchor": 42,
+        "sourceHash": "d81ae134ff647658ae5d4fd1d841ae5572a42ff0c6bcd7813fe0cea35f137a19"
+      },
+      "evidence": "忧愤成疾",
+      "year": -549
+    },
+    {
+      "name": "萧纲",
+      "polity": "南梁",
+      "category": "killed",
+      "reason": "侯景命王伟等弑梁简文帝，灌醉后以土囊压杀。",
+      "source": {
+        "volume": 164,
+        "year": -551,
+        "anchor": 44,
+        "sourceHash": "2036c2eb52c9872348fff8733b4c53c3d5abdee7569a42cf89b0406d27c04db7"
+      },
+      "evidence": "修纂坐其上而殂",
+      "year": -551
+    },
+    {
+      "name": "萧绎",
+      "polity": "南梁",
+      "category": "killed",
+      "reason": "江陵陷落后，西魏杀梁元帝，萧詧遣傅准监刑，以土囊杀之。",
+      "source": {
+        "volume": 165,
+        "year": -554,
+        "anchor": 46,
+        "sourceHash": "1d3503f885b6974f50ad3f623b5a7f0e5532d0300fe165cc1dc87cceb119c320"
+      },
+      "evidence": "帝为魏人所杀",
+      "year": -554
+    },
+    {
+      "name": "陈霸先",
+      "polity": "陈",
+      "category": "illness",
+      "reason": "陈武帝不豫，丙午殂。",
+      "source": {
+        "volume": 167,
+        "year": -559,
+        "anchor": 26,
+        "sourceHash": "5b5e31a530fca4b9a6a0b151a2f98aaf752b5bb9af4fcda706e55dab34f5c320"
+      },
+      "evidence": "丁酉，上不豫，丙午，殂",
+      "year": -559
+    },
+    {
+      "name": "陈蒨",
+      "polity": "陈",
+      "category": "unknown",
+      "reason": "所引死亡段仅记上殂，未据此推断病因。",
+      "source": {
+        "volume": 169,
+        "year": -566,
+        "anchor": 13,
+        "sourceHash": "10db06dd9676f70abea6187f0858752ca63c75ad66e8d012d462cb5759f853e6"
+      },
+      "evidence": "癸酉，上殂",
+      "year": -566
+    },
+    {
+      "name": "陈顼",
+      "polity": "陈",
+      "category": "illness",
+      "reason": "陈宣帝不豫，诸子入侍疾，随后殂。",
+      "source": {
+        "volume": 175,
+        "year": -582,
+        "anchor": 0,
+        "sourceHash": "fbdb437aec282d728f141fd0dee64315b6b6eec08092dfedbfac7315fea81448"
+      },
+      "evidence": "甲寅，上殂",
+      "year": -582
+    },
+    {
+      "name": "拓跋珪",
+      "polity": "北魏",
+      "category": "killed",
+      "reason": "拓跋绍因母将被杀，率人潜入天安殿弑魏道武帝。",
+      "source": {
+        "volume": 115,
+        "year": -409,
+        "anchor": 37,
+        "sourceHash": "6c85b8e976316b0a928f8bbbe1a1e9fc36d042e2d7f9111c4086ec0b9f4d9944"
+      },
+      "evidence": "求弓刀不获，遂弒之",
+      "year": -409
+    },
+    {
+      "name": "拓跋焘",
+      "polity": "北魏",
+      "category": "killed",
+      "reason": "中常侍宗爱惧诛，弑魏太武帝。",
+      "source": {
+        "volume": 126,
+        "year": -452,
+        "anchor": 1,
+        "sourceHash": "297858fdc7ad03dffdfb38ac3daa69a0a6dd8a411a33ed6b24e596569a4467ab"
+      },
+      "evidence": "弒帝",
+      "year": -452
+    },
+    {
+      "name": "拓跋弘",
+      "polity": "北魏",
+      "category": "poison",
+      "reason": "原文记冯太后密行鸩毒，魏献文帝殂。",
+      "source": {
+        "volume": 134,
+        "year": -476,
+        "anchor": 2,
+        "sourceHash": "a3773fab3afe591e0c5ee5db26cb34e627cbd1afb135a75ea10dbf7f64289c85"
+      },
+      "evidence": "密行鸩毒",
+      "year": -476
+    },
+    {
+      "name": "元诩",
+      "polity": "北魏",
+      "category": "poison",
+      "reason": "郑俨、徐纥与胡太后谋酖孝明帝，帝暴殂。",
+      "source": {
+        "volume": 152,
+        "year": -528,
+        "anchor": 14,
+        "sourceHash": "8a350b36c64713e31d3df92eeb52a24c38f6dc225ca72040a7d08fd9df828e1e"
+      },
+      "evidence": "阴与太后谋酖帝",
+      "year": -528
+    },
+    {
+      "name": "元修",
+      "polity": "北魏",
+      "category": "poison",
+      "reason": "魏孝武帝与宇文泰有隙，饮酒遇酖而殂。",
+      "source": {
+        "volume": 156,
+        "year": -534,
+        "anchor": 56,
+        "sourceHash": "11e44c9bb6caebee04954f06aa8400db51acaf5f97fc14e2e52f6248146a7634"
+      },
+      "evidence": "帝饮酒遇酖而殂",
+      "year": -534
+    },
+    {
+      "name": "元钦",
+      "polity": "西魏",
+      "category": "poison",
+      "reason": "宇文泰酖杀已被废的西魏皇帝。",
+      "source": {
+        "volume": 165,
+        "year": -554,
+        "anchor": 15,
+        "sourceHash": "049ef4c16bb1ae7acd96b120c462e56848f8e0812057a581fcf84062993eb029"
+      },
+      "evidence": "魏太师泰酖杀废帝",
+      "year": -554
+    },
+    {
+      "name": "元善见",
+      "polity": "东魏",
+      "category": "poison",
+      "reason": "北齐使人鸩已退位为中山王的东魏孝静帝。",
+      "source": {
+        "volume": 164,
+        "year": -551,
+        "anchor": 54,
+        "sourceHash": "7fb25eddc132b65205c9d507dd19419058e4cccea07e9407313f41d6bba6cb1c"
+      },
+      "evidence": "使人鸩中山王，杀之",
+      "year": -551
+    },
+    {
+      "name": "元宝炬",
+      "polity": "西魏",
+      "category": "unknown",
+      "reason": "原文仅记魏文帝殂，太子钦继位。",
+      "source": {
+        "volume": 164,
+        "year": -551,
+        "anchor": 14,
+        "sourceHash": "725405688b822d94bef32270ca24308ec9bf619c4c0d4b128033a54800cdff72"
+      },
+      "evidence": "魏文帝殂",
+      "year": -551
+    },
+    {
+      "name": "杨广",
+      "polity": "隋",
+      "category": "killed",
+      "reason": "隋炀帝欲求鸩酒未得，最终令狐行达用练巾缢杀之。",
+      "source": {
+        "volume": 185,
+        "year": -618,
+        "anchor": 16,
+        "sourceHash": "b4fdccd164a95c65c0d6c6d9bf864dbc33dc62ec096e48a8dc5b2ac6730b6d59"
+      },
+      "evidence": "缢杀之",
+      "year": -618
+    },
+    {
+      "name": "薛举",
+      "polity": "隋末诸国",
+      "category": "illness",
+      "reason": "薛举有疾，未能进军，随后卒。",
+      "source": {
+        "volume": 186,
+        "year": -618,
+        "anchor": 0,
+        "sourceHash": "c2cf80b829fc71abf0fe114461827881d59b86f211ea5f21bca666cfdddabfcb"
+      },
+      "evidence": "辛巳，举卒",
+      "year": -618
+    },
+    {
+      "name": "李密",
+      "polity": "隋末诸国",
+      "category": "killed",
+      "reason": "李密叛唐后为盛彦师截击斩杀。",
+      "source": {
+        "volume": 186,
+        "year": -618,
+        "anchor": 70,
+        "sourceHash": "f4a4208181ff53eb99d62cb318259096376825192812beae8a248cf7594b806e"
+      },
+      "evidence": "遂斩密及伯当",
+      "year": -618
+    },
+    {
+      "name": "萧铣",
+      "polity": "隋末诸国",
+      "category": "killed",
+      "reason": "萧铣投降后被送长安，斩于都市。",
+      "source": {
+        "volume": 189,
+        "year": -621,
+        "anchor": 88,
+        "sourceHash": "38a4f6837f110c1298ea0854dc40b5e3309016ef9273f7ff5d5d3d05b1fec183"
+      },
+      "evidence": "竟斩于都市",
+      "year": -621
+    },
+    {
+      "name": "唐中宗",
+      "polity": "唐",
+      "category": "poison",
+      "reason": "韦后等合谋，在饼餤中进毒，中宗崩。",
+      "source": {
+        "volume": 209,
+        "year": -710,
+        "anchor": 8,
+        "sourceHash": "4ad7238adf4ccd7c30c339e9093414b8fff03d3306454875a9f8b684239db72f"
+      },
+      "evidence": "于饼餤中进毒",
+      "year": -710
+    },
+    {
+      "name": "唐睿宗",
+      "polity": "唐",
+      "category": "unknown",
+      "reason": "已退位的睿宗崩于百福殿，所引段未述死因。",
+      "source": {
+        "volume": 211,
+        "year": -716,
+        "anchor": 13,
+        "sourceHash": "f8a76e455dc9ac37aae38b59a330eab3fa8bb036ef4747ea2b5841ea224227d4"
+      },
+      "evidence": "上皇崩于百福殿",
+      "year": -716
+    },
+    {
+      "name": "唐德宗",
+      "polity": "唐",
+      "category": "unknown",
+      "reason": "所引段仅记德宗崩，不将同段太子有疾误认为德宗病因。",
+      "source": {
+        "volume": 236,
+        "year": -805,
+        "anchor": 1,
+        "sourceHash": "8de1956269451377cb30111dd842cb00378d4f6b485573b5c42527d5c0572621"
+      },
+      "evidence": "德宗崩",
+      "year": -805
+    },
+    {
+      "name": "唐敬宗",
+      "polity": "唐",
+      "category": "killed",
+      "reason": "苏佐明等在唐敬宗更衣时弑帝。",
+      "source": {
+        "volume": 243,
+        "year": -826,
+        "anchor": 19,
+        "sourceHash": "30283e6cf2f528f194938563b728151c6e1326cdf1ff39bacd31bfa90f89b6e8"
+      },
+      "evidence": "苏佐明等弒上于室",
+      "year": -826
+    },
+    {
+      "name": "唐昭宗",
+      "polity": "唐",
+      "category": "killed",
+      "reason": "朱温使蒋玄晖等夜入宫，史太追弑昭宗。",
+      "source": {
+        "volume": 265,
+        "year": -904,
+        "anchor": 8,
+        "sourceHash": "d8f0e160c3af7909e74219476513086b89a3807a942466e459cfed51d48d5784"
+      },
+      "evidence": "史太追而弒之",
+      "year": -904
+    },
+    {
+      "name": "杨渥",
+      "polity": "吴",
+      "category": "killed",
+      "reason": "张颢等遣纪祥弑弘农威王杨渥，谎称暴薨。",
+      "source": {
+        "volume": 266,
+        "year": -908,
+        "anchor": 35,
+        "sourceHash": "fb81254286cba3d5242435db4a2b062d8ef972bc52c6a3d081e9685b196649cb"
+      },
+      "evidence": "弒王于寝室",
+      "year": -908
+    },
+    {
+      "name": "朱温",
+      "polity": "后梁",
+      "category": "killed",
+      "reason": "朱友珪入宫作乱，使冯廷谔刺朱温腹背。",
+      "source": {
+        "volume": 268,
+        "year": -912,
+        "anchor": 35,
+        "sourceHash": "dc5d9e5a48aa2ad39c373413f2328ceed515d55c951570acaee6ccf7556fc75e"
+      },
+      "evidence": "冯廷谔刺帝腹，刃出于背",
+      "year": -912
+    },
+    {
+      "name": "刘知远",
+      "polity": "后汉",
+      "category": "illness",
+      "reason": "刘知远气息微，托孤后殂。",
+      "source": {
+        "volume": 287,
+        "year": -948,
+        "anchor": 11,
+        "sourceHash": "f4663afc742a5022af194a9620eaa09235b38a4906e09c15a9fe953f7d6309b3"
+      },
+      "evidence": "殂于万岁殿",
+      "year": -948
+    },
+    {
+      "name": "刘承祐",
+      "polity": "后汉",
+      "category": "killed",
+      "reason": "后汉隐帝兵败逃亡入民家，为乱兵所弑。",
+      "source": {
+        "volume": 289,
+        "year": -950,
+        "anchor": 63,
+        "sourceHash": "25e953218c259107dba2cec8043ed9da1698d00c933f163093e3450a25ff0173"
+      },
+      "evidence": "为乱兵所弒",
+      "year": -950
+    },
+    {
+      "name": "刘崇",
+      "polity": "北汉",
+      "category": "illness",
+      "reason": "北汉主刘崇疾病，命子监国，随后殂。",
+      "source": {
+        "volume": 292,
+        "year": -954,
+        "anchor": 24,
+        "sourceHash": "f1029a41dcf4085736c3561a54615986c29d928a74182c3cbfd6ae53f0b37a14"
+      },
+      "evidence": "北汉主疾病",
+      "year": -954
+    },
+    {
+      "name": "柴荣",
+      "polity": "后周",
+      "category": "illness",
+      "reason": "周世宗大渐，召范质等顾命后殂。",
+      "source": {
+        "volume": 294,
+        "year": -959,
+        "anchor": 37,
+        "sourceHash": "a2ac623aca5c77368812ce9ceeac508194d2e927b53c6fb1c02dedfea028f2e7"
+      },
+      "evidence": "是日，上殂",
+      "year": -959
+    },
+    {
+      "name": "马希范",
+      "polity": "楚",
+      "category": "unknown",
+      "reason": "原文仅记马希范卒，所引段未述死因。",
+      "source": {
+        "volume": 287,
+        "year": -947,
+        "anchor": 6,
+        "sourceHash": "5056b5268e0984aa62d81e19ce185d21a547c08abc5916425487534ac56b8819"
+      },
+      "evidence": "希范卒",
+      "year": -947
+    },
+    {
+      "name": "石遵",
+      "polity": "后赵",
+      "category": "killed",
+      "reason": "冉闵等发动政变，苏彦、周成执石遵并杀之。",
+      "source": {
+        "volume": 98,
+        "year": -349,
+        "anchor": 31,
+        "sourceHash": "2bbeb1c70e60fa3fcf3c95263917233a83a5b65eeb1c39259788a28156d7edfd"
+      },
+      "evidence": "遂杀之于琨华殿",
+      "year": -349
+    },
+    {
+      "name": "吕纂",
+      "polity": "后凉",
+      "category": "killed",
+      "reason": "吕超在宴后乘吕纂醉时刺其胸，随后取首。",
+      "source": {
+        "volume": 112,
+        "year": -401,
+        "anchor": 4,
+        "sourceHash": "ed2e0aa82de05024d1a5d004da2f5e03c5e575fdfe1833705856e6763ba8b079"
+      },
+      "evidence": "超刺纂洞胸",
+      "year": -401
+    },
+    {
+      "name": "慕容超",
+      "polity": "南燕",
+      "category": "killed",
+      "reason": "南燕覆亡后，慕容超被送建康斩杀。",
+      "source": {
+        "volume": 115,
+        "year": -410,
+        "anchor": 5,
+        "sourceHash": "14ac1c8d16adbb9fa6e4b5f4bf34fc21c2b5ab81861c7ad9fd05fff453d51d61"
+      },
+      "evidence": "送超诣建康，斩之",
+      "year": -410
+    },
+    {
+      "name": "沮渠牧犍",
+      "polity": "北凉",
+      "category": "killed",
+      "reason": "魏主命崔浩就第赐沮渠牧犍死，原文未说明其是否自行执行。",
+      "source": {
+        "volume": 125,
+        "year": -447,
+        "anchor": 3,
+        "sourceHash": "a369de6e673854575bcd42f27718fb87c0f60c47caffd8e55bf884701f70cf7a"
+      },
+      "evidence": "赐牧犍死",
+      "year": -447
+    },
+    {
+      "name": "杨坚",
+      "polity": "隋",
+      "category": "disputed",
+      "reason": "原文先记疾甚，又叙张衡入寝殿后崩，并明言中外颇有异论；不强行定为病死或弑杀。",
+      "source": {
+        "volume": 180,
+        "year": -604,
+        "anchor": 3,
+        "sourceHash": "c71599c7867a1257237337079ae8c54dc7cc71b4c11470675d1bd3fefcb28a37"
+      },
+      "evidence": "俄而上崩。故中外颇有异论",
+      "year": -604
+    },
+    {
+      "name": "元钊",
+      "polity": "北魏",
+      "category": "killed",
+      "reason": "尔朱荣使人将幼主元钊与太后沉于河。",
+      "source": {
+        "volume": 152,
+        "year": -528,
+        "anchor": 20,
+        "sourceHash": "40355566bc3ef276cdde5a577ac674f4bd43492192c5fc5879ff59d0cc9a3306"
+      },
+      "evidence": "沈太后及幼主于河",
+      "year": -528
+    },
+    {
+      "name": "李茂贞",
+      "polity": "岐",
+      "category": "unknown",
+      "reason": "所引记载仅记秦忠敬王李茂贞卒。",
+      "source": {
+        "volume": 273,
+        "year": -924,
+        "anchor": 31,
+        "sourceHash": "bc2bc6dbd97ac38b9a98235b3ce060d183e41d17fce6fd013f747b3eb0e61d8b"
+      },
+      "evidence": "李茂贞卒",
+      "year": -924
+    },
+    {
+      "name": "汉哀帝",
+      "polity": "西汉",
+      "category": "unknown",
+      "reason": "所引死亡段仅记哀帝崩；不将同段或他人的病情视为其确定死因。",
+      "source": {
+        "volume": 35,
+        "year": 1,
+        "anchor": 3,
+        "sourceHash": "20b67ccbd2796fc9be52f5fbfc56f026efc9a3a19b259db829374efc5b85e819"
+      },
+      "evidence": "帝崩于未央宫",
+      "year": 1
+    },
+    {
+      "name": "汉前少帝",
+      "polity": "西汉",
+      "category": "killed",
+      "reason": "吕后废汉前少帝，幽禁后杀之；不能将吕后对外所称有病当作真实死因。",
+      "source": {
+        "volume": 13,
+        "year": 184,
+        "anchor": 2,
+        "sourceHash": "2eb9ebcd858ef973d79ca330abc553da2c6ff42f9ff999aa2890101a7fe23c44"
+      },
+      "evidence": "遂废帝，幽杀之",
+      "year": 184
+    },
+    {
+      "name": "汉后少帝",
+      "polity": "西汉",
+      "category": "killed",
+      "reason": "迎立代王刘恒后，有司诛后少帝于邸。",
+      "source": {
+        "volume": 13,
+        "year": 180,
+        "anchor": 20,
+        "sourceHash": "3ab052a7851605038548b2190521a1469f82d18914dea650552f183fdb99f14e"
+      },
+      "evidence": "诛灭梁、淮阳、恒山王及少帝于邸",
+      "year": 180
+    },
+    {
+      "name": "司马睿",
+      "polity": "东晋",
+      "category": "illness",
+      "reason": "晋元帝忧愤成疾后崩；记载在322年年头，按书内定位而不直接转换为公历卒日。",
+      "source": {
+        "volume": 92,
+        "year": -322,
+        "anchor": 50,
+        "sourceHash": "3c37d493549799e45b7213dd9872e175e07932b8ab33b5e8461b50e599d5f42c"
+      },
+      "evidence": "帝忧愤成疾",
+      "year": -322
+    },
+    {
+      "name": "武则天",
+      "polity": "武周",
+      "category": "unknown",
+      "reason": "武则天退位后崩于上阳宫，所引段未述具体死因。",
+      "source": {
+        "volume": 208,
+        "year": -705,
+        "anchor": 64,
+        "sourceHash": "918d652c765b86a9f0d75f0118c5a6fbf1783342de1d9f3ab3fe7af7ce4bc89d"
+      },
+      "evidence": "则天崩于上阳宫",
+      "year": -705
+    },
+    {
+      "name": "冉闵",
+      "polity": "冉魏",
+      "category": "killed",
+      "reason": "依《通鉴》本段，冉闵被前燕俘获后斩于龙城；不以书外地名代换原文。",
+      "source": {
+        "volume": 99,
+        "year": -352,
+        "anchor": 19,
+        "sourceHash": "b249a69919e50a7d98b078c723384e415eb423c4b473b85c0a42627283aa6fdf"
+      },
+      "evidence": "燕人斩冉闵于龙城",
+      "year": -352
+    },
+    {
+      "name": "司马邺",
+      "polity": "西晋",
+      "category": "killed",
+      "reason": "汉赵太子刘粲促杀晋愍帝，原文记遇害于平阳。",
+      "source": {
+        "volume": 90,
+        "year": -317,
+        "anchor": 30,
+        "sourceHash": "384e5aeaaa8b65f77c5cc950195608e16bbe7e023fb620bcec4dcfce55684649"
+      },
+      "evidence": "愍帝遇害于平阳",
+      "year": -317
+    }
+  ]
+}
