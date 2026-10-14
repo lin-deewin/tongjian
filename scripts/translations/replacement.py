@@ -254,4 +254,3 @@ def load_replacement(
 
 def replacement_path(data_dir: Path, volume: int) -> Path:
     return data_dir / "translation-replacements" / f"volume{volume}.json"
-
