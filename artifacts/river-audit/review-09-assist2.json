@@ -1,0 +1,591 @@
+{
+  "batch": 9,
+  "scope": "parent-specified 47 unread IDs",
+  "reviewedCandidateIds": [
+    "v270-y-918-p18",
+    "v270-y-918-p19",
+    "v270-y-918-p21",
+    "v270-y-918-p22",
+    "v270-y-918-p23",
+    "v270-y-918-p24",
+    "v270-y-918-p26",
+    "v270-y-918-p27",
+    "v270-y-918-p29",
+    "v270-y-918-p31",
+    "v270-y-918-p32",
+    "v270-y-918-p33",
+    "v270-y-918-p35",
+    "v270-y-918-p36",
+    "v270-y-918-p37",
+    "v270-y-918-p38",
+    "v270-y-918-p39",
+    "v270-y-918-p40",
+    "v270-y-918-p41",
+    "v270-y-918-p45",
+    "v270-y-918-p49",
+    "v270-y-918-p50",
+    "v270-y-918-p51",
+    "v270-y-918-p53",
+    "v270-y-918-p54",
+    "v270-y-918-p55",
+    "v270-y-918-p56",
+    "v270-y-918-p57",
+    "v270-y-918-p58",
+    "v270-y-918-p59",
+    "v270-y-918-p60",
+    "v270-y-919-p1",
+    "v270-y-919-p5",
+    "v270-y-919-p6",
+    "v270-y-919-p7",
+    "v270-y-919-p8",
+    "v270-y-919-p9",
+    "v270-y-919-p10",
+    "v270-y-919-p11",
+    "v270-y-919-p12",
+    "v270-y-919-p14",
+    "v270-y-919-p15",
+    "v270-y-919-p17",
+    "v270-y-919-p19",
+    "v270-y-919-p21",
+    "v270-y-919-p22",
+    "v270-y-919-p23"
+  ],
+  "events": [
+    {
+      "id": "river-v270-y-918-p24",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "晋军涉水击败梁军并攻取滨河四寨",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 24,
+          "quote": "甲子，王引亲军先涉，诸军随之，褰甲横枪，结陈而进。是日水落，深纔及膝。匡国节度使、北面行营排陈使谢彦章帅众临岸拒之，晋兵不得进，乃稍引却，梁兵从之。及中流，鼓噪复进，彦章不能支，稍退登岸；晋兵因而乘之，梁兵大败，死伤不可胜纪，河水为之赤，彦章仅以身免。是日，晋人遂陷滨河四寨。",
+          "candidateId": "v270-y-918-p24"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "涉水交战并攻取四寨。"
+    },
+    {
+      "id": "river-v270-y-918-p31",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "晋军集结诸镇及部落兵并在魏州大阅",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 31,
+          "quote": "晋王谋大举入寇，周德威将幽州步骑三万，李存审将沧景步骑万人，李嗣源将邢洺步骑万人，王处直遣将将易定步骑万人，及麟、胜、云、蔚、新、武等州诸部落奚、契丹、室韦、吙谷浑，皆以兵会之。八月，井河东魏博之兵，大阅于魏州。",
+          "candidateId": "v270-y-918-p31"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "各镇及部落兵实际会集并大阅。"
+    },
+    {
+      "id": "river-v270-y-918-p36",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "晋军进军郓、濮并驻麻家渡与梁军对峙",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 36,
+          "quote": "晋王自魏州如杨刘，引兵略郓、濮而还，循河而上，军于麻家渡。贺緕、谢彦章将梁兵屯濮州北行台村，相持不战。",
+          "candidateId": "v270-y-918-p36"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "晋军实际进军驻守与梁军对峙。"
+    },
+    {
+      "id": "river-v270-y-918-p37",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "李存勖多次率轻骑逼近敌营挑战",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 37,
+          "quote": "晋王好自引轻骑迫敌营挑战，危窘者数四，赖李绍荣力战翼卫之，得免。",
+          "candidateId": "v270-y-918-p37"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "反复逼近敌营并陷险。"
+    },
+    {
+      "id": "river-v270-y-918-p38",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "李存勖亲率轻骑挑战梁营，遭伏击后脱围",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 38,
+          "quote": "王以数百骑抵梁营，谢彦章伏精甲五千于堤下；王引十余骑度堤，伏兵发，围王数十重，王力战于中，后骑继至者攻之于外，仅得出。会李存救至，梁兵乃退",
+          "candidateId": "v270-y-918-p38"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "晋王被伏兵围困后力战突围。"
+    },
+    {
+      "id": "river-v270-y-918-p39-chu",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "吴军夜袭楚军古亭营",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 39,
+          "quote": "吴刘信遣其将张宣等夜将兵三千袭楚将张可求于古亭，破之；",
+          "candidateId": "v270-y-918-p39"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "夜袭并击败古亭楚军。"
+    },
+    {
+      "id": "river-v270-y-918-p39-allies",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "吴军攻击吴越、闽援楚军，迫其撤回",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 39,
+          "quote": "又遣梁谁等击吴越及闽兵，二国闻楚兵败，俱引归。",
+          "candidateId": "v270-y-918-p39"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "吴军攻击援军并迫其撤回。"
+    },
+    {
+      "id": "river-v270-y-918-p40",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "梅山蛮侵扰邵州，被楚军击退",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 40,
+          "quote": "梅山蛮寇邵州，楚将樊须击走之。",
+          "candidateId": "v270-y-918-p40"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "实际进犯邵州并被击退。"
+    },
+    {
+      "id": "river-v270-y-918-p45",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "刘信回师攻取虔州并俘获谭全播",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 45,
+          "quote": "刘信闻徐温之言，大惧，引兵还击虔州。先锋始至，虔兵皆溃，谭全播奔雩都，追执之。",
+          "candidateId": "v270-y-918-p45"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "回师攻虔州，击溃守军并俘获谭全播。"
+    },
+    {
+      "id": "river-v270-y-918-p49",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "晋军推进至梁军十里外扎营",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 49,
+          "quote": "晋王进兵，距梁军十里而舍。",
+          "candidateId": "v270-y-918-p49"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "晋军实际进军并在梁军十里外驻扎。"
+    },
+    {
+      "id": "river-v270-y-918-p51",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "李存勖率军离营直趋汴州",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 51,
+          "quote": "戊午，下令军中老弱悉归魏州，起师趋汴。庚申，毁营而进，众号十万。",
+          "candidateId": "v270-y-918-p51"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "晋军拔营进趋汴州。"
+    },
+    {
+      "id": "river-v270-y-918-huliu-battle",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "胡柳陂之战",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 53,
+          "quote": "壬戌，至胡柳陂。癸亥旦，候者言梁兵自后至矣。",
+          "candidateId": "v270-y-918-p53"
+        },
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 54,
+          "quote": "贺緕结陈而至，横亘数十里。王帅银枪都陷其陈，冲荡击斩，往返十余里。",
+          "candidateId": "v270-y-918-p54"
+        },
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 55,
+          "quote": "晋王据高丘收散兵，至日中，军复振。陂中有土山，贺緕引兵据之。晋王谓将士曰：「今日得此山者胜，吾与汝曹夺之。」即引骑兵先登，李从珂与银枪大将王建及以步卒继之，梁兵纷纷而下，遂夺其山。",
+          "candidateId": "v270-y-918-p55"
+        },
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 56,
+          "quote": "嗣昭、建及以骑兵大呼陷陈，诸军继之，梁兵大败。",
+          "candidateId": "v270-y-918-p56"
+        },
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 57,
+          "quote": "晋王还营，闻周德威父子死，哭之恸，曰：「丧吾良将，是吾罪也。」",
+          "candidateId": "v270-y-918-p57"
+        },
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 60,
+          "quote": "晋军至德胜渡，王彦章败卒有走至大梁者，曰：「晋人战胜，将至矣。」顷之，晋兵有先至大梁问次者，京城大恐。",
+          "candidateId": "v270-y-918-p60"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "双方在胡柳陂相遇，战役开始。"
+    },
+    {
+      "id": "river-v270-y-918-puyang",
+      "year": -918,
+      "categories": [
+        "war"
+      ],
+      "title": "胡柳陂战后晋军攻取濮阳",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -918,
+          "anchor": 58,
+          "quote": "甲子，晋王进攻濮阳，拔之。",
+          "candidateId": "v270-y-918-p58"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "晋军实际进攻并攻取濮阳。"
+    },
+    {
+      "id": "river-v270-y-919-p1",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "晋军在德胜南北筑城驻守",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 1,
+          "quote": "晋李存于德胜南北筑两城而守之。",
+          "candidateId": "v270-y-919-p1"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "晋军实际修筑并驻守两座城寨。"
+    },
+    {
+      "id": "river-v270-y-919-p6",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "吴越军进攻东洲，吴军出兵迎战",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 6,
+          "quote": "镠以节度副大使传瓘为诸军都指挥使，帅战舰五百艘，自东洲击吴。吴遣舒州刺史彭彦章及裨将陈汾拒之。",
+          "candidateId": "v270-y-919-p6"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "吴越派五百艘战舰攻吴，吴军出兵迎战。"
+    },
+    {
+      "id": "river-v270-y-919-p8",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "狼山江之战，钱传瓘以火攻大败吴军",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 8,
+          "quote": "乙巳，战于狼山江。吴船乘风而进，传瓘引舢避之，既过，自后随之。吴回船与战，传瓘使顺风扬灰，吴人不能开目；及船舷相接，传瓘使散沙于己船而散豆于吴船，豆为战血所渍，吴人践之皆僵仆。传瓘因纵火焚吴船，吴兵大败。",
+          "candidateId": "v270-y-919-p8"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "狼山江实际交战并大败吴军。"
+    },
+    {
+      "id": "river-v270-y-919-p9",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "德胜渡之战，梁军进攻南城并封锁河道",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 9,
+          "quote": "贺緕攻德胜南城，百道俱进，以竹笮联艨艟十余艘，蒙以牛革，设睥睨、战格如城状",
+          "candidateId": "v270-y-919-p9"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "梁军实际进攻南城并封锁河面。"
+    },
+    {
+      "id": "river-v270-y-919-p11-jingnan",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "楚军攻荆南，吴军驰援迫楚军撤退",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 11,
+          "quote": "楚人攻刑南，季昌求于吴，吴命镇南节度使刘信等帅洪、吉、抚、信步兵自浏阳趣潭州，武昌节度使李简等帅水军攻复州。信等至潭东境，楚兵释刑南引归。",
+          "candidateId": "v270-y-919-p11"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "吴军出兵救援荆南，楚军因此撤退。"
+    },
+    {
+      "id": "river-v270-y-919-p11-fuzhou",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "吴军攻取复州并俘获知州鲍唐",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 11,
+          "quote": "武昌节度使李简等帅水军攻复州。信等至潭东境，楚兵释刑南引归。简等入复州，执其知州鲍唐。",
+          "candidateId": "v270-y-919-p11"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "吴军水师攻入复州并俘获知州。"
+    },
+    {
+      "id": "river-v270-y-919-p12",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "吴军在沙山击败吴越军",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 12,
+          "quote": "六月，吴人败吴越兵于沙山。",
+          "candidateId": "v270-y-919-p12"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "吴军实际击败吴越军。"
+    },
+    {
+      "id": "river-v270-y-919-p21",
+      "year": -919,
+      "categories": [
+        "war"
+      ],
+      "title": "梁军攻澶魏受阻，晋军在德胜建成浮桥",
+      "sources": [
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 21,
+          "quote": "瓒将兵五万，自黎阳渡河掩击澶、魏，至顿丘，遇晋兵而旋。",
+          "candidateId": "v270-y-919-p21"
+        },
+        {
+          "volume": 270,
+          "year": -919,
+          "anchor": 21,
+          "quote": "晋蕃马步副总管、振武节度使李存进亦造浮梁于德胜，或曰：「浮梁须竹笮、铁牛、石囷，我皆无之，何以能成！」存进不听，以苇笮维巨舰，系于土山巨木，踰月而成，人服其智。",
+          "candidateId": "v270-y-919-p21"
+        }
+      ],
+      "status": "reviewed",
+      "reason": "梁军攻澶魏受阻后撤。"
+    }
+  ],
+  "excluded": [
+    {
+      "candidateId": "v270-y-918-p18",
+      "reason": "徐知训威胁李德诚索取家妓，属权势欺凌与威胁，未成战争。"
+    },
+    {
+      "candidateId": "v270-y-918-p19",
+      "reason": "徐知训侮辱吴王并杀其亲吏，属宫廷暴力与权力争斗，不是战事。"
+    },
+    {
+      "candidateId": "v270-y-918-p21",
+      "reason": "朱瑾设宴杀徐知训后自杀，属于政治刺杀与宫廷政变，按规则排除。"
+    },
+    {
+      "candidateId": "v270-y-918-p22",
+      "reason": "徐知诰赴广陵接掌吴政、处置朱瑾尸体及家属，属政权内部交接。"
+    },
+    {
+      "candidateId": "v270-y-918-p23",
+      "reason": "徐温清算涉朱瑾人员并处死米志诚，属政治清洗与处决。"
+    },
+    {
+      "candidateId": "v270-y-918-p26",
+      "reason": "蜀廷封王及王宗弼控制人事，属于政务与政治衰败叙述。"
+    },
+    {
+      "candidateId": "v270-y-918-p27",
+      "reason": "徐温调查朱瑾案及任命徐知诰掌政，属政治处置。"
+    },
+    {
+      "candidateId": "v270-y-918-p29",
+      "reason": "徐知诰与宋齐丘密议，属政治谋划，未记战事。"
+    },
+    {
+      "candidateId": "v270-y-918-p32",
+      "reason": "蜀王宗鼎辞军职并评论亲王典兵，属宫廷政治。"
+    },
+    {
+      "candidateId": "v270-y-918-p33",
+      "reason": "张万进向晋称臣、梁命刘鄩讨伐；本段只记投附和命令，未记已发生的战争行动。"
+    },
+    {
+      "candidateId": "v270-y-918-p35",
+      "reason": "蜀廷任宦官为将并记其纵火焚营扩居，属政治任命与人为纵火案，不是天灾或战事。"
+    },
+    {
+      "candidateId": "v270-y-918-p41",
+      "reason": "宋光嗣让出判六军之职、王宗弼接任，属军政人事变动，无战事。"
+    },
+    {
+      "candidateId": "v270-y-918-p50",
+      "reason": "贺瓌设宴伏杀谢彦章等将领，属政治谋杀与内部清洗，按规则排除。"
+    },
+    {
+      "candidateId": "v270-y-918-p59",
+      "reason": "契丹贵族谋反被囚后投奔晋国，属政治投附；本段未记当年战斗。"
+    },
+    {
+      "candidateId": "v270-y-919-p5",
+      "reason": "晋王任命节度使及郭崇韬掌机密，属于军政人事变动。"
+    },
+    {
+      "candidateId": "v270-y-919-p7",
+      "reason": "吴王称王、建立宗庙百官与礼制，属国家制度建立，不是战争事件。"
+    },
+    {
+      "candidateId": "v270-y-919-p10",
+      "reason": "蜀廷发布并放宽将领不得擅离戍区的命令，属军纪行政，无实际战斗。"
+    },
+    {
+      "candidateId": "v270-y-919-p14",
+      "reason": "吴廷悬赏捕获叛将陈绍后仍任其典兵，属内部处置及人事安排。"
+    },
+    {
+      "candidateId": "v270-y-919-p15",
+      "reason": "曹筠此前叛逃后又归吴、徐温宽宥并恢复其军职，属人员归附和任用，无战事。"
+    },
+    {
+      "candidateId": "v270-y-919-p17",
+      "reason": "钱镠个人执法和生活习惯的治理逸事。"
+    },
+    {
+      "candidateId": "v270-y-919-p19",
+      "reason": "晋王与郭崇韬因陪食争执，冯道劝止，属朝廷政治。"
+    },
+    {
+      "candidateId": "v270-y-919-p22",
+      "reason": "吴与吴越交换俘虏、请和并休兵，属外交和约记事，不是当年战事。"
+    },
+    {
+      "candidateId": "v270-y-919-p23",
+      "reason": "梁廷命钱镠讨伐刘岩而钱镠未出兵，明确是未实施的军事命令。"
+    }
+  ],
+  "notes": "逐段核对dist/volume270.json对应年份和anchor的plain全文。引文均为原文精确连续子串；胡柳陂战役跨段合并，同段不同战事拆分。本文件为辅助核读结果，由audit09整合进canonical。"
+}

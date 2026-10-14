@@ -21,7 +21,7 @@ const categoryTag = row => {
 async function load() {
  $('#loadingState').hidden = false;
  try {
-  const response = await fetch('ruler-deaths.json?v=20261012');
+  const response = await fetch('ruler-deaths.json?v=20261014-release1');
   if (!response.ok) throw new Error('资料读取失败');
   const incoming = await response.json();
   if (!Array.isArray(incoming.rows) || !incoming.rows.length) throw new Error('资料暂未就绪');

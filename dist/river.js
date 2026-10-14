@@ -24,7 +24,7 @@
  };
  let data;
  try {
-  const response = await fetch('river-data.json?v=20261013-famine');
+  const response = await fetch('river-data.json?v=deploy-1791962047');
   if (!response.ok) throw Error(response.status);
   data = await response.json();
   if (data.schemaVersion !== 3) throw Error('Event index version mismatch');
@@ -56,8 +56,30 @@
  };
  const color = year => colors[eras.indexOf(year.dynasty)%colors.length];
  $('.river-era').innerHTML = eras.map(era=>`<option value="${esc(era)}">${esc(era)}纪</option>`).join('');
- $('.river-era-band').innerHTML = eras.map(era=>`<button type="button" class="river-era-label" data-era="${esc(era)}" aria-pressed="false">${esc(era)}纪</button>`).join('');
- $('.river-overview').innerHTML = eras.map(era=>`<span style="width:${years.filter(y=>y.dynasty===era).length/years.length*100}%;background:${colors[eras.indexOf(era)]}" title="${esc(era)}纪"></span>`).join('')+'<div class="river-position" tabindex="0" role="slider" aria-label="拖动浏览全书年份" aria-valuemin="0"></div>';
+ const eraRanges=eras.map(era=>{
+  const start=years.findIndex(year=>year.dynasty===era);
+  const count=years.filter(year=>year.dynasty===era).length;
+  return {era,start,count,mid:(start+count/2)/years.length};
+ });
+ $('.river-era-band').innerHTML = eraRanges.map(({era,mid})=>`<button type="button" class="river-era-label" data-era="${esc(era)}" aria-pressed="false" style="--era-mid:${mid*100}%">${esc(era)}纪</button>`).join('');
+ $('.river-overview').innerHTML = eraRanges.map(({era,count},index)=>`<span data-era="${esc(era)}" style="width:${count/years.length*100}%;background:${colors[index]}" title="${esc(era)}纪"></span>`).join('')+'<div class="river-position" tabindex="0" role="slider" aria-label="拖动浏览全书年份" aria-valuemin="0"></div>';
+ // Short periods share crowded space: stack labels, keeping their leaders at exact time positions.
+ function layoutEraLabels() {
+  const band=$('.river-era-band'), width=band.clientWidth, lanes=[];
+  band.querySelectorAll('.river-era-label').forEach((item,index)=>{
+   const labelWidth=item.offsetWidth, midpoint=eraRanges[index].mid*width;
+   const left=Math.max(0,Math.min(width-labelWidth,midpoint-labelWidth/2));
+   let lane=0;
+   while(lanes[lane]!==undefined && left<lanes[lane]+6)lane++;
+   lanes[lane]=left+labelWidth;
+   item.style.left=left+'px';
+   item.style.bottom=(lane*30+12)+'px';
+   item.style.setProperty('--leader-x',(midpoint-left)+'px');
+   item.style.setProperty('--leader-height',(lane*30+12)+'px');
+  });
+  band.style.height=(lanes.length*30+12)+'px';
+ }
+ new ResizeObserver(layoutEraLabels).observe($('.river-era-band'));
  const overview=$('.river-overview'), position=$('.river-position');
  position.setAttribute('aria-valuemax',String(years.length-1));
  try {
@@ -94,9 +116,10 @@
    else if(target.bottom>box.bottom)list.scrollTop+=target.bottom-box.bottom;
   }
   $('.river-era').value=year.dynasty;
-  $('.river-era-band').querySelectorAll('[data-era]').forEach(item=>{
+  root.querySelectorAll('.river-era-band [data-era], .river-overview [data-era]').forEach(item=>{
    const active=item.dataset.era===year.dynasty;
-   item.classList.toggle('is-current',active);item.setAttribute('aria-pressed',String(active));
+   item.classList.toggle('is-current',active);
+   if(item.tagName==='BUTTON')item.setAttribute('aria-pressed',String(active));
   });
 
  }

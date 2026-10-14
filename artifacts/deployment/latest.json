@@ -1,0 +1,29 @@
+{
+  "publicByteMatches": [
+    "index.html",
+    "reader.html",
+    "app.js",
+    "search-worker.js",
+    "river.js",
+    "river.css",
+    "river-data.json",
+    "catalog.json",
+    "coverage.json",
+    "volume1.json",
+    "volume28.json",
+    "volume294.json",
+    "search1.json",
+    "search28.json",
+    "search294.json",
+    "people-index.json",
+    "research.html",
+    "illustrations/volume1.json",
+    "illustrations/volume294.json",
+    "images/baiyang72/Image00003.jpg",
+    "translation-supplement-report.json",
+    "translation-supplements/volume28.json",
+    "famine-audit-report.json"
+  ],
+  "redirect": "308 /tongjian/",
+  "verifiedAt": 1791962260.9953415
+}

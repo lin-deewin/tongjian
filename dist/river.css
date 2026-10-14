@@ -44,3 +44,11 @@
 .river-detail>p{height:52px;display:flex;align-items:center;justify-content:center}
 .river-stage .river-legend{position:absolute;z-index:2;top:6px;left:8px;max-width:calc(100% - 16px);margin:0;padding:4px 8px;border-radius:4px;background:rgba(244,242,236,.86);font-size:12px;line-height:1.4;pointer-events:none}
 .river-audit{max-width:900px;margin:10px auto 18px;color:var(--muted);font-size:12px}.river-audit summary{cursor:pointer}.river-audit p{margin:8px 0}.river-audit a{color:var(--green);text-decoration:underline}.river-empty{font-size:13px!important}
+
+/* Labels follow the full-book time scale; crowded short eras occupy separate rows. */
+.river-era-band{display:block;position:relative;margin:12px 0 0;min-height:42px}
+.river-era-label{position:absolute;margin:0;padding:2px 6px}
+.river-era-label::after{content:"";position:absolute;top:100%;left:var(--leader-x);height:var(--leader-height);width:1px;background:#78918455;pointer-events:none}
+.river-era-label.is-current::after{background:#285342}
+.river-overview{margin-top:0}
+.river-overview span.is-current{box-shadow:0 0 0 2px #285342;position:relative;z-index:1}

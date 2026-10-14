@@ -127,6 +127,22 @@ def build():
         unresolved = len(candidate_ids-decided_candidate_ids)
         agents.append(dict(batch=batch, volumes=expected, candidates=len(candidates), decidedCandidates=len(decided_candidate_ids), undecidedCandidates=unresolved, modelReviewedParagraphs=len(reviewed_ids), supplementalReviewedParagraphs=len(reviewed_ids-candidate_ids), eventCounts=dict(counts), method=coverage.get('method', ''), fullTextReviewedParagraphs=len(coverage.get('fullTextReviewedCandidateIds', [])), excerptReviewedParagraphs=max(0,len(reviewed_ids)-len(coverage.get('fullTextReviewedCandidateIds', []))), limitations=coverage.get('limitations', [])))
     pending_signatures -= signatures.keys()
+    try:
+        from .famine_supplement import apply
+    except ImportError:
+        from famine_supplement import apply
+    famine_review, famine_resolved = apply(rows, corpus_hash.hexdigest())
+    # Do not keep the two superseded provisional famine records in the
+    # pending total. Other pending categories remain untouched.
+    if famine_resolved:
+        for batch in range(1, 11):
+            review = json.loads((DIRECTORY / f'review-{batch:02}.json').read_text())
+            for event in review['events']:
+                if event['status'] != 'provisional' or event['categories'] != ['famine']:
+                    continue
+                if all(s.get('candidateId', f'v{s["volume"]}-y{s["year"]}-p{s["anchor"]}') in famine_resolved for s in event['sources']):
+                    signature = (event['year'], tuple(sorted(set(s['quote'] for s in event['sources']))))
+                    pending_signatures.discard(signature)
     for signature in pending_signatures:
         rows[signature[0]]['pending'] += 1
     ordered = sorted(rows.values(), key=lambda r: -r['year'])
@@ -140,6 +156,12 @@ def build():
     if exclusion_reason_gaps:
         limitations.append(f'批次07的{exclusion_reason_gaps}条排除理由记录在一次误操作中丢失；候选归属已按事件来源差集恢复，但这些段落的具体排除理由无法恢复。')
     summary = dict(schemaVersion=3, unit='按年具体事件；跨年战事按年分别记录', reviewers=dict(model='gpt-6-luna', reasoningEffort='low', agents=10), corpusSHA256=corpus_hash.hexdigest(), candidateParagraphs=candidates, modelReviewedParagraphs=reviewed, supplementalReviewedParagraphs=supplemental, candidatesWithEventOrExclusion=sum(a['decidedCandidates'] for a in agents), unclassifiedCandidates=sum(a['undecidedCandidates'] for a in agents), candidateParagraphsSemanticallyReviewed=sum(a['modelReviewedParagraphs']-a['supplementalReviewedParagraphs'] for a in agents), unreviewedCandidateParagraphs=candidates-sum(a['modelReviewedParagraphs']-a['supplementalReviewedParagraphs'] for a in agents), modelReviewedEvents=len(events), pendingCandidates=len(pending_signatures), categoryCounts=dict(Counter(k for e in events for k in e['categories'])), excludedCandidates=excluded, scope='关键词宽召回候选；未命中的原文尚未全量语义复核', completeness='completeCandidateReview' if reviewed == candidates else 'partialCandidateReview', limitations=limitations, agents=agents)
+    if famine_review:
+        summary['famineSupplement'] = famine_review
+        summary['pendingCandidatesScope'] = '原始十批待核事件；饥荒扩展待核段另见famineSupplement.decisionCounts'
+        summary['reviewers']['scope'] = '原始十批复核；饥荒专项补漏另见famineSupplement.reviewer'
+        summary['scope'] += '；饥荒另经专项补漏，初筛与全文核读分别记录'
+        summary['limitations'].append('原始十批候选覆盖数不包含饥荒专项扩展；候选审完不等于全书事件完整。')
     dump(ROOT / 'dist/river-data.json', dict(schemaVersion=3, summary={k:v for k,v in summary.items() if k != 'agents'}, years=ordered))
     dump(ROOT / 'dist/river-audit-report.json', summary)
     dump(ROOT / 'dist/river-events.json', dict(schemaVersion=1, events=events))

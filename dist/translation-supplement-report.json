@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "baselineMissing": 2012,
+  "recovered": 285,
+  "aiSupplemented": 0,
+  "remainingMissing": 1727,
+  "supersededDrafts": [],
+  "sourceVolumesChanged": false,
+  "volumes": [
+    {
+      "volume": 27,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 28,
+      "recovered": 13,
+      "generated": 0,
+      "remaining": 53
+    },
+    {
+      "volume": 29,
+      "recovered": 8,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 30,
+      "recovered": 8,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 32,
+      "recovered": 17,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 33,
+      "recovered": 12,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 34,
+      "recovered": 23,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 57,
+      "recovered": 11,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 58,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 1
+    },
+    {
+      "volume": 72,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 81,
+      "recovered": 3,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 82,
+      "recovered": 14,
+      "generated": 0,
+      "remaining": 4
+    },
+    {
+      "volume": 95,
+      "recovered": 14,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 96,
+      "recovered": 30,
+      "generated": 0,
+      "remaining": 6
+    },
+    {
+      "volume": 102,
+      "recovered": 2,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 105,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 112,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 114,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 120,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 124,
+      "recovered": 17,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 127,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 132,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 134,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 6
+    },
+    {
+      "volume": 135,
+      "recovered": 2,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 136,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 140,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 145,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 147,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 6
+    },
+    {
+      "volume": 148,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 4
+    },
+    {
+      "volume": 152,
+      "recovered": 2,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 155,
+      "recovered": 2,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 162,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 167,
+      "recovered": 3,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 168,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 1
+    },
+    {
+      "volume": 169,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 4
+    },
+    {
+      "volume": 171,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 173,
+      "recovered": 2,
+      "generated": 0,
+      "remaining": 6
+    },
+    {
+      "volume": 176,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 6
+    },
+    {
+      "volume": 180,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 184,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 199,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 1
+    },
+    {
+      "volume": 201,
+      "recovered": 14,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 207,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 210,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 219,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 1
+    },
+    {
+      "volume": 220,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 227,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 235,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 237,
+      "recovered": 4,
+      "generated": 0,
+      "remaining": 1
+    },
+    {
+      "volume": 244,
+      "recovered": 19,
+      "generated": 0,
+      "remaining": 0
+    },
+    {
+      "volume": 249,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 5
+    },
+    {
+      "volume": 268,
+      "recovered": 31,
+      "generated": 0,
+      "remaining": 22
+    },
+    {
+      "volume": 270,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 280,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    },
+    {
+      "volume": 285,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 3
+    },
+    {
+      "volume": 286,
+      "recovered": 1,
+      "generated": 0,
+      "remaining": 2
+    }
+  ],
+  "limitations": [
+    "仅恢复上传译本中的白话，不发布生成译文。",
+    "恢复译文来自上传文件；原上传译文字句原样保留。",
+    "胡注本部分年份边界有异常，保留原定位并显示译本记年差异。",
+    "原文、事件锚点及历史河流原文绑定不改变。"
+  ]
+}

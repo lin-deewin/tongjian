@@ -1,0 +1,225 @@
+{
+  "range": [
+    31,
+    60
+  ],
+  "events": [
+    {
+      "id": "v31-y22-p1",
+      "year": 22,
+      "categories": [
+        "war"
+      ],
+      "title": "颍川铁官徒聚众杀官并遭官军捕诛",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 22,
+          "anchor": 1,
+          "quote": "颍川铁官徒申屠圣等百八十人杀长吏，盗库兵，自称将军，经历九郡。遣丞相长史、御史中丞逐捕，以军兴从事，皆伏辜。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v31-y18-p1",
+      "year": 18,
+      "categories": [
+        "disaster"
+      ],
+      "title": "大旱",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 18,
+          "anchor": 1,
+          "quote": "大旱。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v31-y18-p6",
+      "year": 18,
+      "categories": [
+        "war"
+      ],
+      "title": "郑躬等攻官寺起事",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 18,
+          "anchor": 6,
+          "quote": "广汉男子郑躬等六十余人攻官寺，篡囚徒，盗库兵；自称山君。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v31-y17-p0",
+      "year": 17,
+      "categories": [
+        "disaster"
+      ],
+      "title": "勃海、清河、信都河水泛溢成灾",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 17,
+          "anchor": 0,
+          "quote": "勃海、清河、信都河水湓溢，灌县、邑三十一，败官亭、民舍四万余所。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v31-y17-p1",
+      "year": 17,
+      "categories": [
+        "war"
+      ],
+      "title": "赵护率军平定郑躬党众",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 17,
+          "anchor": 1,
+          "quote": "广汉郑躬党与寖广，犯历四县，众且万人；州郡不能制。冬，以河东都尉赵护为广汉太守，发郡中及蜀郡合三万人击之，或相捕斩除罪；旬月平。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v31-y16-p19",
+      "year": 16,
+      "categories": [
+        "famine"
+      ],
+      "title": "奏疏称昌陵工程后百姓饥馑流散",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 16,
+          "anchor": 19,
+          "quote": "百姓愁恨感天，饥馑仍臻，流散赜食，餧死于道，以百万数。"
+        }
+      ],
+      "status": "provisional",
+      "reason": "奏疏中的民生描述，具体时段与数量未经独立旁证核定。"
+    },
+    {
+      "id": "v31-y16-p32",
+      "year": 16,
+      "categories": [
+        "war"
+      ],
+      "title": "樊并等谋反杀陈留太守并被诛",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 16,
+          "anchor": 32,
+          "quote": "十一月，尉氏男子樊并等十三人谋反，杀陈留太守，劫略吏民，自称将军；徒李谭、称忠、锺祖、訾顺共杀并，以闻，皆封为侯。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v31-y16-p33",
+      "year": 16,
+      "categories": [
+        "war"
+      ],
+      "title": "苏令等起事并被汝南太守平定",
+      "sources": [
+        {
+          "volume": 31,
+          "year": 16,
+          "anchor": 33,
+          "quote": "山阳铁官徒苏令等二百二十八人攻杀长吏，盗库兵，自称将军；经郡国十九，杀东郡太守及汝南都尉。汝南太守严欣捕斩令等。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v32-y13-p1",
+      "year": 13,
+      "categories": [
+        "disaster"
+      ],
+      "title": "大旱",
+      "sources": [
+        {
+          "volume": 32,
+          "year": 13,
+          "anchor": 1,
+          "quote": "夏，大旱。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v32-y10-p0",
+      "year": 10,
+      "categories": [
+        "disaster"
+      ],
+      "title": "岷山崩塌壅江，江水断流三日",
+      "sources": [
+        {
+          "volume": 32,
+          "year": 10,
+          "anchor": 0,
+          "quote": "蜀郡岷山崩，壅江三日，江水竭。"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "v32-y13-p25",
+      "year": 13,
+      "categories": [
+        "war"
+      ],
+      "title": "乌孙内部弑杀引发汉军诛讨与边境军事对峙",
+      "sources": [
+        {
+          "volume": 32,
+          "year": 13,
+          "anchor": 25,
+          "quote": "大昆弥雌栗靡勇健，末振将恐为所并，使贵人乌日领诈降，刺杀雌栗靡；汉欲以兵讨之而未能"
+        }
+      ],
+      "status": "provisional",
+      "reason": "候选段落记载乌孙内乱及汉军介入；该引句只摘录一处关键冲突，跨段年度后续关系仍需卷内全篇核对。"
+    },
+    {
+      "id": "v32-y8-p4",
+      "year": 8,
+      "categories": [
+        "war"
+      ],
+      "title": "汉廷遣使谋求匈奴交还张掖边地",
+      "sources": [
+        {
+          "volume": 32,
+          "year": 8,
+          "anchor": 4,
+          "quote": "汉三都尉居塞上，士卒数百人，寒苦，候望久劳，单于宜上书献此地"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ],
+  "excluded": [],
+  "coverage": {
+    "candidateParagraphs": 1274,
+    "modelReviewedParagraphs": 12,
+    "method": "逐条阅读并核对卷31–32中12段事件证据原文；事件引文均回查候选源段落。其余候选不据标题或关键词直接判定。",
+    "limitations": [
+      "范围仅实质核查卷31–32中的12段候选原文；卷31–32其他候选及卷33–60均未完成逐段审核。",
+      "未系统读取前后卷以合并跨卷、跨段同一事件，当前同年事件按可见候选段记录。",
+      "两条 provisional 记录的事件时序或归纳仍需进一步核实；未做外部史料旁证。"
+    ]
+  }
+}

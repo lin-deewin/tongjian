@@ -1,0 +1,100 @@
+{
+  "batches": [
+    {
+      "batch": "review-01.json",
+      "candidates": 1109,
+      "read": 1109,
+      "fullTextRead": null,
+      "events": {
+        "provisional": 37,
+        "reviewed": 569
+      }
+    },
+    {
+      "batch": "review-02.json",
+      "candidates": 1274,
+      "read": 1274,
+      "fullTextRead": 1274,
+      "events": {
+        "reviewed": 904,
+        "provisional": 6
+      }
+    },
+    {
+      "batch": "review-03.json",
+      "candidates": 1527,
+      "read": 1527,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 780
+      }
+    },
+    {
+      "batch": "review-04.json",
+      "candidates": 2058,
+      "read": 2058,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 1266,
+        "provisional": 2
+      }
+    },
+    {
+      "batch": "review-05.json",
+      "candidates": 1579,
+      "read": 1579,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 436
+      }
+    },
+    {
+      "batch": "review-06.json",
+      "candidates": 1533,
+      "read": 1533,
+      "fullTextRead": null,
+      "events": {
+        "provisional": 399,
+        "reviewed": 321
+      }
+    },
+    {
+      "batch": "review-07.json",
+      "candidates": 1596,
+      "read": 1596,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 869,
+        "provisional": 390
+      }
+    },
+    {
+      "batch": "review-08.json",
+      "candidates": 1711,
+      "read": 1711,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 430
+      }
+    },
+    {
+      "batch": "review-09.json",
+      "candidates": 2217,
+      "read": 2217,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 1241
+      }
+    },
+    {
+      "batch": "review-10.json",
+      "candidates": 1539,
+      "read": 1539,
+      "fullTextRead": null,
+      "events": {
+        "reviewed": 619
+      }
+    }
+  ],
+  "errors": []
+}

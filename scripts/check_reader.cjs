@@ -1,24 +1,29 @@
 // Logic and generated-markup checks in a small DOM harness; not browser visual QA.
-const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),crypto=require('crypto').webcrypto;
 const path=require('path');const root=path.resolve(__dirname,'../dist');
 const elements=new Map(),listeners=new Map();
 function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textContent:'',value:'',checked:false,disabled:false,style:{setProperty(){}},classList:{set:new Set(),add(x){this.set.add(x)},remove(x){this.set.delete(x)},contains(x){return this.set.has(x)},toggle(x,v){if(v===undefined)v=!this.set.has(x);if(v)this.set.add(x);else this.set.delete(x)}},focus(){},getBoundingClientRect(){return {top:0}},closest(){return element('label')},scrollIntoView(){}});return elements.get(key);}
 element('#searchScope').value='current';
 element('.theme-select').options=[{value:'light'},{value:'dark'},{value:'warm'}];
 const location={hash:'',pathname:'/',search:''};const history={pushState(_a,_b,url){location.hash=url.includes('#')?'#'+url.split('#')[1]:''}};
-const context=vm.createContext({console,setTimeout,clearTimeout,location,history,document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){const previous=listeners.get(type);listeners.set(type,previous?(event=>{previous(event);handler(event)}):handler)},body:element('body'),documentElement:{dataset:{},style:{setProperty(){}},scrollHeight:1000},activeElement:element('active')},window:{scrollY:0,innerHeight:700,scrollTo(){},addEventListener(){}},requestAnimationFrame:f=>f(),fetch:async name=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,name.split('?')[0]),'utf8'))})});
+const context=vm.createContext({console,setTimeout,clearTimeout,location,history,crypto:process.env.READER_NO_WEBCRYPTO?undefined:crypto,TextEncoder,document:{querySelector:element,querySelectorAll:()=>[],addEventListener(type,handler){const previous=listeners.get(type);listeners.set(type,previous?(event=>{previous(event);handler(event)}):handler)},body:element('body'),documentElement:{dataset:{},style:{setProperty(){}},scrollHeight:1000},activeElement:element('active')},window:{scrollY:0,innerHeight:700,scrollTo(){},addEventListener(){}},requestAnimationFrame:f=>f(),fetch:async name=>{const raw=fs.readFileSync(path.join(root,name.split('?')[0]),'utf8');return {ok:true,text:async()=>raw,json:async()=>JSON.parse(raw)}}});
 vm.runInContext(fs.readFileSync(path.join(root,'people.js'),'utf8'),context);
 vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),context);
 const run=code=>vm.runInContext(code,context);
+for(const input of ['', 'abc', '晋国（首府新田〔山西省侯马市〕）', 'a'.repeat(100000)]){
+ context.digestInput=input;
+ assert.equal(run('sha256Fallback(digestInput)'),require('crypto').createHash('sha256').update(input).digest('hex'));
+}
+
 (async()=>{
- await new Promise(setImmediate);assert.equal(run('book.volume'),1);
+ await new Promise(resolve=>setTimeout(resolve,100));assert.equal(run('book.volume'),1);
  assert.equal(run('cn(59)'), '五十九');assert.equal(run('reign({dynasty:"秦",king:"始皇帝",reign:16})'),'秦始皇帝十六年');
  await run('changeVolume(2)');assert.equal(element('#yearCount').textContent,48);assert.equal(location.hash,'#volume-2');assert(!element('#chronicle').innerHTML.includes('事件提要 · 已逐条重写'));assert(element('#chronicle').innerHTML.includes('齐伐魏，夺取观津'));
  await run('openYear(2,368)');await run('stepYear(-1)');assert.equal(run('book.volume'),1);assert.equal(run('selected'),369);await run('stepYear(1)');assert.equal(run('book.volume'),2);assert.equal(run('selected'),368);
  let checked=0;
  for(let v=1;v<=294;v++){
   await run(`changeVolume(${v})`);const ys=run('book.years.map(y=>y.year)');
-  for(const y of ys){run(`readYear(${y})`);const markup=element('#readerContent').innerHTML;const ids=[...markup.matchAll(/id="para-(\d+)"/g)].map(m=>+m[1]);const ps=run('book.years[readingIndex].paragraphs.length');assert.equal(ids.length,ps,`paragraph coverage v${v} ${y}`);assert.equal(new Set(ids).size,ids.length);for(const anchor of run('book.years[readingIndex].anchors'))assert(ids.includes(anchor));assert(!markup.includes('undefined'));checked++;}
+  for(const y of ys){run(`readYear(${y})`);const markup=element('#readerContent').innerHTML;const ids=[...markup.matchAll(/id="para-(\d+)"/g)].map(m=>+m[1]);const ps=run('book.years[readingIndex].paragraphs.length');assert.equal(ids.length,ps,`paragraph coverage v${v} ${y}`);assert.equal(new Set(ids).size,ids.length);for(const anchor of run('book.years[readingIndex].anchors'))assert(ids.includes(anchor));assert(!markup.includes('undefined'));assert.equal((markup.match(/<figure class="translation-illustration">/g)||[]).length,run('book.years[readingIndex].yearIllustrations?.length||0'),`illustration coverage v${v} ${y}`);checked++;}
  }
  assert(checked>=1362);assert.equal(run('booksCache.size')<=5,true);assert(element('#nextYear').disabled);assert.equal(run('selected'),-959);
  await run('openYear(200,-662)');assert.equal(element('#nextYear').textContent,'本年续篇 →');await run('stepYear(1)');assert.equal(run('book.volume'),201);assert.equal(run('selected'),-662);assert(element('#readerContent').innerHTML.includes('本年记事分见'));

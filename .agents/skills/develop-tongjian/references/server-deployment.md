@@ -12,6 +12,35 @@
 - Caddy 配置：`/etc/caddy/Caddyfile`；另通过 `import /etc/caddy/*.caddyfile` 加载已有 DERP 配置。
 - 首次部署已备份配置到 `/etc/caddy/Caddyfile.before-tongjian-20261009-010241`。
 
+## 发布前检查
+
+先检查 `git status --short` 和实际改动，确认发布范围。当前工作区可能包含尚未提交的白话补充、
+饥荒专项数据等；按下面的工作区发布约定一起同步，并在发布进度中说明，不仅导出 Git HEAD。
+不为发布擅自提交或推送其他改动。
+
+基本校验：
+
+```bash
+node --check dist/app.js
+node --check dist/search-worker.js
+node --check dist/river.js
+node scripts/check_reader.cjs
+python scripts/validate_full_book.py --original sources/hu-sansheng.epub
+```
+
+按实际变化运行相关检查；当前项目另有
+`python scripts/check_translation_supplements.py` 和 `python scripts/check_famine_supplement.py`。
+这些脚本不可用时以当前项目为准，不从技能旧快照恢复。源 EPUB 不在本机时，说明无法完成
+来源重建校验，继续执行可用检查。检查失败时先修复或报告阻碍，不把失败版本作为验收通过版本。
+
+上传前更新已变动资源的查询版本号：主页 `river.css` / `river.js`、河流脚本的
+`river-data.json`、阅读页 `app.js`、`app.js` 中搜索 Worker，以及本次修改的其他入口资源。
+版本号采用本次实际日期或唯一发布标记，不固定复用历史字符串。没有变化的资源无需更新。
+
+先用 `ssh -6 -o BatchMode=yes -o ConnectTimeout=15 root@ssh.deewins.top`
+确认 `/root/projs/tongjian/dist` 存在及 `systemctl is-active caddy`。
+SSH 连接或认证失败时报告具体错误，不切换网站身份、不修改服务器路由，也不反复无期限重试。
+
 ## 常规增量发布
 
 用户要求发布时，同步当前工作区的 `dist/`，包括尚未提交但属于本次版本的文件。
@@ -85,6 +114,27 @@ curl -6 -fsSI https://deewins.top/tongjian/catalog.json
 遇到 403 时先区分 Cloudflare 响应和源站文件权限问题。
 若浏览器缓存旧脚本，强制刷新；需要让所有访客及时获取新脚本时更新 index.html
 已有的脚本查询版本号。发布失败时报告实际失败步骤，不宣称发布完成。
+
+### 内容与浏览器验收
+
+用 `curl -6 -fsS --max-time 25` 下载首页及实际发布涉及的资源，比较下载字节的 SHA-256
+与本地文件；校验请求可附加唯一 `?verify=发布标记` 绕过旧缓存。
+确认 `/tongjian` 返回 308 且 Location 为 `https://deewins.top/tongjian/`。
+资源至少覆盖本次变动的脚本和数据；全站发布可抽查目录、卷数据、人物索引和专题数据。
+本次 2026-10-13 发布已核验：`index.html`、`river.js`、`river.css`、`river-data.json`、
+`reader.html`、`app.js`、`catalog.json`、`ruler-deaths.json`、`people-index.json`、
+`translation-supplement-report.json`、`famine-audit-report.json`、`volume294.json` 和 `search28.json`。
+该清单是已验证示例，未来按实际变化选择，不声称抽查等同全部文件逐个校验。
+
+有 Playwright 或浏览器能力时，访问公网首页并等待 `.river-position` 加载，确认没有页面错误、
+没有独立的 `.river-range`，页面宽度没有横向溢出；再打开
+`reader.html#volume-1-year-403` 确认卷正文加载。针对本次新功能补充真实浏览器场景。
+手机与桌面均检查；涉及全宽布局时注意传统纵向滚动条占宽，不能只在无滚动条环境检查 `100vw`。
+无法使用浏览器时如实报告限制，不能把 curl 或简化 DOM 检查写成视觉验收。
+
+同步、ACL 和公网校验均成功后才报告发布完成，附访问地址和实际验收范围。
+若上传成功但公网检查失败，明确区分已上传与尚未验收，并检查缓存、权限、资源路径或脚本错误。
+发布不需要重启 Caddy；只有路由配置发生变化时才按配置维护流程校验并重载。
 
 ## 访问日志与每日统计
 

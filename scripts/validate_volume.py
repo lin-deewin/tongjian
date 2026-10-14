@@ -28,20 +28,31 @@ def check(book):
         seen = set()
         for pair in y['bilingual']:
             pairs += 1
-            assert pair['modern'] and pair['sourceOriginal'], 'empty pair'
+            assert pair['modern'], 'empty translation'
+            has_source_location = bool(pair.get('sourceLocations'))
+            assert pair['sourceOriginal'] or (
+                has_source_location
+                and (
+                    pair.get('alignmentMethod') == 'manual-content-review'
+                    or (book.get('translationReplacement') and pair.get('provenance') == 'uploaded-epub')
+                )
+            ), 'missing source provenance'
             if pair['difference']:
                 differences += 1
                 assert not pair['huIndices'], 'difference matches a paragraph'
                 continue
             assert pair['huIndices'], 'unmarked unmatched pair'
-            assert pair['score'] >= 0.65, 'low-confidence match'
+            minimum_score = 0.65
+            if pair.get('alignmentMethod') == 'reviewed-translation-sequence':
+                minimum_score = 0.76
+            assert pair['score'] >= minimum_score, 'low-confidence match'
             for i in pair['huIndices']:
                 assert 0 <= i < len(ps), 'paragraph out of range'
                 assert i not in seen, 'duplicate paragraph mapping'
                 seen.add(i)
         missing = sorted(set(range(len(ps))) - seen)
         assert missing == sorted(y['translationMissing']), 'missing mismatch'
-        if book.get('volume', 1) <= 10:
+        if book.get('volume', 1) <= 10 and not book.get('translationReplacement'):
             assert not missing, f"untranslated verified baseline {y['year']}"
     return {'years': len(years), 'recorded': sum(y['recorded'] for y in years),
             'translation_pairs': pairs, 'source_differences': differences,
