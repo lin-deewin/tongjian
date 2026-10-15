@@ -1,6 +1,6 @@
-# 本地账号与真实邮箱集成
+# 账号与真实邮箱集成
 
-2026-10-15：按用户要求完善本地项目，暂不上线；购买保持关闭，支付渠道为 `disabled`。
+2026-10-15：本地账号集成完成后，经用户明确授权部署公网账号后台并迁移现有账号；购买保持关闭，支付渠道为 `disabled`。
 
 ## 使用入口
 
@@ -52,6 +52,17 @@ systemctl --user restart tongjian-accounts.service tongjian-atlas.service
 
 QQ → 自有邮箱已在服务器和用户侧确认收到。自有邮箱 → QQ 的测试虽被 QQ 邮件服务器接受，用户反馈未见邮件，最终入箱问题尚未解决。不能承诺 QQ、Gmail、163 等供应商均能最终送达。PTR 仍需在 VPS 服务商后台设置为 `mail.deewins.top`，但目前没有证据将 QQ 未入箱直接归因于 PTR。
 
-本次只做本地项目集成，没有发布网站动态后台、修改公网网站路由、开放销售或使用真实支付。未来上线需要部署生产后台、隔离私有内容、配置动态路由及缓存规则，并再次做公网账号和邮件投递验收。
+以上记录描述公网部署前的本地验收状态：当时尚未发布动态后台，购买也未开放。2026-10-15 的线上账号服务部署另见本文件末尾。
 
 图形验证码补充验收：账号、商品与支付共 92 项后端测试通过，覆盖图片私有访问、错误/过期/重放、跨会话及 CSRF。真实浏览器验证换图保留邮箱、带图形校验的邮件注册和关闭 JavaScript 注册，1440/390/320px 无横向溢出、无页面错误，见 [验证码浏览器报告](../artifacts/commerce/20261015-122627-329152/qa-report.json)。浏览器使用隔离数据库和文件邮件后端；本次不额外向外部收件人发信。
+
+
+## 2026-10-15 公网账号服务部署
+
+- 登录：<https://deewins.top/tongjian/account/login/>；注册：<https://deewins.top/tongjian/account/register/>；找回密码：<https://deewins.top/tongjian/account/password-reset/>。
+- Caddy 对 `/tongjian/account/*`、`/tongjian/api/*` 等动态路径反向代理至 `127.0.0.1:8010`；静态阅读仍从 `dist/` 提供。动态账号响应带 `Cache-Control: private, no-store` 与 `X-Robots-Tag: noindex, nofollow`。
+- 服务由 `tongjian-accounts.service` 管理；PostgreSQL 使用独立 `tongjian_accounts` 库，应用仅通过 loopback 访问。生产密钥、数据库口令和 SMTP 凭据保存在服务器 `/etc/tongjian-commerce/commerce.env`，权限为 root 0600。
+- 从本机数据库迁移了 1 个账号和 1 个产品；没有订单、支付记录或权益。密码哈希保留，旧会话、邮件验证码、图形验证码和速率限制记录已清除，现有用户需重新登录。迁移期间的明文数据库转储已删除。
+- `SALES_ENABLED=false`、`PAYMENT_PROVIDER=disabled`；管理员来源限制为服务器本机。没有启用购买或配置真实支付。每日 03:30（北京时间）创建 30 天滚动保留的加密数据库/私有内容备份，密钥独立为 root 0600。备份仅存同一服务器，异地备份尚未配置。
+- 已完成生产 Django 安全检查、数据库迁移检查和线上 GET 冒烟检查：登录、注册、找回页面均 200，CSRF Cookie 为 Secure，关键样式与脚本为 200。服务器到 `mail.deewins.top:587` 的 STARTTLS 证书握手通过；本次没有发送测试邮件，也没有用用户密码提交登录表单。
+- 完整浏览器/手机验收尚未执行；首次登录请用此前注册的邮箱和密码。若密码无法登录，可通过线上找回密码重设。

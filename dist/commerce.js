@@ -2,6 +2,11 @@
   'use strict';
   const api = '/tongjian/api/v1';
   let csrf = '';
+  let accountDialog = null;
+  let accountDialogContent = null;
+  let accountInvoker = null;
+  let accountParentPath = '';
+  let accountCurrentUrl = '';
   const money = fen => `¥${(fen / 100).toFixed(2)}`;
   async function request(path, data, headers = {}) {
     const response = await fetch(api + path, {method: data === undefined ? 'GET' : 'POST', credentials: 'same-origin',
@@ -18,6 +23,107 @@
   }
   function busy(button, value) { if (button) button.disabled = value; }
   function loginUrl(next) { return '/tongjian/account/login/?next=' + encodeURIComponent(next); }
+  function supportsAccountDialog() {
+    return window.parent === window && typeof HTMLDialogElement !== 'undefined' &&
+      typeof HTMLDialogElement.prototype.showModal === 'function';
+  }
+  function ensureAccountDialog() {
+    if (!supportsAccountDialog()) return null;
+    if (accountDialog) return accountDialog;
+    accountDialog = document.createElement('dialog');
+    accountDialog.className = 'account-dialog';
+    accountDialog.setAttribute('aria-labelledby', 'accountDialogTitle');
+    accountDialog.innerHTML = '<div class="account-dialog-heading"><strong id="accountDialogTitle">资治通鉴账号</strong><button type="button" class="account-dialog-close" aria-label="关闭登录框">×</button></div><div class="account-dialog-content" aria-live="polite"><p class="account-dialog-loading">正在打开登录…</p></div>';
+    document.body.appendChild(accountDialog);
+    accountDialogContent = accountDialog.querySelector('.account-dialog-content');
+    accountDialog.querySelector('.account-dialog-close').addEventListener('click', () => accountDialog.close());
+    accountDialog.addEventListener('click', event => { if (event.target === accountDialog) accountDialog.close(); });
+    accountDialog.addEventListener('close', () => {
+      if (accountInvoker?.isConnected) accountInvoker.focus();
+      accountInvoker = null;
+    });
+    accountDialog.addEventListener('click', event => {
+      const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+      if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      let url;
+      try { url = new URL(link.href, location.href); } catch { return; }
+      if (url.origin !== location.origin || !/^\/tongjian\/account\//.test(url.pathname)) return;
+      event.preventDefault();
+      loadAccountPage(url.href);
+    });
+    accountDialog.addEventListener('submit', event => submitAccountForm(event));
+    return accountDialog;
+  }
+  function closeAccountDialog() {
+    accountDialog?.close();
+    setupAccountNavigation();
+  }
+  function renderAccountPage(html, responseUrl) {
+    const parsed = new DOMParser().parseFromString(html, 'text/html');
+    const main = parsed.querySelector('main');
+    const panel = main?.querySelector('.account-panel');
+    const content = panel || main;
+    if (!content) throw new Error('登录页面暂时无法显示，请稍后重试。');
+    for (const form of content.querySelectorAll('form')) {
+      if (!form.hasAttribute('action')) form.setAttribute('action', responseUrl);
+    }
+    accountDialogContent.replaceChildren(content.cloneNode(true));
+    accountCurrentUrl = responseUrl;
+    accountDialogContent.scrollTop = 0;
+    accountDialogContent.querySelector('input:not([type=hidden])')?.focus({preventScroll: true});
+  }
+  async function loadAccountPage(href, method = 'GET', body) {
+    const target = new URL(href, location.href);
+    if (target.origin !== location.origin) return;
+    accountDialogContent.innerHTML = '<p class="account-dialog-loading">正在打开账号页面…</p>';
+    try {
+      const response = await fetch(target.href, {method, body, credentials: 'same-origin',
+        headers: {'Accept': 'text/html'}, redirect: 'follow'});
+      const html = await response.text();
+      const finalUrl = new URL(response.url || target.href, location.href);
+      if (response.redirected && (finalUrl.pathname === accountParentPath || finalUrl.pathname === '/tongjian/account/')) {
+        closeAccountDialog();
+        return;
+      }
+      if (!response.headers.get('content-type')?.includes('text/html')) throw new Error('账号页面暂时无法显示，请稍后重试。');
+      renderAccountPage(html, finalUrl.href);
+    } catch (error) {
+      const notice = document.createElement('p');
+      notice.className = 'account-dialog-error';
+      notice.setAttribute('role', 'alert');
+      notice.textContent = error.message || '账号服务暂不可用，请稍后重试。';
+      accountDialogContent.replaceChildren(notice);
+    }
+  }
+  async function submitAccountForm(event) {
+    const form = event.target instanceof HTMLFormElement ? event.target : null;
+    if (!form || !accountDialogContent.contains(form)) return;
+    event.preventDefault();
+    const data = new FormData(form);
+    if (event.submitter?.name) data.set(event.submitter.name, event.submitter.value);
+    await loadAccountPage(form.action || accountCurrentUrl, (form.method || 'POST').toUpperCase(), data);
+  }
+  function openAccountModal(href, invoker) {
+    const dialog = ensureAccountDialog();
+    if (!dialog) { window.location.assign(href); return; }
+    accountInvoker = invoker || document.activeElement;
+    accountParentPath = location.pathname;
+    if (!dialog.open) dialog.showModal();
+    loadAccountPage(href);
+  }
+  function installAccountModalLinks() {
+    if (!supportsAccountDialog()) return;
+    document.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+      if (!link) return;
+      let url;
+      try { url = new URL(link.href, location.href); } catch { return; }
+      if (url.origin !== location.origin || !/^\/tongjian\/account\/(?:login|register)\//.test(url.pathname)) return;
+      event.preventDefault();
+      openAccountModal(url.pathname + url.search + url.hash, link);
+    });
+  }
   function anchor(slug) { return sessionStorage.getItem(`article-anchor:${slug}`) || ''; }
   function clearKeys() {
     for (const key of Object.keys(sessionStorage)) if (key.startsWith('order-key:')) sessionStorage.removeItem(key);
@@ -83,7 +189,7 @@
       buy.addEventListener('click', async event => {
         event.preventDefault();
         sessionStorage.setItem(`article-anchor:${slug}`, window.location.hash);
-        if (!state.authenticated) { window.location.assign(loginUrl('/tongjian/truth.html' + window.location.hash)); return; }
+        if (!state.authenticated) { openAccountModal(loginUrl('/tongjian/truth.html' + window.location.hash), buy); return; }
         if (!root.querySelector('[data-accept-terms]').checked) { message(root, '请先阅读并同意购买说明。', true); return; }
         const ua = navigator.userAgent.toLowerCase();
         if (ua.includes('micromessenger')) { message(root, '请在系统浏览器中打开后购买。', true); return; }
@@ -136,6 +242,7 @@
     window.addEventListener('pagehide', () => clearTimeout(timer));
     await refresh();
   }
+  installAccountModalLinks();
   setupAccountNavigation();
   document.querySelectorAll('[data-captcha-refresh]').forEach(button => button.addEventListener('click', async event => {
     event.preventDefault();

@@ -4,7 +4,9 @@ Python 3.12、Django 5.2 LTS、PostgreSQL 16、Gunicorn。保留原静态站，�
 
 当前实现：邮箱验证码注册、密码登录、我的账号、修改/找回密码、原生表单退出与会话、商品试读、受控全文/PDF、幂等订单、微信 Native/H5 adapter、回调签名与解密、查单/关单、全额退款、后台补发、对账、告警与加密备份。正式价格、商户权限和公网验收见 [上线决定](../docs/paid-content-launch-decisions.md)。支付宝与 JSAPI 未启用，本地模拟不是支付平台沙箱。
 
-当前本地入口：`http://100.108.212.5:3003/tongjian/`；注册：`/tongjian/account/register/`；登录：`/tongjian/account/login/`；我的账号：`/tongjian/account/`。3003 经本机 Caddy 代理到回环账号后台 18010，服务已由用户 systemd 管理，运行 `systemctl --user restart tongjian-accounts.service tongjian-atlas.service` 可重启，配置见 [本机入口说明](../ops/local/README.md)。不要在现有服务运行时再启动手工后台。已接通 `mail.deewins.top:587` STARTTLS 真实发信，运行凭据只在受限 `backend/.env` 中保存。购买继续关闭，本次不发布线上。验收范围与已知邮件投递限制见 [账号集成记录](../docs/account-integration.md)。
+线上入口：`https://deewins.top/tongjian/`；登录：`/tongjian/account/login/`；注册：`/tongjian/account/register/`；我的账号：`/tongjian/account/`。账号后端由服务器 `tongjian-accounts.service` 管理，只监听 `127.0.0.1:8010`，由 Caddy 代理动态路径；PostgreSQL 数据库为独立的 `tongjian_accounts`。生产环境文件位于服务器 `/etc/tongjian-commerce/commerce.env`（root 0600），不应复制进仓库或普通备份。当前用户密码哈希已迁移，旧会话和临时验证码已清除；销售与支付保持关闭，管理员路由限本机。邮件服务使用 `mail.deewins.top:587` STARTTLS。
+
+本机开发入口仍为 `http://100.108.212.5:3003/tongjian/`，由用户 systemd 管理，配置见 [本机入口说明](../ops/local/README.md)。不要在现有服务运行时再启动手工后台。公网状态、迁移与验收记录见 [账号集成记录](../docs/account-integration.md)。
 
 ## 首次安装与手工启动
 

@@ -16,15 +16,15 @@ python -m http.server 8000 --directory dist
 
 打开 `http://localhost:8000`。无前端构建或第三方依赖。原文正文按卷加载，正文缓存最多五卷。全书搜索在 Web Worker 内以四个请求并发读取分卷索引，显示检索进度并分页展示结果。
 
-## 本地账号与邮箱注册
+## 账号与邮箱注册
 
-账号功能使用独立 Django/PostgreSQL 后端；上述静态服务只提供阅读，不包含注册和登录。当前本机完整入口是 `http://100.108.212.5:3003/tongjian/`，注册、登录和账号页分别在 `account/register/`、`account/login/`、`account/`。
+阅读内容由静态站点提供；注册、登录、找回密码和账号页由独立 Django/PostgreSQL 后端提供。线上入口为 `https://deewins.top/tongjian/`，登录、注册和账号页分别是 `account/login/`、`account/register/`、`account/`。本机开发入口仍为 `http://100.108.212.5:3003/tongjian/`。
 
 ```sh
 systemctl --user restart tongjian-accounts.service tongjian-atlas.service
 ```
 
-3003 入口和回环账号后台已由本机用户服务管理，配置见 [本机入口说明](ops/local/README.md)。支持邮箱验证码注册、密码登录、修改/找回密码及无 JavaScript 退出；从阅读事件登录后返回原位置。真实 SMTP 配置放在被 Git 忽略的受限 `backend/.env` 中。当前只完善本地项目，购买关闭，尚未发布网站账号后台。
+线上账号服务由服务器 systemd 与 PostgreSQL 管理，后端仅监听回环地址并经 Caddy 代理；生产配置保存在服务器 `/etc/tongjian-commerce/commerce.env`，不进入 Git。现有账号密码哈希已迁移，旧会话已失效，需要重新登录。支持邮箱验证码注册、密码登录、修改/找回密码及无 JavaScript 退出；从阅读事件登录后返回原位置。购买与支付保持关闭。本机 3003 开发入口配置见 [本机入口说明](ops/local/README.md)。
 
 首次安装与运行见 [后端手册](backend/README.md)，验收和邮件投递限制见 [账号集成记录](docs/account-integration.md)。
 

@@ -3,13 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="以资治通鉴原文为依据，查看周、战国至五代君主死亡记载。六组案例分析、图形统计、逐人原文与存疑说明。">
-<title>通鉴中的君主之死 · 通鉴年鉴</title>
+<meta name="description" content="依据资治通鉴原文整理周、战国至五代君主死亡记载，提供案例分析、图表统计、逐人出处与存疑说明。">
+<title>资治通鉴中的君主之死：291位君主的记载与原文</title>
 <link rel="stylesheet" href="ruler-deaths.css?v=20261014-release1">
 <script src="ruler-deaths.js?v=20261014-release1" defer></script>
+<link rel="canonical" href="https://deewins.top/tongjian/ruler-deaths.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="资治通鉴">
+<meta property="og:title" content="资治通鉴中的君主之死：291位君主的记载与原文">
+<meta property="og:description" content="依据资治通鉴原文整理周、战国至五代君主死亡记载，提供案例分析、图表统计、逐人出处与存疑说明。">
+<meta property="og:url" content="https://deewins.top/tongjian/ruler-deaths.html">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://deewins.top/tongjian/share-card.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="资治通鉴：沿着年表读资治通鉴">
+<meta name="twitter:image" content="https://deewins.top/tongjian/share-card.svg">
 </head>
 <body>
-<header class="site-header"><div class="header-inner"><a class="brand" href="./"><span class="seal" aria-hidden="true">鉴</span>通鉴年鉴</a><nav aria-label="主导航"><a href="reader.html">读通鉴</a><a href="reader.html#people">人物档案</a><a href="research.html">专题研究</a><a href="ruler-deaths.html" aria-current="page">君主之死</a></nav></div></header>
+<header class="site-header"><div class="header-inner"><a class="brand" href="./"><span class="seal" aria-hidden="true">鉴</span>资治通鉴</a><nav aria-label="主导航"><a href="reader.html">读通鉴</a><a href="reader.html#people">人物档案</a><a href="research.html">专题研究</a><a href="ruler-deaths.html" aria-current="page">君主之死</a></nav></div></header>
 <main>
 <section class="hero" aria-labelledby="topicTitle"><div class="hero-copy"><p class="eyebrow">通鉴专题 / 权力与终局</p><h1 id="topicTitle">通鉴中的<br>君主之死</h1><p class="hero-line">冠冕之下，也是一条性命。</p><p class="hero-description">从周与战国到五代，从天子到诸侯国君。<br>沿着结局追问：谁仍掌握命令、兵力与信息？</p><a class="text-link" href="#overview">查看结局数据 <span aria-hidden="true">↓</span></a>　<a class="text-link" href="#deathResearch">阅读研究文章 <span aria-hidden="true">↓</span></a></div><div class="hero-visual" aria-hidden="true"><svg viewBox="0 0 420 330"><g fill="none" stroke="currentColor"><path d="M75 87h270M88 104h244M101 121h218M114 138h192M127 155h166" opacity=".16"/><path d="M75 72l16-21 26 13 27-24 30 15 36-35 36 35 30-15 27 24 26-13 16 21" stroke-width="2" opacity=".6"/><path d="M210 177v100M185 277h50" opacity=".2"/><path d="M210 177v35" stroke-width="2"/><circle cx="210" cy="226" r="6" fill="currentColor" stroke="none"/></g><text x="210" y="321" text-anchor="middle">前403年 — 公元959年</text></svg></div></section>
 <section id="overview" aria-labelledby="overviewTitle"><div class="section-heading"><div><p class="eyebrow">01 / 结局的分量</p><h2 id="overviewTitle">一个名字，一种结局</h2></div><p class="section-description">只统计当前已核对记录。未述死因，也在图中占有位置。</p></div><div id="loadingState" role="status" class="loading">正在读取君主死亡记载…</div><div id="metrics" class="metrics" aria-label="当前收录概况"></div><p id="coverageNote" class="coverage-note"></p></section>
@@ -76,7 +88,7 @@
 <section class="records-section" id="records" aria-labelledby="recordsTitle"><div class="section-heading"><div><p class="eyebrow">04 / 逐人查证</p><h2 id="recordsTitle">君主死亡记载表</h2></div><div class="table-tools"><label>排序<select id="sortOrder"><option value="earliest">记载年：由早到晚</option><option value="latest">记载年：由晚到早</option><option value="name">按姓名</option></select></label><button id="exportCsv" type="button" class="outline-button">导出当前结果</button></div></div><p class="table-scroll-hint">手机可左右滑动表格；点击姓名查看完整依据。</p><div class="table-scroll" tabindex="0" role="region" aria-label="君主死亡记载表，窄屏可左右滑动"><table><caption class="sr-only">已核对的君主、政权、通鉴记载年、结局分类及原文依据</caption><thead><tr><th scope="col">君主</th><th scope="col">政权 / 时代</th><th scope="col">通鉴记载年</th><th scope="col">结局</th><th scope="col">具体因素与处境</th><th scope="col">依据</th></tr></thead><tbody id="rulerRows"></tbody></table></div><nav id="pagination" class="pagination" aria-label="表格分页"></nav><p class="table-note">点击姓名或“展开”核对出处。表中年份是记载年；追叙、附叙的实际发生年可能不同。</p></section>
 <section class="methodology" aria-labelledby="methodTitle"><p class="eyebrow">统计如何成立</p><h2 id="methodTitle">有依据，也有留白</h2><div class="method-grid"><div><h3>谁被纳入</h3><p>《通鉴》范围内的实际君主，包括先秦称公、侯的国君，以及秦以后皇帝、割据政权君主。曾退位或被废者仍可纳入；一人仅一条死亡记录。普通宗室王爵不因封王而纳入。</p></div><div><h3>“崩”不是一种死因</h3><p>仅记崩、薨、卒的条目，归为“所引原文未述”，不视为寿终正寝。病中去世保留古书记述，服药、政变等背景也不直接变成现代医学诊断。</p></div><div><h3>争议保留在统计里</h3><p>有异说、原因交织或关系不明确者单列，不并入确定的中毒或他杀。各分类互斥，比例以当前筛选出的已收录记录为分母；没有记录不等于没有发生。</p></div><div><h3>每个结论都能追溯</h3><p>分类与解释为本站整理。每条记录绑定上传胡三省注本的卷、年、原文段落。当前名单仍可继续补充，不能据此代表全部君主，或证明权力与死因之间的因果关系。</p></div></div><details><summary>查看分类标准</summary><dl id="categoryDefinitions"></dl></details></section>
 </main>
-<footer class="site-footer"><span>通鉴年鉴 · 前403年至公元959年</span><a href="research.html">返回专题研究 →</a><a href="./">返回主页 ↗</a></footer>
+<footer class="site-footer"><span>资治通鉴 · 前403年至公元959年</span><a href="research.html">返回专题研究 →</a><a href="./">返回主页 ↗</a></footer>
 <dialog id="rulerDetail" aria-labelledby="detailTitle"><div class="detail-header"><p class="eyebrow">回到原文</p><button id="closeDetail" type="button" aria-label="关闭君主详情">×</button></div><div id="detailContent"></div></dialog>
 </body>
 </html>
