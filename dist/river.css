@@ -13,7 +13,7 @@
 .river-event-panel{position:relative;z-index:3;grid-column:3;height:310px;margin-bottom:-72px;padding:12px;border:1px solid rgba(40,83,66,.16);border-radius:8px;background:transparent;min-width:0}
 .river-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;height:24px;margin-bottom:8px}
 .river-panel-heading h3{margin:0;font:15px/1.6 'Songti SC','SimSun',serif;white-space:nowrap}
-.river-panel-year{margin-left:6px;color:var(--muted);font:11px/1.6 'PingFang SC','Microsoft YaHei',sans-serif}
+.river-panel-year{margin-left:6px;color:var(--muted);font:11px/1.6 'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif}
 .river-event-count{color:var(--muted);font-size:12px;white-space:nowrap}
 .river-event-list{height:252px;margin:0;padding:0;list-style:none;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#789184 transparent;scrollbar-gutter:stable}
 .river-event-list::-webkit-scrollbar{width:6px}

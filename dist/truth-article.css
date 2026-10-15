@@ -7,8 +7,8 @@
 .article-diagram svg{display:block;width:100%;height:auto;overflow:visible}
 .article-diagram .diagram-mobile{display:none}
 .diagram-node{fill:var(--bg);stroke:var(--green);stroke-width:1.2}
-.diagram-node-label{fill:var(--ink);font:16px 'PingFang SC','Microsoft YaHei',sans-serif}
-.diagram-edge-label{fill:var(--green);font:14px 'PingFang SC','Microsoft YaHei',sans-serif}
+.diagram-node-label{fill:var(--ink);font:16px 'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif}
+.diagram-edge-label{fill:var(--green);font:14px 'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif}
 .diagram-arrow,.arrow-head{stroke:var(--green);stroke-width:1.4;fill:none}
 .article-diagram figcaption{color:var(--muted);font-size:13px;line-height:1.7;margin-top:8px}
 .article-table-wrap{margin:18px 0 24px}

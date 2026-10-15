@@ -6,6 +6,12 @@ with sync_playwright() as p:
  b=p.chromium.launch(headless=True);page=b.new_page(viewport={'width':1440,'height':1000});errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto('http://localhost:8000/reader.html#volume-1-year-403');page.locator('.compare-row').first.wait_for()
+ def open_library():
+  if page.viewport_size['width']<=800:
+   page.locator('.reader-mobile-tools').click()
+   page.locator('.reader-tool-menu [data-reader-tool="notes"]').click()
+  else:
+   page.locator('.reader-tools [data-reader-tool="notes"]').click()
  def select(selector):
   page.locator(selector).first.scroll_into_view_if_needed()
   page.locator(selector).first.evaluate('''p=>{const w=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);const n=w.nextNode();const r=document.createRange();r.setStart(n,0);r.setEnd(n,Math.min(12,n.length));const s=getSelection();s.removeAllRanges();s.addRange(r);document.dispatchEvent(new Event('selectionchange'));}''')
@@ -19,7 +25,7 @@ with sync_playwright() as p:
  page.locator('.has-thought').first.click();assert page.locator('#annotationThought').input_value()=='读史时记下的一个想法。';page.locator('[data-cancel]').click()
  page.reload();page.locator('.has-thought').first.wait_for();assert page.locator('.reader-annotation[data-color="green"]').count()>0
  select('.compare-row .modern-text');page.locator('[data-action="bookmark"]').click()
- page.locator('.annotation-launch').click();assert page.locator('.annotation-entry').count()==3
+ open_library();assert page.locator('.annotation-entry').count()==3
  for kind in ['bookmark','note','highlight']:
   page.locator('[data-library-type="'+kind+'"]').click()
   assert page.locator('.annotation-entry:visible').count()==1
@@ -36,7 +42,7 @@ with sync_playwright() as p:
  page.set_viewport_size({'width':390,'height':844});select('.compare-row .modern-text')
  page.screenshot(path='artifacts/bookmarks/selection-mobile.png');page.locator('[data-action="note"]').click();page.screenshot(path='artifacts/bookmarks/thought-mobile.png')
  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
- page.locator('[data-cancel]').click();page.locator('.annotation-launch').click();page.locator('.annotation-entry:visible [data-delete]').first.click();assert page.locator('.annotation-entry').count()==2
+ page.locator('[data-cancel]').click();open_library();page.locator('.annotation-entry:visible [data-delete]').first.click();assert page.locator('.annotation-entry').count()==2
  assert not errors,errors
  print('PASS: original/translation selections, color palette, notes/edit/dashed marks, bookmarks, persistence, deletion, desktop/mobile; no browser errors')
  b.close()

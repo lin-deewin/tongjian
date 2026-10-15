@@ -22,17 +22,20 @@
   const source = event?.sources[0];
   return `reader.html#volume-${source?.volume || year.volumes[0]}-year-${source?.year || year.year}${source ? '-para-'+source.anchor : ''}`;
  };
- let data;
+ // Load the compact year outline first so the chart can be painted before the
+ // full event index (about 4 MB) is downloaded and parsed.
+ let data, years;
  try {
-  const response = await fetch('river-data.json?v=deploy-1791962047');
+  const response = await fetch('river-outline.json?v=20261015-1');
   if (!response.ok) throw Error(response.status);
-  data = await response.json();
-  if (data.schemaVersion !== 3) throw Error('Event index version mismatch');
- } catch (error) {
-  $('.river-detail').innerHTML = '<p>事件索引暂未加载，请刷新重试。仍可通过下方年表入口阅读。</p>';
+  const outline = await response.json();
+  if (outline.schemaVersion !== 1 || !Array.isArray(outline.years) || outline.years.length!==1362) throw Error('Year outline version mismatch');
+  years = outline.years.map(year=>({...year,events:[]}));
+ } catch {
+  $('.river-detail').innerHTML = '<p>历史河流暂未加载，请刷新重试。仍可通过下方年表入口阅读。</p>';
   return;
  }
- const years = data.years, eras = [...new Set(years.map(year => year.dynasty))];
+ const eras = [...new Set(years.map(year => year.dynasty))];
  $('.river-chart-note').textContent='一点表示已收录的事件。';
  const tooltip=document.createElement('div');
  tooltip.className='river-point-tooltip';tooltip.setAttribute('role','tooltip');tooltip.hidden=true;
@@ -46,6 +49,27 @@
   if (!cache.has(key)) cache.set(key,year.events.filter(event => topic==='all' || event.categories.includes(topic)));
   return cache.get(key);
  };
+ let resolveEventData;
+ const eventDataReady=new Promise(resolve=>{resolveEventData=resolve;});
+ (async()=>{
+  try {
+   const response=await fetch('river-data.json?v=deploy-1791962047');
+   if(!response.ok)throw Error(response.status);
+   const loaded=await response.json();
+   if(loaded.schemaVersion!==3 || !Array.isArray(loaded.years) || loaded.years.length!==years.length)throw Error('Event index version mismatch');
+   data=loaded;
+   for(let i=0;i<years.length;i++)years[i].events=loaded.years[i].events;
+   cache.clear();
+   $('.river-chart-note').textContent='一点表示已收录的事件。';
+   detail();draw();
+   resolveEventData();
+  } catch {
+   $('.river-chart-note').textContent='事件索引暂未加载；仍可浏览年代。';
+   $('.river-event-list').innerHTML='<li class="river-event-empty">事件索引暂未加载，请刷新重试</li>';
+   $('.river-detail').innerHTML='<p>事件索引暂未加载，请刷新重试。仍可通过下方年表入口阅读。</p>';
+   resolveEventData();
+  }
+ })();
  const seedFor = event => {
   if (!seeds.has(event.id)) {
    let hash=2166136261;
@@ -102,7 +126,7 @@
   const list=$('.river-event-list'), key=year.year+':'+topic;
   const scroll=list.dataset.key===key?list.scrollTop:0;
   $('.river-detail').innerHTML='';
-  if (topic==='famine' && data.summary.famineSupplement) {
+  if (topic==='famine' && data?.summary.famineSupplement) {
    const audit=data.summary.famineSupplement;
    $('.river-detail').innerHTML+=`<p>全书已收录 ${audit.famineCount} 条饥荒，涉及 ${audit.famineYearCount} 个年份。同年同地灾情与赈济合并，跨年按年记录；尚非全书穷尽统计。</p>`;
   }
@@ -333,4 +357,5 @@
  document.addEventListener('visibilitychange',updateAnimation);
  reducedMotion.addEventListener('change',()=>{phase=0;draw();updateAnimation();});
  new ResizeObserver(resize).observe(canvas);detail();resize();
+ await eventDataReady;
 })();
