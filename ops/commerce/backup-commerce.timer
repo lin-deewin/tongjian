@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily encrypted commerce backup
+
+[Timer]
+OnCalendar=*-*-* 03:30:00 Asia/Shanghai
+Persistent=true
+Unit=backup-commerce.service
+
+[Install]
+WantedBy=timers.target

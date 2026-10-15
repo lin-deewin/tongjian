@@ -1,0 +1,14 @@
+[Unit]
+Description=Encrypted Tongjian database and private content backup
+After=tongjian-commerce.service
+OnFailure=tongjian-commerce-alert@%n.service
+
+[Service]
+Type=oneshot
+User=tongjian-commerce
+Group=tongjian-commerce
+WorkingDirectory=/srv/tongjian-commerce/current
+EnvironmentFile=/etc/tongjian-commerce/commerce.env
+ExecStart=/srv/tongjian-commerce/venv/bin/python ops/commerce/backup.py backup --directory /srv/tongjian-commerce/backups --key-file /etc/tongjian-commerce/backup.key --content-root /srv/tongjian-commerce/content
+UMask=0077
+NoNewPrivileges=true

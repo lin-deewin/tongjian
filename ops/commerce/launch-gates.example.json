@@ -1,0 +1,12 @@
+{
+  "merchant_products": {"passed": false, "evidence": "", "verified_by": ""},
+  "price_and_terms": {"passed": false, "evidence": "", "verified_by": ""},
+  "email_delivery": {"passed": false, "evidence": "", "verified_by": ""},
+  "real_payment_refund": {"passed": false, "evidence": "", "verified_by": ""},
+  "bill_verified": {"passed": false, "evidence": "", "verified_by": ""},
+  "device_matrix": {"passed": false, "evidence": "", "verified_by": ""},
+  "cdn_private_cache": {"passed": false, "evidence": "", "verified_by": ""},
+  "admin_networks": {"passed": false, "evidence": "", "verified_by": ""},
+  "restore_drill": {"passed": false, "evidence": "", "verified_by": ""},
+  "support_contact": {"passed": false, "evidence": "", "verified_by": ""}
+}

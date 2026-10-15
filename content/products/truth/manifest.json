@@ -1,0 +1,10 @@
+{
+  "slug": "truth",
+  "title": "先别急着相信 · 判断真伪",
+  "version": "20261014-v1",
+  "preview_sections": ["question", "chenzhen"],
+  "test_price_fen": 100,
+  "terms_version": "unconfirmed",
+  "source_renderer": "scripts/commerce/render_truth.py",
+  "source_pdf": "output/pdf/tongjian-truth-reader.pdf"
+}

@@ -1,0 +1,3 @@
+{% extends 'admin/base_site.html' %}{% block content %}<h2>{{ order.title }}</h2><p>订单 {{ order.merchant_number }} · 全额退回 {{ order.amount_fen }} 分</p>
+<p>提交后以渠道最终退款结果为准；受理成功不会立即撤销阅读权益。</p>
+<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">申请全额退款</button></form>{% endblock %}

@@ -1,0 +1,26 @@
+.case-analysis{margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}
+.case-analysis>h3{font-size:23px;margin-bottom:18px}
+.case-analysis h4,.article-diagram h4{font-family:'Songti SC','SimSun',serif;font-size:18px;font-weight:500;margin:20px 0 10px}
+.article-source{font-size:13px;color:var(--muted);margin:10px 0 16px}
+.article-diagram{margin:20px 0 26px;padding:16px 18px;background:var(--paper);border:1px solid var(--line)}
+.article-diagram h4{margin:0 0 6px}
+.article-diagram svg{display:block;width:100%;height:auto;overflow:visible}
+.article-diagram .diagram-mobile{display:none}
+.diagram-node{fill:var(--bg);stroke:var(--green);stroke-width:1.2}
+.diagram-node-label{fill:var(--ink);font:16px 'PingFang SC','Microsoft YaHei',sans-serif}
+.diagram-edge-label{fill:var(--green);font:14px 'PingFang SC','Microsoft YaHei',sans-serif}
+.diagram-arrow,.arrow-head{stroke:var(--green);stroke-width:1.4;fill:none}
+.article-diagram figcaption{color:var(--muted);font-size:13px;line-height:1.7;margin-top:8px}
+.article-table-wrap{margin:18px 0 24px}
+.article-table{width:100%;border-collapse:collapse;table-layout:fixed;background:var(--paper);font-size:14px;line-height:1.75}
+.article-table th,.article-table td{border:1px solid var(--line);padding:12px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.article-table th{font-weight:500;color:var(--green);background:var(--bg)}
+#limits h3{margin:26px 0 12px;font-size:22px}
+@media(max-width:600px){
+  .case-analysis>h3{font-size:21px}
+  .article-diagram{padding:16px 10px}
+  .article-diagram .diagram-desktop{display:none}
+  .article-diagram .diagram-mobile{display:block}
+  .article-table{font-size:13px;line-height:1.7}
+  .article-table th,.article-table td{padding:9px 7px}
+}

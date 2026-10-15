@@ -7,3 +7,14 @@ tongjian-full-294/
 /1.png
 /2.png
 /tj.png
+/.venv-commerce/
+/private-content/
+/backend/.env
+/backend/test-mail/
+/commerce-backups/
+*.pem
+*.key
+/artifacts/commerce/*/sensitive/
+/tmp/commerce-tools/
+/tmp/commerce-static/
+/tmp/mail-admin/

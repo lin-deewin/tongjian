@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% block title %}我的账号{% endblock %}
+{% block content %}<section class="account-panel">
+<h1>我的账号</h1>
+<dl class="account-details"><dt>注册邮箱</dt><dd>{{ user.email }}</dd>
+{% if user.email_verified_at %}<dt>邮箱验证</dt><dd>已验证</dd>{% endif %}
+<dt>注册时间</dt><dd>{{ user.date_joined|date:'Y-m-d' }}</dd></dl>
+<p><a class="purchase-button" href="/tongjian/reader.html">继续读通鉴</a></p>
+<p><a href="/tongjian/research.html">浏览专题研究</a> · <a href="/tongjian/account/purchases/">我的购买</a></p>
+<h2>账号安全</h2><p><a href="{% url 'password_change' %}">修改密码</a> · <a href="{% url 'password_reset' %}">通过邮箱找回密码</a></p>
+<p class="small">修改密码后，当前设备保持登录，其他设备需要重新登录。</p>
+{% include 'logout_form.html' %}
+</section>{% endblock %}

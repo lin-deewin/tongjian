@@ -1,0 +1,17 @@
+[Unit]
+Description=Tongjian local account backend
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/linqp/projs/tongjian
+Environment=DJANGO_SETTINGS_MODULE=config.settings.development
+Environment=PYTHONUNBUFFERED=1
+ExecStartPre=/home/linqp/projs/tongjian/.venv-commerce/bin/python backend/manage.py check
+ExecStart=/home/linqp/projs/tongjian/.venv-commerce/bin/python backend/manage.py runserver 127.0.0.1:18010 --noreload
+Restart=on-failure
+RestartSec=5
+UMask=0077
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,4 @@
+interface:
+  display_name: "高质量通鉴专题研究"
+  short_description: "从具体问题选取史料案例，写出引人入胜且有证据和学习价值的深度专题"
+  default_prompt: "请使用 $tongjian-research，围绕我给出的主题创作一篇有吸引力、有史料依据和学习价值的深度文章，完成案例比较并核验出处。"

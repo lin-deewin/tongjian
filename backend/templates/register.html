@@ -1,0 +1,32 @@
+{% extends 'base.html' %}{% block title %}注册{% endblock %}
+{% block content %}<section class="account-panel" data-register>
+<h1>注册账号</h1><p>先验证邮箱，再设置密码。注册成功后可使用邮箱和密码登录。</p>
+<p class="small">支持 QQ、163、126、Outlook、Gmail 等可接收邮件的常用邮箱及企业邮箱。验证码 10 分钟内有效，60 秒后可重新发送；请同时检查垃圾邮件。</p>
+{% if test_mail %}<p class="test-notice">本地测试模式：尚未配置真实发信服务，验证码不会投递到你的邮箱。</p>{% endif %}
+{% if code_sent %}<p role="status" class="registration-sent">{% if test_mail %}测试验证码已生成，尚未发送到真实邮箱。{% else %}验证码已发送，请查看邮箱。{% endif %}</p>{% endif %}
+{% if send_errors %}<ul role="alert" class="errorlist">{% for errors in send_errors %}{% for error in errors %}<li>{{ error }}</li>{% endfor %}{% endfor %}</ul>{% endif %}
+<form method="post" data-registration-form data-captcha-refresh-url="{% url 'graphic_captcha_refresh' %}">{% csrf_token %}<input type="hidden" name="next" value="{{ next }}">
+{{ form.non_field_errors }}
+<p>{{ form.email.label_tag }}{{ form.email }}{{ form.email.errors }}</p>
+{% if captcha_verified %}
+<p class="small" data-captcha-verified>图形验证已通过，请填写邮箱验证码和密码。修改邮箱后请重新获取验证码。</p>
+<p><button type="submit" name="action" value="refresh_captcha" formnovalidate>重新获取邮箱验证码</button></p>
+{% else %}
+<div class="graphic-captcha">
+{% if captcha_form %}{{ captcha_form.captcha_id }}
+<p>{{ captcha_form.captcha.label_tag }}{{ captcha_form.captcha }}</p>
+<div class="captcha-image-row"><img src="{{ captcha_image_url }}" width="176" height="56" alt="图形验证码，输入图片中的四位字符" data-captcha-image>
+<button type="submit" name="action" value="refresh_captcha" formnovalidate data-captcha-refresh>换一张</button></div>
+<p id="captcha-help" class="small">输入图片中的 4 位字符，不区分大小写。图片 5 分钟内有效。</p>
+{% endif %}
+<p class="small captcha-status" role="status" aria-live="polite">{{ captcha_error }}</p>
+</div>
+<p><button type="submit" name="action" value="send_code" formnovalidate{% if not captcha_form %} disabled{% endif %}>发送验证码</button></p>
+{% endif %}
+{% for field in form %}{% if field.name != 'email' %}<p>{{ field.label_tag }}{{ field }}{{ field.errors }}
+{% if field.help_text %}<span class="helptext">{{ field.help_text|safe }}</span>{% endif %}
+</p>{% endif %}{% endfor %}
+<button type="submit" name="action" value="register">验证邮箱并注册</button></form>
+<p>已有账号？<a href="{% url 'login' %}?next={{ next|urlencode }}">直接登录</a></p>
+<p class="small"><a href="/tongjian/account/terms/">购买与隐私说明</a></p>
+</section>{% endblock %}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF保真改编文章"
+  short_description: "以认可的PDF为底稿改造文章，保留正文分析与图表并核对差异"
+  default_prompt: "请使用 $pdf-to-article，把这份PDF改成文章，保留叙事、分析与图表，去掉主持和练习形式，并核对内容一致性。"

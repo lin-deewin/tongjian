@@ -1,0 +1,32 @@
+{
+  "zone": "deewins.top",
+  "records": [
+    {
+      "type": "A",
+      "name": "mail",
+      "content": "104.129.181.27",
+      "proxied": false
+    },
+    {
+      "type": "MX",
+      "name": "@",
+      "content": "mail.deewins.top",
+      "priority": 10
+    },
+    {
+      "type": "TXT",
+      "name": "@",
+      "content": "v=spf1 ip4:104.129.181.27 -all"
+    },
+    {
+      "type": "TXT",
+      "name": "_dmarc",
+      "content": "v=DMARC1; p=none; rua=mailto:linqp@deewins.top"
+    },
+    {
+      "type": "TXT",
+      "name": "mail202610._domainkey",
+      "content": "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1oc5xAa+gPfC5TwLx7W8TmxiG7PArRQ0+ewz3nL97dpdaaB3p3sk/7juYLu2eaXeMhNWSIrQPu+OioI5Xi14Y6jXrfNovrSr7WjwvAA3dFWf3UWxquQMnnMey/MygkNvIzy+c5TJ0RqCB0XSHtYHEwIjgG0++2J0J35l9EEpCS2Np22ZPwmk+1p21hnzRu7ckzbos0lpk05K+rpMIitp+52Pv31GBJ4T8G+bMkxxgVcgXg6F2tGh9xAs0IwMqCP6evGoYBet4OkwEKhwaSCvlN/oMlRIUI87ctok5w94gAS9AeElekntk83Pyr8neGdQf8XjXZDy2g+t2tUuXI2ndQIDAQAB"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Merge inside the existing site; retain its redirects, other routes and trusted Cloudflare proxy settings.
+# {client_ip} is usable only AFTER the site's actual trusted proxy chain is verified.
+@commerce path /tongjian/api/* /tongjian/account/* /tongjian/checkout/* /tongjian/article/* /tongjian/admin/*
+handle @commerce {
+    header Cache-Control "private, no-store"
+    reverse_proxy 127.0.0.1:8010 {
+        header_up X-Real-IP {client_ip}
+        header_up X-Forwarded-Proto {scheme}
+    }
+}
+handle_path /tongjian/admin-static/* {
+    root * /srv/tongjian-commerce/static
+    file_server
+}
+# The existing handle_path /tongjian/* static dist route belongs AFTER these handlers.
+# Cloudflare: bypass cache on all dynamic prefixes; callbacks must not receive a browser challenge.

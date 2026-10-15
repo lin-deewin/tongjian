@@ -1,0 +1,10 @@
+[Unit]
+Description=Notify operator of Tongjian service failure
+
+[Service]
+Type=oneshot
+User=tongjian-commerce
+WorkingDirectory=/srv/tongjian-commerce/current/backend
+EnvironmentFile=/etc/tongjian-commerce/commerce.env
+Environment=DJANGO_SETTINGS_MODULE=config.settings.production
+ExecStart=/srv/tongjian-commerce/venv/bin/python manage.py alert_operator --unit %i

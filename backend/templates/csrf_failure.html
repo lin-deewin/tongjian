@@ -1,0 +1,5 @@
+{% extends 'base.html' %}{% block title %}请重新打开页面{% endblock %}
+{% block content %}<section class="account-panel"><h1>页面验证已失效</h1>
+<p>请重新打开登录或注册页面后再试。为保护密码和验证码，这次提交没有处理。</p>
+<p><a href="{% url 'login' %}">重新登录</a> · <a href="{% url 'register' %}">注册账号</a></p>
+</section>{% endblock %}

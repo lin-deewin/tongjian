@@ -1,0 +1,14 @@
+[Unit]
+Description=Tongjian local website and account entry
+After=network.target tongjian-accounts.service
+Wants=tongjian-accounts.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/linqp/projs/tongjian
+ExecStart=/home/linqp/projs/tongjian/tmp/commerce-tools/caddy run --config /home/linqp/projs/tongjian/ops/local/Caddyfile --adapter caddyfile
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

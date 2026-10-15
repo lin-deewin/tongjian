@@ -1,0 +1,19 @@
+[Unit]
+Description=Reconcile Tongjian pending payments and refunds
+After=tongjian-commerce.service
+OnFailure=tongjian-commerce-alert@%n.service
+
+[Service]
+Type=oneshot
+RuntimeDirectory=tongjian-commerce-tasks
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=yes
+User=tongjian-commerce
+Group=tongjian-commerce
+WorkingDirectory=/srv/tongjian-commerce/current/backend
+EnvironmentFile=/etc/tongjian-commerce/commerce.env
+Environment=DJANGO_SETTINGS_MODULE=config.settings.production
+ExecStart=/usr/bin/flock -n /run/tongjian-commerce-tasks/payment-task.lock /srv/tongjian-commerce/venv/bin/python manage.py reconcile_payments --limit 50
+TimeoutStartSec=600
+NoNewPrivileges=true
+PrivateTmp=true

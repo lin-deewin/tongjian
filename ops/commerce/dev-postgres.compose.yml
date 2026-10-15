@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: public.ecr.aws/docker/library/postgres:16-alpine
+    environment:
+      POSTGRES_USER: tongjian
+      POSTGRES_PASSWORD: local-development-only
+      POSTGRES_DB: tongjian_commerce
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - commerce-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tongjian"]
+      interval: 5s
+      retries: 10
+volumes:
+  commerce-postgres:

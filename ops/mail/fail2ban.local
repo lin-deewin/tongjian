@@ -1,0 +1,18 @@
+[deewins-dovecot]
+enabled = true
+filter = dovecot
+backend = systemd
+port = 993,465,587
+maxretry = 5
+findtime = 10m
+bantime = 1h
+
+[deewins-postfix-sasl]
+enabled = true
+filter = postfix[mode=auth]
+backend = polling
+logpath = /var/log/mail.log
+port = 465,587
+maxretry = 5
+findtime = 10m
+bantime = 1h

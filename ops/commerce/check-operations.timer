@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitor commerce issues every fifteen minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+Persistent=true
+Unit=check-operations.service
+
+[Install]
+WantedBy=timers.target

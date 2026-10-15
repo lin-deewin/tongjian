@@ -1,0 +1,4 @@
+# Install as /etc/systemd/journald.conf.d/tongjian-commerce.conf only after reviewing the host-wide policy.
+[Journal]
+SystemMaxUse=200M
+MaxRetentionSec=14day

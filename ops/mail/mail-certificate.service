@@ -1,0 +1,11 @@
+[Unit]
+Description=Synchronize verified Caddy mail certificate to SMTP and IMAP
+After=caddy.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/deewins-mail-sync-certificate
+UMask=0077
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/etc/mail

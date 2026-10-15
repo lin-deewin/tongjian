@@ -1,0 +1,5 @@
+# Add as /etc/caddy/mail.caddyfile only after the A record points to this server.
+# Caddy manages ACME issuance and renewal; the timer copies the verified pair.
+mail.deewins.top {
+    respond "Mail server: use IMAP over TLS on port 993 and authenticated SMTP on port 465 or 587." 200
+}
