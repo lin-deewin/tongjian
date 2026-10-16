@@ -50,21 +50,21 @@ LANGUAGE_CODE = 'zh-hans'
 TIME_ZONE = 'Asia/Shanghai'
 USE_TZ = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-STATIC_URL = '/tongjian/admin-static/'
+STATIC_URL = '/admin-static/'
 STATIC_ROOT = Path(os.getenv('STATIC_ROOT') or ROOT / 'tmp/commerce-static')
 CONTENT_ROOT = Path(os.getenv('CONTENT_ROOT') or ROOT / 'private-content').resolve()
 LAUNCH_GATES_FILE = os.getenv('LAUNCH_GATES_FILE', '')
 TERMS_FILE = os.getenv('TERMS_FILE', '')
 SITE_URL = os.getenv('SITE_URL', 'http://127.0.0.1:8010').rstrip('/')
 SESSION_COOKIE_NAME = 'tongjian_session'
-SESSION_COOKIE_PATH = CSRF_COOKIE_PATH = '/tongjian/'
+SESSION_COOKIE_PATH = CSRF_COOKIE_PATH = '/'
 SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SAMESITE = 'Lax'
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 14
 CSRF_TRUSTED_ORIGINS = items('CSRF_TRUSTED_ORIGINS')
 CSRF_FAILURE_VIEW = 'config.http.csrf_failure'
-LOGIN_URL = '/tongjian/account/login/'
-LOGIN_REDIRECT_URL = '/tongjian/account/'
+LOGIN_URL = '/account/login/'
+LOGIN_REDIRECT_URL = '/account/'
 X_FRAME_OPTIONS = 'DENY'
 EMAIL_BACKEND = 'config.mail.EmailBackend'
 EMAIL_MESSAGE_ID_DOMAIN = os.getenv('EMAIL_MESSAGE_ID_DOMAIN', 'deewins.top')

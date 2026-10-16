@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}购买与阅读{% endblock %} · 资治通鉴</title>
-<link rel="stylesheet" href="/tongjian/research-topic.css"><link rel="stylesheet" href="/tongjian/commerce.css?v=20261015-captcha">
-{% block styles %}{% endblock %}<script src="/tongjian/commerce.js?v=20261015-captcha" defer></script></head>
-<body><header><div class="header-inner"><a class="brand" href="/tongjian/"><span class="seal" aria-hidden="true">鉴</span>资治通鉴</a>
-<nav aria-label="主导航"><a href="/tongjian/reader.html">读通鉴</a><a href="/tongjian/research.html">专题研究</a>{% if user.is_authenticated %}<a href="{% url 'account' %}">我的账号</a>{% else %}<a href="{% url 'login' %}">登录</a><a href="{% url 'register' %}">注册</a>{% endif %}</nav></div></header>
+<link rel="stylesheet" href="/research-topic.css"><link rel="stylesheet" href="/commerce.css?v=20261015-captcha">
+{% block styles %}{% endblock %}<script src="/commerce.js?v=20261015-captcha" defer></script></head>
+<body><header><div class="header-inner"><a class="brand" href="/"><span class="seal" aria-hidden="true">鉴</span>资治通鉴</a>
+<nav aria-label="主导航"><a href="/reader.html">读通鉴</a><a href="/research.html">专题研究</a>{% if user.is_authenticated %}<a href="{% url 'account' %}">我的账号</a>{% else %}<a href="{% url 'login' %}">登录</a><a href="{% url 'register' %}">注册</a>{% endif %}</nav></div></header>
 <main>{% for message in messages %}<p role="status">{{ message }}</p>{% endfor %}{% block content %}{% endblock %}</main>
 </body></html>

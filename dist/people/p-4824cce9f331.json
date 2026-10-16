@@ -6,7 +6,7 @@
   ],
   "identity": "北周宗室与大臣。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "西魏的宇文深劝说丞相宇文泰取恒农",
@@ -27,7 +27,10 @@
           "quote": "魏宇文深劝丞相泰取恒农，八月，丁丑，泰帅李弼等十二将伐东魏，以北雍州刺史于谨为前锋，攻盘豆，拔之。戊子，至恒农，庚寅，拔之，擒东魏陕州刺史李徽伯，俘其战士八千。"
         }
       ],
-      "id": "p-4824cce9f331-1"
+      "id": "p-4824cce9f331-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "北周派宇文深出使突厥",
@@ -48,11 +51,19 @@
           "quote": "二月癸酉，周遣大将军昌城公深聘于突厥，司宾李除、小宾部贺遂礼聘于齐。深，护之子也。"
         }
       ],
-      "id": "p-4824cce9f331-2"
+      "id": "p-4824cce9f331-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=宇文深&oldid=82386668",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

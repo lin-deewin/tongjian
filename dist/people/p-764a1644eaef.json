@@ -6,7 +6,7 @@
   ],
   "identity": "北凉宗室，西迁后建立高昌政权。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "沮渠无讳弃敦煌西投安周",
@@ -27,7 +27,10 @@
           "quote": "夏，四月，沮渠无讳将万余家，弃敦煌西就沮渠安周。未至，鄯善王比龙畏之，将其众奔且末，其世子降于安周。无讳遂据鄯善，其士卒经流沙渴死者太半。"
         }
       ],
-      "id": "p-764a1644eaef-1"
+      "id": "p-764a1644eaef-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "沮渠无讳攻高昌获封河西王",
@@ -48,7 +51,10 @@
           "quote": "唐契之攻阚爽也，爽遣使诈降于沮渠无讳，欲与之共击契。八月，无讳将其众趋高昌；比至，契已死，爽闭门拒之。九月，无讳将卫兴奴夜袭高昌，屠其城，爽奔柔然。无讳据高昌，遣其常侍泛隽奉表诣建康。诏以无讳都督凉．河．沙三州诸军事、征西大将军、凉州刺史、河西王。"
         }
       ],
-      "id": "p-764a1644eaef-2"
+      "id": "p-764a1644eaef-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "沮渠无讳卒安周继位",
@@ -69,7 +75,10 @@
           "quote": "沮渠无讳卒，弟安周代立。"
         }
       ],
-      "id": "p-764a1644eaef-3"
+      "id": "p-764a1644eaef-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "沮渠无讳围攻酒泉擒元絜",
@@ -90,7 +99,10 @@
           "quote": "春，正月，己酉，沮渠无讳寇魏酒泉，元絜轻之，出城与语；壬子，无讳执絜以围酒泉。"
         }
       ],
-      "id": "p-764a1644eaef-4"
+      "id": "p-764a1644eaef-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "沮渠无讳攻克酒泉",
@@ -111,7 +123,10 @@
           "quote": "三月，沮渠无讳拔酒泉。"
         }
       ],
-      "id": "p-764a1644eaef-5"
+      "id": "p-764a1644eaef-5",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "魏封沮渠无讳为酒泉王",
@@ -132,11 +147,19 @@
           "quote": "春，正月，癸卯，魏以沮渠无讳为征西大将军、凉州牧、酒泉王。"
         }
       ],
-      "id": "p-764a1644eaef-6"
+      "id": "p-764a1644eaef-6",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=沮渠無諱&oldid=69216211",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 6,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

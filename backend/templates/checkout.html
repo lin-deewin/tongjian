@@ -5,10 +5,10 @@
 {% if test_only %}<p class="test-notice">本地模拟交易，不会扣款。</p>{% endif %}
 {% if merchant_verification %}<p class="test-notice">商户验收订单，实际扣款。完成后请按验收流程验证全额退款。</p>{% endif %}
 {% if order.status == 'PENDING' %}
-{% if order.payment_data.kind == 'native' %}<p>请使用另一台设备的微信扫一扫付款。</p><img class="payment-qr" src="/tongjian/checkout/{{ order.pk }}/qr/" alt="微信付款二维码" width="240" height="240">{% endif %}
+{% if order.payment_data.kind == 'native' %}<p>请使用另一台设备的微信扫一扫付款。</p><img class="payment-qr" src="/checkout/{{ order.pk }}/qr/" alt="微信付款二维码" width="240" height="240">{% endif %}
 {% if order.payment_data.kind == 'h5' %}{% if inside_wechat %}<p>请在系统浏览器中打开本页后付款。</p>{% else %}<p><a class="purchase-button" href="{{ order.payment_data.url }}">前往微信付款</a></p>{% endif %}{% endif %}
 {% if test_only %}<button type="button" data-simulate>模拟付款成功</button>{% endif %}
 {% if not order.payment_data %}<p>付款信息正在确认，请稍后重新查询；不会因此创建另一笔订单。</p>{% endif %}
 {% endif %}<p class="commerce-message" role="status" aria-live="polite"></p><button type="button" data-refresh-order>重新确认付款</button>
-<p><a href="/tongjian/account/purchases/">我的购买</a> · <a href="/tongjian/truth.html">返回专题</a></p>
+<p><a href="/account/purchases/">我的购买</a> · <a href="/truth.html">返回专题</a></p>
 <p class="small">付款结果以渠道确认记录为准。关闭此页后，也可以在“我的购买”查看状态。</p></section>{% endblock %}

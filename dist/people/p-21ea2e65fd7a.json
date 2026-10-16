@@ -6,16 +6,16 @@
   ],
   "identity": "秦国将领，参与灭魏、灭燕等战争。",
   "birthYear": null,
-  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "王贲水灌大梁，秦灭魏",
       "summary": "王贲水灌大梁，秦灭魏",
       "kind": "主要经历",
-      "category": "任职",
+      "category": "战争",
       "year": 225,
       "timeLabel": "前225年",
-      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "dateNote": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。",
       "sources": [
         {
           "volume": 7,
@@ -27,7 +27,12 @@
           "quote": "王贲伐魏，引河沟以灌大梁。三月，城坏。魏王假降，杀之，遂灭魏。"
         }
       ],
-      "id": "p-21ea2e65fd7a-1"
+      "id": "p-21ea2e65fd7a-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。"
+      }
     },
     {
       "title": "王贲攻辽东，俘燕王喜",
@@ -48,16 +53,21 @@
           "quote": "大兴兵，使王贲攻辽东，虏燕王喜。"
         }
       ],
-      "id": "p-21ea2e65fd7a-2"
+      "id": "p-21ea2e65fd7a-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "王贲灭代，俘代王嘉",
       "summary": "王贲灭代，俘代王嘉",
       "kind": "主要经历",
-      "category": "任职",
+      "category": "战争",
       "year": 222,
       "timeLabel": "前222年",
-      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "dateNote": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。",
       "sources": [
         {
           "volume": 7,
@@ -69,11 +79,47 @@
           "quote": "王贲攻代，虏代王嘉。"
         }
       ],
-      "id": "p-21ea2e65fd7a-3"
+      "id": "p-21ea2e65fd7a-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。"
+      }
+    },
+    {
+      "title": "领兵伐楚，取十余城",
+      "summary": "领兵伐楚，取十余城",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 226,
+      "timeLabel": "前226年",
+      "dateNote": "本条开头“王贲伐楚”，不能只关联随后答问的李信与王翦。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 226,
+          "indices": [
+            1
+          ],
+          "sourceHash": "393703739b184b60a69b2db53ea33a4bacf913dace2dff4fd9b11b948394938e",
+          "quote": "王贲伐楚，取十余城。王问于将军李信曰：“吾欲取荆，于将军度用几何人而足？”李信曰：“不过用二十万。”王以问王翦，王翦曰：“非六十万人不可，”王曰：“王将军老矣，何怯也！”遂使李信、蒙恬将二十万人伐楚；王翦因谢病归频阳。"
+        }
+      ],
+      "id": "p-21ea2e65fd7a-4",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本条开头“王贲伐楚”，不能只关联随后答问的李信与王翦。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=王賁&oldid=92432262",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 4,
+    "biographyCompletenessCertified": false
+  }
 }

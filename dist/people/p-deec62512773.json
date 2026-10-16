@@ -6,29 +6,8 @@
   ],
   "identity": "唐朝大臣。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
-    {
-      "title": "西魏扶风王元孚去世",
-      "summary": "西魏扶风王元孚去世",
-      "kind": "主要经历",
-      "category": "任职",
-      "year": -540,
-      "timeLabel": "公元540年",
-      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
-      "sources": [
-        {
-          "volume": 158,
-          "year": -540,
-          "indices": [
-            2
-          ],
-          "sourceHash": "a47c53c10442caaa7c3a626325cfbb7e15b95e5a6d38a5052f163a6b3358c8a1",
-          "quote": "魏扶风王孚卒。"
-        }
-      ],
-      "id": "p-deec62512773-1"
-    },
     {
       "title": "魏扶卒，崔龟从任同平章事",
       "summary": "魏扶卒，崔龟从任同平章事",
@@ -48,11 +27,19 @@
           "quote": "六月，戊申，兵部侍郎、同平章事魏扶薨。以户部尚书、判度支崔龟从同平章事。"
         }
       ],
-      "id": "p-deec62512773-2"
+      "id": "p-deec62512773-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=魏扶&oldid=85586448",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const api = '/tongjian/api/v1';
+  const api = '/api/v1';
   let csrf = '';
   let accountDialog = null;
   let accountDialogContent = null;
@@ -22,7 +22,7 @@
     if (element) { element.textContent = text; element.classList.toggle('error', error); }
   }
   function busy(button, value) { if (button) button.disabled = value; }
-  function loginUrl(next) { return '/tongjian/account/login/?next=' + encodeURIComponent(next); }
+  function loginUrl(next) { return '/account/login/?next=' + encodeURIComponent(next); }
   function supportsAccountDialog() {
     return window.parent === window && typeof HTMLDialogElement !== 'undefined' &&
       typeof HTMLDialogElement.prototype.showModal === 'function';
@@ -47,7 +47,7 @@
       if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       let url;
       try { url = new URL(link.href, location.href); } catch { return; }
-      if (url.origin !== location.origin || !/^\/tongjian\/account\//.test(url.pathname)) return;
+      if (url.origin !== location.origin || !/^\/account\//.test(url.pathname)) return;
       event.preventDefault();
       loadAccountPage(url.href);
     });
@@ -81,7 +81,7 @@
         headers: {'Accept': 'text/html'}, redirect: 'follow'});
       const html = await response.text();
       const finalUrl = new URL(response.url || target.href, location.href);
-      if (response.redirected && (finalUrl.pathname === accountParentPath || finalUrl.pathname === '/tongjian/account/')) {
+      if (response.redirected && (finalUrl.pathname === accountParentPath || finalUrl.pathname === '/account/')) {
         closeAccountDialog();
         return;
       }
@@ -119,7 +119,7 @@
       if (!link) return;
       let url;
       try { url = new URL(link.href, location.href); } catch { return; }
-      if (url.origin !== location.origin || !/^\/tongjian\/account\/(?:login|register)\//.test(url.pathname)) return;
+      if (url.origin !== location.origin || !/^\/account\/(?:login|register)\//.test(url.pathname)) return;
       event.preventDefault();
       openAccountModal(url.pathname + url.search + url.hash, link);
     });
@@ -136,14 +136,14 @@
     try {
       const state = await session();
       const current = location.pathname + location.search + location.hash;
-      const destination = !panel && current.startsWith('/tongjian/') ? current : '/tongjian/account/';
-      const href = state.authenticated ? '/tongjian/account/' : loginUrl(destination);
+      const destination = !panel && current.startsWith('/') ? current : '/account/';
+      const href = state.authenticated ? '/account/' : loginUrl(destination);
       links.forEach(link => {
         link.href = href;
         link.textContent = state.authenticated ? '我的账号' : '登录';
       });
       registerLinks.forEach(link => {
-        link.href = '/tongjian/account/register/?next=' + encodeURIComponent(destination);
+        link.href = '/account/register/?next=' + encodeURIComponent(destination);
         link.hidden = state.authenticated;
       });
       if (panel) {
@@ -173,14 +173,14 @@
       if (state.authenticated) {
         const owned = await request('/me/purchases/');
         if (owned.items.some(item => item.slug === slug)) {
-          buy.textContent = '继续阅读全文'; buy.href = `/tongjian/article/${slug}/` + window.location.hash;
+          buy.textContent = '继续阅读全文'; buy.href = `/article/${slug}/` + window.location.hash;
           root.querySelector('[data-accept-terms]').closest('label').hidden = true;
           return;
         }
       }
       if (!product.sales_enabled && !state.verification_allowed) {
         buy.textContent = state.authenticated ? '查看我的购买' : '登录 / 注册';
-        buy.href = state.authenticated ? '/tongjian/account/purchases/' : loginUrl('/tongjian/truth.html');
+        buy.href = state.authenticated ? '/account/purchases/' : loginUrl('/truth.html');
         message(root, '新购买暂未开放，仍可登录查看已购内容。');
         return;
       }
@@ -189,7 +189,7 @@
       buy.addEventListener('click', async event => {
         event.preventDefault();
         sessionStorage.setItem(`article-anchor:${slug}`, window.location.hash);
-        if (!state.authenticated) { openAccountModal(loginUrl('/tongjian/truth.html' + window.location.hash), buy); return; }
+        if (!state.authenticated) { openAccountModal(loginUrl('/truth.html' + window.location.hash), buy); return; }
         if (!root.querySelector('[data-accept-terms]').checked) { message(root, '请先阅读并同意购买说明。', true); return; }
         const ua = navigator.userAgent.toLowerCase();
         if (ua.includes('micromessenger')) { message(root, '请在系统浏览器中打开后购买。', true); return; }
@@ -276,7 +276,7 @@
       if (state.authenticated) {
         const purchases = await request('/me/purchases/');
         if (purchases.items.some(item => item.slug === slug)) {
-          label.textContent = '已购买 · 全文与 PDF'; card.href = `/tongjian/article/${slug}/`;
+          label.textContent = '已购买 · 全文与 PDF'; card.href = `/article/${slug}/`;
           card.querySelector('.go').textContent = '继续阅读 →';
         }
       }

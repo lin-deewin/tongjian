@@ -8,7 +8,7 @@
   ],
   "identity": "汉朝皇帝，名刘彻，在位期间多次对外用兵并改革政务。",
   "birthYear": null,
-  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "景帝立刘荣为太子，刘彻封胶东王",
@@ -29,7 +29,10 @@
           "quote": "夏，四月，己巳，立子荣为皇太子，彻为胶东王。"
         }
       ],
-      "id": "p-f647887dc254-1"
+      "id": "p-f647887dc254-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "追叙王夫人生刘彻，母家由卜者预言显贵",
@@ -50,7 +53,10 @@
           "quote": "初，燕王臧荼有孙女曰臧儿，嫁为槐里王仲妻，生男信与两女而仲死；更嫁长陵田氏，生男蚡、胜。文帝时，臧儿长女为金王孙妇，生女俗。臧儿卜筮之，曰：“两女皆当贵。”臧儿乃夺金氏妇，金氏怒，不肯予决；内之太子官，生男彻。彻方在身时，王夫人梦日入其怀。"
         }
       ],
-      "id": "p-f647887dc254-2"
+      "id": "p-f647887dc254-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "景帝立刘彻为皇太子",
@@ -71,7 +77,10 @@
           "quote": "丁巳，立胶东王彻为皇太子。"
         }
       ],
-      "id": "p-f647887dc254-3"
+      "id": "p-f647887dc254-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "皇太子刘彻行冠礼",
@@ -92,7 +101,10 @@
           "quote": "甲寅，皇太子冠。"
         }
       ],
-      "id": "p-f647887dc254-4"
+      "id": "p-f647887dc254-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "景帝崩，刘彻即位，是为武帝",
@@ -113,7 +125,10 @@
           "quote": "甲子，帝崩于未央宫。太子即皇帝位，年十六。尊皇太后为太皇太后，皇后为皇太后。"
         }
       ],
-      "id": "p-f647887dc254-5"
+      "id": "p-f647887dc254-5",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "汉武帝葬茂陵",
@@ -134,7 +149,10 @@
           "quote": "三月，甲辰，葬孝武皇帝于茂陵。"
         }
       ],
-      "id": "p-f647887dc254-6"
+      "id": "p-f647887dc254-6",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "刘晔评曹叡才略可比秦始皇、汉武帝",
@@ -155,11 +173,19 @@
           "quote": "初，明帝在东宫，不交朝臣，不问政事，惟潜思书籍；即位之后，群下想闻风采。居数日，独见侍中刘晔，语尽日，众人侧听，晔既出，问：「何如﹖」：「秦始皇、汉孝武之俦，才具微不及耳。」"
         }
       ],
-      "id": "p-f647887dc254-7"
+      "id": "p-f647887dc254-7",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=汉武帝&oldid=94598209",
   "birthStatus": "disputed",
-  "birthNote": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+  "birthNote": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。",
+  "reviewSummary": {
+    "currentEntries": 7,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

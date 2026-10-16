@@ -8,7 +8,7 @@
   ],
   "identity": "魏国国君，孟子曾与之论天下归一。",
   "birthYear": 400,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "去世，魏襄王继位",
@@ -29,11 +29,255 @@
           "quote": "魏惠王薨，子襄王立。"
         }
       ],
-      "id": "wei-hui-wang-1"
+      "id": "wei-hui-wang-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "魏罃在诸国干预中击败公中缓而立",
+      "summary": "魏罃在诸国干预中击败公中缓而立",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": 369,
+      "timeLabel": "前369年",
+      "dateNote": "按本站本年叙事辨认“罃遂杀公中缓而立，是为惠王”；不是秦惠文王。",
+      "sources": [
+        {
+          "volume": 1,
+          "year": 369,
+          "indices": [
+            2
+          ],
+          "sourceHash": "fe1c4e24de11fe109189cd3924ba84fa160ad918b0cbd781ebf56b1749b36fe1",
+          "quote": "魏大夫王错出奔韩。公孙颀谓韩懿侯曰：“魏乱，可取也。”懿侯乃与赵成侯合兵伐魏，战于浊泽，大破之，遂围魏。成侯曰：“杀罃，立公中缓，割地而退，我二国之利也。”懿侯曰：“不可。杀魏君，暴也；割地而退，贪也。不如两分之。魏分为两，不强于宋、卫，则我终无魏患矣。”赵人不听。懿侯不悦，以其兵夜去。赵成侯亦去。罃遂杀公中缓而立，是为惠王。"
+        }
+      ],
+      "id": "wei-hui-wang-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "按本站本年叙事辨认“罃遂杀公中缓而立，是为惠王”；不是秦惠文王。"
+      }
+    },
+    {
+      "title": "太史公论魏国免于分裂之由",
+      "summary": "太史公论魏国免于分裂之由",
+      "kind": "史家评论",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前369年",
+      "dateNote": "原文“太史公曰”评论魏惠王旧事，非前369年现场发言。",
+      "sources": [
+        {
+          "volume": 1,
+          "year": 369,
+          "indices": [
+            3
+          ],
+          "sourceHash": "65b8b5178fc9f04f8ebe5072b32373fc1c81dd3153513dec8ba8f1530d3bc5f6",
+          "quote": "太史公曰：魏惠王所以身不死、国不分者，二国之谋不和也。若从一家之谋，魏必分矣。故曰：“君终，无适子，其国可破也。”"
+        }
+      ],
+      "id": "wei-hui-wang-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“太史公曰”评论魏惠王旧事，非前369年现场发言。"
+      }
+    },
+    {
+      "title": "问疾公叔痤，未采任用卫鞅之议",
+      "summary": "问疾公叔痤，未采任用卫鞅之议",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前361年",
+      "dateNote": "这是卫鞅入秦前在魏的旧事，原段随后才叙至秦，不能把问疾确指为前361年。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 361,
+          "indices": [
+            1
+          ],
+          "sourceHash": "076c33272d868cbe7808ee8e5dc9653f4e2347515f93435859b2901c91d4780d",
+          "quote": "公孙鞅者，卫之庶孙也。好刑名之学。事魏相公叔痤，痤知其贤，未及进。会病，魏惠王往问之曰：“公叔病如有不可讳，将柰社稷何？”公叔曰：“痤之中庶子卫鞅，年虽少，有奇才，愿君举国而听之！”王嘿然。公叔曰：“君即不听用鞅，必杀之，无令出境！”王许诺而去。公叔召鞅谢曰：“吾先君而后臣，故先为君谋，后以告子。子必速行矣！”鞅曰：“君不能用子之言任臣，又安能用子之言杀臣乎！”卒不去。王出，谓左右曰：“公叔病甚，悲乎，欲令寡人以国听卫鞅也！既又劝寡人杀之，岂不悖哉！”卫鞅既至秦，因嬖臣景监以求见孝公，说以富国强兵之术；公大悦，与议国事。"
+        }
+      ],
+      "id": "wei-hui-wang-4",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "这是卫鞅入秦前在魏的旧事，原段随后才叙至秦，不能把问疾确指为前361年。"
+      }
+    },
+    {
+      "title": "与齐威王田猎，听其论以贤臣为宝",
+      "summary": "与齐威王田猎，听其论以贤臣为宝",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": 355,
+      "timeLabel": "前355年",
+      "dateNote": "原文两王田猎与论宝明确，惠王指魏惠王，不是秦惠文王。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 355,
+          "indices": [
+            0
+          ],
+          "sourceHash": "b6ea418a81f0ce3bffe487b667a9d465612c5b8357b63f43f5aec4bc75392d97",
+          "quote": "齐威王、魏惠王会田于郊。惠王曰：“齐亦有宝乎？”威王曰：“无有。”惠王曰：“寡人国虽小，尚有径寸之珠，照车前后各十二乘者十枚。岂以齐大国而无宝乎？”威王曰：“寡人之所以为宝者与王异。吾臣有檀子者，使守南城，则楚人不敢为寇，泗上十二诸侯皆来朝。吾臣有盼子者，使守高唐，则赵人不敢东渔于河。吾吏有黔夫者，使守徐州，则燕人祭北门，赵人祭西门，徙而从者七千余家。吾臣有种首者，使备盗贼，则道不拾遗。此四臣者，将照千里，岂特十二乘哉！”惠王有惭色。"
+        }
+      ],
+      "id": "wei-hui-wang-5",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文两王田猎与论宝明确，惠王指魏惠王，不是秦惠文王。"
+      }
+    },
+    {
+      "title": "与秦孝公会于杜平",
+      "summary": "与秦孝公会于杜平",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 355,
+      "timeLabel": "前355年",
+      "dateNote": "原文明记“秦孝公、魏惠王会于杜平”，人物无歧义。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 355,
+          "indices": [
+            1
+          ],
+          "sourceHash": "b1af64eedea2c5c1a816b60693da04b27105056d488a27422f9c841e2f22b075",
+          "quote": "秦孝公、魏惠王会于杜平。"
+        }
+      ],
+      "id": "wei-hui-wang-6",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明记“秦孝公、魏惠王会于杜平”，人物无歧义。"
+      }
+    },
+    {
+      "title": "伐赵并围邯郸",
+      "summary": "伐赵并围邯郸",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 354,
+      "timeLabel": "前354年",
+      "dateNote": "原文明记“魏惠王伐赵，围邯郸”，不是后世引语。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 354,
+          "indices": [
+            1
+          ],
+          "sourceHash": "b8f4beea8a8f07dffdcbaeb0298fa848a0f59db13d87f292f876175cef3eb6cc",
+          "quote": "魏惠王伐赵，围邯郸。楚王使景舍救赵。"
+        }
+      ],
+      "id": "wei-hui-wang-7",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明记“魏惠王伐赵，围邯郸”，不是后世引语。"
+      }
+    },
+    {
+      "title": "割河西求和，迁都大梁",
+      "summary": "割河西求和，迁都大梁",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": 340,
+      "timeLabel": "前340年",
+      "dateNote": "原文记献河西地、去安邑徙大梁及叹未用公叔之言，按本书纪年定位。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 340,
+          "indices": [
+            2
+          ],
+          "sourceHash": "0a7b211e43c357f0a5708d5ae5b37ca088a2ea60278d5dfb045ffe6fe45cee1b",
+          "quote": "魏惠王恐，使使献河西之地于秦以和。因去安邑，徙都大梁。乃叹曰：“吾恨不用公叔之言！”"
+        }
+      ],
+      "id": "wei-hui-wang-8",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文记献河西地、去安邑徙大梁及叹未用公叔之言，按本书纪年定位。"
+      }
+    },
+    {
+      "title": "见孟子，问何以利国",
+      "summary": "见孟子，问何以利国",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": 336,
+      "timeLabel": "前336年",
+      "dateNote": "与孟子为同一次问答；保留双方参与者的独立档案关联。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 336,
+          "indices": [
+            1
+          ],
+          "sourceHash": "19b408215072a38d808fa33bd426aaa169744f3afa9885de4469c163f9188dfd",
+          "quote": "邹人孟轲见魏惠王，王曰：“叟，不远千里而来，亦有以利吾国乎？”孟子曰：“君何必曰利，仁义而已矣！君曰何以利吾国，大夫曰何以利吾家，士庶人曰何以利吾身，上下交征利而国危矣。未有仁而遗其亲者也，未有义而后其君者也。”王曰：“善。”"
+        }
+      ],
+      "id": "wei-hui-wang-9",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "与孟子为同一次问答；保留双方参与者的独立档案关联。"
+      }
+    },
+    {
+      "title": "附叙接受苏秦合纵之约",
+      "summary": "附叙接受苏秦合纵之约",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于前333年",
+      "dateNote": "原文“魏王听之”为苏秦合纵旧事的一部分，不把整组附叙一律定于前333年。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 333,
+          "indices": [
+            7
+          ],
+          "sourceHash": "49078a3c070baa2b80f9320dca3c92b3b906b186425abfcc13492df91b0723b0",
+          "quote": "苏秦说魏王曰：“大王之地方千里，地名虽小，然而田舍庐庑之数，曾无所刍牧。人民之众，车马之多，日夜行不绝，輷輷殷殷，若有三军之众。臣窃量大王之国不下楚。今窃闻大王之卒，武士二十万，苍头二十万，奋击二十万，厮徒十万；车六百乘，骑五千匹；乃听于群臣之说，而欲臣事秦！故敝邑赵王使臣效愚计，奉明约，在大王之诏诏之。”魏王听之。"
+        }
+      ],
+      "id": "wei-hui-wang-10",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“魏王听之”为苏秦合纵旧事的一部分，不把整组附叙一律定于前333年。"
+      }
     }
   ],
   "deathYear": 319,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=魏惠王&oldid=93069082",
   "birthStatus": "confirmed",
-  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。",
+  "reviewSummary": {
+    "currentEntries": 10,
+    "sourceReviewedEntries": 10,
+    "biographyCompletenessCertified": false
+  }
 }

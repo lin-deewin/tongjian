@@ -6,7 +6,7 @@
   ],
   "identity": "北魏将领，参与对刘宋战争。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "宋军与北魏皮豹子战于高平失利",
@@ -27,7 +27,10 @@
           "quote": "春，正月，己巳朔，兖州兵与魏皮豹子战不高平，兖州兵不利。〕"
         }
       ],
-      "id": "p-7d7fc18896e5-1"
+      "id": "p-7d7fc18896e5-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "魏皮豹子击败杨文德",
@@ -48,11 +51,19 @@
           "quote": "春，正月，魏仇池镇将皮豹子帅诸军击之。文德兵败，弃城奔汉中。豹子收其妻子、僚属、军资及杨保宗所尚魏公主而还。"
         }
       ],
-      "id": "p-7d7fc18896e5-2"
+      "id": "p-7d7fc18896e5-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=皮豹子&oldid=94673824",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

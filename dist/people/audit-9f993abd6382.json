@@ -1,0 +1,45 @@
+{
+  "id": "audit-9f993abd6382",
+  "name": "元孚",
+  "aliases": [
+    "元孚"
+  ],
+  "identity": "北魏、西魏宗室，封扶风王；“魏扶风王”中的魏扶不是人名。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "西魏扶风王元孚去世",
+      "summary": "西魏扶风王元孚去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -540,
+      "timeLabel": "公元540年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 158,
+          "year": -540,
+          "indices": [
+            2
+          ],
+          "sourceHash": "a47c53c10442caaa7c3a626325cfbb7e15b95e5a6d38a5052f163a6b3358c8a1",
+          "quote": "魏扶风王孚卒。"
+        }
+      ],
+      "id": "audit-9f993abd6382-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

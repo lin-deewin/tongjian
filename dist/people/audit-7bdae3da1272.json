@@ -1,0 +1,45 @@
+{
+  "id": "audit-7bdae3da1272",
+  "name": "刘弘鄂",
+  "aliases": [
+    "刘弘鄂"
+  ],
+  "identity": "唐末寿州将领。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "寿州将刘弘鄂厌恶孙儒暴虐，献城归降朱全忠",
+      "summary": "寿州将刘弘鄂厌恶孙儒暴虐，献城归降朱全忠",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -891,
+      "timeLabel": "公元891年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 258,
+          "year": -891,
+          "indices": [
+            42
+          ],
+          "sourceHash": "f85415ab92d880cc1564665f1eee5f464a39d1065460eff05548d0ab7ce437a7",
+          "quote": "辛未，寿州将刘弘鄂恶孙儒残暴，举州降朱全忠。"
+        }
+      ],
+      "id": "audit-7bdae3da1272-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

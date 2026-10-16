@@ -7,7 +7,7 @@
   ],
   "identity": "宋国国君；本卷记宋国开始称王，未记其名。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "宋国开始称王",
@@ -28,11 +28,21 @@
           "quote": "宋初称王。"
         }
       ],
-      "id": "song-wang-1"
+      "id": "song-wang-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=宋康王&oldid=94727201",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 1,
+    "biographyCompletenessCertified": false
+  }
 }

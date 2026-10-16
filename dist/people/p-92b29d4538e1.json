@@ -8,7 +8,7 @@
   ],
   "identity": "西汉皇帝，名刘奭。",
   "birthYear": 75,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "太子即位，是为汉元帝",
@@ -29,11 +29,19 @@
           "quote": "癸巳，太子即皇帝位，谒高庙，尊皇太后曰太皇太后，皇后曰皇太后。"
         }
       ],
-      "id": "p-92b29d4538e1-1"
+      "id": "p-92b29d4538e1-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": 33,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=汉元帝&oldid=91055976",
   "birthStatus": "confirmed",
-  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

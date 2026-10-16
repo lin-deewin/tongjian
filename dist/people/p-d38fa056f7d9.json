@@ -6,16 +6,16 @@
   ],
   "identity": "李仁福之子，继任定难军节度使。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "夏州节度使李彝超病卒由其兄李彝殷权领军州",
       "summary": "夏州节度使李彝超病卒由其兄李彝殷权领军州",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "去世",
-      "year": null,
-      "timeLabel": "记载于公元935年",
-      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "year": -935,
+      "timeLabel": "公元935年",
+      "dateNote": "依原书本年记事。",
       "sources": [
         {
           "volume": 279,
@@ -27,13 +27,16 @@
           "quote": "丁丑，夏州节度使李彝超上言疾病，以兄行军司马彝殷权佑军州事；彝超寻卒。"
         }
       ],
-      "id": "p-d38fa056f7d9-1"
+      "id": "p-d38fa056f7d9-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "定难节度使李仁福卒军中拥立其子李彝超",
       "summary": "定难节度使李仁福卒军中拥立其子李彝超",
       "kind": "相关提及",
-      "category": "去世",
+      "category": "战争",
       "year": null,
       "timeLabel": "记载于公元933年",
       "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
@@ -48,7 +51,10 @@
           "quote": "戊午，定难节度使李仁福卒；庚申，军中立其子彝超为留后。"
         }
       ],
-      "id": "p-d38fa056f7d9-2"
+      "id": "p-d38fa056f7d9-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "明宗诏谕夏银绥宥州命李彝超赴任",
@@ -69,7 +75,10 @@
           "quote": "丁亥，敕谕夏、银、绥、宥将士吏民，以「夏州穷边，李彝超年少，未能扞御，故使之延安，从命则有李从曮、高允韬富贵之福，违命则有王都、李匡宾覆族之祸。」夏，四月，彝超上言，为军士百姓拥留，未得赴镇，诏遣使趣之。"
         }
       ],
-      "id": "p-d38fa056f7d9-3"
+      "id": "p-d38fa056f7d9-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "李彝超拒绝赴任并令党项截断后唐军粮道",
@@ -90,7 +99,10 @@
           "quote": "李彝超不奉诏，遣其兄阿啰王守青岭门，集境内党项诸胡以自救。药彦稠等进屯芦关，彝超遣党项抄粮运及攻具，官军自芦关退保金明。"
         }
       ],
-      "id": "p-d38fa056f7d9-4"
+      "id": "p-d38fa056f7d9-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "后唐任李彝超为定难节度使",
@@ -111,11 +123,19 @@
           "quote": "权知夏州事李彝超上表谢罪，求昭雪；壬戍，以彝超为定难军节度使。"
         }
       ],
-      "id": "p-d38fa056f7d9-5"
+      "id": "p-d38fa056f7d9-5",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李彝超&oldid=94682186",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 5,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "audit-dafcc1bf2c2c",
+  "name": "张永和",
+  "aliases": [
+    "张永和"
+  ],
+  "identity": "东魏吏部令史，不能把姓名截为张永。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "东魏吏部令史张永和等人伪造任官文书授人官职",
+      "summary": "东魏吏部令史张永和等人伪造任官文书授人官职",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元548年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 161,
+          "year": -548,
+          "indices": [
+            16
+          ],
+          "sourceHash": "49b713eb312e14b71cf4a035524fd8ba491b1febcc38ff6444b7b4882415989d",
+          "quote": "夏，四月，甲子，东魏吏部令史张永和等伪假人官，事觉，纠检、首者六万余人。"
+        }
+      ],
+      "id": "audit-dafcc1bf2c2c-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

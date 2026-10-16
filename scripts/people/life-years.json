@@ -63,9 +63,9 @@
       "name": "庞涓",
       "status": "confirmed",
       "birthYear": 385,
-      "deathYear": 342,
+      "deathYear": 341,
       "source": "https://zh.wikipedia.org/w/index.php?title=庞涓&oldid=93029230",
-      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。 本站事件死亡年以《通鉴》本年记载为准：前341年；与原外部资料死亡纪年差异不用于否定原文。"
     },
     "wei-xiang-wang": {
       "name": "魏襄王",
@@ -2679,9 +2679,9 @@
       "name": "裴延龄",
       "status": "confirmed",
       "birthYear": -727,
-      "deathYear": -795,
+      "deathYear": -796,
       "source": "https://zh.wikipedia.org/w/index.php?title=裴延齡&oldid=92968591",
-      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+      "note": "生年按所链接人物资料核对；事件年龄按年份差估算。 本站事件死亡年以《通鉴》本年记载为准：公元796年；与原外部资料死亡纪年差异不用于否定原文。"
     },
     "p-673f72039942": {
       "name": "韩全义",
@@ -3130,6 +3130,486 @@
       "deathYear": null,
       "source": "https://zh.wikipedia.org/w/index.php?title=汉灵帝&oldid=93976131",
       "note": "所查资料存在不同生年说法、估计年份或生年信息不一致；不推算年龄。"
+    },
+    "audit-93cb72c38a74": {
+      "name": "张衡（隋）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-ea8a7eadac33": {
+      "name": "刘缵（南齐）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-f8728b03f362": {
+      "name": "李固烈",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-f289fdad7d0e": {
+      "name": "李固言",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-7b15455ffc4c": {
+      "name": "刘志诚",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-e82a3f7a6ecc": {
+      "name": "李膺（梁末主书）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-91004736d67b": {
+      "name": "李膺（梁初）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-7f7b301cf1ae": {
+      "name": "李奕（成汉）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-c65cfde4154a": {
+      "name": "孙秀（东吴宗室）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-70b04545723e": {
+      "name": "王衍（西晋）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-293b6c11a4c3": {
+      "name": "胡太后（北齐）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-ebaa1d115a78": {
+      "name": "王褒（梁北周）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-243872795b0e": {
+      "name": "刘胜（中山靖王）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-9777c50914c3": {
+      "name": "刘胜（刘季陵）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-32376a8fd49a": {
+      "name": "张禹（西汉）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-ec2aa2cda964": {
+      "name": "张禹谟",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-187e78563a84": {
+      "name": "魏昭王",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-a34f8484fc17": {
+      "name": "常太后（北魏）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-1b6dbe93562f": {
+      "name": "柳浑（梁）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-b5b1187a8fc2": {
+      "name": "冯太后（西汉）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-c4d97402c26c": {
+      "name": "刘歆",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-394aaad9fb71": {
+      "name": "刘弘政",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-7641941b1be8": {
+      "name": "刘玢",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-44ca7d8ed3a6": {
+      "name": "刘弘昌",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-fbf54c55b0ea": {
+      "name": "刘晟",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-53d60cb4b5da": {
+      "name": "刘弘杲",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-50f344773c80": {
+      "name": "刘弘基",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-ee6569beec51": {
+      "name": "刘弘（汉后少帝）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-9a747f5c8d41": {
+      "name": "刘弘逸",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-8026a18dd481": {
+      "name": "刘弘（凉州起事者）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-522ede808af4": {
+      "name": "刘弘（东汉司空）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-7bdae3da1272": {
+      "name": "刘弘鄂",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-234560e2e3ca": {
+      "name": "刘弘邈",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-dfa64cb1c35c": {
+      "name": "刘弘泽",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-3a6e6217b716": {
+      "name": "刘弘雅",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-ffe3ee9a0e5e": {
+      "name": "张永德",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-dafcc1bf2c2c": {
+      "name": "张永和",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-21f30c9ad2c6": {
+      "name": "赵匡胤",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-02048f7a7daa": {
+      "name": "刘康（河间王子）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-4e3506fc6a31": {
+      "name": "刘康乂",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-ef70680d211b": {
+      "name": "刘康（济南安王）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-79c039039250": {
+      "name": "刘康（平阳起事者）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-937b12a31341": {
+      "name": "刘康祖",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-22aa7ff3a0b2": {
+      "name": "汉顺帝",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-4b25c3359e08": {
+      "name": "萧宝卷",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-729a3865b1e7": {
+      "name": "郑译",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-1134343285b4": {
+      "name": "刘龑",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-3427ea6d7267": {
+      "name": "刘知远",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-e3c4cddb1d6f": {
+      "name": "元宝炬",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-e40cd784f4b0": {
+      "name": "黄琼芝",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-bc94e2b1bfea": {
+      "name": "夏侯览",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-9f993abd6382": {
+      "name": "元孚",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-50794ca98a24": {
+      "name": "宇文毓",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-3adfa7626da6": {
+      "name": "张敞（东汉功曹）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-341c82538fde": {
+      "name": "刘裕（前赵宗室）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-810129bdbe3b": {
+      "name": "刘启（后赵）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-d28e66ecba21": {
+      "name": "杨广香",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-823bc5dfe0fb": {
+      "name": "李广（成汉）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-858afa3b03c0": {
+      "name": "李广（东魏）",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
+    },
+    "audit-42133971ecd9": {
+      "name": "李广利",
+      "status": "unconfirmed",
+      "birthYear": null,
+      "deathYear": null,
+      "source": "",
+      "note": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。"
     }
   }
 }

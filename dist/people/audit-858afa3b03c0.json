@@ -1,0 +1,45 @@
+{
+  "id": "audit-858afa3b03c0",
+  "name": "李广（东魏）",
+  "aliases": [
+    "李广"
+  ],
+  "identity": "东魏行台郎中；不是西汉飞将军。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "辛纂不听李广劝阻攻打淅阳，导致诸将溃败",
+      "summary": "辛纂不听李广劝阻攻打淅阳，导致诸将溃败",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元534年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 156,
+          "year": -534,
+          "indices": [
+            58
+          ],
+          "sourceHash": "82532d11f65edd11fdfeab6770cf0c2b9bacb56dd95c8fab1d70a0ffd238256b",
+          "quote": "蛮酋樊五能攻破淅阳郡以应魏，东魏西荆州刺史辛纂欲讨之，行台郎中李广谏曰：「淅阳四面无民，唯一城之地，山路深险，表里群蛮。今少遣兵，则不能制贼；多遣，则根本虚弱；脱不如意，大挫威名，人情一去，州城唑保。」纂曰：「岂可纵贼不讨！」广曰：「今所忧在心腹，何暇治疥癣！闻台军不久应至，公但约勒属城，使完垒抚民以待之，虽失淅阳，不足惜也。」纂不从，遣兵攻之，兵败，诸将因亡不返。"
+        }
+      ],
+      "id": "audit-858afa3b03c0-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

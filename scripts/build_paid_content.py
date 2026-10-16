@@ -49,9 +49,9 @@ def build(slug):
     for node in private.xpath('.//*[@href]'):
         href = node.get('href')
         if not href.startswith(('#', '/', 'https://', 'http://')):
-            node.set('href', '/tongjian/' + href.lstrip('./'))
+            node.set('href', '/' + href.lstrip('./'))
         elif href.startswith('./'):
-            node.set('href', '/tongjian/' + href[2:])
+            node.set('href', '/' + href[2:])
     article = (''.join(etree.tostring(node, encoding='unicode', method='html') for node in private)).encode()
     pdf = (ROOT / manifest['source_pdf']).read_bytes()
     if not pdf.startswith(b'%PDF-'):
@@ -70,13 +70,13 @@ def build(slug):
     for anchor in main.xpath('.//a[starts-with(@href,"#")]'):
         target = anchor.get('href')[1:]
         if target not in allowed:
-            anchor.set('href', '/tongjian/article/truth/#' + target)
+            anchor.set('href', '/article/truth/#' + target)
     commerce = html.fragment_fromstring('''<section class="purchase-panel" data-product="truth">
 <h2>继续阅读完整专题</h2><p>试读到这里结束。购买内容包括六个案例的完整分析、比较与核验方法，以及配套 PDF。</p>
 <p class="product-price" aria-live="polite">正在获取购买信息…</p>
-<p><a class="purchase-button" href="/tongjian/account/login/?next=/tongjian/truth.html" data-buy>登录与购买</a>
- <a href="/tongjian/account/purchases/">我的购买</a></p>
-<label><input type="checkbox" data-accept-terms> 我已阅读并同意 <a href="/tongjian/account/terms/">商品购买说明与隐私说明</a></label>
+<p><a class="purchase-button" href="/account/login/?next=/truth.html" data-buy>登录与购买</a>
+ <a href="/account/purchases/">我的购买</a></p>
+<label><input type="checkbox" data-accept-terms> 我已阅读并同意 <a href="/account/terms/">商品购买说明与隐私说明</a></label>
 <p class="commerce-message" role="status" aria-live="polite"></p></section>''')
     main.insert(len(main) - 1, commerce)
     nav = tree.xpath('//header//nav')[0]

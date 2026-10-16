@@ -54,7 +54,7 @@ def verify(request):
 @require_POST
 def sign_out(request):
     logout(request)
-    return JsonResponse({'next': '/tongjian/research.html'})
+    return JsonResponse({'next': '/research.html'})
 
 
 @login_required
@@ -68,7 +68,7 @@ def account_page(request):
 @require_POST
 def logout_page(request):
     logout(request)
-    return redirect('/tongjian/research.html')
+    return redirect('/research.html')
 
 
 @login_required

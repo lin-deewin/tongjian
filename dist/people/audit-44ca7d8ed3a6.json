@@ -1,0 +1,93 @@
+{
+  "id": "audit-44ca7d8ed3a6",
+  "name": "刘弘昌",
+  "aliases": [
+    "刘弘昌"
+  ],
+  "identity": "南汉越王。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉高祖刘龑病重时考虑改立孝谨的刘弘昌",
+      "summary": "南汉高祖刘龑病重时考虑改立孝谨的刘弘昌",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元942年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "indices": [
+            13
+          ],
+          "sourceHash": "54677d649d239193cdd48180456ed62600925c050abed9bb2e2b2fe79882c772",
+          "quote": "汉高祖寝疾，以其子秦王弘度、晋王弘熙皆骄恣，少子越王弘昌孝谨有智识，与右仆射兼西御院使王翷谋出弘度镇邕州，弘熙镇容州，而立弘昌。制命将行，会崇文使萧益入问疾，以其事访之。益曰：「立嫡以长，违之必乱。」乃止。"
+        }
+      ],
+      "id": "audit-44ca7d8ed3a6-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "南汉任刘弘昌为都统刘弘杲为副讨伐张遇贤",
+      "summary": "南汉任刘弘昌为都统刘弘杲为副讨伐张遇贤",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -942,
+      "timeLabel": "公元942年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "indices": [
+            34
+          ],
+          "sourceHash": "e460b21afd9e4ed921ce7ec2f903c4b26f4afba2b1e436b98fab82ff850f2a52",
+          "quote": "汉主以越王弘昌为都统，循王弘杲为副以讨之，战于钱帛馆。汉兵不利，二王皆为贼所围；指挥使陈道庠等力战救之，得免。东方州县多为遇贤所陷。道庠，端州人也。"
+        }
+      ],
+      "id": "audit-44ca7d8ed3a6-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "南汉主刘晟派刘弘昌祭祀刘隐陵时将其暗杀",
+      "summary": "南汉主刘晟派刘弘昌祭祀刘隐陵时将其暗杀",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元944年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 284,
+          "year": -944,
+          "indices": [
+            12
+          ],
+          "sourceHash": "ee31d55b78e895eac944ee6e785f76f93a3d4184ce31fe4cc68e4fa56007753a",
+          "quote": "汉主命中书令、都元帅越王弘昌谒烈宗陵于海曲，至昌华宫，使盗杀之。"
+        }
+      ],
+      "id": "audit-44ca7d8ed3a6-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

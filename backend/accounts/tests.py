@@ -14,7 +14,7 @@ from .services import send_code, verify_code, normalize_email
 
 def request_registration_code(client, email):
     """Solve a deterministic test image through the real CSRF/form flow."""
-    url = '/tongjian/account/register/'
+    url = '/account/register/'
     with patch('accounts.captcha.new_code', return_value='ABCD'):
         response = client.get(url)
         if response.context['captcha_verified']:
@@ -83,25 +83,25 @@ class LoginTests(TestCase):
 
     def test_csrf_required_for_login_and_logout(self):
         client = Client(enforce_csrf_checks=True)
-        self.assertEqual(client.post('/tongjian/api/v1/auth/email-code/', {'email': 'reader@example.com'}).status_code, 403)
-        token = client.get('/tongjian/api/v1/session/').json()['csrf_token']
-        response = client.post('/tongjian/api/v1/auth/email-code/', data='{"email":"reader@example.com"}',
+        self.assertEqual(client.post('/api/v1/auth/email-code/', {'email': 'reader@example.com'}).status_code, 403)
+        token = client.get('/api/v1/session/').json()['csrf_token']
+        response = client.post('/api/v1/auth/email-code/', data='{"email":"reader@example.com"}',
                                content_type='application/json', HTTP_X_CSRFTOKEN=token)
         self.assertEqual(response.status_code, 200)
         code = re.search(r'\d{6}', mail.outbox[-1].body).group()
-        response = client.post('/tongjian/api/v1/auth/verify/', data={'email': 'reader@example.com', 'code': code, 'next': '//evil.example/'},
+        response = client.post('/api/v1/auth/verify/', data={'email': 'reader@example.com', 'code': code, 'next': '//evil.example/'},
                                content_type='application/json', HTTP_X_CSRFTOKEN=token)
-        self.assertEqual(response.json()['next'], '/tongjian/account/purchases/')
-        self.assertEqual(client.post('/tongjian/api/v1/auth/logout/', {}).status_code, 403)
-        token = client.get('/tongjian/api/v1/session/').json()['csrf_token']
-        self.assertEqual(client.post('/tongjian/api/v1/auth/logout/', data='{}', content_type='application/json', HTTP_X_CSRFTOKEN=token).status_code, 200)
-        self.assertFalse(client.get('/tongjian/api/v1/session/').json()['authenticated'])
+        self.assertEqual(response.json()['next'], '/account/purchases/')
+        self.assertEqual(client.post('/api/v1/auth/logout/', {}).status_code, 403)
+        token = client.get('/api/v1/session/').json()['csrf_token']
+        self.assertEqual(client.post('/api/v1/auth/logout/', data='{}', content_type='application/json', HTTP_X_CSRFTOKEN=token).status_code, 200)
+        self.assertFalse(client.get('/api/v1/session/').json()['authenticated'])
 
     def test_normalization_and_redirects(self):
         self.assertEqual(normalize_email(' Reader+one@Example.COM '), 'reader+one@example.com')
-        for value in ['https://evil.example/', '//evil.example/', '/tongjian/\\evil', '/elsewhere', '/tongjian/\n']:
-            self.assertEqual(safe_next(value), '/tongjian/account/purchases/')
-        self.assertEqual(safe_next('/tongjian/truth.html#wugu'), '/tongjian/truth.html#wugu')
+        for value in ['https://evil.example/', '//evil.example/', '/\\evil', '/%2fevil.example/', '/\n']:
+            self.assertEqual(safe_next(value), '/account/purchases/')
+        self.assertEqual(safe_next('/truth.html#wugu'), '/truth.html#wugu')
 
 class ConcurrentLoginTests(TransactionTestCase):
     def test_parallel_code_consumption(self):
@@ -124,12 +124,12 @@ class ConcurrentLoginTests(TransactionTestCase):
 
 class PasswordAccountTests(TestCase):
     password = 'Cedar-Cloud-2026!Book'
-    login_url = '/tongjian/account/login/'
-    register_url = '/tongjian/account/register/'
+    login_url = '/account/login/'
+    register_url = '/account/register/'
 
     def register(self, **overrides):
         data = {'email': ' Reader@Example.com ', 'password1': self.password,
-                'password2': self.password, 'next': '/tongjian/truth.html#wugu'}
+                'password2': self.password, 'next': '/truth.html#wugu'}
         data.update(overrides)
         return self.client.post(self.register_url, data)
 
@@ -137,7 +137,7 @@ class PasswordAccountTests(TestCase):
         request_registration_code(self.client, 'reader@example.com')
         code = re.search(r'\d{6}', mail.outbox[-1].body).group()
         response = self.register(code=code)
-        self.assertRedirects(response, '/tongjian/truth.html#wugu', fetch_redirect_response=False)
+        self.assertRedirects(response, '/truth.html#wugu', fetch_redirect_response=False)
         user = User.objects.get(email='reader@example.com')
         self.assertTrue(user.check_password(self.password))
         self.assertNotEqual(user.password, self.password)
@@ -190,7 +190,7 @@ class PasswordAccountTests(TestCase):
         old_key = session.session_key
         response = self.client.post(self.login_url, {'username': 'READER@EXAMPLE.COM',
             'password': self.password, 'next': '//evil.example/'})
-        self.assertRedirects(response, '/tongjian/account/purchases/', fetch_redirect_response=False)
+        self.assertRedirects(response, '/account/purchases/', fetch_redirect_response=False)
         self.assertEqual(self.client.session['_auth_user_id'], str(user.pk))
         self.assertNotEqual(old_key, self.client.session.session_key)
 
@@ -202,7 +202,7 @@ class PasswordAccountTests(TestCase):
 
     def test_native_forms_require_csrf(self):
         client = Client(enforce_csrf_checks=True)
-        for url in [self.register_url, self.login_url, '/tongjian/account/password-reset/']:
+        for url in [self.register_url, self.login_url, '/account/password-reset/']:
             self.assertEqual(client.post(url, {}).status_code, 403)
         response = client.get(self.register_url)
         token = client.cookies['csrftoken'].value
@@ -221,9 +221,9 @@ class PasswordAccountTests(TestCase):
         self.assertEqual(self.register(password2='mismatch').status_code, 429)
 
     def reset_link(self, email):
-        response = self.client.post('/tongjian/account/password-reset/', {'email': email})
+        response = self.client.post('/account/password-reset/', {'email': email})
         self.assertEqual(response.status_code, 302)
-        return re.search(r'https?://[^\s]+/tongjian/account/reset/[^\s]+', mail.outbox[-1].body).group()
+        return re.search(r'https?://[^\s]+/account/reset/[^\s]+', mail.outbox[-1].body).group()
 
     def test_reset_legacy_reader_preserves_user_and_invalidates_token(self):
         from urllib.parse import urlsplit
@@ -250,11 +250,11 @@ class PasswordAccountTests(TestCase):
         token = default_token_generator.make_token(user)
         uid = urlsafe_base64_encode(force_bytes(user.pk))
         with override_settings(PASSWORD_RESET_TIMEOUT=-1):
-            self.assertContains(self.client.get(f'/tongjian/account/reset/{uid}/{token}/', follow=True), '链接已失效')
+            self.assertContains(self.client.get(f'/account/reset/{uid}/{token}/', follow=True), '链接已失效')
         User.objects.create_superuser('owner@example.com', self.password)
         for email in ['owner@example.com', 'missing@example.com']:
-            response = self.client.post('/tongjian/account/password-reset/', {'email': email})
-            self.assertRedirects(response, '/tongjian/account/password-reset/sent/')
+            response = self.client.post('/account/password-reset/', {'email': email})
+            self.assertRedirects(response, '/account/password-reset/sent/')
         self.assertEqual(len(mail.outbox), 0)
 
     def test_reset_password_logs_out_old_sessions_and_keeps_order_owner(self):
@@ -265,12 +265,12 @@ class PasswordAccountTests(TestCase):
         link = urlsplit(self.reset_link(user.email)).path
         response = self.client.get(link)
         self.client.post(response.url, {'new_password1': 'New-' + self.password, 'new_password2': 'New-' + self.password})
-        self.assertFalse(old.get('/tongjian/api/v1/session/').json()['authenticated'])
+        self.assertFalse(old.get('/api/v1/session/').json()['authenticated'])
         self.assertEqual(User.objects.get(email=user.email).pk, user.pk)
 
 
 class VerifiedRegistrationTests(TestCase):
-    url = '/tongjian/account/register/'
+    url = '/account/register/'
     password = 'Valley-River-2026!Safe'
 
     def send(self, email='new@example.com'):
@@ -391,23 +391,23 @@ class AccountManagementTests(TestCase):
                                              email_verified_at=timezone.now())
 
     def test_account_requires_login_and_contains_native_security_links(self):
-        self.assertEqual(self.client.get('/tongjian/account/').status_code, 302)
+        self.assertEqual(self.client.get('/account/').status_code, 302)
         self.client.force_login(self.user)
-        response = self.client.get('/tongjian/account/')
+        response = self.client.get('/account/')
         self.assertContains(response, 'account@example.com')
         self.assertContains(response, '已验证')
-        self.assertContains(response, '/tongjian/account/password-change/')
-        self.assertContains(response, 'action="/tongjian/account/logout/"')
+        self.assertContains(response, '/account/password-change/')
+        self.assertContains(response, 'action="/account/logout/"')
         self.assertEqual(response['Cache-Control'], 'private, no-store')
 
     def test_login_defaults_to_account_and_preserves_reading_destination(self):
-        response = self.client.post('/tongjian/account/login/', {
+        response = self.client.post('/account/login/', {
             'username': self.user.email, 'password': self.password,
         })
-        self.assertRedirects(response, '/tongjian/account/', fetch_redirect_response=False)
+        self.assertRedirects(response, '/account/', fetch_redirect_response=False)
         self.client.logout()
-        destination = '/tongjian/reader.html#volume-1-year-403-para-1'
-        response = self.client.post('/tongjian/account/login/', {
+        destination = '/reader.html#volume-1-year-403-para-1'
+        response = self.client.post('/account/login/', {
             'username': self.user.email, 'password': self.password, 'next': destination,
         })
         self.assertRedirects(response, destination, fetch_redirect_response=False)
@@ -415,15 +415,15 @@ class AccountManagementTests(TestCase):
     def test_native_logout_is_post_only_and_requires_csrf(self):
         client = Client(enforce_csrf_checks=True)
         client.force_login(self.user)
-        self.assertEqual(client.get('/tongjian/account/logout/').status_code, 405)
-        self.assertTrue(client.get('/tongjian/api/v1/session/').json()['authenticated'])
-        self.assertEqual(client.post('/tongjian/account/logout/').status_code, 403)
-        client.get('/tongjian/account/')
-        response = client.post('/tongjian/account/logout/', {
+        self.assertEqual(client.get('/account/logout/').status_code, 405)
+        self.assertTrue(client.get('/api/v1/session/').json()['authenticated'])
+        self.assertEqual(client.post('/account/logout/').status_code, 403)
+        client.get('/account/')
+        response = client.post('/account/logout/', {
             'csrfmiddlewaretoken': client.cookies['csrftoken'].value,
         })
-        self.assertRedirects(response, '/tongjian/research.html', fetch_redirect_response=False)
-        self.assertFalse(client.get('/tongjian/api/v1/session/').json()['authenticated'])
+        self.assertRedirects(response, '/research.html', fetch_redirect_response=False)
+        self.assertFalse(client.get('/api/v1/session/').json()['authenticated'])
 
     def test_password_change_rotates_current_session_and_revokes_other_devices(self):
         self.client.force_login(self.user)
@@ -431,23 +431,23 @@ class AccountManagementTests(TestCase):
         other.force_login(self.user)
         old_key = self.client.session.session_key
         new_password = 'New-' + self.password
-        response = self.client.post('/tongjian/account/password-change/', {
+        response = self.client.post('/account/password-change/', {
             'old_password': self.password,
             'new_password1': new_password, 'new_password2': new_password,
         })
-        self.assertRedirects(response, '/tongjian/account/password-change/done/')
+        self.assertRedirects(response, '/account/password-change/done/')
         self.user.refresh_from_db()
         self.assertTrue(self.user.check_password(new_password))
-        self.assertTrue(self.client.get('/tongjian/api/v1/session/').json()['authenticated'])
+        self.assertTrue(self.client.get('/api/v1/session/').json()['authenticated'])
         self.assertNotEqual(old_key, self.client.session.session_key)
-        self.assertFalse(other.get('/tongjian/api/v1/session/').json()['authenticated'])
+        self.assertFalse(other.get('/api/v1/session/').json()['authenticated'])
 
     def test_password_change_requires_current_password_and_csrf(self):
         client = Client(enforce_csrf_checks=True)
         client.force_login(self.user)
-        self.assertEqual(client.post('/tongjian/account/password-change/', {}).status_code, 403)
-        client.get('/tongjian/account/password-change/')
-        response = client.post('/tongjian/account/password-change/', {
+        self.assertEqual(client.post('/account/password-change/', {}).status_code, 403)
+        client.get('/account/password-change/')
+        response = client.post('/account/password-change/', {
             'old_password': 'wrong', 'new_password1': 'New-' + self.password,
             'new_password2': 'New-' + self.password,
             'csrfmiddlewaretoken': client.cookies['csrftoken'].value,
@@ -460,20 +460,20 @@ class AccountManagementTests(TestCase):
     def test_password_change_is_rate_limited(self):
         self.client.force_login(self.user)
         for _ in range(10):
-            self.client.post('/tongjian/account/password-change/', {'old_password': 'wrong'})
-        self.assertEqual(self.client.post('/tongjian/account/password-change/', {}).status_code, 429)
+            self.client.post('/account/password-change/', {'old_password': 'wrong'})
+        self.assertEqual(self.client.post('/account/password-change/', {}).status_code, 429)
         self.user.refresh_from_db()
         self.assertTrue(self.user.check_password(self.password))
 
     def test_admin_cannot_bypass_admin_password_route(self):
         staff = User.objects.create_superuser('admin@example.com', self.password)
         self.client.force_login(staff)
-        self.assertEqual(self.client.get('/tongjian/account/password-change/').status_code, 403)
+        self.assertEqual(self.client.get('/account/password-change/').status_code, 403)
 
     @override_settings(LEGACY_EMAIL_LOGIN_ENABLED=False)
     def test_disabled_legacy_routes_do_not_send_or_create_accounts(self):
         for route in ['email-code', 'verify']:
-            response = self.client.post('/tongjian/api/v1/auth/' + route + '/',
+            response = self.client.post('/api/v1/auth/' + route + '/',
                 data={'email': 'unregistered@example.com', 'code': '123456'}, content_type='application/json')
             self.assertEqual(response.status_code, 404)
         self.assertEqual(len(mail.outbox), 0)
@@ -482,10 +482,10 @@ class AccountManagementTests(TestCase):
 
     def test_expired_csrf_displays_html_for_forms_and_json_for_api(self):
         client = Client(enforce_csrf_checks=True)
-        response = client.post('/tongjian/account/login/', {})
+        response = client.post('/account/login/', {})
         self.assertContains(response, '页面验证已失效', status_code=403)
         self.assertTrue(response['Content-Type'].startswith('text/html'))
-        response = client.post('/tongjian/api/v1/auth/logout/', data={}, content_type='application/json')
+        response = client.post('/api/v1/auth/logout/', data={}, content_type='application/json')
         self.assertEqual(response.status_code, 403)
         self.assertEqual(response.json()['error']['code'], 'csrf_failed')
 

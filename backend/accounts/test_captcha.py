@@ -12,8 +12,8 @@ from .models import GraphicChallenge
 
 
 class GraphicCaptchaTests(TestCase):
-    url = '/tongjian/account/register/'
-    refresh = '/tongjian/account/captcha/refresh/'
+    url = '/account/register/'
+    refresh = '/account/captcha/refresh/'
 
     def challenge(self, client=None):
         client = client or self.client

@@ -1,18 +1,16 @@
 {
-  "reviewedPeople": 391,
+  "reviewedPeople": 451,
   "birthStatuses": {
     "confirmed": 185,
     "unknown": 170,
     "disputed": 15,
     "approximate": 13,
-    "unconfirmed": 8
+    "unconfirmed": 68
   },
   "eventAgeCoverage": {
-    "withoutEventYear": 2232,
-    "withAge": 4237,
-    "withoutConfirmedBirth": 2302,
-    "afterDeath": 59,
-    "beforeBirth": 6
+    "withoutEventYear": 2188,
+    "withAge": 4280,
+    "withoutConfirmedBirth": 2471
   },
-  "totalEvents": 8836
+  "totalEvents": 8939
 }

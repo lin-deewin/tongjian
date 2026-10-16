@@ -68,7 +68,7 @@ def send_code(email, address, purpose='login'):
         label = '注册' if purpose == 'register' else '登录'
         message = render_to_string('account_code_email.txt', {
             'label': label, 'code': code, 'email': email,
-            'site_url': settings.SITE_URL + '/tongjian/',
+            'site_url': settings.SITE_URL + '/',
         })
         delivered = send_mail(f'通鉴年鉴{label}验证码', message,
                               settings.DEFAULT_FROM_EMAIL, [email])

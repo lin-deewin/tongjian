@@ -1,0 +1,46 @@
+{
+  "id": "audit-c4d97402c26c",
+  "name": "刘歆",
+  "aliases": [
+    "刘歆",
+    "刘秀"
+  ],
+  "identity": "西汉末、新莽国师公，后改名刘秀；不是光武帝刘秀。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "王涉、刘秀、董忠等谋降汉，事泄后董忠被杀，刘秀、王涉自尽",
+      "summary": "王涉、刘秀、董忠等谋降汉，事泄后董忠被杀，刘秀、王涉自尽",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -23,
+      "timeLabel": "公元23年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 39,
+          "year": -23,
+          "indices": [
+            13
+          ],
+          "sourceHash": "4249bc757cc9a81d15ae6001475d8342c7f2c81d070f195029f221b645c624e4",
+          "quote": "道士西门君惠谓王莽卫将军王涉曰：「谶文刘氏当复兴，国师公姓名是也。」涉遂与国师公刘秀、大司马董忠、司中大赘孙伋谋，以所部兵劫莽降汉，以全宗族。秋，七月，伋以其谋告莽，莽召忠诘责，因格杀之，使虎贲以斩马剑剉忠，收其宗族，以醇酰、毒药、白刃、丛棘并一坎而埋之；秀、涉皆自杀。莽以其骨肉、旧臣，恶其内溃，故隐其诛。莽以军师外破，大臣内畔，左右亡所信，不能复远念郡国，乃召王邑还，为大司马，以大长秋张邯为大司徒，崔发为大司空，司中寿容苗欣为国师。莽忧懑不能食，但饮酒，啖鳆鱼；读军书倦，因冯几寐，不复就枕矣。"
+        }
+      ],
+      "id": "audit-c4d97402c26c-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "audit-7641941b1be8",
+  "name": "刘玢",
+  "aliases": [
+    "刘玢",
+    "刘弘度"
+  ],
+  "identity": "南汉君主，原名刘弘度。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉秦王刘弘度招募市井无赖杨洞潜谏言未被采纳",
+      "summary": "南汉秦王刘弘度招募市井无赖杨洞潜谏言未被采纳",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -934,
+      "timeLabel": "公元934年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 279,
+          "year": -934,
+          "indices": [
+            98
+          ],
+          "sourceHash": "65ca5ec7a26673ac40440c33392bac7bb9a1536d7716d15014c20431423fa7c5",
+          "quote": "汉主命判六军秦王弘度募宿卫兵千人，皆市井无赖子弟，弘度昵之。同平章事杨洞潜谏曰：「秦王，国之冢嫡，宜亲端士。使之治军已过矣，况昵群小乎！」汉主曰：「小儿教以戎事，过烦公忧。」终不弁弘度。洞潜出，见卫士掠商人金帛，商人不敢诉，叹曰：「政乱如此，安用宰相！」因谢病归第；久之，不召，遂卒。"
+        }
+      ],
+      "id": "audit-7641941b1be8-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "南汉秦王刘弘度即位改名刘玢",
+      "summary": "南汉秦王刘弘度即位改名刘玢",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -942,
+      "timeLabel": "公元942年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "indices": [
+            16
+          ],
+          "sourceHash": "3a71d124570526a98d36b9d77b967bcbc31ae11fc55dc6a8fb91ec6a8a0fbe14",
+          "quote": "秦王弘度即皇帝位，更名玢；以弘熙辅政，改元光天；尊母赵昭仪曰皇太妃。"
+        }
+      ],
+      "id": "audit-7641941b1be8-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

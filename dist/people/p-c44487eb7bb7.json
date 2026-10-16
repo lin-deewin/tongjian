@@ -9,7 +9,7 @@
   ],
   "identity": "秦王政，统一六国后称皇帝。",
   "birthYear": 259,
-  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "秦王政继位，吕不韦掌国政",
@@ -30,7 +30,10 @@
           "quote": "五月，丙午，王薨。太子政立，生十三年矣，国事皆决于文信侯，号称仲父。"
         }
       ],
-      "id": "p-c44487eb7bb7-1"
+      "id": "p-c44487eb7bb7-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "秦王政宿于雍",
@@ -51,7 +54,10 @@
           "quote": "王宿雍。"
         }
       ],
-      "id": "p-c44487eb7bb7-2"
+      "id": "p-c44487eb7bb7-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "秦王政加冠佩剑",
@@ -72,7 +78,10 @@
           "quote": "己酉，王冠，带剑。"
         }
       ],
-      "id": "p-c44487eb7bb7-3"
+      "id": "p-c44487eb7bb7-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "秦王政之母太后去世",
@@ -93,7 +102,10 @@
           "quote": "太后薨。"
         }
       ],
-      "id": "p-c44487eb7bb7-4"
+      "id": "p-c44487eb7bb7-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "秦王称始皇帝，废除谥法",
@@ -114,7 +126,10 @@
           "quote": "王初并天下，自以为德兼三皇，功过五帝，乃更号曰“皇帝，命为“制”，令为“诏”，自称曰“朕”。追尊庄襄王为太上皇。制曰：“死而以行为谥，则是子议父，臣议君也，甚无谓。自今以来，除谥法。朕为始皇帝，后世以计数，二世、三世至于万世，传之无穷。”"
         }
       ],
-      "id": "p-c44487eb7bb7-5"
+      "id": "p-c44487eb7bb7-5",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "刘晔评曹叡才略可比秦始皇、汉武帝",
@@ -135,7 +150,10 @@
           "quote": "初，明帝在东宫，不交朝臣，不问政事，惟潜思书籍；即位之后，群下想闻风采。居数日，独见侍中刘晔，语尽日，众人侧听，晔既出，问：「何如﹖」：「秦始皇、汉孝武之俦，才具微不及耳。」"
         }
       ],
-      "id": "p-c44487eb7bb7-6"
+      "id": "p-c44487eb7bb7-6",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "唐太宗以秦始皇营宫室为戒停止建殿",
@@ -156,11 +174,19 @@
           "quote": "上谓公卿曰：「昔禹凿山治水而民无谤讟者，与人同利故也。秦始皇营宫室而人怨叛者，病人以利己故也。夫靡丽珍奇，固人之所欲，若纵之不已，则危亡立至。朕欲营一殿，材用已具，鉴秦而止。王公已下，宜体朕此意。」由是二十年间，风俗素朴，衣无锦绣，公私富给。"
         }
       ],
-      "id": "p-c44487eb7bb7-7"
+      "id": "p-c44487eb7bb7-7",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": 210,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=秦始皇&oldid=94788854",
   "birthStatus": "confirmed",
-  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。",
+  "reviewSummary": {
+    "currentEntries": 7,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

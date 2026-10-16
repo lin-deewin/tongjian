@@ -1,0 +1,45 @@
+{
+  "id": "audit-ea8a7eadac33",
+  "name": "刘缵（南齐）",
+  "aliases": [
+    "刘缵"
+  ],
+  "identity": "南齐骁骑将军，曾出使北魏；不是东汉质帝。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南齐遣刘缵聘魏，冯太后私幸刘缵",
+      "summary": "南齐遣刘缵聘魏，冯太后私幸刘缵",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -483,
+      "timeLabel": "公元483年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 135,
+          "year": -483,
+          "indices": [
+            28
+          ],
+          "sourceHash": "e4c65bc7bca821990a4a5e548e29b0fcd9e82f871497eafbfd6d3e23614e558b",
+          "quote": "冬，十月，丙寅，遣骁骑将军刘缵聘于魏，魏主客令李安世主之。魏人出内藏之宝，使贾人鬻之于市缵曰：「魏金玉大贱，当由山川所出。」安世曰：「圣朝不贵金玉，故贱同瓦砾。」缵初欲多市，闻其言，内惭而止。缵屡奉使至魏，冯太后遂私幸之。"
+        }
+      ],
+      "id": "audit-ea8a7eadac33-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -2,5 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /account/
 Disallow: /api/
+Disallow: /checkout/
+Disallow: /article/
+Disallow: /admin/
 
-Sitemap: https://deewins.top/tongjian/sitemap.xml
+Sitemap: https://deewins.top/sitemap.xml

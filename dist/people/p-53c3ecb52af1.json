@@ -6,7 +6,7 @@
   ],
   "identity": "后唐将领，曾镇守汴州。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "李嗣源请治朱守殷败军罪",
@@ -27,7 +27,10 @@
           "quote": "李嗣源密表请正朱守殷覆军之罪；帝不从。"
         }
       ],
-      "id": "p-53c3ecb52af1-1"
+      "id": "p-53c3ecb52af1-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "朱守殷遣使请李嗣源入洛阳平乱",
@@ -48,7 +51,10 @@
           "quote": "戊子，朱守殷遣使驰白嗣源，以「京城大乱，诸军焚掠不已，愿亟来救之！」乙丑，嗣源入洛阳，止于私第，禁焚掠，拾庄宗骨于灰烬之中而殡之。"
         }
       ],
-      "id": "p-53c3ecb52af1-2"
+      "id": "p-53c3ecb52af1-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "李嗣源命朱守殷巡城并善待宫中妃嫔",
@@ -69,7 +75,10 @@
           "quote": "嗣源谓朱守殷曰：「公善巡徼，以待魏王。淑妃、德妃在宫，供给尤宜丰备。吾俟山陵毕，社稷有奉，则归藩为国家捍御北方耳。」"
         }
       ],
-      "id": "p-53c3ecb52af1-3"
+      "id": "p-53c3ecb52af1-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "朱守殷因疑明宗将讨吴而据汴州反叛",
@@ -90,16 +99,19 @@
           "quote": "民间讹言帝欲自击吴，又云欲制置东方诸侯。宣武节度使、检校侍中朱守殷疑惧，判官高密孙晟劝守殷反，守殷遂乘城拒守。帝遣宣徽使范延光往谕之，延光曰：「不早击之，则汴城坚矣；愿得五百骑与俱。」帝从之。延光暮发，未明行二百里，抵大梁城下，与汴人战，汴人大惊。戊子，帝至京水，遣御营使石敬瑭将亲兵倍道继之。"
         }
       ],
-      "id": "p-53c3ecb52af1-4"
+      "id": "p-53c3ecb52af1-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "明宗抵大梁攻城朱守殷自杀",
       "summary": "明宗抵大梁攻城朱守殷自杀",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "去世",
-      "year": null,
-      "timeLabel": "记载于公元927年",
-      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "year": -927,
+      "timeLabel": "公元927年",
+      "dateNote": "依原书本年记事。",
       "sources": [
         {
           "volume": 276,
@@ -111,11 +123,19 @@
           "quote": "己丑，帝至大梁，四面进攻，吏民缒城出降者甚众。守殷知事不济，尽杀其族，引颈命左右斩之。乘城者望见乘舆，相帅开门降。孙晟奔吴，徐知诰客之。"
         }
       ],
-      "id": "p-53c3ecb52af1-5"
+      "id": "p-53c3ecb52af1-5",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=朱守殷&oldid=91324777",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 5,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

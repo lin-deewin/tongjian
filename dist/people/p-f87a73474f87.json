@@ -6,7 +6,7 @@
   ],
   "identity": "东汉大臣，曾任司空。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "刘恺任司徒，袁敞任司空",
@@ -27,7 +27,10 @@
           "quote": "庚戊，以司空刘恺为司徒，光禄勋袁敞为司空。敞，安之子也。"
         }
       ],
-      "id": "p-f87a73474f87-1"
+      "id": "p-f87a73474f87-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "袁敞遭邓氏构陷，免官后自杀",
@@ -48,11 +51,19 @@
           "quote": "司空袁敞，廉劲不阿权贵，失邓氏旨。尚书郎张俊有私书与敞子俊，怨家封上之。夏，四月，戊申，敞坐策免，自杀；俊等下狱当死。俊上书自讼；临刑，太后诏以减死论。"
         }
       ],
-      "id": "p-f87a73474f87-2"
+      "id": "p-f87a73474f87-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=袁敞&oldid=88451856",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

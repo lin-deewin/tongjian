@@ -1,0 +1,5674 @@
+{
+  "batch": "early-69-current-entries-and-volumes-1-3-candidates",
+  "originalProfiles": 69,
+  "originalEntries": 209,
+  "sourcePacketParagraphs": 150,
+  "decisions": [
+    {
+      "action": "edit",
+      "person": "吴起",
+      "before": {
+        "title": "与士卒同甘共苦",
+        "summary": "吴起与普通士卒同衣食、分劳苦，并为患疽的士卒吮疽。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "年份未详",
+        "dateNote": "原书附叙，未据所在年推定发生年份。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 403,
+            "indices": [
+              29
+            ],
+            "sourceHash": "a8229f740b6db5cc72be0fa53688b1ca8b4392b93b0834082784f7c9a07dcfd5"
+          }
+        ],
+        "id": "wu-qi-3"
+      },
+      "after": {
+        "title": "与士卒同甘共苦",
+        "summary": "吴起与普通士卒同衣食、分劳苦，并为患疽的士卒吮疽。",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": null,
+        "timeLabel": "年份未详",
+        "dateNote": "本段记将帅与士卒同衣食、同劳苦及吮疽，是军中行为，不能只因卒母发言而归作吴起言论。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 403,
+            "indices": [
+              29
+            ],
+            "sourceHash": "a8229f740b6db5cc72be0fa53688b1ca8b4392b93b0834082784f7c9a07dcfd5"
+          }
+        ],
+        "id": "wu-qi-3"
+      },
+      "reason": "本段记将帅与士卒同衣食、同劳苦及吮疽，是军中行为，不能只因卒母发言而归作吴起言论。"
+    },
+    {
+      "action": "edit",
+      "person": "张仪",
+      "before": {
+        "title": "司马光、扬雄评论其纵横之术",
+        "summary": "本年记述苏秦、张仪等纵横家受诸侯任用，并引孟子与扬雄批评其游说之术。",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1,
+              2,
+              3
+            ],
+            "sourceHash": "229986f986e42ee9c35a78735fb14dbeb4407d3544c167e11f905cd86429bdeb"
+          }
+        ]
+      },
+      "after": {
+        "title": "孟子、扬雄评论纵横之术",
+        "summary": "孟子、扬雄评论纵横之术",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "原文为纵横家综述、孟子评论及《扬子法言》，未出现司马光署名；评论编排于前310年，不是当年现场发言。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              2,
+              3
+            ],
+            "sourceHash": "d8741e6df58797f8b738656f22f0915643ebff1939c70d6c6e1832fb6e90affa"
+          }
+        ]
+      },
+      "reason": "原文为纵横家综述、孟子评论及《扬子法言》，未出现司马光署名；评论编排于前310年，不是当年现场发言。"
+    },
+    {
+      "action": "edit",
+      "person": "苏秦",
+      "before": {
+        "title": "列为纵横家代表并记其游说经历",
+        "summary": "本卷记述苏秦与张仪都以纵横之术游说诸侯，并称苏秦之弟苏代、苏厉也以游说显名。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "after": {
+        "title": "列为纵横家代表并记其游说经历",
+        "summary": "本卷记述苏秦与张仪都以纵横之术游说诸侯，并称苏秦之弟苏代、苏厉也以游说显名。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "reason": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。"
+    },
+    {
+      "action": "edit",
+      "person": "苏代",
+      "before": {
+        "title": "列名于纵横游说之士",
+        "summary": "本年将苏代与苏厉等列为往来诸侯、以辩说相高的纵横家。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "after": {
+        "title": "列名于纵横游说之士",
+        "summary": "本年将苏代与苏厉等列为往来诸侯、以辩说相高的纵横家。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "reason": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。"
+    },
+    {
+      "action": "edit",
+      "person": "公孙衍",
+      "before": {
+        "title": "以纵横游说显名",
+        "summary": "本卷记公孙衍以谈说显名，并与苏秦、张仪并称当时著名纵横家。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "after": {
+        "title": "以纵横游说显名",
+        "summary": "本卷记公孙衍以谈说显名，并与苏秦、张仪并称当时著名纵横家。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "reason": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。"
+    },
+    {
+      "action": "edit",
+      "person": "孟子",
+      "before": {
+        "title": "以“大丈夫”回应纵横家之说",
+        "summary": "孟子以守正道、富贵不能淫等标准回应公孙衍、张仪是否为大丈夫的说法。",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d2fe29312c7c9c58cdc94e05660ec6b98314b9fd091dbd9d52ffa6f39f0a3b95"
+          }
+        ]
+      },
+      "after": {
+        "title": "以“大丈夫”回应纵横家之说",
+        "summary": "孟子以守正道、富贵不能淫等标准回应公孙衍、张仪是否为大丈夫的说法。",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "这是《通鉴》所引孟子论“大丈夫”的评论；未标明谈话确年，不定为前310年亲历。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d2fe29312c7c9c58cdc94e05660ec6b98314b9fd091dbd9d52ffa6f39f0a3b95"
+          }
+        ]
+      },
+      "reason": "这是《通鉴》所引孟子论“大丈夫”的评论；未标明谈话确年，不定为前310年亲历。"
+    },
+    {
+      "action": "edit",
+      "person": "公孙衍",
+      "before": {
+        "title": "被孟子用作“大丈夫”论辩对象",
+        "summary": "孟子回应公孙衍、张仪是否为大丈夫的说法，提出守正道、不为富贵贫贱威武所屈的标准。",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d2fe29312c7c9c58cdc94e05660ec6b98314b9fd091dbd9d52ffa6f39f0a3b95"
+          }
+        ]
+      },
+      "after": {
+        "title": "被孟子用作“大丈夫”论辩对象",
+        "summary": "孟子回应公孙衍、张仪是否为大丈夫的说法，提出守正道、不为富贵贫贱威武所屈的标准。",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "这是《通鉴》所引孟子论“大丈夫”的评论；未标明谈话确年，不定为前310年亲历。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d2fe29312c7c9c58cdc94e05660ec6b98314b9fd091dbd9d52ffa6f39f0a3b95"
+          }
+        ]
+      },
+      "reason": "这是《通鉴》所引孟子论“大丈夫”的评论；未标明谈话确年，不定为前310年亲历。"
+    },
+    {
+      "action": "remove-false-association",
+      "person": "齐湣王",
+      "before": {
+        "title": "乘燕国内乱出兵攻燕",
+        "summary": "齐湣王命章子率军进入燕国；燕军不战，齐军杀子之与燕王哙。",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 314,
+        "timeLabel": "前314年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 314,
+            "indices": [
+              2
+            ],
+            "sourceHash": "642cec8e77b69695d0ffdf08919f36f80d75a7fc3c40168385a19550139e4df2"
+          }
+        ]
+      },
+      "reason": "本书先记齐攻燕及孟子答齐王，随后才记“是岁齐宣王薨，子闵王地立”；此处不能同时归作齐湣王出兵。齐宣王档案已保留对应原文。"
+    },
+    {
+      "action": "edit",
+      "person": "秦武王",
+      "before": {
+        "title": "任用甘茂、置丞相",
+        "summary": "秦武王命甘茂诛蜀相庄，并在秦初置丞相时任樗里疾为右丞相。",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              4
+            ],
+            "sourceHash": "7574f461667a17234a1bd3f8b6a91af4be0501c934b6d25d7698296ccb5de017"
+          }
+        ]
+      },
+      "after": {
+        "title": "命甘茂诛蜀相庄",
+        "summary": "命甘茂诛蜀相庄",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "所引段落仅为秦王命甘茂诛蜀相庄，未记本年置丞相；置相另见前309年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              4
+            ],
+            "sourceHash": "7574f461667a17234a1bd3f8b6a91af4be0501c934b6d25d7698296ccb5de017"
+          }
+        ]
+      },
+      "reason": "所引段落仅为秦王命甘茂诛蜀相庄，未记本年置丞相；置相另见前309年。"
+    },
+    {
+      "action": "edit",
+      "person": "甘茂",
+      "before": {
+        "title": "受命诛蜀相庄",
+        "summary": "秦王派甘茂前往诛杀蜀相庄。",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              4
+            ],
+            "sourceHash": "7574f461667a17234a1bd3f8b6a91af4be0501c934b6d25d7698296ccb5de017"
+          }
+        ]
+      },
+      "after": {
+        "title": "受命诛蜀相庄",
+        "summary": "秦王派甘茂前往诛杀蜀相庄。",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "原文“秦王使甘茂诛蜀相庄”，记述奉命执行政治诛杀，不是甘茂取得官职。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              4
+            ],
+            "sourceHash": "7574f461667a17234a1bd3f8b6a91af4be0501c934b6d25d7698296ccb5de017"
+          }
+        ]
+      },
+      "reason": "原文“秦王使甘茂诛蜀相庄”，记述奉命执行政治诛杀，不是甘茂取得官职。"
+    },
+    {
+      "action": "edit",
+      "person": "甘茂",
+      "before": {
+        "title": "与秦王盟息壤后出兵宜阳",
+        "summary": "甘茂担心秦王受谗言动摇，提醒秦王乐羊受谤仍获魏文侯信任的故事；秦王与甘茂盟于息壤。",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 308,
+        "timeLabel": "前308年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 308,
+            "indices": [
+              1
+            ],
+            "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523"
+          }
+        ]
+      },
+      "after": {
+        "title": "与秦王盟息壤后出兵宜阳",
+        "summary": "甘茂担心秦王受谗言动摇，提醒秦王乐羊受谤仍获魏文侯信任的故事；秦王与甘茂盟于息壤。",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 308,
+        "timeLabel": "前308年",
+        "dateNote": "本段有出使、息壤盟誓及秋季发兵，主要事件为出兵宜阳。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 308,
+            "indices": [
+              1
+            ],
+            "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523"
+          }
+        ]
+      },
+      "reason": "本段有出使、息壤盟誓及秋季发兵，主要事件为出兵宜阳。"
+    },
+    {
+      "action": "edit",
+      "person": "苏代",
+      "before": {
+        "title": "与子之结亲并促成燕王委政",
+        "summary": "苏代出使齐国后回答燕王哙关于齐王能否称霸的问题，称其不信任臣下；燕王由此更加信任子之。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 316,
+        "timeLabel": "前316年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 316,
+            "indices": [
+              1
+            ],
+            "sourceHash": "5e8561a65194cb5d63d26171f63d6bf707a6747ce02e17eec6d990cb37793081"
+          }
+        ]
+      },
+      "after": {
+        "title": "与子之结亲并促成燕王委政",
+        "summary": "苏代出使齐国后回答燕王哙关于齐王能否称霸的问题，称其不信任臣下；燕王由此更加信任子之。",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 316,
+        "timeLabel": "前316年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 316,
+            "indices": [
+              1
+            ],
+            "sourceHash": "5e8561a65194cb5d63d26171f63d6bf707a6747ce02e17eec6d990cb37793081"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "向寿",
+      "before": {
+        "title": "辅佐甘茂与魏约伐韩",
+        "summary": "秦武王派甘茂与魏国结约攻韩，并命向寿辅行；甘茂令向寿先回秦报告。",
+        "kind": "相关提及",
+        "category": "战争",
+        "year": 308,
+        "timeLabel": "前308年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 308,
+            "indices": [
+              1
+            ],
+            "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523"
+          }
+        ]
+      },
+      "after": {
+        "title": "辅佐甘茂与魏约伐韩",
+        "summary": "秦武王派甘茂与魏国结约攻韩，并命向寿辅行；甘茂令向寿先回秦报告。",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 308,
+        "timeLabel": "前308年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 308,
+            "indices": [
+              1
+            ],
+            "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "向寿",
+      "before": {
+        "title": "与公孙奭谗议甘茂",
+        "summary": "秦昭王命向寿处理宜阳事务，向寿与公孙奭争议把武遂归还韩国，之后怨恨并谗毁甘茂。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 306,
+        "timeLabel": "前306年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 306,
+            "indices": [
+              0
+            ],
+            "sourceHash": "9367c3d06020d234948030cba431475ece513c402240c19d4f7c8384c00166d0"
+          }
+        ]
+      },
+      "after": {
+        "title": "与公孙奭谗议甘茂",
+        "summary": "秦昭王命向寿处理宜阳事务，向寿与公孙奭争议把武遂归还韩国，之后怨恨并谗毁甘茂。",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 306,
+        "timeLabel": "前306年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 306,
+            "indices": [
+              0
+            ],
+            "sourceHash": "9367c3d06020d234948030cba431475ece513c402240c19d4f7c8384c00166d0"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "肥义",
+      "before": {
+        "title": "参与商议胡服骑射",
+        "summary": "赵武灵王与肥义商议改穿胡服、训练骑射，以应对周边形势。",
+        "kind": "相关提及",
+        "category": "改革",
+        "year": 307,
+        "timeLabel": "前307年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              2
+            ],
+            "sourceHash": "ddad165bd9f90b262014e67b70490d93733cee595b3b115f1a8b7e7414406f4d"
+          }
+        ]
+      },
+      "after": {
+        "title": "参与商议胡服骑射",
+        "summary": "赵武灵王与肥义商议改穿胡服、训练骑射，以应对周边形势。",
+        "kind": "主要经历",
+        "category": "改革",
+        "year": 307,
+        "timeLabel": "前307年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              2
+            ],
+            "sourceHash": "ddad165bd9f90b262014e67b70490d93733cee595b3b115f1a8b7e7414406f4d"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "靳尚",
+      "before": {
+        "title": "与郑袖合谋促成张仪获释",
+        "summary": "张仪被楚王囚禁后，靳尚游说郑袖，称秦将以重礼赎张仪并可能取代她；郑袖因此劝楚王释放张仪。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f2002dcd6112d2671fedbb9aac638a6968f82a40a9e99e70ebdfe17e0ae6fbcb"
+          }
+        ]
+      },
+      "after": {
+        "title": "与郑袖合谋促成张仪获释",
+        "summary": "张仪被楚王囚禁后，靳尚游说郑袖，称秦将以重礼赎张仪并可能取代她；郑袖因此劝楚王释放张仪。",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f2002dcd6112d2671fedbb9aac638a6968f82a40a9e99e70ebdfe17e0ae6fbcb"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "郑袖",
+      "before": {
+        "title": "劝楚怀王赦免张仪",
+        "summary": "靳尚以秦国将送美女和土地为由劝说郑袖；郑袖向楚怀王哭诉，促使楚王赦免张仪。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f2002dcd6112d2671fedbb9aac638a6968f82a40a9e99e70ebdfe17e0ae6fbcb"
+          }
+        ]
+      },
+      "after": {
+        "title": "劝楚怀王赦免张仪",
+        "summary": "靳尚以秦国将送美女和土地为由劝说郑袖；郑袖向楚怀王哭诉，促使楚王赦免张仪。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f2002dcd6112d2671fedbb9aac638a6968f82a40a9e99e70ebdfe17e0ae6fbcb"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "子兰",
+      "before": {
+        "title": "劝楚怀王赴秦会盟",
+        "summary": "楚怀王担心赴秦受骗时，子兰劝其前往，楚怀王因此入秦并遭扣留。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 299,
+        "timeLabel": "前299年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 299,
+            "indices": [
+              3
+            ],
+            "sourceHash": "c698fca045fc1cb8a891bb1ebb141af2821f771285ca69b74e102d6a5e7b8f1a"
+          }
+        ]
+      },
+      "after": {
+        "title": "劝楚怀王赴秦会盟",
+        "summary": "楚怀王担心赴秦受骗时，子兰劝其前往，楚怀王因此入秦并遭扣留。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 299,
+        "timeLabel": "前299年",
+        "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 299,
+            "indices": [
+              3
+            ],
+            "sourceHash": "c698fca045fc1cb8a891bb1ebb141af2821f771285ca69b74e102d6a5e7b8f1a"
+          }
+        ]
+      },
+      "reason": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "樗里疾",
+      "before": {
+        "title": "反对甘茂继续攻宜阳",
+        "summary": "甘茂攻宜阳受阻时，樗里子与公孙奭果然争议撤兵，秦王一度召甘茂回师。",
+        "kind": "相关提及",
+        "category": "战争",
+        "year": 307,
+        "timeLabel": "前307年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              0
+            ],
+            "sourceHash": "f83a6143f29b15a4a64428f92cfe2a4c057b310501762c47c1dbef060954c21a"
+          }
+        ]
+      },
+      "after": {
+        "title": "反对甘茂继续攻宜阳",
+        "summary": "甘茂攻宜阳受阻时，樗里子与公孙奭果然争议撤兵，秦王一度召甘茂回师。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 307,
+        "timeLabel": "前307年",
+        "dateNote": "原文“樗里子、公孙奭果争之”，本人当年进言劝罢兵，属于明确参与。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              0
+            ],
+            "sourceHash": "f83a6143f29b15a4a64428f92cfe2a4c057b310501762c47c1dbef060954c21a"
+          }
+        ]
+      },
+      "reason": "原文“樗里子、公孙奭果争之”，本人当年进言劝罢兵，属于明确参与。"
+    },
+    {
+      "action": "edit",
+      "person": "孟说",
+      "before": {
+        "title": "举鼎致秦武王死，孟氏遭族诛",
+        "summary": "秦武王与孟说举鼎，秦王因而绝脉而死，孟说被族诛。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 307,
+        "timeLabel": "前307年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158"
+          }
+        ]
+      },
+      "after": {
+        "title": "举鼎致秦武王死，孟氏遭族诛",
+        "summary": "秦武王与孟说举鼎，秦王因而绝脉而死，孟说被族诛。",
+        "kind": "主要经历",
+        "category": "去世",
+        "year": 307,
+        "timeLabel": "前307年",
+        "dateNote": "原文记孟说与武王举鼎，继而“族孟说”；是本人被诛及族祸，非仅旁及。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158"
+          }
+        ]
+      },
+      "reason": "原文记孟说与武王举鼎，继而“族孟说”；是本人被诛及族祸，非仅旁及。"
+    },
+    {
+      "action": "edit",
+      "person": "秦惠文王",
+      "before": {
+        "title": "以武关外地换楚国黔中",
+        "summary": "秦惠王提出以武关之外换黔中地，楚怀王要求张仪赴楚；秦王最终放张仪回国。",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f2002dcd6112d2671fedbb9aac638a6968f82a40a9e99e70ebdfe17e0ae6fbcb"
+          }
+        ]
+      },
+      "after": {
+        "title": "提出以武关外地换楚国黔中",
+        "summary": "提出以武关外地换楚国黔中",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "原文仅记提出以武关外地易黔中，楚王未接受此交换；不得写成交换已完成。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f2002dcd6112d2671fedbb9aac638a6968f82a40a9e99e70ebdfe17e0ae6fbcb"
+          }
+        ]
+      },
+      "reason": "原文仅记提出以武关外地易黔中，楚王未接受此交换；不得写成交换已完成。"
+    },
+    {
+      "action": "edit",
+      "person": "赵武灵王",
+      "before": {
+        "title": "纳孟姚为后，生赵何",
+        "summary": "赵武灵王纳吴广之女孟姚，立为惠后并生子何。",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              6
+            ],
+            "sourceHash": "78d0d5cf96fdecf90096c1887bc29804300b8486b50c10f751d09d92d3b8c29e"
+          }
+        ]
+      },
+      "after": {
+        "title": "纳孟姚为后，附述其生子何",
+        "summary": "纳孟姚为后，附述其生子何",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "前310年条下记纳孟姚，随后附述生子何；不把这句话认作赵何亦生于前310年的独立生年证据。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              6
+            ],
+            "sourceHash": "78d0d5cf96fdecf90096c1887bc29804300b8486b50c10f751d09d92d3b8c29e"
+          }
+        ]
+      },
+      "reason": "前310年条下记纳孟姚，随后附述生子何；不把这句话认作赵何亦生于前310年的独立生年证据。"
+    },
+    {
+      "action": "edit",
+      "person": "平原君",
+      "before": {
+        "title": "听孔穿劝告，不再与公孙龙辩论",
+        "summary": "平原君安排公孙龙与孔穿辩论，听孔穿指出公孙龙辞胜于理后，劝公孙龙不要再与孔穿争辩。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "after": {
+        "title": "听孔穿劝告，不再与公孙龙辩论",
+        "summary": "平原君安排公孙龙与孔穿辩论，听孔穿指出公孙龙辞胜于理后，劝公孙龙不要再与孔穿争辩。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "reason": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。"
+    },
+    {
+      "action": "edit",
+      "person": "公孙龙",
+      "before": {
+        "title": "与孔穿辩“臧三耳”而受诘问",
+        "summary": "公孙龙与孔穿辩论“臧三耳”，孔穿以易而真实与难而虚妄设问，使平原君转而劝公孙龙停止争辩。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "after": {
+        "title": "与孔穿辩“臧三耳”而受诘问",
+        "summary": "公孙龙与孔穿辩论“臧三耳”，孔穿以易而真实与难而虚妄设问，使平原君转而劝公孙龙停止争辩。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "reason": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。"
+    },
+    {
+      "action": "edit",
+      "person": "孔穿",
+      "before": {
+        "title": "以“臧三耳”之辩反诘公孙龙",
+        "summary": "孔穿指出公孙龙的辩辞虽巧，却难以成立；平原君听后劝公孙龙不要再与孔穿辩论。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "after": {
+        "title": "以“臧三耳”之辩反诘公孙龙",
+        "summary": "孔穿指出公孙龙的辩辞虽巧，却难以成立；平原君听后劝公孙龙不要再与孔穿辩论。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "reason": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。"
+    },
+    {
+      "action": "edit",
+      "person": "平原君",
+      "before": {
+        "title": "请邹衍与公孙龙论辩",
+        "summary": "平原君安排邹衍与公孙龙讨论白马非马之说。",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "after": {
+        "title": "请邹衍与公孙龙论辩",
+        "summary": "平原君安排邹衍与公孙龙讨论白马非马之说。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "reason": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。"
+    },
+    {
+      "action": "edit",
+      "person": "公孙龙",
+      "before": {
+        "title": "与邹衍论辩白马非马",
+        "summary": "平原君安排公孙龙与邹衍辩论，邹衍批评以繁辞巧辩迷惑他人的做法，席间称善，公孙龙理屈。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "after": {
+        "title": "与邹衍论辩白马非马",
+        "summary": "平原君安排公孙龙与邹衍辩论，邹衍批评以繁辞巧辩迷惑他人的做法，席间称善，公孙龙理屈。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "reason": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。"
+    },
+    {
+      "action": "edit",
+      "person": "邹衍",
+      "before": {
+        "title": "批评以巧言争胜的辩说",
+        "summary": "邹衍反对用繁饰辞令使人迷惑，认为辩论应厘清类别、传达意思，不应以争胜为目的。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "after": {
+        "title": "批评以巧言争胜的辩说",
+        "summary": "邹衍反对用繁饰辞令使人迷惑，认为辩论应厘清类别、传达意思，不应以争胜为目的。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "reason": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。"
+    },
+    {
+      "action": "edit",
+      "person": "平原君",
+      "before": {
+        "title": "封为平原君，礼遇门客",
+        "summary": "赵王封其弟为平原君；平原君养士，门客曾有数千人。",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "after": {
+        "title": "赵胜受封平原君",
+        "summary": "赵胜受封平原君",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 298,
+        "timeLabel": "前298年",
+        "dateNote": "本年先记赵王封弟为平原君，后附述养士与门客旧事；前298年只用于本条受封。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              2
+            ],
+            "sourceHash": "d56ca2379ddd9095a7c855af1ca4a4bb822cf5c2cb2e973b0f52d6f99f547801"
+          }
+        ]
+      },
+      "reason": "本年先记赵王封弟为平原君，后附述养士与门客旧事；前298年只用于本条受封。"
+    },
+    {
+      "action": "edit",
+      "person": "公孙龙",
+      "before": {
+        "title": "与邹衍论辩白马非马",
+        "summary": "平原君安排公孙龙与邹衍辩论，邹衍批评以繁辞巧辩迷惑他人的做法，席间称善，公孙龙理屈。",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "本段在封爵后附叙门客论辩，未另给谈话确年，不直接定为前298年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "after": {
+        "title": "平原君请邹衍论辩，公孙龙受批评",
+        "summary": "平原君请邹衍论辩，公孙龙受批评",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前298年",
+        "dateNote": "邹衍拒绝以巧言争胜，原文没有展开双方实际的白马非马辩论过程；谈话确年未详。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 298,
+            "indices": [
+              3
+            ],
+            "sourceHash": "43aaa496fc698257c5e1d99c2637e7b79700105e81e500651bf9f682f26b28f3"
+          }
+        ]
+      },
+      "reason": "邹衍拒绝以巧言争胜，原文没有展开双方实际的白马非马辩论过程；谈话确年未详。"
+    },
+    {
+      "action": "edit",
+      "person": "楚太子横",
+      "before": {
+        "title": "入齐为质，后由齐送回楚国",
+        "summary": "楚怀王赴秦被扣留后，太子横仍在齐为质；齐国最终送太子横回楚，楚人立为新王。",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 299,
+        "timeLabel": "前299年",
+        "dateNote": "依原书本年记事。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 299,
+            "indices": [
+              3,
+              4
+            ],
+            "sourceHash": "76fcc80cac757a24ce595c9ee24ff2158e0faf2ce3fe7075093c12a2fe9747d8"
+          }
+        ]
+      },
+      "after": {
+        "title": "齐归还太子横，楚人立其为君",
+        "summary": "齐归还太子横，楚人立其为君",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 299,
+        "timeLabel": "前299年",
+        "dateNote": "本年为齐国归还太子、楚人立其为君；入齐为质另见前300年，不合写成同年发生。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 299,
+            "indices": [
+              4
+            ],
+            "sourceHash": "9c066ebfd4be27407373c17710ad8bdd3db72df17b807f5729e21701480b3253"
+          }
+        ]
+      },
+      "reason": "本年为齐国归还太子、楚人立其为君；入齐为质另见前300年，不合写成同年发生。"
+    },
+    {
+      "action": "edit",
+      "person": "黄歇",
+      "before": {
+        "title": "黄歇说秦止攻楚，秦楚和亲",
+        "summary": "黄歇说秦止攻楚，秦楚和亲",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 273,
+        "timeLabel": "前273年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 4,
+            "year": 273,
+            "indices": [
+              2
+            ],
+            "sourceHash": "83a73a9fdef1a96f708b61f89f5a615ab907028a2f87510541812a2650b4d60d"
+          }
+        ]
+      },
+      "after": {
+        "title": "黄歇上书秦王，劝止攻楚",
+        "summary": "黄歇上书秦王，劝止攻楚",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 273,
+        "timeLabel": "前273年",
+        "dateNote": "原文为黄歇上书劝止伐楚，所引段落未写明秦王已采纳并订立和约；不把劝说写成已完成的和亲。",
+        "sources": [
+          {
+            "volume": 4,
+            "year": 273,
+            "indices": [
+              2
+            ],
+            "sourceHash": "83a73a9fdef1a96f708b61f89f5a615ab907028a2f87510541812a2650b4d60d"
+          }
+        ]
+      },
+      "reason": "原文为黄歇上书劝止伐楚，所引段落未写明秦王已采纳并订立和约；不把劝说写成已完成的和亲。"
+    },
+    {
+      "action": "edit",
+      "person": "赵奢",
+      "before": {
+        "title": "赵奢依法征税，受任掌国赋",
+        "summary": "赵奢依法征税，受任掌国赋",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 271,
+        "timeLabel": "前271年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 271,
+            "indices": [
+              1
+            ],
+            "sourceHash": "99dbb75f79afe24614f2d03609e24b88b451365378e892cfaf6047ee7baa8aea"
+          }
+        ]
+      },
+      "after": {
+        "title": "赵奢依法征税，受任掌国赋",
+        "summary": "赵奢依法征税，受任掌国赋",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 271,
+        "timeLabel": "前271年",
+        "dateNote": "本段收租治法并受命掌国赋，属于任职与政务，非战役。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 271,
+            "indices": [
+              1
+            ],
+            "sourceHash": "99dbb75f79afe24614f2d03609e24b88b451365378e892cfaf6047ee7baa8aea"
+          }
+        ]
+      },
+      "reason": "本段收租治法并受命掌国赋，属于任职与政务，非战役。"
+    },
+    {
+      "action": "edit",
+      "person": "赵奢",
+      "before": {
+        "title": "秦围阏与，赵王遣赵奢救援",
+        "summary": "秦围阏与，赵王遣赵奢救援",
+        "kind": "相关提及",
+        "category": "战争",
+        "year": null,
+        "timeLabel": "记载于前270年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 270,
+            "indices": [
+              0
+            ],
+            "sourceHash": "6c2215375409ec224d5f7c4ff00614c4e921470b49a0aebbb418665ddd08849d"
+          }
+        ]
+      },
+      "after": {
+        "title": "秦围阏与，赵王遣赵奢救援",
+        "summary": "秦围阏与，赵王遣赵奢救援",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 270,
+        "timeLabel": "前270年",
+        "dateNote": "原文记秦围阏与、赵奢受命救援及击败秦军，均为本年直接参与，不能藏为无年份相关提及。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 270,
+            "indices": [
+              0
+            ],
+            "sourceHash": "6c2215375409ec224d5f7c4ff00614c4e921470b49a0aebbb418665ddd08849d"
+          }
+        ]
+      },
+      "reason": "原文记秦围阏与、赵奢受命救援及击败秦军，均为本年直接参与，不能藏为无年份相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "赵奢",
+      "before": {
+        "title": "阏与之战，赵奢大破秦军",
+        "summary": "阏与之战，赵奢大破秦军",
+        "kind": "相关提及",
+        "category": "战争",
+        "year": null,
+        "timeLabel": "记载于前270年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 270,
+            "indices": [
+              1
+            ],
+            "sourceHash": "758c229abe4abd02c0482dbfbef3390f7f421c5b7ebdad9e16c812d7abea93cd"
+          }
+        ]
+      },
+      "after": {
+        "title": "阏与之战，赵奢大破秦军",
+        "summary": "阏与之战，赵奢大破秦军",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 270,
+        "timeLabel": "前270年",
+        "dateNote": "原文记秦围阏与、赵奢受命救援及击败秦军，均为本年直接参与，不能藏为无年份相关提及。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 270,
+            "indices": [
+              1
+            ],
+            "sourceHash": "758c229abe4abd02c0482dbfbef3390f7f421c5b7ebdad9e16c812d7abea93cd"
+          }
+        ]
+      },
+      "reason": "原文记秦围阏与、赵奢受命救援及击败秦军，均为本年直接参与，不能藏为无年份相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "范雎",
+      "before": {
+        "title": "范睢辱须贾，索魏齐首级",
+        "summary": "范睢辱须贾，索魏齐首级",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 266,
+        "timeLabel": "前266年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 266,
+            "indices": [
+              1
+            ],
+            "sourceHash": "ab6dc5dff0da8814a175331f5b2b8345e169d9a3325742daa36cf8b5e9f1b2ac"
+          }
+        ]
+      },
+      "after": {
+        "title": "范睢辱须贾，索魏齐首级",
+        "summary": "范睢辱须贾，索魏齐首级",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 266,
+        "timeLabel": "前266年",
+        "dateNote": "本段记羞辱须贾并索取魏齐首级，是报复与政争，非新任官职。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 266,
+            "indices": [
+              1
+            ],
+            "sourceHash": "ab6dc5dff0da8814a175331f5b2b8345e169d9a3325742daa36cf8b5e9f1b2ac"
+          }
+        ]
+      },
+      "reason": "本段记羞辱须贾并索取魏齐首级，是报复与政争，非新任官职。"
+    },
+    {
+      "action": "edit",
+      "person": "范雎",
+      "before": {
+        "title": "王稽通诸侯被诛，范睢忧惧",
+        "summary": "王稽通诸侯被诛，范睢忧惧",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前255年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 255,
+            "indices": [
+              0
+            ],
+            "sourceHash": "aade83ee872dd47a2a5e744aab141b4f53aeaffc3e1031e23dc05ae1c1c15153"
+          }
+        ]
+      },
+      "after": {
+        "title": "王稽通诸侯被诛，范睢忧惧",
+        "summary": "王稽通诸侯被诛，范睢忧惧",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 255,
+        "timeLabel": "前255年",
+        "dateNote": "王稽被诛后范睢与秦王直接对话，属于本人在前255年的处境与言论，不是年代不明的旁及。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 255,
+            "indices": [
+              0
+            ],
+            "sourceHash": "aade83ee872dd47a2a5e744aab141b4f53aeaffc3e1031e23dc05ae1c1c15153"
+          }
+        ]
+      },
+      "reason": "王稽被诛后范睢与秦王直接对话，属于本人在前255年的处境与言论，不是年代不明的旁及。"
+    },
+    {
+      "action": "edit",
+      "person": "黄歇",
+      "before": {
+        "title": "黄歇助楚太子逃秦，受封春申君",
+        "summary": "黄歇助楚太子逃秦，受封春申君",
+        "kind": "相关提及",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前263年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 263,
+            "indices": [
+              1
+            ],
+            "sourceHash": "178da22a88a55f7469aea6525268f8633b0101484ded2bbbf009ae94cf4992b3"
+          }
+        ]
+      },
+      "after": {
+        "title": "黄歇助楚太子逃秦，受封春申君",
+        "summary": "黄歇助楚太子逃秦，受封春申君",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 263,
+        "timeLabel": "前263年",
+        "dateNote": "原文记太子逃秦，黄歇留秦自陈、返楚三月后考烈王即位并封相，均在本年叙事中。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 263,
+            "indices": [
+              1
+            ],
+            "sourceHash": "178da22a88a55f7469aea6525268f8633b0101484ded2bbbf009ae94cf4992b3"
+          }
+        ]
+      },
+      "reason": "原文记太子逃秦，黄歇留秦自陈、返楚三月后考烈王即位并封相，均在本年叙事中。"
+    },
+    {
+      "action": "edit",
+      "person": "秦庄襄王",
+      "before": {
+        "title": "秦公子异人在赵为质，处境困窘",
+        "summary": "秦公子异人在赵为质，处境困窘",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 257,
+        "timeLabel": "前257年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              4
+            ],
+            "sourceHash": "0aab9fa4e5a38db388d8fe65d20e19503527139d64622f797526f12180a4b360"
+          }
+        ]
+      },
+      "after": {
+        "title": "秦公子异人在赵为质，处境困窘",
+        "summary": "秦公子异人在赵为质，处境困窘",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              4
+            ],
+            "sourceHash": "0aab9fa4e5a38db388d8fe65d20e19503527139d64622f797526f12180a4b360"
+          }
+        ]
+      },
+      "reason": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。"
+    },
+    {
+      "action": "edit",
+      "person": "秦庄襄王",
+      "before": {
+        "title": "吕不韦谋立异人为秦嗣",
+        "summary": "吕不韦谋立异人为秦嗣",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              5
+            ],
+            "sourceHash": "1a5f798642ee239f86152cdc4a6450d0af17dd25dde5356e1436992d6d13fb50"
+          }
+        ]
+      },
+      "after": {
+        "title": "吕不韦谋立异人为秦嗣",
+        "summary": "吕不韦谋立异人为秦嗣",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              5
+            ],
+            "sourceHash": "1a5f798642ee239f86152cdc4a6450d0af17dd25dde5356e1436992d6d13fb50"
+          }
+        ]
+      },
+      "reason": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。"
+    },
+    {
+      "action": "edit",
+      "person": "秦庄襄王",
+      "before": {
+        "title": "异人得姬生政，逃赵归秦",
+        "summary": "异人得姬生政，逃赵归秦",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 257,
+        "timeLabel": "前257年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              6
+            ],
+            "sourceHash": "ab6d9b3b510758aab367928c8025a1a73c9137e739bc8e9f053e5a9386d84438"
+          }
+        ]
+      },
+      "after": {
+        "title": "异人得姬生政，逃赵归秦",
+        "summary": "异人得姬生政，逃赵归秦",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              6
+            ],
+            "sourceHash": "ab6d9b3b510758aab367928c8025a1a73c9137e739bc8e9f053e5a9386d84438"
+          }
+        ]
+      },
+      "reason": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。"
+    },
+    {
+      "action": "edit",
+      "person": "吕不韦",
+      "before": {
+        "title": "吕不韦谋立异人为秦嗣",
+        "summary": "吕不韦谋立异人为秦嗣",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 257,
+        "timeLabel": "前257年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              5
+            ],
+            "sourceHash": "1a5f798642ee239f86152cdc4a6450d0af17dd25dde5356e1436992d6d13fb50"
+          }
+        ]
+      },
+      "after": {
+        "title": "吕不韦谋立异人为秦嗣",
+        "summary": "吕不韦谋立异人为秦嗣",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              5
+            ],
+            "sourceHash": "1a5f798642ee239f86152cdc4a6450d0af17dd25dde5356e1436992d6d13fb50"
+          }
+        ]
+      },
+      "reason": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。"
+    },
+    {
+      "action": "edit",
+      "person": "秦庄襄王",
+      "before": {
+        "title": "异人得姬生政，逃赵归秦",
+        "summary": "异人得姬生政，逃赵归秦",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "本组从异人在赵为质说起，兼叙谋立、得姬生政及围邯郸逃秦，是跨年生平附叙；不能将全部经历都定在编排所在前257年。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              6
+            ],
+            "sourceHash": "ab6d9b3b510758aab367928c8025a1a73c9137e739bc8e9f053e5a9386d84438"
+          }
+        ]
+      },
+      "after": {
+        "title": "附叙异人得姬生政、逃赵及更名子楚",
+        "summary": "附叙异人得姬生政、逃赵及更名子楚",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前257年",
+        "dateNote": "此段先叙得姬生政，再叙邯郸之围逃归并更名子楚，不能把各事并定为前257年；关于血缘只转述原书记载，不据此另行认定。",
+        "sources": [
+          {
+            "volume": 5,
+            "year": 257,
+            "indices": [
+              6
+            ],
+            "sourceHash": "ab6d9b3b510758aab367928c8025a1a73c9137e739bc8e9f053e5a9386d84438"
+          }
+        ]
+      },
+      "reason": "此段先叙得姬生政，再叙邯郸之围逃归并更名子楚，不能把各事并定为前257年；关于血缘只转述原书记载，不据此另行认定。"
+    },
+    {
+      "action": "edit",
+      "person": "吕不韦",
+      "before": {
+        "title": "秦王政继位，吕不韦掌国政",
+        "summary": "秦王政继位，吕不韦掌国政",
+        "kind": "相关提及",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前247年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 247,
+            "indices": [
+              4
+            ],
+            "sourceHash": "1a99fb9bb96a0a823b3584a9a7f486ca263de09ba480fc3f26eb7aa5595c653f"
+          }
+        ]
+      },
+      "after": {
+        "title": "秦王政继位，吕不韦掌国政",
+        "summary": "秦王政继位，吕不韦掌国政",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 247,
+        "timeLabel": "前247年",
+        "dateNote": "原文“五月丙午王薨，太子政立”，并明记国事由文信侯决、号仲父，是本人当年权位变化。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 247,
+            "indices": [
+              4
+            ],
+            "sourceHash": "1a99fb9bb96a0a823b3584a9a7f486ca263de09ba480fc3f26eb7aa5595c653f"
+          }
+        ]
+      },
+      "reason": "原文“五月丙午王薨，太子政立”，并明记国事由文信侯决、号仲父，是本人当年权位变化。"
+    },
+    {
+      "action": "edit",
+      "person": "吕不韦",
+      "before": {
+        "title": "秦王念旧功，未诛吕不韦",
+        "summary": "秦王念旧功，未诛吕不韦",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前238年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 238,
+            "indices": [
+              9
+            ],
+            "sourceHash": "dfd7201eb3a5efa08d30ce645e222fca1f72a30fff5dc69ad3407109ba113ca2"
+          }
+        ]
+      },
+      "after": {
+        "title": "秦王念旧功，未诛吕不韦",
+        "summary": "秦王念旧功，未诛吕不韦",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 238,
+        "timeLabel": "前238年",
+        "dateNote": "原文明确记秦王因不韦奉先王之功而不忍诛，属于本人在前238年的政治处境。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 238,
+            "indices": [
+              9
+            ],
+            "sourceHash": "dfd7201eb3a5efa08d30ce645e222fca1f72a30fff5dc69ad3407109ba113ca2"
+          }
+        ]
+      },
+      "reason": "原文明确记秦王因不韦奉先王之功而不忍诛，属于本人在前238年的政治处境。"
+    },
+    {
+      "action": "edit",
+      "person": "燕太子丹",
+      "before": {
+        "title": "燕太子丹受辱，逃秦归燕",
+        "summary": "燕太子丹受辱，逃秦归燕",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 232,
+        "timeLabel": "前232年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 232,
+            "indices": [
+              1
+            ],
+            "sourceHash": "41e157cf79f0f3b9ef4966b1af9af9d18cd3e18e08bd475c47e4f9cc9cf0c0e7"
+          }
+        ]
+      },
+      "after": {
+        "title": "燕太子丹受辱，逃秦归燕",
+        "summary": "燕太子丹受辱，逃秦归燕",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前232年",
+        "dateNote": "“初”引出在赵、在秦为质及逃归的旧事，本段未另定逃归确年，不强定前232年。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 232,
+            "indices": [
+              1
+            ],
+            "sourceHash": "41e157cf79f0f3b9ef4966b1af9af9d18cd3e18e08bd475c47e4f9cc9cf0c0e7"
+          }
+        ]
+      },
+      "reason": "“初”引出在赵、在秦为质及逃归的旧事，本段未另定逃归确年，不强定前232年。"
+    },
+    {
+      "action": "edit",
+      "person": "荆轲",
+      "before": {
+        "title": "太子丹谋刺秦，荆轲受命",
+        "summary": "太子丹谋刺秦，荆轲受命",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前228年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 228,
+            "indices": [
+              6
+            ],
+            "sourceHash": "c7c15802382941dc72f3b3520760ca926c05bf5fa41f1d24db729db4d6660dd8"
+          }
+        ]
+      },
+      "after": {
+        "title": "太子丹谋刺秦，荆轲受命",
+        "summary": "太子丹谋刺秦，荆轲受命",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前228年",
+        "dateNote": "原文先叙燕丹延请，及王翦灭赵后促其出行，是本人接受使命和筹备行刺，不能仅作相关提及。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 228,
+            "indices": [
+              6
+            ],
+            "sourceHash": "c7c15802382941dc72f3b3520760ca926c05bf5fa41f1d24db729db4d6660dd8"
+          }
+        ]
+      },
+      "reason": "原文先叙燕丹延请，及王翦灭赵后促其出行，是本人接受使命和筹备行刺，不能仅作相关提及。"
+    },
+    {
+      "action": "edit",
+      "person": "荆轲",
+      "before": {
+        "title": "荆轲刺秦失败，秦大败燕代",
+        "summary": "荆轲刺秦失败，秦大败燕代",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 227,
+        "timeLabel": "前227年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 227,
+            "indices": [
+              0
+            ],
+            "sourceHash": "19627dd91a41d22952e7b991543243dc13bfcd89c9f2952bcfd2767a567b417e"
+          }
+        ]
+      },
+      "after": {
+        "title": "荆轲刺秦失败，被秦王杀害",
+        "summary": "荆轲刺秦失败，被秦王杀害",
+        "kind": "主要经历",
+        "category": "去世",
+        "year": 227,
+        "timeLabel": "前227年",
+        "dateNote": "原文先记荆轲行刺及被体解，再记秦增兵伐燕代；此条只收本人行刺与死亡，不把后续战争当作荆轲亲历。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 227,
+            "indices": [
+              0
+            ],
+            "sourceHash": "19627dd91a41d22952e7b991543243dc13bfcd89c9f2952bcfd2767a567b417e"
+          }
+        ]
+      },
+      "reason": "原文先记荆轲行刺及被体解，再记秦增兵伐燕代；此条只收本人行刺与死亡，不把后续战争当作荆轲亲历。"
+    },
+    {
+      "action": "edit",
+      "person": "王翦",
+      "before": {
+        "title": "王翦克邯郸，俘赵王迁",
+        "summary": "王翦克邯郸，俘赵王迁",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 228,
+        "timeLabel": "前228年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 228,
+            "indices": [
+              0
+            ],
+            "sourceHash": "fff708b5475a726f0e63d9209cd9ac5e387c63e0393e7e2b45c430cfd43b1608"
+          }
+        ]
+      },
+      "after": {
+        "title": "王翦克邯郸，俘赵王迁",
+        "summary": "王翦克邯郸，俘赵王迁",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 228,
+        "timeLabel": "前228年",
+        "dateNote": "本条为领兵灭赵、克邯郸，非任命或任职变化。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 228,
+            "indices": [
+              0
+            ],
+            "sourceHash": "fff708b5475a726f0e63d9209cd9ac5e387c63e0393e7e2b45c430cfd43b1608"
+          }
+        ]
+      },
+      "reason": "本条为领兵灭赵、克邯郸，非任命或任职变化。"
+    },
+    {
+      "action": "edit",
+      "person": "王翦",
+      "before": {
+        "title": "秦攻楚，李信与王翦议兵数",
+        "summary": "秦攻楚，李信与王翦议兵数",
+        "kind": "相关提及",
+        "category": "战争",
+        "year": null,
+        "timeLabel": "记载于前226年",
+        "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 226,
+            "indices": [
+              1
+            ],
+            "sourceHash": "393703739b184b60a69b2db53ea33a4bacf913dace2dff4fd9b11b948394938e"
+          }
+        ]
+      },
+      "after": {
+        "title": "秦攻楚，李信与王翦议兵数",
+        "summary": "秦攻楚，李信与王翦议兵数",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 226,
+        "timeLabel": "前226年",
+        "dateNote": "秦王当面询问兵数，王翦答需六十万并谢病归频阳，属于本人当年经历。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 226,
+            "indices": [
+              1
+            ],
+            "sourceHash": "393703739b184b60a69b2db53ea33a4bacf913dace2dff4fd9b11b948394938e"
+          }
+        ]
+      },
+      "reason": "秦王当面询问兵数，王翦答需六十万并谢病归频阳，属于本人当年经历。"
+    },
+    {
+      "action": "edit",
+      "person": "王贲",
+      "before": {
+        "title": "王贲水灌大梁，秦灭魏",
+        "summary": "王贲水灌大梁，秦灭魏",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 225,
+        "timeLabel": "前225年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 225,
+            "indices": [
+              0
+            ],
+            "sourceHash": "5b760532cfe3cd01ad57647b34bcfe152e3b9928ab0ee18ade9ddd0931fb4626"
+          }
+        ]
+      },
+      "after": {
+        "title": "王贲水灌大梁，秦灭魏",
+        "summary": "王贲水灌大梁，秦灭魏",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 225,
+        "timeLabel": "前225年",
+        "dateNote": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 225,
+            "indices": [
+              0
+            ],
+            "sourceHash": "5b760532cfe3cd01ad57647b34bcfe152e3b9928ab0ee18ade9ddd0931fb4626"
+          }
+        ]
+      },
+      "reason": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。"
+    },
+    {
+      "action": "edit",
+      "person": "王贲",
+      "before": {
+        "title": "王贲灭代，俘代王嘉",
+        "summary": "王贲灭代，俘代王嘉",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 222,
+        "timeLabel": "前222年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 222,
+            "indices": [
+              5
+            ],
+            "sourceHash": "cf470c65d058e110c65a477e7479dfb499384443d9653994d79a6f4f9e68b3fd"
+          }
+        ]
+      },
+      "after": {
+        "title": "王贲灭代，俘代王嘉",
+        "summary": "王贲灭代，俘代王嘉",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 222,
+        "timeLabel": "前222年",
+        "dateNote": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 222,
+            "indices": [
+              5
+            ],
+            "sourceHash": "cf470c65d058e110c65a477e7479dfb499384443d9653994d79a6f4f9e68b3fd"
+          }
+        ]
+      },
+      "reason": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。"
+    },
+    {
+      "action": "edit",
+      "person": "王翦",
+      "before": {
+        "title": "王翦定楚江南，置会稽郡",
+        "summary": "王翦定楚江南，置会稽郡",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 222,
+        "timeLabel": "前222年",
+        "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 222,
+            "indices": [
+              6
+            ],
+            "sourceHash": "b8cfb61b7a7c7120003b8a88c3a6c56fae37e97b43c28b512abf8f3fdb264653"
+          }
+        ]
+      },
+      "after": {
+        "title": "王翦定楚江南，置会稽郡",
+        "summary": "王翦定楚江南，置会稽郡",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 222,
+        "timeLabel": "前222年",
+        "dateNote": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 222,
+            "indices": [
+              6
+            ],
+            "sourceHash": "b8cfb61b7a7c7120003b8a88c3a6c56fae37e97b43c28b512abf8f3fdb264653"
+          }
+        ]
+      },
+      "reason": "本条原文为攻城灭国、定地或降服军事行动，不能因标题用词而归为任职。"
+    },
+    {
+      "action": "add",
+      "person": "魏文侯",
+      "after": {
+        "title": "魏斯受周天子命，列为诸侯",
+        "summary": "魏斯受周天子命，列为诸侯",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 403,
+        "timeLabel": "前403年",
+        "dateNote": "原文“初命”指首次册命，不是追叙标记；魏斯即本文所述魏文侯。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 403,
+            "indices": [
+              0
+            ],
+            "sourceHash": "5ebf5c1ace7a643e656934e338ba0ada5787530ab6bf28a9c7599ee4f9073ccd"
+          }
+        ]
+      },
+      "reason": "原文“初命”指首次册命，不是追叙标记；魏斯即本文所述魏文侯。"
+    },
+    {
+      "action": "add",
+      "person": "智伯",
+      "after": {
+        "title": "司马光论智伯势强而仍畏名分",
+        "summary": "司马光论智伯势强而仍畏名分",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前403年",
+        "dateNote": "承本年“臣光曰”评论举智伯为例，不是智伯发生于前403年的亲历。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 403,
+            "indices": [
+              5
+            ],
+            "sourceHash": "dd9ac5888510624597a8f96c876379367d5501bb8bec1715eadbc6132cc8e61c"
+          }
+        ]
+      },
+      "reason": "承本年“臣光曰”评论举智伯为例，不是智伯发生于前403年的亲历。"
+    },
+    {
+      "action": "add",
+      "person": "智伯",
+      "after": {
+        "title": "赵襄子漆智伯首级，豫让谋报仇",
+        "summary": "赵襄子漆智伯首级，豫让谋报仇",
+        "kind": "相关提及",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前403年",
+        "dateNote": "这是智伯被杀后的首级与豫让报仇记载，既非智伯生前行动，也未确指前403年。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 403,
+            "indices": [
+              17
+            ],
+            "sourceHash": "f5f0bb0a6ea57868f9a9c9533fa06de53cc16465cce00f29f202cd9a40d6f9b9"
+          }
+        ]
+      },
+      "reason": "这是智伯被杀后的首级与豫让报仇记载，既非智伯生前行动，也未确指前403年。"
+    },
+    {
+      "action": "add",
+      "person": "赵襄子",
+      "after": {
+        "title": "赵襄子卒，赵氏继承一度生变",
+        "summary": "赵襄子卒，赵氏继承一度生变",
+        "kind": "主要经历",
+        "category": "去世",
+        "year": null,
+        "timeLabel": "记载于前403年",
+        "dateNote": "卷首回叙先世，本段明记襄子卒及后续继承，但未给卒年，不据前403年定位死亡。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 403,
+            "indices": [
+              19
+            ],
+            "sourceHash": "c6e87c021142d6f2dd80f2f7aa85d165f000003f14df456007a643ff61440d48"
+          }
+        ]
+      },
+      "reason": "卷首回叙先世，本段明记襄子卒及后续继承，但未给卒年，不据前403年定位死亡。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "魏罃在诸国干预中击败公中缓而立",
+        "summary": "魏罃在诸国干预中击败公中缓而立",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 369,
+        "timeLabel": "前369年",
+        "dateNote": "按本站本年叙事辨认“罃遂杀公中缓而立，是为惠王”；不是秦惠文王。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 369,
+            "indices": [
+              2
+            ],
+            "sourceHash": "fe1c4e24de11fe109189cd3924ba84fa160ad918b0cbd781ebf56b1749b36fe1"
+          }
+        ]
+      },
+      "reason": "按本站本年叙事辨认“罃遂杀公中缓而立，是为惠王”；不是秦惠文王。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "太史公论魏国免于分裂之由",
+        "summary": "太史公论魏国免于分裂之由",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前369年",
+        "dateNote": "原文“太史公曰”评论魏惠王旧事，非前369年现场发言。",
+        "sources": [
+          {
+            "volume": 1,
+            "year": 369,
+            "indices": [
+              3
+            ],
+            "sourceHash": "65b8b5178fc9f04f8ebe5072b32373fc1c81dd3153513dec8ba8f1530d3bc5f6"
+          }
+        ]
+      },
+      "reason": "原文“太史公曰”评论魏惠王旧事，非前369年现场发言。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "问疾公叔痤，未采任用卫鞅之议",
+        "summary": "问疾公叔痤，未采任用卫鞅之议",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前361年",
+        "dateNote": "这是卫鞅入秦前在魏的旧事，原段随后才叙至秦，不能把问疾确指为前361年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 361,
+            "indices": [
+              1
+            ],
+            "sourceHash": "076c33272d868cbe7808ee8e5dc9653f4e2347515f93435859b2901c91d4780d"
+          }
+        ]
+      },
+      "reason": "这是卫鞅入秦前在魏的旧事，原段随后才叙至秦，不能把问疾确指为前361年。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "与齐威王田猎，听其论以贤臣为宝",
+        "summary": "与齐威王田猎，听其论以贤臣为宝",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 355,
+        "timeLabel": "前355年",
+        "dateNote": "原文两王田猎与论宝明确，惠王指魏惠王，不是秦惠文王。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 355,
+            "indices": [
+              0
+            ],
+            "sourceHash": "b6ea418a81f0ce3bffe487b667a9d465612c5b8357b63f43f5aec4bc75392d97"
+          }
+        ]
+      },
+      "reason": "原文两王田猎与论宝明确，惠王指魏惠王，不是秦惠文王。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "与秦孝公会于杜平",
+        "summary": "与秦孝公会于杜平",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 355,
+        "timeLabel": "前355年",
+        "dateNote": "原文明记“秦孝公、魏惠王会于杜平”，人物无歧义。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 355,
+            "indices": [
+              1
+            ],
+            "sourceHash": "b1af64eedea2c5c1a816b60693da04b27105056d488a27422f9c841e2f22b075"
+          }
+        ]
+      },
+      "reason": "原文明记“秦孝公、魏惠王会于杜平”，人物无歧义。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "伐赵并围邯郸",
+        "summary": "伐赵并围邯郸",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 354,
+        "timeLabel": "前354年",
+        "dateNote": "原文明记“魏惠王伐赵，围邯郸”，不是后世引语。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 354,
+            "indices": [
+              1
+            ],
+            "sourceHash": "b8f4beea8a8f07dffdcbaeb0298fa848a0f59db13d87f292f876175cef3eb6cc"
+          }
+        ]
+      },
+      "reason": "原文明记“魏惠王伐赵，围邯郸”，不是后世引语。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "割河西求和，迁都大梁",
+        "summary": "割河西求和，迁都大梁",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 340,
+        "timeLabel": "前340年",
+        "dateNote": "原文记献河西地、去安邑徙大梁及叹未用公叔之言，按本书纪年定位。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 340,
+            "indices": [
+              2
+            ],
+            "sourceHash": "0a7b211e43c357f0a5708d5ae5b37ca088a2ea60278d5dfb045ffe6fe45cee1b"
+          }
+        ]
+      },
+      "reason": "原文记献河西地、去安邑徙大梁及叹未用公叔之言，按本书纪年定位。"
+    },
+    {
+      "action": "add",
+      "person": "孟子",
+      "after": {
+        "title": "见魏惠王，以仁义答问利",
+        "summary": "见魏惠王，以仁义答问利",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 336,
+        "timeLabel": "前336年",
+        "dateNote": "本年记孟轲见魏惠王，并直接记双方答问。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 336,
+            "indices": [
+              1
+            ],
+            "sourceHash": "19b408215072a38d808fa33bd426aaa169744f3afa9885de4469c163f9188dfd"
+          }
+        ]
+      },
+      "reason": "本年记孟轲见魏惠王，并直接记双方答问。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "见孟子，问何以利国",
+        "summary": "见孟子，问何以利国",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 336,
+        "timeLabel": "前336年",
+        "dateNote": "与孟子为同一次问答；保留双方参与者的独立档案关联。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 336,
+            "indices": [
+              1
+            ],
+            "sourceHash": "19b408215072a38d808fa33bd426aaa169744f3afa9885de4469c163f9188dfd"
+          }
+        ]
+      },
+      "reason": "与孟子为同一次问答；保留双方参与者的独立档案关联。"
+    },
+    {
+      "action": "add",
+      "person": "孟子",
+      "after": {
+        "title": "附叙从子思问牧民之道",
+        "summary": "附叙从子思问牧民之道",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前336年",
+        "dateNote": "原文以“初”引出旧事，发生年份未详；不定为前336年受教。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 336,
+            "indices": [
+              2
+            ],
+            "sourceHash": "7c30988baa827f8ff68d74aeaa28b6477545fd03a251d684ca0414823e1bce68"
+          }
+        ]
+      },
+      "reason": "原文以“初”引出旧事，发生年份未详；不定为前336年受教。"
+    },
+    {
+      "action": "add",
+      "person": "孟子",
+      "after": {
+        "title": "司马光论孟子以仁义答梁王",
+        "summary": "司马光论孟子以仁义答梁王",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前336年",
+        "dateNote": "原文明记“臣光曰”，是对前文孟子答问的评论。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 336,
+            "indices": [
+              3
+            ],
+            "sourceHash": "db08bee408e62eb136af1eb048f5fa6c9c1a7d3eb21930a02a938423efed2869"
+          }
+        ]
+      },
+      "reason": "原文明记“臣光曰”，是对前文孟子答问的评论。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙游说秦、燕、赵以结从亲",
+        "summary": "附叙游说秦、燕、赵以结从亲",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "本组以“初”追叙说秦不售、转说燕赵，未将整组游说都定于前333年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              2,
+              3
+            ],
+            "sourceHash": "fa96e937115f0a9c21242d1fa6cadfdd9fe0665051ebbf297308d7226348a4b6"
+          }
+        ]
+      },
+      "reason": "本组以“初”追叙说秦不售、转说燕赵，未将整组游说都定于前333年。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙激张仪入秦，并暗中资助",
+        "summary": "附叙激张仪入秦，并暗中资助",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "承“初”引出的合纵旧事，记苏秦激仪及使人资助；本段未独立给发生年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              4,
+              5
+            ],
+            "sourceHash": "12944bc240463fec837e87577b4c8a4694cf21e99d845db977435d9764345ba5"
+          }
+        ]
+      },
+      "reason": "承“初”引出的合纵旧事，记苏秦激仪及使人资助；本段未独立给发生年。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "附叙受苏秦激发，入秦为客卿",
+        "summary": "附叙受苏秦激发，入秦为客卿",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "本组为“初”引出的游说生平，既有早年困楚也有入秦；不把整段定为前333年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              5
+            ],
+            "sourceHash": "57d70e63957d90f7841663cccea6bf4858cd00720f45bcd928bafdab2102490c"
+          }
+        ]
+      },
+      "reason": "本组为“初”引出的游说生平，既有早年困楚也有入秦；不把整段定为前333年。"
+    },
+    {
+      "action": "add",
+      "person": "公孙衍",
+      "after": {
+        "title": "附叙犀首击魏，俘龙贾取雕阴",
+        "summary": "附叙犀首击魏，俘龙贾取雕阴",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "原文“秦使犀首伐魏”接续合纵旧事；犀首指公孙衍，不据这一承接句独断确年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              4
+            ],
+            "sourceHash": "1c7139726829b53380cbf4a82df0c940be0222f2c149844eb3b98d767257fc4c"
+          }
+        ]
+      },
+      "reason": "原文“秦使犀首伐魏”接续合纵旧事；犀首指公孙衍，不据这一承接句独断确年。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙劝韩宣惠王合纵",
+        "summary": "附叙劝韩宣惠王合纵",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "承本组“初”引出的苏秦游说旧事，未另给谈话确年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              6
+            ],
+            "sourceHash": "3ec592d3e618968d9c582ed589e5693d0e58bfabdc6fee842cf0fcdb8c86104a"
+          }
+        ]
+      },
+      "reason": "承本组“初”引出的苏秦游说旧事，未另给谈话确年。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙劝魏王合纵",
+        "summary": "附叙劝魏王合纵",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "承本组“初”引出的苏秦游说旧事，未另给谈话确年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              7
+            ],
+            "sourceHash": "49078a3c070baa2b80f9320dca3c92b3b906b186425abfcc13492df91b0723b0"
+          }
+        ]
+      },
+      "reason": "承本组“初”引出的苏秦游说旧事，未另给谈话确年。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙劝齐王不事秦",
+        "summary": "附叙劝齐王不事秦",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "承本组“初”引出的苏秦游说旧事，未另给谈话确年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              8
+            ],
+            "sourceHash": "343130f6cb9ac6a1dc27a7fd35e2ad0453d3a4910524b20365cafed4ed9e37a0"
+          }
+        ]
+      },
+      "reason": "承本组“初”引出的苏秦游说旧事，未另给谈话确年。"
+    },
+    {
+      "action": "add",
+      "person": "魏惠王",
+      "after": {
+        "title": "附叙接受苏秦合纵之约",
+        "summary": "附叙接受苏秦合纵之约",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "原文“魏王听之”为苏秦合纵旧事的一部分，不把整组附叙一律定于前333年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              7
+            ],
+            "sourceHash": "49078a3c070baa2b80f9320dca3c92b3b906b186425abfcc13492df91b0723b0"
+          }
+        ]
+      },
+      "reason": "原文“魏王听之”为苏秦合纵旧事的一部分，不把整组附叙一律定于前333年。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙为从约长，并相六国",
+        "summary": "附叙为从约长，并相六国",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "承本组苏秦合纵旧事的总结，不另推定全部任相发生在前333年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              10
+            ],
+            "sourceHash": "652d6908cebb11b9ce88f216843d586411030955a27fe4832388780d4c42af8b"
+          }
+        ]
+      },
+      "reason": "承本组苏秦合纵旧事的总结，不另推定全部任相发生在前333年。"
+    },
+    {
+      "action": "add",
+      "person": "齐宣王",
+      "after": {
+        "title": "齐威王卒后继位，召回田忌",
+        "summary": "齐威王卒后继位，召回田忌",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 333,
+        "timeLabel": "前333年",
+        "dateNote": "本年新起“齐威王薨，子宣王辟强立”，与此前合纵旧事区分。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              11
+            ],
+            "sourceHash": "5b9f5e3692e487cd607859f81a2bb55ab775733d9596588ec9b1858aff3bcc43"
+          }
+        ]
+      },
+      "reason": "本年新起“齐威王薨，子宣王辟强立”，与此前合纵旧事区分。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "从约瓦解后离赵赴燕",
+        "summary": "从约瓦解后离赵赴燕",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 332,
+        "timeLabel": "前332年",
+        "dateNote": "本年新起秦破从约，赵王责苏秦，苏秦离赵请使燕。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 332,
+            "indices": [
+              0
+            ],
+            "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a"
+          }
+        ]
+      },
+      "reason": "本年新起秦破从约，赵王责苏秦，苏秦离赵请使燕。"
+    },
+    {
+      "action": "add",
+      "person": "秦惠文王",
+      "after": {
+        "title": "使犀首联合齐魏破合纵之约",
+        "summary": "使犀首联合齐魏破合纵之约",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 332,
+        "timeLabel": "前332年",
+        "dateNote": "原文明记“秦惠王使犀首”，不是韩宣惠王或魏惠王。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 332,
+            "indices": [
+              0
+            ],
+            "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a"
+          }
+        ]
+      },
+      "reason": "原文明记“秦惠王使犀首”，不是韩宣惠王或魏惠王。"
+    },
+    {
+      "action": "add",
+      "person": "公孙衍",
+      "after": {
+        "title": "奉秦惠王命联齐魏攻赵，破合纵",
+        "summary": "奉秦惠王命联齐魏攻赵，破合纵",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 332,
+        "timeLabel": "前332年",
+        "dateNote": "本年原文明记犀首奉秦命出使并联兵破赵之从约。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 332,
+            "indices": [
+              0
+            ],
+            "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a"
+          }
+        ]
+      },
+      "reason": "本年原文明记犀首奉秦命出使并联兵破赵之从约。"
+    },
+    {
+      "action": "add",
+      "person": "楚怀王",
+      "after": {
+        "title": "楚威王卒后继位",
+        "summary": "楚威王卒后继位",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 329,
+        "timeLabel": "前329年",
+        "dateNote": "原文“子怀王槐立”，熊槐即本档案主人。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 329,
+            "indices": [
+              1
+            ],
+            "sourceHash": "725444567e73df9b6ea55bf795047ef5c227b2b4d3895cf3666078b38cc23f5e"
+          }
+        ]
+      },
+      "reason": "原文“子怀王槐立”，熊槐即本档案主人。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "攻蒲阳后说魏割地，归任秦相",
+        "summary": "攻蒲阳后说魏割地，归任秦相",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 328,
+        "timeLabel": "前328年",
+        "dateNote": "本条有领兵、说魏及归相秦等连续行动，以任秦相概括其权位变化。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 328,
+            "indices": [
+              0
+            ],
+            "sourceHash": "8cabef4cdd90100b48aa6f234c612e63d3a793b98b75249d2eb5c2271279f5a6"
+          }
+        ]
+      },
+      "reason": "本条有领兵、说魏及归相秦等连续行动，以任秦相概括其权位变化。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "领秦军伐魏取陕",
+        "summary": "领秦军伐魏取陕",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 324,
+        "timeLabel": "前324年",
+        "dateNote": "原文明记秦张仪率师，不能因现档案从卷3开始而漏收。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 324,
+            "indices": [
+              0
+            ],
+            "sourceHash": "9ad7c807a24d4eb456a8d4742dddf9fea9bfa0c196f39492500f471760e92e16"
+          }
+        ]
+      },
+      "reason": "原文明记秦张仪率师，不能因现档案从卷3开始而漏收。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "与齐楚之相会于啮桑",
+        "summary": "与齐楚之相会于啮桑",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 323,
+        "timeLabel": "前323年",
+        "dateNote": "原文直接记秦张仪与齐楚之相会盟，不是引述旧人。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 323,
+            "indices": [
+              0
+            ],
+            "sourceHash": "894137517070001cbfbc556ffcbbbeb198f8bcd1f4eb8f95c7213344b0cb0107"
+          }
+        ]
+      },
+      "reason": "原文直接记秦张仪与齐楚之相会盟，不是引述旧人。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "免秦相后相魏，欲使魏事秦",
+        "summary": "免秦相后相魏，欲使魏事秦",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 322,
+        "timeLabel": "前322年",
+        "dateNote": "原文明记张仪免相、相魏及秦王暗中厚待，属于当年任职变化。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 322,
+            "indices": [
+              0
+            ],
+            "sourceHash": "d14c9776b7fd08ea193d0963ca5f259c12e76631055d16b82004864266a8daff"
+          }
+        ]
+      },
+      "reason": "原文明记张仪免相、相魏及秦王暗中厚待，属于当年任职变化。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "奔齐为客卿，谋使齐国疲敝",
+        "summary": "奔齐为客卿，谋使齐国疲敝",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 324,
+        "timeLabel": "前324年",
+        "dateNote": "本年叙苏秦由燕奔齐并受齐宣王任用；不据此认证其他史籍中苏秦活动年代。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 324,
+            "indices": [
+              1
+            ],
+            "sourceHash": "cc3838a81f4afd97e8602fb6795e09260fcb2885c613232de78db1db8577e90d"
+          }
+        ]
+      },
+      "reason": "本年叙苏秦由燕奔齐并受齐宣王任用；不据此认证其他史籍中苏秦活动年代。"
+    },
+    {
+      "action": "add",
+      "person": "齐宣王",
+      "after": {
+        "title": "任苏秦为客卿",
+        "summary": "任苏秦为客卿",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 324,
+        "timeLabel": "前324年",
+        "dateNote": "原文具体指齐宣王，不是楚宣王。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 324,
+            "indices": [
+              1
+            ],
+            "sourceHash": "cc3838a81f4afd97e8602fb6795e09260fcb2885c613232de78db1db8577e90d"
+          }
+        ]
+      },
+      "reason": "原文具体指齐宣王，不是楚宣王。"
+    },
+    {
+      "action": "add",
+      "person": "赵武灵王",
+      "after": {
+        "title": "继赵肃侯为君，增加肥义官秩",
+        "summary": "继赵肃侯为君，增加肥义官秩",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 326,
+        "timeLabel": "前326年",
+        "dateNote": "本年记武灵王立，并先问肥义、加其秩。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 326,
+            "indices": [
+              0
+            ],
+            "sourceHash": "76ee658007a9060d75de5c721d00ef02737b26add0609edcff3dea887459a34c"
+          }
+        ]
+      },
+      "reason": "本年记武灵王立，并先问肥义、加其秩。"
+    },
+    {
+      "action": "add",
+      "person": "肥义",
+      "after": {
+        "title": "赵武灵王初立时受加秩",
+        "summary": "赵武灵王初立时受加秩",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 326,
+        "timeLabel": "前326年",
+        "dateNote": "原文“先问先君贵臣肥义，加其秩”，是本人被任用的具体变化。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 326,
+            "indices": [
+              0
+            ],
+            "sourceHash": "76ee658007a9060d75de5c721d00ef02737b26add0609edcff3dea887459a34c"
+          }
+        ]
+      },
+      "reason": "原文“先问先君贵臣肥义，加其秩”，是本人被任用的具体变化。"
+    },
+    {
+      "action": "add",
+      "person": "赵武灵王",
+      "after": {
+        "title": "拒绝空有王号，令国人称君",
+        "summary": "拒绝空有王号，令国人称君",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 323,
+        "timeLabel": "前323年",
+        "dateNote": "原文明确称赵武灵王并记其不肯称王的答语；称谓与行为均按本书记载。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 323,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f68ab1e25a1f0bff6aa6f6e8c96a2e3897f520df5eb0b563524c35fe8209e4cb"
+          }
+        ]
+      },
+      "reason": "原文明确称赵武灵王并记其不肯称王的答语；称谓与行为均按本书记载。"
+    },
+    {
+      "action": "add",
+      "person": "孟尝君",
+      "after": {
+        "title": "附叙继为薛公，散财养士",
+        "summary": "附叙继为薛公，散财养士",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前321年",
+        "dateNote": "本组先叙田婴受封，继叙田文早年与继嗣、长期养士，不能把整个生平概括均定为前321年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              4
+            ],
+            "sourceHash": "d81d50beb9c63478957722aef4e45a644152d752589557a877d989ea7ded225b"
+          }
+        ]
+      },
+      "reason": "本组先叙田婴受封，继叙田文早年与继嗣、长期养士，不能把整个生平概括均定为前321年。"
+    },
+    {
+      "action": "add",
+      "person": "孟尝君",
+      "after": {
+        "title": "司马光批评其养士立私党",
+        "summary": "司马光批评其养士立私党",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前321年",
+        "dateNote": "原文明记“臣光曰”，属评价养士政策而非本人在本年新行动。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              5
+            ],
+            "sourceHash": "af558aba4a2c7baf2a5a1118df6298209db3f3cc14663ce531c37387ff45c0ca"
+          }
+        ]
+      },
+      "reason": "原文明记“臣光曰”，属评价养士政策而非本人在本年新行动。"
+    },
+    {
+      "action": "add",
+      "person": "孟尝君",
+      "after": {
+        "title": "附叙辞受象床，鼓励门客进谏",
+        "summary": "附叙辞受象床，鼓励门客进谏",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前321年",
+        "dateNote": "承前述孟尝君生平的门客故事，本段未单独标明出使楚国确年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              6
+            ],
+            "sourceHash": "e2b781ad63e77259fb9621de246881d07a2f72bb6f9aed59a43bee47d38d218f"
+          }
+        ]
+      },
+      "reason": "承前述孟尝君生平的门客故事，本段未单独标明出使楚国确年。"
+    },
+    {
+      "action": "add",
+      "person": "孟尝君",
+      "after": {
+        "title": "司马光称其能采纳有私心者之善谏",
+        "summary": "司马光称其能采纳有私心者之善谏",
+        "kind": "史家评论",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前321年",
+        "dateNote": "原文明记“臣光曰”，是对辞受象床故事的史家评论。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              7
+            ],
+            "sourceHash": "41bc1b1a7df863781657c7ff3182875c0a81ecf953167838460531511a1e66b6"
+          }
+        ]
+      },
+      "reason": "原文明记“臣光曰”，是对辞受象床故事的史家评论。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "缪留以犀首、张仪为两相之戒",
+        "summary": "缪留以犀首、张仪为两相之戒",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前321年",
+        "dateNote": "本年缪留劝韩王引用魏国旧事，不是张仪或公孙衍在前321年新发生的经历。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              8
+            ],
+            "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c"
+          }
+        ]
+      },
+      "reason": "本年缪留劝韩王引用魏国旧事，不是张仪或公孙衍在前321年新发生的经历。"
+    },
+    {
+      "action": "add",
+      "person": "公孙衍",
+      "after": {
+        "title": "缪留以犀首、张仪为两相之戒",
+        "summary": "缪留以犀首、张仪为两相之戒",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前321年",
+        "dateNote": "本年缪留劝韩王引用魏国旧事，不是张仪或公孙衍在前321年新发生的经历。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              8
+            ],
+            "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c"
+          }
+        ]
+      },
+      "reason": "本年缪留劝韩王引用魏国旧事，不是张仪或公孙衍在前321年新发生的经历。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "张仪劝魏王时批评苏秦合纵旧谋",
+        "summary": "张仪劝魏王时批评苏秦合纵旧谋",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前317年",
+        "dateNote": "苏秦已在前段被记遭刺杀，此段为张仪对其旧谋的评论，不是苏秦本年亲历。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 317,
+            "indices": [
+              2
+            ],
+            "sourceHash": "0ae7248234e7a54cb8a54bf149d62b302fabcf8ae23c867175a80bb10e3b0f26"
+          }
+        ]
+      },
+      "reason": "苏秦已在前段被记遭刺杀，此段为张仪对其旧谋的评论，不是苏秦本年亲历。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "苏秦死后，苏代苏厉继续游说",
+        "summary": "苏秦死后，苏代苏厉继续游说",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前316年",
+        "dateNote": "原文“苏秦既死”明确为身后交代其弟的活动，不作为本人事件年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 316,
+            "indices": [
+              1
+            ],
+            "sourceHash": "5e8561a65194cb5d63d26171f63d6bf707a6747ce02e17eec6d990cb37793081"
+          }
+        ]
+      },
+      "reason": "原文“苏秦既死”明确为身后交代其弟的活动，不作为本人事件年。"
+    },
+    {
+      "action": "add",
+      "person": "蜀相陈庄",
+      "after": {
+        "title": "秦取蜀后任陈庄为蜀相",
+        "summary": "秦取蜀后任陈庄为蜀相",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 316,
+        "timeLabel": "前316年",
+        "dateNote": "原文末句“而使陈庄相蜀”，补回此任职，不能只留下后来被诛一条。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 316,
+            "indices": [
+              0
+            ],
+            "sourceHash": "b074a0d53a4171e7f80b9d0024ad556d977df7ad03062fdf374f24d73a10696d"
+          }
+        ]
+      },
+      "reason": "原文末句“而使陈庄相蜀”，补回此任职，不能只留下后来被诛一条。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "与司马错争议先伐韩还是伐蜀",
+        "summary": "与司马错争议先伐韩还是伐蜀",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 316,
+        "timeLabel": "前316年",
+        "dateNote": "原文明记张仪主张伐韩、秦王最终用司马错之计，不能反写成张仪主张伐蜀。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 316,
+            "indices": [
+              0
+            ],
+            "sourceHash": "b074a0d53a4171e7f80b9d0024ad556d977df7ad03062fdf374f24d73a10696d"
+          }
+        ]
+      },
+      "reason": "原文明记张仪主张伐韩、秦王最终用司马错之计，不能反写成张仪主张伐蜀。"
+    },
+    {
+      "action": "add",
+      "person": "张仪",
+      "after": {
+        "title": "秦武王即位后受谤失势",
+        "summary": "秦武王即位后受谤失势",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 311,
+        "timeLabel": "前311年",
+        "dateNote": "本年明记秦王更替、武王不悦张仪及群臣毁短之。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 311,
+            "indices": [
+              6
+            ],
+            "sourceHash": "258355c2412a17f80b73f6af739818ad7aa26bc4159e4d82c9239f6fdb93e0d0"
+          }
+        ]
+      },
+      "reason": "本年明记秦王更替、武王不悦张仪及群臣毁短之。"
+    },
+    {
+      "action": "add",
+      "person": "秦武王",
+      "after": {
+        "title": "许张仪赴魏，拟乘齐魏交兵图韩",
+        "summary": "许张仪赴魏，拟乘齐魏交兵图韩",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 310,
+        "timeLabel": "前310年",
+        "dateNote": "原文张仪向秦武王献策且“王许之”，是秦武王直接参与的决策。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              0
+            ],
+            "sourceHash": "d32964c223dcfebf503c406779d5e9d3fef3b58c76ce0c2f134dd1e19bd600b9"
+          }
+        ]
+      },
+      "reason": "原文张仪向秦武王献策且“王许之”，是秦武王直接参与的决策。"
+    },
+    {
+      "action": "add",
+      "person": "秦武王",
+      "after": {
+        "title": "初置丞相，任樗里疾为右丞相",
+        "summary": "初置丞相，任樗里疾为右丞相",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 309,
+        "timeLabel": "前309年",
+        "dateNote": "原文“秦初置丞相”及具体任命均在本条，补回正确年份。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 309,
+            "indices": [
+              0
+            ],
+            "sourceHash": "6db323ddade80e772b9b19f9aa1ef64412ef959310b88bcc765039af5663fc36"
+          }
+        ]
+      },
+      "reason": "原文“秦初置丞相”及具体任命均在本条，补回正确年份。"
+    },
+    {
+      "action": "add",
+      "person": "楼缓",
+      "after": {
+        "title": "列名于纵横游说之士",
+        "summary": "列名于纵横游说之士",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前310年",
+        "dateNote": "原文列楼缓于纵横家生平综述，不定为其前310年发生的单一经历。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 310,
+            "indices": [
+              1
+            ],
+            "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc"
+          }
+        ]
+      },
+      "reason": "原文列楼缓于纵横家生平综述，不定为其前310年发生的单一经历。"
+    },
+    {
+      "action": "add",
+      "person": "魏文侯",
+      "after": {
+        "title": "甘茂引乐羊攻中山与魏文侯信任为例",
+        "summary": "甘茂引乐羊攻中山与魏文侯信任为例",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前308年",
+        "dateNote": "魏文侯已去世，甘茂此处引用旧事；不定为前308年本人行动。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 308,
+            "indices": [
+              1
+            ],
+            "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523"
+          }
+        ]
+      },
+      "reason": "魏文侯已去世，甘茂此处引用旧事；不定为前308年本人行动。"
+    },
+    {
+      "action": "add",
+      "person": "樗里疾",
+      "after": {
+        "title": "甘茂谈及樗里子等对伐韩的反对",
+        "summary": "甘茂谈及樗里子等对伐韩的反对",
+        "kind": "相关提及",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前308年",
+        "dateNote": "此处在甘茂向秦王说明疑虑的言辞中，不独立认作樗里疾本年又一次进谗；实际争罢宜阳另见前307年。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 308,
+            "indices": [
+              1
+            ],
+            "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523"
+          }
+        ]
+      },
+      "reason": "此处在甘茂向秦王说明疑虑的言辞中，不独立认作樗里疾本年又一次进谗；实际争罢宜阳另见前307年。"
+    },
+    {
+      "action": "add",
+      "person": "宣太后",
+      "after": {
+        "title": "秦昭王继位时附述其母为芈八子",
+        "summary": "秦昭王继位时附述其母为芈八子",
+        "kind": "相关提及",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前307年",
+        "dateNote": "这里是昭王母亲身份的附带说明，不是宣太后本年又受任新职的证据。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 307,
+            "indices": [
+              1
+            ],
+            "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158"
+          }
+        ]
+      },
+      "reason": "这里是昭王母亲身份的附带说明，不是宣太后本年又受任新职的证据。"
+    },
+    {
+      "action": "add",
+      "person": "秦昭襄王",
+      "after": {
+        "title": "命向寿平宜阳，令樗里子与甘茂伐魏",
+        "summary": "命向寿平宜阳，令樗里子与甘茂伐魏",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 306,
+        "timeLabel": "前306年",
+        "dateNote": "原文“秦昭王使”，与燕昭王同用昭王称号时须按国别辨认。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 306,
+            "indices": [
+              0
+            ],
+            "sourceHash": "9367c3d06020d234948030cba431475ece513c402240c19d4f7c8384c00166d0"
+          }
+        ]
+      },
+      "reason": "原文“秦昭王使”，与燕昭王同用昭王称号时须按国别辨认。"
+    },
+    {
+      "action": "add",
+      "person": "楼缓",
+      "after": {
+        "title": "奉赵武灵王命出使秦国",
+        "summary": "奉赵武灵王命出使秦国",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 306,
+        "timeLabel": "前306年",
+        "dateNote": "原文“使楼缓之秦”，与同段赴楚的赵使王贲不可混为后来秦将王贲。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 306,
+            "indices": [
+              1
+            ],
+            "sourceHash": "532c79897344fd43c99e730f95effd71e74310e444577c87d9704b3d056a085b"
+          }
+        ]
+      },
+      "reason": "原文“使楼缓之秦”，与同段赴楚的赵使王贲不可混为后来秦将王贲。"
+    },
+    {
+      "action": "add",
+      "person": "秦惠文王",
+      "after": {
+        "title": "附述魏冉自惠王时已任职",
+        "summary": "附述魏冉自惠王时已任职",
+        "kind": "相关提及",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前305年",
+        "dateNote": "本段前半回溯惠王、武王及昭王初立，不能作为这些已故君主前305年的行动。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 305,
+            "indices": [
+              2
+            ],
+            "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2"
+          }
+        ]
+      },
+      "reason": "本段前半回溯惠王、武王及昭王初立，不能作为这些已故君主前305年的行动。"
+    },
+    {
+      "action": "add",
+      "person": "秦武王",
+      "after": {
+        "title": "附述武王死后魏冉拥立昭王",
+        "summary": "附述武王死后魏冉拥立昭王",
+        "kind": "相关提及",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前305年",
+        "dateNote": "本段前半回溯惠王、武王及昭王初立，不能作为这些已故君主前305年的行动。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 305,
+            "indices": [
+              2
+            ],
+            "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2"
+          }
+        ]
+      },
+      "reason": "本段前半回溯惠王、武王及昭王初立，不能作为这些已故君主前305年的行动。"
+    },
+    {
+      "action": "add",
+      "person": "秦华阳君",
+      "after": {
+        "title": "附述华阳君芈戎为宣太后同父弟",
+        "summary": "附述华阳君芈戎为宣太后同父弟",
+        "kind": "相关提及",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前305年",
+        "dateNote": "原文明确指出秦华阳君身份，但此处不记一项独立的本年行动。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 305,
+            "indices": [
+              2
+            ],
+            "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2"
+          }
+        ]
+      },
+      "reason": "原文明确指出秦华阳君身份，但此处不记一项独立的本年行动。"
+    },
+    {
+      "action": "add",
+      "person": "昭睢",
+      "after": {
+        "title": "反对另立庶子，谋使齐归还楚太子",
+        "summary": "反对另立庶子，谋使齐归还楚太子",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": 299,
+        "timeLabel": "前299年",
+        "dateNote": "原文昭睢直接进言“王与太子俱困于诸侯”，与前段劝怀王勿赴秦应分别保留。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 299,
+            "indices": [
+              4
+            ],
+            "sourceHash": "9c066ebfd4be27407373c17710ad8bdd3db72df17b807f5729e21701480b3253"
+          }
+        ]
+      },
+      "reason": "原文昭睢直接进言“王与太子俱困于诸侯”，与前段劝怀王勿赴秦应分别保留。"
+    },
+    {
+      "action": "add",
+      "person": "楚太子横",
+      "after": {
+        "title": "入齐为质，楚国向齐请和",
+        "summary": "入齐为质，楚国向齐请和",
+        "kind": "主要经历",
+        "category": "政争",
+        "year": 300,
+        "timeLabel": "前300年",
+        "dateNote": "本年华阳君破楚后，原文明记楚王使太子质齐；与前299年归楚分开。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 300,
+            "indices": [
+              1
+            ],
+            "sourceHash": "60e57d5c4581f454e750db0d5206d9719f772d9111064c03bc06db48a640f63c"
+          }
+        ]
+      },
+      "reason": "本年华阳君破楚后，原文明记楚王使太子质齐；与前299年归楚分开。"
+    },
+    {
+      "action": "add",
+      "person": "秦庄襄王",
+      "after": {
+        "title": "子楚继秦孝文王为王",
+        "summary": "子楚继秦孝文王为王",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 250,
+        "timeLabel": "前250年",
+        "dateNote": "原文明记孝文王即位三日薨，“子楚立，是为庄襄王”，不可漏去本人即位。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 250,
+            "indices": [
+              0
+            ],
+            "sourceHash": "994daecc810c72d1c39354ccddb15b8912a35a1dc7282dc2169ef1868be66165"
+          }
+        ]
+      },
+      "reason": "原文明记孝文王即位三日薨，“子楚立，是为庄襄王”，不可漏去本人即位。"
+    },
+    {
+      "action": "add",
+      "person": "秦庄襄王",
+      "after": {
+        "title": "庄襄王薨，太子政继位",
+        "summary": "庄襄王薨，太子政继位",
+        "kind": "主要经历",
+        "category": "去世",
+        "year": 247,
+        "timeLabel": "前247年",
+        "dateNote": "本年“五月丙午王薨”，下接太子政立，死者为此前在位的庄襄王。",
+        "sources": [
+          {
+            "volume": 6,
+            "year": 247,
+            "indices": [
+              4
+            ],
+            "sourceHash": "1a99fb9bb96a0a823b3584a9a7f486ca263de09ba480fc3f26eb7aa5595c653f"
+          }
+        ]
+      },
+      "reason": "本年“五月丙午王薨”，下接太子政立，死者为此前在位的庄襄王。"
+    },
+    {
+      "action": "add",
+      "person": "王贲",
+      "after": {
+        "title": "领兵伐楚，取十余城",
+        "summary": "领兵伐楚，取十余城",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 226,
+        "timeLabel": "前226年",
+        "dateNote": "本条开头“王贲伐楚”，不能只关联随后答问的李信与王翦。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 226,
+            "indices": [
+              1
+            ],
+            "sourceHash": "393703739b184b60a69b2db53ea33a4bacf913dace2dff4fd9b11b948394938e"
+          }
+        ]
+      },
+      "reason": "本条开头“王贲伐楚”，不能只关联随后答问的李信与王翦。"
+    },
+    {
+      "action": "add",
+      "person": "王翦",
+      "after": {
+        "title": "攻取蓟城，燕王与太子东奔辽东",
+        "summary": "攻取蓟城，燕王与太子东奔辽东",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 226,
+        "timeLabel": "前226年",
+        "dateNote": "原文“王翦拔蓟”是其本人军事行动，与随后燕王杀丹分列不同人物经历。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 226,
+            "indices": [
+              0
+            ],
+            "sourceHash": "1644dfc5000fab2e7c36bbb4258ebcbeb4f6886240c6ee5bfe3b16ceea165775"
+          }
+        ]
+      },
+      "reason": "原文“王翦拔蓟”是其本人军事行动，与随后燕王杀丹分列不同人物经历。"
+    },
+    {
+      "action": "add",
+      "person": "李信",
+      "after": {
+        "title": "急追退往辽东的燕王与太子",
+        "summary": "急追退往辽东的燕王与太子",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 226,
+        "timeLabel": "前226年",
+        "dateNote": "原文“李信急追之”，补回秦灭燕进程中的本人行动。",
+        "sources": [
+          {
+            "volume": 7,
+            "year": 226,
+            "indices": [
+              0
+            ],
+            "sourceHash": "1644dfc5000fab2e7c36bbb4258ebcbeb4f6886240c6ee5bfe3b16ceea165775"
+          }
+        ]
+      },
+      "reason": "原文“李信急追之”，补回秦灭燕进程中的本人行动。"
+    },
+    {
+      "action": "edit",
+      "person": "张仪",
+      "before": {
+        "title": "附叙受苏秦激发，入秦为客卿",
+        "summary": "附叙受苏秦激发，入秦为客卿",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "本组为“初”引出的游说生平，既有早年困楚也有入秦；不把整段定为前333年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              5
+            ],
+            "sourceHash": "57d70e63957d90f7841663cccea6bf4858cd00720f45bcd928bafdab2102490c"
+          }
+        ]
+      },
+      "after": {
+        "title": "附叙受苏秦激发，入秦为客卿",
+        "summary": "附叙受苏秦激发，入秦为客卿",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "本组为“初”引出的游说生平，既有早年困楚也有入秦；不把整段定为前333年。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              4,
+              5
+            ],
+            "sourceHash": "12944bc240463fec837e87577b4c8a4694cf21e99d845db977435d9764345ba5"
+          }
+        ]
+      },
+      "reason": "补全同一经历上段的原文依据。"
+    },
+    {
+      "action": "add",
+      "person": "屈匄",
+      "after": {
+        "title": "奉楚怀王命率师伐秦",
+        "summary": "奉楚怀王命率师伐秦",
+        "kind": "主要经历",
+        "category": "战争",
+        "year": 313,
+        "timeLabel": "前313年",
+        "dateNote": "原文末句“使屈匄帅师伐秦”，与次年前312年兵败被俘分别记录。",
+        "sources": [
+          {
+            "volume": 3,
+            "year": 313,
+            "indices": [
+              2
+            ],
+            "sourceHash": "323fd6a853a8aab33fb51d5a6ddcbe456049a86e0097f793202fff37880174b6"
+          }
+        ]
+      },
+      "reason": "原文末句“使屈匄帅师伐秦”，与次年前312年兵败被俘分别记录。"
+    },
+    {
+      "action": "add",
+      "person": "燕王哙",
+      "after": {
+        "title": "燕易王卒后继位",
+        "summary": "燕易王卒后继位",
+        "kind": "主要经历",
+        "category": "任职",
+        "year": 321,
+        "timeLabel": "前321年",
+        "dateNote": "原文“燕易王薨，子哙立”，结合其后燕王哙记载辨人；不能只收其让国与遇害而漏去即位。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 321,
+            "indices": [
+              1
+            ],
+            "sourceHash": "e1440f5f52eb3bc3f004dc9a4cfdcd413ee68d6cf83a0cc8f1ad6a49dfdbb62a"
+          }
+        ]
+      },
+      "reason": "原文“燕易王薨，子哙立”，结合其后燕王哙记载辨人；不能只收其让国与遇害而漏去即位。"
+    },
+    {
+      "action": "add",
+      "person": "苏秦",
+      "after": {
+        "title": "附叙劝楚威王合纵以孤秦",
+        "summary": "附叙劝楚威王合纵以孤秦",
+        "kind": "主要经历",
+        "category": "言论",
+        "year": null,
+        "timeLabel": "记载于前333年",
+        "dateNote": "本段以“乃西南说”承接上段苏秦游说，虽未再写姓名，仍能由上下文确认人物；确年未详。",
+        "sources": [
+          {
+            "volume": 2,
+            "year": 333,
+            "indices": [
+              9
+            ],
+            "sourceHash": "5d8d996edd77927a8b9f9ce6105daa0fc19d1e39d0c31fd1e73f3dc58a7c1ac1"
+          }
+        ]
+      },
+      "reason": "本段以“乃西南说”承接上段苏秦游说，虽未再写姓名，仍能由上下文确认人物；确年未详。"
+    }
+  ],
+  "candidateReviews": [
+    {
+      "personId": "wei-wen-hou",
+      "person": "魏文侯",
+      "volume": 1,
+      "year": 403,
+      "index": 0,
+      "aliases": [
+        "魏斯"
+      ],
+      "sourceHash": "5ebf5c1ace7a643e656934e338ba0ada5787530ab6bf28a9c7599ee4f9073ccd",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-wen-hou:a7b12f10ca7afee18d7b"
+      ],
+      "basisHash": "b2931c30b246f058c54c1f7f1aec188594bc1fc88c2d307cdb810084ef0337ee"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 1,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "cf7972622686ef2fe13b16c3b9c82f70b452c9654053f85e3297a115ef658442",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "1473f836db07096ee27c75da42ee98ce2f03b4d91db0506e7c5baea3a65bcdfb"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 2,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "49845ec9a1d8c4755a83b0972d1494c2279e18db91746aa96318755a9e742d3f",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "c85e6dd596e0887746899e19bfcba64c7504a0234570dcc7b47510f63a00c500"
+    },
+    {
+      "personId": "zhi-bo",
+      "person": "智伯",
+      "volume": 1,
+      "year": 403,
+      "index": 5,
+      "aliases": [
+        "智伯"
+      ],
+      "sourceHash": "dd9ac5888510624597a8f96c876379367d5501bb8bec1715eadbc6132cc8e61c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhi-bo:cd33cd4528895c6e34c3"
+      ],
+      "basisHash": "ea357cae1388a23333d3c2f0d87217de46397f16704174492998e0b00ae9a722"
+    },
+    {
+      "personId": "wei-xiang-wang",
+      "person": "魏襄王",
+      "volume": 1,
+      "year": 403,
+      "index": 5,
+      "aliases": [
+        "襄王"
+      ],
+      "sourceHash": "dd9ac5888510624597a8f96c876379367d5501bb8bec1715eadbc6132cc8e61c",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "4a864947e8b6d7d1dc2ed240f5970938fed6f57c8fcc37a694712978e6753ce4"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 7,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "2d9d9d7cc8ece0c11966c8f9ccc6d701404dc570b1be1ea74375a6cd7dfbb6d6",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "1c80dfa8d8a36084c22f61220d776850dff71e4ed740b6c9c2f2eff317155e19"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 9,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "03338389e938647f43552b8cd72899144494049b93b2ccef59bc76a9715aff40",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "4547efad79e7ac4d4513330e559cf94341701d494ef8583723c0bd1ca1c77cda"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 14,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "d07fd9cbaa72be641b23eb6c5885b0118cb68f588df7740c872bf43d7ab7d319",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "c9826ab3a7adb8107099c0e7a295292e2a53479722396587e8d9aa61ee95f56f"
+    },
+    {
+      "personId": "zhi-bo",
+      "person": "智伯",
+      "volume": 1,
+      "year": 403,
+      "index": 17,
+      "aliases": [
+        "智伯"
+      ],
+      "sourceHash": "f5f0bb0a6ea57868f9a9c9533fa06de53cc16465cce00f29f202cd9a40d6f9b9",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhi-bo:94995b6d7785a23e69f1"
+      ],
+      "basisHash": "7ac116c3865d23a9931a9688e9ceb303c8436aa0d567b1c9a5a74da0b734e016"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 18,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "1f5d3b7b9f59b8602952ccb8991c7d612418583e965b231bbed1e221a1d4324b",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "9aa159fd6940e08a87ee0841008b6f0852116747a173f6ddc5b1b19e22f0b010"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 20,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "374108f7b3dea2ebb41e207eb12116ec3b1a13f4f6912c0db8e6490c2a2efca5",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "3992f148ea51bd9ebf5cf701b3efb7262aa92aa012950a6c12d8d33b8cd96833"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 403,
+      "index": 27,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "a98cd42352c9add82da9022b3ccf12dfdff3a6d0cf16df5cff3eff7802d170d3",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "e838a307b113d80801f8a0d9a2d49b62275c46b5d3f713316c8e9b3372cb5592"
+    },
+    {
+      "personId": "zhao-xiang-zi",
+      "person": "赵襄子",
+      "volume": 1,
+      "year": 391,
+      "index": 1,
+      "aliases": [
+        "襄子"
+      ],
+      "sourceHash": "295439148fdb29f86b4513100d1c14574ff2ee904ed46244b95b3db366c469d6",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "cc7d54a9f2b9f6fa6d90fab964b0676185a1e9870de17af1ba1d4b200e708e45"
+    },
+    {
+      "personId": "qin-wu-wang",
+      "person": "秦武王",
+      "volume": 1,
+      "year": 387,
+      "index": 2,
+      "aliases": [
+        "武王"
+      ],
+      "sourceHash": "ac59d214061294eb29b5b67c63720ba100264b2e075660bd56aafcb62d54f593",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "fa11c01b3742d459de2edb6a1f556971d11ae82008da9a743fe5e2964b17bc98"
+    },
+    {
+      "personId": "meng-chang-jun",
+      "person": "孟尝君",
+      "volume": 1,
+      "year": 387,
+      "index": 3,
+      "aliases": [
+        "田文"
+      ],
+      "sourceHash": "1b2c017e951717df65348d44303db06e6f9b3ebfec0cfb513bae3319c1f2b96e",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "e7705e85fcf2e10d097564e5f9054d445b12a0cf5d7ee424e522cc4c5b86f48f"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 387,
+      "index": 4,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "e01d830b63cd6e89658d7840f86e59e8d42e61a4e76d2e23c7c59a4ac948182e",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "4f0ff81a9c50285e5b457e0cb8ae0c1caf89c637e904a81fe14ebb93c4af25b9"
+    },
+    {
+      "personId": "wei-wen-hou",
+      "person": "魏文侯",
+      "volume": 1,
+      "year": 387,
+      "index": 8,
+      "aliases": [
+        "文侯"
+      ],
+      "sourceHash": "1122c90dcbc976125a85466a0f7c9e32421b077d7ff1f3347ed39af0b1506939",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "c725f2f08f72f9b9aa2636a7cfbe27275fb57c40614013e120be281361600ee6"
+    },
+    {
+      "personId": "wei-wen-hou",
+      "person": "魏文侯",
+      "volume": 1,
+      "year": 377,
+      "index": 5,
+      "aliases": [
+        "文侯"
+      ],
+      "sourceHash": "0255dabcfdc93cf0df82e15600c6b974f51d59b4c9f17615e23babaf7a2d9fdd",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "9aef9ba838e76b955352fd9645b526751520dfd85b38e977c9ae92f580be1c54"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 1,
+      "year": 370,
+      "index": 3,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "a8615e98a277a093c6c09d049c7a24b4a994411513e445543e1bdf0e1f0be9fd",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "d5d183a380f01cba7bd1b8c05eaf6432ec44945ec4d9be4ffe5f15856efd7ecf"
+    },
+    {
+      "personId": "qi-xuan-wang",
+      "person": "齐宣王",
+      "volume": 1,
+      "year": 370,
+      "index": 4,
+      "aliases": [
+        "宣王"
+      ],
+      "sourceHash": "381270e1ea0135925fbdf78d725e96678ca8402636a92187ee6c14e61cb43204",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "614a4762c5ee557590592d4b69245288b15feef484d3a11c812b0cfb7b7fd057"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 1,
+      "year": 369,
+      "index": 2,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "fe1c4e24de11fe109189cd3924ba84fa160ad918b0cbd781ebf56b1749b36fe1",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "e9532b209201e723b88a1156db85f1edfacafd8832022a589733715641e80107"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 1,
+      "year": 369,
+      "index": 2,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "fe1c4e24de11fe109189cd3924ba84fa160ad918b0cbd781ebf56b1749b36fe1",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:a733fb822c66a05720fb"
+      ],
+      "basisHash": "4c8c37ef9873d6d9d3a0d0d2fe4dc3bfb5dc57c4365a896819529823c06a2ad6"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 1,
+      "year": 369,
+      "index": 3,
+      "aliases": [
+        "魏惠王"
+      ],
+      "sourceHash": "65b8b5178fc9f04f8ebe5072b32373fc1c81dd3153513dec8ba8f1530d3bc5f6",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:c5edb6ce4da9c8a33897"
+      ],
+      "basisHash": "1e5ea537e3c960e7730bd99df86874a87e87ef4d0d090ee0fd1e6eb8fe027f8a"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 2,
+      "year": 361,
+      "index": 0,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "354cc6ee470aee322d47f2d5f9ccf417d7e0114a2d9b5f57ddac71b1fd21418c",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "3747f30a5b5311be05cc8a3613e25089d973941daa60db6162beb028fa1288f1"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 2,
+      "year": 361,
+      "index": 1,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "076c33272d868cbe7808ee8e5dc9653f4e2347515f93435859b2901c91d4780d",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "f37583a8ee2623d40acb5aae2058eed6313550458963994efb7480e269891e8d"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 361,
+      "index": 1,
+      "aliases": [
+        "魏惠王"
+      ],
+      "sourceHash": "076c33272d868cbe7808ee8e5dc9653f4e2347515f93435859b2901c91d4780d",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:840da62f5a9b760bdc09"
+      ],
+      "basisHash": "3a4702232ff86c2615148702db08b745c2916bf9f40e62b0b6be4ed10ca83ae5"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 2,
+      "year": 355,
+      "index": 0,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "b6ea418a81f0ce3bffe487b667a9d465612c5b8357b63f43f5aec4bc75392d97",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "abae99db28a3de4dc19bdead4abbbacc001e8e216450ab730735c708f995945d"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 355,
+      "index": 0,
+      "aliases": [
+        "惠王",
+        "魏惠王"
+      ],
+      "sourceHash": "b6ea418a81f0ce3bffe487b667a9d465612c5b8357b63f43f5aec4bc75392d97",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:c08f29c6a1bcb4d68d10"
+      ],
+      "basisHash": "4affb96ce6947d0986283fb21088f21444e27c5ab319e2fa9297caeff27bf620"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 355,
+      "index": 1,
+      "aliases": [
+        "魏惠王"
+      ],
+      "sourceHash": "b1af64eedea2c5c1a816b60693da04b27105056d488a27422f9c841e2f22b075",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:d5d5d814d20a75d12ed0"
+      ],
+      "basisHash": "26464f35b5440ae68000e6e31c74233ddfc41d52337a999a591d83af3c72b4b5"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 354,
+      "index": 1,
+      "aliases": [
+        "魏惠王"
+      ],
+      "sourceHash": "b8f4beea8a8f07dffdcbaeb0298fa848a0f59db13d87f292f876175cef3eb6cc",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:e1d42cf2ada03ede329c"
+      ],
+      "basisHash": "fcf573462af3048d166883c41756d5c0a622ef8958f576cbf8dbdd9bdc615db5"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 2,
+      "year": 351,
+      "index": 3,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "bea0b54e77d32f0f7640a2edae239b59490f49bdb0ef53ad10ae15c0d75af26f",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "2867c3eea6c2fe77d37d9ae86a9e9224cb495f648c2e0f2d4d6046ae9d075cc0"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 2,
+      "year": 351,
+      "index": 4,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "32c84ef89b51fc378a95d704bbec5539d129b371a113a2c56cb3d7568ef62ffb",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "6fe0fac971053a8c022ec62be6dce5e394dbf208bd706cc0cc6f12fcdad7cddd"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 2,
+      "year": 341,
+      "index": 1,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "8c47ef7ff63ac97a828007641ad3b3a1de026b26b50ff27f9bca3ac554c3547d",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "9808e1cedc24e6ba1ca3a4f75033969b2bfb11f7d050af868e7ca09026346a5f"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 340,
+      "index": 2,
+      "aliases": [
+        "魏惠王"
+      ],
+      "sourceHash": "0a7b211e43c357f0a5708d5ae5b37ca088a2ea60278d5dfb045ffe6fe45cee1b",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:f109935877e4bcd18ea2"
+      ],
+      "basisHash": "75eb24815b7505801e44c56eafaa167e7f1375966a96fd1a1969600b5af06c2a"
+    },
+    {
+      "personId": "qi-xuan-wang",
+      "person": "齐宣王",
+      "volume": 2,
+      "year": 340,
+      "index": 5,
+      "aliases": [
+        "宣王"
+      ],
+      "sourceHash": "c5610e2baadb87b9a010971a3c052463380ad0ec8052eac22da25361f3b888d2",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "26230e588c1481eabfa5235666d6c4d7f80c4683a1f1be12cab04d5b99a1ecc4"
+    },
+    {
+      "personId": "meng-zi",
+      "person": "孟子",
+      "volume": 2,
+      "year": 336,
+      "index": 1,
+      "aliases": [
+        "孟子",
+        "孟轲"
+      ],
+      "sourceHash": "19b408215072a38d808fa33bd426aaa169744f3afa9885de4469c163f9188dfd",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-zi:81150f972946efea3bae"
+      ],
+      "basisHash": "af0129c4e1a2077c0f7336e458eceae3045222d7328682acdb0f39e3d282a734"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 336,
+      "index": 1,
+      "aliases": [
+        "魏惠王"
+      ],
+      "sourceHash": "19b408215072a38d808fa33bd426aaa169744f3afa9885de4469c163f9188dfd",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-hui-wang:1af292a170c4bee3c2e9"
+      ],
+      "basisHash": "4ab5bb279fabca5fb88ddf09a8ce4d29f6e0b0370fd07db75ac5f50077055e76"
+    },
+    {
+      "personId": "meng-zi",
+      "person": "孟子",
+      "volume": 2,
+      "year": 336,
+      "index": 2,
+      "aliases": [
+        "孟子"
+      ],
+      "sourceHash": "7c30988baa827f8ff68d74aeaa28b6477545fd03a251d684ca0414823e1bce68",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-zi:bdc631cb53630f1df2c1"
+      ],
+      "basisHash": "48ac6ae17f238fc850585a10fdaaef0256b835745ab934e32323370da9c98334"
+    },
+    {
+      "personId": "meng-zi",
+      "person": "孟子",
+      "volume": 2,
+      "year": 336,
+      "index": 3,
+      "aliases": [
+        "孟子"
+      ],
+      "sourceHash": "db08bee408e62eb136af1eb048f5fa6c9c1a7d3eb21930a02a938423efed2869",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-zi:8e34d0b32d2751d70027"
+      ],
+      "basisHash": "e216653023d88966fed0c34f1b1ce9253a1cf2fbacb360b0c4b290f3d1f4e80a"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 2,
+      "year": 333,
+      "index": 1,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "0303f09e03a9b18afd4699bc73f012b2d50a06d4a0568bd0c26b16b1713bfe99",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "a04706d7c5a3e14801e1642acf5099e75d497e2c57e15a1caeb2f22e6b2fc48a"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 333,
+      "index": 1,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "0303f09e03a9b18afd4699bc73f012b2d50a06d4a0568bd0c26b16b1713bfe99",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "a75982cf942e760fe29ee525102cf650754aa590c97bd375921ec180d781c336"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 2,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "4a356cca636f5daeac4b85bc925718e7ce33a03dff2b07deba7cd34af3e0889e",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:2096ab9eb73ba51d8712"
+      ],
+      "basisHash": "6f4def78c3a65b92be6bb5cb0aedd7c1f433d102a172a88b6cbefa3062bc9e90"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 3,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "d2d049932cf72a0e72529901790ab66a2621f864f32ab483d8c17ac785b8496b",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:2096ab9eb73ba51d8712"
+      ],
+      "basisHash": "457166bc4bf7694a620b6055171e6002b7cf6802c994afb5cc2d77ec06784348"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 333,
+      "index": 4,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "1c7139726829b53380cbf4a82df0c940be0222f2c149844eb3b98d767257fc4c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:c1521c104a849a0fc8f3"
+      ],
+      "basisHash": "9514f359563e9e4ac3ee545e6bdf7187c969aa6a448df8948bf56920096d5f71"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 4,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "1c7139726829b53380cbf4a82df0c940be0222f2c149844eb3b98d767257fc4c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:402e15f76bbeb99e44b0"
+      ],
+      "basisHash": "ff440a0ac7a65ee47513b93e114c458526a4ee2d2909d78e40ec9c1cb1e87789"
+    },
+    {
+      "personId": "gong-sun-yan",
+      "person": "公孙衍",
+      "volume": 2,
+      "year": 333,
+      "index": 4,
+      "aliases": [
+        "犀首"
+      ],
+      "sourceHash": "1c7139726829b53380cbf4a82df0c940be0222f2c149844eb3b98d767257fc4c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "gong-sun-yan:f97c7ada7b63804529f2"
+      ],
+      "basisHash": "f0f09814f3d415ad9e295af1e01313ef8b56a77ff3637b058fe4f6f50ba641de"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 5,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "57d70e63957d90f7841663cccea6bf4858cd00720f45bcd928bafdab2102490c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:402e15f76bbeb99e44b0"
+      ],
+      "basisHash": "3f0ebc0cfacd3702670f2331cdf4a01eb7af4ff7e41e0890b69e852409f70c13"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 333,
+      "index": 5,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "57d70e63957d90f7841663cccea6bf4858cd00720f45bcd928bafdab2102490c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:c1521c104a849a0fc8f3"
+      ],
+      "basisHash": "bc1daea893a60be87728f5ee3bbacbf868a30991941bb9602417fec27fea5333"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 2,
+      "year": 333,
+      "index": 6,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "3ec592d3e618968d9c582ed589e5693d0e58bfabdc6fee842cf0fcdb8c86104a",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "54d774743c5601ed8ac7029f862ea869a0746a2b60d6169c4e144480769bcd14"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 333,
+      "index": 6,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "3ec592d3e618968d9c582ed589e5693d0e58bfabdc6fee842cf0fcdb8c86104a",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "65455f1ecf43244750d5bd0f76e90f888d86943c4b821f4f671ee316d6b73ce4"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 6,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "3ec592d3e618968d9c582ed589e5693d0e58bfabdc6fee842cf0fcdb8c86104a",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:559bd94a80abcf3bf5d8"
+      ],
+      "basisHash": "3e3d9b8d4dae5b2e93f2945ef1921f6bb6fb216a549df587e46c1f7a8a33623d"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 7,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "49078a3c070baa2b80f9320dca3c92b3b906b186425abfcc13492df91b0723b0",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:4ae0f75dcb493f198889"
+      ],
+      "basisHash": "85759988817e94159ba49bed832b3028abefe360b732102900770c1cb64a40ff"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 8,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "343130f6cb9ac6a1dc27a7fd35e2ad0453d3a4910524b20365cafed4ed9e37a0",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:d3a7582f0f41bb9b6bf7"
+      ],
+      "basisHash": "ee757343d8c31509b4cffeaa03097abd8082374e094a2d02514df7a12312e7b6"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 333,
+      "index": 10,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "652d6908cebb11b9ce88f216843d586411030955a27fe4832388780d4c42af8b",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:b53b71bac98a949b5df7"
+      ],
+      "basisHash": "a46a4fdf6049ed5ff3ca09eae490635eaab5b7b5c679b7372c2df1f6bc024886"
+    },
+    {
+      "personId": "qi-xuan-wang",
+      "person": "齐宣王",
+      "volume": 2,
+      "year": 333,
+      "index": 11,
+      "aliases": [
+        "宣王"
+      ],
+      "sourceHash": "5b9f5e3692e487cd607859f81a2bb55ab775733d9596588ec9b1858aff3bcc43",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qi-xuan-wang:46e25aea8bda6648bb44"
+      ],
+      "basisHash": "48bcf8622e4544428037d5474a728018c35a073d15808775623212f54563faa9"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 332,
+      "index": 0,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:4618b17773aca4041984"
+      ],
+      "basisHash": "2c2a90e23923484e832b78e08427ae59f4d8565a7f432cecfd5cdd26f333bb5c"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 2,
+      "year": 332,
+      "index": 0,
+      "aliases": [
+        "秦惠王"
+      ],
+      "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qin-hui-wen-wang:f1fa8513d9b09dbc2f19"
+      ],
+      "basisHash": "bafe6461a9efb7aea910b7a08b6e902f3870382f85353598f5386d3347704dfa"
+    },
+    {
+      "personId": "gong-sun-yan",
+      "person": "公孙衍",
+      "volume": 2,
+      "year": 332,
+      "index": 0,
+      "aliases": [
+        "犀首"
+      ],
+      "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "gong-sun-yan:999969c33a6dfa823b99"
+      ],
+      "basisHash": "c8bc2baca1e8eea5ea8b73cb4ca35fb744eb2df71ded68b33b58f11c9cd96bd7"
+    },
+    {
+      "personId": "chu-huai-wang",
+      "person": "楚怀王",
+      "volume": 2,
+      "year": 329,
+      "index": 1,
+      "aliases": [
+        "怀王"
+      ],
+      "sourceHash": "725444567e73df9b6ea55bf795047ef5c227b2b4d3895cf3666078b38cc23f5e",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "chu-huai-wang:795e921cbc40eba3dff3"
+      ],
+      "basisHash": "339e9f363583da92edc5206f27320ecf24ee485a575d0849dce03ad050315fd8"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 328,
+      "index": 0,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "8cabef4cdd90100b48aa6f234c612e63d3a793b98b75249d2eb5c2271279f5a6",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:7fd40641c6778edc6e83"
+      ],
+      "basisHash": "ccb8988e4b9430f627831a42691280feb2f03fccd6aaf9fea56778ec83df8fcb"
+    },
+    {
+      "personId": "fei-yi",
+      "person": "肥义",
+      "volume": 2,
+      "year": 326,
+      "index": 0,
+      "aliases": [
+        "肥义"
+      ],
+      "sourceHash": "76ee658007a9060d75de5c721d00ef02737b26add0609edcff3dea887459a34c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "fei-yi:41b6a7b33a26a62506ee"
+      ],
+      "basisHash": "a1f40f855b06fc50bb67c46dac0167a5f35e28b07c9207e87b50475cecb04015"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 324,
+      "index": 0,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "9ad7c807a24d4eb456a8d4742dddf9fea9bfa0c196f39492500f471760e92e16",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:92e10bfb7f7c9053f35c"
+      ],
+      "basisHash": "b691e9f2a7c677dadfb1394a8845619f3d1109a561de8f0b564449bf4e63376e"
+    },
+    {
+      "personId": "qi-xuan-wang",
+      "person": "齐宣王",
+      "volume": 2,
+      "year": 324,
+      "index": 1,
+      "aliases": [
+        "齐宣王"
+      ],
+      "sourceHash": "cc3838a81f4afd97e8602fb6795e09260fcb2885c613232de78db1db8577e90d",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qi-xuan-wang:39b7f04b34e4bf8bf574"
+      ],
+      "basisHash": "a6e42cbb654b98570275c80fc67138280d07e9b6c45760a81f0204d6bbc52f76"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 2,
+      "year": 324,
+      "index": 1,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "cc3838a81f4afd97e8602fb6795e09260fcb2885c613232de78db1db8577e90d",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:a3be242901ff936b7d22"
+      ],
+      "basisHash": "3231d63835423eff0c95d7d8f9371c52125da8e3591f7b41482592397a792783"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 323,
+      "index": 0,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "894137517070001cbfbc556ffcbbbeb198f8bcd1f4eb8f95c7213344b0cb0107",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:eeceb0beb40f17fa965e"
+      ],
+      "basisHash": "d541efcafa1a528b8702029993b4ea723099b5f6e981eb7500dece3323025e32"
+    },
+    {
+      "personId": "zhao-wu-ling-wang",
+      "person": "赵武灵王",
+      "volume": 2,
+      "year": 323,
+      "index": 1,
+      "aliases": [
+        "赵武灵王"
+      ],
+      "sourceHash": "f68ab1e25a1f0bff6aa6f6e8c96a2e3897f520df5eb0b563524c35fe8209e4cb",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhao-wu-ling-wang:00b25d076b963945c6f6"
+      ],
+      "basisHash": "4d249b5c3133e954c8b81b57b3702981d690d022be4f50f5aa9725933e6e92f0"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 322,
+      "index": 0,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "d14c9776b7fd08ea193d0963ca5f259c12e76631055d16b82004864266a8daff",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:de8fbb053198e1078d93"
+      ],
+      "basisHash": "1ec01814868e92b2bd4520034c16ee850576255ad03a51a72850f8e920f05f2e"
+    },
+    {
+      "personId": "meng-chang-jun",
+      "person": "孟尝君",
+      "volume": 2,
+      "year": 321,
+      "index": 4,
+      "aliases": [
+        "孟尝君"
+      ],
+      "sourceHash": "d81d50beb9c63478957722aef4e45a644152d752589557a877d989ea7ded225b",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-chang-jun:8faca51958c981ad7fb7"
+      ],
+      "basisHash": "d5a3c20ca6bd922311d80d25bb37cb45218f7f427710ff88df6e1139899d2a30"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 2,
+      "year": 321,
+      "index": 5,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "af558aba4a2c7baf2a5a1118df6298209db3f3cc14663ce531c37387ff45c0ca",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "f55e2ed3632703045ec128b64fd5e61e49497c20a0b4ad658230bed5207db46c"
+    },
+    {
+      "personId": "meng-chang-jun",
+      "person": "孟尝君",
+      "volume": 2,
+      "year": 321,
+      "index": 5,
+      "aliases": [
+        "孟尝君"
+      ],
+      "sourceHash": "af558aba4a2c7baf2a5a1118df6298209db3f3cc14663ce531c37387ff45c0ca",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-chang-jun:10916f520afa0cf269f4"
+      ],
+      "basisHash": "c3ca1f92ed5a759a49fad8d8d31c07dff1221bda06136fb65232741031dcaddd"
+    },
+    {
+      "personId": "meng-chang-jun",
+      "person": "孟尝君",
+      "volume": 2,
+      "year": 321,
+      "index": 6,
+      "aliases": [
+        "孟尝君"
+      ],
+      "sourceHash": "e2b781ad63e77259fb9621de246881d07a2f72bb6f9aed59a43bee47d38d218f",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-chang-jun:55ab9dc3946634586e27"
+      ],
+      "basisHash": "74dcd7f3096f1a08ad2d1172e98e128521aa5f2bf95b254af583170779601e63"
+    },
+    {
+      "personId": "meng-chang-jun",
+      "person": "孟尝君",
+      "volume": 2,
+      "year": 321,
+      "index": 7,
+      "aliases": [
+        "孟尝君"
+      ],
+      "sourceHash": "41bc1b1a7df863781657c7ff3182875c0a81ecf953167838460531511a1e66b6",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "meng-chang-jun:74cd8183347080efbe3d"
+      ],
+      "basisHash": "dcef9d1ef0da163996e1ddb27533e611b09ce194fd54a012180ba957b59d4898"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 2,
+      "year": 321,
+      "index": 8,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "3e04bfdc32d3a2a7e6872c35750defbf411e7a734766204a37866cba903b8393"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 2,
+      "year": 321,
+      "index": 8,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "940b06f17f2c09bd98c2b586f6a3698c474e1caec06c9507196211a6e483cc06"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 2,
+      "year": 321,
+      "index": 8,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:d4a2164cbfdeb97a5105"
+      ],
+      "basisHash": "1b08c34d34e129292d42d839eec9356357553320eeea8df1c79497b2b585ad84"
+    },
+    {
+      "personId": "gong-sun-yan",
+      "person": "公孙衍",
+      "volume": 2,
+      "year": 321,
+      "index": 8,
+      "aliases": [
+        "犀首"
+      ],
+      "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "gong-sun-yan:d4a2164cbfdeb97a5105"
+      ],
+      "basisHash": "44e0c317e84461a9d985640ecee269938da52326545acc68fe4fbe1446e18ac3"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 3,
+      "year": 317,
+      "index": 2,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "0ae7248234e7a54cb8a54bf149d62b302fabcf8ae23c867175a80bb10e3b0f26",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:ba31806e7add93e6e98e"
+      ],
+      "basisHash": "753257fbab09e997c0ef8a2cea586808464a2b8910624024013ee2743c7aa75e"
+    },
+    {
+      "personId": "chen-zhuang",
+      "person": "蜀相陈庄",
+      "volume": 3,
+      "year": 316,
+      "index": 0,
+      "aliases": [
+        "陈庄"
+      ],
+      "sourceHash": "b074a0d53a4171e7f80b9d0024ad556d977df7ad03062fdf374f24d73a10696d",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "chen-zhuang:88f06d35bfc32a1df57a"
+      ],
+      "basisHash": "78e55e2b7248338d12690a36b797532e68e5f7d79c153dd94c7dff2c267d321a"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 3,
+      "year": 316,
+      "index": 0,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "b074a0d53a4171e7f80b9d0024ad556d977df7ad03062fdf374f24d73a10696d",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:50bde691501aedec3fe2"
+      ],
+      "basisHash": "ea02a0be4096d50e63c7981c0cd959b92cfe59e291156517053db3d7122b995e"
+    },
+    {
+      "personId": "su-qin",
+      "person": "苏秦",
+      "volume": 3,
+      "year": 316,
+      "index": 1,
+      "aliases": [
+        "苏秦"
+      ],
+      "sourceHash": "5e8561a65194cb5d63d26171f63d6bf707a6747ce02e17eec6d990cb37793081",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "su-qin:beb21283ec8b1ff6ec6e"
+      ],
+      "basisHash": "0241f7874e6bca9e572d1b3135f0cecc45253cf3d68328929f0eb49bb17b842c"
+    },
+    {
+      "personId": "qin-wu-wang",
+      "person": "秦武王",
+      "volume": 3,
+      "year": 314,
+      "index": 3,
+      "aliases": [
+        "武王"
+      ],
+      "sourceHash": "7271389de71779098873f5920e30326ed5382adc551088c6394b035e27194d57",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "9c89aa16476946368a7ec16da6a24c4aac177c40fc30b8a5b7eadf65d58e1ef5"
+    },
+    {
+      "personId": "qu-gai",
+      "person": "屈匄",
+      "volume": 3,
+      "year": 313,
+      "index": 2,
+      "aliases": [
+        "屈匄"
+      ],
+      "sourceHash": "323fd6a853a8aab33fb51d5a6ddcbe456049a86e0097f793202fff37880174b6",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qu-gai:ce1a7a72f999aa4c1976"
+      ],
+      "basisHash": "0e83dae390e087b50f5d13e458081a97a5b42435dfffa75ee5a2cd9e1f0f1e3f"
+    },
+    {
+      "personId": "qin-zhao-xiang-wang",
+      "person": "秦昭襄王",
+      "volume": 3,
+      "year": 312,
+      "index": 1,
+      "aliases": [
+        "昭王"
+      ],
+      "sourceHash": "1fe217fbeb0833e1363fdd6031fd7d56c056575f8222606c686a489b5c156238",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "49df2be3c43e79b0aa6e334de6d9af74bf1e9aefbfa5f463d09d77888157cdae"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 3,
+      "year": 312,
+      "index": 2,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "569ee86dfcd54853d0cfe73577e7a423d5626006bd7fffaf05a55ae1fec7db2d",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "fab31a54658684fc2262b23cd3745f54af84396a1925254616bfb767b8f3307e"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 3,
+      "year": 312,
+      "index": 2,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "569ee86dfcd54853d0cfe73577e7a423d5626006bd7fffaf05a55ae1fec7db2d",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "511d315271d509ba7c20ff9ddb29c5dba9a2f9699beb43cb295a3b05fe08e786"
+    },
+    {
+      "personId": "wei-xiang-wang",
+      "person": "魏襄王",
+      "volume": 3,
+      "year": 312,
+      "index": 2,
+      "aliases": [
+        "襄王"
+      ],
+      "sourceHash": "569ee86dfcd54853d0cfe73577e7a423d5626006bd7fffaf05a55ae1fec7db2d",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "3fab680a59f6cb5deeca3d422f391fd0bc609b282e314016b495ae6c22e33ab2"
+    },
+    {
+      "personId": "zhang-yi",
+      "person": "张仪",
+      "volume": 3,
+      "year": 311,
+      "index": 6,
+      "aliases": [
+        "张仪"
+      ],
+      "sourceHash": "258355c2412a17f80b73f6af739818ad7aa26bc4159e4d82c9239f6fdb93e0d0",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhang-yi:3699d63c01457c47e51b"
+      ],
+      "basisHash": "0e33f6bcedc2d9cd52231f50f055b2f2c0ece4310a8c6052840d3f3c1da6485d"
+    },
+    {
+      "personId": "qin-wu-wang",
+      "person": "秦武王",
+      "volume": 3,
+      "year": 310,
+      "index": 0,
+      "aliases": [
+        "秦武王"
+      ],
+      "sourceHash": "d32964c223dcfebf503c406779d5e9d3fef3b58c76ce0c2f134dd1e19bd600b9",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qin-wu-wang:4a890a1938e3cf1282fe"
+      ],
+      "basisHash": "b39abbfa720e9cbe890028a8dbdb27d546853db110a8d9a9354b6960596b09b9"
+    },
+    {
+      "personId": "lou-huan",
+      "person": "楼缓",
+      "volume": 3,
+      "year": 310,
+      "index": 1,
+      "aliases": [
+        "楼缓"
+      ],
+      "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "lou-huan:539d8cc6c0d159ae65d2"
+      ],
+      "basisHash": "857b2c4a5e7ab127f747597038eb6e14d33f484ecca6bf4e5cc0f5eddb3d32ef"
+    },
+    {
+      "personId": "wei-wen-hou",
+      "person": "魏文侯",
+      "volume": 3,
+      "year": 308,
+      "index": 1,
+      "aliases": [
+        "文侯",
+        "魏文侯"
+      ],
+      "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "wei-wen-hou:6c9a12b1826e90ddd89e"
+      ],
+      "basisHash": "0db1a88138feb2808590c74deb055f14823aa97f79ff37355dfd20367cd9a436"
+    },
+    {
+      "personId": "zhu-li-ji",
+      "person": "樗里疾",
+      "volume": 3,
+      "year": 308,
+      "index": 1,
+      "aliases": [
+        "樗里子"
+      ],
+      "sourceHash": "bd90c5f5e8388e457d0be602d808a550c76ec54735530e93b5e9f8a515ac8523",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhu-li-ji:3ec2a00c229d528176ae"
+      ],
+      "basisHash": "8785fd1713687c9ac7637cf2bc48d45e3e35ffcca59d8afc94db76b96585c27f"
+    },
+    {
+      "personId": "wei-xiang-wang",
+      "person": "魏襄王",
+      "volume": 3,
+      "year": 307,
+      "index": 1,
+      "aliases": [
+        "襄王"
+      ],
+      "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "4d4c80b11f1c44bbfaaafc7a93ae70dd28096cfcaa27a4b75a026fc9f909813a"
+    },
+    {
+      "personId": "xuan-tai-hou",
+      "person": "宣太后",
+      "volume": 3,
+      "year": 307,
+      "index": 1,
+      "aliases": [
+        "宣太后",
+        "芈八子"
+      ],
+      "sourceHash": "f98c06af3b84e71adcc7698a24cff03365ca9f172e85e2ee69cf40b97c913158",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "xuan-tai-hou:7a1f9fadd6cf0859b34f"
+      ],
+      "basisHash": "f9fb9d6fb1175a93ebc47b2599bdc415a7c785509587194424c89b38f1312115"
+    },
+    {
+      "personId": "qin-zhao-xiang-wang",
+      "person": "秦昭襄王",
+      "volume": 3,
+      "year": 306,
+      "index": 0,
+      "aliases": [
+        "秦昭王"
+      ],
+      "sourceHash": "9367c3d06020d234948030cba431475ece513c402240c19d4f7c8384c00166d0",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qin-zhao-xiang-wang:5a6fde06ce3be49061f6"
+      ],
+      "basisHash": "060a4cbfc701c137bff647b3cb4caaab6c4a964cd3853052489db2d620faedd6"
+    },
+    {
+      "personId": "lou-huan",
+      "person": "楼缓",
+      "volume": 3,
+      "year": 306,
+      "index": 1,
+      "aliases": [
+        "楼缓"
+      ],
+      "sourceHash": "532c79897344fd43c99e730f95effd71e74310e444577c87d9704b3d056a085b",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "lou-huan:d0c7af6b507c506bb1b0"
+      ],
+      "basisHash": "f28e09224f86d961227b71184e2d5c8ed192d48f6f95f8020fcbfe33f4677f1a"
+    },
+    {
+      "personId": "p-21ea2e65fd7a",
+      "person": "王贲",
+      "volume": 3,
+      "year": 306,
+      "index": 1,
+      "aliases": [
+        "王贲"
+      ],
+      "sourceHash": "532c79897344fd43c99e730f95effd71e74310e444577c87d9704b3d056a085b",
+      "status": "unresolved-identity",
+      "reason": "此处是前306年赵王遣赴楚的使者王贲，不能凭同名归给后来秦将；未取得同一身份的证据，保留待辨，不自动加进时间轴。",
+      "eventKeys": [],
+      "basisHash": "b7e4301d3ddb3209db3177b3dc13ae8287be8a4a27e203a3a8f137c00200335a"
+    },
+    {
+      "personId": "yan-zhao-wang",
+      "person": "燕昭王",
+      "volume": 3,
+      "year": 305,
+      "index": 2,
+      "aliases": [
+        "昭王"
+      ],
+      "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "cbcf012f34063554b5dc653d2969bde5a72be49b31b45665e5ca19b626bf7331"
+    },
+    {
+      "personId": "qin-hui-wen-wang",
+      "person": "秦惠文王",
+      "volume": 3,
+      "year": 305,
+      "index": 2,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qin-hui-wen-wang:98dc5d03cb7366d24ba5"
+      ],
+      "basisHash": "9972a16783459c8cb111528c39438d5e344978cc167ed1b218fa510c0805289f"
+    },
+    {
+      "personId": "wei-hui-wang",
+      "person": "魏惠王",
+      "volume": 3,
+      "year": 305,
+      "index": 2,
+      "aliases": [
+        "惠王"
+      ],
+      "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+      "status": "excluded-other-identity",
+      "reason": "已核对上下文与国别，此处简称或姓名指别的人物，不属于本档案。",
+      "eventKeys": [],
+      "basisHash": "c6eef9ef63d006d71a76b3a10eb2f0025184c626af2d73f8b58f0b5690545302"
+    },
+    {
+      "personId": "qin-wu-wang",
+      "person": "秦武王",
+      "volume": 3,
+      "year": 305,
+      "index": 2,
+      "aliases": [
+        "武王"
+      ],
+      "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qin-wu-wang:52d1a34544466b647b3e"
+      ],
+      "basisHash": "95edae95da3fb91a967142f0826f04632f7c0ba7c243dfc82fcd25abb180b357"
+    },
+    {
+      "personId": "qin-hua-yang-jun",
+      "person": "秦华阳君",
+      "volume": 3,
+      "year": 305,
+      "index": 2,
+      "aliases": [
+        "华阳君",
+        "芈戎"
+      ],
+      "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "qin-hua-yang-jun:491657c781793bd94558"
+      ],
+      "basisHash": "cb3bdd7897a0405d589a400bacd0713ec99a72865c0a1709db346b7f215126fb"
+    },
+    {
+      "personId": "zi-zhi",
+      "person": "子之",
+      "volume": 3,
+      "year": 299,
+      "index": 4,
+      "aliases": [
+        "子之"
+      ],
+      "sourceHash": "9c066ebfd4be27407373c17710ad8bdd3db72df17b807f5729e21701480b3253",
+      "status": "excluded-false-name-match",
+      "reason": "此处子之属于天子之、君子之、简子之子或对人称子的语法组合，不指燕相子之。",
+      "eventKeys": [],
+      "basisHash": "12697509dee17d181a4919e6fcea2cd33e11683d3054b4ed3dd137e4594ec0d4"
+    },
+    {
+      "personId": "zhao-shui",
+      "person": "昭睢",
+      "volume": 3,
+      "year": 299,
+      "index": 4,
+      "aliases": [
+        "昭睢"
+      ],
+      "sourceHash": "9c066ebfd4be27407373c17710ad8bdd3db72df17b807f5729e21701480b3253",
+      "status": "included",
+      "reason": "逐段核读后已在本人物档案保留或补入对应条目。",
+      "eventKeys": [
+        "zhao-shui:fe6c7e15ee850483c5a4"
+      ],
+      "basisHash": "d37055b1a0494ef2065cd3f276bbc97da838c35981fc2e0f2c0fd4043dc68a89"
+    }
+  ]
+}

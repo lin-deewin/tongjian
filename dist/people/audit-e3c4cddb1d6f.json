@@ -1,0 +1,262 @@
+{
+  "id": "audit-e3c4cddb1d6f",
+  "name": "元宝炬",
+  "aliases": [
+    "元宝炬",
+    "西魏文帝"
+  ],
+  "identity": "西魏文帝，不能与曹魏文帝曹丕混淆。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "这一天，西魏文帝在长安城西郊祭天以后登上了皇位",
+      "summary": "这一天，西魏文帝在长安城西郊祭天以后登上了皇位",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元535年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 157,
+          "year": -535,
+          "indices": [
+            1
+          ],
+          "sourceHash": "0830df0e629331414f5339c0089f721be73ba8001d0430d4d86c4bb6b9ded3c1",
+          "quote": "是日，魏文帝即位于城西，大赦，改元大统，追尊父京兆王为文景皇帝，妣杨氏为皇后。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝把他的妃子乙弗氏立为皇后",
+      "summary": "西魏文帝把他的妃子乙弗氏立为皇后",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元535年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 157,
+          "year": -535,
+          "indices": [
+            6
+          ],
+          "sourceHash": "b0bf6a7eea847cf3f18f616842bae653c1b65098aa1c1050e9ba573d4b2c6282",
+          "quote": "乙卯，魏主立妃乙弗氏为皇后，子钦为皇太子。后仁恕节俭，不勡忌，帝甚重之。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝颁下诏书，历举了高欢的二十条罪行",
+      "summary": "西魏文帝颁下诏书，历举了高欢的二十条罪行",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元535年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 157,
+          "year": -535,
+          "indices": [
+            28
+          ],
+          "sourceHash": "a3d8a5ab28b3cd3a52c20b676207a6c6a27cc099536b028ed87df95617db435f",
+          "quote": "魏下诏数高欢二十罪，且曰：「朕将亲总六军，与丞相扫除凶丑。」欢亦移檄于魏，谓宇文黑獭、斛斯椿为逆徒，且言「今分命诸将，领兵百万，刻期西讨。」"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝在南郊祭天，改以神元皇帝配享",
+      "summary": "西魏文帝在南郊祭天，改以神元皇帝配享",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元536年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 157,
+          "year": -536,
+          "indices": [
+            0
+          ],
+          "sourceHash": "2861ea5565edd896b2376fcb5ece0b96b593ccb9f8abafabd6d11ca01226fcbd",
+          "quote": "春，正月，辛亥，魏祀南郊，改用神元皇帝配。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-4",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝回长安，宇文泰屯兵华州",
+      "summary": "西魏文帝回长安，宇文泰屯兵华州",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元538年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 158,
+          "year": -538,
+          "indices": [
+            24
+          ],
+          "sourceHash": "f1cc054a24aa54cddb0a26269135fa5d7f16ad21d143fd8bbd3fd3ee565cb7cb",
+          "quote": "九月，魏主入长安，丞相泰还屯华州。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-5",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝在华阴狩猎宴将士",
+      "summary": "西魏文帝在华阴狩猎宴将士",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元542年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 158,
+          "year": -542,
+          "indices": [
+            7
+          ],
+          "sourceHash": "9628a954a865ff336480e593345feda14c7ff3fc8a4a8437493587a8f263cbcd",
+          "quote": "十二月，魏主狩于华阴，大享将士，丞相泰帅诸将朝之。起万寿殿于沙苑北。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-6",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "宇文泰入长安朝见西魏文帝",
+      "summary": "宇文泰入长安朝见西魏文帝",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元544年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 158,
+          "year": -544,
+          "indices": [
+            10
+          ],
+          "sourceHash": "246cdb31230b3bb27babfb030aaa0e0750d3bf56034110c8a7f2151f8168f7b6",
+          "quote": "五月，甲申朔，魏丞相泰朝于长安。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-7",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝的孙子降生，大赦天下",
+      "summary": "西魏文帝的孙子降生，大赦天下",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元548年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 161,
+          "year": -548,
+          "indices": [
+            8
+          ],
+          "sourceHash": "d50a8bef3025176e8fbe1628e86ebb04c27cc60fdacbe7f1acc9f786719d89a5",
+          "quote": "魏皇孙生，大赦。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-8",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝任丞相宇文泰为太师，任广陵王元欣为太傅",
+      "summary": "西魏文帝任丞相宇文泰为太师，任广陵王元欣为太傅",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元548年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 161,
+          "year": -548,
+          "indices": [
+            18
+          ],
+          "sourceHash": "961d595437942348d8a8bccf7454617fb28f6c8dd88d39a6b414ae72f8ade2fe",
+          "quote": "五月，魏以丞相泰为太师，广陵王欣为太傅，李弼为大宗伯，赵贵为大司寇，于谨为大司空。太师泰奉太子巡抚西境，登陇，至原州，历北长城，东趣五原，至蒲州，闻魏主不豫而还。及至，已愈，泰还华州。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-9",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "西魏文帝去世，太子元钦即位",
+      "summary": "西魏文帝去世，太子元钦即位",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元551年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 164,
+          "year": -551,
+          "indices": [
+            14
+          ],
+          "sourceHash": "11d062de2b948c8bebb1d9acee16baea1a0a089247b2c236b1153350154f76cf",
+          "quote": "庚戌，魏文帝殂，太子钦立。"
+        }
+      ],
+      "id": "audit-e3c4cddb1d6f-10",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 10,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

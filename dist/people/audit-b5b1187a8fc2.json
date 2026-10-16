@@ -1,0 +1,46 @@
+{
+  "id": "audit-b5b1187a8fc2",
+  "name": "冯太后（西汉）",
+  "aliases": [
+    "冯太后",
+    "冯昭仪"
+  ],
+  "identity": "汉元帝冯昭仪、中山王祖母；不是北魏文明太后。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "史立受傅太后指使构陷冯太后，逼其自杀并牵连多人",
+      "summary": "史立受傅太后指使构陷冯太后，逼其自杀并牵连多人",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于前7年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 33,
+          "year": 7,
+          "indices": [
+            51
+          ],
+          "sourceHash": "f7321ae2e9fffff638b5b6203cbb330a1e0776171e983b02dbdc0583619b50c5",
+          "quote": "中山王箕子，幼有眚病，祖母冯太后自养视，数祷祠解。上遣中郎谒者张由将医治之。由素有狂易病，病发，怒去，西归长安。尚书簿责由擅去状，由恐，因诬言中山太后祝诅上及傅太后。傅太后与冯太后并事元帝，追怨之，因是遣御史丁玄按验；数十日，无所得。更使中谒者令史立治之；立受傅太后指，冀得封侯，治冯太后女弟习及弟妇君之，死者数十人，诬奏云：「祝诅，谋弒上，立中山王。」责问冯太后，无服辞。立曰：「熊之上殿何其勇，今何怯也！」太后还谓左右：「此乃中语，吏何用知之﹖欲陷我，效也！」乃饮药自杀。宜乡侯参、君之、习及夫、子当相坐者，或自杀，或伏法，凡死者十七人。众莫不怜之。"
+        }
+      ],
+      "id": "audit-b5b1187a8fc2-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

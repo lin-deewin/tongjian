@@ -1,0 +1,45 @@
+{
+  "id": "audit-729a3865b1e7",
+  "name": "郑译",
+  "aliases": [
+    "郑译"
+  ],
+  "identity": "隋代沛国公，不是沛公刘邦。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "隋沛公郑译去世",
+      "summary": "隋沛公郑译去世",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元591年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 177,
+          "year": -591,
+          "indices": [
+            5
+          ],
+          "sourceHash": "34ec2d3a1f78eb3043505679e93fabe02bad540c7b9bee261709e202b103613f",
+          "quote": "沛公郑译卒。"
+        }
+      ],
+      "id": "audit-729a3865b1e7-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

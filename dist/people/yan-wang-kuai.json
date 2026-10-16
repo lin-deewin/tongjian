@@ -7,7 +7,7 @@
   ],
   "identity": "燕国国君，燕昭王之父。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "将国政交给子之",
@@ -28,7 +28,12 @@
           "quote": "苏秦既死，秦弟代、厉亦以游说显于诸侯。燕相子之与苏代婚，欲得燕权。苏代使于齐而还，燕王哙问曰：“齐王其霸乎？”对曰：“不能。”王曰：“何故？”对曰：“不信其臣。”于是燕王专任子之。鹿毛寿谓燕王曰：“人之谓尧贤者，以其能让天下也。今王以国让子之，是王与尧同名也。”燕王因属国于子之，子之大重。或曰：“禹荐益而以启人为吏，及老而以启为不足任天下，传之于益。启与交党攻益，夺之，天下谓禹名传天下于益而实令启自取之。今王言属国于子之而吏无非太子人者，是名属子之而实太子用事也。”王因收印绶，自三百石吏已上而效之子之。子之南面行王事，而哙老，不听政，顾为臣，国事皆决于子之。"
         }
       ],
-      "id": "yan-wang-kuai-1"
+      "id": "yan-wang-kuai-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "燕国内乱后被齐军杀死",
@@ -49,11 +54,47 @@
           "quote": "燕子之为王三年，国内大乱。将军市被与太子平谋攻子之。齐王令人谓太子曰：“寡人闻太子将饬君臣之义，明父子之位，寡人之国唯太子所以令之。”太子因要党聚众，使市被攻子之，不克。市被反攻太子。构难数月，死者数万人，百姓恫恐。齐王令章子将五都之兵，因北地之众以伐燕。燕士卒不战，城门不闭。齐人取子之，醢之，遂杀燕王哙。"
         }
       ],
-      "id": "yan-wang-kuai-2"
+      "id": "yan-wang-kuai-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "燕易王卒后继位",
+      "summary": "燕易王卒后继位",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 321,
+      "timeLabel": "前321年",
+      "dateNote": "原文“燕易王薨，子哙立”，结合其后燕王哙记载辨人；不能只收其让国与遇害而漏去即位。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 321,
+          "indices": [
+            1
+          ],
+          "sourceHash": "e1440f5f52eb3bc3f004dc9a4cfdcd413ee68d6cf83a0cc8f1ad6a49dfdbb62a",
+          "quote": "燕易王薨，子哙立。"
+        }
+      ],
+      "id": "yan-wang-kuai-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“燕易王薨，子哙立”，结合其后燕王哙记载辨人；不能只收其让国与遇害而漏去即位。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=燕王噲&oldid=87400586",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 3,
+    "biographyCompletenessCertified": false
+  }
 }

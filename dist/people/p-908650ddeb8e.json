@@ -6,7 +6,7 @@
   ],
   "identity": "东汉士人，曾受郭泰劝勉。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "郭泰宽慰左原，劝其改过；左原后来羞愧止恶",
@@ -27,11 +27,19 @@
           "quote": "陈留左原，为郡学生，犯法见斥，泰遇诸路，为设酒肴以慰之。谓曰：「昔颜涿聚，梁甫之巨盗，段干木，晋国之大驵，卒为齐之忠臣，魏之名贤；蘧瑗、颜回尚不能无过，况其余乎！慎勿恚恨，责躬而已！」原纳其言而去。或有讥泰不绝恶人者，泰曰：「人而不仁，疾之已甚，乱也。」原后忽更怀忿结客，郄报诸生。其日，泰在学，原愧负前言，因遂罢去。后事露，众人咸谢服焉。"
         }
       ],
-      "id": "p-908650ddeb8e-1"
+      "id": "p-908650ddeb8e-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=左原&oldid=91447105",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

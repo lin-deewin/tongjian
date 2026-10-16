@@ -6,7 +6,7 @@
   ],
   "identity": "唐朝大臣，曾任宰相。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "窦从一任雍州刺史，李元纮拒绝更改判决",
@@ -27,7 +27,10 @@
           "quote": "丙辰，以蒲州刺史窦从一为雍州刺史。从一，德玄之子也，初名怀贞，避皇后父讳，更名从一，多谄附权贵。太平公主与僧寺争碾硙，雍州司户李元纮判归僧寺。从一大惧，亟命元纮改判。元纮大署判后曰：「南山可移，此判无动！」从一不能夺。元纮，道广之子也。"
         }
       ],
-      "id": "p-07ee1c85a3b7-1"
+      "id": "p-07ee1c85a3b7-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "李元纮任中书侍郎、同平章事",
@@ -48,7 +51,10 @@
           "quote": "丁已，以户部侍郎李元纮为中书侍郎、同平章事。元纮以清俭着，故上用为相。"
         }
       ],
-      "id": "p-07ee1c85a3b7-2"
+      "id": "p-07ee1c85a3b7-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "杜暹、李元纮罢相，宇文融等拜相",
@@ -69,11 +75,19 @@
           "quote": "初，张说、张嘉贞、李元纮、杜暹相继为相用事，源干曜以清自守，常让事于说等，唯诺署名而已。元纮、暹议事多异同，遂有隙，更相奏列。上不悦，六月，甲戍，贬黄门侍郎、同平章事杜暹荆州长史，中书侍郎、同平章事李元纮曹州刺史，罢干曜兼侍中，止为左丞相；以户部侍郎宇文融为黄门侍郎，兵部侍郎裴光庭为中书侍郎，并同平章事；萧嵩兼中书令，遥领河西。"
         }
       ],
-      "id": "p-07ee1c85a3b7-3"
+      "id": "p-07ee1c85a3b7-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李元纮&oldid=92980018",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

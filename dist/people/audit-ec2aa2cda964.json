@@ -1,0 +1,45 @@
+{
+  "id": "audit-ec2aa2cda964",
+  "name": "张禹谟",
+  "aliases": [
+    "张禹谟"
+  ],
+  "identity": "唐代官员，姓名不可截作张禹。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "桂管监军李维周专权，朝廷命张禹谟查办",
+      "summary": "桂管监军李维周专权，朝廷命张禹谟查办",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元876年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 252,
+          "year": -876,
+          "indices": [
+            26
+          ],
+          "sourceHash": "b8c6a86d4f329dfed4621cf1f48353c77fd87cb5179f9bf7077e6cf4a517a902",
+          "quote": "桂管监军利瓦伊周骄横，瓒曲奉之，浸不能制。桂管有兵八百人，防御使纔得百人，余皆属监军；又预于逐帅之谋，强取两使印，擅补知州官，夺昭州送使钱。诏禹谟并按之。禹谟，彻之子也。"
+        }
+      ],
+      "id": "audit-ec2aa2cda964-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

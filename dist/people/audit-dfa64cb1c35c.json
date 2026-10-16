@@ -1,0 +1,45 @@
+{
+  "id": "audit-dfa64cb1c35c",
+  "name": "刘弘泽",
+  "aliases": [
+    "刘弘泽"
+  ],
+  "identity": "南汉镇王。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉主刘晟在邕州毒杀镇王刘弘泽",
+      "summary": "南汉主刘晟在邕州毒杀镇王刘弘泽",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元944年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 284,
+          "year": -944,
+          "indices": [
+            52
+          ],
+          "sourceHash": "a4e2feaa540af9912369df1ea928d58d12a1387999bca6e28262cab0b65d91ec",
+          "quote": "冬，十月，丙午，汉主毒杀镇王弘泽于邕州。"
+        }
+      ],
+      "id": "audit-dfa64cb1c35c-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

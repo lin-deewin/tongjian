@@ -21,7 +21,7 @@ class RequestMiddleware:
 
     def __call__(self, request):
         request.request_id = uuid.uuid4().hex
-        if request.path.startswith('/tongjian/admin/'):
+        if request.path.startswith('/admin/'):
             address = ipaddress.ip_address(client_ip(request))
             if not any(address in network for network in settings.ADMIN_NETWORKS):
                 response = HttpResponseForbidden('管理入口不可从此网络访问。')
@@ -29,12 +29,12 @@ class RequestMiddleware:
                 response['X-Request-ID'] = request.request_id
                 return response
         response = self.get_response(request)
-        if request.path.startswith('/tongjian/api/') and response.status_code >= 400 and 'application/json' not in response.get('Content-Type', ''):
+        if request.path.startswith('/api/') and response.status_code >= 400 and 'application/json' not in response.get('Content-Type', ''):
             response = JsonResponse({'error': {'code': 'not_found' if response.status_code == 404 else 'request_failed',
                                       'message': '未找到请求内容。' if response.status_code == 404 else '请求暂无法完成。'},
                                      'request_id': request.request_id}, status=response.status_code)
         response['X-Request-ID'] = request.request_id
-        private = ('/tongjian/api/', '/tongjian/account/', '/tongjian/article/', '/tongjian/checkout/', '/tongjian/admin/')
+        private = ('/api/', '/account/', '/article/', '/checkout/', '/admin/')
         if request.path.startswith(private):
             response['Cache-Control'] = 'private, no-store'
             response['X-Robots-Tag'] = 'noindex, nofollow'

@@ -6,7 +6,7 @@
   ],
   "identity": "刘宋孝武帝宠妃。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "潘淑妃劝刘浚自尽避祸",
@@ -27,7 +27,10 @@
           "quote": "潘淑妃抱浚泣曰：「汝南祝诅事发，犹冀能刻意思愆；何意更藏严道育！上怒甚，我叩头乞恩不能解，今何用生为！可送药来，当先自取尽，不忍见汝祸败也。」浚奋衣起曰：「天下事寻自当判，愿小宽虑，必不上累！」"
         }
       ],
-      "id": "p-7c1dc7c75352-1"
+      "id": "p-7c1dc7c75352-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "刘浚受潘淑妃专宠并与太子刘劭交好",
@@ -48,11 +51,19 @@
           "quote": "初，潘淑妃生始兴王浚。淑妃专总内政。由是太子劭深恶淑妃及浚。浚惧为将来之祸，乃曲意事劭，劭更与之善。"
         }
       ],
-      "id": "p-7c1dc7c75352-2"
+      "id": "p-7c1dc7c75352-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=潘淑妃&oldid=93970717",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

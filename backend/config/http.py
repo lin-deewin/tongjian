@@ -36,17 +36,22 @@ def user_required(request):
 
 def safe_next(value):
     if not isinstance(value, (str, type(None))):
-        return '/tongjian/account/purchases/'
-    value = value or '/tongjian/account/purchases/'
-    parts = urlsplit(value)
+        return '/account/purchases/'
+    value = value or '/account/purchases/'
+    try:
+        parts = urlsplit(value)
+    except ValueError:
+        return '/account/purchases/'
     decoded = unquote(parts.path)
-    if (parts.scheme or parts.netloc or len(value) > 2048 or not posixpath.normpath(decoded).startswith('/tongjian/')
+    if (parts.scheme or parts.netloc or len(value) > 2048
+            or not decoded.startswith('/') or decoded.startswith('//')
+            or not posixpath.normpath(decoded).startswith('/')
             or '\\' in decoded or any(ord(c) < 32 for c in unquote(value))):
-        return '/tongjian/account/purchases/'
+        return '/account/purchases/'
     return value
 
 def csrf_failure(request, reason=''):
-    if not request.path.startswith('/tongjian/api/'):
+    if not request.path.startswith('/api/'):
         from django.shortcuts import render
         return render(request, 'csrf_failure.html', status=403)
     return JsonResponse({'error': {'code': 'csrf_failed', 'message': '页面验证已失效，请刷新后重试。'},

@@ -6,7 +6,7 @@
   ],
   "identity": "东汉名士，经郭泰识拔。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "郭泰识拔茅容、孟敏等寒门名士",
@@ -27,11 +27,19 @@
           "quote": "泰性明知人，好奖训士类，周游郡国。茅容，年四十余，耕于野，与等辈避雨树下，众皆夷踞相对，容独危坐愈恭，泰见而异之，因请寓宿。旦日，容杀鸡为馔，泰谓为己设；容分半食母，余半庋置，自以草蔬与客同饭。泰曰：「卿贤哉远矣！郭林宗犹减三牲之具以供宾旅，而卿如此，乃我友也。」起，对之揖，劝令从学，卒为盛德。巨鹿孟敏，客居太原，荷甑堕地，不顾而去。泰见而问其意，对曰：「甑已破矣，视之何益！」泰以为有分决，与之言，知其德性，因劝令游学，遂知名当世。陈留申屠蟠，家贫，佣为漆工；泰见而奇之，其后皆为名士。自余或出于屠沽、卒伍，因泰奖进成名者甚众。"
         }
       ],
-      "id": "p-4e7eee5b477a-1"
+      "id": "p-4e7eee5b477a-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=茅容&oldid=91446964",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

@@ -1,0 +1,239 @@
+{
+  "id": "audit-22aa7ff3a0b2",
+  "name": "汉顺帝",
+  "aliases": [
+    "汉顺帝",
+    "顺帝",
+    "刘保"
+  ],
+  "identity": "东汉皇帝刘保，继位在汉安帝之后。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "顺帝朝见阎太后，太后心意安定",
+      "summary": "顺帝朝见阎太后，太后心意安定",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -126,
+      "timeLabel": "公元126年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -126,
+          "indices": [
+            0
+          ],
+          "sourceHash": "be8465ec2e2bf43926120c03e4af9130840a9c956d3053bb09dc3c330597e68c",
+          "quote": "春，正月，帝朝太后于东宫，太后意乃安。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "顺帝追谥生母李氏，改葬恭陵",
+      "summary": "顺帝追谥生母李氏，改葬恭陵",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -127,
+      "timeLabel": "公元127年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -127,
+          "indices": [
+            3
+          ],
+          "sourceHash": "e7d321c0e38c3e2868363999a0b8ca477dbb04a5c55c0477a5c45bfbd4b4ed8c",
+          "quote": "初，帝母李氏瘗在雒阳北，帝初不知；至是，左右白之，帝乃发哀，亲到瘗所，更以礼殡。六月，乙酉，追谥为恭愍皇后，葬于恭陵之北。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "顺帝召孙程等回京",
+      "summary": "顺帝召孙程等回京",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -128,
+      "timeLabel": "公元128年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -128,
+          "indices": [
+            7
+          ],
+          "sourceHash": "06126fabcf0fb32a7ea225e0cd14bca5821197decc04ab23b6e81c6c32a12368",
+          "quote": "帝悉召孙程等还京师。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "顺帝加元服",
+      "summary": "顺帝加元服",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -129,
+      "timeLabel": "公元129年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -129,
+          "indices": [
+            1
+          ],
+          "sourceHash": "77b1b8c45aacc10728e939cc1f6c064449979626e5cedb30bac4353577fe67df",
+          "quote": "丙子，帝加元服。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-4",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "顺帝退还桂阳太守所献大珠",
+      "summary": "顺帝退还桂阳太守所献大珠",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -129,
+      "timeLabel": "公元129年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -129,
+          "indices": [
+            2
+          ],
+          "sourceHash": "9d407b00901790e487188c8e5ee420249b9f2725bc496ac2cba3d16b3e598789",
+          "quote": "夏，五月，壬辰，诏曰：「海内颇有灾异，朝廷修政，太官减膳，珍玩不御。而桂阳太守文砻，不惟竭忠宣畅本朝，而远献大珠以求幸媚，今封以还之！」"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-5",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "梁贵人谦让，顺帝称其贤德",
+      "summary": "梁贵人谦让，顺帝称其贤德",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元131年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -131,
+          "indices": [
+            6
+          ],
+          "sourceHash": "8d3f867ed9cc8870748842c308c989ef40465ab1bb7681926f17c5f937eb44cc",
+          "quote": "恭怀皇后弟子乘氏侯商之女，选入掖庭为贵人，常特被引御，从容辞曰：「夫阳以博施为德，阴以不专为义。螽斯则百福所由兴也。愿陛下思雨之均泽，小妾得免于罪。」帝由是贤之。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-6",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "左雄请整顿官吏选任与考核，顺帝下诏施行",
+      "summary": "左雄请整顿官吏选任与考核，顺帝下诏施行",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元132年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -132,
+          "indices": [
+            6
+          ],
+          "sourceHash": "9407d3c903303adb825b6356273a9f433fd88ba18ebb3be209f1085b19dd0db8",
+          "quote": "尚书令左雄上疏曰：「昔宣帝以为吏数变易，则下不安业；久于其事，则民服教化；其金政治者，辄以玺书勉励，增秩赐金，公卿缺则以次用之。是以吏称其职，民安其业，汉世良吏，于兹为盛。今典城百里，转动无常，各怀一切，莫虑长久。谓杀害不辜为威风，聚敛整办为贤能；以治己安民为劣弱，奉法循理为不治。髡钳之戮，生于睚鈪；与同疾疢，见非不举，闻恶不察。观政于亭传，责成于翆月；言善不称德，论功不据实。虚诞者获誉，拘检者离毁；或因罪而引高，或色斯而求名，州宰不覆，竞共辟召，踊跃升腾，赻等踰匹。或考奏捕案，而亡不受罪，会赦行赂，复见洗涤，朱紫同色，清浊不分。故使奸猾枉滥，轻忽去就，拜除如流，缺动百数。乡官、部吏，职贱禄薄，车马衣服，一出于民，廉者取足，贪者充；特选、横调，纷纷不绝，送迎烦费，损政政伤民。和气未洽，灾眚不消，咎皆在此。臣愚以为守相、长吏惠和有显效者，可就增秩，勿移徙；非父母丧，不得去官。其不从法禁，不式王命，锢之终身，虽会赦令，不得齿列。若被劾奏，亡不就法者，徙家边郡，以惩其后。其乡部亲民之吏，皆用儒生清白任从政者，宽其负算，增其秩禄；吏职满岁，宰府州郡乃得辟举。如此，威福之路塞，虚伪之端绝，送迎之役损，赋敛之源息，循理之吏得成其化，率土之民各宁其所矣。〕帝感其言，复申无故去官之禁，又下有司空吏治真伪，详所施行；而宦官不便，终不能行。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-7",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "左雄请孝廉年满四十方可举荐，顺帝准许",
+      "summary": "左雄请孝廉年满四十方可举荐，顺帝准许",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元132年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -132,
+          "indices": [
+            7
+          ],
+          "sourceHash": "5dd2520920763ed1e2d34238ea8c1c1c1d55abfacf4d4ffc7ad73e999330627d",
+          "quote": "雄又上言：「孔子曰『四十不惑』，礼称强仕。请自今，孝廉年不满四十，不得察举，皆先诣公府，诸生试家法，文吏课笺奏，副之端门，练其虚实，以观异能，以美风俗；有不承科令者，正其罪法。若有茂材异行，自可不拘年齿。」帝从之。"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-8",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "郎顗精通阴阳术数，顺帝征召问灾异",
+      "summary": "郎顗精通阴阳术数，顺帝征召问灾异",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元132年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 51,
+          "year": -132,
+          "indices": [
+            14
+          ],
+          "sourceHash": "8cb261d51d8419488b9befa29c20f9a01feaf700c9b372790ad361bfc2ffe4a9",
+          "quote": "上闻北海郎顗精于阴阳之学，"
+        }
+      ],
+      "id": "audit-22aa7ff3a0b2-9",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 9,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

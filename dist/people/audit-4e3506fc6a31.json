@@ -1,0 +1,45 @@
+{
+  "id": "audit-4e3506fc6a31",
+  "name": "刘康乂",
+  "aliases": [
+    "刘康乂"
+  ],
+  "identity": "唐末密州刺史。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "王茂章会同王师诲攻取密州，斩刺史刘康乂",
+      "summary": "王茂章会同王师诲攻取密州，斩刺史刘康乂",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元903年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 264,
+          "year": -903,
+          "indices": [
+            34
+          ],
+          "sourceHash": "3437a89f2de74d8448959b587bb1b04229cdfcf0327bbf65ac3cb4fff2609c3f",
+          "quote": "淮南将王茂章会王师范弟莱州刺史师诲攻密州，拔之，斩其刺史刘康乂，以淮海都游弈使张训为刺史。"
+        }
+      ],
+      "id": "audit-4e3506fc6a31-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

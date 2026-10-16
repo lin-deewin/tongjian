@@ -1,0 +1,93 @@
+{
+  "id": "audit-c65cfde4154a",
+  "name": "孙秀（东吴宗室）",
+  "aliases": [
+    "孙秀"
+  ],
+  "identity": "东吴宗室，孙皓时期奔晋，封会稽公；不是依附司马伦的孙秀。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "孙秀惧遭孙皓猜忌，率部降晋并受封会稽公",
+      "summary": "孙秀惧遭孙皓猜忌，率部降晋并受封会稽公",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -270,
+      "timeLabel": "公元270年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 79,
+          "year": -270,
+          "indices": [
+            10
+          ],
+          "sourceHash": "920d30ee2e612b2fee4613fd525c6d26d3e45ad7f719e717cc4abf3419a74159",
+          "quote": "吴主从弟前将军秀为夏口督，吴主恶之，民间皆言秀当见图。会吴主遣何定将兵五千人猎夏口，秀惊，夜将妻子亲兵数百人来奔。十二月，拜秀票骑将军、开府仪同三司，封会稽公。"
+        }
+      ],
+      "id": "audit-c65cfde4154a-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "晋廷庆贺平吴，孙秀南望故国流泪",
+      "summary": "晋廷庆贺平吴，孙秀南望故国流泪",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元280年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 81,
+          "year": -280,
+          "indices": [
+            12
+          ],
+          "sourceHash": "31c4112400a3b12b05cd2f44a77282674d073c1e14b69cf439016b92da1bae17",
+          "quote": "朝廷闻吴已平，群臣皆贺上寿，帝执爵流涕曰：「此羊太傅之功也。」票骑将军孙秀不贺，南向流涕曰：「昔讨逆弱冠以一校尉创业，今后主举江南而弃之，宗庙山陵，于此为墟，悠悠苍天，此何人哉！」"
+        }
+      ],
+      "id": "audit-c65cfde4154a-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "吴亡后，晋廷改授孙秀、孙楷低职",
+      "summary": "吴亡后，晋廷改授孙秀、孙楷低职",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元280年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 81,
+          "year": -280,
+          "indices": [
+            18
+          ],
+          "sourceHash": "6be4f3fee22ff4c17f6da78605214101dadad6be84413f3bf917a30d987fc314",
+          "quote": "初，朝廷尊宠孙秀、孙楷，欲以招来吴人。及吴亡，降秀为伏波将军，楷为度辽将军。"
+        }
+      ],
+      "id": "audit-c65cfde4154a-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

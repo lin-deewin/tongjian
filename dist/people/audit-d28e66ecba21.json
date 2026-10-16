@@ -1,0 +1,69 @@
+{
+  "id": "audit-d28e66ecba21",
+  "name": "杨广香",
+  "aliases": [
+    "杨广香"
+  ],
+  "identity": "北魏葭芦镇主、沙州及西秦州刺史，姓名不能截作隋炀帝杨广。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "北魏葭芦镇主杨广香请降",
+      "summary": "北魏葭芦镇主杨广香请降",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元479年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 135,
+          "year": -479,
+          "indices": [
+            39
+          ],
+          "sourceHash": "38379db2513488b78b4a451c2446ac23b2c47148a05f8acdd46d31111035c775",
+          "quote": "魏葭芦镇主杨广香请降，丙辰，以广香为沙州刺史。"
+        }
+      ],
+      "id": "audit-d28e66ecba21-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "杨广香改任西秦州刺史",
+      "summary": "杨广香改任西秦州刺史",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元480年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 135,
+          "year": -480,
+          "indices": [
+            30
+          ],
+          "sourceHash": "091099ff68e5108ae01ff7560539d9fde1d813f28368aac5dfbeb03b2010b367",
+          "quote": "甲辰，以沙州刺史杨广香为西秦州刺史，又以其子炅为武都太守。"
+        }
+      ],
+      "id": "audit-d28e66ecba21-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -1,30 +1,48 @@
 {
-	admin off
-	auto_https off
+    admin off
+    auto_https off
 }
-
 http://:3003 {
-	bind tcp4/0.0.0.0
-	@accounts path /tongjian/account /tongjian/account/* /tongjian/api/* /tongjian/checkout/* /tongjian/article/* /tongjian/admin/*
-	handle @accounts {
-		header >Cache-Control "private, no-store"
-		reverse_proxy 127.0.0.1:18010 {
-			header_up X-Real-IP {remote_host}
-		}
-	}
-	handle_path /tongjian/admin-static/* {
-		root * tmp/commerce-static
-		file_server
-	}
-	redir /tongjian /tongjian/ 308
-	handle_path /tongjian/* {
-		root * dist
-		encode zstd gzip
-		file_server
-	}
-	# Preserve old root-level bookmarks, queries and browser fragments by
-	# moving them to the same /tongjian/ prefix used by the account pages.
-	handle {
-		redir * /tongjian{uri} 308
-	}
+    bind tcp4/0.0.0.0
+    # Payment providers may still call the old URL for previously created orders.
+    @legacyCallbacks path /tongjian/api/v1/payments/*
+    handle @legacyCallbacks {
+        uri strip_prefix /tongjian
+        header Cache-Control "private, no-store"
+        reverse_proxy 127.0.0.1:18010 {
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+    @legacy path /tongjian /tongjian/*
+    handle @legacy {
+        header Cache-Control "no-store"
+        route {
+            uri strip_prefix /tongjian
+            redir http://{hostport}{uri} 308
+        }
+    }
+    @accounts path /account /account/* /api/* /checkout/* /article/* /admin /admin/*
+    handle @accounts {
+        header Cache-Control "private, no-store"
+        reverse_proxy 127.0.0.1:18010 {
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+    handle_path /admin-static/* {
+        root * tmp/commerce-static
+        file_server
+    }
+    @crawlFiles path /robots.txt /sitemap.xml /sitemap-index.xml
+    handle @crawlFiles {
+        root * dist
+        header Cache-Control "no-store, no-cache, must-revalidate"
+        file_server
+    }
+    handle {
+        root * dist
+        encode zstd gzip
+        file_server
+    }
 }

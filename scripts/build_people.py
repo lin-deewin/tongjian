@@ -1,9 +1,10 @@
-"""Publish reviewed people without altering volume data; refuse stale source bindings."""
+"""Publish source-linked people; validate bindings without certifying historical judgments."""
 from collections import Counter
 import argparse
 import hashlib
 import json
 from pathlib import Path
+from people_review import event_key, validate_record, validate_candidate
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -16,6 +17,13 @@ def build(bind=False):
     life_years = json.loads((ROOT / 'scripts/people/life-years.json').read_text())['people']
     volumes = {s['volume'] for p in data['people'] for e in p['events'] for s in e['sources']}
     books = {v: json.loads((ROOT / f'dist/volume{v}.json').read_text()) for v in volumes}
+    review_path = ROOT / 'scripts/people/semantic-reviews.json'
+    review_data = json.loads(review_path.read_text()) if review_path.exists() else {}
+    reviews = review_data.get('reviews', [])
+    review_by_key = {r['key']: r for r in reviews}
+    if len(review_by_key) != len(reviews):
+        raise ValueError('Duplicate semantic review keys')
+    used_reviews = set()
     locations, catalog, outputs = {}, [], []
     ids = set()
     for person in data['people']:
@@ -55,6 +63,16 @@ def build(bind=False):
                     locations.setdefault(key, [])
                     if person['id'] not in locations[key]:
                         locations[key].append(person['id'])
+            record = review_by_key.get(event_key(person, event))
+            event['semanticReview'] = {'status': 'pending'}
+            if record:
+                validate_record(person, event, books, record)
+                used_reviews.add(record['key'])
+                event['semanticReview'] = {k: record[k] for k in ('status', 'reviewedOn', 'note')}
+        person['reviewSummary'] = dict(
+            currentEntries=len(person['events']),
+            sourceReviewedEntries=sum(e['semanticReview']['status'] == 'verified-against-source' for e in person['events']),
+            biographyCompletenessCertified=False)
         output = ROOT / 'dist/people' / f"{person['id']}.json"
         outputs.append((output, json.dumps(person, ensure_ascii=False, indent=2) + '\n'))
         meta = {k: person[k] for k in ('id', 'name', 'aliases', 'identity', 'coverage')}
@@ -63,6 +81,12 @@ def build(bind=False):
         catalog.append(meta)
     if set(life_years) != ids:
         raise ValueError('Life-year reviews must cover exactly the current people directory')
+    if set(review_by_key) != used_reviews:
+        raise ValueError('Orphan semantic reviews: update decisions after removing/changing entries')
+    people_by_id = {p['id']: p for p in data['people']}
+    for candidate in review_data.get('candidateReviews', []):
+        person = people_by_id[candidate['personId']]
+        validate_candidate(person, candidate, books, person['events'])
     def year_axis(year):
         return 1 - year if year > 0 else -year
     age_counts = Counter()
@@ -85,15 +109,22 @@ def build(bind=False):
         output.parent.mkdir(exist_ok=True)
         output.write_text(content)
     (ROOT / 'dist/people-life-report.json').write_text(json.dumps(life_report, ensure_ascii=False, indent=2) + '\n')
+    review_report = dict(people=len(catalog), currentEntries=sum(len(p['events']) for p in data['people']),
+                        sourceReviewedEntries=len(used_reviews),
+                        profilesWithAllCurrentEntriesReviewed=sum(p['reviewSummary']['currentEntries'] == p['reviewSummary']['sourceReviewedEntries'] for p in data['people']),
+                        biographyCompletenessCertified=False, externalHistoricalAccuracyCertified=False)
+    (ROOT / 'dist/people-review-report.json').write_text(json.dumps(review_report, ensure_ascii=False, indent=2) + '\n')
     if bind:
         # Quote is generated data, hashes are the persistent source contract.
         for person in data['people']:
             for event in person['events']:
                 for source in event['sources']:
                     source.pop('quote', None)
+                event.pop('semanticReview', None)
+            person.pop('reviewSummary', None)
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
     (ROOT / 'dist/people-index.json').write_text(json.dumps(dict(schemaVersion=1, people=catalog, locations=locations), ensure_ascii=False, indent=2) + '\n')
-    print(f"PASS: {len(catalog)} people, {sum(len(p['events']) for p in data['people'])} reviewed entries, {len(locations)} source locations")
+    print(f"PASS: {len(catalog)} people, {sum(len(p['events']) for p in data['people'])} source-linked entries, {len(locations)} source locations")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)

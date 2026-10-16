@@ -1,0 +1,70 @@
+{
+  "id": "audit-243872795b0e",
+  "name": "刘胜（中山靖王）",
+  "aliases": [
+    "刘胜",
+    "中山靖王"
+  ],
+  "identity": "西汉中山靖王，汉景帝之子；不是东汉平原王。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘胜泣诉宗室受吏侵削，景帝厚待诸王",
+      "summary": "刘胜泣诉宗室受吏侵削，景帝厚待诸王",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 138,
+      "timeLabel": "前138年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 17,
+          "year": 138,
+          "indices": [
+            0
+          ],
+          "sourceHash": "a64a09fb6835f11128b26c1cf42311345167366bbe3a1ea29bfa1aaf51458e88",
+          "quote": "冬，十月，代王登、长沙王发、中山王胜、济川王明来朝。上置酒，胜闻乐声而泣。上问其故，对曰：“悲者不可为累欷，思者不可为叹息。今臣心结日久，每闻幼眇之声，不知涕泣之横集也。臣得蒙肺附为东藩，属又称兄。今群臣非有葭莩之亲、鸿毛之重；群居党议，朋友相为，使夫宗室摈却，骨肉冰释，臣窃伤之！”具以吏所侵闻。于是上乃厚诸侯之礼，省有司所奏诸侯事，加亲亲之恩焉。"
+        }
+      ],
+      "id": "audit-243872795b0e-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "中山王刘胜卒",
+      "summary": "中山王刘胜卒",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 113,
+      "timeLabel": "前113年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 20,
+          "year": 113,
+          "indices": [
+            1
+          ],
+          "sourceHash": "28594f31e617ca770bfe6affcd0fa1d67ff942cdf87f9d6ea0969db5b8411bf3",
+          "quote": "春，二月，中山靖王胜薨。"
+        }
+      ],
+      "id": "audit-243872795b0e-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

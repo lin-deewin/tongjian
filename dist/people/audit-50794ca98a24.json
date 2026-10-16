@@ -1,0 +1,45 @@
+{
+  "id": "audit-50794ca98a24",
+  "name": "宇文毓",
+  "aliases": [
+    "宇文毓"
+  ],
+  "identity": "北周明帝，庙号世宗；不是后周世宗柴荣。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "寇儁坚持归还多得的绢帛，受到周世宗礼遇",
+      "summary": "寇儁坚持归还多得的绢帛，受到周世宗礼遇",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元559年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 167,
+          "year": -559,
+          "indices": [
+            23
+          ],
+          "sourceHash": "079584297c889a7c36fecda5a6a115c54e66bbe4906d515f0e731afcdaf60be7",
+          "quote": "骠骑将军、开府仪同三司寇儁，赞之孙也。少有学行。家人常卖物，多得绢五匹，儁于后知之，曰：「得财失行，吾所不取。」访主还之。敦睦宗族，与同丰约，教训子孙，必先礼义。自大统中，称老疾，不朝谒；世宗虚心欲见之，儁不得已入见。王引之同席而坐，问以魏朝旧事；载以御舆，令于王前乘之以出，顾谓左右曰：「如此之事，唯积善者可姿致之。」"
+        }
+      ],
+      "id": "audit-50794ca98a24-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

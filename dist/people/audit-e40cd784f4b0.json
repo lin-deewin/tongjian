@@ -1,0 +1,45 @@
+{
+  "id": "audit-e40cd784f4b0",
+  "name": "黄琼芝",
+  "aliases": [
+    "黄琼芝"
+  ],
+  "identity": "南汉女侍中，不是东汉黄琼。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉主任卢琼仙与黄琼芝为女侍中并使其参与政事",
+      "summary": "南汉主任卢琼仙与黄琼芝为女侍中并使其参与政事",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元950年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 289,
+          "year": -950,
+          "indices": [
+            101
+          ],
+          "sourceHash": "4e7b842fd53f06d40d59e59d88ad58c0f0803c555b44379a4f1c4aa50008f4fa",
+          "quote": "南汉主以宫人卢琼仙、黄琼芝为女侍中，朝服冠带，参决政事。宗室勋旧，诛刃殆尽，惟宦官林延遇等用事。"
+        }
+      ],
+      "id": "audit-e40cd784f4b0-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

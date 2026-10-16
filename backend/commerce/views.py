@@ -45,14 +45,14 @@ def product_info(request, slug):
         'price_confirmed': not product.test_product or settings.PAYMENT_PROVIDER == 'fake' or settings.PAYMENT_VERIFICATION_ENABLED,
         'sales_enabled': available, 'terms_version': product.terms_version,
         'scenes': [s for s in settings.PAYMENT_SCENES if s in {'native', 'h5'}],
-        'includes': ['专题全文', '配套 PDF'], 'preview_url': '/tongjian/truth.html',
-        'terms_url': '/tongjian/account/terms/'})
+        'includes': ['专题全文', '配套 PDF'], 'preview_url': '/truth.html',
+        'terms_url': '/account/terms/'})
 
 def order_data(order):
     return {'id': str(order.pk), 'number': order.merchant_number, 'status': order.status,
             'amount_fen': order.amount_fen, 'title': order.title,
-            'checkout_url': f'/tongjian/checkout/{order.pk}/',
-            'article_url': f'/tongjian/article/{order.product.slug}/',
+            'checkout_url': f'/checkout/{order.pk}/',
+            'article_url': f'/article/{order.product.slug}/',
             'refund_status': Refund.objects.filter(order=order).values_list('status', flat=True).first()}
 
 @require_POST
@@ -90,8 +90,8 @@ def purchases(request):
     for grant in page:
         product = grant.product
         unique[product.slug] = {'slug': product.slug, 'title': product.title,
-            'article_url': f'/tongjian/article/{product.slug}/',
-            'download_url': f'/tongjian/api/v1/products/{product.slug}/download/'}
+            'article_url': f'/article/{product.slug}/',
+            'download_url': f'/api/v1/products/{product.slug}/download/'}
     return JsonResponse({'items': list(unique.values()), 'pages': page.paginator.num_pages, 'page': page.number})
 
 @require_GET
@@ -106,9 +106,9 @@ def purchases_page(request):
 def article(request, slug):
     product = get_object_or_404(Product, slug=slug)
     if not has_access(request.user, product):
-        return HttpResponseRedirect('/tongjian/truth.html' + ('#' + request.GET['anchor'] if request.GET.get('anchor', '').isalnum() else ''))
+        return HttpResponseRedirect('/truth.html' + ('#' + request.GET['anchor'] if request.GET.get('anchor', '').isalnum() else ''))
     path = content_file(product.current_version, 'article.html')
-    return render(request, 'article.html', {'product': product, 'article_body': mark_safe(path.read_text())})
+    return render(request, 'article.html', {'product': product, 'article_body': mark_safe(path.read_text().replace('href="/tongjian/', 'href="/').replace("href='/tongjian/", "href='/"))})
 
 @require_GET
 @endpoint

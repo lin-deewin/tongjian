@@ -6,7 +6,7 @@
   ],
   "identity": "东汉官员，曾任三公。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "刘崎、孔扶因灾异免职，黄尚、王卓继任",
@@ -27,16 +27,19 @@
           "quote": "十一月，壬寅，司徒刘崎、司空孔扶免，用周举之言也。乙巳，以大司农黄尚为司徒，光禄勋河东王卓为司空。"
         }
       ],
-      "id": "p-cd2c0d552f49-1"
+      "id": "p-cd2c0d552f49-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "王卓去世，郭虔任司空",
       "summary": "王卓去世，郭虔任司空",
       "kind": "主要经历",
-      "category": "任职",
+      "category": "去世",
       "year": -137,
       "timeLabel": "公元137年",
-      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "dateNote": "依原书本年记事。",
       "sources": [
         {
           "volume": 52,
@@ -48,11 +51,19 @@
           "quote": "三月，司空王卓薨。丁丑，以光禄勋郭虔为司空。"
         }
       ],
-      "id": "p-cd2c0d552f49-2"
+      "id": "p-cd2c0d552f49-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=王卓_(東漢)&oldid=88510255",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

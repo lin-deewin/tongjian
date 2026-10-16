@@ -9,7 +9,7 @@
   ],
   "identity": "齐宣王之子，继位为齐王。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "继位为齐王",
@@ -30,28 +30,12 @@
           "quote": "是岁，齐宣王薨，子闵王地立。"
         }
       ],
-      "id": "qi-min-wang-1"
-    },
-    {
-      "title": "乘燕国内乱出兵攻燕",
-      "summary": "齐湣王命章子率军进入燕国；燕军不战，齐军杀子之与燕王哙。",
-      "kind": "主要经历",
-      "category": "战争",
-      "year": 314,
-      "timeLabel": "前314年",
-      "dateNote": "依原书本年记事。",
-      "sources": [
-        {
-          "volume": 3,
-          "year": 314,
-          "indices": [
-            2
-          ],
-          "sourceHash": "642cec8e77b69695d0ffdf08919f36f80d75a7fc3c40168385a19550139e4df2",
-          "quote": "燕子之为王三年，国内大乱。将军市被与太子平谋攻子之。齐王令人谓太子曰：“寡人闻太子将饬君臣之义，明父子之位，寡人之国唯太子所以令之。”太子因要党聚众，使市被攻子之，不克。市被反攻太子。构难数月，死者数万人，百姓恫恐。齐王令章子将五都之兵，因北地之众以伐燕。燕士卒不战，城门不闭。齐人取子之，醢之，遂杀燕王哙。"
-        }
-      ],
-      "id": "qi-min-wang-2"
+      "id": "qi-min-wang-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "归还楚太子并支持楚国另立君主",
@@ -72,11 +56,21 @@
           "quote": "楚大臣患之，乃相与谋曰：“吾王在秦不得还，要以割地，而太子为质于齐，齐、秦合谋，则楚无国矣。”欲立王子之在国者。昭睢曰：“王与太子俱困于诸侯，今又倍王命而立其庶子，不宜！”乃诈赴于齐。齐闵王召群臣谋之，或曰：“不若留太子以求楚之淮北。”齐相曰：“不可！郢中立王，是吾抱空质而行不义于天下也。”其人曰：“不然，郢中立王，因与其新王市曰：『予我下东国，吾为王杀太子。不然，将与三国共立之。』”齐王卒用其相计而归楚太子。楚人立之。"
         }
       ],
-      "id": "qi-min-wang-3"
+      "id": "qi-min-wang-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=齊湣王&oldid=94701293",
   "birthStatus": "approximate",
-  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 2,
+    "biographyCompletenessCertified": false
+  }
 }

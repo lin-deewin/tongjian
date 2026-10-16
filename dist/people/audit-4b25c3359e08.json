@@ -1,0 +1,94 @@
+{
+  "id": "audit-4b25c3359e08",
+  "name": "萧宝卷",
+  "aliases": [
+    "萧宝卷",
+    "东昏侯"
+  ],
+  "identity": "南齐东昏侯，继明帝萧鸾即位。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "萧宝卷亲祀南郊",
+      "summary": "萧宝卷亲祀南郊",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -499,
+      "timeLabel": "公元499年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 142,
+          "year": -499,
+          "indices": [
+            3
+          ],
+          "sourceHash": "cbe46812352f27ffe9bde908db58c81ff1d40942af3b43f0f2fb848f07c0ae0a",
+          "quote": "辛卯，帝祀南郊。"
+        }
+      ],
+      "id": "audit-4b25c3359e08-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "萧宝卷不满江祏等大臣专权而与之不和",
+      "summary": "萧宝卷不满江祏等大臣专权而与之不和",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -499,
+      "timeLabel": "公元499年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 142,
+          "year": -499,
+          "indices": [
+            34
+          ],
+          "sourceHash": "de2c040db90f5d082bab24fe7d4f1112841675368521395a9bd0f8101f791324",
+          "quote": "初，高宗虽顾命群公，而多寄腹心在江祏兄弟。二江更直殿内，动止关之。帝稍欲行意，徐孝嗣不能夺，萧坦之时有异同，而祏执制坚确；帝深忿之。帝左右会稽茹法珍、吴兴梅虫儿等，为帝所委任，祏常裁折之；法珍等切齿。徐孝嗣谓祏曰：「主上稍有异同，讵可尽相乖反！」祏曰：「但以见付，必无所忧。」"
+        }
+      ],
+      "id": "audit-4b25c3359e08-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "刘暄拒绝支持萧遥光，萧宝卷诛杀江祏兄弟",
+      "summary": "刘暄拒绝支持萧遥光，萧宝卷诛杀江祏兄弟",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元499年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 142,
+          "year": -499,
+          "indices": [
+            37
+          ],
+          "sourceHash": "ad43e7d835be6b2983561e857cdc20ed2aae61a7dd23ae31bc0266003e499953",
+          "quote": "暄以遥光若立，已失元舅之尊，不肯同祏议；故祏迟疑久不决；遥光大怒，遣左右黄昙庆刺暄于青溪桥。昙庆见暄部伍多，不敢发；暄觉之，遂发祏谋，帝命收祏兄弟。时祀直内殿，疑有异，遣信报祏曰：「刘暄似有异谋。今作何计﹖」祏曰：「政当静以镇之。」俄有诏召祏入见，停中书省。初，袁文旷以斩王敬则功当封，祏执不与；帝使文旷取祏，文旷以刀环筑其心曰：「复能夺我封不！」并弟祀皆死。刘暄闻祏等死，眠中大惊，投出户外，问左右：「收至未﹖」良久，意定，还坐，大悲曰：「不念江，行自痛也！」"
+        }
+      ],
+      "id": "audit-4b25c3359e08-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

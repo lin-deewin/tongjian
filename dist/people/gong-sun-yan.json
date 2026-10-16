@@ -7,16 +7,16 @@
   ],
   "identity": "魏人，战国纵横家，号犀首。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "以纵横游说显名",
       "summary": "本卷记公孙衍以谈说显名，并与苏秦、张仪并称当时著名纵横家。",
       "kind": "相关提及",
       "category": "言论",
-      "year": 310,
-      "timeLabel": "前310年",
-      "dateNote": "依原书本年记事。",
+      "year": null,
+      "timeLabel": "记载于前310年",
+      "dateNote": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。",
       "sources": [
         {
           "volume": 3,
@@ -28,16 +28,21 @@
           "quote": "仪与苏秦皆以纵横之术游诸侯，致位富贵，天下争慕效之。又有魏人公孙衍者，号曰犀首，亦以谈说显名。其余苏代、苏厉、周最、楼缓之徒，纷纭于天下，务以辩诈相高，不可胜纪，而仪、秦、衍最着。"
         }
       ],
-      "id": "gong-sun-yan-1"
+      "id": "gong-sun-yan-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。"
+      }
     },
     {
       "title": "被孟子用作“大丈夫”论辩对象",
       "summary": "孟子回应公孙衍、张仪是否为大丈夫的说法，提出守正道、不为富贵贫贱威武所屈的标准。",
       "kind": "史家评论",
       "category": "言论",
-      "year": 310,
-      "timeLabel": "前310年",
-      "dateNote": "依原书本年记事。",
+      "year": null,
+      "timeLabel": "记载于前310年",
+      "dateNote": "这是《通鉴》所引孟子论“大丈夫”的评论；未标明谈话确年，不定为前310年亲历。",
       "sources": [
         {
           "volume": 3,
@@ -49,11 +54,99 @@
           "quote": "孟子论之曰：或谓：“公孙衍张仪岂不大丈夫哉，一怒而诸侯惧，安居而天下熄？”孟子曰：“是恶足为大丈夫哉！君子立天下之正位，行天下之正道，得志则与民由之，不得志则独行其道，富贵不能淫，贫贱不能移，威武不能诎，是之谓大丈夫。”"
         }
       ],
-      "id": "gong-sun-yan-2"
+      "id": "gong-sun-yan-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "这是《通鉴》所引孟子论“大丈夫”的评论；未标明谈话确年，不定为前310年亲历。"
+      }
+    },
+    {
+      "title": "附叙犀首击魏，俘龙贾取雕阴",
+      "summary": "附叙犀首击魏，俘龙贾取雕阴",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于前333年",
+      "dateNote": "原文“秦使犀首伐魏”接续合纵旧事；犀首指公孙衍，不据这一承接句独断确年。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 333,
+          "indices": [
+            4
+          ],
+          "sourceHash": "1c7139726829b53380cbf4a82df0c940be0222f2c149844eb3b98d767257fc4c",
+          "quote": "会秦使犀首伐魏，大败其师四万余人，禽将龙贾，取雕阴，且欲东兵。苏秦恐秦兵至赵而败从约，念莫可使用于秦者，乃激怒张仪，入之于秦。"
+        }
+      ],
+      "id": "gong-sun-yan-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“秦使犀首伐魏”接续合纵旧事；犀首指公孙衍，不据这一承接句独断确年。"
+      }
+    },
+    {
+      "title": "奉秦惠王命联齐魏攻赵，破合纵",
+      "summary": "奉秦惠王命联齐魏攻赵，破合纵",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 332,
+      "timeLabel": "前332年",
+      "dateNote": "本年原文明记犀首奉秦命出使并联兵破赵之从约。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 332,
+          "indices": [
+            0
+          ],
+          "sourceHash": "c4e9ecc2262ae8fde3885b6f1413ed3179868c56d9399a99bef9a3d0858dd67a",
+          "quote": "秦惠王使犀首欺齐、魏，与共伐赵，以败从约，赵肃侯让苏秦，苏秦恐，请使燕，必报齐。苏秦去赵而从约皆解。赵人决河水以灌齐、魏之师，齐魏之师乃去。"
+        }
+      ],
+      "id": "gong-sun-yan-4",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本年原文明记犀首奉秦命出使并联兵破赵之从约。"
+      }
+    },
+    {
+      "title": "缪留以犀首、张仪为两相之戒",
+      "summary": "缪留以犀首、张仪为两相之戒",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前321年",
+      "dateNote": "本年缪留劝韩王引用魏国旧事，不是张仪或公孙衍在前321年新发生的经历。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 321,
+          "indices": [
+            8
+          ],
+          "sourceHash": "fb385d795daa286847fc2a151efc1a34a795c3f2c84611cd402df4c328a94c7c",
+          "quote": "韩宣惠王欲两用公仲、公叔为政，问于缪留。对曰：“不可，晋用六卿而国分；齐简公用陈成子及阚止而见杀；魏用犀首、张仪而西河之外亡。今君两用之，其多力者内树党，其寡力者藉外权。群臣有内树党以骄主，有外为交以削地，君之国危矣。”"
+        }
+      ],
+      "id": "gong-sun-yan-5",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本年缪留劝韩王引用魏国旧事，不是张仪或公孙衍在前321年新发生的经历。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=公孫衍&oldid=77256310",
   "birthStatus": "approximate",
-  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。",
+  "reviewSummary": {
+    "currentEntries": 5,
+    "sourceReviewedEntries": 5,
+    "biographyCompletenessCertified": false
+  }
 }

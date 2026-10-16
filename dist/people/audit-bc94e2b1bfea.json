@@ -1,0 +1,45 @@
+{
+  "id": "audit-bc94e2b1bfea",
+  "name": "夏侯览",
+  "aliases": [
+    "夏侯览"
+  ],
+  "identity": "晋代日南太守，夏侯为复姓，不能截为侯览。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "日南太守夏侯览贪婪放纵，侵吞掠夺胡族商人",
+      "summary": "日南太守夏侯览贪婪放纵，侵吞掠夺胡族商人",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元347年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 97,
+          "year": -347,
+          "indices": [
+            4
+          ],
+          "sourceHash": "c474e8148c2c54e90c46f6bd7db427139505f146ff532e143c89f4e33e9930ed",
+          "quote": "日南太守夏侯览贪纵，侵刻胡商，又科调船材，云欲有所讨，由是诸国恚愤。林邑王文攻陷日南，将士死者五六千，杀览，以尸祭天；檄交州刺史朱蕃，请以郡北横山为界。文既去，蕃使督护刘雄戍日南。"
+        }
+      ],
+      "id": "audit-bc94e2b1bfea-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

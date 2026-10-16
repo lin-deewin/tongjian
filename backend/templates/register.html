@@ -28,5 +28,5 @@
 </p>{% endif %}{% endfor %}
 <button type="submit" name="action" value="register">验证邮箱并注册</button></form>
 <p>已有账号？<a href="{% url 'login' %}?next={{ next|urlencode }}">直接登录</a></p>
-<p class="small"><a href="/tongjian/account/terms/">购买与隐私说明</a></p>
+<p class="small"><a href="/account/terms/">购买与隐私说明</a></p>
 </section>{% endblock %}

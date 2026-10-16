@@ -1,0 +1,11 @@
+[Unit]
+Description=Hourly Tongjian public SEO check
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+RandomizedDelaySec=120
+Unit=tongjian-seo.service
+
+[Install]
+WantedBy=timers.target

@@ -6,7 +6,7 @@
   ],
   "identity": "秦国将领，曾率军伐楚。",
   "birthYear": null,
-  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "秦攻楚，李信与王翦议兵数",
@@ -27,7 +27,12 @@
           "quote": "王贲伐楚，取十余城。王问于将军李信曰：“吾欲取荆，于将军度用几何人而足？”李信曰：“不过用二十万。”王以问王翦，王翦曰：“非六十万人不可，”王曰：“王将军老矣，何怯也！”遂使李信、蒙恬将二十万人伐楚；王翦因谢病归频阳。"
         }
       ],
-      "id": "p-1584f421afbc-1"
+      "id": "p-1584f421afbc-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "李信伐楚兵败",
@@ -48,11 +53,47 @@
           "quote": "李信攻平舆，蒙恬攻寝，大破楚军。信又攻鄢郢，破之。于是引兵而西，与蒙恬会城父。楚人因随之，三日三夜不顿舍，大败李信，入两壁，杀七都尉；李信奔还。"
         }
       ],
-      "id": "p-1584f421afbc-2"
+      "id": "p-1584f421afbc-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "急追退往辽东的燕王与太子",
+      "summary": "急追退往辽东的燕王与太子",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 226,
+      "timeLabel": "前226年",
+      "dateNote": "原文“李信急追之”，补回秦灭燕进程中的本人行动。",
+      "sources": [
+        {
+          "volume": 7,
+          "year": 226,
+          "indices": [
+            0
+          ],
+          "sourceHash": "1644dfc5000fab2e7c36bbb4258ebcbeb4f6886240c6ee5bfe3b16ceea165775",
+          "quote": "冬，十月，王翦拔蓟，燕王及太子率其精兵东保辽东，李信急追之。代王嘉遗燕王书，令杀太子丹以献。丹匿衍水中，燕王使使斩丹，欲以献王，王复进兵攻之。"
+        }
+      ],
+      "id": "p-1584f421afbc-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“李信急追之”，补回秦灭燕进程中的本人行动。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李信&oldid=92574414",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 3,
+    "biographyCompletenessCertified": false
+  }
 }

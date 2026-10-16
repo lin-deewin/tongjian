@@ -1,0 +1,16 @@
+[Unit]
+Description=Check public Tongjian SEO responses (not indexing metrics)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/projs/tongjian
+ExecStart=/usr/bin/python3 /root/projs/tongjian/scripts/ops/seo_snapshot.py --output-dir /root/projs/tongjian/reports/seo-observation
+UMask=0077
+TimeoutStartSec=300
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/root/projs/tongjian/reports/seo-observation

@@ -9,7 +9,7 @@
   ],
   "identity": "秦武王异母弟，名稷；在燕为质，后继位为秦王。",
   "birthYear": 325,
-  "coverage": "已收录第1至294卷中经核对的相关事件与原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "由燕入秦继位",
@@ -30,7 +30,12 @@
           "quote": "秦武王好以力戏，力士任鄙、乌获、孟说皆至大官。八月，王与孟说举鼎，绝脉而薨；族孟说。武王无子，异母弟稷为质于燕，国人逆而立之，是为昭襄王。昭襄王母芈八子，楚女也，实宣太后。"
         }
       ],
-      "id": "qin-zhao-xiang-wang-1"
+      "id": "qin-zhao-xiang-wang-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "年少即位，由宣太后与魏冉掌政",
@@ -51,7 +56,12 @@
           "quote": "秦宣太后异父弟曰穰侯魏冉，同父弟曰华阳君芈戎；王之同母弟曰高陵君、泾阳君。魏冉最贤，自惠王、武王时，任职用事，武王薨，诸弟争立，唯魏冉力能立昭王。昭王即位，以魏冉为将军，卫咸阳。是岁，庶长壮及大臣、诸公子谋作乱。魏冉诛之；及惠文后皆不得良死，悼武王后出居于魏，王兄弟不善者，魏冉皆灭之。王少，宣太后自治事，任魏冉为政，威震秦国。"
         }
       ],
-      "id": "qin-zhao-xiang-wang-2"
+      "id": "qin-zhao-xiang-wang-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "秦昭襄王卒，孝文王继位",
@@ -72,11 +82,47 @@
           "quote": "秋，王薨，孝文王立。尊唐八子为唐太后，以子楚为太子。赵人奉子楚妻子归之。韩王衰绖入吊祠。"
         }
       ],
-      "id": "qin-zhao-xiang-wang-3"
+      "id": "qin-zhao-xiang-wang-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "命向寿平宜阳，令樗里子与甘茂伐魏",
+      "summary": "命向寿平宜阳，令樗里子与甘茂伐魏",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 306,
+      "timeLabel": "前306年",
+      "dateNote": "原文“秦昭王使”，与燕昭王同用昭王称号时须按国别辨认。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 306,
+          "indices": [
+            0
+          ],
+          "sourceHash": "9367c3d06020d234948030cba431475ece513c402240c19d4f7c8384c00166d0",
+          "quote": "秦昭王使向寿平宜阳，而使樗里子、甘茂伐魏。甘茂言于王，以武遂复归之韩。向寿、公孙奭争之，不能得，由此怨谗甘茂。茂惧，辍伐魏蒲阪，亡去。樗里子与魏讲而罢兵，甘茂奔齐。"
+        }
+      ],
+      "id": "qin-zhao-xiang-wang-4",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“秦昭王使”，与燕昭王同用昭王称号时须按国别辨认。"
+      }
     }
   ],
   "deathYear": 251,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=秦昭襄王&oldid=94317918",
   "birthStatus": "confirmed",
-  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 4,
+    "biographyCompletenessCertified": false
+  }
 }

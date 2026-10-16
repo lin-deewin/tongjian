@@ -8,7 +8,7 @@
   ],
   "identity": "魏惠王之子，继位为魏王。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "继位为魏王",
@@ -29,7 +29,12 @@
           "quote": "魏惠王薨，子襄王立。"
         }
       ],
-      "id": "wei-xiang-wang-1"
+      "id": "wei-xiang-wang-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "听张仪之说，背弃合纵",
@@ -50,11 +55,21 @@
           "quote": "张仪说魏襄王曰：“梁地方不至千里，卒不过三十万，地四平，无名山大川之限，卒戍楚、韩、齐、赵之境，守亭、障者不过十万，梁之地势固战场也。夫诸侯之约从，盟于洹水之上，结为兄弟以相坚也。今亲兄弟同父母，尚有争钱财相杀伤，而欲恃反复苏秦之余谋，其不可成亦明矣？大王不事秦，秦下兵攻河外，据卷衍、酸枣，劫卫，取阳晋，则赵不南，赵不南则梁不北，梁不北则从道绝，从道绝则大王之国欲毋危不可得也。故愿大王审定计议，且赐骸骨。”魏王乃倍从约，而因仪以请成于秦。张仪归，复相秦。"
         }
       ],
-      "id": "wei-xiang-wang-2"
+      "id": "wei-xiang-wang-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=魏襄王&oldid=94719641",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 2,
+    "biographyCompletenessCertified": false
+  }
 }

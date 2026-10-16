@@ -1,0 +1,178 @@
+{
+  "personId": "p-73bb90f91552",
+  "name": "萧何",
+  "date": "2026-10-15",
+  "scope": "萧何原有20条逐条核对，并补充生前及紧接身后的遗漏记载；未声称全书人物或所有后世提及穷尽。",
+  "correctedClassification": [
+    {
+      "title": "萧何劝刘邦蓄力汉中，再图三秦",
+      "reason": "原文记述当年本人参与、任命、受封或受赏，纠正相关提及与空年份。"
+    },
+    {
+      "title": "萧何追韩信，刘邦拜信为大将",
+      "reason": "原文记述当年本人参与、任命、受封或受赏，纠正相关提及与空年份。"
+    },
+    {
+      "title": "汉军会荥阳，萧何发兵助战",
+      "reason": "原文记述当年本人参与、任命、受封或受赏，纠正相关提及与空年份。"
+    },
+    {
+      "title": "萧何守关中，转粮发兵定法令",
+      "reason": "原文记述当年本人参与、任命、受封或受赏，纠正相关提及与空年份。"
+    },
+    {
+      "title": "刘邦封功臣，以萧何为功人",
+      "reason": "原文记述当年本人参与、任命、受封或受赏，纠正相关提及与空年份。"
+    },
+    {
+      "title": "鄂千秋论功，萧何列功臣第一",
+      "reason": "原文记述当年本人参与、任命、受封或受赏，纠正相关提及与空年份。"
+    }
+  ],
+  "otherCorrections": [
+    "韩信被杀与萧何系狱均归政争，不把他人之死当作萧何去世。",
+    "公元82年帝号由明帝改为章帝。",
+    "公元91年标题删去无原文支持的还爵归乡；保留源文异常提示。",
+    "追叙、评论及身后提及逐条说明年份归属。"
+  ],
+  "added": [
+    {
+      "title": "萧何、曹参助刘邦起兵于沛",
+      "kind": "主要经历",
+      "year": 209,
+      "sources": [
+        {
+          "volume": 7,
+          "year": 209,
+          "indices": [
+            22
+          ],
+          "sourceHash": "a9a71618cebe2a0a1de865ab1681e0f0152c8540337947ba0293b7a9450dda60"
+        }
+      ]
+    },
+    {
+      "title": "萧何入咸阳，收存秦丞相府图籍",
+      "kind": "主要经历",
+      "year": 206,
+      "sources": [
+        {
+          "volume": 9,
+          "year": 206,
+          "indices": [
+            2
+          ],
+          "sourceHash": "2087d9c62de00400090710caf6e1024ca81aece97d4d0673a4b22f65cf67ef86"
+        }
+      ]
+    },
+    {
+      "title": "萧何留收巴蜀租税，供应军粮",
+      "kind": "主要经历",
+      "year": 206,
+      "sources": [
+        {
+          "volume": 9,
+          "year": 206,
+          "indices": [
+            25
+          ],
+          "sourceHash": "42eed1617662d0573602d948221e509e40bb9de6a89f4359d5ef028c926237fa"
+        }
+      ]
+    },
+    {
+      "title": "司马光论张良保身，兼评萧何系狱",
+      "kind": "史家评论",
+      "year": null,
+      "sources": [
+        {
+          "volume": 11,
+          "year": 202,
+          "indices": [
+            26
+          ],
+          "sourceHash": "17d84fd8edae9e8da72045a5a8e3ac88d2229ceb0b00637b8981fc279f5386b6"
+        }
+      ]
+    },
+    {
+      "title": "赵佗与陆贾论贤，提及萧何、曹参和韩信",
+      "kind": "相关提及",
+      "year": null,
+      "sources": [
+        {
+          "volume": 12,
+          "year": 196,
+          "indices": [
+            13
+          ],
+          "sourceHash": "b32923fca2b2552ffacc769fb9d380e14c0fb038291ac24e310ebe95cf1ca374"
+        }
+      ]
+    },
+    {
+      "title": "萧何建议核查贲赫对英布的告发",
+      "kind": "主要经历",
+      "year": 196,
+      "sources": [
+        {
+          "volume": 12,
+          "year": 196,
+          "indices": [
+            16
+          ],
+          "sourceHash": "a6fa6e7b069fe2263c520a5f55ed5ac48394e292312bb784c078c8743f3e4f9f"
+        }
+      ]
+    },
+    {
+      "title": "刘邦答吕后问继相人选，提及萧何",
+      "kind": "相关提及",
+      "year": null,
+      "sources": [
+        {
+          "volume": 12,
+          "year": 195,
+          "indices": [
+            11
+          ],
+          "sourceHash": "47e593487e92ffa04a5d5b0a3c58c1ac5d1d8e8f93d24635bb736733fd597b22"
+        }
+      ]
+    },
+    {
+      "title": "追叙汉初制度建设，萧何受命编次律令",
+      "kind": "相关提及",
+      "year": null,
+      "sources": [
+        {
+          "volume": 12,
+          "year": 195,
+          "indices": [
+            14
+          ],
+          "sourceHash": "64f2d4e235f3c8a50ffeb0824e60e37a215fccb093df58690a55cae580c34abf"
+        }
+      ]
+    },
+    {
+      "title": "曹参述萧何法令，百姓歌咏萧规曹随",
+      "kind": "相关提及",
+      "year": null,
+      "sources": [
+        {
+          "volume": 12,
+          "year": 193,
+          "indices": [
+            8,
+            9
+          ],
+          "sourceHash": "91f25773ae63dc6347e2f82789cc8f4a0dcc3b16e9df5911bb9c2a5dd9a2f92b"
+        }
+      ]
+    }
+  ],
+  "beforeCount": 20,
+  "afterCount": 29
+}

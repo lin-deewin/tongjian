@@ -6,7 +6,7 @@
   ],
   "identity": "西汉外戚，王皇后之父。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "元帝立王氏为皇后，封后父王禁",
@@ -27,11 +27,19 @@
           "quote": "三月，丙午，立皇后王氏，封后父禁为阳平侯。"
         }
       ],
-      "id": "p-25dd183973d2-1"
+      "id": "p-25dd183973d2-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=王禁&oldid=88539938",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

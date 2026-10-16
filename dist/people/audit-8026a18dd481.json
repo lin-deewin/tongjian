@@ -1,0 +1,45 @@
+{
+  "id": "audit-8026a18dd481",
+  "name": "刘弘（凉州起事者）",
+  "aliases": [
+    "刘弘"
+  ],
+  "identity": "晋末凉州天梯山起事者，与西晋荆州刺史刘弘不同。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘弘妖言惑众，刺杀张寔",
+      "summary": "刘弘妖言惑众，刺杀张寔",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -320,
+      "timeLabel": "公元320年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 91,
+          "year": -320,
+          "indices": [
+            10
+          ],
+          "sourceHash": "d46f767d426b399577926c093281a2244c7cc48dfbf1983cd5e106284666270d",
+          "quote": "京兆人刘弘客居凉州天梯山，以妖术惑众，从受道者千余人，西平元公张寔左右皆事之。帐下阎涉，牙门赵卬，皆弘乡人，弘谓之曰：「天与我神玺，应王凉州。」涉、卬信之，密与寔左右十余人谋杀寔，奉弘为主。寔弟茂知其谋，请诛弘。寔令牙门将史初收之，未至，涉等怀刃而入，杀寔于外寝。弘见史初至，谓曰：「使君已死，杀我何为！」初怒，截其舌而囚之，轘于姑臧市，诛其党与数百人。左司马阴元等以寔子骏尚幼，推张茂为凉州刺史、西平公，赦其境内，以骏为抚军将军。"
+        }
+      ],
+      "id": "audit-8026a18dd481-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

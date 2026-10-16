@@ -1,0 +1,45 @@
+{
+  "id": "audit-f8728b03f362",
+  "name": "李固烈",
+  "aliases": [
+    "李固烈"
+  ],
+  "identity": "唐代沧州刺史，与东汉李固不同。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "沧州兵变杀李固烈，程华受命安抚军府",
+      "summary": "沧州兵变杀李固烈，程华受命安抚军府",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元784年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 231,
+          "year": -784,
+          "indices": [
+            9
+          ],
+          "sourceHash": "07b58ed95f90851b3b7f56de1aa67b66979cd5067ac280bb3206851c380243e0",
+          "quote": "初，张孝忠以易州归国，诏以孝忠为义武节度使，以易、定、沧三洲隶之。沧州刺史李固烈，李惟岳之妻兄也，请归恒州，孝忠遣押牙安喜程华交其州事。固烈悉取军府绫、缣、珍货数十车，将行，军士大噪曰：「刺史扫府库之实以行，将士于后饥寒，柰何！」遂杀固烈，屠其家。程华闻乱，自窦逃出，乱兵求得之，请知州事；华不得已，从之。孝忠闻之，既版华摄沧州刺史。华素宽厚，推心以待将士，将士安之。"
+        }
+      ],
+      "id": "audit-f8728b03f362-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

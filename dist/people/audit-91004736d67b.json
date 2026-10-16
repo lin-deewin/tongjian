@@ -1,0 +1,45 @@
+{
+  "id": "audit-91004736d67b",
+  "name": "李膺（梁初）",
+  "aliases": [
+    "李膺"
+  ],
+  "identity": "梁初辅佐邓元起筹措蜀地军粮的人物；不是东汉李膺，与梁末同名主书暂分别建档。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "李膺筹集粮食助邓元起平蜀",
+      "summary": "李膺筹集粮食助邓元起平蜀",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -502,
+      "timeLabel": "公元502年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 145,
+          "year": -502,
+          "indices": [
+            43
+          ],
+          "sourceHash": "1fba5623ff7018308155b1c504a88566248bb24ce148810848a7f41d34eb91bf",
+          "quote": "先是，蜀民多逃亡，闻元起至，争出投附，皆称起义兵应朝廷，军士新故三万余人。元起在道久，粮食乏绝，或说之曰：「蜀土政慢，民多诈疾，若检巴西一郡籍注，因而罚之，所获必厚。」元起然之。李膺谏曰：「使君前有严敌，后无继援，山民始附，于我观德。膺请出图之，不患资粮不足也。」元起曰：「善。一以委卿！」膺退，帅当民上军资米，得三万斛。"
+        }
+      ],
+      "id": "audit-91004736d67b-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

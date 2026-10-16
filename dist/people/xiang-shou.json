@@ -6,16 +6,16 @@
   ],
   "identity": "秦国将领、使者，奉命与甘茂出使魏国及处理宜阳事务。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "辅佐甘茂与魏约伐韩",
       "summary": "秦武王派甘茂与魏国结约攻韩，并命向寿辅行；甘茂令向寿先回秦报告。",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "战争",
       "year": 308,
       "timeLabel": "前308年",
-      "dateNote": "依原书本年记事。",
+      "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
       "sources": [
         {
           "volume": 3,
@@ -27,16 +27,21 @@
           "quote": "秦王使甘茂约魏以伐韩，而令向寿辅行。甘茂令向寿还，谓王曰：“魏听臣矣，然愿王勿伐！”王迎甘茂于息壤而问其故。对曰：“宜阳大县，其实郡也。今王倍数险，行千里，攻之难。鲁人有与曾参同姓名者杀人，人告其母，其母织自若也。及三人告之，其母投杼下机，逾墙而走。臣之贤不若曾参，王之信臣又不如其母，疑臣者非特三人，臣恐大王之投杼也。魏文侯令乐羊将而攻中山，三年而拔之。反而论功，文侯示之谤书一箧。乐羊再拜稽首曰：『此非臣之功，君之力也！』今臣，羇旅之臣也，樗里子、公孙奭挟韩而议之，王必听之，是王欺魏王而臣受公仲侈之怨也。”王曰：“寡人弗听也，请与子盟！”乃盟于息壤。秋，甘茂、庶长封帅师伐宜阳。"
         }
       ],
-      "id": "xiang-shou-1"
+      "id": "xiang-shou-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+      }
     },
     {
       "title": "与公孙奭谗议甘茂",
       "summary": "秦昭王命向寿处理宜阳事务，向寿与公孙奭争议把武遂归还韩国，之后怨恨并谗毁甘茂。",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "政争",
       "year": 306,
       "timeLabel": "前306年",
-      "dateNote": "依原书本年记事。",
+      "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
       "sources": [
         {
           "volume": 3,
@@ -48,11 +53,21 @@
           "quote": "秦昭王使向寿平宜阳，而使樗里子、甘茂伐魏。甘茂言于王，以武遂复归之韩。向寿、公孙奭争之，不能得，由此怨谗甘茂。茂惧，辍伐魏蒲阪，亡去。樗里子与魏讲而罢兵，甘茂奔齐。"
         }
       ],
-      "id": "xiang-shou-2"
+      "id": "xiang-shou-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=向壽&oldid=84690801",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 2,
+    "biographyCompletenessCertified": false
+  }
 }

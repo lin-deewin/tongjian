@@ -7,7 +7,7 @@
   ],
   "identity": "秦国将领。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "会同三国伐楚并取重丘",
@@ -28,11 +28,21 @@
           "quote": "秦庶长奂会韩、魏、齐兵伐楚，败其师于重丘，杀其将唐昧；遂取重丘。"
         }
       ],
-      "id": "qin-shu-chang-huan-1"
+      "id": "qin-shu-chang-huan-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/wiki/庶长奂",
   "birthStatus": "unknown",
-  "birthNote": "核对秦昭襄王时的庶长奂，资料未载明确生年。"
+  "birthNote": "核对秦昭襄王时的庶长奂，资料未载明确生年。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 1,
+    "biographyCompletenessCertified": false
+  }
 }

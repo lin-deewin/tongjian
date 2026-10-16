@@ -1,0 +1,45 @@
+{
+  "id": "audit-394aaad9fb71",
+  "name": "刘弘政",
+  "aliases": [
+    "刘弘政"
+  ],
+  "identity": "南汉通王。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉主杀死通王刘弘政，刘氏诸王至此几乎被杀尽",
+      "summary": "南汉主杀死通王刘弘政，刘氏诸王至此几乎被杀尽",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元955年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 292,
+          "year": -955,
+          "indices": [
+            25
+          ],
+          "sourceHash": "a87d4d8ab3050249afc21239f13b9fb4a6833db4c3a901c8ba862a5a76725159",
+          "quote": "戊午，南汉主杀祯州节度使通王弘政，于是高祖之诸子尽矣"
+        }
+      ],
+      "id": "audit-394aaad9fb71-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

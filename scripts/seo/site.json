@@ -1,0 +1,21 @@
+{
+  "volumes": "all",
+  "people": "reviewed",
+  "related": {
+    "zhao-xiang-zi": [
+      "power-rules.html#jinyang"
+    ],
+    "zhang-yi": [
+      "truth.html#chenzhen"
+    ],
+    "zhao-wu-ling-wang": [
+      "ruler-deaths.html#deathResearch"
+    ],
+    "p-73bb90f91552": [
+      "history/xiao-he-guanzhong/"
+    ],
+    "yue-yi": [
+      "history/yue-yi-qi-campaign/"
+    ]
+  }
+}

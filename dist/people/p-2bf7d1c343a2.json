@@ -6,16 +6,16 @@
   ],
   "identity": "流民军首领李特之弟。",
   "birthYear": -247,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "赵廞听信谗言杀害李庠，李特、李流怨而归营",
       "summary": "赵廞听信谗言杀害李庠，李特、李流怨而归营",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "去世",
-      "year": null,
-      "timeLabel": "记载于公元301年",
-      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "year": -301,
+      "timeLabel": "公元301年",
+      "dateNote": "依原书本年记事。",
       "sources": [
         {
           "volume": 84,
@@ -27,11 +27,19 @@
           "quote": "李庠晓勇得众心，赵廞浸忌之而未言。长史蜀郡杜淑、张粲说廞曰：「将军起兵始尔，而据遣李庠握强兵于外。非我族类，其心必异，此倒戈授人也，宜早图之。」会庠劝廞称尊号，淑、粲因白廞以庠大逆不道，引斩之，并其子侄十余人。时李特、李流皆将兵在外，廞遣人慰抚之曰：「庠非所宜言，罪应死。兄弟罪不相及。」复以特、流为督将。特、流怨廞，引兵归鼦竹。"
         }
       ],
-      "id": "p-2bf7d1c343a2-1"
+      "id": "p-2bf7d1c343a2-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": -301,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李庠&oldid=94828482",
   "birthStatus": "confirmed",
-  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

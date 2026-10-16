@@ -6,7 +6,7 @@
   ],
   "identity": "东汉玄菟太守，曾击退夫余军。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "夫余王夫台进犯玄菟，太守公孙域击退",
@@ -27,11 +27,19 @@
           "quote": "夫余王夫台寇玄菟；玄菟太守父孙域击破之。"
         }
       ],
-      "id": "p-9c04e342d40d-1"
+      "id": "p-9c04e342d40d-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": null,
   "birthStatus": "unconfirmed",
-  "birthNote": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。"
+  "birthNote": "未找到身份吻合且可确认生年的资料；不使用同名人物的年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

@@ -1,9 +1,9 @@
 {% extends 'base.html' %}{% block title %}我的购买{% endblock %}
 {% block content %}<h1>我的购买</h1><p class="small">{{ request.user.email }}</p>
 <section><h2>可以阅读的专题</h2>{% for grant in grants %}<div class="purchase-item"><h3>{{ grant.product.title }}</h3>
-<a href="/tongjian/article/{{ grant.product.slug }}/">阅读全文</a> · <a href="/tongjian/api/v1/products/{{ grant.product.slug }}/download/">下载 PDF</a></div>
-{% empty %}<p>还没有已购买的专题。<a href="/tongjian/research.html">先看看专题与试读</a></p>{% endfor %}</section>
+<a href="/article/{{ grant.product.slug }}/">阅读全文</a> · <a href="/api/v1/products/{{ grant.product.slug }}/download/">下载 PDF</a></div>
+{% empty %}<p>还没有已购买的专题。<a href="/research.html">先看看专题与试读</a></p>{% endfor %}</section>
 <section><h2>订单记录</h2>{% for order in orders %}<div class="purchase-item"><p>{{ order.title }} · <span class="order-state">{{ order.status }}</span></p>
 <p class="small">订单号：{{ order.merchant_number }} · {{ order.created_at|date:'Y-m-d H:i' }}</p>
-<a href="/tongjian/checkout/{{ order.pk }}/">查看付款与订单状态</a></div>{% empty %}<p>暂无订单。</p>{% endfor %}</section>
+<a href="/checkout/{{ order.pk }}/">查看付款与订单状态</a></div>{% empty %}<p>暂无订单。</p>{% endfor %}</section>
 {% include 'logout_form.html' %}<p><a href="{% url 'account' %}">返回我的账号</a></p>{% endblock %}

@@ -1,5 +1,15 @@
 # 通鉴服务器发布
 
+## 2026-10-16 根域名迁移（当前配置）
+
+- 当前主站为 `https://deewins.top/`，静态发布目录仍为 `/root/projs/tongjian/dist`。
+- `/tongjian` 及其子路径以 308 跳转至对应根路径，保留查询参数与浏览器 fragment。
+- 动态入口为 `/account/`、`/api/`、`/article/`、`/checkout/`、`/admin/`；账号服务为 `tongjian-accounts.service`，监听 127.0.0.1:8010。
+- 旧支付回调 `/tongjian/api/v1/payments/*` 直接代理兼容，不向支付平台返回跳转。
+- 根 `/sitemap.xml` 返回 urlset，`/sitemap-index.xml` 返回指向它的索引；`/robots.txt` 指向根地图。
+- 访问日志已覆盖根站，统计脚本兼容新旧首页及静态阅读页。
+- 迁移说明与验收见项目 `docs/root-domain-migration.md`。以下旧部署示例保留作历史依据，不能将其 `/tongjian/` 路由重新覆盖到生产；维护时先读取实际 Caddyfile。
+
 ## 已确认的部署（2026-10-09）
 
 - 本地项目：`/home/linqp/projs/tongjian`。

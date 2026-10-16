@@ -1,0 +1,45 @@
+{
+  "id": "audit-810129bdbe3b",
+  "name": "刘启（后赵）",
+  "aliases": [
+    "刘启"
+  ],
+  "identity": "后赵兖州刺史，351年奔东晋；不是汉景帝刘启。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "后赵兖州刺史刘启从鄄城来投奔东晋",
+      "summary": "后赵兖州刺史刘启从鄄城来投奔东晋",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元351年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 99,
+          "year": -351,
+          "indices": [
+            18
+          ],
+          "sourceHash": "bb7b42544d8cad342810df92450c29c2a77a41d16916f302525bf98e604b5f14",
+          "quote": "五月，赵兖州刺史刘启自鄄城来奔。"
+        }
+      ],
+      "id": "audit-810129bdbe3b-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

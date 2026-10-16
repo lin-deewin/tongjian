@@ -1,0 +1,7 @@
+# Merge into the existing host before its fallback. Serve the project at domain root.
+@crawlFiles path /robots.txt /sitemap.xml /sitemap-index.xml
+handle @crawlFiles {
+    root * /root/projs/tongjian/dist
+    header Cache-Control "no-store, no-cache, must-revalidate"
+    file_server
+}

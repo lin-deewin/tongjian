@@ -1,0 +1,45 @@
+{
+  "id": "audit-53d60cb4b5da",
+  "name": "刘弘杲",
+  "aliases": [
+    "刘弘杲"
+  ],
+  "identity": "南汉循王。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘晟诛杀循王刘弘杲以清除潜在政敌",
+      "summary": "刘晟诛杀循王刘弘杲以清除潜在政敌",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元943年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -943,
+          "indices": [
+            32
+          ],
+          "sourceHash": "f919e681e3e066cdcad78a74b87610537f663816edaacd8d0806412f1edc4f76",
+          "quote": "汉中宗既立，国中议论莾莾。循王弘杲请斩刘思潮等以谢中外，汉主不从。思潮等闻之，谮弘杲谋反，汉主令思潮等伺之。弘杲方宴客，思潮与谭令禋帅卫兵突入，斩弘杲。于是汉主谋尽诛诸弟，以越王弘昌贤而得众，尤忌之。雄武节度使齐王弘弼，自以居大镇，惧祸，求入朝；许之。"
+        }
+      ],
+      "id": "audit-53d60cb4b5da-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "audit-341c82538fde",
+  "name": "刘裕（前赵宗室）",
+  "aliases": [
+    "刘裕"
+  ],
+  "identity": "刘渊之子，封齐王；不是刘宋建立者刘裕。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘渊封刘裕为齐王、刘隆为鲁王",
+      "summary": "刘渊封刘裕为齐王、刘隆为鲁王",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元309年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 87,
+          "year": -309,
+          "indices": [
+            17
+          ],
+          "sourceHash": "98f223217c2b894df33f5d2982292224a4b510abb47888c332925e875dbe7eb7",
+          "quote": "五月，汉主渊封子裕为齐王，隆为鲁王。"
+        }
+      ],
+      "id": "audit-341c82538fde-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

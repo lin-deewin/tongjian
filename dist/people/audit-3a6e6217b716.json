@@ -1,0 +1,45 @@
+{
+  "id": "audit-3a6e6217b716",
+  "name": "刘弘雅",
+  "aliases": [
+    "刘弘雅"
+  ],
+  "identity": "南汉韶王。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉主刘晟杀害韶王刘弘雅",
+      "summary": "南汉主刘晟杀害韶王刘弘雅",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元945年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 285,
+          "year": -945,
+          "indices": [
+            7
+          ],
+          "sourceHash": "2a8e257011a59541db7d2f03ec1496da17a51ba8ed1c0316f01293fef19d5e45",
+          "quote": "汉主杀韶王弘雅。"
+        }
+      ],
+      "id": "audit-3a6e6217b716-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

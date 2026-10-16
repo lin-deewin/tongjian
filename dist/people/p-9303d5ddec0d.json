@@ -6,7 +6,7 @@
   ],
   "identity": "唐代隐士，受玄宗征召。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "嵩山隐士卢鸿奉召入朝，辞官不受",
@@ -27,11 +27,19 @@
           "quote": "三月，乙巳，征嵩山处士卢鸿入见，〔见，贤遍翻。〕拜谏议大夫；鸿固辞。〔考异曰：旧传作「卢鸿一」，本纪、新传皆作「鸿」。按中岳真入刘君碑，云卢鸿撰，今从之。"
         }
       ],
-      "id": "p-9303d5ddec0d-1"
+      "id": "p-9303d5ddec0d-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=卢鸿&oldid=82830071",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "audit-ef70680d211b",
+  "name": "刘康（济南安王）",
+  "aliases": [
+    "刘康"
+  ],
+  "identity": "东汉济南安王，于永元九年去世。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "济南王刘康去世",
+      "summary": "济南王刘康去世",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -97,
+      "timeLabel": "公元97年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 48,
+          "year": -97,
+          "indices": [
+            1
+          ],
+          "sourceHash": "61ff66612a3fd429cf1b0eb2bb50ec15fe02cc655ef842aa525fe2704aaf8c0b",
+          "quote": "癸巳，济南安王康薨。"
+        }
+      ],
+      "id": "audit-ef70680d211b-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

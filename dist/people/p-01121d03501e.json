@@ -6,7 +6,7 @@
   ],
   "identity": "东汉大臣，曾任司徒。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "梁鲔任司徒",
@@ -27,16 +27,19 @@
           "quote": "癸卯，以光禄勋梁鲔为司徒。"
         }
       ],
-      "id": "p-01121d03501e-1"
+      "id": "p-01121d03501e-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "梁鲔去世",
       "summary": "梁鲔去世",
       "kind": "主要经历",
-      "category": "任职",
+      "category": "去世",
       "year": -107,
       "timeLabel": "公元107年",
-      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "dateNote": "依原书本年记事。",
       "sources": [
         {
           "volume": 49,
@@ -48,11 +51,19 @@
           "quote": "庚午，司徒梁鲔薨。"
         }
       ],
-      "id": "p-01121d03501e-2"
+      "id": "p-01121d03501e-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=梁鲔&oldid=88516834",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

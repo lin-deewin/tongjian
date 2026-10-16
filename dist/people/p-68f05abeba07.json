@@ -6,7 +6,7 @@
   ],
   "identity": "西汉外戚与大臣，曾任大司马。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "许嘉接任大司马、车骑将军",
@@ -27,7 +27,10 @@
           "quote": "夏，四月，平昌考侯王接薨。秋，七月，壬戌，以平恩侯许嘉为大司马、车骑将军。"
         }
       ],
-      "id": "p-68f05abeba07-1"
+      "id": "p-68f05abeba07-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "元帝封外戚许嘉为平恩侯",
@@ -48,7 +51,10 @@
           "quote": "封外祖平恩戴侯同产弟子中常侍许嘉为平恩侯。"
         }
       ],
-      "id": "p-68f05abeba07-2"
+      "id": "p-68f05abeba07-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "元帝立许嘉之女为皇后",
@@ -69,7 +75,10 @@
           "quote": "丙午，立皇后许氏。后，车骑将军嘉之女也。元帝伤母恭哀后居位日浅而遭霍氏之辜，故选嘉女以配太子。"
         }
       ],
-      "id": "p-68f05abeba07-3"
+      "id": "p-68f05abeba07-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "元帝罢免许嘉车骑将军职，专任王凤",
@@ -90,11 +99,19 @@
           "quote": "上欲专委任王凤，八月，策免车骑将军许嘉，以特进侯就朝位。"
         }
       ],
-      "id": "p-68f05abeba07-4"
+      "id": "p-68f05abeba07-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=許嘉&oldid=94535996",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

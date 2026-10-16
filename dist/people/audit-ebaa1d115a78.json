@@ -1,0 +1,117 @@
+{
+  "id": "audit-ebaa1d115a78",
+  "name": "王褒（梁北周）",
+  "aliases": [
+    "王褒"
+  ],
+  "identity": "梁末、北周文学家，曾任梁元帝左仆射；不是西汉辞赋家王褒。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "萧绎任王褒为吏部尚书",
+      "summary": "萧绎任王褒为吏部尚书",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -552,
+      "timeLabel": "公元552年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 164,
+          "year": -552,
+          "indices": [
+            0
+          ],
+          "sourceHash": "dc6f072ad3060a7aa274d637bff989d3b5bedc6dd4cfddb0de4822a03c2c4747",
+          "quote": "春，正月，湘东王以南平内史王褒为吏部尚书。褒，骞之孙也。"
+        }
+      ],
+      "id": "audit-ebaa1d115a78-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "梁元帝任王褒为左仆射",
+      "summary": "梁元帝任王褒为左仆射",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -553,
+      "timeLabel": "公元553年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 165,
+          "year": -553,
+          "indices": [
+            2
+          ],
+          "sourceHash": "1b12b6fee48ac678d107a15720d45e84a3b74634a1595ea97356d0a5e3c6b843",
+          "quote": "以吏部尚书王褒为左仆射。"
+        }
+      ],
+      "id": "audit-ebaa1d115a78-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "梁元帝任王褒为左仆射、张绾为右仆射",
+      "summary": "梁元帝任王褒为左仆射、张绾为右仆射",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -553,
+      "timeLabel": "公元553年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 165,
+          "year": -553,
+          "indices": [
+            36
+          ],
+          "sourceHash": "166a31b7dc1781f5fbbb1dbce4f0633684d57bd7113b6855c8f24c069ed378b9",
+          "quote": "十一月，戊戌，以尚书右仆射王褒为左仆射，湘东太守张绾为右仆射。"
+        }
+      ],
+      "id": "audit-ebaa1d115a78-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "王褒等梁朝官员被送至长安，宇文泰厚礼接待于谨",
+      "summary": "王褒等梁朝官员被送至长安，宇文泰厚礼接待于谨",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -554,
+      "timeLabel": "公元554年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 165,
+          "year": -554,
+          "indices": [
+            50
+          ],
+          "sourceHash": "2f6eb033d6755c4c8b9defc46696789ebb5be4536710e525bd636a795cff5bfd",
+          "quote": "王褒、王克、刘丷、宗懔、殷不害及尚书右丞吴兴沈聟至长安，太师泰皆厚礼之。泰亲至于谨第，宴劳极欢，赏谨奴婢白口及梁之宝物并雅乐一部，别封新野公；谨固辞，不许。谨自以久居重任，功名既立，欲保优闲，乃上先所乘骏马及所著铠甲等。泰识其意，曰：「今巨猾未平，公岂得遽尔独善！」遂不受。"
+        }
+      ],
+      "id": "audit-ebaa1d115a78-4",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

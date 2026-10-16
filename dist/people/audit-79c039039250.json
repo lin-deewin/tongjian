@@ -1,0 +1,45 @@
+{
+  "id": "audit-79c039039250",
+  "name": "刘康（平阳起事者）",
+  "aliases": [
+    "刘康"
+  ],
+  "identity": "前秦时期自称刘曜之子的西域胡人。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘康假称刘曜之子起兵被擒",
+      "summary": "刘康假称刘曜之子起兵被擒",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -353,
+      "timeLabel": "公元353年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 99,
+          "year": -353,
+          "indices": [
+            5
+          ],
+          "sourceHash": "3654e38d723555cfc137aa9001a978e35dec80ae4053e7dcf84c1b02553c976b",
+          "quote": "西域胡刘康诈称刘曜子，聚众于平阳，自称晋王；夏，四月，秦左卫将军苻飞讨擒之。"
+        }
+      ],
+      "id": "audit-79c039039250-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

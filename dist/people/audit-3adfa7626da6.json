@@ -1,0 +1,45 @@
+{
+  "id": "audit-3adfa7626da6",
+  "name": "张敞（东汉功曹）",
+  "aliases": [
+    "张敞"
+  ],
+  "identity": "东汉南阳功曹，曾向王畅谏宽政；不是西汉张敞。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "王畅采纳张敞劝谏，改行宽政",
+      "summary": "王畅采纳张敞劝谏，改行宽政",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -165,
+      "timeLabel": "公元165年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 55,
+          "year": -165,
+          "indices": [
+            16
+          ],
+          "sourceHash": "e7cf67031b2241821ace77d97d8402221abf315c17c98afca7558461b3d105ea",
+          "quote": "畅，龚之子也；尝为南阳太守，疾其多贵戚豪族，下车，奋厉威猛，大姓有犯，或使吏发屋伐树，堙井夷緖。功曹张敞奏记谏曰：「文翁、召父、卓茂之徒，皆以温厚为政，流闻后世。发屋伐树，将为严烈，虽欲惩恶，难以闻远。郡为旧都，侯甸之国，园庙出于章陵，三后生自新野，自中兴以来，功臣将相，继世而隆。愚以为恳恳用刑，不如行恩；孳孳求奸，未若礼贤。舜举皋陶，论语载子夏之言。陶，音遥。〕化人在德，不在用刑。」畅深纳其言，更崇宽政，教化大行。"
+        }
+      ],
+      "id": "audit-3adfa7626da6-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

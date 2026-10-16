@@ -6,7 +6,7 @@
   ],
   "identity": "东汉官员，因灾异被免职。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "刘崎任司徒",
@@ -27,7 +27,10 @@
           "quote": "十二月，乙卯，以宗正弘农刘崎为司徒。"
         }
       ],
-      "id": "p-c95db0e52c0f-1"
+      "id": "p-c95db0e52c0f-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "刘崎、孔扶因灾异免职，黄尚、王卓继任",
@@ -48,11 +51,19 @@
           "quote": "十一月，壬寅，司徒刘崎、司空孔扶免，用周举之言也。乙巳，以大司农黄尚为司徒，光禄勋河东王卓为司空。"
         }
       ],
-      "id": "p-c95db0e52c0f-2"
+      "id": "p-c95db0e52c0f-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=刘崎&oldid=84292453",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

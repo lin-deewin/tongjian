@@ -7,7 +7,7 @@
   ],
   "identity": "楚国将领，率军与秦军交战。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "丹阳之战兵败被俘",
@@ -28,11 +28,47 @@
           "quote": "春，秦师及楚战于丹阳，楚师大败，斩甲士八万，虏屈匄及列侯、执圭七十余人，遂取汉中郡。楚王悉发国内兵以复袭秦，战于蓝田，楚师大败。韩、魏闻楚之困，南袭楚，至邓。楚人闻之，乃引兵归，割两城以请平于秦。"
         }
       ],
-      "id": "qu-gai-1"
+      "id": "qu-gai-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "奉楚怀王命率师伐秦",
+      "summary": "奉楚怀王命率师伐秦",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": 313,
+      "timeLabel": "前313年",
+      "dateNote": "原文末句“使屈匄帅师伐秦”，与次年前312年兵败被俘分别记录。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 313,
+          "indices": [
+            2
+          ],
+          "sourceHash": "323fd6a853a8aab33fb51d5a6ddcbe456049a86e0097f793202fff37880174b6",
+          "quote": "张仪详堕车，不朝三月。楚王闻之，曰：“仪以寡人绝齐未甚邪？”乃使勇士宋遗借宋之符，北骂齐王。齐王大怒，折节以事秦，齐、秦之交合。张仪乃朝，见楚使者曰：“子何不受地？从某至某，广袤六里。”使者怒，还报楚王。楚王大怒，欲发兵而攻秦。陈轸曰：“轸可发口言乎？攻之不如因赂之以一名都，与之并力而攻齐，是我亡地于秦，取偿于齐也。今王已绝于齐而责欺于秦，是吾合齐、秦之交而来天下之兵也，国必大伤矣！”楚王不听，使屈匄帅师伐秦。秦亦发兵使庶长章击之。"
+        }
+      ],
+      "id": "qu-gai-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文末句“使屈匄帅师伐秦”，与次年前312年兵败被俘分别记录。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=屈匄&oldid=84690808",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 2,
+    "biographyCompletenessCertified": false
+  }
 }

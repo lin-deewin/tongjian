@@ -1,0 +1,45 @@
+{
+  "id": "audit-823bc5dfe0fb",
+  "name": "李广（成汉）",
+  "aliases": [
+    "李广"
+  ],
+  "identity": "成汉李势之弟，曾求为太弟；不是西汉飞将军。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "李势杀李广及忠臣马当解思明",
+      "summary": "李势杀李广及忠臣马当解思明",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元345年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 97,
+          "year": -345,
+          "indices": [
+            14
+          ],
+          "sourceHash": "19b73d2a70b8ea407eee94430368d0d54923baeccf6b8aea28376e898be6409b",
+          "quote": "汉主势之弟大将军广，以势无子，求为太弟；势不许。马当、解思明谏曰：「陛下兄弟不多，若复有所废，将益孤危，」固请许之。势疑其与广有谋，收当、思明斩之，夷其三族。遗太保李奕袭广于涪城，贬广为临邛侯，广自杀。思明被收，叹曰：「国之不亡，以我数人在也，今其殆矣！」言笑自若而死。思明有智略，敢谏诤；马当素得人心；及其死，士民无不哀之。"
+        }
+      ],
+      "id": "audit-823bc5dfe0fb-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

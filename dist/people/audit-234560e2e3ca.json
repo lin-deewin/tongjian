@@ -1,0 +1,45 @@
+{
+  "id": "audit-234560e2e3ca",
+  "name": "刘弘邈",
+  "aliases": [
+    "刘弘邈"
+  ],
+  "identity": "南汉高王、雄武节度使。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉主任刘弘邈为雄武节度使，后因谣言将其毒杀",
+      "summary": "南汉主任刘弘邈为雄武节度使，后因谣言将其毒杀",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -954,
+      "timeLabel": "公元954年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 291,
+          "year": -954,
+          "indices": [
+            32
+          ],
+          "sourceHash": "73cd624be053ec55763d5edf2f606f1ce7ad2011d118e1841e654210745bf284",
+          "quote": "南汉主以高王弘邈为雄武节度使，镇邕州。弘邈以齐、镇二王相继死于邕州，固辞，求宿卫；不许。至镇，委政僚佐，日饮酒，祷鬼神。或上书诬弘邈谋作乱，戊午，南汉主遣甘泉宫使林延遇赐酖杀之。"
+        }
+      ],
+      "id": "audit-234560e2e3ca-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

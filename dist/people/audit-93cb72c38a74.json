@@ -1,0 +1,69 @@
+{
+  "id": "audit-93cb72c38a74",
+  "name": "张衡（隋）",
+  "aliases": [
+    "张衡"
+  ],
+  "identity": "隋炀帝时期御史大夫，与东汉学者张衡不同。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "张衡劝阻营建汾阳宫，终被废黜",
+      "summary": "张衡劝阻营建汾阳宫，终被废黜",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -610,
+      "timeLabel": "公元610年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 181,
+          "year": -610,
+          "indices": [
+            9
+          ],
+          "sourceHash": "8a6613f9913446c38b7ffb1f5b55c65497bcc96410d670deb0ff0770aac4957b",
+          "quote": "初，帝欲大营汾阳宫，令御史大夫张衡具图奏之。衡乘间进谏曰：「比年劳役繁多，百姓疲弊，伏愿留神，稍加抑损。」帝意甚不平，后木衡谓侍臣曰：「张衡自谓由其计划，令我有天下也。」乃录齐王暕携皇甫诩从驾及前幸涿郡祀恒岳时父老谒见者一冠多不整，谴衡以宪司不能正，出为榆林太守。久之，衡督役筑楼烦城，因帝巡幸，得谒帝。帝恶衡不损瘦，以为不念咎，谓衡曰：「公甚肥泽，宜且还郡。」复遣之榆林。未几，敕衡督役江都宫。礼部尚书杨玄感使至江都，衡谓玄感曰：「薛道衡真为枉死。」玄感奏之；江都郡丞王世充又奏衡频减顿具。帝于是发怒，锁诣江都市，将斩之，久乃得释，除名为民，放还田里。以王世充领江都宫监。"
+        }
+      ],
+      "id": "audit-93cb72c38a74-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "张衡被诬怨望，炀帝赐死",
+      "summary": "张衡被诬怨望，炀帝赐死",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": -612,
+      "timeLabel": "公元612年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 181,
+          "year": -612,
+          "indices": [
+            19
+          ],
+          "sourceHash": "ec995168d70f50d194da28a61c127cd6119340c87f034f93ac6958e2c9d2bfa0",
+          "quote": "张衡既放废，帝每令亲人觇衡所为。帝还自辽东，衡妾告衡怨望，谤讪朝政，诏赐尽于家。衡临死大言：「我为人作何等事，而望九活！」监刑者塞耳，促令杀之。"
+        }
+      ],
+      "id": "audit-93cb72c38a74-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "audit-ee6569beec51",
+  "name": "刘弘（汉后少帝）",
+  "aliases": [
+    "刘弘"
+  ],
+  "identity": "西汉吕后时期的后少帝，不是西晋刘弘。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "吕后废杀少帝，立刘弘为帝",
+      "summary": "吕后废杀少帝，立刘弘为帝",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于前184年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 13,
+          "year": 184,
+          "indices": [
+            2
+          ],
+          "sourceHash": "e9a9cd561db6e998085ede615f1975e0b0e00c9357a4ed1c824919648ffc5a9e",
+          "quote": "少帝寖长，自知非皇后子，乃出言曰：“后安能杀吾母而名我！我壮，即为变！”太后闻之，幽之永巷中，言帝病。左右莫得见。太后语群臣曰：“今皇帝病久不已，失惑昏乱，不能继嗣治天下；其代之。”群臣皆顿首言：“皇太后为天下齐民计，所以安宗庙、社稷甚深；群臣顿首奉诏。”遂废帝，幽杀之。五月，丙辰，立恒山王义为帝，更名曰弘；不称元年，以太后制天下事故也。以轵侯朝为恒山王。"
+        }
+      ],
+      "id": "audit-ee6569beec51-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -6,13 +6,13 @@
   ],
   "identity": "西汉使者，奉命处理羌人事务。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "义渠安国擅杀羌人首领，激起诸羌反叛",
       "summary": "义渠安国擅杀羌人首领，激起诸羌反叛",
       "kind": "主要经历",
-      "category": "去世",
+      "category": "政争",
       "year": 61,
       "timeLabel": "前61年",
       "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
@@ -27,11 +27,19 @@
           "quote": "义渠安国至羌中，召先零诸豪三十余人，以尤桀黠者皆斩之；纵兵击其种人，斩首千余级。于是诸降羌及归义羌侯杨玉等怨怒，无所信乡，遂劫略小种，背畔犯塞，攻城邑，杀长吏。安国以骑都尉将骑二千屯备羌；至浩斖，为虏所击，失亡车重、兵器甚众。安国引还，至令居，以闻。"
         }
       ],
-      "id": "p-0ec8cc0e4196-1"
+      "id": "p-0ec8cc0e4196-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=义渠安国&oldid=79211784",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

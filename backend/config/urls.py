@@ -11,7 +11,7 @@ from accounts import views as accounts
 from commerce import views as commerce
 from payments import views as payments
 
-prefix = 'tongjian/'
+prefix = ''
 api = prefix + 'api/v1/'
 urlpatterns = [
     path(api + 'healthz/', commerce.health),
@@ -51,6 +51,4 @@ if settings.DEBUG:
     def public(request, resource='index.html'):
         resource = resource or 'index.html'
         return serve(request, resource, document_root=settings.ROOT / 'dist')
-    urlpatterns += [path('', lambda request: HttpResponseRedirect('/tongjian/')),
-                    path('tongjian', lambda request: HttpResponseRedirect('/tongjian/')),
-                    re_path(r'^tongjian/(?P<resource>.*)$', public)]
+    urlpatterns += [re_path(r'^(?P<resource>.*)$', public)]

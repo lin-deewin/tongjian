@@ -1,0 +1,141 @@
+{
+  "id": "audit-f289fdad7d0e",
+  "name": "李固言",
+  "aliases": [
+    "李固言"
+  ],
+  "identity": "唐文宗时期宰相，姓名不可截作李固。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "文宗任李固言为门下侍郎、同平章事",
+      "summary": "文宗任李固言为门下侍郎、同平章事",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -835,
+      "timeLabel": "公元835年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 245,
+          "year": -835,
+          "indices": [
+            17
+          ],
+          "sourceHash": "81e31d7cec73b352bc96db5fe6a1e8d3d8f508ae0ae9c34ed8ef71009fc5cc92",
+          "quote": "辛亥，以御史大夫李固言为门下侍郎、同平章事。"
+        }
+      ],
+      "id": "audit-f289fdad7d0e-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "文宗任郑注为凤翔节度使，李固言出镇山南西道",
+      "summary": "文宗任郑注为凤翔节度使，李固言出镇山南西道",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元835年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 245,
+          "year": -835,
+          "indices": [
+            35
+          ],
+          "sourceHash": "a911f269c79046efcae6cf76df89e0437c00619d2903b7fb9445e1d49c20c9c5",
+          "quote": "郑注求为凤翔节度使，门下侍郎、同平章事李固言不可。丁卯，以固言为山南西道节度使，注为凤翔节度使。李训虽因注得进，及势位俱盛，心颇忌注。谋欲中外协势以诛宦官，故出注于凤翔。其实俟既诛宦官，并图注也。"
+        }
+      ],
+      "id": "audit-f289fdad7d0e-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "文宗任李固言为同平章事并以令狐楚接掌山南西道",
+      "summary": "文宗任李固言为同平章事并以令狐楚接掌山南西道",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -836,
+      "timeLabel": "公元836年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 245,
+          "year": -836,
+          "indices": [
+            10
+          ],
+          "sourceHash": "b217f9eaf847a14e3363ad2068a55524eb1c0bf751d01d83a9ce0da7569819fa",
+          "quote": "甲午，以山南西道节度使李固言为门下侍郎、同平章事，以左仆射令狐楚代之。"
+        }
+      ],
+      "id": "audit-f289fdad7d0e-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "文宗采纳郑覃意见，拒绝李固言举荐崔球",
+      "summary": "文宗采纳郑覃意见，拒绝李固言举荐崔球",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元836年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 245,
+          "year": -836,
+          "indices": [
+            14
+          ],
+          "sourceHash": "47d268592b9b04b930402b134493facfdcf9daa38a97475594301fd182c5d149",
+          "quote": "乙未，李固言荐崔球为起居舍人，郑覃再三以为不可，上曰：「公事勿相违！」覃曰：「若宰相尽同，则事必有欺陛下者矣！」"
+        }
+      ],
+      "id": "audit-f289fdad7d0e-4",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "文宗任李固言为同平章事兼西川节度使",
+      "summary": "文宗任李固言为同平章事兼西川节度使",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": -837,
+      "timeLabel": "公元837年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 245,
+          "year": -837,
+          "indices": [
+            13
+          ],
+          "sourceHash": "2aef3797c01ca94e9a4f85b4b59378e63cba5fbe75d3bcfdee29445075f8cadb",
+          "quote": "戊申，以门下侍郎、同平章事李固言同平章事，充西川节度使。"
+        }
+      ],
+      "id": "audit-f289fdad7d0e-5",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 5,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

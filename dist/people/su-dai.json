@@ -6,16 +6,16 @@
   ],
   "identity": "苏秦之弟，战国纵横家；与燕相子之有姻亲关系。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "与子之结亲并促成燕王委政",
       "summary": "苏代出使齐国后回答燕王哙关于齐王能否称霸的问题，称其不信任臣下；燕王由此更加信任子之。",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "政争",
       "year": 316,
       "timeLabel": "前316年",
-      "dateNote": "依原书本年记事。",
+      "dateNote": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。",
       "sources": [
         {
           "volume": 3,
@@ -27,16 +27,21 @@
           "quote": "苏秦既死，秦弟代、厉亦以游说显于诸侯。燕相子之与苏代婚，欲得燕权。苏代使于齐而还，燕王哙问曰：“齐王其霸乎？”对曰：“不能。”王曰：“何故？”对曰：“不信其臣。”于是燕王专任子之。鹿毛寿谓燕王曰：“人之谓尧贤者，以其能让天下也。今王以国让子之，是王与尧同名也。”燕王因属国于子之，子之大重。或曰：“禹荐益而以启人为吏，及老而以启为不足任天下，传之于益。启与交党攻益，夺之，天下谓禹名传天下于益而实令启自取之。今王言属国于子之而吏无非太子人者，是名属子之而实太子用事也。”王因收印绶，自三百石吏已上而效之子之。子之南面行王事，而哙老，不听政，顾为臣，国事皆决于子之。"
         }
       ],
-      "id": "su-dai-1"
+      "id": "su-dai-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明确记述本人参与本段当年的行动或劝说，不能仅作相关提及。"
+      }
     },
     {
       "title": "列名于纵横游说之士",
       "summary": "本年将苏代与苏厉等列为往来诸侯、以辩说相高的纵横家。",
       "kind": "相关提及",
       "category": "言论",
-      "year": 310,
-      "timeLabel": "前310年",
-      "dateNote": "依原书本年记事。",
+      "year": null,
+      "timeLabel": "记载于前310年",
+      "dateNote": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。",
       "sources": [
         {
           "volume": 3,
@@ -48,11 +53,21 @@
           "quote": "仪与苏秦皆以纵横之术游诸侯，致位富贵，天下争慕效之。又有魏人公孙衍者，号曰犀首，亦以谈说显名。其余苏代、苏厉、周最、楼缓之徒，纷纭于天下，务以辩诈相高，不可胜纪，而仪、秦、衍最着。"
         }
       ],
-      "id": "su-dai-2"
+      "id": "su-dai-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本段综述纵横家生平，不能把跨年的游说活动都定为编排所在的前310年。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=苏代&oldid=93191237",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 2,
+    "biographyCompletenessCertified": false
+  }
 }

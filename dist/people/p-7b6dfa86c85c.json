@@ -6,7 +6,7 @@
   ],
   "identity": "东汉将领，参与对匈奴作战。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "邓遵率南匈奴击败零昌",
@@ -27,13 +27,16 @@
           "quote": "癸酉，度辽将军遵率南单于击零昌于灵州，斩首八百余级。〕"
         }
       ],
-      "id": "p-7b6dfa86c85c-1"
+      "id": "p-7b6dfa86c85c-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "邓遵招募羌人刺杀狼莫，任尚因贪赃被诛",
       "summary": "邓遵招募羌人刺杀狼莫，任尚因贪赃被诛",
       "kind": "主要经历",
-      "category": "去世",
+      "category": "任职",
       "year": -118,
       "timeLabel": "公元118年",
       "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
@@ -48,7 +51,10 @@
           "quote": "邓遵募上郡全无种羌雕何刺杀狼莫；封雕何为羌侯。自羌叛十余年间，军旅之费，凡用二百四十余亿，府帑空竭，边民及内郡死者不可胜数，并、凉二州遂至虚耗。及零昌、狼莫死，诸羌瓦解，三辅、益州无复寇警。诏封邓遵为武阳侯，邑三千户。遵以太后从第，故爵封优大。任尚与遵争功，又坐诈增首级、受赇枉法赃千万已上，十二月，槛车征尚，弃市，没入财物。邓骘子侍中凤尝受尚马，骘髡妻及凤以谢罪。"
         }
       ],
-      "id": "p-7b6dfa86c85c-2"
+      "id": "p-7b6dfa86c85c-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "邓遵、马续大破入寇鲜卑",
@@ -69,11 +75,19 @@
           "quote": "秋，七月，鲜卑寇马城塞，杀长吏，度辽将军邓遵及中郎将马续率南单于追击，大破之。"
         }
       ],
-      "id": "p-7b6dfa86c85c-3"
+      "id": "p-7b6dfa86c85c-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=鄧遵&oldid=93188396",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

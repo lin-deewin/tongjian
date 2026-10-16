@@ -6,13 +6,13 @@
   ],
   "identity": "唐朝大臣，曾任宰相。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "魏扶卒，崔龟从任同平章事",
       "summary": "魏扶卒，崔龟从任同平章事",
       "kind": "主要经历",
-      "category": "去世",
+      "category": "任职",
       "year": -850,
       "timeLabel": "公元850年",
       "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
@@ -27,7 +27,10 @@
           "quote": "六月，戊申，兵部侍郎、同平章事魏扶薨。以户部尚书、判度支崔龟从同平章事。"
         }
       ],
-      "id": "p-708ec8a5b833-1"
+      "id": "p-708ec8a5b833-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "崔龟从任宣武节度使",
@@ -48,11 +51,19 @@
           "quote": "以中书侍郎、同平章事崔龟从同平章事，充宣武节度使。"
         }
       ],
-      "id": "p-708ec8a5b833-2"
+      "id": "p-708ec8a5b833-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=崔龜從&oldid=88821707",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

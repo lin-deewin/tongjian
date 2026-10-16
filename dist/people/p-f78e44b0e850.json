@@ -6,7 +6,7 @@
   ],
   "identity": "夫余王，曾进犯玄菟郡。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "夫余王夫台进犯玄菟，太守公孙域击退",
@@ -27,11 +27,19 @@
           "quote": "夫余王夫台寇玄菟；玄菟太守父孙域击破之。"
         }
       ],
-      "id": "p-f78e44b0e850-1"
+      "id": "p-f78e44b0e850-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=夫台&oldid=92236398",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

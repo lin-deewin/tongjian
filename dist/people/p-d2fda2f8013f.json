@@ -6,13 +6,13 @@
   ],
   "identity": "定难军节度使。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "夏州都指挥使高宗益作乱杀李彝昌，李仁福被推为帅并获任节度使",
       "summary": "夏州都指挥使高宗益作乱杀李彝昌，李仁福被推为帅并获任节度使",
       "kind": "相关提及",
-      "category": "去世",
+      "category": "战争",
       "year": null,
       "timeLabel": "记载于公元910年",
       "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
@@ -27,7 +27,10 @@
           "quote": "夏州都指挥使高宗益作乱，杀节度使李彝昌。将吏共诛宗益，推彝昌族父蕃汉都指挥使李仁福为帅，癸丑，仁福以闻。夏，四月，甲子，以仁福为定难节度使。"
         }
       ],
-      "id": "p-d2fda2f8013f-1"
+      "id": "p-d2fda2f8013f-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "岐王、邠帅、泾帅与晋王合兵围攻夏州李仁福",
@@ -48,7 +51,10 @@
           "quote": "岐王与邠、泾二帅各遣使告晋，请合兵攻定难节度使李仁福；晋王遣振武节度使周德威将兵会之，合五万众围夏州，仁福婴城拒守。"
         }
       ],
-      "id": "p-d2fda2f8013f-2"
+      "id": "p-d2fda2f8013f-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "李仁福向梁廷告急，梁太祖部署援军并亲赴陕州应对晋军",
@@ -69,16 +75,19 @@
           "quote": "壬戍，李仁福来告急。甲子，以河南尹兼中书令张全义为西京留守。帝恐晋兵袭西京，以宣化留后李思安为东北面行营都指挥使，将兵万人屯河阳。丙寅，帝发洛阳；己巳，至陕。辛未，以镇国节度使杨师厚为西路行营招讨使，会感化节度使康怀贞将兵三万屯三原。帝忧晋兵出泽州逼怀州，既而闻其在绥、银碛中，曰：「无足虑也。」甲申，遣夹马指挥使李遇、刘绾自鄜、延趋银、夏，邀其归路。"
         }
       ],
-      "id": "p-d2fda2f8013f-3"
+      "id": "p-d2fda2f8013f-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "定难节度使李仁福卒军中拥立其子李彝超",
       "summary": "定难节度使李仁福卒军中拥立其子李彝超",
-      "kind": "相关提及",
+      "kind": "主要经历",
       "category": "去世",
-      "year": null,
-      "timeLabel": "记载于公元933年",
-      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "year": -933,
+      "timeLabel": "公元933年",
+      "dateNote": "依原书本年记事。",
       "sources": [
         {
           "volume": 278,
@@ -90,11 +99,19 @@
           "quote": "戊午，定难节度使李仁福卒；庚申，军中立其子彝超为留后。"
         }
       ],
-      "id": "p-d2fda2f8013f-4"
+      "id": "p-d2fda2f8013f-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李仁福&oldid=94682120",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

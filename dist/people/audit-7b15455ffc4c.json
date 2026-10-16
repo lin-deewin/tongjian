@@ -1,0 +1,45 @@
+{
+  "id": "audit-7b15455ffc4c",
+  "name": "刘志诚",
+  "aliases": [
+    "刘志诚"
+  ],
+  "identity": "唐代醴泉起事者，姓名不可截作刘志。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘志诚在醴泉作乱被擒斩",
+      "summary": "刘志诚在醴泉作乱被擒斩",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -736,
+      "timeLabel": "公元736年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 214,
+          "year": -736,
+          "indices": [
+            9
+          ],
+          "sourceHash": "f82e2f20e5c0fa749b00ed706ddfa940900fbde800c4707d7dc3e5db6d3f5ac2",
+          "quote": "五月，醴泉妖人刘志诚作乱，驱掠路人将趣咸阳。村民走告县官焚桥路以拒之，其众遂溃，数日，悉擒斩之。"
+        }
+      ],
+      "id": "audit-7b15455ffc4c-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

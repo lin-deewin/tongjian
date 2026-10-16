@@ -1,3 +1,3 @@
 {% extends 'base.html' %}{% block title %}{{ product.title }}{% endblock %}
-{% block styles %}<link rel="stylesheet" href="/tongjian/truth-article.css?v=20261014-commerce">{% endblock %}
-{% block content %}<p class="article-tools"><a href="/tongjian/account/purchases/">我的购买</a> · <a href="/tongjian/api/v1/products/{{ product.slug }}/download/">下载配套 PDF</a></p>{{ article_body }}{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/truth-article.css?v=20261014-commerce">{% endblock %}
+{% block content %}<p class="article-tools"><a href="/account/purchases/">我的购买</a> · <a href="/api/v1/products/{{ product.slug }}/download/">下载配套 PDF</a></p>{{ article_body }}{% endblock %}

@@ -6,7 +6,7 @@
   ],
   "identity": "西晋将领，参与平定齐万年之乱。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "孟观、李肇伪造诏书，诬杨骏谋反并发兵讨伐",
@@ -27,7 +27,10 @@
           "quote": "三月，辛卯，孟观、李肇启帝，夜作诏，诬骏谋反，中外戒严，遣使奉诏废骏，以侯就第。命东安公繇帅殿中四百人讨骏，楚王玮屯司马门，以淮南相刘颂为三公尚书，屯卫殿中。段广跪言于帝曰：「杨骏孙公无子，岂有反理，愿陛下审之！」帝不答。"
         }
       ],
-      "id": "p-ec28a09454ee-1"
+      "id": "p-ec28a09454ee-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "张华、陈准荐孟观讨伐齐万年，孟观屡战获胜",
@@ -48,7 +51,10 @@
           "quote": "张华、陈准以赵王、梁王，相继在关中，皆雍容骄贵，师老无功，乃荐孟观沈毅文武才用，使讨齐万年。观身当矢石，大战十数皆破之。"
         }
       ],
-      "id": "p-ec28a09454ee-2"
+      "id": "p-ec28a09454ee-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "孟观大破氐军，俘获齐万年",
@@ -69,7 +75,10 @@
           "quote": "春，正月孟观大破氐众于中亭，获齐万年。"
         }
       ],
-      "id": "p-ec28a09454ee-3"
+      "id": "p-ec28a09454ee-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "孟观占卜赵伦不会败，留守洛阳助伦",
@@ -90,11 +99,19 @@
           "quote": "安南将军、监沔北诸军事孟观，以为紫宫帝座无他变，伦必不败，乃为之固守。"
         }
       ],
-      "id": "p-ec28a09454ee-4"
+      "id": "p-ec28a09454ee-4",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=孟觀&oldid=86489796",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

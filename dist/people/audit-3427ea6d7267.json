@@ -1,0 +1,911 @@
+{
+  "id": "audit-3427ea6d7267",
+  "name": "刘知远",
+  "aliases": [
+    "刘知远",
+    "刘暠",
+    "后汉高祖"
+  ],
+  "identity": "五代后汉建立者，庙号高祖；不是汉高祖刘邦。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "后汉高祖下诏停止契丹在各地括取钱帛并处置契丹官员",
+      "summary": "后汉高祖下诏停止契丹在各地括取钱帛并处置契丹官员",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            45
+          ],
+          "sourceHash": "24f40e83f8f77a5cea38505a4a94d5e1635b4d5f26fb6c52c86e0b03f077d584",
+          "quote": "壬申，诏：「诸道为契丹括率钱帛者，皆罢之。其晋臣被迫胁为使者勿问，令诣行在。自余契丹，所在诛之。」"
+        }
+      ],
+      "id": "audit-3427ea6d7267-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖刘知远东行迎接后晋出帝与太后，闻其已过恒州后折返",
+      "summary": "后汉高祖刘知远东行迎接后晋出帝与太后，闻其已过恒州后折返",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            47
+          ],
+          "sourceHash": "28198837cfa2055db5642ac766e6aa764ea00b4e93e3fff4720576b0a0b70829",
+          "quote": "甲戌，帝自将东迎晋主及太后。至寿阳，闻已过恒州数日，乃留兵戍承天军而还。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "赵晖拒绝契丹任命并向后汉归附，后汉高祖喜称其取得咽喉要地",
+      "summary": "赵晖拒绝契丹任命并向后汉归附，后汉高祖喜称其取得咽喉要地",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            56
+          ],
+          "sourceHash": "f3132c123fdc71fb0fbd0dd948b4f5142118951529eca53b8dab04675cae31f5",
+          "quote": "契丹主赐赵晖诏，即以为保义留后。晖斩契丹使者，焚其诏，遣支使河间赵矩奉表诣晋阳。契丹遣其将高谟翰攻晖，不克。帝见矩，甚喜，曰：「子挈咽喉之地以归我，天下不足定也。」矩因劝帝早引兵南向以副天下之望，帝善之。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖任赵晖侯章等人为节度使",
+      "summary": "后汉高祖任赵晖侯章等人为节度使",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            57
+          ],
+          "sourceHash": "a6f9a9862171a6bb3404e0e6c60d25fa7dee3546266ac43447cd2baf9ff473d0",
+          "quote": "辛巳，以晖为保义节度使，侯章为镇国节度使，保义军马步都指挥使王晏为绛州防御使、保义军马步副指挥使。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-4",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖派使者安抚农民并令其聚居山谷避乱",
+      "summary": "后汉高祖派使者安抚农民并令其聚居山谷避乱",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            69
+          ],
+          "sourceHash": "04cf109ba91b4a692b4bf9688a77363626d84bc5122c692ce2b2e1b4983a7962",
+          "quote": "戊子，帝遣使以迢书安集农民，保聚山谷避契丹之患者。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-5",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖任皇弟刘崇代理太原府尹",
+      "summary": "后汉高祖任皇弟刘崇代理太原府尹",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            81
+          ],
+          "sourceHash": "8f8a615b38a3054cb000baf1575d314300694c3631e56677e7f435b84ebaee10",
+          "quote": "庚戌，以皇弟北京马步都指挥使崇行太原尹，知府事。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-6",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖任刘信史弘肇杨邠郭威等掌管禁军与枢密事务",
+      "summary": "后汉高祖任刘信史弘肇杨邠郭威等掌管禁军与枢密事务",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            84
+          ],
+          "sourceHash": "2647422a591137885c4ced8df3a48ffa877e3f669f3d1f4c298897e3de8e15ef",
+          "quote": "帝以从弟北京马军都指挥使信领义成节度使，充侍卫马军都指挥使，武节都指挥使史弘肇领忠武节度使，充步军都指挥使，右都押牙杨邠权枢密使，蕃汉兵马都孔目官郭威权副枢密使，两使都孔目官南乐王章权三司使。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-7",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖立魏国夫人李氏为皇后",
+      "summary": "后汉高祖立魏国夫人李氏为皇后",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            85
+          ],
+          "sourceHash": "b08f667709109cea5f775a0741cdae48d16a7e5eccf57c3ab74f9ea0e2bc9d74",
+          "quote": "癸亥，立魏国夫人李氏为皇后。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-8",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖任苏逢吉与苏禹珪为宰相",
+      "summary": "后汉高祖任苏逢吉与苏禹珪为宰相",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            87
+          ],
+          "sourceHash": "edc56ab47b75ce6b7609b199480d81ba40ac83e3db89cd5f1c3076cdb834095f",
+          "quote": "甲子，帝以河东节度判官长安苏逢吉、观察判官苏禹珪为中书侍郎、同平章事。禹珪，密州人也。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-9",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖改折从远名为折从阮并任其为永安节度使",
+      "summary": "后汉高祖改折从远名为折从阮并任其为永安节度使",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            88
+          ],
+          "sourceHash": "8298e036847fe9461d16af7458e38f966be8860a802cade5499d6394e2a4afd3",
+          "quote": "振武节度使、府州团练使折从远入朝，更名从阮，置永安军于府州，以从阮为节度使。又以河东左都押牙刘铢为河阳节度使。铢，陜人也。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-10",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖任王守恩为昭义节度使并部署诸军经略河南",
+      "summary": "后汉高祖任王守恩为昭义节度使并部署诸军经略河南",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            90
+          ],
+          "sourceHash": "f6a83b09c0586faa35ea8d4e6c2a3e8a9533214881d3dd575d5ce10653f082ee",
+          "quote": "丙寅，以王守恩为昭义节度使，高允权为彰武节度使，又以岢岚军使郑谦为忻州刺史、领彰国节度使兼忻、代二州义军都部署。丁卯，以缘河巡检使阎万进为岚州刺史，领振武节度使兼岚、害二州义军都制置使。帝闻契丹北归，欲经略河南，故以弘肇为前驱，又遣阎万进出北方以分契丹兵势。万进，并州人也。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-11",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖任武行德为河阳节度使",
+      "summary": "后汉高祖任武行德为河阳节度使",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 286,
+          "year": -947,
+          "indices": [
+            96
+          ],
+          "sourceHash": "c940d3c5daf13c3cbe99d245cee4cd119111807306d8951f49f8ac1fe2f1199f",
+          "quote": "庚午，史弘肇奏遣先锋将马诲击契丹，斩首千余级。时耿崇美、崔廷勋至泽州，闻弘肇兵已入潞州，不敢进，引兵而南；弘肇遣诲追击，破之，崇美、堥勋与奚王拽刺退保怀州。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-12",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖刘知远自太原出兵进取晋绛",
+      "summary": "后汉高祖刘知远自太原出兵进取晋绛",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            7
+          ],
+          "sourceHash": "22f65d43f773e54e85fdfefb398c28f2e0b8e8e96029a88f4d0b7f739016a4f3",
+          "quote": "丙申，帝发太原，自阴地关出晋、绛。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-13",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖至霍邑并派使者劝赵匡赞归附",
+      "summary": "后汉高祖至霍邑并派使者劝赵匡赞归附",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            11
+          ],
+          "sourceHash": "5cc66ebefbdf166be6c92fb32af8ce8f2c0933ab8aef6cab6fe998712e6ca804",
+          "quote": "辛丑，帝至霍邑，遣使谕河中节度使赵匡赞，仍以契丹囚其父告之。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-14",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "王淑妃劝大臣不要为母子坚守，众人决定迎后汉高祖入京",
+      "summary": "王淑妃劝大臣不要为母子坚守，众人决定迎后汉高祖入京",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            14
+          ],
+          "sourceHash": "254efe67ee28ed7e0da2d54d4b0803d7e7f117d59874c1fe64d9d109d9807a71",
+          "quote": "百官谒见淑妃，淑妃泣曰：「吾母子单弱如此，而为诸公所推，是祸吾家也。」翰留燕兵千人守诸门，为从益宿卫。壬寅，翰及刘晞辞行，从益饯于北郊。遣使召高行周于宋州，武行德于河阳，皆不至，淑妃惧，召大臣谋之曰：「吾母子为萧翰所逼，分当灭亡。诸公无罪，宜早迎新主，自求多福，勿以吾母子为意！」众感其言，皆未忍叛去。或曰：「今集诸营，不减五千，与燕兵并力坚守一月，北救必至。」淑妃曰：「吾母子亡国之余，安敢与人争天下！不幸至此，死生惟人所裁。若新主见察，当知我无所负。今更为计划，则祸及他人，阖城涂炭，终何益乎！」众犹欲拒守，三司使文安刘审交曰：「余燕人，岂不为燕兵计！顾事有不可如何者。今城中大乱之余，公私穷竭，遗民无几，若复受围一月，无类矣。愿诸公勿复言，一从太妃处分。」乃用赵远、翟光邺策，称梁王，知军国事。遣使奉表称臣迎帝，请早赴京师，仍出居私第。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-15",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖抵达晋州",
+      "summary": "后汉高祖抵达晋州",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            15
+          ],
+          "sourceHash": "781fa4f26c3a95bdb445032f80e6814e569689a766cc29cd7047dff3b66a5dfb",
+          "quote": "甲辰，帝至晋州。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-16",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖劝降绛州，李从朗开城投降",
+      "summary": "后汉高祖劝降绛州，李从朗开城投降",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            19
+          ],
+          "sourceHash": "7fe1d3b367d0b7f534c56b5d034f76e6378d82a813530330fd3f5980a34ceffa",
+          "quote": "帝之即位也，绛州刺史李从朗与契丹将成霸卿等拒命，帝遣西南面招讨使、护国节度使白文珂攻之，未下。帝至城下，命诸军四布而勿攻，以利害谕之。戊申，从朗举城降。帝命亲将分护诸门，士卒一人毋得人。以偏将薛琼为防御使。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-17",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖抵达陕州，赵晖亲自牵马迎入城中",
+      "summary": "后汉高祖抵达陕州，赵晖亲自牵马迎入城中",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            20
+          ],
+          "sourceHash": "0b1826a5a47cccc02cdc436eed5aa17df8e89fcd1846587552868d3becf8c3c2",
+          "quote": "辛亥，帝至陕州，赵晖自御帝马而入。壬子，至石壕，汴人有来迎者。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-18",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖抵达新安，西京留守官员前来迎接",
+      "summary": "后汉高祖抵达新安，西京留守官员前来迎接",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            23
+          ],
+          "sourceHash": "4ed4c44226a65bd1e7776487a3f36239c18d188ecf2ec0f9650c68192292b4a3",
+          "quote": "乙卯，帝至新安，西京留司官悉来迎。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-19",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖进入洛阳并焚毁契丹授官文书以安定人心",
+      "summary": "后汉高祖进入洛阳并焚毁契丹授官文书以安定人心",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            25
+          ],
+          "sourceHash": "0bcb549f2803c9c93d99032ab8d3fdcfc74170f212565505fe44f6eeac8ad784",
+          "quote": "丙辰，帝至洛阳，入居宫中；汴州百官奉表来迎。诏谕以受契丹补署者皆勿自疑，聚其告牒而焚之。赵远更名上交。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-20",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖命郭从义先入大梁并秘密处死李从益与王淑妃",
+      "summary": "后汉高祖命郭从义先入大梁并秘密处死李从益与王淑妃",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            26
+          ],
+          "sourceHash": "81d7b5584ebc39d5a9ca468543bb2fae1679dae4db262f70b439a0074d11ca09",
+          "quote": "命郑州防御使郭从义先入大梁清宫，密令杀李从益及王淑妃。淑妃且死，曰：「吾儿为契丹所立，何罪而死！何不留之，使每岁寒食，以一盂麦饭洒明宗陵乎！」闻者泣下。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-21",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖离开洛阳东行，魏仁浦归附后受郭威赏识",
+      "summary": "后汉高祖离开洛阳东行，魏仁浦归附后受郭威赏识",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            27
+          ],
+          "sourceHash": "cbbf9a1e8035187a4c13fedc23f1921562a024c457a53e393f043eca45746d02",
+          "quote": "戊午，帝发洛阳。枢密院吏魏仁浦自契丹逃归，见于巩；〔见，贤遍翻。九域志：巩县属西京，在京东一百一十里。郭威问以兵数及故事，仁浦强记精敏，威由是亲任之。仁浦，卫州人也。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-22",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "汴州百官在荥阳迎接后汉高祖，晋朝藩镇相继归附",
+      "summary": "汴州百官在荥阳迎接后汉高祖，晋朝藩镇相继归附",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            28
+          ],
+          "sourceHash": "04b23c8dbb7cb1b9d0f8658a22536c67ceca6c858cfcecf1deae05e42860b32d",
+          "quote": "辛酉，汴州百官窦贞固等迎于荥阳。甲子，帝至大梁，晋之藩镇相继来降。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-23",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖大赦并恢复国号为汉，任刘崇为河东节度使",
+      "summary": "后汉高祖大赦并恢复国号为汉，任刘崇为河东节度使",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            30
+          ],
+          "sourceHash": "3deea745a802b0e006b638d749ed70c33448e5ec10ebc9f0e898072b2173c2ff",
+          "quote": "戊辰，帝下诏大赦。凡契丹所除节度使，下至将吏，各安职任，不复变更。复以汴州为东京，改国号曰汉，仍称天福年，曰：「余未忍忘晋也。」复青、襄、汝三节度。壬申，以北京留守崇为河东节度使，同平章事。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-24",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖下诏建立六座宗庙",
+      "summary": "后汉高祖下诏建立六座宗庙",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            43
+          ],
+          "sourceHash": "737ae099e83faadaba63e64d3599e28b5362baf7ba745e88bfbeeed6c1cb1782",
+          "quote": "庚辰，制建宗庙。太祖高皇帝，世祖光武皇帝，皆百世不迁。又立四亲庙，追尊谥号。凡六庙。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-25",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖与窦贞固商议宰相人选，苏逢吉推荐李涛",
+      "summary": "后汉高祖与窦贞固商议宰相人选，苏逢吉推荐李涛",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            65
+          ],
+          "sourceHash": "b73702f36a642e28079046f28189583dd9b6bfc65cd5455d97b178c45c64d602",
+          "quote": "初，帝与吏部尚书窦贞固俱事晋高祖，雅相知重，及即位，欲以为相，问苏逢吉：「其次谁可相者﹖」逢吉与翰林学士李涛善，因荐之，曰：「昔涛乞斩张彦泽，陛下在太原，尝重之，此可相也。」"
+        }
+      ],
+      "id": "audit-3427ea6d7267-26",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "李涛上疏请求后汉高祖亲征杜重威后获任宰相",
+      "summary": "李涛上疏请求后汉高祖亲征杜重威后获任宰相",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            66
+          ],
+          "sourceHash": "2a78cc922139b570a531db3a08b33a051fe61c8f153567775a3510d07d3eb133",
+          "quote": "会高行周、慕容彦超共讨杜重威于邺都，彦超欲急攻城，行周欲缓之以待其弊。行周女为重威子妇，彦超扬言：「行周以女故，爱贼不攻。」由是二将不协。帝恐生他变，欲自将击重威，意未决。涛上疏请亲征。帝大悦，以涛有宰相器。九月，申戌，加逢吉左仆射兼门下侍郎，苏禹珪右仆射兼中书侍郎，贞固司空兼门下侍郎，涛户部尚书兼中书侍郎，并同平章事。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-27",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖将前往澶州魏州慰劳军队并任皇子留守东京",
+      "summary": "后汉高祖将前往澶州魏州慰劳军队并任皇子留守东京",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            67
+          ],
+          "sourceHash": "49a34382b8e49e3d80c7ca634ce9d6753eedc03efbb6d01ea73f1a51fc91a234",
+          "quote": "戊寅，诏幸澶、魏劳军，以皇子承训为东京留守。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-28",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖到达邺都后采纳高行周建议围而不急攻杜重威",
+      "summary": "后汉高祖到达邺都后采纳高行周建议围而不急攻杜重威",
+      "kind": "相关提及",
+      "category": "战争",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            70
+          ],
+          "sourceHash": "c6f471c932fa61bc603ab598497a36d5682c32cb5909bde86115c6d9a60b3d7e",
+          "quote": "戊戌，帝至邺都城下，舍于高行周营。行周言于帝曰：「城中食未尽，急攻，徒杀士卒，未易克也。不若缓之，彼食尽自溃。」帝然之。慕容彦超数因事陵轹行周，行周泣诉于执政，掬粪壤实其口，苏逢吉、杨邠密以白帝。帝深知彦超之曲，犹命二臣和解之；又召彦超于帐中责之，且使诣行周谢。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-29",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "司马光批评后汉高祖杀降兵失信且赦免杜重威失刑",
+      "summary": "司马光批评后汉高祖杀降兵失信且赦免杜重威失刑",
+      "kind": "史家评论",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "年份未详",
+      "dateNote": "公元947年为评论所在年，不是人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            75
+          ],
+          "sourceHash": "5254b46e00f44ad18ebc58fb0ba8a60fc1060b09bd4e45e9ce94b77303da8fbe",
+          "quote": "臣光曰：汉高祖杀幽州无辜千五百人，非仁也；诱张琏而诛之，非信也；杜重威罪大而赦之，非刑也。仁以合众，信以行令，刑以惩奸；失此三者，何以守国！其祚运之不延也，宜哉！"
+        }
+      ],
+      "id": "audit-3427ea6d7267-30",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖离开邺都",
+      "summary": "后汉高祖离开邺都",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            78
+          ],
+          "sourceHash": "e50a91fb71be9e7cc67898440a18029ab71591f6d1ab02961720be9c066262de",
+          "quote": "十二月，丙戌，帝发邺都。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-31",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖抵达大梁",
+      "summary": "后汉高祖抵达大梁",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元947年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -947,
+          "indices": [
+            81
+          ],
+          "sourceHash": "b10cdf6c885daa7b993c44a3c19fe1e3c6cf5b7715c095a1b1728f4d0b8a5530",
+          "quote": "癸巳，帝至大梁。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-32",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "李恕劝赵匡赞归附后汉，后汉高祖允许其入朝",
+      "summary": "李恕劝赵匡赞归附后汉，后汉高祖允许其入朝",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于公元948年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -948,
+          "indices": [
+            2
+          ],
+          "sourceHash": "fd47da990019c8b740cd7013a49383a6877f0748cca1a1efa71a65ccbeb3fefb",
+          "quote": "晋昌节度判官李恕，久在赵延寿幕下，延寿使之佐匡赞。匡赞将入蜀，恕谏曰：「燕王入朝，岂所愿哉！今汉家新得天下，方务招怀，若谢罪归朝，必保富贵。入蜀非全计也，『蹄涔不容尺鲤』，刘曜之言。涔，锄针翻。蹄涔，谓牛马所践之迹，因而渟水处也，非盈尺之鲤所可容身；以喻蜀小国，势不能容赵匡赞。〕公必悔之。」匡赞乃遣恕奉表请入朝。景崇等未行而恕至，帝问恕：「匡赞何为附蜀﹖」对曰：「匡赞自以身受虏官，父在虏庭，恐陛下未之察，故附蜀求苟免耳。臣以为国家必应存抚，故遣臣来祈哀。」帝曰：「匡赞父子，本吾人也，不幸陷虏。今延寿方坠槛㗳，吾何忍更害匡赞乎！」即听其入朝。侯益亦请赴二月四日圣寿节上寿。景崇等将行，帝召入卧内，敕之曰：「匡赞、益之心，皆未可知。汝至彼，彼已入朝，则勿问；若尚迁延顾望，当以便宜从事。」"
+        }
+      ],
+      "id": "audit-3427ea6d7267-33",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖改名刘暠",
+      "summary": "后汉高祖改名刘暠",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元948年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -948,
+          "indices": [
+            3
+          ],
+          "sourceHash": "9e5337020769ad81a3ad670b85ea4588a39852d0c53e1a57e2dbeec7f78d156f",
+          "quote": "己未，帝更名暠。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-34",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖因皇子刘承训之死悲痛过度而病倒",
+      "summary": "后汉高祖因皇子刘承训之死悲痛过度而病倒",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元948年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -948,
+          "indices": [
+            6
+          ],
+          "sourceHash": "339e9cc8c3dccfe19aecdbf3002550030b41402a714aa3ad0e67a4a2fdc62e9c",
+          "quote": "帝自魏王承训卒，悲痛过甚。甲子，始不豫。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-35",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖病危时将幼子刘承祐托付给苏逢吉杨邠史弘肇郭威",
+      "summary": "后汉高祖病危时将幼子刘承祐托付给苏逢吉杨邠史弘肇郭威",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元948年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -948,
+          "indices": [
+            10
+          ],
+          "sourceHash": "ed9311fbdc88fef95a86ab71cf472b90a975ea4b36790aec6cbc9117794fbb5e",
+          "quote": "丁丑，帝大渐。杨邠忌侍卫马军都指挥使、忠武节度使刘信，立遣之镇。信不得奉辞，雨泣而去。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-36",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "后汉高祖刘知远去世，顾命大臣暂时秘不发丧",
+      "summary": "后汉高祖刘知远去世，顾命大臣暂时秘不发丧",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元948年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 287,
+          "year": -948,
+          "indices": [
+            11
+          ],
+          "sourceHash": "a12e8c5f25118333e87e9cbf0529c5c46bb2e91159f56ee0f354cab2ce483fed",
+          "quote": "帝召苏逢吉、杨邠、史弘肇、郭威入受顾命，曰：「余气息微，不能多言。承佑幼弱，后事托在卿辈。」又曰：「善防重威。」是日，殂于万岁殿，逢吉等秘不发丧。"
+        }
+      ],
+      "id": "audit-3427ea6d7267-37",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 37,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

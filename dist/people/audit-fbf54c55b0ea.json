@@ -1,0 +1,70 @@
+{
+  "id": "audit-fbf54c55b0ea",
+  "name": "刘晟",
+  "aliases": [
+    "刘晟",
+    "刘弘熙"
+  ],
+  "identity": "南汉君主，原名刘弘熙。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "刘弘熙设计诱使刘玢醉酒后将其杀害",
+      "summary": "刘弘熙设计诱使刘玢醉酒后将其杀害",
+      "kind": "主要经历",
+      "category": "政争",
+      "year": -943,
+      "timeLabel": "公元943年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -943,
+          "indices": [
+            25
+          ],
+          "sourceHash": "65bfc8addc8bee86c2500dc852618e468e3b8fb3867675eedf23b838c86e135b",
+          "quote": "晋王弘熙欲图之，乃盛饰声伎，娱悦其意，以成其恶。汉主好手搏，弘熙令指挥使陈道庠引力士刘思潮、谭令禋、林少强、林少良、何昌廷等五人习手搏于晋府，汉主闻而悦之。丙戍，与诸王宴于长春宫，观手搏，至夕罢宴，汉主大醉。弘熙使道庠、思潮等掖汉主，因拉杀之，尽杀其左右。"
+        }
+      ],
+      "id": "audit-fbf54c55b0ea-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "百官迎立刘弘熙即位改名刘晟",
+      "summary": "百官迎立刘弘熙即位改名刘晟",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -943,
+      "timeLabel": "公元943年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -943,
+          "indices": [
+            26
+          ],
+          "sourceHash": "9ce0098b1f1efb8609d5333fd9c4b1759360bda970f6f6a08bc340900b055a83",
+          "quote": "明旦，百官诸王莫敢入宫，越王弘昌帅诸弟临于寝殿，迎弘熙即皇帝位，更名晟，改元应干。以弘昌为太尉兼中书令、诸道兵马都元帅，知政事，循王弘杲为副元帅，参预政事。陈道庠及刘思潮等皆受赏赐甚厚。"
+        }
+      ],
+      "id": "audit-fbf54c55b0ea-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

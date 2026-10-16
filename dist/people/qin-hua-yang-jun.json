@@ -7,7 +7,7 @@
   ],
   "identity": "秦宣太后同父弟，秦国宗室。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "率秦军攻楚，夺取襄城",
@@ -28,11 +28,47 @@
           "quote": "秦华阳君伐楚，大破楚师，斩首三万，杀其将景缺，取楚襄城。楚王恐，使太子为质于齐以请平。"
         }
       ],
-      "id": "qin-hua-yang-jun-1"
+      "id": "qin-hua-yang-jun-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "附述华阳君芈戎为宣太后同父弟",
+      "summary": "附述华阳君芈戎为宣太后同父弟",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前305年",
+      "dateNote": "原文明确指出秦华阳君身份，但此处不记一项独立的本年行动。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 305,
+          "indices": [
+            2
+          ],
+          "sourceHash": "b320e2a18312032ef142a11a7790cccb1504504f6ea8cf543a9412d54ae110a2",
+          "quote": "秦宣太后异父弟曰穰侯魏冉，同父弟曰华阳君芈戎；王之同母弟曰高陵君、泾阳君。魏冉最贤，自惠王、武王时，任职用事，武王薨，诸弟争立，唯魏冉力能立昭王。昭王即位，以魏冉为将军，卫咸阳。是岁，庶长壮及大臣、诸公子谋作乱。魏冉诛之；及惠文后皆不得良死，悼武王后出居于魏，王兄弟不善者，魏冉皆灭之。王少，宣太后自治事，任魏冉为政，威震秦国。"
+        }
+      ],
+      "id": "qin-hua-yang-jun-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明确指出秦华阳君身份，但此处不记一项独立的本年行动。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=芈戎&oldid=92630423",
   "birthStatus": "approximate",
-  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。"
+  "birthNote": "资料只提供大致年代、范围或估计生年；不推算年龄。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 2,
+    "biographyCompletenessCertified": false
+  }
 }

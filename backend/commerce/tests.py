@@ -70,7 +70,7 @@ class CommerceTests(ContentFixture, TestCase):
         from .models import Product
         first = Product.objects.get(pk=self.product.pk)
         second = Product.objects.get(pk=self.product.pk)
-        request = RequestFactory().get('/tongjian/admin/')
+        request = RequestFactory().get('/admin/')
         request.user = self.staff
         editor = ProductAdmin(Product, AdminSite())
         first.price_fen = 200
@@ -124,7 +124,7 @@ class CommerceTests(ContentFixture, TestCase):
     def test_frontend_success_does_not_unlock(self):
         order = self.new_order()
         self.client.force_login(self.user)
-        self.client.get(f'/tongjian/api/v1/orders/{order.pk}/?success=true')
+        self.client.get(f'/api/v1/orders/{order.pk}/?success=true')
         self.assertFalse(AccessGrant.objects.exists())
 
     def test_expired_order_requires_channel_close(self):
@@ -193,55 +193,55 @@ class CommerceTests(ContentFixture, TestCase):
             confirm_refund('fake', RefundResult(refund.merchant_number, order.merchant_number, 'succeeded', 99))
 
     def test_anonymous_unowned_owned_download_article_and_cache(self):
-        url = '/tongjian/api/v1/products/truth/download/'
+        url = '/api/v1/products/truth/download/'
         self.assertEqual(self.client.get(url).status_code, 401)
         self.client.force_login(self.other)
         self.assertEqual(self.client.get(url).status_code, 403)
-        self.assertEqual(self.client.get('/tongjian/article/truth/').status_code, 302)
+        self.assertEqual(self.client.get('/article/truth/').status_code, 302)
         self.paid()
         self.client.force_login(self.user)
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response['Cache-Control'], 'private, no-store')
         self.assertTrue(b''.join(response.streaming_content).startswith(b'%PDF-'))
-        article = self.client.get('/tongjian/article/truth/')
+        article = self.client.get('/article/truth/')
         self.assertContains(article, 'private-paid-analysis-marker')
         self.assertEqual(article['Cache-Control'], 'private, no-store')
 
     def test_other_user_order_hidden(self):
         order = self.new_order()
         self.client.force_login(self.other)
-        response = self.client.get(f'/tongjian/api/v1/orders/{order.pk}/')
+        response = self.client.get(f'/api/v1/orders/{order.pk}/')
         self.assertEqual(response.status_code, 404)
         self.assertEqual(response.json()['error']['code'], 'not_found')
 
     def test_api_rejects_price_and_requires_terms(self):
         self.client.force_login(self.user)
         for extra in [{'amount_fen': 1, 'accept_terms': True}, {'accept_terms': False}]:
-            response = self.client.post('/tongjian/api/v1/orders/', {'product': 'truth', 'revision': 1, 'scene': 'native', **extra},
+            response = self.client.post('/api/v1/orders/', {'product': 'truth', 'revision': 1, 'scene': 'native', **extra},
                 content_type='application/json', HTTP_IDEMPOTENCY_KEY=uuid.uuid4().hex)
             self.assertEqual(response.status_code, 400)
 
     def test_h5_in_wechat_rejected(self):
         self.client.force_login(self.user)
-        response = self.client.post('/tongjian/api/v1/orders/', {'product': 'truth', 'revision': 1, 'scene': 'h5', 'accept_terms': True},
+        response = self.client.post('/api/v1/orders/', {'product': 'truth', 'revision': 1, 'scene': 'h5', 'accept_terms': True},
             content_type='application/json', HTTP_IDEMPOTENCY_KEY=uuid.uuid4().hex, HTTP_USER_AGENT='MicroMessenger')
         self.assertEqual(response.status_code, 400)
 
     @override_settings(ALLOW_FAKE=False)
     def test_fake_endpoint_disabled(self):
         self.client.force_login(self.user)
-        self.assertEqual(self.client.post(f'/tongjian/api/v1/orders/{uuid.uuid4()}/simulate/', {}, content_type='application/json').status_code, 404)
+        self.assertEqual(self.client.post(f'/api/v1/orders/{uuid.uuid4()}/simulate/', {}, content_type='application/json').status_code, 404)
 
     def test_fake_endpoint_not_available_to_nonloopback_peer(self):
         order = self.new_order()
         self.client.force_login(self.user)
-        self.assertEqual(self.client.post(f'/tongjian/api/v1/orders/{order.pk}/simulate/', {}, content_type='application/json', REMOTE_ADDR='203.0.113.2').status_code, 404)
+        self.assertEqual(self.client.post(f'/api/v1/orders/{order.pk}/simulate/', {}, content_type='application/json', REMOTE_ADDR='203.0.113.2').status_code, 404)
 
     def test_admin_requires_password_reauthentication_for_refund(self):
         order = self.paid()
         self.client.force_login(self.staff)
-        url = f'/tongjian/admin/commerce/order/{order.pk}/refund/'
+        url = f'/admin/commerce/order/{order.pk}/refund/'
         self.assertEqual(self.client.post(url, {'reason': '测试', 'password': 'wrong'}).status_code, 200)
         self.assertFalse(Refund.objects.exists())
         self.assertEqual(self.client.post(url, {'reason': '测试', 'password': 'test-strong-password'}).status_code, 302)
@@ -249,7 +249,7 @@ class CommerceTests(ContentFixture, TestCase):
 
     def test_admin_network_and_forwarded_header(self):
         self.client.force_login(self.staff)
-        response = self.client.get('/tongjian/admin/', REMOTE_ADDR='203.0.113.2', HTTP_X_REAL_IP='127.0.0.1')
+        response = self.client.get('/admin/', REMOTE_ADDR='203.0.113.2', HTTP_X_REAL_IP='127.0.0.1')
         self.assertEqual(response.status_code, 403)
 
 class ConcurrentCommerceTests(ContentFixture, TransactionTestCase):

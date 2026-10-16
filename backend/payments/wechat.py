@@ -74,7 +74,7 @@ class WeChatAdapter:
         payload = {'appid': self.config['APP_ID'], 'mchid': self.config['MCH_ID'], 'description': order.title[:127],
                    'out_trade_no': order.merchant_number,
                    'time_expire': order.expires_at.isoformat(timespec='seconds'),
-                   'notify_url': settings.SITE_URL + '/tongjian/api/v1/payments/wechat/notify/',
+                   'notify_url': settings.SITE_URL + '/api/v1/payments/wechat/notify/',
                    'amount': {'total': order.amount_fen, 'currency': order.currency}}
         if order.scene == 'h5':
             payload['scene_info'] = {'payer_client_ip': order.client_ip, 'h5_info': {'type': 'Wap'}}
@@ -86,7 +86,7 @@ class WeChatAdapter:
         target = data.get('h5_url', '')
         if urlsplit(target).scheme != 'https' or urlsplit(target).hostname != 'wx.tenpay.com':
             raise ProviderError('Unexpected payment URL')
-        return {'kind': 'h5', 'url': target + '&' + urlencode({'redirect_url': settings.SITE_URL + f'/tongjian/checkout/{order.pk}/'})}
+        return {'kind': 'h5', 'url': target + '&' + urlencode({'redirect_url': settings.SITE_URL + f'/checkout/{order.pk}/'})}
 
     def _payment(self, data, event_id=''):
         if data.get('mchid') != self.config['MCH_ID'] or data.get('appid') != self.config['APP_ID']:
@@ -148,7 +148,7 @@ class WeChatAdapter:
 
     def create_refund(self, refund):
         payload = {'out_trade_no': refund.order.merchant_number, 'out_refund_no': refund.merchant_number,
-                   'reason': refund.reason[:80], 'notify_url': settings.SITE_URL + '/tongjian/api/v1/payments/wechat/refund-notify/',
+                   'reason': refund.reason[:80], 'notify_url': settings.SITE_URL + '/api/v1/payments/wechat/refund-notify/',
                    'amount': {'refund': refund.amount_fen, 'total': refund.order.amount_fen, 'currency': 'CNY'}}
         return self._refund(self._request('POST', '/v3/refund/domestic/refunds', payload))
 

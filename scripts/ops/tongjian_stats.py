@@ -22,7 +22,7 @@ def main():
     start = datetime.combine(day, datetime.min.time(), tz).timestamp()
     end = start + 86400
     seconds, visitors, statuses, paths = Counter(), {}, Counter(), Counter()
-    malformed = pages = total = 0
+    malformed = pages = total = monitor_requests = 0
     for path in sorted(Path(args.log_dir).glob('tongjian*.log*')):
         opener = gzip.open if path.suffix == '.gz' else open
         with opener(path, 'rt', encoding='utf-8') as source:
@@ -35,12 +35,16 @@ def main():
                 except (ValueError, KeyError, TypeError):
                     malformed += 1
                     continue
-                if not start <= ts < end or not (uri == '/tongjian' or uri.startswith('/tongjian/')):
+                if not start <= ts < end:
                     continue
                 total += 1
                 seconds[int(ts)] += 1
                 statuses[str(row.get('status', 0))] += 1
                 paths[uri] += 1
+                headers = req.get('headers', {})
+                if any(agent.startswith('TongjianSEOCheck/') for agent in headers.get('User-Agent', [])):
+                    monitor_requests += 1
+                    continue
                 ip = req.get('client_ip') or req.get('remote_ip') or 'unknown'
                 stamp = datetime.fromtimestamp(ts, tz).isoformat()
                 visitor = visitors.setdefault(ip, {'ip': ip, 'requests': 0, 'page_views': 0, 'first_seen': stamp, 'last_seen': stamp, 'user_agents': set()})
@@ -49,7 +53,7 @@ def main():
                 visitor['last_seen'] = max(visitor['last_seen'], stamp)
                 headers = req.get('headers', {})
                 visitor['user_agents'].update(headers.get('User-Agent', []))
-                if req.get('method') == 'GET' and uri in ('/tongjian/', '/tongjian/index.html') and row.get('status') in (200, 304):
+                if req.get('method') == 'GET' and (uri in ('/', '/index.html', '/tongjian/', '/tongjian/index.html') or uri.endswith('.html') or uri.startswith(('/volume/', '/people/', '/history/')) and uri.endswith('/')) and row.get('status') in (200, 304):
                     pages += 1
                     visitor['page_views'] += 1
     elapsed = max(1, min(86400, datetime.now(tz).timestamp() - start))
@@ -58,8 +62,10 @@ def main():
         visitor['user_agents'] = sorted(visitor['user_agents'])
     report = {
         'date': str(day), 'timezone': 'Asia/Shanghai',
-        'scope': 'Requests reaching Caddy; includes bots; hash navigation and Cloudflare cache hits are not logged.',
-        'requests': total, 'page_views': pages, 'unique_request_ips': len(visitors),
+        'scope': 'Requests reaching Caddy; request totals include self-monitoring, excluded from visitor/page-view counts; other bots remain; hash navigation and Cloudflare cache hits are not logged.',
+        'requests': total, 'self_monitor_requests': monitor_requests,
+        'requests_excluding_self_monitor': total - monitor_requests,
+        'page_views': pages, 'unique_request_ips': len(visitors),
         'unique_page_view_ips': sum(v['page_views'] > 0 for v in visitors.values()),
         'average_qps_full_day': round(total / 86400, 6),
         'average_qps_elapsed': round(total / elapsed, 6),

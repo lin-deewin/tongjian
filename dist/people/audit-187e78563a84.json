@@ -1,0 +1,47 @@
+{
+  "id": "audit-187e78563a84",
+  "name": "魏昭王",
+  "aliases": [
+    "魏昭王"
+  ],
+  "identity": "战国魏国君主，卒后安厘王继位；不是东汉敬师的魏昭。",
+  "birthYear": null,
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
+  "events": [
+    {
+      "title": "魏昭王卒，安厘王继位",
+      "summary": "魏昭王卒，安厘王继位",
+      "kind": "主要经历",
+      "category": "去世",
+      "year": 277,
+      "timeLabel": "前277年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 4,
+          "year": 277,
+          "indices": [
+            1
+          ],
+          "sourceHash": "9a2344499a09a5bfa45a58cd7e0107e1f8636b9507cfe919d0d9187f47a42f07",
+          "quote": "魏昭王薨，子安厘王立。"
+        }
+      ],
+      "id": "audit-187e78563a84-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 1,
+    "biographyCompletenessCertified": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "audit-e82a3f7a6ecc",
+  "name": "李膺（梁末主书）",
+  "aliases": [
+    "李膺"
+  ],
+  "identity": "梁元帝时期主书，曾奉命赴建康召王僧辩；不是东汉李膺。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "梁元帝派李膺赴建康征召王僧辩入援",
+      "summary": "梁元帝派李膺赴建康征召王僧辩入援",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -554,
+      "timeLabel": "公元554年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 165,
+          "year": -554,
+          "indices": [
+            34
+          ],
+          "sourceHash": "9b501d75ab9979d95c16021cf3f81466388e4e9abe79f7296ecd1eeb280d4e75",
+          "quote": "辛未，帝使主书李膺至建康，征王僧辩为大都督、荆州刺史，命陈霸先徙镇扬州。僧辩遣豫州刺史侯瑱帅程灵洗等为前军，兖州刺史杜僧明帅吴明彻等为后军。甲戌，帝夜登凤皇合，徙倚叹息曰：「客星入翼、轸，今必败矣。」嫔御皆泣。"
+        }
+      ],
+      "id": "audit-e82a3f7a6ecc-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

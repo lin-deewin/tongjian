@@ -1,0 +1,94 @@
+{
+  "id": "audit-1134343285b4",
+  "name": "刘龑",
+  "aliases": [
+    "刘龑",
+    "南汉高祖"
+  ],
+  "identity": "五代南汉建立者，庙号高祖；不是刘邦。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "南汉高祖刘龑病重时考虑改立孝谨的刘弘昌",
+      "summary": "南汉高祖刘龑病重时考虑改立孝谨的刘弘昌",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元942年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "indices": [
+            13
+          ],
+          "sourceHash": "54677d649d239193cdd48180456ed62600925c050abed9bb2e2b2fe79882c772",
+          "quote": "汉高祖寝疾，以其子秦王弘度、晋王弘熙皆骄恣，少子越王弘昌孝谨有智识，与右仆射兼西御院使王翷谋出弘度镇邕州，弘熙镇容州，而立弘昌。制命将行，会崇文使萧益入问疾，以其事访之。益曰：「立嫡以长，违之必乱。」乃止。"
+        }
+      ],
+      "id": "audit-1134343285b4-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "南汉高祖刘龑卒",
+      "summary": "南汉高祖刘龑卒",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于公元942年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "indices": [
+            14
+          ],
+          "sourceHash": "5f4141c68f57da51bf0a35ae2661bfb7252683e9a5876d3939b85b1e097fd52c",
+          "quote": "丁丑，高祖殂。"
+        }
+      ],
+      "id": "audit-1134343285b4-2",
+      "semanticReview": {
+        "status": "pending"
+      }
+    },
+    {
+      "title": "南汉高祖刘龑奢靡酷刑并猜忌臣下",
+      "summary": "南汉高祖刘龑奢靡酷刑并猜忌臣下",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元942年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 283,
+          "year": -942,
+          "indices": [
+            15
+          ],
+          "sourceHash": "5885d2a6534a51c8dd1078a6b9046d99b7f4520685a7333f5c6b88f5ae523694",
+          "quote": "高祖为人辩察，多权数，好自矜大，常谓中国天子为「洛州刺史」。岭南珍异所聚，每穷奢极丽，宫殿悉以金玉珠翠为饰。用刑惨酷，有灌鼻、割舌、支解、刳剔、炮炙、烹蒸之法；或聚毒蛇水中，以罪人投之，谓之水狱。同平章事杨洞潜谏，不听。末年尤猜忌。以士人多为子孙计，故专任宦官，由是其国中宦者大盛。"
+        }
+      ],
+      "id": "audit-1134343285b4-3",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

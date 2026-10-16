@@ -6,7 +6,7 @@
   ],
   "identity": "西晋时期氐人起事领袖。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "齐万年据守梁山，拥众七万",
@@ -27,7 +27,10 @@
           "quote": "春，正月，齐万年屯梁山，有众七万：梁王肜、夏侯骏使周处以五千兵击之。处曰：「军无后继，必败，不徒亡身，为国取耻。」肜、骏不听，逼遣之。癸丑，处与卢播、解系攻万年于六陌。处军士未食，肜促令速进，自旦战至暮，斩获甚众，弦绝矢尽，救兵不至。左右劝处退，处按剑曰：「是吾叙节致命之日也！」遂力战而死。朝廷虽以尤肜，而亦不能罪也。"
         }
       ],
-      "id": "p-db35006374ef-1"
+      "id": "p-db35006374ef-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "张华、陈准荐孟观讨伐齐万年，孟观屡战获胜",
@@ -48,7 +51,10 @@
           "quote": "张华、陈准以赵王、梁王，相继在关中，皆雍容骄贵，师老无功，乃荐孟观沈毅文武才用，使讨齐万年。观身当矢石，大战十数皆破之。"
         }
       ],
-      "id": "p-db35006374ef-2"
+      "id": "p-db35006374ef-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "孟观大破氐军，俘获齐万年",
@@ -69,11 +75,19 @@
           "quote": "春，正月孟观大破氐众于中亭，获齐万年。"
         }
       ],
-      "id": "p-db35006374ef-3"
+      "id": "p-db35006374ef-3",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=齐万年&oldid=91916952",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 3,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

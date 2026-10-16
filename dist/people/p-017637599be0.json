@@ -6,7 +6,7 @@
   ],
   "identity": "北魏时期将领。",
   "birthYear": -488,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "李裔引杜洛周军入城，杨津被俘，瀛州随之降贼",
@@ -27,11 +27,19 @@
           "quote": "及葛荣代修礼统众，使人说津，许以为司徒，津斩其使，固守三年。杜洛周围之，魏不能救。津遣其子遁突围出，诣柔然头兵可汗求救。遁日夜泣请，头兵遣其从祖吐豆发帅精骑一万南出；前锋至广昌，贼塞隘口，柔然遂还。乙丑，津长史李裔引贼入，执津，欲烹之，既而舍之。瀛州刺史元宁以城降洛周。"
         }
       ],
-      "id": "p-017637599be0-1"
+      "id": "p-017637599be0-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": -537,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李徽伯&oldid=92330702",
   "birthStatus": "confirmed",
-  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。"
+  "birthNote": "生年按所链接人物资料核对；事件年龄按年份差估算。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

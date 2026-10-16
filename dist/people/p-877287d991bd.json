@@ -6,7 +6,7 @@
   ],
   "identity": "前蜀官员，奉命迎接后唐军。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "前蜀遣欧阳彬聘后唐",
@@ -27,7 +27,10 @@
           "quote": "十一月，蜀主遣其翰林学士欧阳彬来聘。彬，衡山人也。又遣李彦稠东还。"
         }
       ],
-      "id": "p-877287d991bd-1"
+      "id": "p-877287d991bd-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "前蜀主王衍命李昊草降表遣欧阳彬迎后唐军",
@@ -48,11 +51,19 @@
           "quote": "己酉，魏王继岌至绵州，蜀主命翰林学士李昊草降表，又命中书侍郎、同平章事王锴草降书，遣兵部侍郎欧阳彬奉之以迎继岌及郭崇韬。"
         }
       ],
-      "id": "p-877287d991bd-2"
+      "id": "p-877287d991bd-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=歐陽彬&oldid=91859695",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

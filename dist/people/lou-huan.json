@@ -6,7 +6,7 @@
   ],
   "identity": "赵人，后任秦国丞相。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "任秦丞相，接替樗里疾",
@@ -27,7 +27,12 @@
           "quote": "秦樗里疾卒，以赵人楼缓为丞相"
         }
       ],
-      "id": "lou-huan-1"
+      "id": "lou-huan-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "取代孟尝君任秦相",
@@ -48,11 +53,73 @@
           "quote": "或谓秦王曰：“孟尝君相秦，必先齐而后秦；秦其危哉！”秦王乃以楼缓为相，囚孟尝君，欲杀之。孟尝君使人求解于秦王幸姬，姬曰：“愿得君狐白裘。”孟尝君有狐白裘，已献之秦王，无以应姬求。客有善为狗盗者，入秦藏中，盗狐白裘以献姬。姬乃为之言于王而遣之。王后悔，使追之。孟尝君至关，关法，鸡鸣而出客，时尚蚤，追者将至，客有善为鸡鸣者，野鸡闻之皆鸣，孟尝君乃得脱归。"
         }
       ],
-      "id": "lou-huan-2"
+      "id": "lou-huan-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "列名于纵横游说之士",
+      "summary": "列名于纵横游说之士",
+      "kind": "相关提及",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前310年",
+      "dateNote": "原文列楼缓于纵横家生平综述，不定为其前310年发生的单一经历。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 310,
+          "indices": [
+            1
+          ],
+          "sourceHash": "746592c1e42cac144cb47614b08b480510ae8c6d3840fc9d234abf4f1fc76ebc",
+          "quote": "仪与苏秦皆以纵横之术游诸侯，致位富贵，天下争慕效之。又有魏人公孙衍者，号曰犀首，亦以谈说显名。其余苏代、苏厉、周最、楼缓之徒，纷纭于天下，务以辩诈相高，不可胜纪，而仪、秦、衍最着。"
+        }
+      ],
+      "id": "lou-huan-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文列楼缓于纵横家生平综述，不定为其前310年发生的单一经历。"
+      }
+    },
+    {
+      "title": "奉赵武灵王命出使秦国",
+      "summary": "奉赵武灵王命出使秦国",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": 306,
+      "timeLabel": "前306年",
+      "dateNote": "原文“使楼缓之秦”，与同段赴楚的赵使王贲不可混为后来秦将王贲。",
+      "sources": [
+        {
+          "volume": 3,
+          "year": 306,
+          "indices": [
+            1
+          ],
+          "sourceHash": "532c79897344fd43c99e730f95effd71e74310e444577c87d9704b3d056a085b",
+          "quote": "赵王略中山地，至宁葭；西略胡地，至榆中。林胡王献马，归，使楼缓之秦，仇液之韩。王贲之楚，富丁之魏，赵爵之齐；代相赵固主胡，致其兵。"
+        }
+      ],
+      "id": "lou-huan-4",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文“使楼缓之秦”，与同段赴楚的赵使王贲不可混为后来秦将王贲。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=楼缓&oldid=61948882",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 4,
+    "sourceReviewedEntries": 4,
+    "biographyCompletenessCertified": false
+  }
 }

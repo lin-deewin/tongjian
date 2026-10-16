@@ -1,0 +1,45 @@
+{
+  "id": "audit-42133971ecd9",
+  "name": "李广利",
+  "aliases": [
+    "李广利"
+  ],
+  "identity": "西汉贰师将军，姓名不能截作李广。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "卫律谗害李广利，匈奴杀其祭祀",
+      "summary": "卫律谗害李广利，匈奴杀其祭祀",
+      "kind": "相关提及",
+      "category": "政争",
+      "year": null,
+      "timeLabel": "记载于前89年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 22,
+          "year": 89,
+          "indices": [
+            8
+          ],
+          "sourceHash": "d2a4690ba4fdb34a5d4d4619a6599e5995cb218000cf8e1ff798485562a17269",
+          "quote": "卫律害贰师之宠，会匈奴单于母阏氏病，律饬胡巫言：“先单于怒曰：『胡故时祠兵，常言得贰师以社，何故不用？』”于是收贰师。贰师骂曰：“我死必灭匈奴！”遂屠贰师以祠。"
+        }
+      ],
+      "id": "audit-42133971ecd9-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

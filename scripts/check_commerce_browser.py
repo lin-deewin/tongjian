@@ -77,7 +77,7 @@ def main():
         fragment = (ROOT / 'ops/commerce/Caddyfile.fragment').read_text().replace('127.0.0.1:8010', f'127.0.0.1:{backend_port}')
         fragment = fragment.replace('/srv/tongjian-commerce/static', str(ROOT / 'tmp/commerce-static'))
         config = ('{\n admin off\n auto_https off\n}\n' + f'http://127.0.0.1:{port} {{\n bind 127.0.0.1\n' + fragment +
-                  f'\n redir /tongjian /tongjian/ 308\n handle_path /tongjian/* {{\n root * {ROOT / "dist"}\n file_server\n }}\n handle {{\n respond 404\n }}\n}}\n')
+                  f'\n handle {{\n root * {ROOT / "dist"}\n file_server\n }}\n}}\n')
         caddyfile = artifacts / 'Caddyfile.local'
         caddyfile.write_text(config)
         subprocess.run([caddy, 'validate', '--config', str(caddyfile), '--adapter', 'caddyfile'], check=True, stdout=log, stderr=log)
@@ -86,7 +86,7 @@ def main():
         proxy = subprocess.Popen([caddy, 'run', '--config', str(caddyfile), '--adapter', 'caddyfile'], env=env, stdout=log, stderr=log)
         for _ in range(100):
             try:
-                if httpx.get(origin + '/tongjian/api/v1/healthz/', timeout=1).status_code == 200:
+                if httpx.get(origin + '/api/v1/healthz/', timeout=1).status_code == 200:
                     break
             except httpx.HTTPError:
                 pass
@@ -100,13 +100,13 @@ def main():
             stranger = browser.new_context(viewport={'width': 390, 'height': 844})
             page = buyer.new_page()
             page.on('pageerror', lambda error: evidence['page_errors'].append(str(error)))
-            page.goto(origin + '/tongjian/truth.html#wugu')
-            assert stranger.request.get(origin + '/tongjian/admin-static/admin/css/base.css').status == 200
-            assert stranger.request.get(origin + '/tongjian/api/v1/session/').headers.get('cache-control') == 'private, no-store'
+            page.goto(origin + '/truth.html#wugu')
+            assert stranger.request.get(origin + '/admin-static/admin/css/base.css').status == 200
+            assert stranger.request.get(origin + '/api/v1/session/').headers.get('cache-control') == 'private, no-store'
             assert stranger.request.get(origin + '/tongjian').status == 200
             page.locator('[data-buy]').filter(has_text='登录后购买').wait_for()
             assert page.locator('#chenzhen').count() == 1 and page.locator('#wugu').count() == 0
-            assert (stranger.request.get(origin + '/tongjian/api/v1/products/truth/download/')).status == 401
+            assert (stranger.request.get(origin + '/api/v1/products/truth/download/')).status == 401
             evidence['checks'].append('anonymous preview whitelist; PDF API 401')
             page.locator('[data-buy]').click()
             page.wait_for_url('**/account/login/**')
@@ -128,12 +128,12 @@ def main():
             page.get_by_role('button', name='验证邮箱并注册', exact=True).click()
             page.wait_for_url('**/truth.html#wugu')
             page.locator('[data-buy]').filter(has_text='购买完整专题').wait_for()
-            assert buyer.request.get(origin + '/tongjian/api/v1/products/truth/download/').status == 403
+            assert buyer.request.get(origin + '/api/v1/products/truth/download/').status == 403
             page.locator('[data-accept-terms]').check()
             page.locator('[data-buy]').click()
             page.wait_for_url('**/checkout/**')
             order_id = page.url.rstrip('/').rsplit('/', 1)[-1]
-            assert stranger.request.get(origin + f'/tongjian/api/v1/orders/{order_id}/').status == 401
+            assert stranger.request.get(origin + f'/api/v1/orders/{order_id}/').status == 401
             page.get_by_role('button', name='模拟付款成功').click()
             page.locator('[data-read]').wait_for()
             page.locator('[data-read]').click()
@@ -141,52 +141,52 @@ def main():
             assert page.locator('#wugu').count() == 1
             assert page.locator('figure.article-diagram').count() == 6
             assert page.locator('table').count() == 3
-            pdf = buyer.request.get(origin + '/tongjian/api/v1/products/truth/download/')
+            pdf = buyer.request.get(origin + '/api/v1/products/truth/download/')
             assert pdf.status == 200 and pdf.body().startswith(b'%PDF-')
             assert pdf.headers.get('cache-control') == 'private, no-store'
-            assert stranger.request.get(origin + '/tongjian/api/v1/products/truth/download/').status == 401
-            unowned = stranger.request.get(origin + '/tongjian/article/truth/', max_redirects=0)
+            assert stranger.request.get(origin + '/api/v1/products/truth/download/').status == 401
+            unowned = stranger.request.get(origin + '/article/truth/', max_redirects=0)
             assert unowned.status == 302 and '#wugu' not in unowned.text()
             evidence['checks'].append('email-code verification plus password registration; unpurchased PDF 403; fake purchase; six diagrams and three tables; cross-context PDF blocked')
             page.locator('#question').scroll_into_view_if_needed()
             page.screenshot(path=str(artifacts / 'desktop-article.png'))
             for width in [1440, 390, 320]:
                 page.set_viewport_size({'width': width, 'height': 900})
-                page.goto(origin + '/tongjian/article/truth/')
+                page.goto(origin + '/article/truth/')
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
                 for section in ['chenzhen', 'ganmao', 'chenping', 'wugu', 'deer', 'zhaodi', 'comparison', 'practice']:
                     page.locator('.method a[href="#' + section + '"]').click()
                     assert urlsplit(page.url).fragment == section
                 evidence['viewports'].append({'width': width, 'no_overflow': True, 'toc_anchors': 8})
-                page.goto(origin + '/tongjian/account/purchases/')
+                page.goto(origin + '/account/purchases/')
                 assert page.get_by_role('link', name='阅读全文').count() >= 1
                 page.screenshot(path=str(artifacts / f'purchases-{width}.png'))
-                page.goto(origin + '/tongjian/truth.html')
+                page.goto(origin + '/truth.html')
                 page.locator('[data-buy]').filter(has_text='继续阅读全文').wait_for()
                 page.screenshot(path=str(artifacts / f'preview-{width}.png'))
-            page.goto(origin + '/tongjian/article/truth/#question')
-            page.locator('a[href="/tongjian/reader.html#volume-10-year-204-para-20"]').first.click()
+            page.goto(origin + '/article/truth/#question')
+            page.locator('a[href="/reader.html#volume-10-year-204-para-20"]').first.click()
             page.wait_for_url('**/reader.html#volume-10-year-204-para-20')
             page.wait_for_function('document.body.innerText.includes("项羽")', timeout=20000)
             page.go_back()
             page.wait_for_url('**/article/truth/#question')
             assert page.locator('#wugu').count() == 1
-            page.goto(origin + '/tongjian/account/purchases/')
+            page.goto(origin + '/account/purchases/')
             page.get_by_role('button', name='退出登录').click()
             page.wait_for_url('**/research.html')
-            assert buyer.request.get(origin + '/tongjian/api/v1/products/truth/download/').status == 401
-            assert stranger.request.get(origin + '/tongjian/private-content/truth/20261014-v1/reader.pdf').status == 404
-            assert stranger.request.get(origin + '/tongjian/../private-content/truth/20261014-v1/reader.pdf').status == 404
+            assert buyer.request.get(origin + '/api/v1/products/truth/download/').status == 401
+            assert stranger.request.get(origin + '/private-content/truth/20261014-v1/reader.pdf').status == 404
+            assert stranger.request.get(origin + '/../private-content/truth/20261014-v1/reader.pdf').status == 404
             evidence['checks'].append('1440/390/320 layouts; eight anchors; original reader deep link and back; logout revokes session')
             # Native HTML forms: registration, validation, password login, recovery.
             for width in [1440, 390, 320]:
                 page.set_viewport_size({'width': width, 'height': 900})
                 for route, heading in [('login', '登录'), ('register', '注册账号'), ('password-reset', '找回密码')]:
-                    page.goto(origin + '/tongjian/account/' + route + '/')
+                    page.goto(origin + '/account/' + route + '/')
                     assert page.get_by_role('heading', name=heading, exact=True).is_visible()
                     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
                     page.screenshot(path=str(artifacts / f'{route}-{width}.png'), full_page=True)
-            page.goto(origin + '/tongjian/account/login/')
+            page.goto(origin + '/account/login/')
             page.locator('[name=username]').fill(address)
             page.locator('[name=password]').fill('deliberately-wrong')
             page.get_by_role('button', name='登录', exact=True).click()
@@ -194,10 +194,10 @@ def main():
             page.locator('[name=password]').fill(password)
             page.get_by_role('button', name='登录', exact=True).click()
             page.wait_for_url('**/account/')
-            assert buyer.request.get(origin + '/tongjian/api/v1/products/truth/download/').status == 200
+            assert buyer.request.get(origin + '/api/v1/products/truth/download/').status == 200
             page.get_by_role('button', name='退出登录').click()
             page.wait_for_url('**/research.html')
-            page.goto(origin + '/tongjian/account/password-reset/')
+            page.goto(origin + '/account/password-reset/')
             page.locator('[name=email]').fill(address)
             page.get_by_role('button', name='发送重设链接').click()
             page.wait_for_url('**/password-reset/sent/')
@@ -206,7 +206,7 @@ def main():
                 parsed_mail = email.message_from_bytes(path.read_bytes())
                 if address in parsed_mail.get('To', ''):
                     plain = parsed_mail.get_payload(decode=True).decode(parsed_mail.get_content_charset() or 'utf-8')
-                    match = re.search(r'https?://[^\s]+/tongjian/account/reset/[^\s]+', plain)
+                    match = re.search(r'https?://[^\s]+/account/reset/[^\s]+', plain)
                     if match:
                         reset_url = match.group()
                         break
@@ -222,12 +222,12 @@ def main():
             page.locator('[name=password]').fill(new_password)
             page.get_by_role('button', name='登录', exact=True).click()
             page.wait_for_url('**/account/')
-            assert buyer.request.get(origin + '/tongjian/api/v1/products/truth/download/').status == 200
+            assert buyer.request.get(origin + '/api/v1/products/truth/download/').status == 200
             # Account security remains separate from purchases and works natively.
             for width in [1440, 390, 320]:
                 page.set_viewport_size({'width': width, 'height': 900})
                 for route, heading in [('', '我的账号'), ('password-change/', '修改密码')]:
-                    page.goto(origin + '/tongjian/account/' + route)
+                    page.goto(origin + '/account/' + route)
                     assert page.get_by_role('heading', name=heading, exact=True).is_visible()
                     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
                     page.screenshot(path=str(artifacts / f'account-{route.replace("/", "") or "overview"}-{width}.png'), full_page=True)
@@ -237,10 +237,10 @@ def main():
             page.locator('[name=new_password2]').fill(changed_password)
             page.get_by_role('button', name='保存新密码', exact=True).click()
             page.wait_for_url('**/password-change/done/')
-            assert buyer.request.get(origin + '/tongjian/api/v1/session/').json()['authenticated']
-            assert buyer.request.get(origin + '/tongjian/api/v1/products/truth/download/').status == 200
+            assert buyer.request.get(origin + '/api/v1/session/').json()['authenticated']
+            assert buyer.request.get(origin + '/api/v1/products/truth/download/').status == 200
             # Logging in from a reader event returns to that event, including its hash.
-            reader_path = '/tongjian/reader.html#volume-1-year-403'
+            reader_path = '/reader.html#volume-1-year-403'
             returning = stranger.new_page()
             returning.goto(origin + reader_path)
             returning.locator('[data-account-link][href*="account/login/"]').wait_for()
@@ -256,7 +256,7 @@ def main():
             evidence['checks'].append('account overview and password change at 1440/390/320; change keeps current login and purchases; reader login preserves event hash')
             native = browser.new_context(java_script_enabled=False)
             nojs = native.new_page()
-            nojs.goto(origin + '/tongjian/account/register/')
+            nojs.goto(origin + '/account/register/')
             native_address = 'nojs-' + uuid.uuid4().hex + '@example.com'
             nojs.locator('[name=email]').fill(native_address)
             solve_graphic(nojs)
@@ -277,8 +277,8 @@ def main():
             nojs.get_by_role('link', name='返回我的账号', exact=True).click()
             nojs.get_by_role('button', name='退出登录', exact=True).click()
             nojs.wait_for_url('**/research.html')
-            assert not native.request.get(origin + '/tongjian/api/v1/session/').json()['authenticated']
-            nojs.goto(origin + '/tongjian/account/login/')
+            assert not native.request.get(origin + '/api/v1/session/').json()['authenticated']
+            nojs.goto(origin + '/account/login/')
             nojs.locator('[name=username]').fill(native_address)
             nojs.locator('[name=password]').fill(native_password)
             nojs.get_by_role('button', name='登录', exact=True).click()

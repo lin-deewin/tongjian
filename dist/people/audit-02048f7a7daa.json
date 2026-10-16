@@ -1,0 +1,45 @@
+{
+  "id": "audit-02048f7a7daa",
+  "name": "刘康（河间王子）",
+  "aliases": [
+    "刘康"
+  ],
+  "identity": "东汉灵帝时期受封济南王，河间王利之子。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "封刘康为济南王，奉孝仁皇祭祀",
+      "summary": "封刘康为济南王，奉孝仁皇祭祀",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": -174,
+      "timeLabel": "公元174年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 57,
+          "year": -174,
+          "indices": [
+            3
+          ],
+          "sourceHash": "a68696ca86cc30a9eaba94bbd57c83dc49ef704430eb8ed51de4e9bd96fe154c",
+          "quote": "夏，六月，封河间王利子康为济南王，奉孝仁皇祀。"
+        }
+      ],
+      "id": "audit-02048f7a7daa-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

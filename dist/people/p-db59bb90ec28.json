@@ -6,7 +6,7 @@
   ],
   "identity": "唐朝财政官员，参与盐铁事务。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "窦参让班宏担任度支副使，又举荐张滂分管盐铁",
@@ -27,7 +27,10 @@
           "quote": "初，窦参为度支转运使，班宏副之。参许宏，俟一岁以使职归之，岁余，参无归意；宏怒。司农少卿张滂．宏所荐也，少，始照翻。滂普郎翻。参欲使滂分主江、淮盐铁，宏不可；滂知之，亦怨宏。及参为上所疏，乃让度支使于宏，又不欲利权专归于宏，乃荐滂于上；以滂为户部侍郎、盐铁转运使，乃隶于宏以悦之。"
         }
       ],
-      "id": "p-db59bb90ec28-1"
+      "id": "p-db59bb90ec28-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     },
     {
       "title": "张滂请求禁止私铸铜器并允许开采铜矿",
@@ -48,11 +51,19 @@
           "quote": "二月，甲寅，以义武留后张升云为节度使。"
         }
       ],
-      "id": "p-db59bb90ec28-2"
+      "id": "p-db59bb90ec28-2",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=張滂_(唐朝)&oldid=83828761",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 2,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

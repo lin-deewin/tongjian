@@ -7,7 +7,7 @@
   ],
   "identity": "齐国田氏宗族，名文，以礼贤养士著称。",
   "birthYear": null,
-  "coverage": "已核对第3卷中的主要经历与重要记载；不代表全书完整传记。",
+  "coverage": "现收录条目已逐段对照《通鉴》原文核读；仍须补查其他卷与省称、官职、代词记载，不代表生平无遗漏或所有史籍纪年一致。",
   "events": [
     {
       "title": "入秦为相",
@@ -28,7 +28,12 @@
           "quote": "秦王闻孟尝君之贤，使泾阳君为质于齐以请。孟尝君来入秦，秦王以为丞相。"
         }
       ],
-      "id": "meng-chang-jun-1"
+      "id": "meng-chang-jun-1",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
     },
     {
       "title": "遭秦王囚禁后靠门客脱身归齐",
@@ -49,11 +54,125 @@
           "quote": "或谓秦王曰：“孟尝君相秦，必先齐而后秦；秦其危哉！”秦王乃以楼缓为相，囚孟尝君，欲杀之。孟尝君使人求解于秦王幸姬，姬曰：“愿得君狐白裘。”孟尝君有狐白裘，已献之秦王，无以应姬求。客有善为狗盗者，入秦藏中，盗狐白裘以献姬。姬乃为之言于王而遣之。王后悔，使追之。孟尝君至关，关法，鸡鸣而出客，时尚蚤，追者将至，客有善为鸡鸣者，野鸡闻之皆鸣，孟尝君乃得脱归。"
         }
       ],
-      "id": "meng-chang-jun-2"
+      "id": "meng-chang-jun-2",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "已核读本条所引原文及相邻段落，人物、标题与事件类型相符；年份按本站《通鉴》本年编排，不认证其他史籍的纪年一致。"
+      }
+    },
+    {
+      "title": "附叙继为薛公，散财养士",
+      "summary": "附叙继为薛公，散财养士",
+      "kind": "主要经历",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于前321年",
+      "dateNote": "本组先叙田婴受封，继叙田文早年与继嗣、长期养士，不能把整个生平概括均定为前321年。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 321,
+          "indices": [
+            4
+          ],
+          "sourceHash": "d81d50beb9c63478957722aef4e45a644152d752589557a877d989ea7ded225b",
+          "quote": "靖郭君有子四十人，其贱妾之子曰文。文通傥饶智略，说靖郭君以散财养士。靖郭君使文主家待宾客，宾客争誉其美，皆请靖郭君以文为嗣。靖郭君卒，文嗣为薛公，号曰孟尝君。孟尝君招致诸侯游士及有罪亡人，皆舍业厚遇之，存救其亲戚，食客常数千人，各自以为孟尝君亲己，由是孟尝君之名重天下。"
+        }
+      ],
+      "id": "meng-chang-jun-3",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "本组先叙田婴受封，继叙田文早年与继嗣、长期养士，不能把整个生平概括均定为前321年。"
+      }
+    },
+    {
+      "title": "司马光批评其养士立私党",
+      "summary": "司马光批评其养士立私党",
+      "kind": "史家评论",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前321年",
+      "dateNote": "原文明记“臣光曰”，属评价养士政策而非本人在本年新行动。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 321,
+          "indices": [
+            5
+          ],
+          "sourceHash": "af558aba4a2c7baf2a5a1118df6298209db3f3cc14663ce531c37387ff45c0ca",
+          "quote": "臣光曰：君子之养士，以为民也。易曰：“圣人养贤，以及万民。”夫贤者，其德足以敦化正俗，其才足以顿纲振纪．其明足以烛微虑远，其强足以结仁固义；大则利天下，小则利一国。是以君子丰禄以富之，隆爵以尊之；养一人而及万人者，养贤之道也。今孟尝君之养士也，不恤智愚，不择臧否，盗其君之禄，以立私党，张虚誉，上以侮其君，下以蠹其民，是奸人之雄也，乌足尚哉！书曰：“受为天下逋逃主、萃渊薮。”此之谓也。"
+        }
+      ],
+      "id": "meng-chang-jun-4",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明记“臣光曰”，属评价养士政策而非本人在本年新行动。"
+      }
+    },
+    {
+      "title": "附叙辞受象床，鼓励门客进谏",
+      "summary": "附叙辞受象床，鼓励门客进谏",
+      "kind": "主要经历",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前321年",
+      "dateNote": "承前述孟尝君生平的门客故事，本段未单独标明出使楚国确年。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 321,
+          "indices": [
+            6
+          ],
+          "sourceHash": "e2b781ad63e77259fb9621de246881d07a2f72bb6f9aed59a43bee47d38d218f",
+          "quote": "孟尝君聘于楚，楚王遗之象床。登徒直送之，不欲行，谓孟尝君门人公孙戌曰：“象床之直千金，苟伤之毫发，则卖妻子不足偿也。足下能使仆无行者，有先人之宝剑，愿献之。”公孙戌许诺，入见孟尝君曰：“小国所以皆致相印于君者，以君能振达贫穷，存亡继绝，故莫不悦君之义，慕君之廉也。今始至楚而受象床，则未至之国将何以待君哉！”孟尝君曰：“善。”遂不受。公孙戌趋去，未至中闺，孟尝君召而反之，曰：“子何足之高，志之扬也？”公孙戌以实对。孟尝君乃书门版曰：“有能扬文之名，止文之过，私得宝于外者，疾入谏！”"
+        }
+      ],
+      "id": "meng-chang-jun-5",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "承前述孟尝君生平的门客故事，本段未单独标明出使楚国确年。"
+      }
+    },
+    {
+      "title": "司马光称其能采纳有私心者之善谏",
+      "summary": "司马光称其能采纳有私心者之善谏",
+      "kind": "史家评论",
+      "category": "言论",
+      "year": null,
+      "timeLabel": "记载于前321年",
+      "dateNote": "原文明记“臣光曰”，是对辞受象床故事的史家评论。",
+      "sources": [
+        {
+          "volume": 2,
+          "year": 321,
+          "indices": [
+            7
+          ],
+          "sourceHash": "41bc1b1a7df863781657c7ff3182875c0a81ecf953167838460531511a1e66b6",
+          "quote": "臣光曰：“孟尝君可谓能用谏矣。苟其言之善也，虽怀诈谖之心，犹将用之，况尽忠无私以事其上乎！诗云：“采葑采菲，无以下体。”孟尝君有焉。"
+        }
+      ],
+      "id": "meng-chang-jun-6",
+      "semanticReview": {
+        "status": "verified-against-source",
+        "reviewedOn": "2026-10-16",
+        "note": "原文明记“臣光曰”，是对辞受象床故事的史家评论。"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=孟尝君&oldid=94692367",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 6,
+    "sourceReviewedEntries": 6,
+    "biographyCompletenessCertified": false
+  }
 }

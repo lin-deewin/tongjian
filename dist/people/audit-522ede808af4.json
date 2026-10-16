@@ -1,0 +1,45 @@
+{
+  "id": "audit-522ede808af4",
+  "name": "刘弘（东汉司空）",
+  "aliases": [
+    "刘弘"
+  ],
+  "identity": "东汉灵帝时期司空，不是西晋荆州刺史刘弘。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "许相免司徒，丁宫任司徒，刘弘任司空",
+      "summary": "许相免司徒，丁宫任司徒，刘弘任司空",
+      "kind": "相关提及",
+      "category": "任职",
+      "year": null,
+      "timeLabel": "记载于公元188年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 59,
+          "year": -188,
+          "indices": [
+            14
+          ],
+          "sourceHash": "b2c58de6cf6e97137be7c902e07a54250339487f3095efff445d1f775ac0c604",
+          "quote": "九月，司徒许相罢；以司空丁宫为司徒，光禄勋南阳刘弘为司空。"
+        }
+      ],
+      "id": "audit-522ede808af4-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

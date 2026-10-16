@@ -29,7 +29,7 @@ class CallbackTests(ContentFixture, TestCase):
     def notify(self, result, refund=False, valid=True):
         raw = json.dumps(asdict(result)).encode()
         signature = hmac.new(settings.FAKE_PAYMENT_SECRET.encode(), raw, hashlib.sha256).hexdigest()
-        path = '/tongjian/api/v1/payments/fake/' + ('refund-notify/' if refund else 'notify/')
+        path = '/api/v1/payments/fake/' + ('refund-notify/' if refund else 'notify/')
         return self.client.post(path, raw, content_type='application/json', HTTP_X_FAKE_SIGNATURE=signature if valid else 'invalid')
 
     def test_signed_notification_and_repeat(self):

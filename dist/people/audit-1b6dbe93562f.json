@@ -1,0 +1,45 @@
+{
+  "id": "audit-1b6dbe93562f",
+  "name": "柳浑（梁）",
+  "aliases": [
+    "柳浑"
+  ],
+  "identity": "南朝梁雍州安北长史；不是唐代宰相柳浑。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "萧纲遣柳浑攻取北魏南乡等城",
+      "summary": "萧纲遣柳浑攻取北魏南乡等城",
+      "kind": "主要经历",
+      "category": "战争",
+      "year": -525,
+      "timeLabel": "公元525年",
+      "dateNote": "依经核对的年表事件标题；原文出处可展开核对。",
+      "sources": [
+        {
+          "volume": 150,
+          "year": -525,
+          "indices": [
+            0
+          ],
+          "sourceHash": "b6c1f6ee026a7e524c274e5b0df5e4d3dcc52d25aee92c1c2bc44b1d69b4a486",
+          "quote": "春，正月，丙午，雍州刺史晋安王纲遣安北长史柳浑破魏南乡郡；司马董当门破魏晋城，庚戌，又破马圈、雕阳二城。"
+        }
+      ],
+      "id": "audit-1b6dbe93562f-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

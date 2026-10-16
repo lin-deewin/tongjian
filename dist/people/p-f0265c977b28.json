@@ -6,7 +6,7 @@
   ],
   "identity": "奚族首领，曾受唐朝册封。",
   "birthYear": null,
-  "coverage": "已收录本书事件索引明确涉及的经历、提及与史家评论，并绑定对应原文出处；不代表全书所有提及或完整传记。",
+  "coverage": "已关联《通鉴》原文出处；全量机器检查已完成，人物身份、时间归属与漏收仍有待逐条语义核查的候选，不代表完整传记或全部条目已终审。",
   "events": [
     {
       "title": "契丹王李邵固、奚王李鲁苏改封并迎娶唐公主",
@@ -27,11 +27,19 @@
           "quote": "春，正月，癸未，更立契丹松漠王李邵固为广化王，奚饶乐王李鲁苏为奉诚王。以上从甥陈氏为东华公主，妻邵固；以成安公主之女韦氏为东光公主，。妻鲁苏。"
         }
       ],
-      "id": "p-f0265c977b28-1"
+      "id": "p-f0265c977b28-1",
+      "semanticReview": {
+        "status": "pending"
+      }
     }
   ],
   "deathYear": null,
   "birthSource": "https://zh.wikipedia.org/w/index.php?title=李鲁苏&oldid=84617420",
   "birthStatus": "unknown",
-  "birthNote": "所查资料未提供明确出生年份。"
+  "birthNote": "所查资料未提供明确出生年份。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
 }

@@ -56,9 +56,10 @@ def esc(t):
 
 
 def local_href(href):
-    prefix = 'https://deewins.top/tongjian/'
-    assert href.startswith(prefix)
-    return href[len(prefix):]
+    for prefix in ('https://deewins.top/tongjian/', 'https://deewins.top/'):
+        if href.startswith(prefix):
+            return href[len(prefix):]
+    raise ValueError('Expected a same-site source URL')
 
 
 def svg_text(label, x, cy, cls):

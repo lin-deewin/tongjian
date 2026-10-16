@@ -1,0 +1,45 @@
+{
+  "id": "audit-937b12a31341",
+  "name": "刘康祖",
+  "aliases": [
+    "刘康祖"
+  ],
+  "identity": "刘宋将领，曾在尉武抵御北魏军。",
+  "birthYear": null,
+  "coverage": "依据全人物核查分离的原文出处；已与同名或姓名前缀相同的人物区分，不代表完整传记。",
+  "events": [
+    {
+      "title": "魏攻悬瓠项城并杀刘康祖",
+      "summary": "魏攻悬瓠项城并杀刘康祖",
+      "kind": "相关提及",
+      "category": "去世",
+      "year": null,
+      "timeLabel": "记载于公元450年",
+      "dateNote": "所列年份为原书记载位置，不作为人物经历年份。",
+      "sources": [
+        {
+          "volume": 125,
+          "year": -450,
+          "indices": [
+            47
+          ],
+          "sourceHash": "f2a2a7083462836c78cc1adab6bb55ed19d64e824db2350b1c3cb26313544a59",
+          "quote": "魏永昌王仁攻悬瓠、项城，拔之。帝恐魏兵至寿阳，召刘康祖使还。癸卯，仁将八万骑追及康祖于尉武。康祖有众八千人，军副胡盛之欲依山险间行取至，康祖怒曰：「临河求敌，遂无所见；幸其自送，柰何避之！」乃结车营而进，下令军中曰：「顾望者斩首，转步者斩足！」魏人四面攻之，将士皆殊死战。自旦至晡，杀魏兵万余人，流血没踝，康祖身被十创，意气弥厉。魏分其众为三，且休且战。会日暮风急，魏以骑负草烧军营，康祖随补其阙。有流矢买康祖颈，坠马死，余众不能战，遂溃，魏人掩杀殆尽。"
+        }
+      ],
+      "id": "audit-937b12a31341-1",
+      "semanticReview": {
+        "status": "pending"
+      }
+    }
+  ],
+  "deathYear": null,
+  "birthSource": "",
+  "birthStatus": "unconfirmed",
+  "birthNote": "本次根据《通鉴》原文职官、时代及上下文区分身份；尚未完成独立生年资料核实，不计算年龄。",
+  "reviewSummary": {
+    "currentEntries": 1,
+    "sourceReviewedEntries": 0,
+    "biographyCompletenessCertified": false
+  }
+}

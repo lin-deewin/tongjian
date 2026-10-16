@@ -1,0 +1,9 @@
+{
+  "volumes": [1, 2, 3, 14, 192],
+  "people": ["zhao-xiang-zi", "zhang-yi", "zhao-wu-ling-wang"],
+  "related": {
+    "zhao-xiang-zi": ["power-rules.html#jinyang"],
+    "zhang-yi": ["truth.html#chenzhen"],
+    "zhao-wu-ling-wang": ["ruler-deaths.html#deathResearch"]
+  }
+}

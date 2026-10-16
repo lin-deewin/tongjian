@@ -13,6 +13,7 @@
 保留共同滚动、注释开关、字号、模式切换、事件锚点和返回浏览位置。
 沿用朴素纸色与墨绿；不恢复右侧抽屉或已撤回的双页书美化。
 
+线上主地址：https://deewins.top/；旧 /tongjian/ 路径永久跳转到对应根路径。
 网站入口：dist/index.html、dist/app.js、dist/search-worker.js。
 数据：dist/volume1.json 至 volume294.json、search1.json 至 search294.json。
 原始输入：sources/hu-sansheng.epub、sources/baiyang.epub。
