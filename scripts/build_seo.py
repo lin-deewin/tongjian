@@ -65,6 +65,10 @@ def href(page, target):
 
 
 def link(page, target, label):
+    if target == 'volume/' or target.startswith('volume/#chronicle-'):
+        index = int(target.split('chronicle-')[1]) if '#chronicle-' in target else 1
+        first = [1, 6, 9, 69, 79, 119, 135, 145, 167, 177, 185, 266, 272, 280, 286, 290]
+        target = f'reader.html?catalog={index}#volume-{first[index-1]}'
     return f'<a href="{esc(href(page, target))}">{esc(label)}</a>'
 
 
@@ -482,22 +486,7 @@ def directory(sources, config, people):
 
 
 def volumes_directory(sources, config):
-    page = 'volume/index.html'
-    groups = chronicle_groups(sources, config)
-    out = ['<p class="eyebrow">' + link(page, 'reading.html', '阅读目录') + '</p><h1>资治通鉴全书294卷目录</h1>',
-           '<p class="lead">前403年至公元959年，按原书卷次连续阅读。</p>',
-           '<p>各卷完整保存原文与胡注；有可靠对应的白话随段呈现，缺译、追叙和跨卷续篇另作说明。</p>',
-           '<nav class="year-toc" aria-label="按纪跳转">' + ''.join(
-               f'<a href="#chronicle-{i}">{esc(dynasty)}纪</a>' for i, (dynasty, _) in enumerate(groups, 1)) + '</nav>']
-    for i, (dynasty, volumes) in enumerate(groups, 1):
-        out.append(f'<section id="chronicle-{i}"><h2>{esc(dynasty)}纪</h2><ol class="directory-list compact-directory" start="{volumes[0]}">')
-        for v in volumes:
-            m = sources.meta[v]
-            out.append(f'<li>{link(page, f"volume/{v}/", m["title"])}<span>{year_label(m["start"])}—{year_label(m["end"])}</span></li>')
-        out.append('</ol></section>')
-    return page, shell(page, '资治通鉴全书294卷目录：十六纪原文、白话与胡注',
-                       '完整列出资治通鉴294卷，按周、秦、汉、魏、晋至五代十六纪浏览，直接阅读各卷原文、胡三省注与可对应白话，跨卷接续阅读。', ''.join(out))
-
+    return 'volume/index.html', '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全书目录已合并至阅读器</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://deewins.top/reader.html"><script>\n(()=>{const first=[1, 6, 9, 69, 79, 119, 135, 145, 167, 177, 185, 266, 272, 280, 286, 290];const match=location.hash.match(/^#chronicle-(\\d+)$/);const index=match?Number(match[1]):1;const target=new URL(\'../reader.html\',location.href);target.search=location.search;target.searchParams.set(\'catalog\',String(index));target.hash=\'volume-\'+(first[index-1]||1);location.replace(target.href);})();\n</script></head><body><p>全书卷次目录已合并至阅读器。<a href="../reader.html?catalog=all#volume-1">进入阅读器选卷 →</a></p></body></html>'
 
 def people_directory(sources, config, people):
     page = 'people/index.html'
@@ -555,7 +544,7 @@ def build(data):
     pages.update(render_articles(sources, shell, link, esc, year_label))
     # Rebuild from authoritative public content; never retain removed/unsafe sitemap entries.
     sitemap = ET.Element(f'{{{NS}}}urlset')
-    for url in dict.fromkeys([BASE + p for p in CORE_PAGES] + [BASE + p.removesuffix('index.html') for p in pages]):
+    for url in dict.fromkeys([BASE + p for p in CORE_PAGES] + [BASE + p.removesuffix('index.html') for p in pages if p != 'volume/index.html']):
         ET.SubElement(ET.SubElement(sitemap, f'{{{NS}}}url'), f'{{{NS}}}loc').text = url
     previous = read(data / 'seo-manifest.json') if (data / 'seo-manifest.json').exists() else {'pages': {}}
     # Remove only former generator-owned pages whose recorded bytes still match.

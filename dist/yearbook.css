@@ -175,3 +175,39 @@
  #annualPage .annual-volume-intro{grid-column:2;grid-row:3;align-self:center}
  #annualPage .annual-jump-popover{left:0;right:auto}
 }
+
+/* Full-book selection stays inside the reader. */
+.reader-volume-directory{margin:0 0 24px;border:1px solid var(--line);border-radius:8px;background:var(--paper);scroll-margin-top:16px}
+.reader-volume-directory>summary{padding:12px 16px;color:var(--green);cursor:pointer;font-size:13px}
+.reader-volume-directory>summary span{margin-left:12px;color:var(--muted);font-size:11px}
+#volumeDirectoryGroups{padding:0 16px 12px}
+#volumeDirectoryGroups>details{border-top:1px solid var(--line)}
+#volumeDirectoryGroups summary{padding:10px 0;cursor:pointer;color:var(--green)}
+#volumeDirectoryGroups summary small{margin-left:12px;color:var(--muted);font-size:11px}
+.reader-volume-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;padding:0 0 12px}
+.reader-volume-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:6px;color:var(--ink)}
+.reader-volume-grid a:hover,.reader-volume-grid a:focus-visible{background:var(--hover-bg);border-color:var(--green)}
+.reader-volume-grid b{display:block;font-size:13px;font-weight:500}
+.reader-volume-grid small{display:block;font-size:11px;color:var(--muted);margin-top:4px}
+
+/* One selection entry: the current volume opens the inline directory. */
+#annualPage .annual-volume-field>select,#annualPage .annual-selected-volume{display:none!important}
+#annualPage .annual-volume-field::after{display:none}
+#currentVolumeButton{position:relative;display:block;width:100%;padding:10px 76px 10px 14px;text-align:left;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
+#currentVolumeName{display:block;font:18px/1.5 'Songti SC','SimSun',serif}
+#currentVolumeYears{display:block;font-size:11px;line-height:1.6;color:var(--muted)}
+.volume-directory-hint{position:absolute;right:14px;top:50%;transform:translateY(-50%);font-size:12px;color:var(--green)}
+#currentVolumeButton:hover,#currentVolumeButton[aria-expanded="true"]{border-color:var(--green);background:var(--hover-bg)}
+#volumeDirectory:not([open]){display:none}
+#volumeDirectory>summary[hidden]{display:none}
+#volumeDirectoryGroups{padding-top:8px}
+@media(max-width:700px){#currentVolumeName{font-size:16px}}
+
+/* Quiet volume heading with a discreet disclosure arrow. */
+#currentVolumeButton{display:grid;grid-template-columns:minmax(0,1fr) 16px;column-gap:16px;row-gap:3px;padding:8px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}
+#currentVolumeName{grid-column:1;grid-row:1;font:20px/1.5 'Songti SC','SimSun',serif;letter-spacing:.5px}
+#currentVolumeYears{grid-column:1;grid-row:2;font-size:12px;line-height:1.6;color:var(--muted)}
+#currentVolumeButton .volume-directory-hint{position:static;grid-column:2;grid-row:1/3;align-self:center;transform:none;color:var(--green);transition:transform .15s}
+#currentVolumeButton[aria-expanded="true"] .volume-directory-hint{transform:rotate(180deg)}
+#currentVolumeButton:hover,#currentVolumeButton[aria-expanded="true"]{background:transparent;border-color:var(--green)}
+@media(max-width:700px){#currentVolumeName{font-size:18px}#currentVolumeButton{column-gap:12px}}

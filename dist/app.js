@@ -294,6 +294,24 @@ let searchId=0;function searchChanged(){const id=++searchId;clearTimeout(searchT
 function selectOptions(){
  const dynasties=[...new Set(catalog.map(v=>v.dynasty||'周'))];
  const datedYear=y=>(y>0?'前':'公元')+Math.abs(y)+'年';
+ const directory=$('#volumeDirectory'), groups=$('#volumeDirectoryGroups');
+ if(directory && groups){
+  groups.innerHTML=dynasties.map((d,i)=>{
+   const volumes=catalog.filter(v=>(v.dynasty||'周')===d);
+   return `<details data-chronicle="${i+1}"><summary>${esc(d)}纪 <small>卷${volumes[0].volume}—${volumes.at(-1).volume}</small></summary><div class="reader-volume-grid">${volumes.map(v=>`<a href="#volume-${v.volume}" data-directory-volume="${v.volume}"><b>${esc(v.title.replace('【',' · ').replace('】',''))}</b><small>${datedYear(v.start)}—${datedYear(v.end)}</small></a>`).join('')}</div></details>`;
+  }).join('');
+  const trigger=$('#currentVolumeButton');
+  trigger.onclick=()=>{
+   directory.open=!directory.open;
+   if(directory.open){const current=groups.querySelector(`[data-directory-volume="${$('#volumeSelect').value}"]`);if(current)current.closest('details').open=true;}
+   trigger.setAttribute('aria-expanded',String(directory.open));
+  };
+  directory.addEventListener('toggle',()=>trigger.setAttribute('aria-expanded',String(directory.open)));
+  const requested=new URLSearchParams(location.search).get('catalog');
+  if(requested){directory.open=true;const group=groups.querySelector(`[data-chronicle="${/^\d+$/.test(requested)?requested:1}"]`);if(group)group.open=true;requestAnimationFrame(()=>directory.scrollIntoView({block:'start'}));}
+  groups.onclick=event=>{const link=event.target.closest('[data-directory-volume]');if(!link)return;event.preventDefault();directory.open=false;$('#volumeSelect').value=link.dataset.directoryVolume;$('#volumeSelect').dispatchEvent(new Event('change',{bubbles:true}));trigger.focus({preventScroll:true});};
+ }
+
  $('#volumeSelect').innerHTML=dynasties.map(d=>`<optgroup label="${esc(d)}">${catalog.filter(v=>(v.dynasty||'周')===d).map(v=>`<option value="${v.volume}" data-title="${esc(v.title.replace('【',' · ').replace('】',''))}" data-years="${datedYear(v.start)}—${datedYear(v.end)}">${esc(v.title.replace('【',' · ').replace('】',''))}（${datedYear(v.start)}—${datedYear(v.end)}）</option>`).join('')}</optgroup>`).join('');
 }
 $('#prevVolume').onclick=()=>stepVolume(-1);

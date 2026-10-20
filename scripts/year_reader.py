@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 READER_ASSETS = ('reader.html', 'app.js', 'people.js', 'bookmarks.js', 'reader-tools.js',
                  'annotations.css', 'reading-layout.css', 'reader-tools.css', 'reader-themes.css',
-                 'commerce.js', 'account-dialog.css', 'yearbook.css', 'yearbook-controls.js')
+                 'select-controls.css', 'select-controls.js', 'commerce.js', 'account-dialog.css', 'yearbook.css', 'yearbook-controls.js')
 META_START, META_END = '<!-- annual-metadata -->', '<!-- /annual-metadata -->'
 SOURCE_START, SOURCE_END = '<!-- annual-source -->', '<!-- /annual-source -->'
 

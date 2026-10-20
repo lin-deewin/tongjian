@@ -12,6 +12,12 @@
   if(!selected)return;
   document.getElementById('annualSelectedVolumeTitle').textContent=selected.dataset.title;
   document.getElementById('annualSelectedVolumeYears').textContent=selected.dataset.years;
+  const current=document.getElementById('currentVolumeButton');
+  if(current){
+   document.getElementById('currentVolumeName').textContent=selected.dataset.title;
+   document.getElementById('currentVolumeYears').textContent=selected.dataset.years;
+   return;
+  }
   const style=getComputedStyle(volume);
   measure.font=style.font;
   const available=volume.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight);
