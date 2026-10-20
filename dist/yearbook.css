@@ -211,3 +211,6 @@
 #currentVolumeButton[aria-expanded="true"] .volume-directory-hint{transform:rotate(180deg)}
 #currentVolumeButton:hover,#currentVolumeButton[aria-expanded="true"]{background:transparent;border-color:var(--green)}
 @media(max-width:700px){#currentVolumeName{font-size:18px}#currentVolumeButton{column-gap:12px}}
+
+/* Temporarily hide search and direct-year entry while preserving their behavior. */
+#annualPage .annual-search[hidden],#annualPage .annual-jump[hidden]{display:none!important}

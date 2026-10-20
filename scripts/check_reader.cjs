@@ -46,13 +46,13 @@ for(const input of ['', 'abc', '晋国（首府新田〔山西省侯马市〕）
  }
  // Category filtering retains original title indices and reading anchors.
  await run('changeVolume(1)');run('period="all"');
- assert(run('filtered().some(y=>!y.recorded)'), 'All keeps unrecorded years');
+ assert(run('filtered().every(y=>y.recorded)'), 'Only recorded years are shown by default');
  for(const [title,type] of [['晋阳之战','war'],['三晋获封诸侯','power'],['吴起变法','reform'],['魏文侯用人','person'],['彗星出现','major']])assert(run(`eventCategories(${JSON.stringify(title)}).includes(${JSON.stringify(type)})`));
  run('eventFilter="war";render()');
  assert(run('filtered().length>0'));assert(run('filtered().every(y=>eventIndices(y).every(i=>eventCategories(y.titles[i]).includes("war")))'));
  const warMarkup=element('#chronicle').innerHTML;assert(warMarkup.includes('data-anchor="8"'));assert(!warMarkup.includes('司马光论礼、分与名'));assert(!run('filtered().some(y=>!y.recorded)'));
  await run('openYear(1,403,8)');await run('stepYear(1)');run('closeReader()');assert.equal(run('eventFilter'),'war');assert(element('#chronicle').innerHTML.includes('tag-war'));
- run('eventFilter="all";render()');assert(run('filtered().some(y=>!y.recorded)'));
+ run('eventFilter="all";render()');assert(run('filtered().every(y=>y.recorded)'));
  run('eventFilter="reform";render()');assert(run('filtered().every(y=>eventIndices(y).length>0)'));
  await run('changeVolume(2)');assert(run('filtered().length>0'));assert(element('#chronicle').innerHTML.includes('tag-reform'));
  element('#search').value='不存在的记事词';run('render()');assert.equal(run('filtered().length'),0);
@@ -61,11 +61,11 @@ for(const input of ['', 'abc', '晋国（首府新田〔山西省侯马市〕）
  assert(element('#volumeSelect').innerHTML.includes('<optgroup label="唐">'));
  assert(element('#volumeSelect').innerHTML.includes('前403年—前369年'));
  assert(element('#volumeSelect').innerHTML.includes('公元958年—公元959年'));
- await run('changeVolume(1)');assert(element('#prevVolume').disabled);assert(!element('#nextVolume').disabled);
- element('#recordedOnly').checked=true;run('render()');assert.equal(element('#annualFilterResults').textContent,'30 年');
+ await run('changeVolume(1)');assert.equal(run('book.volume'),1);
+ run('render()');assert.equal(element('#annualFilterResults').textContent,'30 年');
  run('period="安王";eventFilter="war";render()');assert.equal(element('#mobilePeriod').value,'安王');
- element('#annualFilterReset').onclick();assert.equal(run('period'),'安王');assert.equal(run('eventFilter'),'all');assert(!element('#recordedOnly').checked);
- await run('changeVolume(294)');assert(!element('#prevVolume').disabled);assert(element('#nextVolume').disabled);
+ run('eventFilter="all";render()');assert.equal(run('period'),'安王');assert.equal(run('eventFilter'),'all');
+ await run('changeVolume(294)');assert.equal(run('book.volume'),294);
  // Age estimates use BC-positive keys and must skip year zero and posthumous records.
  assert.equal(run('personEventAge({year:-208},{birthYear:-161,deathYear:-223,birthSource:"reviewed",birthStatus:"confirmed"})'),47);
  assert.equal(run('personEventAge({year:-1},{birthYear:1,birthSource:"reviewed",birthStatus:"confirmed"})'),1);
