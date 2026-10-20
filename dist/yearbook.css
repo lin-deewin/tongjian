@@ -67,10 +67,10 @@
 #annualPage .event-top{margin-bottom:5px}
 #annualPage .category{letter-spacing:1px;font-size:10px}
 #annualPage .event-button{grid-template-columns:23px minmax(0,1fr) auto;align-items:center;gap:8px;min-height:36px;padding:6px 0}
-#annualPage .event-button .event-title{font:13px/1.8 'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif}
-#annualPage .event-button .event-number{font:11px/1.8 Georgia,serif}
+#annualPage .event-button .event-title{font:16px/1.8 'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif}
+#annualPage .event-button .event-number{font:12px/1.8 Georgia,serif}
 #annualPage .event-button .event-tags{padding:0;gap:6px}
-#annualPage .event-button .event-tag{font-size:10px;border:0;background:none;padding:0;color:var(--muted)}
+#annualPage .event-button .event-tag{font-size:12px;border:0;background:none;padding:0;color:var(--muted)}
 #annualPage .card-note{font-size:10px;margin-top:11px}
 .annual-primary{padding:7px 13px;border:1px solid var(--green);border-radius:3px;font-size:12px;white-space:nowrap;background:var(--green);color:var(--paper)}
 #annualPage .annual-inline-filter{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 0;height:44px}
@@ -134,8 +134,8 @@
  #annualPage .year-events{padding:14px 16px}
  #annualPage .category{font-size:12px;letter-spacing:.5px}
  #annualPage .event-button{grid-template-columns:16px minmax(0,1fr);gap:6px;min-height:48px;padding:9px 0}
- #annualPage .event-button .event-title{font-size:16px;word-break:normal;overflow-wrap:normal}
- #annualPage .event-button .event-number{font-size:10px}
+ #annualPage .event-button .event-title{font-size:17px;word-break:normal;overflow-wrap:normal}
+ #annualPage .event-button .event-number{font-size:12px}
  #annualPage .event-button .event-tags{display:none}
  #annualPage .card-note{font-size:12px;line-height:1.7}
  #annualPage .annual-filter-options{gap:5px}
@@ -160,7 +160,7 @@
  #annualPage .annual-filter-expansion{flex-basis:100%}
  #annualPage .annual-filter-options{flex-wrap:wrap;white-space:normal;overflow:visible}
  #annualPage .annual-inline-filter{height:auto;flex-wrap:wrap}
- #annualPage .event-button .event-title{font-size:16px}
+ #annualPage .event-button .event-title{font-size:17px}
  #annualPage .event-button{min-height:48px}
 }
 @media(pointer:coarse){#annualPage .annual-filter-options button,#annualPage .annual-jump-row button,.annual-site-toggle{min-height:44px}}
@@ -185,10 +185,10 @@
 #volumeDirectoryGroups summary{padding:10px 0;cursor:pointer;color:var(--green)}
 #volumeDirectoryGroups summary small{margin-left:12px;color:var(--muted);font-size:11px}
 .reader-volume-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;padding:0 0 12px}
-.reader-volume-grid a{padding:10px 12px;border:1px solid var(--line);border-radius:6px;color:var(--ink)}
+.reader-volume-grid a{padding:12px 14px;border:1px solid var(--line);border-radius:6px;color:var(--ink)}
 .reader-volume-grid a:hover,.reader-volume-grid a:focus-visible{background:var(--hover-bg);border-color:var(--green)}
-.reader-volume-grid b{display:block;font-size:13px;font-weight:500}
-.reader-volume-grid small{display:block;font-size:11px;color:var(--muted);margin-top:4px}
+.reader-volume-grid b{display:block;font-size:15px;font-weight:500}
+.reader-volume-grid small{display:block;font-size:12px;color:var(--muted);margin-top:4px}
 
 /* One selection entry: the current volume opens the inline directory. */
 #annualPage .annual-volume-field>select,#annualPage .annual-selected-volume{display:none!important}
