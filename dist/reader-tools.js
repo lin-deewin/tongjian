@@ -1,8 +1,8 @@
 // Compact reader tools reuse the existing controls and their bound handlers.
 (()=>{
  const reader=document.querySelector('#readerBackdrop'),toolbar=reader.querySelector('.reader-toolbar');
- const drawings={catalog:'<path d="M5 6h14M5 12h14M5 18h14"/>',mode:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16"/>',notes:'<path d="M6 3h12v18l-6-4-6 4V3Z"/>',font:'<path d="m4 20 7-16 7 16M7 14h8M20 7v10M18 9l2-2 2 2M18 15l2 2 2-2"/>',theme:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/>'};
- const names={catalog:'目录',mode:'阅读模式',notes:'我的摘记',font:'字号与注释',theme:'主题'};
+ const drawings={catalog:'<path d="M5 6h14M5 12h14M5 18h14"/>',mode:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16"/>',notes:'<path d="M6 3h12v18l-6-4-6 4V3Z"/>',huNotes:'<path d="M4 4h16v16H4zM8 8h8M8 12h8M8 16h4"/>',font:'<path d="m4 20 7-16 7 16M7 14h8M20 7v10M18 9l2-2 2 2M18 15l2 2 2-2"/>',theme:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/>'};
+ const names={catalog:'目录',mode:'阅读模式',notes:'我的摘记',font:'字号',huNotes:'胡注与校勘',theme:'主题'};
  const svg=type=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${drawings[type]}</svg>`;
  const rail=document.createElement('nav');rail.className='reader-tools';rail.setAttribute('aria-label','阅读工具');
  rail.innerHTML=Object.keys(names).map(type=>`<button type="button" data-reader-tool="${type}" aria-label="${names[type]}" title="${names[type]}" aria-haspopup="dialog"${type==='notes'?'':' aria-controls="readerToolPanel" aria-expanded="false"'}>${svg(type)}<span>${names[type]}</span></button>`).join('');reader.append(rail);
@@ -10,7 +10,7 @@
  const panel=document.createElement('section');panel.className='reader-tool-panel';panel.id='readerToolPanel';panel.hidden=true;panel.setAttribute('role','dialog');panel.setAttribute('aria-label','阅读工具');
  panel.innerHTML='<div class="reader-tool-panel-head"><h2>阅读工具</h2><button type="button" data-close-tool aria-label="关闭阅读工具">×</button></div><div class="reader-tool-body"></div>';reader.append(panel);
  const body=panel.querySelector('.reader-tool-body');
- const sections={};for(const type of ['catalog','mode','font','theme']){const section=document.createElement('div');section.className='reader-tool-section';section.dataset.toolSection=type;section.hidden=true;body.append(section);sections[type]=section;}
+ const sections={};for(const type of ['catalog','mode','font','huNotes','theme']){const section=document.createElement('div');section.className='reader-tool-section';section.dataset.toolSection=type;section.hidden=true;body.append(section);sections[type]=section;}
  sections.catalog.innerHTML='<label class="reader-tool-caption" for="volumeSelect">选择卷次</label><div class="tool-volume-slot"></div><label class="reader-tool-caption" for="readerYear">当前卷 · 跳转年份</label><div class="tool-year-slot"></div><div class="tool-catalog-events"></div><div class="tool-catalog-footer"></div>';
  const volume=document.querySelector('#volumeSelect'),volumeHome=document.createComment('yearbook volume selector');volume.before(volumeHome);
  const year=document.querySelector('#readerYear');sections.catalog.querySelector('.tool-year-slot').append(year);
@@ -23,7 +23,7 @@
  noteInput.setAttribute('role','switch');noteInput.setAttribute('aria-label','显示胡注与校勘');
  noteLabel.className='tool-note-setting';noteLabel.replaceChildren();
  const noteText=document.createElement('span');noteText.className='tool-setting-copy';noteText.innerHTML='<span>胡注与校勘</span><small class="tool-note-help">在原文中显示注释</small><small class="tool-note-unavailable">仅白话模式下不可用</small>';
- noteLabel.append(noteText,noteInput);sections.font.append(noteLabel);
+ noteLabel.append(noteText,noteInput);sections.huNotes.append(noteLabel);
  document.querySelector('#smaller').textContent='−';document.querySelector('#larger').textContent='+';
  function syncSize(){sizeLabel.textContent=readingSize;document.querySelector('#smaller').disabled=readingSize<=15;document.querySelector('#larger').disabled=readingSize>=28;}
  const themeControl=toolbar.querySelector('.theme-control'),themeSelect=themeControl.querySelector('select');themeControl.hidden=true;sections.theme.append(themeControl);
@@ -62,4 +62,110 @@
  window.addEventListener('resize',()=>{if(active){const compact=matchMedia('(max-width:800px)').matches;shade.hidden=!compact;panel.setAttribute('aria-modal',String(compact));}});
  document.querySelector('.annotation-dialog').addEventListener('close',()=>{if(readerOpen&&opener?.isConnected)opener.focus({preventScroll:true});});
  sync();
+})();
+
+// Native ::selection cannot draw borders. Mirror its line boxes without
+// wrapping text, changing the selection, or intercepting pointer events.
+(()=>{
+ const content=document.querySelector('#readerContent');
+ if(!content)return;
+ const outline=document.createElement('div');
+ outline.className='reader-selection-outline';
+ document.documentElement.classList.add('custom-reader-selection');
+ outline.setAttribute('aria-hidden','true');
+ document.body.append(outline);
+ let frame=0;
+ function paint(){
+  frame=0;outline.replaceChildren();
+  const selection=window.getSelection();
+  if(!selection||selection.isCollapsed||!selection.rangeCount||!content.getClientRects().length)return;
+  const range=selection.getRangeAt(0);
+  if(!content.contains(range.startContainer)||!content.contains(range.endContainer))return;
+  // Element ranges include parent boxes and inline links more than once.
+  // Measure selected text leaves instead, then combine them into visual lines.
+  const lines=[];
+  const walker=document.createTreeWalker(content,NodeFilter.SHOW_TEXT);
+  let node;
+  while((node=walker.nextNode())){
+   if(!node.textContent.trim()||!range.intersectsNode(node))continue;
+   const part=document.createRange();part.selectNodeContents(node);
+   if(node===range.startContainer)part.setStart(node,range.startOffset);
+   if(node===range.endContainer)part.setEnd(node,range.endOffset);
+   const owner=node.parentElement.closest('.original-cell,.modern-cell,.modern-text,.original')||content;
+   const block=node.parentElement.closest('p')||node.parentElement;
+   const leading=parseFloat(getComputedStyle(block).lineHeight)||0;
+   for(const box of part.getClientRects()){
+    if(box.width<=0||box.height<=0||box.bottom<0||box.top>innerHeight)continue;
+    const previous=lines.at(-1);
+    const overlap=previous&&Math.min(previous.rawBottom,box.bottom)-Math.max(previous.rawTop,box.top);
+    if(previous&&previous.owner===owner&&overlap>Math.min(previous.rawBottom-previous.rawTop,box.height)*0.5){
+     previous.left=Math.min(previous.left,box.left);previous.right=Math.max(previous.right,box.right);
+     previous.rawTop=Math.min(previous.rawTop,box.top);previous.rawBottom=Math.max(previous.rawBottom,box.bottom);
+     previous.leading=Math.max(previous.leading,leading);
+    }else lines.push({left:box.left,right:box.right,rawTop:box.top,rawBottom:box.bottom,leading,owner});
+   }
+  }
+  for(const line of lines){
+   const center=(line.rawTop+line.rawBottom)/2;
+   const height=Math.max(line.rawBottom-line.rawTop,line.leading);
+   line.top=center-height/2;line.bottom=center+height/2;
+  }
+  // Join consecutive lines at the midpoint of their leading. Trace only
+  // the outside edge, so there are no horizontal borders inside the selection.
+  const groups=[];
+  for(const box of lines){
+   const group=groups.at(-1),previous=group?.at(-1);
+   const gap=previous?box.top-previous.bottom:Infinity;
+   const overlap=previous&&Math.min(previous.right,box.right)>Math.max(previous.left,box.left);
+   if(previous&&previous.owner===box.owner&&gap>=-1&&gap<=Math.max(box.bottom-box.top,previous.bottom-previous.top)*1.5&&overlap){
+    const seam=(previous.bottom+box.top)/2;
+    previous.bottom=seam;box.top=seam;group.push(box);
+   }else groups.push([box]);
+  }
+  const ns='http://www.w3.org/2000/svg';
+  const svg=document.createElementNS(ns,'svg');
+  svg.setAttribute('width',innerWidth);svg.setAttribute('height',innerHeight);
+  for(const group of groups){
+   const first=group[0],last=group.at(-1);
+   const points=[[first.left,first.top],[first.right,first.top]];
+   for(let i=0;i<group.length;i++){
+    const box=group[i];points.push([box.right,box.bottom]);
+    if(i+1<group.length)points.push([group[i+1].right,box.bottom]);
+   }
+   points.push([last.left,last.bottom]);
+   for(let i=group.length-1;i>=0;i--){
+    const box=group[i];points.push([box.left,box.top]);
+    if(i>0)points.push([group[i-1].left,box.top]);
+   }
+   // Remove duplicate and straight-through vertices before rounding. Limit
+   // each radius to half its adjoining edges so short steps stay well formed.
+   let corners=points.filter((point,i)=>{
+    const previous=points[(i+points.length-1)%points.length];
+    return point[0]!==previous[0]||point[1]!==previous[1];
+   });
+   corners=corners.filter((point,i)=>{
+    const previous=corners[(i+corners.length-1)%corners.length],next=corners[(i+1)%corners.length];
+    return (point[0]-previous[0])*(next[1]-point[1])!==(point[1]-previous[1])*(next[0]-point[0]);
+   });
+   let d='';
+   corners.forEach((point,i)=>{
+    const previous=corners[(i+corners.length-1)%corners.length],next=corners[(i+1)%corners.length];
+    const incoming=Math.hypot(previous[0]-point[0],previous[1]-point[1]);
+    const outgoing=Math.hypot(next[0]-point[0],next[1]-point[1]);
+    const radius=Math.min(3.5,incoming/2,outgoing/2);
+    const start=point.map((value,axis)=>value+(previous[axis]-value)*radius/incoming);
+    const end=point.map((value,axis)=>value+(next[axis]-value)*radius/outgoing);
+    d+=`${i?' L':'M'} ${start[0]} ${start[1]} Q ${point[0]} ${point[1]} ${end[0]} ${end[1]}`;
+   });
+   const path=document.createElementNS(ns,'path');
+   path.setAttribute('d',d+' Z');svg.append(path);
+  }
+  outline.append(svg);
+ }
+ function schedule(){if(!frame)frame=requestAnimationFrame(paint);}
+ document.addEventListener('selectionchange',schedule);
+ window.addEventListener('scroll',schedule,{passive:true,capture:true});
+ window.addEventListener('resize',schedule);
+ new ResizeObserver(schedule).observe(content);
+ new MutationObserver(schedule).observe(content,{childList:true,subtree:true,attributes:true});
 })();

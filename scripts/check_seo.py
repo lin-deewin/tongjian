@@ -51,7 +51,19 @@ def main():
     for name, digest in manifest['pages'].items():
         path = DATA / name
         assert sha(path.read_bytes()) == digest, f'Edited generated page: {name}; edit generator instead'
-        tree = html.fromstring(path.read_bytes())
+        raw = path.read_text()
+        if '<!-- annual-source -->' in raw:
+            from year_reader import between, META_START, META_END, SOURCE_START, SOURCE_END
+            assert 'app.js?' in raw and 'reader-tools.js?' in raw
+            metadata = between(raw, META_START, META_END)
+            article = between(raw, SOURCE_START, SOURCE_END)
+            css_version = manifest['assets']['static-reading.css'][:12]
+            tree = html.fromstring('<html><head>' + metadata
+                                  + '<link rel="stylesheet" href="static-reading.css?v=' + css_version
+                                  + '"></head><body>' + article + '</body></html>')
+            tree.make_links_absolute(BASE)
+        else:
+            tree = html.fromstring(raw)
         trees[name] = tree
         assert len(tree.xpath('//h1')) == 1, name
         title = tree.xpath('string(//title)')

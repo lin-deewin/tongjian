@@ -15,3 +15,20 @@
 :root[data-theme="night"] .reader-tool-panel,:root[data-theme="night"] .annotation-dialog{box-shadow:0 8px 35px #0004}
 :root[data-theme="night"] .theme-control select{color:var(--ink);background:var(--paper);border-color:var(--line)}
 :root[data-theme="night"] .reader-title{border-bottom-color:color-mix(in srgb,var(--red) 40%,var(--line))}
+
+/* Sublime-inspired selection: one quiet fill and a thin continuous contour.
+   Keep native selection as fallback; JS enables the unified rounded shape. */
+:root{--selection-bg:#399c8833;--selection-edge:#438c7c}
+:root[data-theme="gold"]{--selection-bg:#b48b3e38;--selection-edge:#987329}
+:root[data-theme="white"]{--selection-bg:#329e8933;--selection-edge:#368977}
+:root[data-theme="night"]{--selection-bg:#639eb577;--selection-edge:#8cb3c5}
+#readerContent ::selection{background:var(--selection-bg);text-shadow:none}
+.custom-reader-selection #readerContent ::selection{background:transparent}
+.reader-selection-outline{position:fixed;inset:0;z-index:40;pointer-events:none;overflow:hidden}
+:root[data-theme="night"] .reader-selection-outline{mix-blend-mode:screen}
+.reader-selection-outline svg{display:block;overflow:visible}
+.reader-selection-outline path{fill:var(--selection-bg);stroke:var(--selection-edge);stroke-width:1;stroke-linejoin:round}
+@media(forced-colors:active){
+ .custom-reader-selection #readerContent ::selection{background:Highlight;color:HighlightText}
+ .reader-selection-outline path{stroke:Highlight;fill:none}
+}

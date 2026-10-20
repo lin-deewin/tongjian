@@ -315,17 +315,23 @@ def paragraph_ranges(year_books):
 
 
 def classify_image_year(caption, source_year):
-    explicit = get_year(caption)
-    if explicit is None:
-        m = re.search(r'前([〇一二三四五六七八九]{1,4})年', caption)
-        if m:
-            explicit = int(''.join(str(DIGITS.index(c)) for c in m.group(1)))
-        else:
-            m = re.search(r'([〇一二三四五六七八九]{1,4})年', caption)
-            if m:
-                value = int(''.join(str(DIGITS.index(c)) for c in m.group(1)))
-                explicit = -value
-    return explicit if explicit and 1 <= abs(explicit) <= 960 else source_year
+    # Decades such as 三〇年代 are not the year 30. Multi-year maps belong
+    # with their source narrative when that year lies inside the printed span.
+    found = list(re.finditer(r'(前)?([〇零一二三四五六七八九]{1,4})年(?!代)', caption))
+    if not found:
+        return source_year
+    bce = '公元前' in caption or bool(found[0][1])
+    values = []
+    for match in found:
+        digits = match[2].replace('零','〇')
+        value = int(''.join(str(DIGITS.index(c)) for c in digits))
+        if value and value <= 960:
+            values.append(value if bce else -value)
+    if not values:
+        return source_year
+    if len(values)>1 and min(values)<=source_year<=max(values):
+        return source_year
+    return values[0]
 
 
 def year_label(year):

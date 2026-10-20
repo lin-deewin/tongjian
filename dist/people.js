@@ -171,7 +171,11 @@ async function openPeople(id = null, updateHistory = true) {
  showPeoplePage();
  $('#peoplePage').classList.toggle('person-detail-page', Boolean(id));
  peopleView = {id, scroll: peopleFilters.get(id)?.scroll || 0};
- if (updateHistory) history.pushState({people:true}, '', id ? '#person-' + id : '#people');
+ if (updateHistory) {
+  const hash=id ? '#person-' + id : '#people';
+  if(document.documentElement.dataset.yearReader) updateRoute(hash,false);
+  else history.pushState({people:true}, '', hash);
+ }
  $('#peopleContent').innerHTML = '<p role="status">正在载入人物资料…</p>';
  if (!peopleIndexReady) await loadPeopleIndex();
  if (nav !== navigationId) return;

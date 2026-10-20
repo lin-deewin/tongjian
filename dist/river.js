@@ -20,13 +20,15 @@
  const label = year => (year > 0 ? '公元前 ' : '公元 ') + Math.abs(year) + ' 年';
  const href = (year,event) => {
   const source = event?.sources[0];
-  return `reader.html#volume-${source?.volume || year.volumes[0]}-year-${source?.year || year.year}${source ? '-para-'+source.anchor : ''}`;
+  const value = source?.year ?? year.year;
+  const page = `year/${value > 0 ? 'bce' : 'ce'}-${Math.abs(value)}/`;
+  return source ? `${page}?volume=${source.volume}&para=${source.anchor}` : page;
  };
  // Load the compact year outline first so the chart can be painted before the
  // full event index (about 4 MB) is downloaded and parsed.
  let data, years;
  try {
-  const response = await fetch('river-outline.json?v=20261015-1');
+  const response = await fetch('river-outline.json?v=20261017-release1');
   if (!response.ok) throw Error(response.status);
   const outline = await response.json();
   if (outline.schemaVersion !== 1 || !Array.isArray(outline.years) || outline.years.length!==1362) throw Error('Year outline version mismatch');
@@ -53,7 +55,7 @@
  const eventDataReady=new Promise(resolve=>{resolveEventData=resolve;});
  (async()=>{
   try {
-   const response=await fetch('river-data.json?v=deploy-1791962047');
+   const response=await fetch('river-data.json?v=20261017-release1');
    if(!response.ok)throw Error(response.status);
    const loaded=await response.json();
    if(loaded.schemaVersion!==3 || !Array.isArray(loaded.years) || loaded.years.length!==years.length)throw Error('Event index version mismatch');

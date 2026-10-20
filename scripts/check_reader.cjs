@@ -2,7 +2,7 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert'),crypto=require('crypto').webcrypto;
 const path=require('path');const root=path.resolve(__dirname,'../dist');
 const elements=new Map(),listeners=new Map();
-function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textContent:'',value:'',checked:false,disabled:false,style:{setProperty(){}},classList:{set:new Set(),add(x){this.set.add(x)},remove(x){this.set.delete(x)},contains(x){return this.set.has(x)},toggle(x,v){if(v===undefined)v=!this.set.has(x);if(v)this.set.add(x);else this.set.delete(x)}},focus(){},getBoundingClientRect(){return {top:0}},closest(){return element('label')},scrollIntoView(){}});return elements.get(key);}
+function element(key){if(!elements.has(key))elements.set(key,{innerHTML:'',textContent:'',value:'',checked:false,disabled:false,style:{setProperty(){}},classList:{set:new Set(),add(...xs){xs.forEach(x=>this.set.add(x))},remove(...xs){xs.forEach(x=>this.set.delete(x))},contains(x){return this.set.has(x)},toggle(x,v){if(v===undefined)v=!this.set.has(x);if(v)this.set.add(x);else this.set.delete(x)}},focus(){},addEventListener(){},removeEventListener(){},getBoundingClientRect(){return {top:0}},closest(){return element('label')},scrollIntoView(){}});return elements.get(key);}
 element('#searchScope').value='current';
 element('.theme-select').options=[{value:'light'},{value:'dark'},{value:'warm'}];
 const location={hash:'',pathname:'/',search:''};const history={pushState(_a,_b,url){location.hash=url.includes('#')?'#'+url.split('#')[1]:''}};
@@ -18,7 +18,7 @@ for(const input of ['', 'abc', '晋国（首府新田〔山西省侯马市〕）
 (async()=>{
  await new Promise(resolve=>setTimeout(resolve,100));assert.equal(run('book.volume'),1);
  assert.equal(run('cn(59)'), '五十九');assert.equal(run('reign({dynasty:"秦",king:"始皇帝",reign:16})'),'秦始皇帝十六年');
- await run('changeVolume(2)');assert.equal(element('#yearCount').textContent,48);assert.equal(location.hash,'#volume-2');assert(!element('#chronicle').innerHTML.includes('事件提要 · 已逐条重写'));assert(element('#chronicle').innerHTML.includes('齐伐魏，夺取观津'));
+ await run('changeVolume(2)');assert.equal(run('book.years.length'),48);assert.equal(element('#volumeCount').textContent,'第 2 / 294 卷');assert.equal(element('#mobilePeriod').value,'all');assert.equal(location.hash,'#volume-2');assert(!element('#chronicle').innerHTML.includes('事件提要 · 已逐条重写'));assert(element('#chronicle').innerHTML.includes('齐伐魏，夺取观津'));
  await run('openYear(2,368)');await run('stepYear(-1)');assert.equal(run('book.volume'),1);assert.equal(run('selected'),369);await run('stepYear(1)');assert.equal(run('book.volume'),2);assert.equal(run('selected'),368);
  let checked=0;
  for(let v=1;v<=294;v++){
@@ -58,7 +58,14 @@ for(const input of ['', 'abc', '晋国（首府新田〔山西省侯马市〕）
  element('#search').value='不存在的记事词';run('render()');assert.equal(run('filtered().length'),0);
  element('#search').value='';element('#searchScope').value='all';element('#search').value='朱温';run('fullSearchHits='+JSON.stringify(search.hits)+';eventFilter="war";render()');assert(run('filtered().every(y=>eventIndices(y).length>0)'));
  run('eventFilter="all"');element('#searchScope').value='current';element('#search').value='';
- assert(element('#dynastyTabs').innerHTML.includes('data-dynasty="唐"'));
+ assert(element('#volumeSelect').innerHTML.includes('<optgroup label="唐">'));
+ assert(element('#volumeSelect').innerHTML.includes('前403年—前369年'));
+ assert(element('#volumeSelect').innerHTML.includes('公元958年—公元959年'));
+ await run('changeVolume(1)');assert(element('#prevVolume').disabled);assert(!element('#nextVolume').disabled);
+ element('#recordedOnly').checked=true;run('render()');assert.equal(element('#annualFilterResults').textContent,'30 年');
+ run('period="安王";eventFilter="war";render()');assert.equal(element('#mobilePeriod').value,'安王');
+ element('#annualFilterReset').onclick();assert.equal(run('period'),'安王');assert.equal(run('eventFilter'),'all');assert(!element('#recordedOnly').checked);
+ await run('changeVolume(294)');assert(!element('#prevVolume').disabled);assert(element('#nextVolume').disabled);
  // Age estimates use BC-positive keys and must skip year zero and posthumous records.
  assert.equal(run('personEventAge({year:-208},{birthYear:-161,deathYear:-223,birthSource:"reviewed",birthStatus:"confirmed"})'),47);
  assert.equal(run('personEventAge({year:-1},{birthYear:1,birthSource:"reviewed",birthStatus:"confirmed"})'),1);

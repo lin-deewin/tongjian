@@ -22,8 +22,8 @@ with sync_playwright() as p:
   for path in paths:
    response=page.goto(base+path)
    assert response.status==200
-   assert page.locator('h1').is_visible()
-   assert page.locator('main').inner_text().strip()
+   assert page.locator('h1:visible').is_visible()
+   assert page.locator('main:visible').inner_text().strip()
    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),path
    if path!='/year/':
     assert page.locator('.source-original').count()>0
@@ -33,13 +33,16 @@ with sync_playwright() as p:
   ctx.close()
  ctx=b.new_context();page=ctx.new_page()
  page.goto(base+'/year/bce-403/')
- page.locator('#staticMode').select_option('original')
- assert 'mode-original' in page.locator('body').get_attribute('class')
+ page.locator('#readerBackdrop:not(.hidden)').wait_for()
+ page.locator('[data-reader-tool="mode"]').click()
+ page.locator('[data-tool-section="mode"] [data-reading-mode="original"]').click()
+ assert 'mode-original' in page.locator('#readerScroll').get_attribute('class')
  page.goto(base+'/reader.html#volume-1-year-403')
  link=page.get_by_role('link',name='本年独立阅读页 ↗')
  link.wait_for();link.click()
  assert '/year/bce-403/' in page.url
- assert page.locator('#volume-1-year-403').is_visible()
+ page.locator('#readerBackdrop:not(.hidden)').wait_for()
+ assert page.locator('#readerContent #para-0').count()==1
  results.append({'readerToYear':'passed','readingControls':'passed'})
  b.close()
 server.shutdown()

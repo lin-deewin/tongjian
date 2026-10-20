@@ -15,6 +15,7 @@ from functools import lru_cache
 from pathlib import Path
 
 from people_review import event_key, validate_record
+from year_reader import enhance_year_page, READER_ASSETS
 from translations.overlay import apply as apply_supplement
 from translations.replacement import apply as apply_replacement
 
@@ -135,6 +136,8 @@ class Sources:
             import copy
             book = copy.deepcopy(book)
             years = {y['year']: y for y in book['years']}
+            for year in book['years']:
+                year['yearIllustrations'] = []
             for entry in pictures['years']:
                 years[entry['year']]['yearIllustrations'] = entry['images']
         return book
@@ -389,7 +392,8 @@ def year_pages(sources, config):
         if i + 1 < len(years):
             neighbors.append(link(page, year_target(years[i + 1]), '下一年：' + year_label(years[i + 1]) + ' →'))
         out.append('<nav class="neighbors" aria-label="前后年份">' + ' · '.join(neighbors) + '</nav>')
-        pages.append((page, shell(page, title, description, ''.join(out), controls=True)))
+        annual_markup = shell(page, title, description, ''.join(out), controls=True)
+        pages.append((page, enhance_year_page(page, annual_markup, parts[0][0]['volume'], year)))
     page = 'year/index.html'
     content = '<h1>资治通鉴逐年目录</h1><p>公元前403年至公元959年；同年跨卷内容在同一页面按原书顺序保留。</p><ul class="directory-list">'
     content += ''.join(f'<li>{link(page, year_target(y), year_label(y))}</li>' for y in years) + '</ul>'
@@ -580,7 +584,7 @@ def build(data):
                     semanticReviewsSHA256=sha((ROOT / 'scripts/people/semantic-reviews.json').read_bytes()),
                     configurationSHA256=sha(CONFIG.read_bytes()), excludedPeople=excluded,
                     publicPages={p: sha((data / (p or 'index.html')).read_bytes()) for p in CORE_PAGES},
-                    assets={p: sha((data / p).read_bytes()) for p in ('static-reading.css', 'static-reading.js')})
+                    assets={p: sha((data / p).read_bytes()) for p in ('static-reading.css', 'static-reading.js', *READER_ASSETS)})
     (data / 'seo-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Generated {len(pages)} static pages (directory + {len(config["volumes"])} volumes + {len(people)} people); sitemap updated.')
 

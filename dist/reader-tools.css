@@ -117,3 +117,5 @@ body.tools-reading>header{display:none}
 .reader-tool-panel[data-active-tool="mode"] .reader-tool-body{padding:10px}
 .reader-tool-panel[data-active-tool="mode"] .reading-modes button{white-space:nowrap;padding:10px 14px}
 @media(max-width:800px){.reader-tool-panel[data-active-tool="mode"]{left:50%;right:auto;transform:translateX(-50%)}}
+
+.reader-tool-section[data-tool-section="huNotes"] .tool-note-setting{border-top:0;padding-top:0}

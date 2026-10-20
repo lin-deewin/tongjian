@@ -51,7 +51,14 @@ def main():
     assert report['aiSupplemented']==coverage['aiSupplementedOriginal']==0
     assert coverage['matchedOriginal']==30584-missing
     page=(ROOT/'dist/index.html').read_text();assert f'仍有{missing}段' in page and f'{coverage["matchedOriginal"]:,}<small>段' in page
-    # All canonical volume bytes remain identical to the existing famine audit.
-    assert corpus.hexdigest()=='1c89cac43aa6cfe534eabc5516cee74794fa69f5cf8c9005e63a0a31ea740356'
-    print(json.dumps(dict(recovered=recovered,remainingMissing=missing,uploadedOnly=True,sourceBinding='exact',boundarySplits=boundaries,canonicalCorpus='unchanged'),ensure_ascii=False))
+    # Bind full volume bytes to the famine review. Translation-only rebinding
+    # requires exact original-source equality with its pinned reference commit.
+    review=json.loads((ROOT/'scripts/river_events/famine-review.json').read_text())
+    assert corpus.hexdigest()==review['corpusSHA256']
+    repaired=json.loads((ROOT/'dist/volume294.json').read_text())
+    pair=next(p for y in repaired['years'] if y['year']==-959 for p in y['bilingual'] if p['huIndices']==[4])
+    paras=html.fromstring(uploaded.read('OPS/chapter290.htm')).xpath('//p')
+    assert pair['sourceOriginal']==paras[170].text_content()
+    assert pair['modern']=='\n'.join(p.text_content() for p in paras[172:174])
+    print(json.dumps(dict(recovered=recovered,remainingMissing=missing,uploadedOnly=True,sourceBinding='exact',boundarySplits=boundaries,canonicalOriginal='unchanged'),ensure_ascii=False))
 if __name__=='__main__':main()

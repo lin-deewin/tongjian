@@ -104,6 +104,8 @@ def apply(rows, corpus_hash, review_document=None):
                   reviewer=review['reviewer'], unit=review['unit'],
                   policy=review['policy'], limitations=review['limitations'],
                   changes=changes, decisions=review['decisions'], coverage=review['coverage'])
+    if review.get('sourceRebinding'):
+        detail['sourceRebinding'] = review['sourceRebinding']
     (ROOT/'dist/famine-audit-report.json').write_text(json.dumps(detail, ensure_ascii=False, separators=(',', ':'))+'\n')
     write_report(detail)
     return {k:v for k,v in detail.items() if k not in {'changes','decisions','coverage'}}, resolved

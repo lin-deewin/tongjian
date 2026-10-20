@@ -1,0 +1,1112 @@
+{
+  "source": "原书图题、原文段落与事件索引核对；两张无外部图题的插图按图内文字补充说明",
+  "images": {
+    "Image00392.jpg": {
+      "volume": 58,
+      "year": -184,
+      "afterParagraph": 21,
+      "sourceParagraphSHA256": "b5cb755c6062531fea6753028e02a5ffcbe0b2167bb4ce81f970e471b8ccfd68",
+      "recordExcerpt": "冬，十月，皇甫嵩与张角弟梁战于广宗，梁众精勇，嵩不能克；明日，乃闭营休士以观其变，知贼意稍懈，乃潜夜勒兵，鸡鸣，驰赴其陈，战至晡时，大破之，斩梁，获首三万级，赴河死者五万许人。角先已病死，剖棺戮尸，传首京师。十一月，嵩复攻角弟宝于下曲阳，斩之，斩获十余万人。即拜嵩为左车骑将军，领冀州牧，封槐里侯。",
+      "kind": "event"
+    },
+    "Image00077.jpg": {
+      "volume": 8,
+      "year": 208,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "c04480bd26c957bd17228f9d5e2b581c906bb1a6931555fd42fcca2d0e10dd14",
+      "recordExcerpt": "冬，十月，泗川监平将兵围沛公于丰，沛公出与战，破之；令雍齿守丰。十一月，沛公引兵之薛。泗川守壮兵败于薛，走至戚；沛公左司马得杀之。",
+      "kind": "event"
+    },
+    "Image00086.jpg": {
+      "volume": 8,
+      "year": 207,
+      "afterParagraph": 22,
+      "sourceParagraphSHA256": "79f43759e6fe422b0905fe8c7f667351f16185ea9b42f5547d622c33381475e5",
+      "recordExcerpt": "高前数言“关东盗无能为也”；及项羽虏王离等，而章邯等军数败，上书请益助。自关以东，大抵尽畔秦吏，应诸侯；诸侯咸率其众西乡。八月，沛公将数万攻武关，屠之。高恐二世怒，诛及其身，乃谢病，不朝见。",
+      "kind": "event"
+    },
+    "Image01479.jpg": {
+      "volume": 217,
+      "year": -756,
+      "afterParagraph": 11,
+      "sourceParagraphSHA256": "9c3d3f623ba3b3b33e522bbbaabe8993c7d84427811416e173d8c93e4db3a333",
+      "recordExcerpt": "史思明等围饶阳二十九日，不下，李光弼将蕃、汉步骑万余人、太原弩手三千人出井陉。〔骑，奇寄翻。陉，音刑。考异曰：玄宗实录：「己亥，光弼以朔方马步五千，东出土门，收常山郡。」河洛春秋云：「光弼从大同城下领蕃、汉兵马步一万余人，井太原弩手三千人，救真定。」盖实录言朔方元领之兵，河洛言到真定之数耳〕。己亥，",
+      "kind": "event"
+    },
+    "Image01480.jpg": {
+      "volume": 217,
+      "year": -756,
+      "afterParagraph": 21,
+      "sourceParagraphSHA256": "8ba2a60571f52d6a9e883c119c9af8dff5fd88d690c280b618f412580406f090",
+      "recordExcerpt": "李光弼与史思明相守四十余日，思明绝常山粮道。城中乏草，马食荐藉。。光弼车五百乘之石邑取草，。将车者皆衣甲，弩手千人卫之，为方陈而行，。贼不能夺。蔡希德引兵攻石邑，张奉璋拒却之。光弼遗使告急于郭子仪，子仪引兵自井陉出，。夏，四月，壬辰，至常山，与光弼合，番、汉步骑共十余万。甲午，子仪、光弼与史思明等战",
+      "kind": "event"
+    },
+    "Image01760.jpg": {
+      "volume": 255,
+      "year": -883,
+      "afterParagraph": 20,
+      "sourceParagraphSHA256": "15b0dc85f1a033d34d0afb10ca6062959d12e0d7ed39ea390456d3e4f3c958fd",
+      "recordExcerpt": "初，巢在长安，陈州刺史宛丘赵犨谓将佐曰：「巢不死长安，必东走，陈其冲也。且巢素与忠武为仇，不可不为之备。」乃完城堑，缮甲兵，积刍粟；六十里之内，民有资粮者，悉徙之入城。多募勇士，使其弟昶珝、子麓林分将之。孟楷既下蔡州，移兵击陈，军于项城；犨先示之弱，伺其无备，袭击之，杀获殆尽，生擒楷，斩之。巢闻楷死",
+      "kind": "event"
+    },
+    "Image01850.jpg": {
+      "volume": 265,
+      "year": -906,
+      "afterParagraph": 28,
+      "sourceParagraphSHA256": "fcb0603b9c63702ba962322541e797e40f9d80b3af069dd2f4ac713f61d03aa4",
+      "recordExcerpt": "秦裴拔洪州，虏锺匡时等五千人以归。杨渥自兼镇南节度使，以裴为洪州制置使。",
+      "kind": "event"
+    },
+    "Image00312.jpg": {
+      "volume": 41,
+      "year": -27,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "66558b8c97e4ca8ba2fd3c136cb6d44e2a079146afb793c669ac15b06443fca5",
+      "recordExcerpt": "春，正月，甲子，以冯异为征西大将军。邓禹凓于受任无功，数以饥卒徼赤眉战，辄不利；乃率车骑将军邓弘等自河北度至湖，要冯异共攻赤眉。异曰：「异与贼相拒数十日，虽虏获雄将，余众尚多，可稍以恩信倾诱，难卒用兵破也。上今使诸将屯渑池，要其东，而异击其西，一举取之，此万成计也！」禹、弘不从，弘遂大战移日。赤眉阳",
+      "kind": "overview"
+    },
+    "Image00313.jpg": {
+      "volume": 41,
+      "year": -28,
+      "afterParagraph": 2,
+      "sourceParagraphSHA256": "145ce8c009514a734d5a9197903660ddffaee4aa68769fd84ac96f3d9f923765",
+      "recordExcerpt": "延岑复寇顺阳；遣邓禹将兵击破之。岑奔汉中；公孙述以岑为大司马，封汝宁王。",
+      "kind": "event"
+    },
+    "Image00383.jpg": {
+      "volume": 54,
+      "year": -159,
+      "afterParagraph": 6,
+      "sourceParagraphSHA256": "dbca916361803604603878b662869fdaa1895b0337c87478875d2ef7f83adcea",
+      "recordExcerpt": "梁冀一门，前后七侯，三皇后，六贵人，二大将军，夫人、女食邑称君者七人，尚公主者三人，其余卿、将、尹、校五十七人。冀专擅威柄，凶恣日积，宫卫近侍，并树所亲，禁省起居，纤微必知。其四方调发，岁时贡献，皆先输上第于冀，乘舆乃其次焉。吏民赍货求官、谓罪者，道路相望。百官迁召，皆先到冀门笺檄谢恩，然后敢诣尚书",
+      "kind": "event"
+    },
+    "Image01366.jpg": {
+      "volume": 201,
+      "year": -666,
+      "afterParagraph": 10,
+      "sourceParagraphSHA256": "eef8cd8bf4fcbc72220e3929a3b5d962e8abe7cb980f3e412197ebccd35d6974",
+      "recordExcerpt": "初，武士彟娶相里氏，生男元庆、元爽；又娶杨氏，生三女，长适越王府法曹贺兰越石，次皇后，次适郭孝慎。士彟卒，元庆、元爽及士彟兄子惟良、怀运皆不礼于杨氏，杨氏深衔之。越石、孝慎及孝慎妻并早卒，越石妻生敏之及一女寡。后既立，杨氏号荣国夫人，越石妻号韩国夫人，惟良自始州长史超迁司卫少卿，怀运自瀛州长史迁淄州",
+      "kind": "event",
+      "caption": "武家班世系（武氏家族关系）"
+    },
+    "Image00362.jpg": {
+      "volume": 49,
+      "year": -111,
+      "afterParagraph": 3,
+      "sourceParagraphSHA256": "143a540d47a98886358392c68ecbc671f23b4a7770e574c55cff247ab6150740",
+      "recordExcerpt": "先零羌寇河东，至河内，百姓相惊，多南奔渡河，使北军中候朱宠将五营士屯孟津，诏魏郡、赵国、常山、中山缮作坞候六百一十六所。羌既转盛，而缘边二千石、令、长多内郡人，并无守战意，皆争上徙郡县以避寇难。三月，诏陇西徙襄武，安定徙美阳，北地徙池阳，上郡治衙。百姓恋土，不乐去旧，遂乃刈其禾稼，发彻室屋，夷营壁，",
+      "kind": "event"
+    },
+    "Image00589.jpg": {
+      "volume": 85,
+      "year": -304,
+      "afterParagraph": 33,
+      "sourceParagraphSHA256": "63309ee35d9dd827c2f0b66e52b09924ad17caa88b37130a7de13a45bfb72892",
+      "recordExcerpt": "罗尚移屯巴郡，遣兵掠蜀中，获李骧妻昝氏及子寿。",
+      "kind": "event"
+    },
+    "Image00554.jpg": {
+      "volume": 82,
+      "year": -291,
+      "afterParagraph": 2,
+      "sourceParagraphSHA256": "662f504f0b69c7f8a4463f5006c1e99c5a85c3ff93c11ba67b646b81731801b0",
+      "recordExcerpt": "后数诚厉妃，妃不知后之助己，返以后为构己于武帝，更恨之。及帝即位，贾后不肯以妇道事太后，又欲干预政事，而为太傅骏所抑。殿中中郎渤海孟观、李肇，皆骏所不礼也，阴构骏，云将危社稷。黄门董猛，素给事东宫，为寺人监，贾后密使猛与观、肇谋诛骏，废太后。又使肇报汝南王亮，使举兵讨骏，亮不可。肇报都督荆州诸军事楚",
+      "kind": "event"
+    },
+    "Image00555.jpg": {
+      "volume": 82,
+      "year": -291,
+      "afterParagraph": 3,
+      "sourceParagraphSHA256": "3a56be0f56b5df97671177a9cb8e95998fe0b1180977d53a68dc38ac6ad1eb1d",
+      "recordExcerpt": "三月，辛卯，孟观、李肇启帝，夜作诏，诬骏谋反，中外戒严，遣使奉诏废骏，以侯就第。命东安公繇帅殿中四百人讨骏，楚王玮屯司马门，以淮南相刘颂为三公尚书，屯卫殿中。段广跪言于帝曰：「杨骏孙公无子，岂有反理，愿陛下审之！」帝不答。",
+      "kind": "event"
+    },
+    "Image00559.jpg": {
+      "volume": 82,
+      "year": -291,
+      "afterParagraph": 13,
+      "sourceParagraphSHA256": "c05a9179b6f11c3403012cfc46a6c1f8f9c27ec52493976484c1a621c59d2b15",
+      "recordExcerpt": "太宰亮、太保瓘以楚王玮刚愎好杀，恶之，欲夺其兵权，以临海侯裴楷代玮为北军中候，玮怒；楷闻之，不敢拜。亮复与瓘谋，遣玮与诸王之国，玮益忿怨。玮长史公孙宏、舍人岐盛，皆有宠于玮、劝玮自昵于贾后；后留玮领太子少傅。盛素善于杨骏，卫瓘恶其反复，将收之。盛乃与宏谋，因积弩将军李肇矫称玮命，谮亮、瓘于贾后，云将",
+      "kind": "event"
+    },
+    "Image01582.jpg": {
+      "volume": 231,
+      "year": -784,
+      "afterParagraph": 8,
+      "sourceParagraphSHA256": "578d895c1b8984bceb8d724a3d204feaa0f4a4afe7689cf4100af6f9acf294ae",
+      "recordExcerpt": "滔杀杨布、蔡雄而归幽州，心既内凓，又恐范阳留守刘怦因败图己。匉悉发留守兵夹道二十里，具仪仗，迎之入府，相对悲喜，时人多之。",
+      "kind": "event"
+    },
+    "Image01989.jpg": {
+      "volume": 284,
+      "year": -944,
+      "afterParagraph": 60,
+      "sourceParagraphSHA256": "e48c728931b5098e87d1b9b277d7eb707286a8b0d1aaf5c8b6907227068286c8",
+      "recordExcerpt": "初，唐翰林待诏臧循，与枢密副使查文徽同乡里，循常为贾人，习福山川，为文徽画取建州之策。六徽表请用兵击王延政，国人多以为不可。唐主以文徽为江西安抚使，循行境上，觇其可否；文徽至信州，奏言攻之必克。唐主以洪州营屯都虞候边镐为行营招讨诸军都虞候，将兵从文徽伐殷。文徽自建阳进屯盖竹，闻漳、泉、汀三州皆降于殷",
+      "kind": "event"
+    },
+    "Image00511.jpg": {
+      "volume": 76,
+      "year": -253,
+      "afterParagraph": 14,
+      "sourceParagraphSHA256": "9423f5096950f2c06d65bb14f8e360b02abdba66e7b789d8d82f079e5b811b12",
+      "recordExcerpt": "会大暑，吴士疲劳，饮水，泄下、流肿，病者太半，死伤涂地。诸营吏日白病者多，恪以为诈，欲斩之，自是莫敢言。恪内惟失计，而耻城不下，忿形于色。将朱异以军事迕恪，恪立夺其兵，斥还建业。都尉蔡林数陈军计，恪不能，策马来奔。诸将伺知吴兵已疲，乃进救兵。秋，七月，恪引军去，士卒伤病，流曳道，路，或顿仆坑壑，或见",
+      "kind": "event"
+    },
+    "Image01138.jpg": {
+      "volume": 168,
+      "year": -560,
+      "afterParagraph": 64,
+      "sourceParagraphSHA256": "72a8dae8b4d08b2531b05dbd85c83bc4039f5cec65c1f9d58922900e5babc178",
+      "recordExcerpt": "九月，乙卯，周将独孤盛将水军与敦俱进。辛酉，遣仪同三司徐度将兵会侯瑱于巴丘。会秋水泛溢，盛、敦粮援断绝，分军抄掠，以供资费。敦恐瑱知其粮少，乃于营内多为土聚，覆之以米，召旁村人，阳有访问，随即遣之。瑱闻之，良以为实。敦又增修营垒，造庐舍为久留之计，湘、罗之间遂废农业。〕梁置湘州于长沙，置罗州于湘阴县",
+      "kind": "event"
+    },
+    "Image01120.jpg": {
+      "volume": 166,
+      "year": -555,
+      "afterParagraph": 38,
+      "sourceParagraphSHA256": "1a4db11e4e085cd902cc54b2239f16d37b777cf9fa4b55bb13abce6d61af4f34",
+      "recordExcerpt": "甲辰，徐嗣徽等攻冶城栅，陈霸先将精甲自西明门出击之，嗣徽等大败，留柳达摩等守城，自往采石迎齐援。",
+      "kind": "event"
+    },
+    "Image01121.jpg": {
+      "volume": 166,
+      "year": -555,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "c81947c6fb0db7d48090b0b6fac75443b69d866b6d33797a87a184441c40631e",
+      "recordExcerpt": "春，正月，壬午朔，邵陵太守刘棻将兵援江陵，至三百里滩，部曲宋文彻杀之，帅其众还据邵陵。",
+      "kind": "overview"
+    },
+    "Image00275.jpg": {
+      "volume": 38,
+      "year": -17,
+      "afterParagraph": 2,
+      "sourceParagraphSHA256": "aa0f05115343138d5c9b765f84c1b8e1b1672420fbb80052bd791aa4adbc4c2c",
+      "recordExcerpt": "莽置羲和命士，以督五均、六筦。郡有数人，皆用富贾为之，乘传求利，交错天下；因与郡县通奸，多张空簿，府藏不实，百姓愈病。是岁，莽复下诏申明六筦，每一筦为设科条防禁，犯者罪至死。奸民猾吏并侵，众庶各不安生，又一切调上公以下诸有奴婢者，率一口出三千六百，天下愈愁。纳言冯常以六筦谏，莽大怒，免常官。法令烦苛",
+      "kind": "event"
+    },
+    "Image00278.jpg": {
+      "volume": 39,
+      "year": -23,
+      "afterParagraph": 1,
+      "sourceParagraphSHA256": "ca29d0ab187384457cc7c8d5761d857c7ce2abb0b81350f6fc39ed390444ad2e",
+      "recordExcerpt": "舂陵戴侯曾孙玄在平林兵中，号更始将军。时汉兵已十余万，诸将议以兵多而无所统一，欲立刘氏以从人望。南阳豪桀及王常等皆欲立刘演；而新市、平林将帅乐放纵，惮演威明，贪玄懦弱，先共定策立之，然后召演示其议。演曰：「诸将军幸欲尊立宗室，甚厚！然今赤眉起青、徐，众数十万，闻南阳立宗室，恐赤眉复有所立，王莽未灭而",
+      "kind": "event"
+    },
+    "Image01557.jpg": {
+      "volume": 227,
+      "year": -781,
+      "afterParagraph": 29,
+      "sourceParagraphSHA256": "c24aac2b064053a3554227b63293283c28b39cda0b999c72120252b325597b03",
+      "recordExcerpt": "崇庆、温攻彭城，二旬不能下，请益兵于纳；纳遣其将石隐金将万人助之，与刘洽等相拒于七里沟。日向暮，洽引军稍却，朔方马军使杨朝晟言于唐朝臣曰：「公以步兵负山而陈，以待两军，我以骑兵伏于山曲，贼见悬军势孤，必搏之：我以伏兵绝其腰，必败之。」朝臣从之。崇庆等果将骑二千踰桥而西，追击官军，，伏兵发，横击之；崇",
+      "kind": "event"
+    },
+    "Image00416.jpg": {
+      "volume": 62,
+      "year": -196,
+      "afterParagraph": 6,
+      "sourceParagraphSHA256": "f66b336732534553597e678aada550d7176611095fae8537c371ae7893ce15c4",
+      "recordExcerpt": "庚子，杨奉、韩暹奉帝东还，张杨以粮迎道路。秋，七月，甲子，车驾至雒阳，幸故中常侍赵忠宅。丁丑，大赦。八月，辛丑，幸南宫杨安殿。张杨以为己功，故名其殿曰杨安。杨谓诸将曰：「天子当与天下共之，朝廷自有公卿大臣，杨当出扞外难。」遂还野王，杨奉亦出屯梁，韩暹、董承并留宿卫。癸卯，以安国将军张杨为大司马，杨奉",
+      "kind": "event"
+    },
+    "Image00146.jpg": {
+      "volume": 18,
+      "year": 129,
+      "afterParagraph": 2,
+      "sourceParagraphSHA256": "652ea1e2d4a63092b4cc9c134a447f4ece3dd31e8dd1d0a7a550930ba1acd258",
+      "recordExcerpt": "匈奴入上谷，杀略吏民。遣车骑将军卫青出上谷，骑将军公孙敖出代，轻车将军公孙贺出云中，骁骑将军李广出雁门，各万骑，击胡关市下。卫青至龙城，得胡首虏七百人；公孙贺无所得；公孙敖为胡所败，亡七千骑；李广亦为胡所败。胡生得广，置两马间，络而盛卧，行十余里；广佯死，暂腾而上胡儿马上，夺其弓，鞭马南驰，遂得脱归",
+      "kind": "event"
+    },
+    "Image01465.jpg": {
+      "volume": 215,
+      "year": -742,
+      "afterParagraph": 2,
+      "sourceParagraphSHA256": "5e307f7661155130f624ee877d8b5a07dffffa091e95335b13c1bcbce0a722db",
+      "recordExcerpt": "是时，天下声教所被之州三百三十一，羁縻之州八百，置十节度、经略使以备边。安西节度抚宁西域，统龟兹、焉耆、于阗、疏勒四镇，治龟兹城，兵二万四千。北庭节度防制突骑施、坚昆，统瀚海、天山、伊吾三军，屯伊、西二州之境，治北庭都护府，兵二万人。河西节度断隔吐蕃、突厥，统赤水。大斗、建康、宁寇、玉门、墨离、豆卢",
+      "kind": "event"
+    },
+    "Image01468.jpg": {
+      "volume": 215,
+      "year": -746,
+      "afterParagraph": 2,
+      "sourceParagraphSHA256": "61cad113396a741bfb66d12a821660121f47977fbf2ed22d1875baa1233e09b9",
+      "recordExcerpt": "初，太子之立，非林甫意。林甫恐异日为己祸，常有动摇东宫之志；而坚，又太子之妃兄也。皇甫惟明尝为忠王友，时破吐蕃，入献捷，见林甫专权，意颇不平。时因见上，乘间微劝上去林甫，林甫知之，使杨慎矜密伺其所为。会正月望夜，太子出游，与坚相见，坚又与惟明会于景龙观道士之室。慎矜发其事，以为坚戚里，不应与边将狎昵",
+      "kind": "event"
+    },
+    "Image01625.jpg": {
+      "volume": 237,
+      "year": -807,
+      "afterParagraph": 9,
+      "sourceParagraphSHA256": "2687713d010333995a4d5e2fe90cfaa38cb2658d9c53c7f5c840caa1c53d3a32",
+      "recordExcerpt": "冬，十月，己未，诏征锜为左仆射，以御史大夫李元素为镇海节度仗。庚申，锜表言军变，杀留后、大将。先是锜选腹心五人为所部五州镇将，姚志安处苏州，李深处常州，赵惟忠处湖州，丘自昌处杭州，高肃处睦州，各有兵数千，伺察刺史动静。。至是，锜各使杀其刺史，遣牙将庾伯良将兵三千治石头。常州刺史颜防用客李云计，矫制称",
+      "kind": "event"
+    },
+    "Image00154.jpg": {
+      "volume": 19,
+      "year": 120,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "a8a2285c6173277ff2c6883868c351cda36764510f31f802bed7227f1e33282c",
+      "recordExcerpt": "春，有星孛于东方。",
+      "kind": "overview"
+    },
+    "Image00622.jpg": {
+      "volume": 89,
+      "year": -314,
+      "afterParagraph": 21,
+      "sourceParagraphSHA256": "69171c84d635536da266b69abf2f8d479acbacc6fe7c86d883d41bb721489911",
+      "recordExcerpt": "曜、染复与将军殷凯帅众数万向长安，曲允逆战于冯诩，允败，收兵；夜，袭凯营，凯败死。曜乃还攻河内太守郭默于怀，列三屯围之。默食尽，送妻子为质，请籴毕，复婴城固守。曜怒，沉默妻子于河而攻之。默欲投李矩新郑，矩使其甥郭诵迎之，兵少，不敢进。会刘琨遣参军张肇帅鲜卑五白余骑诣长安，道阻不通，还，过矩营，矩说肇",
+      "kind": "event"
+    },
+    "Image01440.jpg": {
+      "volume": 213,
+      "year": -726,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "de10ee343387a8592de117834d4c3ae9b77fb060bc458c7ce94a9b256c20627e",
+      "recordExcerpt": "春，正月，癸未，更立契丹松漠王李邵固为广化王，奚饶乐王李鲁苏为奉诚王。以上从甥陈氏为东华公主，妻邵固；以成安公主之女韦氏为东光公主，。妻鲁苏。",
+      "kind": "overview"
+    },
+    "Image00425.jpg": {
+      "volume": 63,
+      "year": -200,
+      "afterParagraph": 6,
+      "sourceParagraphSHA256": "5e83d000ab5136aa64cfa84d55f076e07a970e844018c0681a7f2426eb04a95e",
+      "recordExcerpt": "袁绍遣其将颜良攻东郡太守刘延于白马。沮授曰：「良性促狭，虽骁勇，不可独任。」绍不听。夏，四月，曹操北救刘延。荀攸曰：「今兵少不敌，必分其势乃可。公到延津，若将渡兵向其后者，绍必西应之，然后轻兵袭白马，掩其不备，颜良可禽也。」操从之。绍闻兵渡，即分兵西邀之。操乃吊军兼行趣白马，未至十余里，良大惊，来道",
+      "kind": "event"
+    },
+    "Image01782.jpg": {
+      "volume": 258,
+      "year": -889,
+      "afterParagraph": 12,
+      "sourceParagraphSHA256": "c0de71a6af5132dff98a1a0d4e0892970d6ca0ae815373bd97e238434a1fc67d",
+      "recordExcerpt": "杨行密围宣州，城中食尽，人相啖，指挥使周进思据城逐赵锽；锽将奔广陵，田頵追擒之。未几，城中执进思以降。行密入宣州，诸将争取金帛，徐温独据米囷，为粥以食饿者。温，朐山人也。锽将宿松周本，勇冠军中，行密获而释之，以为裨将。锽既败，左右皆散，惟李德诚从锽不去，行密以宗女妻之。德诚，西华人也。行密表言于朝，",
+      "kind": "event"
+    },
+    "Image01786.jpg": {
+      "volume": 258,
+      "year": -890,
+      "afterParagraph": 45,
+      "sourceParagraphSHA256": "48ef758ebefc66fa3576e7fdcbdf3c20c588484c5cfcef2a7824e16c6a19e4ee",
+      "recordExcerpt": "邛州刺史毛湘，本田令孜亲吏，王建攻之急，食尽，救兵不至。壬戍，湘谓都知兵马使任可知曰：「吾不忍负田军容，吏民何罪！尔可持吾头归王建。」乃沐浴以俟刃。可知斩湘及二子降于建，士民皆泣。甲戍，建持永平旌节入邛州，以节度判官张琳知留后。缮完城隍，抚安夷獠，经营蜀、雅。冬，十月，癸未朔，建引兵还成都，蜀州将李",
+      "kind": "event"
+    },
+    "Image01387.jpg": {
+      "volume": 205,
+      "year": -692,
+      "afterParagraph": 9,
+      "sourceParagraphSHA256": "13830b84ed33856f391a9b039306324138648eda4867413c2705e7f14ac63d52",
+      "recordExcerpt": "乐思晦男未十岁，没入司农，上变，得召见，太后问状，对曰：「臣父已死，臣家已破，但惜陛下法为俊臣等所弄，陛下不信臣言，乞择朝臣之忠清、陛下素所信任者，为反状以付俊臣，无不承友矣。」太后意稍寤，召见仁杰等，问曰：「卿承反何也﹖」对曰：「不承，则已死于拷掠矣。」太后曰：「何为作谢死表﹖」对曰：「无之。」出",
+      "kind": "event"
+    },
+    "Image01936.jpg": {
+      "volume": 275,
+      "year": -927,
+      "afterParagraph": 14,
+      "sourceParagraphSHA256": "9de37e212a0e4ee0f6b86bad026c6f083fe81dc7956121cf456eefcfeeeed91f",
+      "recordExcerpt": "高季兴既得三州，请朝廷不除刺史，〔去年以三州与高季兴。〕自以子弟为之，不许。及夔州刺史潘炕罢官，〔潘炕，蜀王氏之旧臣。炕，苦浪翻。〕季兴辄遣兵突入州城，杀戍兵而据之。朝廷除奉圣指挥使西方邺为刺史，〔五代会要：应顺元年改龙武、神武四十指挥为捧圣左右军，捧圣即奉圣也。应顺乃闵帝元佃，而此时已有奉圣军。〕",
+      "kind": "event"
+    },
+    "Image01940.jpg": {
+      "volume": 276,
+      "year": -927,
+      "afterParagraph": 14,
+      "sourceParagraphSHA256": "8586884a25fd1aaf650e658f3296059cffa69429257fcff813722c7993e6a975",
+      "recordExcerpt": "己丑，帝至大梁，四面进攻，吏民缒城出降者甚众。守殷知事不济，尽杀其族，引颈命左右斩之。乘城者望见乘舆，相帅开门降。孙晟奔吴，徐知诰客之。",
+      "kind": "event"
+    },
+    "Image01999.jpg": {
+      "volume": 286,
+      "year": -947,
+      "afterParagraph": 6,
+      "sourceParagraphSHA256": "30a9937f2931a171b4cae5b91e7a02fbc136741cf92afdf56ed28d0cfb4c0b17",
+      "recordExcerpt": "辛卯，契丹以晋主为负义侯，置于黄龙府。黄龙府，即慕容氏和龙城也。契丹主使谓李太后曰：「闻重贵不用母命以至于此，可求自便，勿与俱行。」太后曰：「重贵事妾甚谨。所失者，违先君之志，绝两国之欢耳。今幸蒙大恩，全生保家，母不随子，欲何所归！」",
+      "kind": "event"
+    },
+    "Image02000.jpg": {
+      "volume": 286,
+      "year": -947,
+      "afterParagraph": 8,
+      "sourceParagraphSHA256": "43c1886a7a593a408ae88e6e57a21c5646dee683007c1a6da4b59fc25342c62f",
+      "recordExcerpt": "是日，契丹主自赤冈引兵入宫，都城诸门及宫禁门，皆以契丹守卫，昼夜不释兵仗。磔犬于门，以竿悬羊皮于庭为厌胜。契丹主谓群臣曰：「自今不修甲兵，不市战马，轻赋省役，天下太平矣。」废东京，降开封府为汴州，尹为防御使。乙未，契丹主改服中国衣冠，百官起居皆如旧制。",
+      "kind": "event"
+    },
+    "Image00548.jpg": {
+      "volume": 81,
+      "year": -280,
+      "afterParagraph": 11,
+      "sourceParagraphSHA256": "5b661b3ecb44904751d0758ab7ec2917cf9a3f6063fd39a3bf79ce30d7c526c0",
+      "recordExcerpt": "时王浑、王浚及琅邪王軎皆临近境，吴司徒何植、建威将军孙晏悉送印节诣浑降。吴主用光禄勋薛莹、中书令胡冲等计，分遣使者奉书于浑、浚、軎以请降。又遗其群臣，深自咎责，且曰：「今大晋平治四海，是英俊展节之秋，勿以移朝改朔，用损厥志。」使者先送玺绶于琅邪王軎。壬寅，王浚舟师过三山，王浑遣信要浚蹔过论事，浚举帆",
+      "kind": "event"
+    },
+    "Image00630.jpg": {
+      "volume": 90,
+      "year": -317,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "e274223ec5a4e4ae450b550272440d50754ea8e096a8c3786c03459c2f722d87",
+      "recordExcerpt": "春，正月，汉兵东略弘农，太守宋哲奔江东。",
+      "kind": "overview"
+    },
+    "Image00634.jpg": {
+      "volume": 90,
+      "year": -318,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "1ab50a0abe4164d4b45fe74ed51b05b9803c1802784c3ca17fefb55799df892c",
+      "recordExcerpt": "春，正月，辽西公疾陆眷卒，其子幼，叔父涉复辰自立。段匹磾自蓟往奔丧；段末柸宣言：「匹磾之来，欲为篡也。」匹磾至右北平，涉复辰发兵拒之。末柸乘虚袭涉复辰，杀之，并其子弟党与，自称单于。迎击匹磾，败之；匹磾走还蓟。",
+      "kind": "overview"
+    },
+    "Image01067.jpg": {
+      "volume": 161,
+      "year": -548,
+      "afterParagraph": 42,
+      "sourceParagraphSHA256": "3e56dfd3673fb19c94d57a379651f6fcd715eea940a98d735443eb0adfd13915",
+      "recordExcerpt": "景绕城既阋，百道俱攻，鸣鼓吹唇，喧声震地。纵火烧大司马、东‧西华诸门。羊侃使凿门上为窍，下水沃火；太子自奉银鞍，往赏战士；直合将军朱思帅战士数人踰城出外洒水，久之方灭。贼又以长柯斧斫东掖门，门将开，羊侃凿扇为孔，以槊刺杀二人，斫者乃退。景据公交车府，正德据左卫府，景党宋子仙据东宫，范桃棒据同泰寺。景",
+      "kind": "event"
+    },
+    "Image00450.jpg": {
+      "volume": 66,
+      "year": -213,
+      "afterParagraph": 4,
+      "sourceParagraphSHA256": "4a0355f52387ca883daff0e1277b4f4858a3e8d24b85cad1b41d7f4e432ff908",
+      "recordExcerpt": "五月，丙申，以冀州十郡封曹操为魏公，以丞相领冀州牧如故。又加九锡：大辂、戎辂各一，玄牡二驷；衮冕之服，赤副焉；轩县之乐，六佾之舞；朱户以居；纳陛以登；虎贲之士三百人；鈇、钺各一；彤弓一，彤矢百，玈弓十，玈矢千；秬鬯一卣，珪、瓒副焉。",
+      "kind": "event"
+    },
+    "Image00329.jpg": {
+      "volume": 43,
+      "year": -41,
+      "afterParagraph": 5,
+      "sourceParagraphSHA256": "1ee9deaf533940f5c4b16588d2dd8a4341df476ff60a206005b6d22431784dcf",
+      "recordExcerpt": "郭后宠衰，数怀怨怼，上怒之。冬，十月，幸巳，废皇后郭氏，立贵人阴氏为皇后。诏曰：「异常之事，非国休福，不得上寿称庆。」郅恽言于帝曰：「臣闻夫妇之好，父不得之于子，况臣能得之于君乎！帝进郭后子右翊公辅为中山王，以常山郡益中山国，郭后为中山太后；其余九国公皆为王。",
+      "kind": "event"
+    },
+    "Image01564.jpg": {
+      "volume": 228,
+      "year": -783,
+      "afterParagraph": 10,
+      "sourceParagraphSHA256": "f462090a7ba065c8cae0644a0b926171e3d34162cb5283c46c85985c81128bd5",
+      "recordExcerpt": "三月，戊寅，江西节度使曹王皋败李希烈将韩霜露于黄梅，斩之；辛卯，拔黄州。时烈兵栅山，险不可攻。皋声言西取靳州，引舟师泝江而上，希烈之将引兵循江随战。去蔡山三百余里，皋遂进拔蕲州，表伊慎为蕲州刺史，王锷为江州刺史。",
+      "kind": "event"
+    },
+    "Image00535.jpg": {
+      "volume": 79,
+      "year": -266,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "7f53313583febbc4021809eaf8453a6a541ff483b562511b8ab6b348e1ecfc27",
+      "recordExcerpt": "春，正月，丁亥，即用魏庙祭征西府君以下，并景帝凡七室。",
+      "kind": "overview"
+    },
+    "Image01032.jpg": {
+      "volume": 154,
+      "year": -530,
+      "afterParagraph": 13,
+      "sourceParagraphSHA256": "94cc4c50b194c044fc57a96591ad8b326eb281fa5bd599236bf500e849161119",
+      "recordExcerpt": "秋，七月，天光帅诸军入陇，至水洛城，庆云、道洛出战，天光射道洛中臂，失弓还走，拔其东城。贼并兵趣西城，城中无水，众渴乏，有降者言庆云、道洛欲突走。天光恐失之，乃遣人招谕庆云使早降，曰：「若未能自决，当听诸人，今夜共议，明晨早报。」庆云等冀得少缓，因待夜突出，乃报曰：「请俟明日。」天光因使谓曰：「知须",
+      "kind": "event"
+    },
+    "Image00643.jpg": {
+      "volume": 91,
+      "year": -320,
+      "afterParagraph": 10,
+      "sourceParagraphSHA256": "aa430e623bb209f3bbbb3dd015ddb41ac1cfd66b670ac18a5d2467cc415889eb",
+      "recordExcerpt": "京兆人刘弘客居凉州天梯山，以妖术惑众，从受道者千余人，西平元公张寔左右皆事之。帐下阎涉，牙门赵卬，皆弘乡人，弘谓之曰：「天与我神玺，应王凉州。」涉、卬信之，密与寔左右十余人谋杀寔，奉弘为主。寔弟茂知其谋，请诛弘。寔令牙门将史初收之，未至，涉等怀刃而入，杀寔于外寝。弘见史初至，谓曰：「使君已死，杀我何",
+      "kind": "event"
+    },
+    "Image00399.jpg": {
+      "volume": 59,
+      "year": -190,
+      "afterParagraph": 13,
+      "sourceParagraphSHA256": "0032b6f6ff14e8ab778b48b16052ae57253204eb00bf79ef05adbc15d7e3b519",
+      "recordExcerpt": "董卓在雒阳，袁绍等诸军皆畏其强，莫敢先进。曹操曰：「举义兵以诛暴乱，大众已合，诸君何疑！向使董卓倚王室，据旧京，东向以临天下，虽以无道行之，犹足为患。今焚烧宫室，劫迁天子，海内震动，不知所归，此天亡之时也，一战而天下定矣。」遂引兵西，将据成皋，张邈遣将卫兹分兵随之。进至荥阳汴水，遇卓将玄菟徐荣，与战",
+      "kind": "event"
+    },
+    "Image00356.jpg": {
+      "volume": 48,
+      "year": -93,
+      "afterParagraph": 12,
+      "sourceParagraphSHA256": "33c49bbb257220bff44398c78807cfeba083ca217d3493aaa95b599396998cc6",
+      "recordExcerpt": "梁王畅与从官卞忌祠祭求福，忌等谄媚云：「神言王当为天子。」畅与相应答，为有司所奏，请征诣诏狱。帝不许，但削成武、单父二县。畅凓惧，上疏深自刻责曰：「臣天性狂愚，不知防禁，自陷死罪，分伏显诛。陛下圣德，枉法曲平，横赦贷臣，为臣受污。臣知大贷不可再得，自誓束身约妻子，不敢复出入失绳墨，不敢复有所棋费，租",
+      "kind": "event"
+    },
+    "Image01790.jpg": {
+      "volume": 258,
+      "year": -891,
+      "afterParagraph": 16,
+      "sourceParagraphSHA256": "8c59758c99501ad9ad2b5e4e780e487149d8259bab21f51bc8beef97d5837ecb",
+      "recordExcerpt": "杨行密遣其将刘威、朱延寿将兵三万击孙儒于黄池，威等大败。延寿，舒城人也。孙儒军于黄池，五月，大水，诸营皆没，乃还扬州，使其将康暀据和州，安景思据滁州。",
+      "kind": "event"
+    },
+    "Image01890.jpg": {
+      "volume": 269,
+      "year": -916,
+      "afterParagraph": 11,
+      "sourceParagraphSHA256": "ca27fed651b9c3d70745baa209bdd881072ce8ebc68d37d9bb21e6e448d8996c",
+      "recordExcerpt": "五月，吴越王镠遣浙西安抚判官皮光业自建、汀、虔、郴、潭、岳、荆南道入贡。光业，日休之子也。",
+      "kind": "event"
+    },
+    "Image00601.jpg": {
+      "volume": 86,
+      "year": -308,
+      "afterParagraph": 20,
+      "sourceParagraphSHA256": "4a674c91fd3a40d2171fa1d9c00394ff5a876aa1330e2af99263680659b13a86",
+      "recordExcerpt": "石勒、刘灵帅众三万寇魏郡、汲郡、顿丘，百姓望风降附者五十余垒；皆假垒主将军、都尉印绶，简其强壮五万为军士，者弱安堵如故。己酉，勒执魏郡太守王粹于三台，杀之。",
+      "kind": "event"
+    },
+    "Image01927.jpg": {
+      "volume": 274,
+      "year": -926,
+      "afterParagraph": 16,
+      "sourceParagraphSHA256": "ff464538ea3aa8a05963726df4161d556e2d0589996690599b9f25afb73b122e",
+      "recordExcerpt": "癸巳，贼入邺都，孙铎等拒战不胜，亡去。赵在礼据宫城，署皇甫挥及军校赵进为马步都指挥使，纵兵大掠。进，定州人也。",
+      "kind": "event"
+    },
+    "Image01995.jpg": {
+      "volume": 285,
+      "year": -945,
+      "afterParagraph": 5,
+      "sourceParagraphSHA256": "8acbea126a08932e73b7db09b3079191fa8105cba41c509185dd8da47311fbc3",
+      "recordExcerpt": "丁亥，唐先锋桥道使上元王建封先登，〔上元本江宁县，唐肃宗上元间更名，带江宁府。〕遂克建州，闽主延政降。〔闽自唐末王潮得福建，传审知、延翰、鏻、昶、曦，至延政而亡。王忠顺战死，董思安整众奔泉州。〔史言泉州二将事闽主禸始终。〕",
+      "kind": "event"
+    },
+    "Image01447.jpg": {
+      "volume": 213,
+      "year": -728,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "91f3ae4e43982ecfdab290f786a65bc16062ccfd54005607c1a61f20b71c5b7c",
+      "recordExcerpt": "春，正月，壬寅，安西副大都护赵颐贞败吐蕃于曲子城。",
+      "kind": "reference",
+      "caption": "十二时辰与现代时刻对照",
+      "placementNote": "时间记法参考图"
+    },
+    "Image00703.jpg": {
+      "volume": 99,
+      "year": -351,
+      "afterParagraph": 17,
+      "sourceParagraphSHA256": "b63049649207808590723b3bce04826e201bab5d28ca1c848903d723e494f5cd",
+      "recordExcerpt": "刘显弒赵王祗及其丞相乐安王炳、太宰赵庶等十余人，传首于邺。骠骑将军石宁奔柏人。魏主闵焚祗首于通衢，拜显上大将军、大单于、冀州牧。",
+      "kind": "event"
+    },
+    "Image00946.jpg": {
+      "volume": 136,
+      "year": -488,
+      "afterParagraph": 7,
+      "sourceParagraphSHA256": "38241276cb34726295d0b25eb2ab0ceac2518e2b643815ef7541cff8ffb3ef19",
+      "recordExcerpt": "魏筑城于醴阳，陈显达攻拔之，进攻沘阳。城中将士皆欲出战，镇将韦珍曰：「彼初至气锐，未可与争，且共坚守，待其力攻疲弊，然后击之。」乃凭城拒战，旬有二日，珍夜开门掩击，显达还。",
+      "kind": "event"
+    },
+    "Image01806.jpg": {
+      "volume": 260,
+      "year": -895,
+      "afterParagraph": 67,
+      "sourceParagraphSHA256": "39e7a8c135d85d2bdffc81bcb1159925263b17d62a88c7508dad466607346d6f",
+      "recordExcerpt": "衢州刺史陈儒卒，弟岌代之。",
+      "kind": "event"
+    },
+    "Image02022.jpg": {
+      "volume": 289,
+      "year": -950,
+      "afterParagraph": 100,
+      "sourceParagraphSHA256": "6bf643a6971d9c2f58902771722e25a64085221c7c2ba6399a9b8417776aadef",
+      "recordExcerpt": "庚申，太后诰，以侍中监国。百官藩镇相继上表劝进。壬戍夜，监国营有步兵将校醉，扬言向者澶州骑兵扶立，今步兵遗欲扶立，监国斩之。",
+      "kind": "event"
+    },
+    "Image00162.jpg": {
+      "volume": 20,
+      "year": 111,
+      "afterParagraph": 1,
+      "sourceParagraphSHA256": "72f1da4fead76f77358fc38a22f4340926ec3fd39e03c85030a99201dc24f07d",
+      "recordExcerpt": "楼船将军杨仆入越地，先陷寻陿，破石门，挫越锋，以数万人待伏波将军路博德至俱进，楼船居前，至番禺。南越王建德、相吕嘉城守。楼船居东南面，伏波居西北面。会暮，楼船攻败越人，纵火烧城。伏波为营，遣使者招降者，赐印绶，复纵令相招。楼船力攻烧敌，驱而入伏波营中。黎旦，城中皆降。建德、嘉已夜亡入海，伏波遣人追之",
+      "kind": "event"
+    },
+    "Image00163.jpg": {
+      "volume": 20,
+      "year": 111,
+      "afterParagraph": 4,
+      "sourceParagraphSHA256": "05952df62ef658b09791e1d072109637912444dd863342b4f41e773693141808",
+      "recordExcerpt": "驰义侯发南夷兵，欲以击南越。且兰君恐远行旁国虏其老弱，乃与其众反，杀使者及犍为太守。汉乃发巴、蜀罪人当严：“当”改“尝”。】〕击南越者八校尉，遣中郎将郭昌、卫广将而击之，诛且兰及邛君、莋侯，遂平南夷为牂柯郡。夜郎侯始倚南越，南越已灭，夜郎遂入朝，上以为夜郎王。冉駹皆振恐，请臣置吏，乃以邛都为越巂郡，",
+      "kind": "event"
+    },
+    "Image00165.jpg": {
+      "volume": 20,
+      "year": 111,
+      "afterParagraph": 7,
+      "sourceParagraphSHA256": "b1a2e6bffcd4896bf4333cffec490a4f13442a55555407fa759116aa0be64881",
+      "recordExcerpt": "博望侯既以通西域尊贵，其吏士争上书言外国奇怪利害求使。天子为其绝远，非人所乐往，听其言，予节，募吏民，毋问所从来，为具备人众遣之，以广其道。来还，不能毋侵盗币物及使失指，天子为其习之，辄覆按致重罪，以激怒令赎，复求使，使端无穷，而轻犯法。其吏卒亦辄复盛推外国所有，言大者予节，言小者为副，故妄言无行之",
+      "kind": "event"
+    },
+    "Image00473.jpg": {
+      "volume": 69,
+      "year": -222,
+      "afterParagraph": 26,
+      "sourceParagraphSHA256": "fa86e204d16c07abf196ab5c31fd114e00439430aae9bca4a0e70d63c4108a3e",
+      "recordExcerpt": "吴王以扬越蛮夷多未平集，乃卑辞上书，求自改厉；「若罪在难除，必不见置，当奉还土地民人，寄命交州以终余年。」又与浩周书云：「欲为子登求昏宗室；」又云：「以登年弱，欲遣孙长绪、张子布随登俱来。」帝报曰：「朕之与君，大义已定。岂乐劳师远临江、汉。若登身朝到，夕召兵还耳。」于是吴王改元黄武，临江拒守。",
+      "kind": "event"
+    },
+    "Image00166.jpg": {
+      "volume": 20,
+      "year": 110,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "3f13cdb14eb9f011f70023133985746e2ae3fa7e46e1ea5f8b350bc46343fa92",
+      "recordExcerpt": "冬，十月，下诏曰：“南越、东瓯，咸伏其辜；西蛮、北夷，颇未辑睦；朕将巡边垂，躬秉武节，置十二部将军，亲帅师焉。”乃行，自云阳北历上郡、西河、五原，出长城，北登单于台，至朔方，临北河；遣使者郭吉告单于曰：“南越王头已县于汉北阙。今单于能战，天子自将待边；不能，即南面而臣于汉，何徒远走亡匿于幕北，寒苦无",
+      "kind": "overview"
+    },
+    "Image01558.jpg": {
+      "volume": 227,
+      "year": -782,
+      "afterParagraph": 1,
+      "sourceParagraphSHA256": "c68c01346fe59e4c823b32510bea3e2d0ecc99ab1c99058b68ba486b80cea2ea",
+      "recordExcerpt": "马燧等诸军屯于漳滨。田悦遣其将王光进筑月城以守长桥，〔长桥，在漳水上。月城，两头抱河，形如半月。〕诸军不得渡。燧以铁锁连车数百，实以土囊，塞其下流，〔乘，绳证翻。塞，悉则翻。按新书，燧于长桥下流以土囊遏之。〕水浅，诸军涉渡。时军中乏粮，悦等深壁不战。燧命诸军持十日粮，进屯仓口，与悦夹洹水而军。〔洹，",
+      "kind": "event"
+    },
+    "Image00693.jpg": {
+      "volume": 98,
+      "year": -349,
+      "afterParagraph": 25,
+      "sourceParagraphSHA256": "de091b09c8ce62bff63b67a897ae53bddfd3307f5dba6a784209f6600e592092",
+      "recordExcerpt": "鲁郡民五百余家相与起兵附晋，求援于褚裒，裒遣部将王龛、李迈将锐卒三千迎之。赵南讨大都督李农帅骑二万与龛等战于代陂，龛等大败，皆没于赵。八月，裒退屯广陵。陈逵闻之，焚寿春积聚，毁城遁还。裒上疏乞自贬，诏不许；命裒还镇京口，解征讨都督。时河北大乱，遗民二十余万口渡河欲来归附，会裒已还，威势不接，皆不能自",
+      "kind": "event"
+    },
+    "Image00696.jpg": {
+      "volume": 98,
+      "year": -350,
+      "afterParagraph": 16,
+      "sourceParagraphSHA256": "9ed917b12eaaec9fca349431f29ff6c9963b6297bb4f518138b1e6117c522a0b",
+      "recordExcerpt": "赵新兴王祗即皇帝位于襄国，改元永宁。以汝阴王琨为相国，六夷据州郡者皆应之。祗以姚弋仲为右丞相、亲赵王，待以殊礼。弋仲子襄，雄勇多才略，士民多爱之，请弋仲以为嗣，弋仲以襄非长子，不许；请者日以千数，弋仲乃使之将兵。祗以襄为骠骑将军、豫州刺史、新昌公。又以苻健为都督河南诸军事、镇南大将军、开府仪同三司、",
+      "kind": "event"
+    },
+    "Image01075.jpg": {
+      "volume": 162,
+      "year": -549,
+      "afterParagraph": 47,
+      "sourceParagraphSHA256": "6cd375464aebec270db1b4c4b002029cca1d073470d0056ec81e2e36b0419618",
+      "recordExcerpt": "癸未，景遣仪同三司来亮入宛陵，宣城太守杨白华诱而斩之。甲申，景遣其将李贤明攻之，不克。景又遣中军侯子鉴入吴郡，以厢公苏单于为吴郡太守，遣仪同未子仙等将兵东屯钱塘，新城戍主戴僧籂拒之。御史中丞沈浚避难东归，至吴兴，太守张嵊与之合谋，举兵讨景。嵊，稷之子也。东扬州刺史临城公大连，亦据州不受景命。景号令所",
+      "kind": "event"
+    },
+    "Image00092.jpg": {
+      "volume": 9,
+      "year": 206,
+      "afterParagraph": 26,
+      "sourceParagraphSHA256": "aa32aa6e34897586d3eccad17b44683d24a075e11ddeeb45aef20aba1b5d6dbe",
+      "recordExcerpt": "八月，汉王引兵从故道出，袭雍；雍王章邯迎击汉陈仓。雍兵败，还走；止，战好畤，又败，走废丘。汉王遂定雍地，东至咸阳；引兵围雍王于废丘，而遣诸将略地。塞王欣、翟王翳皆降，以其地为渭南、河上、上郡。令将军薛欧、王吸出武关，因王陵兵以迎太公、吕后。项王闻之，发兵距之阳夏，不得前。",
+      "kind": "event"
+    },
+    "Image00707.jpg": {
+      "volume": 99,
+      "year": -352,
+      "afterParagraph": 27,
+      "sourceParagraphSHA256": "fc588acb74da4b3413ce9675fe90754d07e38edfd938bb0682154f495b06388b",
+      "recordExcerpt": "庚午，魏长水校尉马愿等开邺城纳燕兵，戴施、蒋干悬缒而下，奔于仓垣。慕容评送魏后董氏、太子智、太尉申锺、司空条枚严：「枚」改「攸」。】〕等及乘舆服御于蓟。尚书令王简、左仆射张干、右仆射郎肃皆自杀。燕王儁诈云董氏得传国玺献之，赐号奉玺君，赐冉智爵海宾侯。以车锺为大将军右长史；命慕容评镇邺。",
+      "kind": "event"
+    },
+    "Image01477.jpg": {
+      "volume": 217,
+      "year": -756,
+      "afterParagraph": 0,
+      "sourceParagraphSHA256": "c0b22cf64608d7ca1d0a0e26bab101ccaa448a448179cfa3b4762274caeb1c1b",
+      "recordExcerpt": "春，正月，乙卯朔，禄山自称大燕帝，改元圣武，以达奚珣为侍中，张通侕为中书令。。高尚、严庄为中书侍郎。",
+      "kind": "overview"
+    },
+    "Image00964.jpg": {
+      "volume": 140,
+      "year": -496,
+      "afterParagraph": 1,
+      "sourceParagraphSHA256": "beea6574ac31d6efc6aae3ff5fa510d8daef074d2e6e4547c89b4d16b792d310",
+      "recordExcerpt": "魏主下诏，以为：「北人谓土为拓，后为跋。魏之先出于黄帝，以土德王，故为拓跋氏。夫土者，黄中之色，万物之元也；宜改姓元氏。诸功臣旧族自代来者，姓或重复，皆改之。」于是始改拔拔氏为长孙氏，达奚氏为奚氏，乙旃氏为叔孙氏，丘穆陵氏为穆氏，步六孤氏陆氏，贺赖氏为贺氏，独孤氏为刘氏，贺楼为氏楼氏，勿忸于氏为于氏",
+      "kind": "event"
+    },
+    "Image01771.jpg": {
+      "volume": 256,
+      "year": -886,
+      "afterParagraph": 12,
+      "sourceParagraphSHA256": "18f76622e9bd0107784cad1cf21119b44dca754d5edb2898cf18bcf158e97b7d",
+      "recordExcerpt": "山南西道监军冯翊严遵美迎上于西县，丙申，车驾至兴元。",
+      "kind": "event"
+    },
+    "Image01489.jpg": {
+      "volume": 220,
+      "year": -757,
+      "afterParagraph": 25,
+      "sourceParagraphSHA256": "0e3db76a0764e19e574a4444aa97a7fbb4f74c037770b684f526dcd06109d8a3",
+      "recordExcerpt": "丙寅，上至望贤宫，〔雍录：望贤官，在咸阳县东数里。〕得东京捷奏。丁卯，上入西京。百姓出国门奉迎，二十里不纪，舞跃呼万岁，有泣者。上入居大明官。〔高宗咸亨元年，改蓬莱官为大明官，既东内。〕御史中丞进器令百官受贼官爵者皆脱巾徒跣立于含元殿前，〔含元殿，东内前殿也，当丹凤门内。搏膺顿首请罪，环之以兵，〔环",
+      "kind": "event"
+    },
+    "Image01576.jpg": {
+      "volume": 229,
+      "year": -784,
+      "afterParagraph": 8,
+      "sourceParagraphSHA256": "1cb045d389a4ee1f420d3ff24e273fae4dac1d6e798e16b89a084c8f7fbc7f3a",
+      "recordExcerpt": "王武俊、田悦、李纳见赦令，皆去王号，上表谢罪。惟李希烈自恃兵强财富，遂谋称帝，遣人问仪于颜真卿，真卿曰：「老夫尝为礼官，所记惟诸侯朝天子礼耳！」希烈遂即皇帝位，国号大楚，改元武成。置百官，以其党郑贲为侍中，孙广为中书令，李缓、李元平同平章事。以汴州为大梁府，分其境内为四节度。希烈遣其耐辛景臻谓颜真卿",
+      "kind": "event"
+    },
+    "Image02023.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 18,
+      "sourceParagraphSHA256": "fb263aa262bc3cf5570a090f06c52c5f5da740f7876327e76734cca837596c32",
+      "recordExcerpt": "北汉主闻湘阴公死，哭曰：「吾不用忠臣之言，以至于此！」为李骧立祠，岁时祭之。",
+      "kind": "event"
+    },
+    "Image02024.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 25,
+      "sourceParagraphSHA256": "2f2dad6c337f4b8dc8955cae0011a4a4e6656f119009d4e823ddba9d454a2a91",
+      "recordExcerpt": "戊戌，北汉兵五道攻晋州，节度使王晏闭城不出。刘承钧以为怯，蚁附登城。晏伏兵奋击，北汉兵死伤者千余人。承钧遣副兵马使安元宝焚晋州西城，元宝来降。承钧乃移军攻隰州。癸卯，隰州刺史许迁遣步军都指挥使耿继业迎击北汉兵于长寿村，执其将程筠等，杀之。未几，北汉兵攻州城，数日不克，死伤甚众，乃引去。迁，郓州人也。",
+      "kind": "event"
+    },
+    "Image02025.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 62,
+      "sourceParagraphSHA256": "8ebc5671e0b576a10a79801ad70bd60d3e1497996856b615b969390a9850f3b0",
+      "recordExcerpt": "九月，北汉主遣招讨使李存瑰将兵自团柏入寇。契丹欲引兵会之，与酋长议于九十九泉。诸部皆不欲南寇，契丹主强之。癸亥，行至新州之西火神淀，燕王述轧及伟王之子太宁王沤僧作乱，弒契丹主而立述轧。契丹主德光之子齐王述律逃入南山，诸部奉述律以攻述轧、沤僧，杀之，并其族党。立述律为帝，改元应历。自火神淀入幽州，遣使",
+      "kind": "event"
+    },
+    "Image02026.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 71,
+      "sourceParagraphSHA256": "9ee043245566e6f70799442d2d49dc20cc701a3eecbcd940ff0623a33be1755f",
+      "recordExcerpt": "唐边镐引兵入醴陵。癸巳，楚王希崇遣使犒军。壬寅，遣天策府学士拓跋恒奉笺诣镐请降。恒叹曰：「吾久不死，乃为小儿送降状！」癸卯，希崇帅弟侄迎镐，望尘而拜，镐下马称诏劳之。甲辰，希崇等从镐入城，镐舍于浏阳门楼，湖南将吏毕贺，镐皆厚赐之。时湖南饥馑，镐大发马氏仓粟赈之，楚人大悦。",
+      "kind": "event"
+    },
+    "Image02027.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 76,
+      "sourceParagraphSHA256": "14f4b01a6e90acacf06eb47b09b0031ef05b02149984f84bdca07cd6b1f57556",
+      "recordExcerpt": "马希萼望唐人立己为潭帅，而潭人恶希萼，共请边镐为帅，唐主乃以镐为武安节度使。",
+      "kind": "event"
+    },
+    "Image02028.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 89,
+      "sourceParagraphSHA256": "1acbf7fc6936cd51922bd95eddc4e6763df3a62a98b5c30288a8d8d01929fd90",
+      "recordExcerpt": "南汉主遣内侍省丞潘崇彻、将军谢贯将兵攻郴州，唐边镐发兵救之。崇彻败唐兵于义章，遂取郴州。边镐请除全、道二州刺史以备南汉。丙辰，唐主以廖偃为道州刺史，以黑云指挥使张峦知全州。",
+      "kind": "event"
+    },
+    "Image02029.jpg": {
+      "volume": 290,
+      "year": -951,
+      "afterParagraph": 87,
+      "sourceParagraphSHA256": "82c622cdc11da9c1dd5bd6bb793cc54107110634b579bb5282093552b50b1e10",
+      "recordExcerpt": "北汉主攻晋州，久不克。会大雪，民相聚保山寨，野无所掠，军乏食。契丹思归，闻王峻至蒙坑，烧营夜遁。峻入晋州，诸将请亟追之，峻犹豫未决。明日，乃遣行营马军都指挥使仇弘超、都排陈使药元福、左厢排除使陈思让、康延沼将骑兵追之，及于霍邑，纵兵奋击，北汉兵坠崖谷死者甚众。霍邑道隘，延沼畏懦不急追，由是北汉兵得度",
+      "kind": "event"
+    },
+    "Image02030.jpg": {
+      "volume": 290,
+      "year": -952,
+      "afterParagraph": 8,
+      "sourceParagraphSHA256": "08ebde14d1ebff14c58355a379d1f892dc58af690e0ad83f3017d476062aab9d",
+      "recordExcerpt": "初，彦超将反，判官崔周度谏曰：「鲁，诗书之国，自伯禽以来不能霸诸侯，然以礼义守之，可以长世。公于国家非有私憾，胡为自疑！况主上开谕勤至，苟撤备归诚，则坐享泰山之安矣。独不见杜中令、安襄阳、李河中竟何所成乎！」彦超怒。及官军围城，彦超括士民之财以赡军，坐匿财死者甚众。前陕州司马阎弘鲁，宝之子也，畏彦超",
+      "kind": "event"
+    },
+    "Image02031.jpg": {
+      "volume": 291,
+      "year": -952,
+      "afterParagraph": 7,
+      "sourceParagraphSHA256": "0a8683df2d46fde8c07bf6ef7d0aaf76ed524628745a610cc9f335ef737be282",
+      "recordExcerpt": "冬，十月，逵等将兵分道趣长沙，以孙朗、曹进为先锋使，边镐遣指挥使郭再诚等将兵屯益阳以拒之。戊子，逵等克沅江，执都监刘承遇，裨将李师德帅众五百降之。壬辰，逵等合军士举小舟自蔽，直造益阳，四面斧寨而入，遂克之，杀戍兵二千人。边镐告急于唐。甲午，逵等克桥口及湘阴，乙未，至潭州，边镐婴城自守；救兵未至，城中",
+      "kind": "event"
+    },
+    "Image01854.jpg": {
+      "volume": 266,
+      "year": -907,
+      "afterParagraph": 44,
+      "recordExcerpt": "卢约以处州降吴越。",
+      "kind": "event",
+      "sourceParagraphSHA256": "a6768a1d1ea864e0e1de4a80814d42e84be16bcd62271e7216124f95d1d31bdc"
+    },
+    "Image01925.jpg": {
+      "volume": 274,
+      "year": -925,
+      "afterParagraph": 8,
+      "recordExcerpt": "李绍琛留汉州八日以俟都统，甲寅，继岌至汉州，王宗弼迎谒；乙卯，至成都。丙辰，李严引蜀主及百官仪卫出降于升迁桥，蜀主白衣、衔璧、牵羊，草绳萦首，百官衰绖、徒跣、舆榇，号哭俟命。继岌受璧，崇韬解缚，焚榇，承制释罪；君臣东北向拜谢。丁巳，大军入成都。崇韬禁军士侵掠，市不改肆。自出师至克蜀，凡七十日。得节度",
+      "kind": "event",
+      "sourceParagraphSHA256": "61b831181ed4bda951721721381f88048a7dd75bd688d1fe8c196bac11e20b5b"
+    },
+    "Image01585.jpg": {
+      "volume": 231,
+      "year": -784,
+      "afterParagraph": 57,
+      "recordExcerpt": "宋亳节度使刘洽遣马步都虞候刘昌与陇右、幽州行营节度使曲环等将兵三万救陈州，十一月，癸卯，败翟崇晖于州西，斩首三万五千级，擒崇晖以献。乘胜进攻汴州，李希烈惧，奔归蔡州。李澄引兵趣汴州，至城北，恇怯不敢进；刘洽兵至城东。戊午，李希烈守将田怀珍开门纳之。明日，澄入，舍于浚仪，两军之士，日有忿阋。会希烈郑州",
+      "kind": "event",
+      "sourceParagraphSHA256": "e628f6630d1cc109b6f1edda89b1ed70b80fd4119ea3b27e1b687e96247d5be0"
+    },
+    "Image01514.jpg": {
+      "volume": 223,
+      "year": -763,
+      "afterParagraph": 4,
+      "recordExcerpt": "初，仆固怀恩受诏与回纥河汗相见于太原；河东节度使辛云京以可汗乃怀恩伲，恐其合谋袭军府，闭城自守，亦不犒师。及史朝义既平，诏怀恩送可汗出塞，往来过太原，云京亦闭城不与相闻。怀恩怒，具表其状，不报。怀恩将朔方兵数万屯汾州，使其子御史大夫玚将万人屯榆次，裨将李光逸等屯祈县，李怀光等屯晋州，张维岳等屯沁州。",
+      "kind": "event",
+      "sourceParagraphSHA256": "cb2d575c6d42c2294aa6bbbf00b295aee1a93e38dcb7c16925040bfc1bbaf3e9"
+    },
+    "Image00967.jpg": {
+      "volume": 141,
+      "year": -497,
+      "afterParagraph": 32,
+      "recordExcerpt": "丁未，魏主发南阳，留太尉咸阳王禧等攻之。己酉，魏主至新野，新野太守刘思忌拒守。冬，十月，丁巳，魏军攻之不克，筑长围守之，遣人谓城中曰：「房伯玉已降，汝何为独取糜碎！」思忌遣人对曰：「城中兵食犹多，未暇从汝小虏语也！」魏右军府长史韩显宗将别军屯赭阳，成公期遣胡松引蛮兵攻其营，显宗力战，破之，斩其裨将高",
+      "kind": "event",
+      "sourceParagraphSHA256": "71583974186be583ef1e42f4ec60f3b586c989ea1b7453ca949c0056c8b8caa1"
+    },
+    "Image00088.jpg": {
+      "volume": 8,
+      "year": 207,
+      "afterParagraph": 22,
+      "recordExcerpt": "高前数言“关东盗无能为也”；及项羽虏王离等，而章邯等军数败，上书请益助。自关以东，大抵尽畔秦吏，应诸侯；诸侯咸率其众西乡。八月，沛公将数万攻武关，屠之。高恐二世怒，诛及其身，乃谢病，不朝见。",
+      "kind": "event",
+      "sourceParagraphSHA256": "79f43759e6fe422b0905fe8c7f667351f16185ea9b42f5547d622c33381475e5"
+    },
+    "Image01487.jpg": {
+      "volume": 219,
+      "year": -756,
+      "afterParagraph": 21,
+      "recordExcerpt": "上问李泌曰：「今敌强如此，何时可定﹖」对曰：「臣观贼所获子女金帛，皆输之范阳，此岂有雄据四海之志邪！今独虏将或为之用，中国之人惟高尚等数人，自余皆胁从耳。以臣料之，不过二年，天下无寇矣。」上曰：「何故﹖」对曰：「贼之骁将，不过史思明、安守忠、田干真、张忠志、阿史那承庆等数人而己。今若令李光弼自太原出",
+      "kind": "event",
+      "sourceParagraphSHA256": "40c0a07ceb1ca52fdb39bf84601bdcdce7ea0029a165da802138332676f76706"
+    },
+    "Image01116.jpg": {
+      "volume": 167,
+      "year": -557,
+      "afterParagraph": 10,
+      "recordExcerpt": "周文育军少船，余孝顷有船在上牢，文育遣军主焦僧度袭之，尽取以归，仍于豫章立栅。军中食尽，诸将欲退，文育不许，使人间行遣周迪书，约为兄弟。迪得书甚喜，许，馈以粮。于是文育分遣老弱乘故船沿流俱下，烧豫章栅，伪若遁去者。孝顷望之，大喜，不复设备。文育由间道兼行，据芊韶，芊韶上流则欧阳頠、萧孜，下流则傅泰、",
+      "kind": "event",
+      "sourceParagraphSHA256": "ae96d4b5652b24beb2060eb5ef85b66b423f48a1f85facb34a78bc730c8bb316"
+    },
+    "Image01127.jpg": {
+      "volume": 167,
+      "year": -557,
+      "afterParagraph": 10,
+      "recordExcerpt": "周文育军少船，余孝顷有船在上牢，文育遣军主焦僧度袭之，尽取以归，仍于豫章立栅。军中食尽，诸将欲退，文育不许，使人间行遣周迪书，约为兄弟。迪得书甚喜，许，馈以粮。于是文育分遣老弱乘故船沿流俱下，烧豫章栅，伪若遁去者。孝顷望之，大喜，不复设备。文育由间道兼行，据芊韶，芊韶上流则欧阳頠、萧孜，下流则傅泰、",
+      "kind": "event",
+      "sourceParagraphSHA256": "ae96d4b5652b24beb2060eb5ef85b66b423f48a1f85facb34a78bc730c8bb316"
+    },
+    "Image01129.jpg": {
+      "volume": 167,
+      "year": -557,
+      "afterParagraph": 39,
+      "recordExcerpt": "陈王使中书舍人刘师知吊宣猛将军沈恪勒兵入宫，卫送梁主如别宫，〔陈受禅后，国之政事并由中书省，有中书舍人五人，分掌二十一局，各当何书诸曹，并为上司，总国内机要，尚书唯听受而已。刘师知，陈王所亲作者也。宜猛将军，班第九。〕恪排闼见王，叩头谢曰：「恪身经事萧氏，〔侯景园台城，恪为右军将军、东土山主，以拒战",
+      "kind": "event",
+      "sourceParagraphSHA256": "c191a271f31fa85f4c5c04076196e5b866125399ce86a7bb78f7f1e96e8422b3"
+    },
+    "Image01591.jpg": {
+      "volume": 232,
+      "year": -787,
+      "afterParagraph": 10,
+      "recordExcerpt": "分浙江东、西道为三：浙西，治润州：浙东，治越州：宣、歙、池，治宣州；。各置观察使以领之。",
+      "kind": "event",
+      "sourceParagraphSHA256": "f14f4bfdea8c2bfe5390f70ea306e3fec473320adfaf21ff46f7816f390ec6db"
+    },
+    "Image01917.jpg": {
+      "volume": 272,
+      "year": -923,
+      "afterParagraph": 34,
+      "recordExcerpt": "戊戌，康延孝帅百余骑来奔，帝解所御锦袍玉带赐之，以为南面招讨都指挥使，领博州刺史。帝屏人问延孝以梁事，对曰：「梁朝地不为狭，兵不为少；然迹其行事，终必败亡。何则﹖主既暗懦，赵、张兄弟擅权，内结宫掖，外纳货赂，官之高下唯视赂之多少，不择才德，不校勋劳。段凝智勇俱无，一旦居王彦章，霍彦威之右，自将兵以来",
+      "kind": "event",
+      "sourceParagraphSHA256": "435c5e8d2aa7f4b8d1795d4defff3c76e5500e0f5669cba4ce392b1d98dcea79"
+    },
+    "Image01921.jpg": {
+      "volume": 272,
+      "year": -923,
+      "afterParagraph": 54,
+      "recordExcerpt": "己卯旦，李嗣源军至大梁，攻封丘门，王瓒开门出降，嗣源入城，抚安军民。是日，帝入自梁门，百官迎谒于马首，拜伏请罪，帝慰劳之，使各复其位。李嗣源迎贺，帝喜不自胜，手引嗣源衣，以头触之曰：「吾有天下，卿父子之功也，天下与尔共之。」帝命访求梁主，顷之，或以其首献。",
+      "kind": "event",
+      "sourceParagraphSHA256": "3b9b935912041f465582bbe9642beb2dba84191e67830b43ecdbad91c3f40413"
+    },
+    "Image00495.jpg": {
+      "volume": 72,
+      "year": -234,
+      "afterParagraph": 9,
+      "recordExcerpt": "五月，吴主入居巢湖口，向合肥新城，众号十万；又遣陆逊、诸葛瑾将万余人入江夏、沔口，向襄阳；将军孙韶、张承入淮，向广陵、淮阴。六月，汉宠欲率诸军救新城，殄夷将军田豫曰：「贼悉众大举，非图小利，欲质新城以致大军耳。宜听使玫城，挫其锐气，不当与争锋也。城不可拔，众必罢怠；罢怠然后击之，可大克也。若贼见计，",
+      "kind": "event",
+      "sourceParagraphSHA256": "ac6459ea726dce18d9192bdf417e8d22eadc8a88c9db7532b53cc2e16c057808"
+    },
+    "Image01969.jpg": {
+      "volume": 280,
+      "year": -936,
+      "afterParagraph": 51,
+      "recordExcerpt": "晋安寨被围数月，高行周、符彦卿数引骑兵出战，众寡不敌，皆无功。刍粮俱竭，削窃淘粪以饲马，马相啖，尾鬣皆秃，死则将士分食之，援兵竟不至。张敬达性刚，时谓之「张生铁」，杨光远、安审琦劝敬达降于契丹，敬达曰：「吾受明宗及今上厚恩，为元帅而败军，其啡已大，况降敌乎！今援兵旦暮至，且当俟之。必若力尽势穷，则诸",
+      "kind": "event",
+      "sourceParagraphSHA256": "55b3ff90b7f1a45089a4265bb7685f06ca2d276f1cdb8c17e594fe1fa7c2e237"
+    },
+    "Image00076.jpg": {
+      "volume": 7,
+      "year": 209,
+      "afterParagraph": 22,
+      "recordExcerpt": "及陈涉起，沛令欲以沛应之。掾、主吏萧何、曹参曰：“君为秦吏，今欲背之，率沛子弟，恐不听。愿君召诸亡在外者，可得数百人，因劫众，众不敢不听。”乃令樊哙召刘季。刘季之众已数十百人矣；沛令后悔，恐其有变，乃闭城城守，欲诛萧、曹。萧、曹恐，逾城保刘季。刘季乃书帛射城上，遗沛父老，为陈利害。父老乃率子弟共杀沛",
+      "kind": "event",
+      "sourceParagraphSHA256": "8e949d745df683739a7b6f688741aabdb68f3af3d28945ca8a6789063472800c"
+    },
+    "Image01432.jpg": {
+      "volume": 212,
+      "year": -723,
+      "afterParagraph": 2,
+      "recordExcerpt": "壬子，祭后土于汾阴。乙卯，贬平遥令王同庆为赣尉，〔平遥即汉太原郡平陶县，后魏避国讳，改平陶为平遥，周、隋属介州，唐属汾州。赣，音绀。坐广为储偫，烦扰百姓也。偫，直里翻。",
+      "kind": "event",
+      "sourceParagraphSHA256": "8770d77f618bcd72aa4ce80966472884c95870ba2bec4e5d4e231c25e71926d2"
+    },
+    "Image01439.jpg": {
+      "volume": 212,
+      "year": -725,
+      "afterParagraph": 14,
+      "recordExcerpt": "十一月，丙戌，至泰山下，御马登山。留从官于谷口，独与宰相及祠官俱登，仪卫环列于山下百余里。上问礼部侍郎贺知章曰：「前代玉牒之文，何故秘之﹖」对曰：「或密求神，仙故不欲人见。」上曰：「吾为苍生祈福耳。」乃出玉牒，宣示群臣。庚寅，上祀晸天上帝于山上，群臣祀五帝百神于山下之坛；其余仿干封故事。辛卯，祭皇地",
+      "kind": "event",
+      "sourceParagraphSHA256": "83ec2460667e2c7c8a94ff6333f0cf0f545d56776a40c02518a49ee8ca9c8fde"
+    },
+    "Image01622.jpg": {
+      "volume": 236,
+      "year": -805,
+      "afterParagraph": 66,
+      "recordExcerpt": "朝议谓王叔文之党或自员外郎出为刺史，贬之太轻；己卯，再贬韩泰为虔州司马，韩晔为饶州司马，柳宗元为永州司马，刘禹锡为朗州司马；又贬河中少尹陈谏为台州司马，和州刺凌准为连州司马，岳州刺史程异为郴州司马。",
+      "kind": "event",
+      "sourceParagraphSHA256": "c053f6f6473ca112a2ae43014744f39c1c431744fc1d48875629699cfd3e87d1"
+    },
+    "Image00292.jpg": {
+      "volume": 39,
+      "year": -24,
+      "afterParagraph": 28,
+      "recordExcerpt": "秋，萧王击铜马于鄡，吴汉将突骑来会清阳，士马甚盛，汉悉上兵簿于莫府，请所付与，不敢自私，王益重之。王以偏将军沛国朱浮为大将军、幽州牧，使治蓟城。铜马食尽，夜遁，萧王追击于馆陶，大破之。受降未尽，而高湖、重连从东南来，与铜马余众合；萧王复与大战于蒲阳，悉破降之，封其渠帅为列侯。诸将未能信贼，降者亦不自",
+      "kind": "event",
+      "sourceParagraphSHA256": "0e4b003054aa80e5e9097a1d2f5e19c38e2b810a1b44ba9f71d0aec0edd4c38f"
+    },
+    "Image01824.jpg": {
+      "volume": 262,
+      "year": -900,
+      "afterParagraph": 24,
+      "recordExcerpt": "张存敬攻定州，义武节度使王郜遣后院都知兵马使王处直将兵数万拒之。处直请依城为栅，俟其师老而击之。孔目官梁汶曰：「昔幽、镇兵三十万攻我，于时我军不满五千，一战败之。今存敬兵不过三万，我军十倍于昔，柰何示怯，欲依城自固乎！」郜乃遣处直逆战于沙河，易定兵大败，死者过半，余众拥处直奔还。甲申，王郜弃城奔晋阳",
+      "kind": "event",
+      "sourceParagraphSHA256": "9e103b37a7fc2abf53994b127fb52a02db70283887c6eecf73a5831b041a38f4"
+    },
+    "Image01623.jpg": {
+      "volume": 237,
+      "year": -806,
+      "afterParagraph": 13,
+      "recordExcerpt": "高崇文引兵自阆州趣梓州，刘辟将邢引兵遁去，崇文人屯梓州。辟归李康于崇文以求自雪，崇文以康败军失守，斩之。丙子，严砺奏克梓州。丁丑，制削夺刘辟官爵。",
+      "kind": "event",
+      "sourceParagraphSHA256": "57842e452256b54f88a55684bea45135ad039f066af44df61c250be9cf0a2e08"
+    },
+    "Image01624.jpg": {
+      "volume": 237,
+      "year": -806,
+      "afterParagraph": 38,
+      "recordExcerpt": "壬寅，高崇文又败刘辟之众于鹿头关；严秦败刘辟之众于神泉。河东将阿跌光颜将兵会高崇文于行营，愆期一日，惧诛，欲深入自赎，军于鹿头之西，断其粮道，城中忧惧。于是辟绵江栅将李文悦、鹿头守将仇良辅皆以城降于崇文；获辟伲苏强，士卒降者万计。崇文遂长驱直指成都，所向崩溃，军不留行；辛亥，克成都。刘辟、卢文若帅数",
+      "kind": "event",
+      "sourceParagraphSHA256": "ee8b3696b30be04b4b4bb0bbe1ac45c4566705aca018bc199dab8e668cc36eb4"
+    },
+    "Image01147.jpg": {
+      "volume": 169,
+      "year": -566,
+      "afterParagraph": 0,
+      "recordExcerpt": "春，正月，己卯，日有食之。",
+      "kind": "overview",
+      "sourceParagraphSHA256": "d813011a93cb9d9c3360c654a576d1e7a64593b875d17ca5bf46e38abf4b48f1"
+    },
+    "Image00266.jpg": {
+      "volume": 37,
+      "year": -10,
+      "afterParagraph": 5,
+      "recordExcerpt": "国师公刘秀言：「周有泉府之官，收不售与欲得，即易所谓『理财正辞，禁民为非』者也。」莽乃下诏曰：「周礼有赊贷，乐语有五均，传记各有筦焉。今开赊贷、张五均、设诸筦者，所以齐众庶，抑并兼也。」遂于长安及洛阳、邯郸、临菑、宛、成都立五均司市、钱府官。司市常以四时仲月定物上中下之贾，各为其市平。民卖五谷、布帛",
+      "kind": "event",
+      "sourceParagraphSHA256": "4627a4be62d39d473b507b101f80113d046364e736cf1e90b618c070452b1c19"
+    },
+    "Image00427.jpg": {
+      "volume": 63,
+      "year": -200,
+      "afterParagraph": 28,
+      "recordExcerpt": "于是绍军惊扰，大溃。绍及谭等幅巾乘马，与八百骑渡河。操追之不及，尽收其辎重、图书、珍宝。余众降者，操尽抗之，前后所杀七万余人。",
+      "kind": "event",
+      "sourceParagraphSHA256": "60d58ad78e5aad750b08cd774c06f7e9339868e5d6480923eb7483caa789522c"
+    },
+    "Image00228.jpg": {
+      "volume": 30,
+      "year": 29,
+      "afterParagraph": 0,
+      "recordExcerpt": "春，正月，癸卯，陨石于亳四，陨于肥累二。",
+      "kind": "overview",
+      "sourceParagraphSHA256": "43ed6df5da1cdd6169967a2dfb9562b1ba3c4fc3a14ce0a40f03e264190d35bf"
+    },
+    "Image00689.jpg": {
+      "volume": 97,
+      "year": -347,
+      "afterParagraph": 3,
+      "recordExcerpt": "势悉众出战于成都之笮桥，温前锋不利，参军龚护战死，矢及温马首。众惧，欲退，而鼓吏误鸣进鼓；袁乔拔剑督士卒力战，遂大破之。温乘胜长驱至成都，纵火烧其城门。汉人惶惧，无复鬬志。势夜开东门走，至葭萌，使散骑常侍王幼送降文于温，自称「略阳李势叩头死罪，」寻舆榇面缚诣军门。温解缚焚榇，送势及宗室十余人于建康；",
+      "kind": "event",
+      "sourceParagraphSHA256": "da2a0e4fc9de779bebe8a707901753b2dd61203dec218436620c1fb430ac2ac0"
+    },
+    "Image02003.jpg": {
+      "volume": 286,
+      "year": -947,
+      "afterParagraph": 44,
+      "recordExcerpt": "辛未，刘知远即皇帝位。自言未忍改晋，又恶开运之名，乃更称天福十二年。",
+      "kind": "event",
+      "sourceParagraphSHA256": "4a258104d38beb2c60ff36439c907187c5a02399e112f3d74cbe98cc2532db20"
+    },
+    "Image00479.jpg": {
+      "volume": 70,
+      "year": -225,
+      "afterParagraph": 9,
+      "recordExcerpt": "八月，帝以舟师自谯循涡入淮。尚书蒋济表言水道难通，帝不从。冬，十月，如广陵故城，临江观兵，戎卒十余万，旌旗数百里，有渡江之志。吴人严兵固守。时天寒，冰，舟不得入江。帝见波涛汹涌，叹曰：「嗟乎，固天所以限南北也！」遂归。孙韶遣将高寿等率敢死之士五百人，于径路夜要帝，帝大惊。寿等获副车、羽盖以还。于是战",
+      "kind": "event",
+      "sourceParagraphSHA256": "8ee474cf44820eaf7704321e448f48157cfcad4d2047b40ba5b507e6d7a736ce"
+    },
+    "Image01149.jpg": {
+      "volume": 170,
+      "year": -567,
+      "afterParagraph": 31,
+      "recordExcerpt": "皎自巴陵与周、梁水军顺流簌风而下，军势甚盛，战于沌口。量、明彻募军中小舰，多赏金银，令先出当西军大舰受其拍；西军诸舰发拍皆尽，然后量等以大舰拍之，西转，自焚，西军大败。皎与戴僧朔单舸走，过巴陵，不敢发岸，径奔江陵；卫公直亦奔江陵。",
+      "kind": "event",
+      "sourceParagraphSHA256": "f996e8987aa51f3f776a40e1dee970dc39ff90011e3b7cb1fc8385ec7f072adc"
+    },
+    "Image00113.jpg": {
+      "volume": 14,
+      "year": 174,
+      "afterParagraph": 2,
+      "recordExcerpt": "王不说，令大夫但、士伍开章等七十人与棘蒲侯柴武太子奇谋以辇车四十乘反谷口；令人使闽越、匈奴。事觉，有司治之；使使召淮南王。王至长安，丞相张苍、典客冯敬行御史大夫事，与宗正、廷尉奏：“长罪当弃市。”制曰：“其赦长死罪，废，勿王；徙处蜀郡严道邛邮。”尽诛所与谋者。载长以辎车，令县以次传之。",
+      "kind": "event",
+      "sourceParagraphSHA256": "472791f01ad4efc43597d521858170cb1af0733527ebaa62f469aebd38574c45"
+    },
+    "Image01567.jpg": {
+      "volume": 228,
+      "year": -783,
+      "afterParagraph": 0,
+      "recordExcerpt": "春、正月、陇右节度使张镒与吐蕃尚结赞盟于清水。",
+      "kind": "overview",
+      "sourceParagraphSHA256": "71a32a4b30c1ee9b40a4cdc68a13fcd33bbb5ea7353a4cd7793c9f15c148819c"
+    },
+    "Image01033.jpg": {
+      "volume": 154,
+      "year": -530,
+      "afterParagraph": 50,
+      "recordExcerpt": "十二月，壬寅朔，尔朱兆攻丹谷，都督崔伯凤战死，都督史仵龙开壁请降，源子恭退走。兆轻兵倍道兼行，从河桥西涉渡。先是，敬宗以大河深广，谓兆未能猝济，是日，水不没马腹。甲辰，暴风，黄尘涨天，兆骑叩宫门，宿卫乃觉，弯弓欲射，矢不得发，一时散走。华山王鸷，斤之玄孙也，素附尔朱氏。帝始闻兆南下，欲自帅诸军讨之，",
+      "kind": "event",
+      "sourceParagraphSHA256": "df4bcb3e83db3305423887b600e84c00b5efa07580cac3d801b1b8beb1b0aa0f"
+    },
+    "Image00118.jpg": {
+      "volume": 15,
+      "year": 166,
+      "afterParagraph": 0,
+      "recordExcerpt": "冬，匈奴老上单于十四万骑入朝那、萧关，杀北地都尉昂，虏人民畜产甚多；遂至彭阳，使奇兵入烧回中宫，侯骑至雍、甘泉。帝以中尉周舍、郎中令张武为将军，发车千乘、骑卒十万军长安旁，以备胡寇；而拜昌侯卢卿为上郡将军，宁侯魏遫为北地将军，隆虑侯周为陇西将军，屯三郡。上亲劳军，勒兵，申教令，赐吏卒，自欲征匈奴。",
+      "kind": "event",
+      "sourceParagraphSHA256": "26c13b7b5ae0366e41da79e6ee71881ed5f825646f31ccbd035690b243654c57"
+    },
+    "Image00678.jpg": {
+      "volume": 96,
+      "year": -338,
+      "afterParagraph": 2,
+      "recordExcerpt": "赵王虎进屯金台。古雄长驱蓟，段辽所署渔阳上、上谷、代郡守相皆降，取四十余城。北平相阳裕帅其民数千家登燕山以自固。诸将恐其为后患，欲攻之。虎曰：「裕儒生，矜惜名节，耻于迎降耳，无能为也。」遂过之，至徐无。段辽以其弟兰既败，不敢复战，帅妻子、宗族、豪大千余家，弃令支，奔密云山。将行，执慕容翰手泣曰：「不",
+      "kind": "event",
+      "sourceParagraphSHA256": "08ae6d4be1ba4cb4e2b34373354c66d9a5f041c70f0e3dbeba82597541a1e166"
+    },
+    "Image01028.jpg": {
+      "volume": 153,
+      "year": -529,
+      "afterParagraph": 15,
+      "recordExcerpt": "临淮王或，安丰王延明，帅百僚，封府库，备法驾迎颢。丙子，颢入洛阳宫，改元建武，大赦。以陈庆之为侍中、车骑大将军，增邑万户。杨椿在洛阳，椿弟顺为冀州刺史，兄子侃为北中郎将，从魏主在河北。颢意忌椿，而以其世显重，恐失人望，未敢诛也。或劝椿出亡，椿曰：「吾内外旦口，何所逃匿！正当坐待天命耳。」",
+      "kind": "event",
+      "sourceParagraphSHA256": "218fccdd6fcd69ddc1fb85d2c4d6fbc6ae854013818dd96f67f930fc7570b5a2"
+    },
+    "Image00004.jpg": {
+      "volume": 1,
+      "year": 403,
+      "afterParagraph": 0,
+      "recordExcerpt": "初命晋大夫魏斯、赵籍、韩虔为诸侯。",
+      "kind": "event",
+      "sourceParagraphSHA256": "306a2f41f1cffa6346e09df9990d06908d4672b8d7adda81c4e16faa0368fc39"
+    },
+    "Image01648.jpg": {
+      "volume": 241,
+      "year": -819,
+      "afterParagraph": 19,
+      "recordExcerpt": "三月，戊子，以华州刺史马总为郓、曹、濮等州节度使。己丑，以义成节度使薛平为平卢节度、淄．青．齐．登．莱等州观察使。以淄青四面行营供军使王遂为沂、海、兖、密等州观察使。",
+      "kind": "event",
+      "sourceParagraphSHA256": "ef86757c0d9709da9e43e016ebe658b81c626e02d480dfeea388d29edd79db31"
+    },
+    "Image01459.jpg": {
+      "volume": 214,
+      "year": -736,
+      "afterParagraph": 3,
+      "recordExcerpt": "庚午，更皇子名：鸿曰瑛，潭曰琮，浚曰玙，洽曰琰，涓日琬，涺曰琚，潍曰璲，澐曰伷，。泽日璘，清日瑁，洄曰玢，沭曰琦，溢曰环，沔曰理，泚曰玼，漼曰珪，澄曰珙，潓曰瑱，漎曰璇，滔曰璥。",
+      "kind": "event",
+      "sourceParagraphSHA256": "e334c2ca57511eaa1cd4158185d52dfe7124484b18f20f7c0993de08b8b4972f"
+    },
+    "Image01946.jpg": {
+      "volume": 276,
+      "year": -929,
+      "afterParagraph": 37,
+      "recordExcerpt": "安重诲既以李仁矩镇阆州，使与绵州刺史武虔裕皆将兵赴治。虔裕，帝之故吏，重诲之外兄也。重诲使仁矩诇董璋反状，仁矩增饰而奏之。朝廷又使武信节度使夏鲁奇治遂州城隍，缮甲兵，益兵戍之。璋大惧。时道路传言，又将割绵、龙为节镇，孟知祥亦惧。璋素与知祥有隙，未尝通问，至是，璋遣使诣成都，请为其子娶知祥女；知祥许之",
+      "kind": "event",
+      "sourceParagraphSHA256": "5cbf70324158eb69b9fa46b65e13fc4b6b231590e378a2f480d1aa995e3ca470"
+    },
+    "Image02020.jpg": {
+      "volume": 289,
+      "year": -950,
+      "afterParagraph": 54,
+      "recordExcerpt": "丁丑，使者至澶州，李洪义畏懦，虑王殷已知其事，不敢发，乃引孟业见殷；殷囚业，遣副使陈光穗以密诏示郭威。威召枢密吏魏仁浦，示以诏书曰：「柰何﹖」仁浦曰：「公，国之大臣，功名素着，加之握强兵，据重镇，一旦为群小所构，祸出非意，此非辞说之所能解。时事如此，不可佳而待之。」威乃召郭崇威、曹威及诸将，告以杨邠",
+      "kind": "event",
+      "sourceParagraphSHA256": "baf49f4480f8e90fe1511483f8ef4331db99a92eea181420bb035becce8942be"
+    },
+    "Image00160.jpg": {
+      "volume": 20,
+      "year": 112,
+      "afterParagraph": 6,
+      "recordExcerpt": "秋，遣伏波将军路博德出桂阳，下湟水；楼船将军仆出豫章，下浈水；归义越侯严为戈船将军，出零陵，下离水；甲为下濑将军，下苍梧；皆将罪人，江、淮以南楼船十万人。越驰义侯遗别将巴、蜀罪人，发夜郎兵，下牂柯江，咸会番禺。",
+      "kind": "event",
+      "sourceParagraphSHA256": "440961efcb90d85fabc0725430a39255acdca9074355908eb9858f0273f31bcc"
+    },
+    "Image00167.jpg": {
+      "volume": 20,
+      "year": 110,
+      "afterParagraph": 6,
+      "recordExcerpt": "天子既已封泰山，无风雨，而方士更言蓬莱诸神若将可得，于是上欣然庶几遇之，复东至海上望焉。上欲自浮海求蓬莱，群臣谏，莫能止。东方朔曰：“夫仙者，得之自然，不必躁求。若其有道，不忧不得；若其无道，虽至蓬莱见仙人，亦无益也。臣愿陛下第还宫静处以须之，仙人将自至。”上乃止。会奉车霍子侯暴病，一日死。子侯，去",
+      "kind": "event",
+      "sourceParagraphSHA256": "55d2929168562cc096d0768742ad9a89b6567448593662e9490b7ea78cb739de"
+    },
+    "Image00474.jpg": {
+      "volume": 69,
+      "year": -222,
+      "afterParagraph": 24,
+      "recordExcerpt": "九月，命征东大将军曹休、前将军张辽、镇东将军臧霸出洞口，大将军曹仁出濡须，上军大将军曹真、征南大将军夏侯尚、左将军张合、右将军徐晃围南郡。吴建威将军吕范督五军，以舟军拒休等，左将军诸葛瑾、平北将军潘璋、将军杨粲救南郡，裨将军朱桓以濡须督拒曹仁。",
+      "kind": "event",
+      "sourceParagraphSHA256": "fd968197c6d90bdc9c61221d025f92b76108fd816375c228da15490d4bfe40a5"
+    },
+    "Image01641.jpg": {
+      "volume": 239,
+      "year": -816,
+      "afterParagraph": 14,
+      "recordExcerpt": "夏，四月，庚子，李光颜、乌重胤奏败淮西兵于陆云栅，斩首三千级。",
+      "kind": "event",
+      "sourceParagraphSHA256": "3a1338823af2f1df0a32549b7ed5e92e168495c5a9b3df51a19ab60a5f93cb29"
+    },
+    "Image01474.jpg": {
+      "volume": 216,
+      "year": -752,
+      "afterParagraph": 0,
+      "recordExcerpt": "春，正月，丁亥，上还宫。",
+      "kind": "overview",
+      "sourceParagraphSHA256": "3957d645d77b8aac142565357f98540d1c0bad662b06f73852761256e6f44456"
+    },
+    "Image00132.jpg": {
+      "volume": 16,
+      "year": 154,
+      "afterParagraph": 27,
+      "sourceParagraphSHA256": "6d7fcb85810ac76086324c1aa13746374028f57c7f7d1a41f5c158a88d587cdb",
+      "recordExcerpt": "夏，六月，乙亥，诏：“吏民为吴王濞等所诖误当坐及逋逃亡军者，皆赦之。”",
+      "kind": "event"
+    },
+    "Image01043.jpg": {
+      "volume": 156,
+      "year": -533,
+      "afterParagraph": 17,
+      "sourceParagraphSHA256": "24fa7cc8e5fd47ec7b6bd733221daedd4c5707faf3c0a9566c4c389bb8dbfdae",
+      "recordExcerpt": "六月，壬申，魏以骠骑大将军樊子鹄为青、胶大使，督济州刺史蔡儁等讨耿翔。秋，七月，魏师至青州，翔弃城来奔，诏以为兑州刺史。",
+      "kind": "event"
+    },
+    "Image01038.jpg": {
+      "volume": 155,
+      "year": -532,
+      "afterParagraph": 12,
+      "sourceParagraphSHA256": "b871a26911724566f96754caa38fb0c0cb2aaab2d7ecd9857f35b0fefe69904e",
+      "recordExcerpt": "度律、天光将之洛阳，大都督斛斯椿谓都督贾显度、贾显智曰：「今不先执尔朱氏，吾属死无类矣。」乃夜于桑下盟，约倍道先还。世隆使其外兵参军阳叔渊驰赴北中，简阅败卒，以次内之。椿至，不得入城，乃诡说叔渊曰：「天光部下皆是西人，闻欲大掠洛邑，迁都长安，宜先内我以为之备。」叔渊信之。夏，四月，甲子朔，椿等入据河",
+      "kind": "event"
+    }
+  }
+}

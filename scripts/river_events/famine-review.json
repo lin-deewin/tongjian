@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "corpusSHA256": "1c89cac43aa6cfe534eabc5516cee74794fa69f5cf8c9005e63a0a31ea740356",
+  "corpusSHA256": "90c312eacf2690a2b503457aa1d20b1bad4ecdff5ce3438321b9528602caa118",
   "baselineFamineCount": 190,
   "reviewer": "当前主代理模型；未调用子代理",
   "unit": "按年具体社会饥荒；同年同地同一过程合并，跨年按年记录",
@@ -7204,5 +7204,13 @@
     "摘录初筛与全文核读分别记录；screenedOnly不算语义排除。",
     "本轮由一个模型审读，未进行独立第二审或史学人工终审。",
     "时间范围待核条目不绘制正式事件点；完整复查队列保存原段。"
-  ]
+  ],
+  "sourceRebinding": {
+    "referenceCommit": "37d1461b1a782c99b84d46dc0ae98bb6e0bc0d72",
+    "previousCorpusSHA256": "1c89cac43aa6cfe534eabc5516cee74794fa69f5cf8c9005e63a0a31ea740356",
+    "currentCorpusSHA256": "90c312eacf2690a2b503457aa1d20b1bad4ecdff5ce3438321b9528602caa118",
+    "originalSourceSHA256": "1bb76da982b145e6e2e76d4b07a0829621823d403bedee90c8ffaa86ca3106ea",
+    "verifiedVolumes": 294,
+    "method": "Exact equality of original runs, paragraph order, source IDs, year fields and headings; translation-only changes; decisions unchanged"
+  }
 }

@@ -40,3 +40,13 @@
  .page-reader .reader-scroll:not(.mode-immersive) .compare-row.active{box-shadow:0 0 0 8px color-mix(in srgb,var(--green) 4%,transparent)}
 }
 @media(prefers-reduced-motion:reduce){.page-reader .compare-row,.page-reader .row-index{transition:none!important}}
+
+/* Event navigation highlights all four sides without changing the row geometry. */
+.page-reader .compare-row.event-target-flash{position:relative}
+.page-reader .compare-row.event-target-flash::after{content:'';position:absolute;inset:0;z-index:2;box-sizing:border-box;border:2px solid #e58a32;border-radius:3px;pointer-events:none;opacity:0;animation:reader-target-border-pulse .8s ease-in-out 1}
+@keyframes reader-target-border-pulse{0%,100%{opacity:0}20%,60%{opacity:1}}
+@keyframes reader-target-border-still{0%,100%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.page-reader .compare-row.event-target-flash::after{animation:reader-target-border-still .8s linear 1}}
+
+/* Permit an anchored final paragraph to sit below the sticky reading header. */
+#readerContent::after{content:'';display:block;height:var(--reader-anchor-tail,0px);pointer-events:none}

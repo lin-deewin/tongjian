@@ -91,8 +91,8 @@ handle {{
                 for relative in manifest['pages']:
                     response = static.goto(base + relative.removesuffix('index.html'), wait_until='domcontentloaded')
                     assert response.status == 200
-                    assert static.locator('h1').is_visible()
-                    assert static.locator('main').inner_text().strip()
+                    assert static.locator('h1:visible').is_visible()
+                    assert static.locator('main:visible').inner_text().strip()
                     if re.fullmatch(r'volume/\d+/index.html', relative):
                         assert static.locator('.source-original').first.is_visible()
                         if static.locator('.modern-text').count():

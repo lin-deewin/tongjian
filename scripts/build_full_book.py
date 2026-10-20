@@ -1,6 +1,7 @@
 """Build all remaining Tongjian volumes from the supplied EPUBs. No generated translations."""
 import argparse, pathlib, zipfile, re, json, collections, difflib, time
 from lxml import html as H
+from clean_translation_markup import clean_translation_text
 A=argparse.ArgumentParser();A.add_argument('--original',type=pathlib.Path,required=True);A.add_argument('--translation',type=pathlib.Path,required=True);A.add_argument('--output',type=pathlib.Path,default=pathlib.Path('dist'));A.add_argument('--extract-only',action='store_true');args=A.parse_args();out=args.output;out.mkdir(parents=True,exist_ok=True)
 NUM=dict(zip('〇○零一二三四五六七八九',[0,0,0,1,2,3,4,5,6,7,8,9]))
 def digit(t):
@@ -129,7 +130,7 @@ trans=collections.defaultdict(list);headers=collections.defaultdict(list);transl
 for name in sorted((n for n in zt.namelist() if re.search(r'chapter\d+\.htm$',n)),key=lambda s:int(re.search(r'chapter(\d+)',s)[1])):
  root=H.fromstring(zt.read(name).decode());filetitle=root.xpath('//h3')[0].text_content();baseVolumeMatch=re.search(r'第+([一二三四五六七八九十百零]+)卷',filetitle);filevolume=cn(baseVolumeMatch[1]) if baseVolumeMatch else None
  for p in root.xpath('//p'):
-  full=p.text_content().strip()
+  full=clean_translation_text(p.text_content().strip(),name)
   if full.startswith(('该书籍由','--epub','---')):continue
   if re.fullmatch(r'(?:资[治冶]通鉴|通鉴)[\s第卷]*[一二三四五六七八九十百零]+卷?',full):continue
   # Asterisks are layout delimiters in the uploaded file.
