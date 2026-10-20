@@ -16,6 +16,8 @@
   measure.font=style.font;
   const available=volume.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight);
   field.classList.toggle('is-wrapped',measure.measureText(selected.textContent).width>available);
+  const overlay=field.querySelector('.annual-selected-volume');
+  volume.style.minHeight=field.classList.contains('is-wrapped')?([...overlay.children].reduce((height,el)=>height+el.offsetHeight,0)+16)+'px':'';
  };
  new ResizeObserver(window.refreshYearbookVolumeLabel).observe(field);
  window.refreshYearbookVolumeLabel();

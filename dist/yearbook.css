@@ -9,30 +9,30 @@
 #annualPage .annual-volume-label>span{font-size:11px;color:var(--muted)}
 #annualPage .annual-volume-navigation{display:flex;align-items:center;gap:14px}
 #annualPage .annual-volume-field{width:500px;max-width:100%;min-width:0;position:relative}
-#annualPage #volumeSelect{height:48px;width:100%;padding:0 32px 0 14px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);font:20px 'Songti SC','SimSun','Noto Serif CJK SC',serif;cursor:pointer}
+#annualPage #volumeSelect{height:64px;width:100%;padding:0 32px 0 14px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink);font:20px 'Songti SC','SimSun','Noto Serif CJK SC',serif;cursor:pointer}
 #annualPage .annual-selected-volume{display:none;pointer-events:none;position:absolute;inset:0 32px 0 14px;flex-direction:column;justify-content:center;color:var(--ink)}
-#annualPage .annual-selected-volume span{font:18px/1.4 'Songti SC','SimSun','Noto Serif CJK SC',serif;white-space:nowrap}
+#annualPage .annual-selected-volume span{font:18px/1.4 'Songti SC','SimSun','Noto Serif CJK SC',serif;white-space:normal;word-break:normal}
 #annualPage .annual-selected-volume small{font-size:11px;line-height:1.5;color:var(--muted)}
 #annualPage .annual-volume-field.is-wrapped #volumeSelect{color:transparent;appearance:none}
 #annualPage .annual-volume-field.is-wrapped:after{content:'';position:absolute;right:12px;top:calc(50% - 2px);border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid var(--ink);pointer-events:none}
 #annualPage .annual-volume-field.is-wrapped .annual-selected-volume{display:flex}
 #annualPage #volumeSelect option,#annualPage #volumeSelect optgroup{font:14px sans-serif;color:var(--ink)}
 #annualPage .annual-adjacent-volumes{display:flex;gap:6px;align-items:center;white-space:nowrap}
-#annualPage .annual-adjacent-volumes button{height:40px;padding:0 12px;display:flex;gap:5px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:4px;font-size:12px;color:var(--green)}
+#annualPage .annual-adjacent-volumes button{height:44px;padding:0 12px;display:flex;gap:5px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:4px;font-size:12px;color:var(--green)}
 #annualPage .annual-adjacent-volumes button:hover:not(:disabled){background:var(--active-bg);border-color:var(--green)}
 #annualPage .annual-adjacent-volumes button:disabled{color:var(--muted);opacity:.5;cursor:default}
 #annualPage .annual-mobile-word{display:none}
-#annualPage .annual-volume-intro{font-size:11px;color:var(--muted);white-space:nowrap;padding:6px 0}
+#annualPage .annual-volume-intro{font-size:11px;color:var(--muted);white-space:nowrap;padding:10px 0}
 #annualPage .annual-toolbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;display:flex;align-items:center;gap:10px}
 #annualPage .annual-toolbar svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 #annualPage .annual-toolbar .annual-chevron{width:12px;height:12px;transition:transform .15s}
-#annualPage .annual-search{height:39px;display:flex;align-items:center;gap:9px;padding:0 11px;background:var(--paper);border:1px solid var(--line);border-radius:4px;width:360px;flex-shrink:0;color:var(--muted)}
+#annualPage .annual-search{height:44px;display:flex;align-items:center;gap:9px;padding:0 11px;background:var(--paper);border:1px solid var(--line);border-radius:4px;width:360px;flex-shrink:0;color:var(--muted)}
 #annualPage .annual-search:focus-within{border-color:var(--green)}
 #annualPage #searchScope{width:54px;flex-shrink:0;padding:0;border:0;border-right:1px solid var(--line);background:var(--paper);font-size:11px;color:var(--green);height:22px}
 #annualPage #search{width:100%;min-width:0;padding:0;border:0;background:none;font-size:12px}
 #annualPage #search:focus-visible{outline:none}
 #annualPage .annual-jump{position:relative;flex-shrink:0}
-#annualPage .annual-jump>summary,#annualPage .annual-filter-trigger{display:flex;align-items:center;justify-content:center;gap:8px;height:39px;padding:0 13px;border:1px solid var(--line);border-radius:4px;font-size:12px;cursor:pointer;list-style:none;white-space:nowrap}
+#annualPage .annual-jump>summary,#annualPage .annual-filter-trigger{display:flex;align-items:center;justify-content:center;gap:8px;height:44px;padding:0 13px;border:1px solid var(--line);border-radius:4px;font-size:12px;cursor:pointer;list-style:none;white-space:nowrap}
 #annualPage .annual-jump>summary::-webkit-details-marker{display:none}
 #annualPage .annual-jump[open]>summary,#annualPage .annual-filter-trigger[aria-expanded=true]{background:var(--active-bg);border-color:var(--green);color:var(--green)}
 #annualPage .annual-jump[open] .annual-chevron{transform:rotate(180deg)}
@@ -73,17 +73,17 @@
 #annualPage .event-button .event-tag{font-size:10px;border:0;background:none;padding:0;color:var(--muted)}
 #annualPage .card-note{font-size:10px;margin-top:11px}
 .annual-primary{padding:7px 13px;border:1px solid var(--green);border-radius:3px;font-size:12px;white-space:nowrap;background:var(--green);color:var(--paper)}
-#annualPage .annual-inline-filter{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 0;height:39px}
+#annualPage .annual-inline-filter{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 0;height:44px}
 #annualPage .annual-filter-trigger{flex-shrink:0}
 #annualPage .annual-filter-expansion{display:grid;grid-template-columns:0fr;opacity:0;min-width:0;flex:1;transition:grid-template-columns .2s ease,opacity .2s ease}
 #annualPage .annual-filter-expansion[hidden]{display:none}
 #annualPage .annual-filter-expansion.is-open{grid-template-columns:1fr;opacity:1}
 #annualPage .annual-filter-options{display:flex;align-items:center;gap:7px;min-width:0;overflow-x:auto;overflow-y:hidden;white-space:nowrap;scrollbar-width:none}
 #annualPage .annual-filter-options::-webkit-scrollbar{display:none}
-#annualPage .annual-filter-options button{flex-shrink:0;min-height:34px;padding:5px 9px;border:1px solid transparent;border-radius:3px;color:var(--muted);font-size:12px}
+#annualPage .annual-filter-options button{flex-shrink:0;min-height:44px;padding:5px 9px;border:1px solid transparent;border-radius:3px;color:var(--muted);font-size:12px}
 #annualPage .annual-filter-options button.active{background:var(--active-bg);border-color:var(--active-line);color:var(--green)}
 #annualPage .annual-filter-options button:hover{color:var(--green)}
-#annualPage .annual-filter-options label{display:flex;align-items:center;gap:5px;flex-shrink:0;font-size:11px;color:var(--muted);min-height:34px;margin-left:7px}
+#annualPage .annual-filter-options label{display:flex;align-items:center;gap:5px;flex-shrink:0;font-size:11px;color:var(--muted);min-height:44px;margin-left:7px}
 #annualPage .annual-filter-options input{accent-color:var(--green)}
 #annualPage .annual-filter-options .annual-filter-reset{font-size:11px;color:var(--green)}
 @media(min-width:1400px){#annualPage{padding-top:28px}#annualPage .annual-volume-heading{padding-bottom:23px}}
@@ -97,48 +97,81 @@
  body>header .header-right{display:none;position:absolute;top:calc(100% + 7px);right:20px;left:20px;max-width:none;align-items:center;justify-content:flex-start;gap:15px 18px;flex-wrap:wrap;white-space:normal;padding:18px;border:1px solid var(--line);border-radius:4px;background:var(--paper);box-shadow:0 8px 28px var(--reader-shadow)}
  body>header .header-right.annual-menu-open{display:flex}
  #annualPage{padding:20px 20px 30px}
- #annualPage .annual-volume-heading{position:relative;display:block;padding-bottom:18px}
- #annualPage .annual-volume-label{min-height:34px;margin-bottom:7px;gap:12px}
+ #annualPage .annual-volume-heading{display:block;padding-bottom:18px}
+ #annualPage .annual-volume-primary{width:100%}
+ #annualPage .annual-volume-label{min-height:44px;margin-bottom:7px;gap:12px}
  #annualPage .annual-volume-label>span{font-size:10px}
- #annualPage .annual-volume-navigation{display:block}
- #annualPage .annual-volume-field{width:100%}
- #annualPage #volumeSelect{display:block;width:100%;height:45px;font-size:15px;padding:0 27px 0 10px}
+ #annualPage .annual-volume-navigation{display:flex;flex-wrap:wrap;gap:10px}
+ #annualPage .annual-volume-field{width:100%;flex:1 1 100%}
+ #annualPage #volumeSelect{display:block;width:100%;height:68px;font-size:16px;padding:0 27px 0 10px}
  #annualPage .annual-selected-volume{left:10px;right:27px}
- #annualPage .annual-selected-volume span{font-size:15px}
- #annualPage .annual-selected-volume small{font-size:10px}
- #annualPage .annual-adjacent-volumes{position:absolute;top:0;right:0;gap:5px}
- #annualPage .annual-adjacent-volumes button{height:32px;padding:0 7px;gap:3px;font-size:11px}
+ #annualPage .annual-selected-volume span{font-size:16px}
+ #annualPage .annual-selected-volume small{font-size:12px}
+ #annualPage .annual-adjacent-volumes{position:static;gap:8px;flex-wrap:wrap}
+ #annualPage .annual-adjacent-volumes button{height:44px;padding:0 12px;gap:3px;font-size:11px}
  #annualPage .annual-desktop-word{display:none}#annualPage .annual-mobile-word{display:inline}
- #annualPage .annual-volume-intro{position:absolute;top:0;right:120px;height:34px;padding:0;font-size:10px}
- #annualPage .annual-toolbar{display:grid;grid-template-columns:minmax(0,1fr) 112px;gap:8px}
- #annualPage .annual-search{grid-column:1;grid-row:1;min-width:0}
- #annualPage .annual-jump{grid-column:2;grid-row:1}
+ #annualPage .annual-volume-intro{position:static;display:inline-flex;align-items:center;min-height:44px;padding:0;font-size:12px}
+ #annualPage .annual-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px}
+ #annualPage .annual-search{grid-column:1/-1;grid-row:1;min-width:0}
+ #annualPage .annual-jump{grid-column:1;grid-row:2;justify-self:start}
  #annualPage .annual-jump>summary{width:100%;padding:0 8px}
- #annualPage .annual-inline-filter{grid-column:1;grid-row:2;min-width:0;height:34px}
+ #annualPage .annual-inline-filter{grid-column:1/-1;grid-row:3;min-width:0;height:auto;flex-wrap:wrap}
  #annualPage #mobilePeriod{grid-column:2;grid-row:2}
- #annualPage .annual-search{width:100%;flex-basis:100%;height:39px}
- #annualPage .annual-jump>summary,#annualPage .annual-filter-trigger{height:34px;font-size:11px;padding:0 10px}
+ #annualPage .annual-search{width:100%;flex-basis:100%;height:44px}
+ #annualPage .annual-jump>summary,#annualPage .annual-filter-trigger{height:44px;font-size:11px;padding:0 10px}
  #annualPage .annual-toolbar svg{width:14px;height:14px}
  #annualPage #periods{display:none}
- #annualPage #mobilePeriod{display:block;margin-left:auto;width:112px;height:34px;padding:0 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);font-size:11px}
+ #annualPage #mobilePeriod{display:block;margin-left:auto;width:112px;height:44px;padding:0 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);font-size:11px}
  #annualPage .annual-jump-popover{left:auto;right:0;width:min(320px,calc(100vw - 40px))}
  #annualPage .layout{margin-top:18px}
  #annualPage .year-summary{font-size:10px}
  #annualPage .group-heading h2{font-size:14px}
- #annualPage .year-card{grid-template-columns:76px minmax(0,1fr);margin-bottom:12px}
- #annualPage .year-date{padding:17px 10px}
- #annualPage .year-date b{font-size:28px;margin:2px 0 6px}
- #annualPage .year-date small,#annualPage .year-date .reign{font-size:9px}
- #annualPage .year-events{padding:12px 12px 11px}
- #annualPage .category{font-size:9px;letter-spacing:.5px}
- #annualPage .event-button{grid-template-columns:16px minmax(0,1fr);gap:6px;min-height:38px;padding:7px 0}
- #annualPage .event-button .event-title{font-size:12px}
+ #annualPage .year-card{grid-template-columns:minmax(0,1fr);margin-bottom:16px}
+ #annualPage .year-date{padding:14px 16px;flex-direction:row;align-items:baseline;gap:8px;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--line)}
+ #annualPage .year-date b{font-size:28px;margin:0;white-space:nowrap}
+ #annualPage .year-date small,#annualPage .year-date .reign{font-size:12px}
+ #annualPage .year-date .reign{flex:1 1 100%;text-align:left;white-space:normal;word-break:normal}
+ #annualPage .year-events{padding:14px 16px}
+ #annualPage .category{font-size:12px;letter-spacing:.5px}
+ #annualPage .event-button{grid-template-columns:16px minmax(0,1fr);gap:6px;min-height:48px;padding:9px 0}
+ #annualPage .event-button .event-title{font-size:16px;word-break:normal;overflow-wrap:normal}
  #annualPage .event-button .event-number{font-size:10px}
  #annualPage .event-button .event-tags{display:none}
- #annualPage .card-note{font-size:9px;line-height:1.7}
+ #annualPage .card-note{font-size:12px;line-height:1.7}
  #annualPage .annual-filter-options{gap:5px}
  #annualPage .annual-filter-options button{font-size:11px;padding:5px 8px}
 
 }
-@media(max-width:360px){#annualPage .annual-volume-label{gap:6px}#annualPage .annual-volume-label>span{font-size:9px}#annualPage #volumeSelect,#annualPage .annual-selected-volume span{font-size:13.5px}#annualPage .annual-jump>summary>svg:first-child,#annualPage .annual-filter-trigger>svg:first-child{display:none}#annualPage #mobilePeriod{width:100px}#annualPage .annual-toolbar{grid-template-columns:minmax(0,1fr) 100px}}
 @media(prefers-reduced-motion:reduce){#annualPage .annual-filter-expansion,#annualPage .annual-chevron{transition:none}}
+
+/* Horizontal labels retain their width; surrounding groups must reflow. */
+#annualPage button:not(.event-button):not(.year-date),.annual-site-toggle{white-space:nowrap;writing-mode:horizontal-tb}
+#annualPage .event-title{word-break:normal;overflow-wrap:normal}
+#annualPage .year-date b{white-space:nowrap}
+#annualPage .annual-volume-label{flex-wrap:wrap}
+#annualPage .annual-jump-popover{max-height:70vh;max-height:70dvh;overflow-y:auto}
+@media(max-width:959px){
+ #annualPage .annual-volume-heading{flex-wrap:wrap;gap:12px}
+ #annualPage .annual-volume-primary{min-width:0;max-width:100%}
+ #annualPage .annual-volume-navigation{flex-wrap:wrap}
+ #annualPage .annual-toolbar{flex-wrap:wrap}
+ #annualPage #search,#annualPage #searchScope,#annualPage #mobilePeriod,#annualPage .annual-jump-row input,#annualPage .annual-jump-row select{font-size:16px}
+ #annualPage #searchScope{width:66px;height:32px}
+ #annualPage .annual-filter-expansion{flex-basis:100%}
+ #annualPage .annual-filter-options{flex-wrap:wrap;white-space:normal;overflow:visible}
+ #annualPage .annual-inline-filter{height:auto;flex-wrap:wrap}
+ #annualPage .event-button .event-title{font-size:16px}
+ #annualPage .event-button{min-height:48px}
+}
+@media(pointer:coarse){#annualPage .annual-filter-options button,#annualPage .annual-jump-row button,.annual-site-toggle{min-height:44px}}
+
+@media(max-width:600px){
+ #annualPage .annual-volume-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px}
+ #annualPage .annual-volume-primary{display:contents}
+ #annualPage .annual-volume-label{grid-column:1/-1;margin-bottom:0}
+ #annualPage .annual-volume-navigation{display:contents}
+ #annualPage .annual-volume-field{grid-column:1/-1}
+ #annualPage .annual-adjacent-volumes{grid-column:1;grid-row:3}
+ #annualPage .annual-volume-intro{grid-column:2;grid-row:3;align-self:center}
+ #annualPage .annual-jump-popover{left:0;right:auto}
+}

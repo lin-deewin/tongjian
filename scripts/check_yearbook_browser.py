@@ -31,10 +31,14 @@ with sync_playwright() as p:
   for selector,rect in before.items():
    after=page.locator(selector).first.bounding_box()
    assert (rect is None)==(after is None),(width,selector,rect,after)
-   if rect is not None:assert all(abs(rect[k]-after[k])<.1 for k in ['x','y','width','height']),(width,selector,rect,after)
+   if rect is not None and width>=960:assert all(abs(rect[k]-after[k])<.1 for k in ['x','y','width','height']),(width,selector,rect,after)
   trigger=page.locator('#annualFilterTrigger').bounding_box();options=page.locator('.annual-filter-options').bounding_box()
-  assert abs(trigger['y']+trigger['height']/2-options['y']-options['height']/2)<5,(width,trigger,options)
-  assert options['x']>=trigger['x']+trigger['width']
+  if width>=960:
+   assert abs(trigger['y']+trigger['height']/2-options['y']-options['height']/2)<5,(width,trigger,options)
+   assert options['x']>=trigger['x']+trigger['width']
+  else:
+   assert options['y']>=trigger['y']+trigger['height'],(width,'filters should reflow below their trigger')
+   assert options['x']>=0 and options['x']+options['width']<=width
   assert page.evaluate('getComputedStyle(document.documentElement).overflow')!='hidden'
   assert page.evaluate('scrollY')==scroll
   assert page.locator('#annualFilterTrigger').get_attribute('aria-expanded')=='true'

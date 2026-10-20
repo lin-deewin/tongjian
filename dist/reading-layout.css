@@ -16,7 +16,7 @@
 .page-reader .reader-scroll:not(.mode-immersive) .compare-row.active{background:color-mix(in srgb,var(--green) 4%,transparent);box-shadow:none}
 .page-reader .reader-scroll:not(.mode-immersive) .compare-row.active .translation-cell{background:transparent}
 .page-reader .reader-scroll:not(.mode-immersive) .compare-row:focus-visible{outline:1px solid color-mix(in srgb,var(--green) 35%,transparent);outline-offset:6px}
-@media(min-width:801px){
+@media(min-width:960px){
  .page-reader .reader-scroll:not(.mode-original):not(.mode-modern):not(.mode-immersive) .comparison{background:linear-gradient(to right,transparent calc(50% + 32px),color-mix(in srgb,var(--green) 1.5%,transparent) calc(50% + 32px))}
 }
 .page-reader .reader-scroll.mode-original .reader-inner,
@@ -27,7 +27,7 @@
 .page-reader .reader-scroll.mode-modern .row-index{display:none}
 .page-reader .reader-scroll.mode-original .compare-row,
 .page-reader .reader-scroll.mode-modern .compare-row{margin-bottom:26px}
-@media(max-width:800px){
+@media(max-width:959px){
  .page-reader .reader-scroll:not(.mode-immersive){padding:28px 22px 40px}
  .page-reader .reader-scroll:not(.mode-immersive) .column-labels{display:none}
  .page-reader .reader-scroll:not(.mode-immersive) .compare-row{gap:20px;margin-bottom:42px}
@@ -50,3 +50,44 @@
 
 /* Permit an anchored final paragraph to sit below the sticky reading header. */
 #readerContent::after{content:'';display:block;height:var(--reader-anchor-tail,0px);pointer-events:none}
+
+/* Responsive comparisons preserve full horizontal lines at large text sizes. */
+.page-reader .reader-inner,.page-reader .comparison{min-width:0}
+.page-reader .reader-title h2,.page-reader .original p,.page-reader .modern-text,.page-reader .year-note{word-break:normal;overflow-wrap:normal;writing-mode:horizontal-tb}
+.page-reader .reader-scroll.stacked-compare .compare-row{grid-template-columns:minmax(0,1fr)!important;gap:20px}
+.page-reader .reader-scroll.stacked-compare .column-labels{display:none}
+.page-reader .reader-scroll.stacked-compare .mobile-label{display:block}
+.page-reader .reader-scroll.stacked-compare .comparison{background:transparent!important}
+.page-reader .reader-scroll.stacked-compare.mode-original .translation-cell,
+.page-reader .reader-scroll.stacked-compare.mode-modern .original-cell{display:none}
+.page-reader .reader-scroll.stacked-compare.mode-original .mobile-label,
+.page-reader .reader-scroll.stacked-compare.mode-modern .mobile-label{display:none}
+.page-reader .reader-scroll.mode-immersive .reader-inner{max-width:760px;margin-inline:auto}
+.page-reader .progress{top:var(--reader-head-height,60px)}
+.page-reader .marker{min-width:32px;min-height:32px;font-size:12px;vertical-align:baseline;white-space:nowrap}
+.people-page h1,.people-page h2,.people-page p,.wiki-article,.person-timeline p{word-break:normal;overflow-wrap:normal}
+.people-page .people-head,.people-page .person-panel-tabs,.people-page .timeline-heading{flex-wrap:wrap;gap:12px}
+.people-page .person-link,.timeline-layout-controls button{white-space:nowrap;min-height:44px}
+.wiki-facts-grid{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
+.biography-source a,.biography-credits a{overflow-wrap:anywhere}
+@media(max-width:959px){
+ .page-reader .reader-scroll,.page-reader .reader-scroll:not(.mode-immersive){padding:24px max(16px,env(safe-area-inset-left)) 32px}
+ .page-reader .compare-row{grid-template-columns:minmax(0,1fr)}
+ .page-reader .mobile-label{display:block}
+ .page-reader .reader-scroll .column-labels{display:none}
+ .page-reader .reader-scroll .comparison{background:transparent!important}
+ .page-reader .reader-scroll:not(.mode-immersive) .original-cell,.page-reader .reader-scroll:not(.mode-immersive) .translation-cell{padding:0}
+ .page-reader .reader-scroll:not(.mode-immersive) .mobile-label{font-size:12px}
+ .people-page .person-filters{flex-wrap:wrap}
+ .people-page .person-filters label{max-width:100%;flex-wrap:wrap}
+ .people-page .person-filters select{max-width:100%;font-size:16px;min-height:44px}
+ .person-overview.person-overview-biography{grid-template-columns:minmax(0,1fr)}
+ .person-overview-biography .person-portrait{grid-column:1;grid-row:auto;justify-self:center}
+ .person-overview-biography .person-context{grid-column:1;grid-row:auto}
+ .person-timeline li{flex-shrink:0}
+}
+/* Event anchors must clear the actual, possibly wrapped sticky header. */
+.page-reader #readerScroll .compare-row,.page-reader #readerScroll .original-cell .original p{scroll-margin-top:calc(var(--reader-head-height,60px) + 16px)}
+
+.page-reader .modern-text{font-size:calc(var(--reading-size,19px) - 1px)}
+.page-reader .reader-scroll.mode-immersive .mobile-label{display:none}

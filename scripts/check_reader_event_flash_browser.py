@@ -76,7 +76,9 @@ with sync_playwright() as p:
   assert page.locator('#readerContent').evaluate("e=>e.style.getPropertyValue('--reader-anchor-tail')")=='0px'
  page.goto(base+'reader.html#volume-1-year-403-para-30')
  page.wait_for_function("document.querySelector('#para-30')?.getBoundingClientRect().top<150")
- assert abs(page.locator('#para-30').bounding_box()['y']-85)<1
+ margin=page.locator('#para-30').evaluate('e=>parseFloat(getComputedStyle(e).scrollMarginTop)')
+ assert abs(page.locator('#para-30').bounding_box()['y']-margin)<1
+ assert page.locator('#para-30').bounding_box()['y']>=page.locator('.reader-head').bounding_box()['height']
  # Deep links and reduced-motion preferences share the same cleanup lifecycle.
  page.emulate_media(reduced_motion='reduce')
  page.goto(base+'year/bce-368/#volume-2-year-368-para-0')

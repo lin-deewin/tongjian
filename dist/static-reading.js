@@ -21,14 +21,31 @@
   const mode = document.querySelector('#staticMode');
   const notes = document.querySelector('#staticNotes');
   let size = 19;
+  function remember(){
+    const blocks=[...document.querySelectorAll('.source-original,.modern-text')].filter(p=>p.getClientRects().length);
+    const block=blocks.find(p=>p.getBoundingClientRect().bottom>24);
+    if(!block)return null;
+    const box=block.getBoundingClientRect();return {block,ratio:Math.max(0,(24-box.top)/box.height),top:Math.max(24,box.top)};
+  }
+  function restore(saved){requestAnimationFrame(()=>{
+    if(!saved)return;
+    let block=saved.block;
+    if(!block.getClientRects().length)block=[...(block.closest('.comparison-row')?.querySelectorAll('.source-original,.modern-text')||[])].find(p=>p.getClientRects().length);
+    if(block){const box=block.getBoundingClientRect();window.scrollBy({top:box.top+box.height*saved.ratio-saved.top,behavior:'instant'});}
+  });}
+  let position=null;
+  window.addEventListener('scroll',()=>{position=remember();},{passive:true});
+  window.addEventListener('resize',()=>restore(position));
   mode.addEventListener('change', () => {
+    const saved=remember();restore(saved);
     document.body.classList.toggle('mode-original', mode.value === 'original');
     document.body.classList.toggle('mode-modern', mode.value === 'modern');
     notes.disabled = mode.value === 'modern';
   });
-  notes.addEventListener('change', () => document.body.classList.toggle('hide-notes', !notes.checked));
+  notes.addEventListener('change', () => {const saved=remember();document.body.classList.toggle('hide-notes', !notes.checked);restore(saved);});
   for (const [id, delta] of [['staticSmaller', -1], ['staticLarger', 1]]) {
     document.getElementById(id).addEventListener('click', () => {
+      const saved=remember();restore(saved);
       size = Math.max(15, Math.min(28, size + delta));
       document.documentElement.style.setProperty('--reading-size', size + 'px');
     });

@@ -218,7 +218,7 @@ def shell(page, title, description, content, controls=False):
         graph[0]['about'] = {'@type': 'Person', 'name': title.removesuffix('在资治通鉴中的记载：生平线索与原文出处')}
     schema = json.dumps({'@context': 'https://schema.org', '@graph': graph}, ensure_ascii=False).replace('<', '\\u003c')
     return f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{esc(title)}</title><meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="article"><meta property="og:site_name" content="资治通鉴">

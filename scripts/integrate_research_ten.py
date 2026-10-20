@@ -17,7 +17,7 @@ SITE_CSS = """
 .site-header{padding:0}.site-header .header-inner{max-width:1080px;margin:auto;padding:18px 28px;display:flex;justify-content:space-between;align-items:center;gap:20px}
 .site-header .brand{display:flex;align-items:center;gap:12px;font:23px 'Songti SC','SimSun',serif;letter-spacing:3px;color:#27372f;white-space:nowrap;font-weight:400}
 .site-header .seal{display:grid;place-items:center;width:34px;height:38px;background:#9d513d;color:#fffef9;font-size:23px;letter-spacing:0}
-.site-header nav{display:flex;gap:20px;font-size:13px;flex-wrap:wrap}.site-header nav a{font-weight:400}
+.site-header nav{display:flex;gap:20px;font-size:13px;flex-wrap:wrap}.site-header nav a{font-weight:400;white-space:nowrap;min-height:44px;display:inline-flex;align-items:center}.site-header .header-inner{flex-wrap:wrap}
 :target{scroll-margin-top:20px}.sources li:target{background:#edf2e9;outline:2px solid #91a59b;outline-offset:5px}
 @media(max-width:600px){.site-header .header-inner{padding:15px 18px;flex-direction:column;align-items:flex-start;gap:10px}.site-header nav{gap:16px}}
 """

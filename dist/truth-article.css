@@ -11,9 +11,9 @@
 .diagram-edge-label{fill:var(--green);font:14px 'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif}
 .diagram-arrow,.arrow-head{stroke:var(--green);stroke-width:1.4;fill:none}
 .article-diagram figcaption{color:var(--muted);font-size:13px;line-height:1.7;margin-top:8px}
-.article-table-wrap{margin:18px 0 24px}
-.article-table{width:100%;border-collapse:collapse;table-layout:fixed;background:var(--paper);font-size:14px;line-height:1.75}
-.article-table th,.article-table td{border:1px solid var(--line);padding:12px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.article-table-wrap{margin:18px 0 24px;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+.article-table{width:100%;min-width:600px;border-collapse:collapse;table-layout:fixed;background:var(--paper);font-size:14px;line-height:1.75}
+.article-table th,.article-table td{border:1px solid var(--line);padding:12px;text-align:left;vertical-align:top;overflow-wrap:normal;word-break:normal}
 .article-table th{font-weight:500;color:var(--green);background:var(--bg)}
 #limits h3{margin:26px 0 12px;font-size:22px}
 @media(max-width:600px){
