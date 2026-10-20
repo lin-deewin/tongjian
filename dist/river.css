@@ -46,9 +46,78 @@
 .river-audit{max-width:900px;margin:10px auto 18px;color:var(--muted);font-size:12px}.river-audit summary{cursor:pointer}.river-audit p{margin:8px 0}.river-audit a{color:var(--green);text-decoration:underline}.river-empty{font-size:13px!important}
 
 /* Labels follow the full-book time scale; crowded short eras occupy separate rows. */
-.river-era-band{display:block;position:relative;margin:12px 0 0;min-height:42px}
-.river-era-label{position:absolute;margin:0;padding:2px 6px}
+.river-era-band{display:block;position:relative;margin:0;min-height:42px}
+.river-era-label{position:absolute;margin:0;padding:3px 6px;font:500 11px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;color:#526052}
 .river-era-label::after{content:"";position:absolute;top:100%;left:var(--leader-x);height:var(--leader-height);width:1px;background:#78918455;pointer-events:none}
 .river-era-label.is-current::after{background:#285342}
 .river-overview{margin-top:0}
 .river-overview span.is-current{height:18px;border-radius:4px;box-shadow:0 3px 12px #28534240;filter:saturate(1.25);position:relative;z-index:1}
+
+/* Compact the closely spaced Five Dynasties labels. */
+.river-era-label[data-era="后梁"],.river-era-label[data-era="后唐"],.river-era-label[data-era="后晋"],.river-era-label[data-era="后汉"],.river-era-label[data-era="后周"]{padding-top:1px;padding-bottom:1px}
+
+/* Lift the overview slightly into the unused space below the year ticks. */
+.river-era-band{margin-top:-18px}
+
+/* Frosted glass keeps the annual event list legible over the river. */
+.river-event-panel{
+ background:linear-gradient(135deg,rgba(255,255,255,.78) 0%,rgba(255,254,249,.28) 48%,rgba(219,233,224,.48) 100%);
+ border:1px solid rgba(255,255,255,.95);
+ box-shadow:0 12px 32px rgba(40,83,66,.18),0 2px 6px rgba(40,83,66,.08),inset 0 2px 0 rgba(255,255,255,.95),inset 1px 0 0 rgba(255,255,255,.7),inset 0 -1px 0 rgba(40,83,66,.12);
+ -webkit-backdrop-filter:blur(24px) saturate(145%);
+ backdrop-filter:blur(24px) saturate(145%);
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+ .river-event-panel{background:rgba(250,249,243,.94)}
+}
+
+/* A compact, consistent navigation toolbar. */
+.river-tools{gap:8px 10px}
+.river-tools button,.river-tools select{
+ min-height:36px;margin:0;border:1px solid rgba(40,83,66,.16);border-radius:8px;
+ background:rgba(255,254,249,.78);color:#285342;
+ font:500 12px/1.4 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+ box-shadow:0 1px 2px rgba(40,83,66,.04),inset 0 1px 0 rgba(255,255,255,.8);
+ transition:background .15s,border-color .15s,box-shadow .15s;
+}
+.river-tools select{
+ appearance:none;-webkit-appearance:none;padding:8px 30px 8px 12px;cursor:pointer;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='m3 4.5 3 3 3-3' fill='none' stroke='%23597060' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+ background-repeat:no-repeat;background-position:right 10px center;
+}
+.river-tools button{padding:8px 12px;white-space:nowrap}
+.river-tools button:not(:disabled):hover,.river-tools select:hover{background-color:#fffef9;border-color:#8ca596;box-shadow:0 2px 6px #28534210}
+.river-tools button:focus-visible,.river-tools select:focus-visible{outline:2px solid #285342;outline-offset:3px}
+.river-tools button:disabled{opacity:.38;box-shadow:none}
+@media(max-width:700px){
+ .river-tools{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+ .river-tools select{min-width:0;width:100%;font-size:12px}
+ .river-tools .river-topic{grid-column:1/-1;grid-row:1}
+ .river-tools .river-era{grid-column:1;grid-row:2}
+ .river-tools .river-zoom{grid-column:2;grid-row:2}
+ .river-tools .river-prev{grid-column:1;grid-row:3}
+ .river-tools .river-next{grid-column:2;grid-row:3}
+}
+
+/* Style the opened picker where customizable selects are supported. */
+.river-tools select option{background:#fffef9;color:#285342;font-weight:400}
+@supports (appearance:base-select){
+ .river-tools select,.river-tools select::picker(select){appearance:base-select}
+ .river-tools select{display:flex;align-items:center;justify-content:space-between;gap:12px;background-image:none;padding:8px 12px}
+ .river-tools select::picker-icon{color:#597060;font-size:10px;transition:rotate .15s}
+ .river-tools select:open::picker-icon{rotate:180deg}
+ .river-tools select:open{border-color:#789184;background-color:#fffef9}
+ .river-tools select::picker(select){
+  margin:6px 0;padding:5px;border:1px solid #d6dfd5;border-radius:10px;
+  background:#fffef9;color:#285342;box-shadow:0 10px 28px #213f3024;
+  max-height:min(340px,55dvh);overflow:auto;scrollbar-width:thin;scrollbar-color:#9bad9c transparent;
+ }
+ .river-tools select option{
+  display:flex;align-items:center;gap:10px;min-height:34px;padding:8px 12px;
+  border-radius:6px;font:400 12px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  cursor:pointer;
+ }
+ .river-tools select option:checked{background:#e5ede4;color:#214a36;font-weight:600}
+ .river-tools select option:hover,.river-tools select option:focus{background:#edf2e9;outline:none}
+ .river-tools select option::checkmark{display:none}
+}

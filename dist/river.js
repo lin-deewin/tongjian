@@ -91,7 +91,7 @@
  $('.river-overview').innerHTML = eraRanges.map(({era,count},index)=>`<span data-era="${esc(era)}" style="width:${count/years.length*100}%;background:${colors[index]}" title="${esc(era)}纪"></span>`).join('')+'<div class="river-position" tabindex="0" role="slider" aria-label="拖动浏览全书年份" aria-valuemin="0"></div>';
  // Short periods share crowded space: stack labels, keeping their leaders at exact time positions.
  function layoutEraLabels() {
-  const band=$('.river-era-band'), width=band.clientWidth, lanes=[];
+  const band=$('.river-era-band'), width=band.clientWidth, lanes=[], laneStep=24;
   band.querySelectorAll('.river-era-label').forEach((item,index)=>{
    const labelWidth=item.offsetWidth, midpoint=eraRanges[index].mid*width;
    const left=Math.max(0,Math.min(width-labelWidth,midpoint-labelWidth/2));
@@ -99,11 +99,11 @@
    while(lanes[lane]!==undefined && left<lanes[lane]+6)lane++;
    lanes[lane]=left+labelWidth;
    item.style.left=left+'px';
-   item.style.bottom=(lane*30+12)+'px';
+   item.style.bottom=(lane*laneStep+12)+'px';
    item.style.setProperty('--leader-x',(midpoint-left)+'px');
-   item.style.setProperty('--leader-height',(lane*30+12)+'px');
+   item.style.setProperty('--leader-height',(lane*laneStep+12)+'px');
   });
-  band.style.height=(lanes.length*30+12)+'px';
+  band.style.height=(lanes.length*laneStep+12)+'px';
  }
  new ResizeObserver(layoutEraLabels).observe($('.river-era-band'));
  const overview=$('.river-overview'), position=$('.river-position');
@@ -118,7 +118,11 @@
  } catch {}
  $('.river-zoom').value=span;
  $('.river-topic').value=topic;
- function bounds() {return center-span/2;}
+ function bounds() {
+  // Keep the first and last year cells flush with the overview edges.
+  center=Math.max(span/2,Math.min(years.length-span/2,center));
+  return center-span/2;
+ }
  function detail() {
   const year=years[selected], events=entriesFor(year);
   $('.river-chart-year').textContent=label(year.year);
@@ -173,7 +177,7 @@
   const saved=JSON.stringify({selected,center,span,topic,selectedEvent});
   if (saved!==lastSaved) {try {sessionStorage.setItem('tongjian-river',saved);lastSaved=saved;} catch {}}
   if (!width) return;
-  const start=bounds(), x=index=>(index-start)/span*width, top=92, bottom=height-62;
+  const start=bounds(), edgeInset=4.2, x=index=>edgeInset+(index-start)/span*(width-2*edgeInset), top=92, bottom=height-62;
   ctx.clearRect(0,0,width,height);points=[];
   for (let i=Math.max(0,Math.floor(start));i<=Math.min(years.length-1,Math.ceil(start+span));i++) {
    const year=years[i], events=entriesFor(year), px=x(i), next=x(i+1);
@@ -194,8 +198,9 @@
    for (const event of events) {
     const seed=seedFor(event);
     const py=top+18+(seed%997/997)*(bottom-top-36);
-    const pointX=px+(seed%101/100-.5)*Math.min(width/span*.65,12);
     const radius=2.8+seed%5/3;
+    const jitter=(seed%101/100-.5)*Math.min(width/span*.65,12);
+    const pointX=px>=0 && px<=width ? Math.max(radius,Math.min(width-radius,px+jitter)) : px+jitter;
     points.push({x:pointX,y:py,radius,event,index:i});
    }
   }
@@ -230,11 +235,11 @@
    }
   }
   const step=span<=80?10:span<=220?50:100;
-  ctx.font='12px SimSun,serif';ctx.fillStyle='#697366';ctx.strokeStyle='#b4b5a8';
+  ctx.font='600 11px "PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif';ctx.fillStyle='#285342';ctx.strokeStyle='#b4b5a8';
   for (let i=Math.max(0,Math.ceil(start));i<start+span && i<years.length;i++) {
    const year=years[i];if(Math.abs(year.year)%step!==0 && year.year!==-1)continue;
-   const px=x(i);ctx.beginPath();ctx.moveTo(px,height-40);ctx.lineTo(px,height-33);ctx.stroke();
-   ctx.fillText((year.year>0?'前':'')+Math.abs(year.year),px-12,height-14);
+   const px=x(i);ctx.beginPath();ctx.moveTo(px,height-50);ctx.lineTo(px,height-43);ctx.stroke();
+   ctx.fillText((year.year>0?'前':'')+Math.abs(year.year),px-12,height-24);
   }
   position.style.left=Math.max(0,start)/years.length*100+'%';position.style.width=(Math.min(years.length,start+span)-Math.max(0,start))/years.length*100+'%';
   position.setAttribute('aria-valuenow',String(selected));
@@ -288,14 +293,14 @@
   if (!drag) {const point=pointAt(event);showTooltip(point,!!point&&tooltipPinned&&tooltipEvent===point.event.id);return;}
   const delta=event.clientX-drag.x;
   if (Math.abs(delta)>7) moved=true;
-  if (moved) {canvas.style.cursor='grabbing';center=Math.max(0,Math.min(years.length-1,drag.center-delta/width*span));choose(center,false);}
+  if (moved) {canvas.style.cursor='grabbing';center=Math.max(0,Math.min(years.length-1,drag.center-delta/(width-8.4)*span));choose(center,false);}
  });
  canvas.addEventListener('pointerup',event=>{
   if (!drag)return;
   if(!moved && Math.abs(event.clientY-drag.y)<=7) {
    const point=drag.point;
    if(point){choose(point.index,false,point.event.id);showTooltip(point,true);}
-   else choose(bounds()+(event.clientX-canvas.getBoundingClientRect().left)/width*span,false);
+   else choose(bounds()+(event.clientX-canvas.getBoundingClientRect().left-4.2)/(width-8.4)*span,false);
   }
   drag=null;canvas.style.cursor='pointer';
  });

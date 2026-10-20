@@ -1,0 +1,64 @@
+/* Shared native select styling; control-specific widths and layouts stay local. */
+:root{--select-paper:var(--paper,#fffef9);--select-ink:var(--green,#285342);--select-line:var(--line,#d6dfd5);--select-active:#e5ede4;--select-hover:#edf2e9}
+:root[data-theme="night"]{--select-active:#33483d;--select-hover:#2b3931}
+:root select{
+ border:1px solid var(--select-line);border-radius:8px;
+ background-color:var(--select-paper);color:var(--select-ink);
+ font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+ font-size:12px;line-height:1.5;cursor:pointer;
+}
+:root select:focus-visible{outline:2px solid var(--select-ink);outline-offset:3px}
+:root select:disabled{cursor:default;opacity:.45}
+:root select option{background:var(--select-paper);color:var(--select-ink)}
+@supports (appearance:base-select){
+ :root select,:root select::picker(select){appearance:base-select!important}
+ :root select{background-image:none!important}
+ :root select::picker-icon{color:var(--select-ink);font-size:10px;margin-left:10px;transition:rotate .15s}
+ :root select:open::picker-icon{rotate:180deg}
+ :root select::picker(select){
+  margin:6px 0;padding:5px;border:1px solid var(--select-line);border-radius:10px;
+  background:var(--select-paper);color:var(--select-ink);box-shadow:0 10px 28px #213f3024;
+  max-height:min(340px,55dvh);max-width:calc(100vw - 16px);overflow:auto;
+  scrollbar-width:thin;scrollbar-color:#9bad9c transparent;
+ }
+ :root select option{
+  display:flex;align-items:center;min-height:34px;padding:8px 12px;border-radius:6px;
+  font:400 12px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;cursor:pointer;
+ }
+ :root select option:checked{background:var(--select-active);color:var(--select-ink);font-weight:600}
+ :root select option:hover,:root select option:focus{background:var(--select-hover);outline:none}
+ :root select option::checkmark{display:none}
+}
+:root select{border-radius:8px!important}
+/* The volume selector already supplies its own arrow beside wrapped titles. */
+@supports (appearance:base-select){
+ .annual-volume-field.is-wrapped select::picker-icon{visibility:hidden}
+}
+/* The shared menu also works in browsers without customizable native selects. */
+:root select{border-color:var(--select-line)!important;background-color:var(--select-paper)!important;box-shadow:0 1px 2px #2853420a,inset 0 1px 0 #ffffff80}
+.site-select-menu{
+ position:fixed;z-index:10000;box-sizing:border-box;max-width:calc(100vw - 16px);overflow:auto;
+ padding:5px;border:1px solid var(--select-line);border-radius:10px;background:var(--select-paper);color:var(--select-ink);
+ box-shadow:0 10px 28px #213f3024;scrollbar-width:thin;scrollbar-color:#9bad9c transparent;
+}
+.site-select-menu button{
+ display:block;box-sizing:border-box;width:100%;min-height:34px;padding:8px 12px;border:0;border-radius:6px;
+ background:transparent;color:var(--select-ink);text-align:left;white-space:normal;
+ font:400 12px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;cursor:pointer;
+}
+.site-select-menu button[aria-selected="true"]{background:var(--select-active);font-weight:600}
+.site-select-menu button:hover,.site-select-menu button:focus-visible{background:var(--select-hover);outline:none}
+.site-select-menu button:disabled{opacity:.45;cursor:default}
+/* Custom menus own the popup; keep the closed control consistently aligned. */
+:root select{appearance:none!important;-webkit-appearance:none!important;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='m3 4.5 3 3 3-3' fill='none' stroke='%23597060' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E")!important;background-repeat:no-repeat!important;background-position:right 12px center!important;padding-right:32px!important}
+#annualPage .annual-volume-field{width:400px}
+#annualPage #volumeSelect{width:100%;height:56px;min-height:56px;color:transparent!important;padding:10px 36px 10px 14px;font-size:16px}
+#annualPage .annual-selected-volume{display:flex;inset:0 38px 0 14px;gap:2px}
+#annualPage .annual-selected-volume span{font:500 16px/1.4 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+#annualPage .annual-selected-volume small{font-size:11px;line-height:1.4;color:var(--muted)}
+#annualPage .annual-volume-field.is-wrapped:after{display:none}
+.site-select-group{position:sticky;top:-5px;margin:0 0 3px;padding:7px 12px;background:var(--select-paper);color:var(--muted,#697366);font:500 11px/1.4 sans-serif;border-bottom:1px solid var(--select-line);z-index:1}
+.site-volume-menu button{padding:9px 12px}
+.site-volume-menu button span{display:block;font-size:13px;line-height:1.5}
+.site-volume-menu button small{display:block;margin-top:2px;color:var(--muted,#697366);font-size:11px;font-weight:400}
+@media(max-width:700px){#annualPage .annual-volume-field{width:100%}#annualPage .annual-selected-volume{left:12px}#annualPage .annual-selected-volume span{font-size:15px}}
