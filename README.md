@@ -169,3 +169,12 @@ node scripts/check_reader.cjs
 新增1362个年份正文页与 `year/` 目录，例如 `year/bce-403/`、`year/ce-1/`；初始HTML完整保留跨卷续篇、原文及所据白话。年度页复用 `reader.html` 的界面与阅读工具，保留年度网址和段落定位；禁用JavaScript时可读完整静态正文。只更新年度界面可运行 `python scripts/year_reader.py`，完整生成仍用 `python scripts/build_seo.py`。自身canonical、普通链接与站点地图保留。维护与验收见 [逐年页面说明](docs/seo-year-pages.md)。
 
 全书已有1148张译本配图已按相关记事插入年度正文；1131张随正文段落显示，17张无对应年度原文的图保留为背景参考。位置维护与重建方法见 [逐年页面说明](docs/seo-year-pages.md#既有配图的正文位置)。
+
+
+### 繁体竖版阅读
+
+阅读工具 → 阅读模式 → 繁体竖版，在现有阅读器内显示上传 `zztjs.epub` 的繁体正文与胡注，文字自上而下、列自右向左。复用目录、年份导航、字号、主题及胡注开关；支持触摸横滑、滚轮、左右键与屏幕翻页，按卷和年份保存竖排位置。
+
+繁体源文按整卷连续展示，当前年份及事件使用原文文本匹配定位。两版文字有差异，未匹配时会提示，完整卷文仍保留。映射只用于导航，不转换或覆盖上传繁体原文。
+
+重建数据：先安装 `requirements.txt`，执行 `python scripts/build_vertical_book.py /path/to/zztjs.epub`，再执行 `python scripts/index_vertical_book.py`。前者逐篇核对提取前后的文本字符；后者只添加段落导航映射。三篇序保留在目录数据中。独立的 `vertical.html` 仍可使用，主阅读器不跳转到该页。

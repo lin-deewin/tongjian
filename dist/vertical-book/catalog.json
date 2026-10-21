@@ -1,0 +1,1487 @@
+[
+  {
+    "title": "胡三省新註資治通鑑序",
+    "file": "chapter-000.json",
+    "source": "OEBPS/Text/part0001.html"
+  },
+  {
+    "title": "王磐興文署新刊資治通鑑序",
+    "file": "chapter-001.json",
+    "source": "OEBPS/Text/part0002.html"
+  },
+  {
+    "title": "宋神宗資治通鑑序禦製",
+    "file": "chapter-002.json",
+    "source": "OEBPS/Text/part0003.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一",
+    "file": "chapter-003.json",
+    "source": "OEBPS/Text/part0004.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二",
+    "file": "chapter-004.json",
+    "source": "OEBPS/Text/part0005.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三",
+    "file": "chapter-005.json",
+    "source": "OEBPS/Text/part0006.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四",
+    "file": "chapter-006.json",
+    "source": "OEBPS/Text/part0007.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五",
+    "file": "chapter-007.json",
+    "source": "OEBPS/Text/part0008.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六",
+    "file": "chapter-008.json",
+    "source": "OEBPS/Text/part0009.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七",
+    "file": "chapter-009.json",
+    "source": "OEBPS/Text/part0010.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八",
+    "file": "chapter-010.json",
+    "source": "OEBPS/Text/part0011.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九",
+    "file": "chapter-011.json",
+    "source": "OEBPS/Text/part0012.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一十",
+    "file": "chapter-012.json",
+    "source": "OEBPS/Text/part0013.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十一",
+    "file": "chapter-013.json",
+    "source": "OEBPS/Text/part0014.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十二",
+    "file": "chapter-014.json",
+    "source": "OEBPS/Text/part0015.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十三",
+    "file": "chapter-015.json",
+    "source": "OEBPS/Text/part0016.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十四",
+    "file": "chapter-016.json",
+    "source": "OEBPS/Text/part0017.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十五",
+    "file": "chapter-017.json",
+    "source": "OEBPS/Text/part0018.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十六",
+    "file": "chapter-018.json",
+    "source": "OEBPS/Text/part0019.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十七",
+    "file": "chapter-019.json",
+    "source": "OEBPS/Text/part0020.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十八",
+    "file": "chapter-020.json",
+    "source": "OEBPS/Text/part0021.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第十九",
+    "file": "chapter-021.json",
+    "source": "OEBPS/Text/part0022.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十",
+    "file": "chapter-022.json",
+    "source": "OEBPS/Text/part0023.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十一",
+    "file": "chapter-023.json",
+    "source": "OEBPS/Text/part0024.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十二",
+    "file": "chapter-024.json",
+    "source": "OEBPS/Text/part0025.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十三",
+    "file": "chapter-025.json",
+    "source": "OEBPS/Text/part0026.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十四",
+    "file": "chapter-026.json",
+    "source": "OEBPS/Text/part0027.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十五",
+    "file": "chapter-027.json",
+    "source": "OEBPS/Text/part0028.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十六",
+    "file": "chapter-028.json",
+    "source": "OEBPS/Text/part0029.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十七",
+    "file": "chapter-029.json",
+    "source": "OEBPS/Text/part0030.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十八",
+    "file": "chapter-030.json",
+    "source": "OEBPS/Text/part0031.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二十九",
+    "file": "chapter-031.json",
+    "source": "OEBPS/Text/part0032.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十",
+    "file": "chapter-032.json",
+    "source": "OEBPS/Text/part0033.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十一",
+    "file": "chapter-033.json",
+    "source": "OEBPS/Text/part0034.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十二",
+    "file": "chapter-034.json",
+    "source": "OEBPS/Text/part0035.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十三",
+    "file": "chapter-035.json",
+    "source": "OEBPS/Text/part0036.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十四",
+    "file": "chapter-036.json",
+    "source": "OEBPS/Text/part0037.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十五",
+    "file": "chapter-037.json",
+    "source": "OEBPS/Text/part0038.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十六",
+    "file": "chapter-038.json",
+    "source": "OEBPS/Text/part0039.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十七",
+    "file": "chapter-039.json",
+    "source": "OEBPS/Text/part0040.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十八",
+    "file": "chapter-040.json",
+    "source": "OEBPS/Text/part0041.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第三十九",
+    "file": "chapter-041.json",
+    "source": "OEBPS/Text/part0042.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十",
+    "file": "chapter-042.json",
+    "source": "OEBPS/Text/part0043.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十一",
+    "file": "chapter-043.json",
+    "source": "OEBPS/Text/part0044.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十二",
+    "file": "chapter-044.json",
+    "source": "OEBPS/Text/part0045.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十三",
+    "file": "chapter-045.json",
+    "source": "OEBPS/Text/part0046.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十四",
+    "file": "chapter-046.json",
+    "source": "OEBPS/Text/part0047.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十五",
+    "file": "chapter-047.json",
+    "source": "OEBPS/Text/part0048.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十六",
+    "file": "chapter-048.json",
+    "source": "OEBPS/Text/part0049.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十七",
+    "file": "chapter-049.json",
+    "source": "OEBPS/Text/part0050.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十八",
+    "file": "chapter-050.json",
+    "source": "OEBPS/Text/part0051.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第四十九",
+    "file": "chapter-051.json",
+    "source": "OEBPS/Text/part0052.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十",
+    "file": "chapter-052.json",
+    "source": "OEBPS/Text/part0053.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十一",
+    "file": "chapter-053.json",
+    "source": "OEBPS/Text/part0054.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十二",
+    "file": "chapter-054.json",
+    "source": "OEBPS/Text/part0055.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十三",
+    "file": "chapter-055.json",
+    "source": "OEBPS/Text/part0056.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十四",
+    "file": "chapter-056.json",
+    "source": "OEBPS/Text/part0057.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十五",
+    "file": "chapter-057.json",
+    "source": "OEBPS/Text/part0058.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十六",
+    "file": "chapter-058.json",
+    "source": "OEBPS/Text/part0059.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十七",
+    "file": "chapter-059.json",
+    "source": "OEBPS/Text/part0060.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十八",
+    "file": "chapter-060.json",
+    "source": "OEBPS/Text/part0061.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第五十九",
+    "file": "chapter-061.json",
+    "source": "OEBPS/Text/part0062.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十",
+    "file": "chapter-062.json",
+    "source": "OEBPS/Text/part0063.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十一",
+    "file": "chapter-063.json",
+    "source": "OEBPS/Text/part0064.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十二",
+    "file": "chapter-064.json",
+    "source": "OEBPS/Text/part0065.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十三",
+    "file": "chapter-065.json",
+    "source": "OEBPS/Text/part0066.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十四",
+    "file": "chapter-066.json",
+    "source": "OEBPS/Text/part0067.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十五",
+    "file": "chapter-067.json",
+    "source": "OEBPS/Text/part0068.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十六",
+    "file": "chapter-068.json",
+    "source": "OEBPS/Text/part0069.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十七",
+    "file": "chapter-069.json",
+    "source": "OEBPS/Text/part0070.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十八",
+    "file": "chapter-070.json",
+    "source": "OEBPS/Text/part0071.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第六十九",
+    "file": "chapter-071.json",
+    "source": "OEBPS/Text/part0072.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十",
+    "file": "chapter-072.json",
+    "source": "OEBPS/Text/part0073.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十一",
+    "file": "chapter-073.json",
+    "source": "OEBPS/Text/part0074.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十二",
+    "file": "chapter-074.json",
+    "source": "OEBPS/Text/part0075.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十三",
+    "file": "chapter-075.json",
+    "source": "OEBPS/Text/part0076.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十四",
+    "file": "chapter-076.json",
+    "source": "OEBPS/Text/part0077.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十五",
+    "file": "chapter-077.json",
+    "source": "OEBPS/Text/part0078.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十六",
+    "file": "chapter-078.json",
+    "source": "OEBPS/Text/part0079.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十七",
+    "file": "chapter-079.json",
+    "source": "OEBPS/Text/part0080.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十八",
+    "file": "chapter-080.json",
+    "source": "OEBPS/Text/part0081.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第七十九",
+    "file": "chapter-081.json",
+    "source": "OEBPS/Text/part0082.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十",
+    "file": "chapter-082.json",
+    "source": "OEBPS/Text/part0083.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十一",
+    "file": "chapter-083.json",
+    "source": "OEBPS/Text/part0084.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十二",
+    "file": "chapter-084.json",
+    "source": "OEBPS/Text/part0085.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十三",
+    "file": "chapter-085.json",
+    "source": "OEBPS/Text/part0086.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十四",
+    "file": "chapter-086.json",
+    "source": "OEBPS/Text/part0087.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十五",
+    "file": "chapter-087.json",
+    "source": "OEBPS/Text/part0088.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十六",
+    "file": "chapter-088.json",
+    "source": "OEBPS/Text/part0089.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十七",
+    "file": "chapter-089.json",
+    "source": "OEBPS/Text/part0090.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十八",
+    "file": "chapter-090.json",
+    "source": "OEBPS/Text/part0091.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第八十九",
+    "file": "chapter-091.json",
+    "source": "OEBPS/Text/part0092.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十",
+    "file": "chapter-092.json",
+    "source": "OEBPS/Text/part0093.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十一",
+    "file": "chapter-093.json",
+    "source": "OEBPS/Text/part0094.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十二",
+    "file": "chapter-094.json",
+    "source": "OEBPS/Text/part0095.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十三",
+    "file": "chapter-095.json",
+    "source": "OEBPS/Text/part0096.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十四",
+    "file": "chapter-096.json",
+    "source": "OEBPS/Text/part0097.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十五",
+    "file": "chapter-097.json",
+    "source": "OEBPS/Text/part0098.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十六",
+    "file": "chapter-098.json",
+    "source": "OEBPS/Text/part0099.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十七",
+    "file": "chapter-099.json",
+    "source": "OEBPS/Text/part0100.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十八",
+    "file": "chapter-100.json",
+    "source": "OEBPS/Text/part0101.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第九十九",
+    "file": "chapter-101.json",
+    "source": "OEBPS/Text/part0102.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百",
+    "file": "chapter-102.json",
+    "source": "OEBPS/Text/part0103.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一",
+    "file": "chapter-103.json",
+    "source": "OEBPS/Text/part0104.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二",
+    "file": "chapter-104.json",
+    "source": "OEBPS/Text/part0105.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三",
+    "file": "chapter-105.json",
+    "source": "OEBPS/Text/part0106.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四",
+    "file": "chapter-106.json",
+    "source": "OEBPS/Text/part0107.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五",
+    "file": "chapter-107.json",
+    "source": "OEBPS/Text/part0108.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六",
+    "file": "chapter-108.json",
+    "source": "OEBPS/Text/part0109.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七",
+    "file": "chapter-109.json",
+    "source": "OEBPS/Text/part0110.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八",
+    "file": "chapter-110.json",
+    "source": "OEBPS/Text/part0111.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九",
+    "file": "chapter-111.json",
+    "source": "OEBPS/Text/part0112.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十",
+    "file": "chapter-112.json",
+    "source": "OEBPS/Text/part0113.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十一",
+    "file": "chapter-113.json",
+    "source": "OEBPS/Text/part0114.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十二",
+    "file": "chapter-114.json",
+    "source": "OEBPS/Text/part0115.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十三",
+    "file": "chapter-115.json",
+    "source": "OEBPS/Text/part0116.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十四",
+    "file": "chapter-116.json",
+    "source": "OEBPS/Text/part0117.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十五",
+    "file": "chapter-117.json",
+    "source": "OEBPS/Text/part0118.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十六",
+    "file": "chapter-118.json",
+    "source": "OEBPS/Text/part0119.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十七",
+    "file": "chapter-119.json",
+    "source": "OEBPS/Text/part0120.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十八",
+    "file": "chapter-120.json",
+    "source": "OEBPS/Text/part0121.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百一十九",
+    "file": "chapter-121.json",
+    "source": "OEBPS/Text/part0122.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十",
+    "file": "chapter-122.json",
+    "source": "OEBPS/Text/part0123.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十一",
+    "file": "chapter-123.json",
+    "source": "OEBPS/Text/part0124.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十二",
+    "file": "chapter-124.json",
+    "source": "OEBPS/Text/part0125.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十三",
+    "file": "chapter-125.json",
+    "source": "OEBPS/Text/part0126.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十四",
+    "file": "chapter-126.json",
+    "source": "OEBPS/Text/part0127.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十五",
+    "file": "chapter-127.json",
+    "source": "OEBPS/Text/part0128.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十六",
+    "file": "chapter-128.json",
+    "source": "OEBPS/Text/part0129.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十七",
+    "file": "chapter-129.json",
+    "source": "OEBPS/Text/part0130.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十八",
+    "file": "chapter-130.json",
+    "source": "OEBPS/Text/part0131.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百二十九",
+    "file": "chapter-131.json",
+    "source": "OEBPS/Text/part0132.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十",
+    "file": "chapter-132.json",
+    "source": "OEBPS/Text/part0133.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十一",
+    "file": "chapter-133.json",
+    "source": "OEBPS/Text/part0134.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十二",
+    "file": "chapter-134.json",
+    "source": "OEBPS/Text/part0135.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十三",
+    "file": "chapter-135.json",
+    "source": "OEBPS/Text/part0136.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十四",
+    "file": "chapter-136.json",
+    "source": "OEBPS/Text/part0137.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十五",
+    "file": "chapter-137.json",
+    "source": "OEBPS/Text/part0138.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十六",
+    "file": "chapter-138.json",
+    "source": "OEBPS/Text/part0139.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十七",
+    "file": "chapter-139.json",
+    "source": "OEBPS/Text/part0140.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十八",
+    "file": "chapter-140.json",
+    "source": "OEBPS/Text/part0141.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百三十九",
+    "file": "chapter-141.json",
+    "source": "OEBPS/Text/part0142.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十",
+    "file": "chapter-142.json",
+    "source": "OEBPS/Text/part0143.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十一",
+    "file": "chapter-143.json",
+    "source": "OEBPS/Text/part0144.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十二",
+    "file": "chapter-144.json",
+    "source": "OEBPS/Text/part0145.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十三",
+    "file": "chapter-145.json",
+    "source": "OEBPS/Text/part0146.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十四",
+    "file": "chapter-146.json",
+    "source": "OEBPS/Text/part0147.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十五",
+    "file": "chapter-147.json",
+    "source": "OEBPS/Text/part0148.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十六",
+    "file": "chapter-148.json",
+    "source": "OEBPS/Text/part0149.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十七",
+    "file": "chapter-149.json",
+    "source": "OEBPS/Text/part0150.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十八",
+    "file": "chapter-150.json",
+    "source": "OEBPS/Text/part0151.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百四十九",
+    "file": "chapter-151.json",
+    "source": "OEBPS/Text/part0152.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十",
+    "file": "chapter-152.json",
+    "source": "OEBPS/Text/part0153.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十一",
+    "file": "chapter-153.json",
+    "source": "OEBPS/Text/part0154.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十二",
+    "file": "chapter-154.json",
+    "source": "OEBPS/Text/part0155.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十三",
+    "file": "chapter-155.json",
+    "source": "OEBPS/Text/part0156.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十四",
+    "file": "chapter-156.json",
+    "source": "OEBPS/Text/part0157.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十五",
+    "file": "chapter-157.json",
+    "source": "OEBPS/Text/part0158.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十六",
+    "file": "chapter-158.json",
+    "source": "OEBPS/Text/part0159.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十七",
+    "file": "chapter-159.json",
+    "source": "OEBPS/Text/part0160.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十八",
+    "file": "chapter-160.json",
+    "source": "OEBPS/Text/part0161.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百五十九",
+    "file": "chapter-161.json",
+    "source": "OEBPS/Text/part0162.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十",
+    "file": "chapter-162.json",
+    "source": "OEBPS/Text/part0163.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十一",
+    "file": "chapter-163.json",
+    "source": "OEBPS/Text/part0164.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十二",
+    "file": "chapter-164.json",
+    "source": "OEBPS/Text/part0165.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十三",
+    "file": "chapter-165.json",
+    "source": "OEBPS/Text/part0166.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十四",
+    "file": "chapter-166.json",
+    "source": "OEBPS/Text/part0167.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十五",
+    "file": "chapter-167.json",
+    "source": "OEBPS/Text/part0168.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十六",
+    "file": "chapter-168.json",
+    "source": "OEBPS/Text/part0169.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十七",
+    "file": "chapter-169.json",
+    "source": "OEBPS/Text/part0170.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十八",
+    "file": "chapter-170.json",
+    "source": "OEBPS/Text/part0171.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百六十九",
+    "file": "chapter-171.json",
+    "source": "OEBPS/Text/part0172.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十",
+    "file": "chapter-172.json",
+    "source": "OEBPS/Text/part0173.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十一",
+    "file": "chapter-173.json",
+    "source": "OEBPS/Text/part0174.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十二",
+    "file": "chapter-174.json",
+    "source": "OEBPS/Text/part0175.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十三",
+    "file": "chapter-175.json",
+    "source": "OEBPS/Text/part0176.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十四",
+    "file": "chapter-176.json",
+    "source": "OEBPS/Text/part0177.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十五",
+    "file": "chapter-177.json",
+    "source": "OEBPS/Text/part0178.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十六",
+    "file": "chapter-178.json",
+    "source": "OEBPS/Text/part0179.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十七",
+    "file": "chapter-179.json",
+    "source": "OEBPS/Text/part0180.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十八",
+    "file": "chapter-180.json",
+    "source": "OEBPS/Text/part0181.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百七十九",
+    "file": "chapter-181.json",
+    "source": "OEBPS/Text/part0182.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十",
+    "file": "chapter-182.json",
+    "source": "OEBPS/Text/part0183.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十一",
+    "file": "chapter-183.json",
+    "source": "OEBPS/Text/part0184.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十二",
+    "file": "chapter-184.json",
+    "source": "OEBPS/Text/part0185.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十三",
+    "file": "chapter-185.json",
+    "source": "OEBPS/Text/part0186.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十四",
+    "file": "chapter-186.json",
+    "source": "OEBPS/Text/part0187.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十五",
+    "file": "chapter-187.json",
+    "source": "OEBPS/Text/part0188.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十六",
+    "file": "chapter-188.json",
+    "source": "OEBPS/Text/part0189.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十七",
+    "file": "chapter-189.json",
+    "source": "OEBPS/Text/part0190.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十八",
+    "file": "chapter-190.json",
+    "source": "OEBPS/Text/part0191.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百八十九",
+    "file": "chapter-191.json",
+    "source": "OEBPS/Text/part0192.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十",
+    "file": "chapter-192.json",
+    "source": "OEBPS/Text/part0193.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十一",
+    "file": "chapter-193.json",
+    "source": "OEBPS/Text/part0194.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十二",
+    "file": "chapter-194.json",
+    "source": "OEBPS/Text/part0195.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十三",
+    "file": "chapter-195.json",
+    "source": "OEBPS/Text/part0196.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十四",
+    "file": "chapter-196.json",
+    "source": "OEBPS/Text/part0197.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十五",
+    "file": "chapter-197.json",
+    "source": "OEBPS/Text/part0198.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十六",
+    "file": "chapter-198.json",
+    "source": "OEBPS/Text/part0199.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十七",
+    "file": "chapter-199.json",
+    "source": "OEBPS/Text/part0200.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十八",
+    "file": "chapter-200.json",
+    "source": "OEBPS/Text/part0201.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第一百九十九",
+    "file": "chapter-201.json",
+    "source": "OEBPS/Text/part0202.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百",
+    "file": "chapter-202.json",
+    "source": "OEBPS/Text/part0203.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一",
+    "file": "chapter-203.json",
+    "source": "OEBPS/Text/part0204.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二",
+    "file": "chapter-204.json",
+    "source": "OEBPS/Text/part0205.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三",
+    "file": "chapter-205.json",
+    "source": "OEBPS/Text/part0206.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四",
+    "file": "chapter-206.json",
+    "source": "OEBPS/Text/part0207.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五",
+    "file": "chapter-207.json",
+    "source": "OEBPS/Text/part0208.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六",
+    "file": "chapter-208.json",
+    "source": "OEBPS/Text/part0209.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七",
+    "file": "chapter-209.json",
+    "source": "OEBPS/Text/part0210.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八",
+    "file": "chapter-210.json",
+    "source": "OEBPS/Text/part0211.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百九",
+    "file": "chapter-211.json",
+    "source": "OEBPS/Text/part0212.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十",
+    "file": "chapter-212.json",
+    "source": "OEBPS/Text/part0213.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十一",
+    "file": "chapter-213.json",
+    "source": "OEBPS/Text/part0214.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十二",
+    "file": "chapter-214.json",
+    "source": "OEBPS/Text/part0215.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十三",
+    "file": "chapter-215.json",
+    "source": "OEBPS/Text/part0216.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十四",
+    "file": "chapter-216.json",
+    "source": "OEBPS/Text/part0217.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十五",
+    "file": "chapter-217.json",
+    "source": "OEBPS/Text/part0218.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十六",
+    "file": "chapter-218.json",
+    "source": "OEBPS/Text/part0219.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十七",
+    "file": "chapter-219.json",
+    "source": "OEBPS/Text/part0220.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十八",
+    "file": "chapter-220.json",
+    "source": "OEBPS/Text/part0221.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百一十九",
+    "file": "chapter-221.json",
+    "source": "OEBPS/Text/part0222.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十",
+    "file": "chapter-222.json",
+    "source": "OEBPS/Text/part0223.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十一",
+    "file": "chapter-223.json",
+    "source": "OEBPS/Text/part0224.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十二",
+    "file": "chapter-224.json",
+    "source": "OEBPS/Text/part0225.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十三",
+    "file": "chapter-225.json",
+    "source": "OEBPS/Text/part0226.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十四",
+    "file": "chapter-226.json",
+    "source": "OEBPS/Text/part0227.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十五",
+    "file": "chapter-227.json",
+    "source": "OEBPS/Text/part0228.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十六",
+    "file": "chapter-228.json",
+    "source": "OEBPS/Text/part0229.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十七",
+    "file": "chapter-229.json",
+    "source": "OEBPS/Text/part0230.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十八",
+    "file": "chapter-230.json",
+    "source": "OEBPS/Text/part0231.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百二十九",
+    "file": "chapter-231.json",
+    "source": "OEBPS/Text/part0232.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十",
+    "file": "chapter-232.json",
+    "source": "OEBPS/Text/part0233.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十一",
+    "file": "chapter-233.json",
+    "source": "OEBPS/Text/part0234.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十二",
+    "file": "chapter-234.json",
+    "source": "OEBPS/Text/part0235.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十三",
+    "file": "chapter-235.json",
+    "source": "OEBPS/Text/part0236.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十四",
+    "file": "chapter-236.json",
+    "source": "OEBPS/Text/part0237.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十五",
+    "file": "chapter-237.json",
+    "source": "OEBPS/Text/part0238.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十六",
+    "file": "chapter-238.json",
+    "source": "OEBPS/Text/part0239.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十七",
+    "file": "chapter-239.json",
+    "source": "OEBPS/Text/part0240.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十八",
+    "file": "chapter-240.json",
+    "source": "OEBPS/Text/part0241.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百三十九",
+    "file": "chapter-241.json",
+    "source": "OEBPS/Text/part0242.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十",
+    "file": "chapter-242.json",
+    "source": "OEBPS/Text/part0243.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十一",
+    "file": "chapter-243.json",
+    "source": "OEBPS/Text/part0244.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十二",
+    "file": "chapter-244.json",
+    "source": "OEBPS/Text/part0245.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十三",
+    "file": "chapter-245.json",
+    "source": "OEBPS/Text/part0246.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十四",
+    "file": "chapter-246.json",
+    "source": "OEBPS/Text/part0247.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十五",
+    "file": "chapter-247.json",
+    "source": "OEBPS/Text/part0248.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十六",
+    "file": "chapter-248.json",
+    "source": "OEBPS/Text/part0249.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十七",
+    "file": "chapter-249.json",
+    "source": "OEBPS/Text/part0250.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十八",
+    "file": "chapter-250.json",
+    "source": "OEBPS/Text/part0251.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百四十九",
+    "file": "chapter-251.json",
+    "source": "OEBPS/Text/part0252.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十",
+    "file": "chapter-252.json",
+    "source": "OEBPS/Text/part0253.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十一",
+    "file": "chapter-253.json",
+    "source": "OEBPS/Text/part0254.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十二",
+    "file": "chapter-254.json",
+    "source": "OEBPS/Text/part0255.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十三",
+    "file": "chapter-255.json",
+    "source": "OEBPS/Text/part0256.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十四",
+    "file": "chapter-256.json",
+    "source": "OEBPS/Text/part0257.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十五",
+    "file": "chapter-257.json",
+    "source": "OEBPS/Text/part0258.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十六",
+    "file": "chapter-258.json",
+    "source": "OEBPS/Text/part0259.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十七",
+    "file": "chapter-259.json",
+    "source": "OEBPS/Text/part0260.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十八",
+    "file": "chapter-260.json",
+    "source": "OEBPS/Text/part0261.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百五十九",
+    "file": "chapter-261.json",
+    "source": "OEBPS/Text/part0262.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十",
+    "file": "chapter-262.json",
+    "source": "OEBPS/Text/part0263.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十一",
+    "file": "chapter-263.json",
+    "source": "OEBPS/Text/part0264.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十二",
+    "file": "chapter-264.json",
+    "source": "OEBPS/Text/part0265.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十三",
+    "file": "chapter-265.json",
+    "source": "OEBPS/Text/part0266.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十四",
+    "file": "chapter-266.json",
+    "source": "OEBPS/Text/part0267.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十五",
+    "file": "chapter-267.json",
+    "source": "OEBPS/Text/part0268.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十六",
+    "file": "chapter-268.json",
+    "source": "OEBPS/Text/part0269.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十七",
+    "file": "chapter-269.json",
+    "source": "OEBPS/Text/part0270.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十八",
+    "file": "chapter-270.json",
+    "source": "OEBPS/Text/part0271.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百六十九",
+    "file": "chapter-271.json",
+    "source": "OEBPS/Text/part0272.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十",
+    "file": "chapter-272.json",
+    "source": "OEBPS/Text/part0273.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十一",
+    "file": "chapter-273.json",
+    "source": "OEBPS/Text/part0274.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十二",
+    "file": "chapter-274.json",
+    "source": "OEBPS/Text/part0275.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十三",
+    "file": "chapter-275.json",
+    "source": "OEBPS/Text/part0276.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十四",
+    "file": "chapter-276.json",
+    "source": "OEBPS/Text/part0277.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十五",
+    "file": "chapter-277.json",
+    "source": "OEBPS/Text/part0278.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十六",
+    "file": "chapter-278.json",
+    "source": "OEBPS/Text/part0279.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十七",
+    "file": "chapter-279.json",
+    "source": "OEBPS/Text/part0280.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十八",
+    "file": "chapter-280.json",
+    "source": "OEBPS/Text/part0281.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百七十九",
+    "file": "chapter-281.json",
+    "source": "OEBPS/Text/part0282.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十",
+    "file": "chapter-282.json",
+    "source": "OEBPS/Text/part0283.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十一",
+    "file": "chapter-283.json",
+    "source": "OEBPS/Text/part0284.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十二",
+    "file": "chapter-284.json",
+    "source": "OEBPS/Text/part0285.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十三",
+    "file": "chapter-285.json",
+    "source": "OEBPS/Text/part0286.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十四",
+    "file": "chapter-286.json",
+    "source": "OEBPS/Text/part0287.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十五",
+    "file": "chapter-287.json",
+    "source": "OEBPS/Text/part0288.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十六",
+    "file": "chapter-288.json",
+    "source": "OEBPS/Text/part0289.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十七",
+    "file": "chapter-289.json",
+    "source": "OEBPS/Text/part0290.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十八",
+    "file": "chapter-290.json",
+    "source": "OEBPS/Text/part0291.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百八十九",
+    "file": "chapter-291.json",
+    "source": "OEBPS/Text/part0292.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百九十",
+    "file": "chapter-292.json",
+    "source": "OEBPS/Text/part0293.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百九十一",
+    "file": "chapter-293.json",
+    "source": "OEBPS/Text/part0294.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百九十二",
+    "file": "chapter-294.json",
+    "source": "OEBPS/Text/part0295.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百九十三",
+    "file": "chapter-295.json",
+    "source": "OEBPS/Text/part0296.html"
+  },
+  {
+    "title": "資治通鑑 ◇ 卷第二百九十四",
+    "file": "chapter-296.json",
+    "source": "OEBPS/Text/part0297.html"
+  }
+]

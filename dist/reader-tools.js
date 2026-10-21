@@ -25,7 +25,7 @@
  const noteText=document.createElement('span');noteText.className='tool-setting-copy';noteText.innerHTML='<span>胡注与校勘</span><small class="tool-note-help">在原文中显示注释</small><small class="tool-note-unavailable">仅白话模式下不可用</small>';
  noteLabel.append(noteText,noteInput);sections.huNotes.append(noteLabel);
  document.querySelector('#smaller').textContent='−';document.querySelector('#larger').textContent='+';
- function syncSize(){sizeLabel.textContent=readingSize;document.querySelector('#smaller').disabled=readingSize<=15;document.querySelector('#larger').disabled=readingSize>=28;}
+ function syncSize(){sizeLabel.textContent=readingSize;document.querySelector('#smaller').disabled=readingSize<=15;document.querySelector('#larger').disabled=readingSize>=(readingMode==='vertical'?48:28);}
  const themeControl=toolbar.querySelector('.theme-control'),themeSelect=themeControl.querySelector('select');themeControl.hidden=true;sections.theme.append(themeControl);
  const themeList=document.createElement('div');themeList.className='tool-theme-list';themeList.setAttribute('role','group');themeList.setAttribute('aria-label','选择阅读主题');
  themeList.innerHTML=[...themeSelect.options].map(option=>`<button type="button" data-choose-theme="${option.value}" aria-pressed="false"><span class="tool-theme-sample" data-preview-theme="${option.value}" aria-hidden="true">文</span><span>${esc(option.textContent)}</span><svg class="tool-theme-check" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></button>`).join('');sections.theme.append(themeList);
@@ -176,7 +176,7 @@
  const head=document.querySelector('.reader-head'),nav=document.querySelector('.reader-nav');
  let bookmark=null,frame=0,scrollFrame=0,restoring=false;
  function capture(){
-  if(!readerOpen||!content.getClientRects().length)return null;
+  if(readingMode==='vertical'||!readerOpen||!content.getClientRects().length)return null;
   const top=head.getBoundingClientRect().bottom+12;
   let block;
   for(const candidate of content.querySelectorAll('.original p,.modern-text')){const box=candidate.getBoundingClientRect();if(box.width>0&&box.bottom>top){block=candidate;break;}}
@@ -212,11 +212,11 @@
   const prefs=JSON.parse(localStorage.getItem('tongjian-reading-preferences'));
   if(prefs){
    if(Number.isInteger(prefs.size)&&prefs.size>=15&&prefs.size<=28){readingSize=prefs.size;document.documentElement.style.setProperty('--reading-size',readingSize+'px');}
-   if(['compare','original','modern','immersive'].includes(prefs.mode))setReadingMode(prefs.mode);
    if(typeof prefs.notes==='boolean')document.querySelector('#showNotes').checked=prefs.notes;
+   if(['compare','original','modern','immersive','vertical'].includes(prefs.mode))setReadingMode(prefs.mode);
   }
  }catch{}
- function save(){try{localStorage.setItem('tongjian-reading-preferences',JSON.stringify({size:readingSize,mode:readingMode,notes:document.querySelector('#showNotes').checked}));}catch{}}
+ function save(){try{localStorage.setItem('tongjian-reading-preferences',JSON.stringify({size:window.tongjianVertical?.horizontalSize()??readingSize,mode:readingMode,notes:window.tongjianVertical?.horizontalNotes()??document.querySelector('#showNotes').checked}));}catch{}}
  document.addEventListener('click',event=>{
   if(!event.target.closest('#smaller,#larger,[data-reading-mode],[data-note]'))return;
   const saved=capture();schedule(saved);

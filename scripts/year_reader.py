@@ -11,7 +11,7 @@ import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-READER_ASSETS = ('checkin.js', 'checkin.css', 'reader.html', 'app.js', 'people.js', 'bookmarks.js', 'reader-tools.js',
+READER_ASSETS = ('reader-vertical.js', 'reader-vertical.css', 'checkin.js', 'checkin.css', 'reader.html', 'app.js', 'people.js', 'bookmarks.js', 'reader-tools.js',
                  'annotations.css', 'reading-layout.css', 'reader-tools.css', 'reader-themes.css',
                  'select-controls.css', 'select-controls.js', 'commerce.js', 'account-dialog.css', 'yearbook.css', 'yearbook-controls.js')
 META_START, META_END = '<!-- annual-metadata -->', '<!-- /annual-metadata -->'

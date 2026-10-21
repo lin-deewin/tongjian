@@ -1,0 +1,29 @@
+/* Route only brackets to a Kai face with real vertical alternates. */
+@font-face{font-family:'Tongjian Vertical Marks';src:url('fonts/LXGWWenKaiTC-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+3008-3011,U+3014-301B,U+FF08-FF09}
+@font-face{font-family:'Tongjian Sans TC';src:url('fonts/NotoSansCJKTC-Reader.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Tongjian UKai TW';src:url('fonts/AR-PL-UKai-TW.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Tongjian WenKai TC';src:url('fonts/LXGWWenKaiTC-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+#traditionalReader[hidden]{display:none!important}.page-reader .reader-scroll.mode-vertical{padding:16px 108px 12px 32px;min-height:0}.mode-vertical #readerContent{display:none}#traditionalReader{color:var(--ink);background:var(--paper)}.traditional-viewport{overflow:auto;direction:rtl;overscroll-behavior:contain;padding:16px 24px;background:var(--paper);border-block:1px solid var(--line);scrollbar-width:none;touch-action:pan-x pan-y}.traditional-viewport article{direction:ltr;writing-mode:vertical-rl;text-orientation:mixed;height:100%;font-family:'Tongjian Sans TC','Noto Sans CJK TC',sans-serif;font-size:var(--reading-size,20px);font-weight:400;line-height:1.3;letter-spacing:0}.traditional-viewport section{margin:0;margin-block-end:.5em;white-space:normal}.traditional-viewport .note,.traditional-viewport .bracket-note{display:inline;font-family:'Tongjian Vertical Marks','Tongjian UKai TW','Tongjian WenKai TC','KaiTi','楷体','Kaiti TC','STKaiti','BiauKai','DFKai-SB',cursive;font-size:.7em;font-weight:400;font-style:normal;color:inherit;line-height:1.3}.hide-traditional-notes .note{display:none}.traditional-pages{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:10px;font-size:12px;color:var(--muted)}.traditional-pages button{padding:8px 12px;border:1px solid var(--line);border-radius:4px;color:var(--green)}.mode-vertical~.reader-nav{display:none}.traditional-viewport:focus-visible{outline:1px solid var(--green)}@media(max-width:959px){.page-reader .reader-scroll.mode-vertical{padding:12px 16px}.traditional-viewport{padding:12px}.traditional-pages{gap:6px;font-size:11px}}
+
+#traditionalReader article ::selection{background:var(--selection-bg);text-shadow:none}
+
+.traditional-viewport .bracket-note{font-size:.7em}
+/* A bracket span inside an existing note must not shrink a second time. */
+.traditional-viewport .note .bracket-note{font-size:1em}
+.traditional-viewport h1{font-family:inherit;font-size:1em;font-weight:400;line-height:inherit;margin:0 1em}
+
+/* Fill the screen with the vertical text and its paging controls. */
+.page-reader:has(.mode-vertical){padding-bottom:0}
+.page-reader .reader:has(.mode-vertical){display:flex;flex-direction:column;height:100dvh;min-height:0}
+.page-reader .reader-scroll.mode-vertical{display:flex;flex:1;min-height:0;padding-top:8px;padding-bottom:calc(8px + env(safe-area-inset-bottom))}
+#traditionalReader{display:flex;flex-direction:column;flex:1;min-height:0;min-width:0}
+.traditional-viewport{flex:1;height:auto;min-height:0;min-width:0}
+.traditional-pages{flex:none}
+
+/* Restore the source volume heading's type hierarchy without changing its text. */
+.traditional-viewport h1.traditional-volume-title{font-size:1.8em;border:5px double currentColor;margin:0 .5em 0 0;line-height:1.3;display:block;width:max-content;height:max-content;white-space:nowrap}
+.traditional-volume-title strong{font-weight:700;font-synthesis:weight}
+.traditional-volume-title small{font-size:.7em;font-weight:400}
+
+/* Keep horizontal scrolling and paging, without the browser scrollbar. */
+.traditional-viewport::-webkit-scrollbar{display:none;width:0;height:0}
