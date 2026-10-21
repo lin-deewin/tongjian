@@ -1,0 +1,34 @@
+/* Completion reward: a centered invitation, followed by visible progress. */
+.reading-checkin{--checkin-accent:var(--green);position:fixed;z-index:80;left:50%;bottom:var(--checkin-bottom,100px);transform:translateX(-50%);width:min(400px,calc(100vw - 32px));max-height:calc(100dvh - 160px);overflow:auto;box-sizing:border-box;padding:26px 28px 18px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:18px;box-shadow:0 14px 56px #102c2326,0 2px 8px #102c2310;text-align:center;animation:checkin-arrive .32s ease-out}
+.reading-checkin[hidden]{display:none}
+.reading-checkin .checkin-close{position:absolute;top:10px;right:10px;display:grid;place-items:center;width:34px;height:34px;min-height:34px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--muted);font:24px/1 sans-serif;cursor:pointer}
+.reading-checkin .checkin-close:hover{background:var(--bg)}
+.checkin-emblem{position:relative;width:64px;height:64px;margin:0 auto 10px;color:var(--checkin-accent)}
+.checkin-emblem svg{width:64px;height:64px;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.checkin-emblem>span{display:none;position:absolute;right:-1px;bottom:0;width:24px;height:24px;border:3px solid var(--paper);border-radius:50%;background:var(--checkin-accent);color:var(--paper);font:16px/24px sans-serif}
+.checkin-kicker{font-size:10px;letter-spacing:3px;color:var(--muted)}
+.reading-checkin h2{margin:10px 0 7px;font:600 26px/1.35 'Songti SC','SimSun',serif;letter-spacing:1px;color:var(--ink)}
+.reading-checkin .checkin-year{margin:0;font-size:12px;letter-spacing:1px;color:var(--green)}
+.reading-checkin .checkin-message{margin:12px 0 18px;font-size:13px;line-height:1.8;color:var(--muted)}
+.checkin-stats{display:grid;grid-template-columns:repeat(3,1fr);padding:15px 0;margin:0 0 14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.checkin-stats>div+div{border-left:1px solid var(--line)}
+.checkin-stats b{display:block;font:500 26px/1.1 Georgia,serif;color:var(--green);font-variant-numeric:tabular-nums}
+.checkin-stats span{display:block;margin-top:6px;font-size:10px;color:var(--muted)}
+.reading-checkin .checkin-primary{display:block;width:100%;min-height:50px;padding:13px 12px;border:0;border-radius:10px;background:#285342;color:#fffef9;box-shadow:0 3px 0 #17382b;font:inherit;font-size:15px;font-weight:500;line-height:1.5;letter-spacing:1px;cursor:pointer;transition:background .15s,transform .15s,box-shadow .15s}
+.reading-checkin .checkin-primary:hover{background:#32664f;transform:translateY(-1px);box-shadow:0 4px 0 #17382b}
+.reading-checkin .checkin-primary:active{transform:translateY(2px);box-shadow:0 1px 0 #17382b}
+.reading-checkin button:focus-visible{outline:2px solid var(--green);outline-offset:4px}
+.reading-checkin button:disabled{opacity:.6;cursor:default}
+.reading-checkin .checkin-footnote{margin:12px 0 0;color:var(--muted);font-size:10px;letter-spacing:.5px}
+.reading-checkin .checkin-ranking{margin:0 0 16px;color:var(--green);font-size:12px;line-height:1.7}
+.reading-checkin small{display:block;margin:0 0 12px;font-size:11px;line-height:1.6;color:var(--muted)}
+.reading-checkin small:empty{display:none}
+.reading-checkin:not(.checkin-complete) .checkin-stats,.reading-checkin:not(.checkin-complete) .checkin-ranking{display:none}
+.reading-checkin.checkin-complete .checkin-emblem>span{display:block;animation:checkin-seal .35s ease-out}
+.reading-checkin.checkin-complete .checkin-footnote{display:none}
+.reading-checkin .checkin-retry{margin-top:12px;padding:4px 12px;min-height:36px;border:0;background:transparent;color:var(--green);text-decoration:underline;font:inherit;font-size:12px;cursor:pointer}
+:root[data-theme="night"] .reading-checkin .checkin-primary{background:#80b8a0;color:#172b23;box-shadow:0 3px 0 #416c58}
+@keyframes checkin-arrive{from{opacity:0;transform:translate(-50%,16px)}to{opacity:1;transform:translate(-50%,0)}}
+@keyframes checkin-seal{from{opacity:0;transform:scale(1.5) rotate(-15deg)}to{opacity:1;transform:scale(1) rotate(0)}}
+@media(max-width:600px){.reading-checkin{width:min(360px,calc(100vw - 32px));padding:22px 24px 17px;border-radius:16px}.reading-checkin h2{font-size:24px}.checkin-emblem,.checkin-emblem svg{width:56px;height:56px}.reading-checkin .checkin-message{margin:10px 0 16px}}
+@media(prefers-reduced-motion:reduce){.reading-checkin,.reading-checkin.checkin-complete .checkin-emblem>span{animation:none}.reading-checkin .checkin-primary{transition:none}}

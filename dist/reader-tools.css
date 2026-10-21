@@ -154,3 +154,6 @@ body.tools-reading>header{display:none}
  .reader-tool-panel{max-height:calc(100dvh - 100px)}
 }
 .page-reader .reader-nav>button{max-width:none}
+
+/* Match the reader minimum height to its actual fixed navigation clearance. */
+.page-reader .reader{min-height:calc(100vh - var(--reader-nav-height,84px) - 20px);min-height:calc(100dvh - var(--reader-nav-height,84px) - 20px)}

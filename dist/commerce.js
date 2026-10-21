@@ -16,7 +16,7 @@
     if (!response.ok || !payload) throw new Error(payload?.error?.message || '服务暂不可用，请稍后重试。');
     return payload;
   }
-  async function session() { const state = await request('/session/'); csrf = state.csrf_token; return state; }
+  async function session() { const state = await request('/session/'); csrf = state.csrf_token; window.dispatchEvent(new CustomEvent('tongjian-session', {detail: state})); return state; }
   function message(root, text, error = false) {
     const element = root.querySelector('.commerce-message');
     if (element) { element.textContent = text; element.classList.toggle('error', error); }

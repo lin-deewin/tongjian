@@ -64,3 +64,24 @@ class GraphicChallenge(models.Model):
     image = models.BinaryField(editable=False)
     expires_at = models.DateTimeField(db_index=True)
     consumed_at = models.DateTimeField(null=True)
+
+
+class ReadingDay(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reading_days')
+    day = models.DateField()
+
+    class Meta:
+        constraints = [models.UniqueConstraint(fields=['user', 'day'], name='unique_user_reading_day')]
+        ordering = ['day']
+
+
+class ReadingCheckin(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reading_checkins')
+    client_id = models.UUIDField()
+    year = models.SmallIntegerField()
+    volume = models.PositiveSmallIntegerField()
+    day = models.DateField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        constraints = [models.UniqueConstraint(fields=['user', 'client_id'], name='unique_reading_checkin')]

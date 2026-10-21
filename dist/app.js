@@ -1,4 +1,4 @@
-// All theme selectors share one preference without changing route or position.
+// Keep themes within this tab session so a later guest starts with paper colors.
 function setTheme(value){
  const theme=[...document.querySelector('.theme-select').options].some(option=>option.value===value)?value:'light';
  document.documentElement.dataset.theme=theme;
@@ -7,10 +7,10 @@ function setTheme(value){
 setTheme(document.documentElement.dataset.theme);
 document.querySelectorAll('.theme-select').forEach(select=>select.addEventListener('change',()=>{
  setTheme(select.value);
- try{localStorage.setItem('tongjian-theme',select.value);}catch(e){}
+ try{sessionStorage.setItem('tongjian-theme',select.value);}catch(e){}
 }));
 window.addEventListener('storage',event=>{
- if(event.key==='tongjian-theme'||event.key===null)setTheme(event.newValue);
+ if(event.storageArea===sessionStorage&&(event.key==='tongjian-theme'||event.key===null))setTheme(event.newValue);
 });
 
 let yearVolumes={},fullSearchHits=[],searchChecked=0,searchComplete=true,resultLimit=50,searchWorker,searchTimer;let catalog=[],booksCache=new Map(),pendingBooks=new Map(),navigationId=0;let book,period='all',eventFilter='all',selected=403,readingIndex=0,readingSize=19,readerOpen=false,focusBefore;const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const cn=n=>{if(n===1)return '元';const d='零一二三四五六七八九';if(n<10)return d[n];if(n<100)return (n>=20?d[Math.floor(n/10)]:'')+'十'+(n%10?d[n%10]:'');return d[Math.floor(n/100)]+'百'+(n%100?(n%100<10?'零'+d[n%100]:n%100<20?'一'+cn(n%100):cn(n%100)):'');};const reign=y=>y.reignLabel||(y.dynasty||'周')+y.king+cn(y.reign)+'年';const yearLabel=y=>(y>0?'前':'')+Math.abs(y)+'年';const yearRange=(start,end)=>yearLabel(start)+' — '+yearLabel(end);

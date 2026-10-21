@@ -30,6 +30,7 @@ from commerce.services import verification_allowed
 def session(request):
     return JsonResponse({'authenticated': request.user.is_authenticated,
         'email': request.user.email if request.user.is_authenticated else None,
+        'user_id': str(request.user.pk) if request.user.is_authenticated else None,
         'verification_allowed': verification_allowed(request.user),
         'csrf_token': get_token(request)})
 
@@ -256,3 +257,84 @@ class ReaderPasswordResetView(auth_views.PasswordResetView):
             form.add_error(None, '邮件发送暂不可用，请稍后再试。')
             return self.form_invalid(form)
         return redirect(self.success_url)
+
+
+@never_cache
+@require_http_methods(['GET', 'POST'])
+@endpoint
+def reading_days(request):
+    from datetime import date
+    from .models import ReadingDay
+    from config.http import user_required
+    user_required(request)
+    if request.method == 'POST':
+        data = body(request)
+        # Prevent an in-flight sync from landing in a newly switched account.
+        if data.get('user_id') != str(request.user.pk):
+            raise Problem('account_changed', '账号已切换，请重试同步。', 409)
+        values = data.get('days')
+        if not isinstance(values, list) or len(values) > 1000:
+            raise Problem('invalid_days', '打卡日期格式不正确。')
+        dates = []
+        for value in values:
+            try:
+                parsed = date.fromisoformat(value) if isinstance(value, str) else None
+                if parsed is None or parsed.isoformat() != value:
+                    raise ValueError()
+            except (ValueError, TypeError):
+                raise Problem('invalid_days', '打卡日期格式不正确。')
+            dates.append(parsed)
+        with transaction.atomic():
+            ReadingDay.objects.bulk_create(
+                [ReadingDay(user=request.user, day=day) for day in set(dates)],
+                ignore_conflicts=True)
+    return JsonResponse({'user_id': str(request.user.pk),
+        'days': [day.isoformat() for day in request.user.reading_days.values_list('day', flat=True)]})
+
+
+@never_cache
+@require_http_methods(['GET', 'POST'])
+@endpoint
+def reading_checkins(request):
+    from datetime import date
+    from uuid import UUID
+    from django.db.models import Count
+    from .models import ReadingCheckin, User
+    from config.http import user_required
+    import json
+    user_required(request)
+    if request.method == 'POST':
+        if len(request.body) > 131072:
+            raise Problem('invalid_request', '请求过长。')
+        try:
+            data = json.loads(request.body)
+            if not isinstance(data, dict):
+                raise ValueError()
+        except (ValueError, UnicodeDecodeError):
+            raise Problem('invalid_request', '请求格式不正确。')
+        if data.get('user_id') != str(request.user.pk):
+            raise Problem('account_changed', '账号已切换，请重试同步。', 409)
+        entries = data.get('entries')
+        if not isinstance(entries, list) or len(entries) > 500:
+            raise Problem('invalid_checkins', '打卡记录格式不正确。')
+        rows = []
+        try:
+            for item in entries:
+                year, volume = item['year'], item['volume']
+                if type(year) is not int or type(volume) is not int or not (-959 <= year <= 403) or year == 0 or not (1 <= volume <= 294):
+                    raise ValueError()
+                day = date.fromisoformat(item['day'])
+                if day.isoformat() != item['day']:
+                    raise ValueError()
+                rows.append(ReadingCheckin(user=request.user, client_id=UUID(item['id']), year=year, volume=volume, day=day))
+        except (KeyError, ValueError, TypeError, AttributeError):
+            raise Problem('invalid_checkins', '打卡记录格式不正确。')
+        with transaction.atomic():
+            ReadingCheckin.objects.bulk_create(rows, ignore_conflicts=True)
+    records = list(request.user.reading_checkins.order_by('created_at', 'id').values('client_id', 'year', 'volume', 'day'))
+    total = len({row['year'] for row in records})
+    scores = User.objects.filter(reading_checkins__isnull=False).annotate(score=Count('reading_checkins__year', distinct=True))
+    return JsonResponse({'user_id': str(request.user.pk),
+        'entries': [{'id': str(row['client_id']), 'year': row['year'], 'volume': row['volume'], 'day': row['day'].isoformat()} for row in records],
+        'unique_years': total, 'rank': 1 + scores.filter(score__gt=total).count() if total else None,
+        'participants': scores.count()})

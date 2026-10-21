@@ -142,3 +142,15 @@ docker rm tongjian-commerce-caddy-tool
 恢复验证所有校验值并失效会话。切流前保持销售关闭，查渠道补齐备份时点之后的支付和退款，核对权益；不要把旧库快照覆盖真实新增交易。公布价格变更、数据删除和灾难恢复需要依据实际业务记录处理。
 
 停售只改 `SALES_ENABLED=false`，保留原渠道与密钥以继续回调、查单、退款和已购交付。回退到兼容后端与 `private-content/safe-preview/` 的已扫描试读版本；不恢复迁移前公开全文，不回退有新交易的数据库。配置变更需要重启服务；静态资源按现有发布方式更新版本并定向清理旧全文/CDN缓存。
+
+## 阅读打卡与排名
+
+读者滚动到年份正文末尾后，浮出底部居中的阅读完成卡；主动点击“为这一年，留个印记”。同一天可以多次打卡，重读同年也记录次数并给出鼓励。打卡后的主按钮改为“接着读下一年”，避免一次阅读中误触重复记录；重新进入该年阅读可再次打卡。排行榜按读过的不同年份数计算；同年跨卷续篇算一个年份，同分并列。仅显示本人名次和有年份打卡记录的账号总数，不公开其他账号身份。排名依据读者主动打卡，不代表已验证的阅读时长或掌握程度。
+
+游客记录保存在 `tongjian-reading-checkins-v2`；登录进入阅读页后自动合并到账号。每次打卡有独立 UUID，断网重试或重复同步不重复计次；账号本机缓存按用户 ID 分开，退出后恢复游客记录。同步失败保留本机数据，暂不显示旧名次，可重试。清空浏览器或更换设备后，登录可恢复已同步记录。
+
+`GET /api/v1/me/reading-checkins/` 返回当前账号的记录、不同年份数、名次与参与账号数；`POST` 接受 `user_id` 和最多 500 条 `entries`，每条包含 UUID `id`、本站年份键 `year`（正数公元前，负数公元后，无 0 年）、`volume` 和本地日期 `day`。要求登录与 CSRF，数据库约束 `(user, client_id)` 唯一。
+
+旧版 `tongjian-reading-days-v1` 及 `GET/POST /api/v1/me/reading-days/` 保留并继续合并，旧记录只计阅读天数，不补造年份或打卡次数，不参与年份排名。
+
+更新后端时执行 `python backend/manage.py migrate --noinput` 并重启服务；只上传静态文件不能启用账号同步与排名。验证：`python backend/manage.py test accounts.test_reading_checkins accounts.test_reading_days`、`python scripts/check_checkin_browser.py`（使用 8011 端口静态服务和模拟账号 API；真实数据库、鉴权与 CSRF 由后端测试覆盖）。

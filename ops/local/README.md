@@ -1,3 +1,5 @@
+> 2026-10-20：本机通鉴 PostgreSQL 已迁至 `127.0.0.1:55433`，避免与占用 `55432` 的 `manage-analytics-db` 冲突。`backend/.env` 的 `DATABASE_URL` 已同步；`tongjian-commerce-dev` 复用原数据卷并设置 `unless-stopped` 自动重启。旧容器保留为 `tongjian-commerce-dev-port55432-backup`，仅供回退，不要直接启动它。登录页与会话接口已验证返回 200。
+
 > 2026-10-16：配置已随线上迁移为根路径，重新载入本机 Caddy 与账号服务后使用 `http://100.108.212.5:3003/`。以下保留迁移前记录；以当前 `ops/local/Caddyfile` 为准。
 
 # 本机 3003 入口

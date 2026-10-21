@@ -16,6 +16,8 @@ api = prefix + 'api/v1/'
 urlpatterns = [
     path(api + 'healthz/', commerce.health),
     path(api + 'session/', accounts.session),
+    path(api + 'me/reading-days/', accounts.reading_days),
+    path(api + 'me/reading-checkins/', accounts.reading_checkins),
     path(api + 'auth/email-code/', accounts.email_code),
     path(api + 'auth/verify/', accounts.verify),
     path(api + 'auth/logout/', accounts.sign_out),

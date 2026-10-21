@@ -32,3 +32,5 @@ check_reader 使用简化DOM，不代表真实浏览器视觉验收。
 数据重建需 pip install -r requirements.txt；普通浏览不需要前端构建。
 .openai/hosting.json 是原网站的托管标识，无部署凭据。
 用户要求本地开发时直接开发本目录，不要自动发布或更改线上站点身份。
+
+静态页面发布时保留 `/_analytics/tracker.js` 统计脚本；发布后核验首页与 reader.html 实际包含该引用，避免页面覆盖导致登录用户与访问采集中断。
