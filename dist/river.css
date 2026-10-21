@@ -59,13 +59,11 @@
 /* Lift the overview slightly into the unused space below the year ticks. */
 .river-era-band{margin-top:-18px}
 
-/* Frosted glass keeps the annual event list legible over the river. */
+/* A translucent paper surface stays legible without filtering the animated canvas. */
 .river-event-panel{
- background:linear-gradient(135deg,rgba(255,255,255,.78) 0%,rgba(255,254,249,.28) 48%,rgba(219,233,224,.48) 100%);
- border:1px solid rgba(255,255,255,.95);
- box-shadow:0 12px 32px rgba(40,83,66,.18),0 2px 6px rgba(40,83,66,.08),inset 0 2px 0 rgba(255,255,255,.95),inset 1px 0 0 rgba(255,255,255,.7),inset 0 -1px 0 rgba(40,83,66,.12);
- -webkit-backdrop-filter:blur(24px) saturate(145%);
- backdrop-filter:blur(24px) saturate(145%);
+ background:rgba(255,254,249,.88);
+ border:1px solid rgba(40,83,66,.14);
+ box-shadow:0 4px 14px rgba(40,83,66,.08);
 }
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
  .river-event-panel{background:rgba(250,249,243,.94)}
